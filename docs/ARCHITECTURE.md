@@ -9,14 +9,50 @@ Last updated: pre-implementation documentation scaffold.
 This is the intended technical architecture and privacy boundary (see Build Spec §2).
 
 ```text
-┌──────────── BROWSER CLIENT ────────────┐       ┌──── SERVER BACKEND ────┐
-│ Content Script -> DOM / A11y Walker ─┐ │ HTTPS │ FastAPI /reason        │
-│ Screenshot Capture -> Local Vision ─┼─┼──────>│ LLM / VLM Reasoner      │
-│                                     v │       │ Structured Action JSON  │
-│ Fusion -> Privacy Firewall -> Context │<──────└─────────────────────────┘
-│ Builder -> Risk Validator -> Executor │
-│                         -> Audit Trail│
-└────────────────────────────────────────┘
+┌───────────────────────────────── BROWSER (CLIENT) ─────────────────────────────────┐
+│                                                                                      │
+│  ┌────────────────┐     ┌───────────────────┐                                      │
+│  │ Content Script  │────▶│ DOM / A11y Walker  │──┐                                  │
+│  └────────────────┘     └───────────────────┘  │                                  │
+│                                                   ▼                                  │
+│  ┌────────────────┐     ┌───────────────────┐  ┌─────────────────────┐            │
+│  │ Screenshot Cap  │────▶│ Local Vision Model │──▶│  Fusion Engine       │            │
+│  │ (canvas/tab)    │     │ (ONNX + WebGPU)    │  │  (DOM + Vision ⇒     │            │
+│  └────────────────┘     └───────────────────┘  │  unified Screen       │            │
+│                                                   │  State JSON)         │            │
+│                                                   └──────────┬──────────┘            │
+│                                                              ▼                       │
+│                                                   ┌─────────────────────┐            │
+│                                                   │  Privacy Firewall    │            │
+│                                                   │  · regex + NER PII   │            │
+│                                                   │  · face/pixel redact │            │
+│                                                   │  · confidence gate   │            │
+│                                                   └──────────┬──────────┘            │
+│                                                              ▼                       │
+│                                                   ┌─────────────────────┐            │
+│                                                   │  Context Builder     │            │
+│                                                   │  Set-of-Mark tagging │            │
+│                                                   │  + compact JSON      │            │
+│                                                   └──────────┬──────────┘            │
+└──────────────────────────────────────────────────────────────┼──────────────────────┘
+                                                                 │ HTTPS
+                                                                 │ (sanitized payload only)
+                                                                 ▼
+┌───────────────────────────────── SERVER (BACKEND) ──────────────────────────────────┐
+│  ┌─────────────────────┐     ┌─────────────────────┐     ┌──────────────────────┐   │
+│  │ FastAPI /reason      │────▶│  LLM / VLM Reasoner  │────▶│ Structured Action     │   │
+│  │ endpoint             │     │  (open-weight model) │     │ JSON {action, target, │   │
+│  └─────────────────────┘     └─────────────────────┘     │ params, confidence}   │   │
+│                                                             └──────────────────────┘   │
+└──────────────────────────────────────────────────────────────┼──────────────────────┘
+                                                                 │ HTTPS response
+                                                                 ▼
+┌───────────────────────────────── BROWSER (CLIENT) ─────────────────────────────────┐
+│  ┌─────────────────────┐     ┌─────────────────────┐     ┌──────────────────────┐   │
+│  │ Risk & Confidence    │────▶│  Action Executor      │────▶│ Audit Trail Logger    │   │
+│  │ Validator (local)    │     │  (click/type/scroll)  │     │ (local IndexedDB)     │   │
+│  └─────────────────────┘     └─────────────────────┘     └──────────────────────┘   │
+└──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Responsibilities

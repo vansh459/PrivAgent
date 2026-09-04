@@ -4,7 +4,7 @@
 > `PrivAgent_Build_Specification.md`. It has not yet been verified against a working
 > implementation. See the specification's Phase Gates for current build status.
 
-Last updated: pre-implementation documentation scaffold.
+Last updated: Phase 0 complete; Phase 1 not started.
 
 PrivAgent is planned as a privacy-preserving browser agent: it will perceive a page locally, redact sensitive information on-device, send only a sanitized Screen State JSON to a server-side reasoner, and validate then execute a returned action locally (see Build Spec §1, §4).
 
@@ -18,11 +18,19 @@ PrivAgent is planned as a privacy-preserving browser agent: it will perceive a p
 ## Intended architecture
 
 ```text
-Browser: Content Script -> DOM/A11y Walker ─┐
-Browser: Screenshot Capture -> Local Vision ├-> Fusion Engine -> Privacy Firewall
-                                              -> Context Builder -> HTTPS (sanitized JSON)
-Server: FastAPI /reason -> open-weight LLM/VLM -> Structured Action JSON
-Browser: Risk & Confidence Validator -> Action Executor -> local IndexedDB Audit Trail
+┌───────────────────────────────── BROWSER (CLIENT) ─────────────────────────────────┐
+│ Content Script → DOM / A11y Walker ─┐                                                │
+│ Screenshot Capture → Local Vision ──┼─→ Fusion Engine → Privacy Firewall             │
+│                                     │                  → Context Builder             │
+└─────────────────────────────────────┼────────────────────────────────────────────────┘
+                                      │ HTTPS (sanitized payload only)
+┌───────────────────────────────── SERVER (BACKEND) ──────────────────────────────────┐
+│ FastAPI /reason → LLM / VLM Reasoner → Structured Action JSON                        │
+└──────────────────────────────────────────────┼──────────────────────────────────────┘
+                                               │ HTTPS response
+┌───────────────────────────────── BROWSER (CLIENT) ─────────────────────────────────┐
+│ Risk & Confidence Validator → Action Executor → Audit Trail Logger                   │
+└──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 See [Architecture](./ARCHITECTURE.md) for the full intended component diagram.
@@ -35,7 +43,7 @@ Once Phase 0 is complete, setup is intended to involve cloning the repository, i
 
 | Phase | Intended scope | State |
 |---|---|---|
-| 0 | Setup and environment | ☐ Not started |
+| 0 | Setup and environment | ☑ Complete |
 | 1 | DOM / accessibility extraction | ☐ Not started |
 | 2 | Local vision perception | ☐ Not started |
 | 3 | Privacy Firewall | ☐ Not started |
@@ -46,7 +54,7 @@ Once Phase 0 is complete, setup is intended to involve cloning the repository, i
 | 8 | Testing and benchmarks | ☐ Not started |
 | 9 | Packaging and demo preparation | ☐ Not started |
 
-All states reflect the unchecked Phase Gates in the Build Specification at scaffold generation time.
+States reflect the Build Specification Phase Gates. Phase 0 is verified only to its recorded Chrome-only and local-only scope; later phases remain planned.
 
 ## Documentation map
 

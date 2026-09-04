@@ -1,0 +1,18 @@
+{
+  "name": "privagent",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Privacy-preserving browser agent monorepo",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail \"npm run dev --prefix extension\" \"node scripts/run-server.mjs\"",
+    "verify:structure": "node scripts/verify-structure.mjs",
+    "build": "npm run verify:structure && npm run build --prefix extension",
+    "test": "npm run lint --prefix extension && npm run typecheck --prefix extension && npm run format:check --prefix extension && npm run test --prefix extension && node scripts/run-server-tests.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1"
+  }
+}

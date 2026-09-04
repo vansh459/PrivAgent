@@ -236,43 +236,43 @@ extraction is presented as "visual perception" and scores poorly on the 25% line
 ### Phase 0 — Project Setup & Environment
 **Objective:** working skeleton for extension + backend, loadable in both browsers.
 
-- [ ] **0.1** Initialize monorepo: `/extension`, `/server`, `/docs`, `/tests`.
+- [x] **0.1** Initialize monorepo: `/extension`, `/server`, `/docs`, `/tests`.
   - Test criteria: repo builds with a single command; folder structure matches plan.
-  - Notes:
-- [ ] **0.2** Scaffold extension with Vite + CRXJS, Manifest V3, TypeScript, `webextension-polyfill`.
-  - Test criteria: extension loads unpacked in Chrome and in Firefox (about:debugging) with no console errors.
-  - Notes:
-- [ ] **0.3** Configure ESLint + Prettier + strict TS config.
+  - Notes: 2026-09-04 · ran `npm run build` and checked required directories · structure validator passed and all four directories exist · build currently validates the Phase 0.1 skeleton only; extension and server builds will be added by later tasks.
+- [x] **0.2** Scaffold extension with Vite + CRXJS, Manifest V3, TypeScript, `webextension-polyfill`.
+  - Test criteria: extension loads unpacked in Chrome with no console errors (Firefox verification deferred by user direction).
+  - Notes: 2026-09-04 · ran `npm run build --prefix extension`, then launched Chrome headless with `--load-extension=extension/dist` and `--dump-dom about:blank` · build passed and Chrome loaded the extension without output errors (exit code 0) · Firefox coverage is deferred at the user's request.
+- [x] **0.3** Configure ESLint + Prettier + strict TS config.
   - Test criteria: `lint` and `typecheck` scripts run clean on a fresh clone.
-  - Notes:
-- [ ] **0.4** Scaffold FastAPI backend with a `/health` endpoint.
-  - Test criteria: `curl /health` returns `200 {"status":"ok"}` locally and in Docker.
-  - Notes:
-- [ ] **0.5** Set up dev scripts: `dev` (watch build), `build` (production), `test` (all suites).
+  - Notes: 2026-09-04 · ran `npm run lint --prefix extension`, `npm run typecheck --prefix extension`, and `npm run format:check --prefix extension` · all checks passed · TypeScript was pinned to 5.9.3 because the installed TypeScript ESLint release declares support through TypeScript 6.0 only.
+- [x] **0.4** Scaffold FastAPI backend with a local `/health` endpoint.
+  - Test criteria: local `curl /health` returns `200 {"status":"ok"}`.
+  - Notes: 2026-09-04 · scope changed by user direction: Docker is not part of this application; removed Docker artifacts and replaced the acceptance test with a local HTTP `curl` test · ran `pytest server/tests/test_health.py server/tests/test_health_http.py -q`; both tests passed, including `curl.exe` returning `{"status":"ok"}` from a locally started Uvicorn server · test run emitted third-party deprecation warnings only.
+- [x] **0.5** Set up dev scripts: `dev` (watch build), `build` (production), `test` (all suites).
   - Test criteria: each script runs successfully from a clean checkout.
-  - Notes:
+  - Notes: 2026-09-04 · ran `npm run dev`, `npm run build`, and `npm run test` · local Vite and Uvicorn development services started; production build passed; lint, strict typecheck, formatting, and 2 server tests passed · the environment sandbox required the commands to run outside its restricted Node path lookup; test output contains third-party deprecation warnings only.
 
-**Phase Gate 0:** ☐ All boxes above checked before starting Phase 1.
+**Phase Gate 0:** ☑ All boxes above checked; Phase 1 may begin.
 
 ---
 
 ### Phase 1 — DOM / Accessibility Extraction Layer
 **Objective:** structured, low-cost extraction of everything the DOM can tell us.
 
-- [ ] **1.1** Implement content-script DOM walker collecting role/text/bbox for interactive elements.
+- [x] **1.1** Implement content-script DOM walker collecting role/text/bbox for interactive elements.
   - Test criteria: on a test form page, walker returns all inputs/buttons with correct bbox (±2px).
-  - Notes:
-- [ ] **1.2** Extract accessibility-tree attributes (ARIA roles/labels) alongside DOM data.
+  - Notes: 2026-09-04 · ran `npm run test --prefix extension` against the mocked form page in `extension/tests/domWalker.test.ts` · 1 test passed; all three inputs/buttons returned their expected roles, labels/text, and exact bounding boxes (within ±0px) · made `innerText` optional after the initial jsdom test exposed that it may be undefined.
+- [x] **1.2** Extract accessibility-tree attributes (ARIA roles/labels) alongside DOM data.
   - Test criteria: elements with only ARIA labels (no visible text) are still captured correctly.
-  - Notes:
-- [ ] **1.3** Define and implement the Screen State JSON schema (§4.1) with a schema validator.
+  - Notes: 2026-09-04 · ran `npm run test --prefix extension` with the ARIA-only `menuitem` case in `extension/tests/domWalker.test.ts` · 2 tests passed; the walker preserved `role="menuitem"`, `ariaLabel`, text fallback, and bounding box for an element without visible text · ARIA label is represented as an optional field pending final schema validation in 1.3.
+- [x] **1.3** Define and implement the Screen State JSON schema (§4.1) with a schema validator.
   - Test criteria: output validates against the JSON schema on 5 different site types.
-  - Notes:
-- [ ] **1.4** Benchmark extraction latency.
-  - Test criteria: median extraction time < 50ms on a mid-tier laptop across the 5 test sites.
-  - Notes:
+  - Notes: 2026-09-04 · ran `npm run test --prefix extension` using the versioned validator in `extension/src/schemas/screenState.ts` · 8 extension tests passed, including 5 Screen State cases (form, dashboard, portal, e-commerce, SPA) and malformed-payload rejection · the current 1.0 schema supports DOM-sourced elements and will be extended as vision sources are implemented in Phase 2.
+- [x] **1.4** Benchmark extraction latency.
+  - Test criteria: median extraction time < 50ms on five representative DOM fixtures; documented Chrome-on-device measurement deferred to Phase 8 by user direction.
+  - Notes: 2026-09-04 · ran `npm run test -- tests/domWalker.benchmark.test.ts --pool=forks --maxWorkers=1 --reporter=verbose` using five representative DOM fixtures · all 5 median-latency assertions passed below 50ms in jsdom; per-fixture test durations were 84–172ms for 101 samples including setup · deviation accepted by user: retain the Phase 8 Chrome-on-recorded-device benchmark as the authoritative performance measurement.
 
-**Phase Gate 1:** ☐ All boxes above checked before starting Phase 2.
+**Phase Gate 1:** ☑ All boxes above checked; Phase 2 may begin. Device-level latency evidence remains a Phase 8 requirement.
 
 ---
 
