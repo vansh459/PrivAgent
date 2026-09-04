@@ -38,4 +38,20 @@ describe("Screen State JSON schema", () => {
       "Invalid Screen State JSON",
     );
   });
+
+  it("validates vision-only elements emitted by the fusion pipeline", () => {
+    const state = stateFor("button", "Continue");
+    state.elements = [
+      {
+        id: "vision_1",
+        role: "text",
+        text: "Canvas label",
+        bbox: [1, 2, 30, 20],
+        source: "vision",
+        sensitive: false,
+        confidence: 0.92,
+      },
+    ];
+    expect(isScreenState(state)).toBe(true);
+  });
 });

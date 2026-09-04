@@ -1,10 +1,9 @@
 import type { BoundingBox, DomScreenElement } from "../content/domWalker";
+import type { VisionScreenElement } from "../content/fusion";
 
 export const SCREEN_STATE_SCHEMA_VERSION = "1.0";
 
-export interface ScreenStateElement extends DomScreenElement {
-  piiType?: string;
-}
+export type ScreenStateElement = DomScreenElement | VisionScreenElement;
 
 export interface ScreenState {
   schemaVersion: typeof SCREEN_STATE_SCHEMA_VERSION;
@@ -25,17 +24,24 @@ function isBoundingBox(value: unknown): value is BoundingBox {
 function isElement(value: unknown): value is ScreenStateElement {
   if (!value || typeof value !== "object") return false;
   const element = value as Record<string, unknown>;
-  const optionalStringsValid = ["ariaLabel", "piiType"].every(
-    (key) => element[key] === undefined || typeof element[key] === "string",
-  );
+  if (
+    typeof element.id !== "string" ||
+    typeof element.role !== "string" ||
+    typeof element.text !== "string" ||
+    !isBoundingBox(element.bbox) ||
+    typeof element.sensitive !== "boolean"
+  )
+    return false;
+  if (element.source === "dom")
+    return (
+      element.sensitive === false &&
+      (element.ariaLabel === undefined || typeof element.ariaLabel === "string")
+    );
   return (
-    typeof element.id === "string" &&
-    typeof element.role === "string" &&
-    typeof element.text === "string" &&
-    isBoundingBox(element.bbox) &&
-    element.source === "dom" &&
-    element.sensitive === false &&
-    optionalStringsValid
+    element.source === "vision" &&
+    typeof element.confidence === "number" &&
+    element.confidence >= 0 &&
+    element.confidence <= 1
   );
 }
 
