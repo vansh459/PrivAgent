@@ -8,7 +8,10 @@ function runtimeWith(create: ReturnType<typeof vi.fn>): OrtSessionFactory {
 }
 
 describe("createVisionSession", () => {
-  afterEach(() => vi.unstubAllGlobals());
+  afterEach(() => {
+    vi.unstubAllGlobals();
+    vi.restoreAllMocks();
+  });
 
   it("uses WebGPU when it is available and the model session initializes", async () => {
     vi.stubGlobal("navigator", { gpu: {} });
@@ -24,6 +27,7 @@ describe("createVisionSession", () => {
 
   it("falls back to WASM after a WebGPU initialization failure", async () => {
     vi.stubGlobal("navigator", { gpu: {} });
+    vi.spyOn(console, "warn").mockImplementation(() => undefined);
     const session = { run: vi.fn() };
     const create = vi
       .fn()

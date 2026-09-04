@@ -8,7 +8,12 @@ export interface VisionSession {
 }
 
 export interface OrtSessionFactory {
-  InferenceSession: Pick<typeof ort.InferenceSession, "create">;
+  InferenceSession: {
+    create(
+      modelUrl: string | Uint8Array,
+      options: { executionProviders: VisionBackend[] },
+    ): Promise<ort.InferenceSession>;
+  };
 }
 
 function webGpuAvailable(): boolean {

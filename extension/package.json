@@ -14,6 +14,7 @@
   "dependencies": {
     "onnxruntime-web": "1.29.0",
     "privagent": "file:..",
+    "tesseract.js": "7.0.0",
     "webextension-polyfill": "0.12.0"
   },
   "devDependencies": {

@@ -282,10 +282,10 @@ extraction is presented as "visual perception" and scores poorly on the 25% line
 
 - [ ] **2.1** Integrate ONNX Runtime Web with WebGPU backend, WASM fallback for unsupported devices.
   - Test criteria: a sample model runs inference successfully on both backends; fallback triggers correctly when WebGPU is unavailable.
-  - Notes:
+  - Notes: 2026-09-04 · implemented `extension/src/content/visionRuntime.ts` and ran its focused Vitest suite, lint, strict typecheck, formatting, and production build · 3 backend-selection tests passed: WebGPU preference, fallback after WebGPU initialization failure, and WASM selection when WebGPU is absent · blocker: no packaged ONNX sample model or browser WebGPU inference run exists yet, so the required real inference on both backends has not been demonstrated.
 - [ ] **2.2** Integrate OCR pipeline for text inside canvas/image regions.
   - Test criteria: OCR correctly reads text from 10 sample canvas/image screenshots (≥85% character accuracy).
-  - Notes:
+  - Notes: 2026-09-04 · integrated local Tesseract.js worker lifecycle and canvas-region cropper in `extension/src/content/ocr.ts`; ran 10 OCR fixture tests plus lint, strict typecheck, and formatting · all 10 controlled OCR pipeline fixtures passed and workers were terminated after recognition · blocker: the fixtures inject a deterministic worker and do not yet exercise packaged `eng` language data over real screenshots, so measured character accuracy is not available.
 - [ ] **2.3** Integrate face-detection model for video/image regions.
   - Test criteria: face detector correctly boxes faces in a labeled 20-image test set (≥90% recall).
   - Notes:
