@@ -1,0 +1,470 @@
+{
+  "Action": {
+    "additionalProperties": false,
+    "description": "The server's proposed next step, validated locally before execution.",
+    "properties": {
+      "action": {
+        "enum": [
+          "click",
+          "type",
+          "scroll",
+          "navigate",
+          "none"
+        ],
+        "title": "Action",
+        "type": "string"
+      },
+      "confidence": {
+        "maximum": 1,
+        "minimum": 0,
+        "title": "Confidence",
+        "type": "number"
+      },
+      "explanation": {
+        "minLength": 1,
+        "title": "Explanation",
+        "type": "string"
+      },
+      "params": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "title": "Params",
+        "type": "object"
+      },
+      "reasoning_trace_id": {
+        "minLength": 1,
+        "title": "Reasoning Trace Id",
+        "type": "string"
+      },
+      "risk": {
+        "enum": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "title": "Risk",
+        "type": "string"
+      },
+      "target_id": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Target Id"
+      }
+    },
+    "required": [
+      "action",
+      "confidence",
+      "risk",
+      "explanation",
+      "reasoning_trace_id"
+    ],
+    "title": "Action",
+    "type": "object"
+  },
+  "ContextElement": {
+    "additionalProperties": false,
+    "description": "A Set-of-Mark tagged element that is safe to transmit.",
+    "properties": {
+      "bbox": {
+        "maxItems": 4,
+        "minItems": 4,
+        "prefixItems": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "integer"
+          },
+          {
+            "type": "integer"
+          },
+          {
+            "type": "integer"
+          }
+        ],
+        "title": "Bbox",
+        "type": "array"
+      },
+      "mark_id": {
+        "pattern": "^M\\d+$",
+        "title": "Mark Id",
+        "type": "string"
+      },
+      "role": {
+        "minLength": 1,
+        "title": "Role",
+        "type": "string"
+      },
+      "text": {
+        "title": "Text",
+        "type": "string"
+      }
+    },
+    "required": [
+      "mark_id",
+      "role",
+      "text",
+      "bbox"
+    ],
+    "title": "ContextElement",
+    "type": "object"
+  },
+  "SanitizedContext": {
+    "$defs": {
+      "ContextElement": {
+        "additionalProperties": false,
+        "description": "A Set-of-Mark tagged element that is safe to transmit.",
+        "properties": {
+          "bbox": {
+            "maxItems": 4,
+            "minItems": 4,
+            "prefixItems": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              }
+            ],
+            "title": "Bbox",
+            "type": "array"
+          },
+          "mark_id": {
+            "pattern": "^M\\d+$",
+            "title": "Mark Id",
+            "type": "string"
+          },
+          "role": {
+            "minLength": 1,
+            "title": "Role",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "mark_id",
+          "role",
+          "text",
+          "bbox"
+        ],
+        "title": "ContextElement",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "description": "The only payload eligible to cross the network boundary.",
+    "properties": {
+      "elements": {
+        "items": {
+          "$ref": "#/$defs/ContextElement"
+        },
+        "title": "Elements",
+        "type": "array"
+      },
+      "schema_version": {
+        "const": "1.0",
+        "title": "Schema Version",
+        "type": "string"
+      },
+      "task": {
+        "maxLength": 500,
+        "minLength": 1,
+        "title": "Task",
+        "type": "string"
+      }
+    },
+    "required": [
+      "schema_version",
+      "task",
+      "elements"
+    ],
+    "title": "SanitizedContext",
+    "type": "object"
+  },
+  "ScreenState": {
+    "$defs": {
+      "ScreenStateElement": {
+        "additionalProperties": false,
+        "description": "One perceived on-screen element, before context building.",
+        "properties": {
+          "aria_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Aria Label"
+          },
+          "bbox": {
+            "maxItems": 4,
+            "minItems": 4,
+            "prefixItems": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              }
+            ],
+            "title": "Bbox",
+            "type": "array"
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "maximum": 1,
+                "minimum": 0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Confidence"
+          },
+          "id": {
+            "minLength": 1,
+            "title": "Id",
+            "type": "string"
+          },
+          "pii_type": {
+            "anyOf": [
+              {
+                "enum": [
+                  "AADHAAR",
+                  "PAN",
+                  "PHONE",
+                  "EMAIL",
+                  "CARD",
+                  "OTP",
+                  "NAME",
+                  "ADDRESS"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Pii Type"
+          },
+          "role": {
+            "minLength": 1,
+            "title": "Role",
+            "type": "string"
+          },
+          "sensitive": {
+            "title": "Sensitive",
+            "type": "boolean"
+          },
+          "source": {
+            "enum": [
+              "dom",
+              "vision_ocr",
+              "vision_face",
+              "vision_object"
+            ],
+            "title": "Source",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "role",
+          "text",
+          "bbox",
+          "source",
+          "sensitive"
+        ],
+        "title": "ScreenStateElement",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "description": "The fused local view of the screen. Never transmitted; client-internal only.",
+    "properties": {
+      "elements": {
+        "items": {
+          "$ref": "#/$defs/ScreenStateElement"
+        },
+        "title": "Elements",
+        "type": "array"
+      },
+      "page_url_hash": {
+        "minLength": 1,
+        "title": "Page Url Hash",
+        "type": "string"
+      },
+      "schema_version": {
+        "const": "1.0",
+        "title": "Schema Version",
+        "type": "string"
+      },
+      "task": {
+        "maxLength": 500,
+        "minLength": 1,
+        "title": "Task",
+        "type": "string"
+      },
+      "timestamp": {
+        "minLength": 1,
+        "title": "Timestamp",
+        "type": "string"
+      }
+    },
+    "required": [
+      "schema_version",
+      "elements",
+      "task",
+      "page_url_hash",
+      "timestamp"
+    ],
+    "title": "ScreenState",
+    "type": "object"
+  },
+  "ScreenStateElement": {
+    "additionalProperties": false,
+    "description": "One perceived on-screen element, before context building.",
+    "properties": {
+      "aria_label": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Aria Label"
+      },
+      "bbox": {
+        "maxItems": 4,
+        "minItems": 4,
+        "prefixItems": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "integer"
+          },
+          {
+            "type": "integer"
+          },
+          {
+            "type": "integer"
+          }
+        ],
+        "title": "Bbox",
+        "type": "array"
+      },
+      "confidence": {
+        "anyOf": [
+          {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Confidence"
+      },
+      "id": {
+        "minLength": 1,
+        "title": "Id",
+        "type": "string"
+      },
+      "pii_type": {
+        "anyOf": [
+          {
+            "enum": [
+              "AADHAAR",
+              "PAN",
+              "PHONE",
+              "EMAIL",
+              "CARD",
+              "OTP",
+              "NAME",
+              "ADDRESS"
+            ],
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Pii Type"
+      },
+      "role": {
+        "minLength": 1,
+        "title": "Role",
+        "type": "string"
+      },
+      "sensitive": {
+        "title": "Sensitive",
+        "type": "boolean"
+      },
+      "source": {
+        "enum": [
+          "dom",
+          "vision_ocr",
+          "vision_face",
+          "vision_object"
+        ],
+        "title": "Source",
+        "type": "string"
+      },
+      "text": {
+        "title": "Text",
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "role",
+      "text",
+      "bbox",
+      "source",
+      "sensitive"
+    ],
+    "title": "ScreenStateElement",
+    "type": "object"
+  }
+}

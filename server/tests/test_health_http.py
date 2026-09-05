@@ -1,3 +1,4 @@
+import json
 import socket
 import subprocess
 import threading
@@ -35,7 +36,7 @@ def test_health_is_available_over_local_http() -> None:
             text=True,
             timeout=5,
         )
-        assert result.stdout == '{"status":"ok"}'
+        assert json.loads(result.stdout)["status"] == "ok"
     finally:
         server.should_exit = True
         worker.join(timeout=5)

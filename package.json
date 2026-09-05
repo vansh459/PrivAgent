@@ -8,9 +8,18 @@
   },
   "scripts": {
     "dev": "concurrently --kill-others-on-fail \"npm run dev --prefix extension\" \"node scripts/run-server.mjs\"",
+    "gen:schemas": "node scripts/gen-schemas.mjs",
+    "check:schemas": "node scripts/gen-schemas.mjs --check",
     "verify:structure": "node scripts/verify-structure.mjs",
-    "build": "npm run verify:structure && npm run build --prefix extension",
-    "test": "npm run lint --prefix extension && npm run typecheck --prefix extension && npm run format:check --prefix extension && npm run test --prefix extension && node scripts/run-server-tests.mjs"
+    "lint": "npm run lint --prefix extension",
+    "typecheck": "npm run typecheck --prefix extension",
+    "format:check": "npm run format:check --prefix extension",
+    "build": "npm run verify:structure && npm run vendor:assets && npm run build --prefix extension",
+    "test:extension": "npm run test:coverage --prefix extension",
+    "test:server": "node scripts/run-server-tests.mjs",
+    "test": "npm run check:schemas && npm run lint && npm run typecheck && npm run format:check && npm run test:extension && npm run test:server",
+    "vendor:assets": "node scripts/vendor-assets.mjs",
+    "test:reasoner": "node scripts/run-server-tests.mjs --live"
   },
   "devDependencies": {
     "concurrently": "9.2.1"

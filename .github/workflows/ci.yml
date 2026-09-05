@@ -1,0 +1,108 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Python is set up before the extension tests because the client/server
+      # integration test spawns the real FastAPI app and calls it over HTTP.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install server dependencies
+        run: pip install -r server/requirements-dev.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: extension/package-lock.json
+      - name: Install extension dependencies
+        run: npm ci --prefix extension
+
+      # The wire contract is generated from server/app/schemas.py. If the checked-in
+      # output is stale, the client and server have silently drifted.
+      - name: Check schema codegen is current
+        run: npm run check:schemas
+
+      - name: Lint
+        run: npm run lint
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Format check
+        run: npm run format:check
+
+      # Local inference assets are copied out of node_modules and verified by digest.
+      # Nothing is fetched from a CDN at build time or at runtime.
+      - name: Vendor local inference assets
+        run: npm run vendor:assets
+
+      - name: Extension tests with coverage
+        run: npm run test:extension
+      - name: Server tests
+        run: npm run test:server
+
+      - name: Build Chrome extension
+        run: npm run build:chrome --prefix extension
+      - name: Build Firefox extension
+        run: npm run build:firefox --prefix extension
+
+      - name: Validate both manifests
+        run: node scripts/verify-manifests.mjs
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: extension-builds
+          path: |
+            extension/dist/chrome
+            extension/dist/firefox
+
+  e2e:
+    # Separate job: extensions require a full headed Chromium, which needs a virtual
+    # display on CI. Keeping it apart means a browser-environment failure cannot be
+    # mistaken for a code failure in `verify`.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install server dependencies
+        run: pip install -r server/requirements-dev.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: extension/package-lock.json
+      - name: Install extension dependencies
+        run: npm ci --prefix extension
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+        working-directory: extension
+
+      - name: Build Chrome extension
+        run: npm run build:chrome --prefix extension
+
+      - name: Run browser end-to-end suite
+        run: xvfb-run --auto-servernum npx playwright test
+        working-directory: extension
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-traces
+          path: extension/test-results

@@ -1,64 +1,68 @@
-import type { BoundingBox, DomScreenElement } from "../content/domWalker";
-import type { VisionScreenElement } from "../content/fusion";
+/**
+ * Client-side entry point for the wire contract.
+ *
+ * The types and validators are generated from `server/app/schemas.py` (see
+ * `generated.ts`); this module only adds the ergonomic helpers the pipeline calls.
+ */
+import {
+  ActionSchema,
+  ScreenStateSchema,
+  SanitizedContextSchema,
+  type Action,
+  type SanitizedContext,
+  type ScreenState,
+  type ScreenStateElement,
+} from "./generated";
 
-export const SCREEN_STATE_SCHEMA_VERSION = "1.0";
+export type {
+  Action,
+  ContextElement,
+  SanitizedContext,
+  ScreenState,
+  ScreenStateElement,
+} from "./generated";
+export {
+  ActionSchema,
+  ContextElementSchema,
+  SanitizedContextSchema,
+  ScreenStateElementSchema,
+  ScreenStateSchema,
+} from "./generated";
 
-export type ScreenStateElement = DomScreenElement | VisionScreenElement;
+export const SCREEN_STATE_SCHEMA_VERSION = "1.0" as const;
 
-export interface ScreenState {
-  schemaVersion: typeof SCREEN_STATE_SCHEMA_VERSION;
-  elements: ScreenStateElement[];
-  task: string;
-  pageUrlHash: string;
-  timestamp: string;
-}
+/** Viewport-relative `[x, y, width, height]` in CSS pixels. */
+export type BoundingBox = ScreenStateElement["bbox"];
 
-function isBoundingBox(value: unknown): value is BoundingBox {
-  return (
-    Array.isArray(value) &&
-    value.length === 4 &&
-    value.every((coordinate) => typeof coordinate === "number" && Number.isFinite(coordinate))
-  );
-}
+/** Which local perception stage produced an element. */
+export type ElementSource = ScreenStateElement["source"];
 
-function isElement(value: unknown): value is ScreenStateElement {
-  if (!value || typeof value !== "object") return false;
-  const element = value as Record<string, unknown>;
-  if (
-    typeof element.id !== "string" ||
-    typeof element.role !== "string" ||
-    typeof element.text !== "string" ||
-    !isBoundingBox(element.bbox) ||
-    typeof element.sensitive !== "boolean"
-  )
-    return false;
-  if (element.source === "dom")
-    return (
-      element.sensitive === false &&
-      (element.ariaLabel === undefined || typeof element.ariaLabel === "string")
-    );
-  return (
-    element.source === "vision" &&
-    typeof element.confidence === "number" &&
-    element.confidence >= 0 &&
-    element.confidence <= 1
-  );
-}
+/** Structured PII classes the Privacy Firewall can detect and tokenize. */
+export type PiiType = NonNullable<ScreenStateElement["pii_type"]>;
 
-/** Returns true only for the versioned client Screen State payload accepted by the pipeline. */
+export type ActionType = Action["action"];
+export type RiskTier = Action["risk"];
+
 export function isScreenState(value: unknown): value is ScreenState {
-  if (!value || typeof value !== "object") return false;
-  const state = value as Record<string, unknown>;
-  return (
-    state.schemaVersion === SCREEN_STATE_SCHEMA_VERSION &&
-    Array.isArray(state.elements) &&
-    state.elements.every(isElement) &&
-    typeof state.task === "string" &&
-    typeof state.pageUrlHash === "string" &&
-    !Number.isNaN(Date.parse(String(state.timestamp)))
-  );
+  return ScreenStateSchema.safeParse(value).success;
 }
 
 export function assertScreenState(value: unknown): asserts value is ScreenState {
-  if (!isScreenState(value)) throw new TypeError("Invalid Screen State JSON");
+  const result = ScreenStateSchema.safeParse(value);
+  if (!result.success) {
+    throw new TypeError(`Invalid Screen State JSON: ${result.error.issues[0]?.message}`);
+  }
+}
+
+export function isSanitizedContext(value: unknown): value is SanitizedContext {
+  return SanitizedContextSchema.safeParse(value).success;
+}
+
+/** Parses a server response, rejecting anything that is not a schema-valid Action. */
+export function parseAction(value: unknown): Action {
+  const result = ActionSchema.safeParse(value);
+  if (!result.success) {
+    throw new TypeError(`Invalid Action JSON: ${result.error.issues[0]?.message}`);
+  }
+  return result.data;
 }

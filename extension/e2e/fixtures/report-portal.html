@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Expenditure Portal</title>
+  </head>
+  <body>
+    <h1>Sanctioned Expenditure Portal</h1>
+
+    <!--
+      Focusable and role-bearing, so the walker perceives it, but not an actionable role -
+      it should be redacted and then withheld from the payload entirely.
+    -->
+    <div id="contact" role="note" tabindex="0">
+      Queries: call 9876543210 or email accounts@example.com. Aadhaar 1234 5678 9012 on file, card
+      4111 1111 1111 1111.
+    </div>
+
+    <div id="status-line" role="status" tabindex="0">
+      Last sync 2026-09-04. Support desk 8765432109.
+    </div>
+
+    <form id="login">
+      <label for="username">Username</label>
+      <input id="username" name="username" autocomplete="username" />
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" />
+    </form>
+
+    <a id="download" href="#downloaded">Download report</a>
+    <!-- Actionable and task-relevant, so it IS transmitted - as a token, not a number. -->
+    <a id="callback" href="#callback">Request callback on 9876543210</a>
+    <button id="cancel" type="button">Cancel</button>
+
+    <p id="result">not clicked</p>
+
+    <script>
+      // Marks that the agent really actuated the element, rather than merely reporting it.
+      document.getElementById("download").addEventListener("click", () => {
+        document.getElementById("result").textContent = "downloaded";
+      });
+
+      // The page writes its own storage, so the assertions can tell "the agent wrote
+      // nothing here" apart from "storage is empty because nothing ran".
+      localStorage.setItem("page-own-key", "page-own-value");
+    </script>
+  </body>
+</html>

@@ -1,29 +1,40 @@
 {
   "name": "@privagent/extension",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build:chrome && npm run build:firefox",
     "lint": "eslint \"src/**/*.ts\" \"*.ts\"",
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "build:chrome": "vite build",
+    "build:firefox": "vite build --mode firefox",
+    "test:e2e": "playwright test",
+    "vendor:assets": "node ../scripts/vendor-assets.mjs",
+    "prebuild:chrome": "npm run vendor:assets",
+    "prebuild:firefox": "npm run vendor:assets",
+    "pretest:e2e": "npm run vendor:assets"
   },
   "dependencies": {
     "onnxruntime-web": "1.29.0",
-    "privagent": "file:..",
     "tesseract.js": "7.0.0",
-    "webextension-polyfill": "0.12.0"
+    "webextension-polyfill": "0.12.0",
+    "zod": "4.1.13"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.7.1",
     "@eslint/js": "10.0.1",
+    "@playwright/test": "^1.56.1",
     "@types/node": "26.4.1",
     "@types/webextension-polyfill": "0.12.6",
+    "@vitest/coverage-v8": "^4.0.18",
     "eslint": "10.9.1",
     "eslint-config-prettier": "10.1.8",
+    "fake-indexeddb": "^6.2.2",
     "jsdom": "^27.4.0",
     "prettier": "3.9.6",
     "typescript": "5.9.3",

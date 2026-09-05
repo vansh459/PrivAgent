@@ -1,25 +1,6 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
-import { walkInteractiveDom } from "../src/content/domWalker";
-
-function setBoundingBox(
-  element: HTMLElement,
-  x: number,
-  y: number,
-  width: number,
-  height: number,
-): void {
-  vi.spyOn(element, "getBoundingClientRect").mockReturnValue({
-    x,
-    y,
-    width,
-    height,
-    top: y,
-    right: x + width,
-    bottom: y + height,
-    left: x,
-    toJSON: () => ({}),
-  });
-}
+import { beforeEach, describe, expect, it } from "vitest";
+import { perceiveDom, walkInteractiveDom } from "../src/content/domWalker";
+import { setBoundingBox } from "./helpers/layout";
 
 describe("walkInteractiveDom", () => {
   beforeEach(() => {
@@ -43,7 +24,7 @@ describe("walkInteractiveDom", () => {
         id: "dom_2",
         role: "text_field",
         text: "Account reference",
-        ariaLabel: "Account reference",
+        aria_label: "Account reference",
         bbox: [20, 78, 240, 32],
         source: "dom",
         sensitive: false,
@@ -68,11 +49,44 @@ describe("walkInteractiveDom", () => {
         id: "dom_1",
         role: "menuitem",
         text: "Open secure actions",
-        ariaLabel: "Open secure actions",
+        aria_label: "Open secure actions",
         bbox: [8, 12, 150, 28],
         source: "dom",
         sensitive: false,
       },
     ]);
+  });
+
+  it("returns a live node for every reported element id", () => {
+    const { elements, refs } = perceiveDom();
+
+    expect(refs.size).toBe(elements.length);
+    for (const element of elements) {
+      expect(refs.get(element.id)?.isConnected).toBe(true);
+    }
+  });
+});
+
+describe("perceivability filtering", () => {
+  it.each([
+    ["a zero-sized element", `<button id="t">Ghost</button>`, 0, 0],
+    ["an off-screen collapsed element", `<button id="t">Ghost</button>`, -10, 0],
+  ])("skips %s", (_case, html, width, height) => {
+    document.body.innerHTML = html;
+    setBoundingBox(document.querySelector("#t")!, 0, 0, width, height);
+
+    expect(walkInteractiveDom()).toEqual([]);
+  });
+
+  it.each([
+    ["display:none", `<button id="t" style="display:none">Hidden</button>`],
+    ["visibility:hidden", `<button id="t" style="visibility:hidden">Hidden</button>`],
+    ["the hidden attribute", `<button id="t" hidden>Hidden</button>`],
+    ["aria-hidden", `<button id="t" aria-hidden="true">Hidden</button>`],
+  ])("skips an element hidden by %s", (_case, html) => {
+    document.body.innerHTML = html;
+    setBoundingBox(document.querySelector("#t")!, 0, 0, 100, 30);
+
+    expect(walkInteractiveDom()).toEqual([]);
   });
 });

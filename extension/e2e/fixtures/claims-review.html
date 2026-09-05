@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Claims Review</title>
+    <style>
+      body {
+        font:
+          14px/1.5 system-ui,
+          sans-serif;
+        margin: 24px;
+        background: #ffffff;
+      }
+      #applicant-photo {
+        width: 260px;
+        height: 320px;
+        display: block;
+      }
+      #claim-chart {
+        border: 1px solid #ccc;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Claim CLM-4471</h1>
+
+    <!--
+      The two things the DOM cannot describe, which is the whole point of this fixture:
+      a photograph carrying a face, and a canvas whose text exists only as pixels.
+      Neither carries alt text - an author-supplied description would be a claim about
+      the image rather than an observation of it, and would let the pipeline pass without
+      ever having looked.
+    -->
+    <img id="applicant-photo" src="/applicant.png" />
+    <canvas id="claim-chart" width="420" height="180"></canvas>
+
+    <a id="approve" href="#approved">Approve claim</a>
+    <button id="reject" type="button">Reject claim</button>
+    <p id="result">not decided</p>
+
+    <script>
+      const context = document.getElementById("claim-chart").getContext("2d");
+      context.fillStyle = "#ffffff";
+      context.fillRect(0, 0, 420, 180);
+      context.fillStyle = "#111111";
+      context.font = "20px Arial";
+      // Text that exists only as pixels: no text node, no attribute, nothing the DOM
+      // walker can reach. If it turns up in the Screen State, OCR read it off the screen.
+      context.fillText("Settlement total 84,200", 16, 48);
+      context.font = "16px Arial";
+      context.fillText("Adjuster review pending", 16, 96);
+
+      document.getElementById("approve").addEventListener("click", () => {
+        document.getElementById("result").textContent = "approved";
+      });
+
+      localStorage.setItem("page-own-key", "page-own-value");
+    </script>
+  </body>
+</html>

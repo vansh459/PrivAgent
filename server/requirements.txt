@@ -1,2 +1,4 @@
 fastapi==0.141.1
 uvicorn[standard]==0.41.0
+# Used by the Ollama provider to reach the local model runtime.
+httpx==0.28.1

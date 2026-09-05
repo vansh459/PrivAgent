@@ -3,7 +3,18 @@ import { serverPython } from "./server-python.mjs";
 
 const child = spawn(
   serverPython(),
-  ["-m", "uvicorn", "app.main:app", "--app-dir", "server", "--host", "127.0.0.1", "--port", "8000", "--reload"],
+  [
+    "-m",
+    "uvicorn",
+    "app.main:app",
+    "--app-dir",
+    "server",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8000",
+    "--reload",
+  ],
   { stdio: "inherit" },
 );
 

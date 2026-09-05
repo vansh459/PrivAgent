@@ -1,66 +1,130 @@
-# PrivAgent Testing Plan
+# PrivAgent Testing
 
-> **Status: PLANNED** — this document describes the intended design from
-> `PrivAgent_Build_Specification.md`. It has not yet been verified against a working
-> implementation. See the specification's Phase Gates for current build status.
+Last run: 2026-09-04 · **210 client + 14 server + 7 browser tests, all passing.**
 
-Last updated: pre-implementation documentation scaffold.
+```bash
+npm test                              # everything CI runs
+npm run test:extension                # vitest + coverage gate
+npm run test:server                   # pytest
+npm run test:e2e --prefix extension   # Playwright, real Chromium + real extension
+```
 
-The table copies the Build Specification's test criteria as planned acceptance evidence. Test files, commands, and actual results are `TBD` until implementation (see Build Spec §5).
+## Why these suites are shaped this way
 
-| Task | Planned test criteria | Actual test file / command | Actual result |
-|---|---|---|---|
-| 0.1 | repo builds with a single command; folder structure matches plan. | TBD | TBD |
-| 0.2 | extension loads unpacked in Chrome and in Firefox (about:debugging) with no console errors. | TBD | TBD |
-| 0.3 | `lint` and `typecheck` scripts run clean on a fresh clone. | TBD | TBD |
-| 0.4 | `curl /health` returns `200 {"status":"ok"}` locally and in Docker. | TBD | TBD |
-| 0.5 | each script runs successfully from a clean checkout. | TBD | TBD |
-| 1.1 | on a test form page, walker returns all inputs/buttons with correct bbox (±2px). | TBD | TBD |
-| 1.2 | elements with only ARIA labels (no visible text) are still captured correctly. | TBD | TBD |
-| 1.3 | output validates against the JSON schema on 5 different site types. | TBD | TBD |
-| 1.4 | median extraction time < 50ms on a mid-tier laptop across the 5 test sites. | TBD | TBD |
-| 2.1 | a sample model runs inference successfully on both backends; fallback triggers correctly when WebGPU is unavailable. | TBD | TBD |
-| 2.2 | OCR correctly reads text from 10 sample canvas/image screenshots (≥85% character accuracy). | TBD | TBD |
-| 2.3 | face detector correctly boxes faces in a labeled 20-image test set (≥90% recall). | TBD | TBD |
-| 2.4 | fused output has no duplicate elements for the same on-screen region across 5 test pages. | TBD | TBD |
-| 2.5 | median vision-pass latency and peak memory recorded; documented against the 20%-resource and 15%-latency targets. | TBD | TBD |
-| 3.1 | 100% detection on a hand-built set of 30 structured PII samples, 0 false positives on 30 non-PII controls. | TBD | TBD |
-| 3.2 | recall ≥ 90%, precision ≥ 85% on a labeled unstructured-text test set. | TBD | TBD |
-| 3.3 | all faces flagged in Phase 2.3's test set are visibly masked in output screenshots. | TBD | TBD |
-| 3.4 | tokenized output is reversible on-client only; server-bound payload contains zero raw values for all 3.1–3.3 test sets. | TBD | TBD |
-| 3.5 | threshold tuned so borderline cases (confidence 0.4–0.6) are flagged, not silently passed through, on a 20-sample borderline set. | TBD | TBD |
-| 4.1 | every clickable/fillable element in test pages receives a unique, stable mark id. | TBD | TBD |
-| 4.2 | payload for a single-step task (e.g. "click download") excludes unrelated form fields present on the same page. | TBD | TBD |
-| 4.3 | payload size reduced ≥ 70% vs. raw DOM dump, measured across 5 test pages. | TBD | TBD |
-| 4.4 | manual spot-check of 20 serialized payloads confirms zero raw PII present. | TBD | TBD |
-| 5.1 | endpoint accepts valid payloads (200) and rejects malformed ones (422) with clear errors. | TBD | TBD |
-| 5.2 | end-to-end call from a sample sanitized payload returns a response within timeout. | TBD | TBD |
-| 5.3 | 10 sample task payloads all produce schema-valid Action JSON (§4.2). | TBD | TBD |
-| 5.4 | intentionally malformed model output is caught and retried/rejected, never forwarded to client. | TBD | TBD |
-| 5.5 | median round-trip time recorded across 10 tasks; documented against the 15% latency target. | TBD | TBD |
-| 6.1 | a labeled set of 15 sample actions (mix of low/medium/high risk) are scored consistently with expected risk tier. | TBD | TBD |
-| 6.2 | high-risk actions (e.g. "submit payment") never auto-execute in test runs; confirmation UI appears every time. | TBD | TBD |
-| 6.3 | all 4 action types execute correctly against 5 test pages with no misfires. | TBD | TBD |
-| 6.4 | executor detects a stale `target_id` and re-perceives instead of clicking the wrong element, verified on a page with dynamic content. | TBD | TBD |
-| 6.5 | all 5 tasks complete successfully end-to-end with correct final outcome. | TBD | TBD |
-| 7.1 | log entries exist for Observe, Detect PII, Redact, Reason, Validate, Act stages on a sample task. | TBD | TBD |
-| 7.2 | UI correctly renders the full trace for at least 3 completed tasks. | TBD | TBD |
-| 7.3 | no missing pipeline stages across 5 different tasks' logs. | TBD | TBD |
-| 7.4 | automated scan of log contents for regex-matchable PII patterns returns zero matches across all test runs so far. | TBD | TBD |
-| 8.1 | dataset reviewed and versioned in `/tests/dataset`. | TBD | TBD |
-| 8.2 | accuracy metric computed and documented in `results.md`. | TBD | TBD |
-| 8.3 | recall/precision computed and documented; both above internally agreed minimum thresholds. | TBD | TBD |
-| 8.4 | precision metric computed; zero unredacted critical fields (Aadhaar/bank/OTP/faces) across the dataset. | TBD | TBD |
-| 8.5 | profiling data captured and documented for both tiers. | TBD | TBD |
-| 8.6 | per-task latency breakdown (perceive/filter/reason/act) documented. | TBD | TBD |
-| 8.7 | document exists and every rubric line item has a corresponding measured number. | TBD | TBD |
-| 9.1 | both packages install and run correctly on a clean browser profile. | TBD | TBD |
-| 9.2 | a teammate unfamiliar with the project can follow the README to run the full stack from scratch. | TBD | TBD |
-| 9.3 | demo script rehearsed end-to-end without failure at least twice. | TBD | TBD |
-| 9.4 | video covers the same 2–3 tasks and plays back correctly. | TBD | TBD |
-| 9.5 | diagrams reviewed against the actual implemented system (no drift from what was built). | TBD | TBD |
-| 9.6 | team can answer each of these three questions with a specific, implementation-grounded answer. | TBD | TBD |
+An earlier build had 41 green tests, clean lint and clean types while the pipeline was
+entirely disconnected — no module imported another, and no client had ever called the
+server. Every unit passed because every unit mocked its neighbour.
 
-## Planned suites
+Two suites exist specifically to make that impossible to repeat:
 
-Vitest, Playwright, pytest, the dataset workflow, and benchmarking commands are planned but not yet created. Their exact invocation and result locations will be documented only after the relevant build tasks exist (see Build Spec §3, Phase 8).
+- `tests/loop.test.ts` drives the whole content-side chain with only the extension
+  messaging boundary mocked.
+- `tests/integration/reason.integration.test.ts` spawns the **real** FastAPI app and calls
+  it over **real** HTTP with the **real** `fetch`.
+
+## Client suites
+
+| Suite                               | Tests | What it covers                                                                                                                                                                                                                                                                                          |
+| ----------------------------------- | ----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `piiCorpus.test.ts`                 |    64 | **Phase 3.1 criterion.** 30/30 structured PII samples detected, 0/30 false positives on near-miss controls, no residual after redaction, controls left byte-identical.                                                                                                                                  |
+| `privacy.test.ts`                   |    18 | **Primary regression suite.** Overlapping/adjacent PII of different types, span resolution, reading-order numbering, token reuse, Luhn scoring, confidence gate.                                                                                                                                        |
+| `contextBudget.test.ts`             |    12 | **Phase 4.3/4.4 criteria.** 70.6–81.0% payload reduction across five site types; 25 serialized payloads with zero raw PII.                                                                                                                                                                              |
+| `confirm.test.ts`                   |     6 | The prompt's closed shadow root is unreadable from the page; `Escape` denies, bare `Enter` does not approve, listeners detach on settle.                                                                                                                                                                |
+| `screenState.test.ts`               |    16 | Generated Zod validators: 5 site types, malformed payloads, camelCase rejection, `Action` parsing incl. extra-field rejection.                                                                                                                                                                          |
+| `actions.test.ts`                   |    25 | Risk tiers and execution. Includes the **Phase 6.1 criterion**: a labelled 15-action table across all three tiers, with the same verb at different confidences and target sensitivities. Plus `max(server, local)` escalation, all four action types, stale marks, missing params, unsupported targets. |
+| `credentials.test.ts`               |    10 | **Password-leak regression suite.** 7 credential field shapes, a full login form, and proof no `.value` is read for ordinary fields either.                                                                                                                                                             |
+| `ocr.test.ts`                       |    10 | OCR wrapper contract. **Injects a fake worker — has never run real Tesseract.**                                                                                                                                                                                                                         |
+| `domWalker.test.ts`                 |     9 | Roles, ARIA, labels, bbox, live refs, and 6 perceivability cases (`display:none`, `visibility:hidden`, `hidden`, `aria-hidden`, zero-size).                                                                                                                                                             |
+| `loop.test.ts`                      |     5 | **End-to-end content loop**: perceive → redact → reason → validate → act → audit; denial path; local risk escalation; stale target.                                                                                                                                                                     |
+| `reason.test.ts`                    |     5 | Reasoner client: pre-flight schema check, unreachable, rejected, malformed response.                                                                                                                                                                                                                    |
+| `domWalker.benchmark.test.ts`       |     5 | Extraction latency. **Not a meaningful benchmark — see caveat below.**                                                                                                                                                                                                                                  |
+| `audit.test.ts`                     |     4 | IndexedDB store, stage ordering, PII write guard.                                                                                                                                                                                                                                                       |
+| `pipeline.test.ts`                  |     4 | Redaction wiring, `pii_type` labelling, counts, shared token map.                                                                                                                                                                                                                                       |
+| `contextBuilder.test.ts`            |     4 | Set-of-Mark tagging, mark→element mapping, relevance filter, contiguous numbering.                                                                                                                                                                                                                      |
+| `fusion.test.ts`                    |     4 | IoU dedup, DOM precedence, threshold. Built but **not yet wired** — nothing produces vision elements.                                                                                                                                                                                                   |
+| `visionRuntime.test.ts`             |     3 | WebGPU→WASM backend selection.                                                                                                                                                                                                                                                                          |
+| `reason.integration.test.ts`        |     3 | **Real HTTP round trip** against a spawned uvicorn: valid action, 422 on an extra field, provider reported.                                                                                                                                                                                             |
+| `faceDetection.test.ts`             |     2 | Throws `CapabilityUnavailableError` when the API is absent; normalizes boxes when present.                                                                                                                                                                                                              |
+| `visionRuntime.integration.test.ts` |     1 | Executes a real ONNX graph on the WASM backend. **The graph is an Identity no-op, not a perception model.**                                                                                                                                                                                             |
+
+## Server suites
+
+| Suite                 | Tests | What it covers                                                                                                   |
+| --------------------- | ----: | ---------------------------------------------------------------------------------------------------------------- |
+| `test_reason.py`      |     8 | Valid action, declines rather than guessing, 4 malformed payloads, extra-field rejection, provider in isolation. |
+| `test_schemas.py`     |     4 | Vision elements require confidence, DOM elements do not, targeted actions require a mark, confidence bounds.     |
+| `test_health.py`      |     1 | Status and active provider.                                                                                      |
+| `test_health_http.py` |     1 | Real uvicorn over real HTTP via `curl`.                                                                          |
+
+## Coverage
+
+Enforced by `vitest.config.ts`; CI fails below the gate.
+
+| Metric     | Measured | Gate |
+| ---------- | -------: | ---: |
+| Statements |   86.98% |  86% |
+| Branches   |   76.17% |  75% |
+| Functions  |   81.31% |  80% |
+| Lines      |   89.59% |  89% |
+
+Gates sit just under the measured numbers — a ratchet, so any regression fails. They are
+raised as coverage improves, not set aspirationally.
+
+Excluded: `schemas/generated.ts` (generated; guarded by the drift check),
+`background/service-worker.ts` and `ui/popup.ts` (browser entry points, covered by e2e).
+
+The remaining gap is concentrated in `ocr.ts` and `visionRuntime.ts` — the Stage 2
+modules that are not yet wired into the pipeline.
+
+## Browser end-to-end
+
+`extension/e2e/loop.spec.ts` loads the real unpacked extension into a real Chromium-based
+browser alongside a real FastAPI server and a served fixture page.
+
+**Status: passing — 7 tests.** The suite drives the real popup UI (not the service
+worker, whose handle goes stale when an MV3 worker idles out) against a served fixture
+page and a live FastAPI server behind a recording proxy.
+
+| Test                                              | What it proves                                                                                                                                              |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| runs the full loop and actuates the page          | The fixture's own click handler fires — the agent really acted, it did not merely report.                                                                   |
+| renders the six-stage audit trace                 | The popup shows observe → detect_pii → redact → reason → validate → act.                                                                                    |
+| writes the audit trail to the extension origin    | The page's `localStorage` holds only what the page wrote, and `privagent` is absent from the page's `indexedDB` — while the extension origin has the trail. |
+| transmits no credential value and no raw PII      | The captured `/reason` body contains no password, phone, email, Aadhaar or card value.                                                                      |
+| transmits a task-relevant value as a token        | `"Request callback on [PII_PHONE_01]"` crosses the wire; the number does not.                                                                               |
+| pauses on a high-risk action and honours a denial | A server response claiming `"risk": "low"` for a `navigate` is scored `high`, prompts, is denied, and no navigation occurs.                                 |
+| renders a complete trace for three separate tasks | All six stages present for each of three consecutive tasks.                                                                                                 |
+
+The payload is captured by a recording proxy in front of the server rather than by
+Playwright route interception: the `/reason` call is made from the service worker, which
+page and context routing does not reliably intercept — and the wire is the more honest
+place to assert what left the browser anyway.
+
+**Firefox:** Playwright cannot load extensions in Firefox. Firefox needs a separate
+`web-ext run` smoke check, which is not yet written. What _is_ verified today is that the
+Firefox build produces a manifest with the event-page background shape Firefox MV3
+requires (`scripts/verify-manifests.mjs`).
+
+**Browser selection:** the suite prefers Playwright's bundled Chromium and falls back to a
+locally installed Edge or Chrome when it is absent, so it is runnable without a 150 MB
+download. Override with `PRIVAGENT_E2E_CHANNEL`.
+
+## Known-weak tests
+
+Recorded rather than quietly relied on:
+
+| Test                                | Weakness                                                                                                                                                                                  |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `domWalker.benchmark.test.ts`       | Runs in jsdom with `getBoundingClientRect` stubbed to a constant. jsdom has no layout engine, so it measures `querySelectorAll` speed, not extraction latency. Real numbers need Stage 3. |
+| `ocr.test.ts`                       | Injects a fake worker. Real `eng.traineddata` has never been loaded, so the stated character accuracy is unmeasured.                                                                      |
+| `visionRuntime.integration.test.ts` | Runs a 100-byte ONNX Identity graph. It proves the runtime executes; it perceives nothing.                                                                                                |
+
+## CI
+
+`.github/workflows/ci.yml` on every push and PR: schema drift check → lint → typecheck →
+format → client tests with coverage → server tests → both browser builds → manifest
+validation → artifact upload. Python is installed **before** the client tests because the
+integration test spawns the real server.
+
+A second CI job runs the browser suite under `xvfb-run`, kept separate so a
+browser-environment failure cannot be mistaken for a code failure in the main job.

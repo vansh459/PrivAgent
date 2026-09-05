@@ -1,0 +1,104 @@
+{
+  "faces": [
+    {
+      "id": "armstrong",
+      "file": "armstrong.png",
+      "width": 212,
+      "height": 234,
+      "sha256": "35ed28d6e3024453f45128f83a4a11a8020cf5774fcb75641b792b8a4dfaf630",
+      "source": {
+        "work": "Neil Armstrong pose.jpg",
+        "repository": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg",
+        "licence": "Public domain (NASA / U.S. federal government work)",
+        "derivation": "cropped to the face region of the 960px rendition; not otherwise altered",
+        "crop_fraction_of_source": [
+          0.48,
+          0.19,
+          0.7,
+          0.385
+        ]
+      }
+    },
+    {
+      "id": "bluford",
+      "file": "bluford.png",
+      "width": 211,
+      "height": 276,
+      "sha256": "097eb3e2f35187a85e38ff80f87e4e2383de94ecdf27bf635d79a08a1a6e2233",
+      "source": {
+        "work": "Guion Bluford.jpg",
+        "repository": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Guion_Bluford.jpg",
+        "licence": "Public domain (NASA / U.S. federal government work)",
+        "derivation": "cropped to the face region of the 960px rendition; not otherwise altered",
+        "crop_fraction_of_source": [
+          0.51,
+          0.21,
+          0.73,
+          0.44
+        ]
+      }
+    },
+    {
+      "id": "chawla",
+      "file": "chawla.png",
+      "width": 192,
+      "height": 312,
+      "sha256": "97c3c5e4ef8d3504b2e524a7d940e3b0c6540638c0f1dd93d7444cb71b3afeb9",
+      "source": {
+        "work": "Kalpana Chawla, NASA photo portrait in orange suit.jpg",
+        "repository": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kalpana_Chawla,_NASA_photo_portrait_in_orange_suit.jpg",
+        "licence": "Public domain (NASA / U.S. federal government work)",
+        "derivation": "cropped to the face region of the 960px rendition; not otherwise altered",
+        "crop_fraction_of_source": [
+          0.4,
+          0.22,
+          0.6,
+          0.48
+        ]
+      }
+    },
+    {
+      "id": "jemison",
+      "file": "jemison.png",
+      "width": 163,
+      "height": 240,
+      "sha256": "b1e6348f30c20065466cca296bc4f5bd8a5547a36111ac6d75fdfef72c7e4566",
+      "source": {
+        "work": "Mae Carol Jemison.jpg",
+        "repository": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mae_Carol_Jemison.jpg",
+        "licence": "Public domain (NASA / U.S. federal government work)",
+        "derivation": "cropped to the face region of the 960px rendition; not otherwise altered",
+        "crop_fraction_of_source": [
+          0.51,
+          0.13,
+          0.68,
+          0.33
+        ]
+      }
+    },
+    {
+      "id": "ride",
+      "file": "ride.png",
+      "width": 221,
+      "height": 288,
+      "sha256": "18e0de30ed560a6fea22094d9f48e2002385bc0f8e3cae12a939036c467e2cb8",
+      "source": {
+        "work": "Sally Ride (1984).jpg",
+        "repository": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sally_Ride_(1984).jpg",
+        "licence": "Public domain (NASA / U.S. federal government work)",
+        "derivation": "cropped to the face region of the 960px rendition; not otherwise altered",
+        "crop_fraction_of_source": [
+          0.37,
+          0.21,
+          0.6,
+          0.45
+        ]
+      }
+    }
+  ]
+}
