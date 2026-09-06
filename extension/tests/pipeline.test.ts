@@ -15,8 +15,8 @@ function element(text: string, overrides: Partial<ScreenStateElement> = {}): Scr
 }
 
 describe("client privacy pipeline", () => {
-  it("does not put raw structured PII in the server-bound context", () => {
-    const { context, tokens } = prepareContext("click continue", [
+  it("does not put raw structured PII in the server-bound context", async () => {
+    const { context, tokens } = await prepareContext("click continue", [
       element("Continue +91 9876543210"),
     ]);
 
@@ -25,14 +25,14 @@ describe("client privacy pipeline", () => {
     expect(tokens.resolve("[PII_PHONE_01]")).toBe("+91 9876543210");
   });
 
-  it("labels the element with the PII class it contained", () => {
-    const { context } = prepareContext("click", [element("Card 4111 1111 1111 1111")]);
+  it("labels the element with the PII class it contained", async () => {
+    const { context } = await prepareContext("click", [element("Card 4111 1111 1111 1111")]);
 
     expect(context.elements[0]?.text).toBe("Card [PII_CARD_01]");
   });
 
-  it("counts what it redacted so the audit trail can report it", () => {
-    const prepared = prepareContext("click", [
+  it("counts what it redacted so the audit trail can report it", async () => {
+    const prepared = await prepareContext("click", [
       element("a@b.co", { id: "dom_1" }),
       element("nothing here", { id: "dom_2" }),
     ]);
@@ -41,8 +41,8 @@ describe("client privacy pipeline", () => {
     expect(prepared.tokens.size).toBe(1);
   });
 
-  it("shares one token map across elements so a repeated value keeps its identity", () => {
-    const { context } = prepareContext("click", [
+  it("shares one token map across elements so a repeated value keeps its identity", async () => {
+    const { context } = await prepareContext("click", [
       element("a@b.co", { id: "dom_1" }),
       element("a@b.co", { id: "dom_2" }),
     ]);

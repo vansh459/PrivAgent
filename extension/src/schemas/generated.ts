@@ -6,7 +6,7 @@ import { z } from "zod";
 
 /** The server's proposed next step, validated locally before execution. */
 export interface Action {
-  action: "click" | "type" | "scroll" | "navigate" | "none";
+  action: "click" | "type" | "scroll" | "navigate" | "none" | "done" | "blocked";
   confidence: number;
   explanation: string;
   params?: Record<string, string>;
@@ -16,7 +16,7 @@ export interface Action {
 }
 
 export const ActionSchema: z.ZodType<Action> = z.strictObject({
-  action: z.enum(["click", "type", "scroll", "navigate", "none"]),
+  action: z.enum(["click", "type", "scroll", "navigate", "none", "done", "blocked"]),
   confidence: z.number().min(0).max(1),
   explanation: z.string().min(1),
   params: z.record(z.string(), z.string()).optional(),
@@ -40,16 +40,50 @@ export const ContextElementSchema: z.ZodType<ContextElement> = z.strictObject({
   text: z.string(),
 });
 
+/** One compact prior step, so the reasoner can plan without re-deriving the past.
+
+`page_ident` is the page's *redacted title* - it has been through the same Privacy
+Firewall as every element text. It is never a URL, not even hashed: URLs are on the
+never-transmitted list in docs/SECURITY.md and stay there in 1.1. */
+export interface HistoryStep {
+  action: "click" | "type" | "scroll" | "navigate" | "none" | "done" | "blocked";
+  outcome: string;
+  page_ident: string;
+  target_role?: string | null;
+}
+
+export const HistoryStepSchema: z.ZodType<HistoryStep> = z.strictObject({
+  action: z.enum(["click", "type", "scroll", "navigate", "none", "done", "blocked"]),
+  outcome: z.string().min(1).max(120),
+  page_ident: z.string().max(120),
+  target_role: z.string().nullable().optional(),
+});
+
+/** Where the multi-step loop is: step `n` of at most `limit`. */
+export interface StepInfo {
+  limit: number;
+  n: number;
+}
+
+export const StepInfoSchema: z.ZodType<StepInfo> = z.strictObject({
+  limit: z.number().int().min(1).max(50),
+  n: z.number().int().min(1).max(50),
+});
+
 /** The only payload eligible to cross the network boundary. */
 export interface SanitizedContext {
   elements: ContextElement[];
-  schema_version: "1.0";
+  history?: HistoryStep[];
+  schema_version: "1.0" | "1.1";
+  step?: StepInfo | null;
   task: string;
 }
 
 export const SanitizedContextSchema: z.ZodType<SanitizedContext> = z.strictObject({
   elements: z.array(ContextElementSchema),
-  schema_version: z.literal("1.0"),
+  history: z.array(HistoryStepSchema).optional(),
+  schema_version: z.enum(["1.0", "1.1"]),
+  step: StepInfoSchema.nullable().optional(),
   task: z.string().min(1).max(500),
 });
 

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Report Detail</title>
+  </head>
+  <body>
+    <h1>Q3 Expenditure Report</h1>
+
+    <!-- Same planted phone as the list page: token identity is per step, presence is what
+         the wire assertion checks. -->
+    <div id="contact" role="note" tabindex="0">Queries: call 9876543210.</div>
+
+    <a id="download" href="#downloaded">Download report</a>
+    <p id="result">not downloaded</p>
+
+    <script>
+      document.getElementById("download").addEventListener("click", () => {
+        document.getElementById("result").textContent = "downloaded";
+      });
+    </script>
+  </body>
+</html>

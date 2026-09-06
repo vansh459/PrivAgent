@@ -37,13 +37,17 @@ export default defineManifest({
    * extension-owned files only if they are declared here, so the ONNX/Tesseract cores,
    * the face model and the OCR language data all have to be web-accessible.
    *
+   * `fonts/*` is here for the same reason at a smaller scale: the confirmation prompt is
+   * rendered into a shadow root on the visited page, and without this it would be the one
+   * surface in the product wearing a different typeface.
+   *
    * The cost is that a page can probe for these URLs and learn the extension is
    * installed. That is accepted knowingly: the alternative is fetching the same files
    * from a CDN, which tells a third party the same thing *and* when it happened.
    */
   web_accessible_resources: [
     {
-      resources: ["vendor/ort/*", "vendor/tesseract/*", "models/*", "tessdata/*"],
+      resources: ["vendor/ort/*", "vendor/tesseract/*", "models/*", "tessdata/*", "fonts/*"],
       matches: ["<all_urls>"],
     },
   ],

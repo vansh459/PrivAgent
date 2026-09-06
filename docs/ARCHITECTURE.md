@@ -72,6 +72,14 @@ content script, so it never exists on the visited site's origin - and the face p
 destroyed in that buffer _before_ OCR reads from it, so a face cannot reach the OCR worker
 either.
 
+## The interface
+
+Three surfaces - the popup, the diagnostics tab and the in-page confirmation prompt - all
+drawing from one token file, `src/ui/tokens.css`. The prompt is the interesting one: it
+renders into a closed shadow root on a third-party origin, so it inherits nothing and has to
+inline that same file rather than link it. [DESIGN.md](./DESIGN.md) is the whole system,
+including where glass and clay are used and why.
+
 ## Diagrams for the deck
 
 Two views of the same system, kept next to the code they describe so that they rot visibly

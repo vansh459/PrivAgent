@@ -7,38 +7,48 @@
     <link rel="stylesheet" href="./popup.css" />
   </head>
   <body class="wide">
-    <header>
-      <h1>Perception diagnostics</h1>
-      <p class="tagline">
-        Which local inference backends this device can actually run — measured by executing the
-        bundled model, not by feature detection.
-      </p>
+    <header class="app-bar">
+      <div class="app-bar__inner">
+        <h1>Perception diagnostics</h1>
+        <p class="tagline">
+          Which local inference backends this device can actually run — measured by executing the
+          bundled model, not by feature detection.
+        </p>
+      </div>
     </header>
 
-    <button type="button" id="run-probe">Run probe</button>
-    <p id="probe-status" role="status">Idle.</p>
+    <main class="stack">
+      <section class="card">
+        <h2>Inference backends</h2>
+        <p class="tagline">
+          Each backend is scored by running the bundled face detector on it and timing the result.
+        </p>
+        <button type="button" id="run-probe" class="button button--primary">Run probe</button>
+        <p id="probe-status" role="status">Idle.</p>
+        <ul id="backend-list" class="kv-list"></ul>
+      </section>
 
-    <section id="backends">
-      <h2>Inference backends</h2>
-      <ul id="backend-list"></ul>
-    </section>
+      <section class="card">
+        <h2>OCR self-test</h2>
+        <p class="tagline">
+          Reads ten known strings back off a canvas and scores each one by edit distance. OCR fails
+          silently otherwise — a worker that loads and returns confident nonsense looks exactly like
+          a working one.
+        </p>
+        <button type="button" id="run-ocr" class="button">Run OCR self-test</button>
+        <p id="ocr-status" role="status">Not run.</p>
+        <ul id="ocr-list" class="kv-list"></ul>
+      </section>
 
-    <section id="ocr">
-      <h2>OCR self-test</h2>
-      <p class="tagline">
-        Reads ten known strings back off a canvas and scores each one by edit distance. OCR fails
-        silently otherwise � a worker that loads and returns confident nonsense looks exactly like a
-        working one.
-      </p>
-      <button type="button" id="run-ocr">Run OCR self-test</button>
-      <p id="ocr-status" role="status">Not run.</p>
-      <ul id="ocr-list"></ul>
-    </section>
-
-    <section id="assets">
-      <h2>Bundled assets</h2>
-      <ul id="asset-list"></ul>
-    </section>
+      <section class="card">
+        <h2>Bundled assets</h2>
+        <p class="tagline">
+          Every inference asset, served from this extension's own origin. Nothing here is fetched
+          from a network at runtime.
+        </p>
+        <ul id="asset-list" class="kv-list"></ul>
+      </section>
+    </main>
 
     <script type="module" src="./diagnostics.ts"></script>
   </body>

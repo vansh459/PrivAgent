@@ -1,0 +1,224 @@
+/*
+ * The design system, as data. Every value the interface uses is defined here once.
+ *
+ * Two consumers, one file. `popup.css` imports it for the extension's own pages, and
+ * `content/confirm.ts` inlines it into the closed shadow root of the in-page confirmation
+ * prompt - a surface that runs on a third-party origin and can inherit nothing. Importing
+ * the same file into both is what makes "one design system" true rather than aspirational:
+ * there is no second copy to drift.
+ *
+ * The rules that produced these values, so that any component's styling can be traced back
+ * to one of them:
+ *
+ *   - One font family. One.
+ *   - Two type sizes. Hierarchy comes from weight and colour, never from a third size.
+ *   - One 8px-based spacing scale. No component may invent a pixel value.
+ *   - One neutral ramp, one accent ramp, one semantic set. Nothing else.
+ *   - Glass is for surfaces that float above content. Clay is for the primary action.
+ *     Everything else is flat, and the flatness is the point.
+ */
+
+/* ---------------------------------------------------------------- typeface ---- */
+
+/*
+ * Inter, vendored. Not from a CDN: this extension fetches nothing at runtime, that claim is
+ * asserted by a browser test, and it would be absurd to hold the inference stack to that
+ * rule and then let a font phone home. The latin subset is 48 KB, pinned by SHA-256 in
+ * `scripts/vendor-assets.mjs` beside the ONNX model, and licensed under the SIL OFL 1.1
+ * (see `extension/assets/fonts/LICENSE.txt`).
+ */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Inter-latin.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Two sizes. A third would need a written justification, and there is not one. */
+  --text-body: 0.8125rem; /* 13px - body, UI, labels, detail */
+  --text-heading: 1rem; /* 16px - the product name and section headings */
+
+  --leading-body: 1.5;
+  --leading-heading: 1.15;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  --tracking-wide: 0.04em;
+  --tracking-tight: -0.01em;
+
+  /* Comfortable line length for prose. Wider than this and the eye loses the next line. */
+  --measure: 62ch;
+
+  /* ------------------------------------------------------------- spacing ---- */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* Line weights. Not spacing, so they get their own two values rather than a scale. */
+  --border-width: 1px;
+  --rule-width: 2px;
+
+  /* Fixed dimensions, still on the scale: 400, 720 and 320 are all multiples of 16. */
+  --width-popup: 400px;
+  --width-page: 720px;
+  --width-prompt: 320px;
+  --control-height: var(--space-8);
+
+  /* --------------------------------------------------------------- colour ---- */
+
+  /*
+   * One neutral ramp. Named by lightness so the dark theme can invert the mapping without
+   * renaming anything: `--surface` is always the thing text sits on, in either scheme.
+   */
+  --neutral-0: #ffffff;
+  --neutral-50: #f7f7f9;
+  --neutral-100: #eeeef1;
+  --neutral-200: #e0e0e5;
+  --neutral-400: #6f6e7a;
+  --neutral-600: #55545f;
+  --neutral-900: #16161a;
+
+  /* One accent ramp, developed from the blue this project already used. */
+  --accent-100: #e8effa;
+  --accent-500: #1a5fb4;
+  --accent-600: #17518f;
+  --accent-fg: #ffffff;
+
+  /* One semantic set. Chosen to clear 4.5:1 on `--surface` in both schemes. */
+  --success: #146c2e;
+  --success-tint: #e7f3ea;
+  --warning: #7a5108;
+  --warning-tint: #fbf1de;
+  --danger: #a52318;
+  --danger-tint: #fbeae8;
+
+  /* Roles. Components reference these, never the ramp directly. */
+  --canvas: var(--neutral-50);
+  --surface: var(--neutral-0);
+  --surface-sunken: var(--neutral-50);
+  --border: var(--neutral-200);
+  --border-strong: var(--neutral-400);
+  --fg: var(--neutral-900);
+  --fg-muted: var(--neutral-600);
+  --fg-subtle: var(--neutral-400);
+
+  /* ---------------------------------------------------------------- glass ---- */
+
+  /*
+   * For surfaces that float above content, and nothing else.
+   *
+   * The alpha values are not taste, they are the output of `tests/contrast.test.ts`. That
+   * test composites this fill onto pure white and pure black - the extremes the in-page
+   * prompt can land on, since its backdrop is a page nobody has seen - and requires every
+   * piece of text on it to clear WCAG AA against both. Light needs 0.82; dark needs 0.90,
+   * because a dark card over a bright page loses contrast faster than the reverse.
+   */
+  --glass-bg: rgba(255, 255, 255, 0.82);
+  --glass-border: rgba(22, 22, 26, 0.08);
+  --glass-blur: 16px;
+  --glass-saturate: 1.6;
+  --glass-shadow: 0 1px 2px rgba(22, 22, 26, 0.06), 0 8px 32px rgba(22, 22, 26, 0.12);
+
+  /* ----------------------------------------------------------------- clay ---- */
+
+  /*
+   * For the one primary action on a screen. The light source is top-left everywhere in the
+   * app - an inset highlight above, an inset shade below, and a coloured cast beneath -
+   * so every tactile element in the product is lit from the same direction.
+   */
+  --clay-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.32), inset 0 -2px 0 rgba(22, 22, 26, 0.16),
+    0 1px 2px rgba(22, 22, 26, 0.12), 0 8px 16px -6px rgba(26, 95, 180, 0.5);
+  --clay-shadow-hover:
+    inset 0 1px 0 rgba(255, 255, 255, 0.36), inset 0 -2px 0 rgba(22, 22, 26, 0.16),
+    0 2px 4px rgba(22, 22, 26, 0.14), 0 12px 22px -6px rgba(26, 95, 180, 0.55);
+  --clay-shadow-pressed:
+    inset 0 2px 4px rgba(22, 22, 26, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+  /*
+   * Two focus treatments, because two shapes need it. `--ring` sits outside a filled
+   * control and needs a gap so it reads against the fill; `--ring-inset` tints the field a
+   * control is drawn in. Both are the accent, so focus looks like one idea.
+   */
+  --ring: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent-500);
+  --ring-inset: 0 0 0 3px var(--accent-100);
+
+  /* --------------------------------------------------------------- motion ---- */
+
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration-fast: 150ms;
+  --duration: 200ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --neutral-0: #17171b;
+    --neutral-50: #101013;
+    --neutral-100: #202026;
+    --neutral-200: #303038;
+    --neutral-400: #94929f;
+    --neutral-600: #a5a4b0;
+    --neutral-900: #f2f2f5;
+
+    --accent-100: #16233a;
+    --accent-500: #6fa4ee;
+    --accent-600: #8fbaf5;
+    --accent-fg: #0d1520;
+
+    --success: #6cc48a;
+    --success-tint: #14251a;
+    --warning: #e0aa5a;
+    --warning-tint: #2a2114;
+    --danger: #f08b80;
+    --danger-tint: #2e1715;
+
+    --glass-bg: rgba(28, 28, 34, 0.9);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 32px rgba(0, 0, 0, 0.45);
+
+    /*
+     * The clay cast is black in the dark theme rather than accent-tinted. A coloured glow
+     * under a light button on a dark ground reads as a state - selected, active, alarming -
+     * rather than as a raised surface.
+     */
+    --clay-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.24), inset 0 -2px 0 rgba(0, 0, 0, 0.32),
+      0 1px 2px rgba(0, 0, 0, 0.5), 0 8px 16px -6px rgba(0, 0, 0, 0.6);
+    --clay-shadow-hover:
+      inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -2px 0 rgba(0, 0, 0, 0.32),
+      0 2px 4px rgba(0, 0, 0, 0.5), 0 12px 22px -6px rgba(0, 0, 0, 0.65);
+    --clay-shadow-pressed:
+      inset 0 2px 4px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+}
+
+/*
+ * Motion is decoration. Somebody who has asked their operating system to stop it has asked
+ * this extension too, and the tokens are the one place that can be honoured for the whole
+ * product at once.
+ */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration: 0ms;
+  }
+}

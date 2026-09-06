@@ -167,19 +167,23 @@ export const WEAK_EVIDENCE = 0.5;
  * name with noise around it, it is not a name.
  */
 function trimToName(candidate: string): { value: string; offset: number } | undefined {
-  const words = candidate.split(/\s+/);
+  // Words with their positions, not a re-join: the first version joined the kept words
+  // with single spaces and then searched for that string in the candidate, which fails
+  // the moment the words were separated by anything else - and silently dropped "Arjun
+  // Menon\nIdentity", leaking the name. Slicing between measured offsets cannot miss.
+  const words = [...candidate.matchAll(/\S+/g)].map((hit) => ({ word: hit[0], at: hit.index }));
   let first = 0;
   let last = words.length - 1;
-  while (first <= last && isNotNameWord(words[first]!)) first += 1;
-  while (last >= first && isNotNameWord(words[last]!)) last -= 1;
+  while (first <= last && isNotNameWord(words[first]!.word)) first += 1;
+  while (last >= first && isNotNameWord(words[last]!.word)) last -= 1;
   if (last - first < 1) return undefined;
 
   const kept = words.slice(first, last + 1);
-  if (kept.some(isNotNameWord)) return undefined;
+  if (kept.some((entry) => isNotNameWord(entry.word))) return undefined;
 
-  const value = kept.join(" ");
-  const offset = candidate.indexOf(value);
-  return offset < 0 ? undefined : { value, offset };
+  const start = kept[0]!.at;
+  const end = kept[kept.length - 1]!.at + kept[kept.length - 1]!.word.length;
+  return { value: candidate.slice(start, end), offset: start };
 }
 
 /**
@@ -351,20 +355,39 @@ function detectAddresses(text: string): PiiMatch[] {
  *
  * Spans may overlap each other and the structured detectors' spans; `resolveSpans` in the
  * Privacy Firewall reduces them, longest match first.
+ *
+ * Detection runs per line. `innerText` separates block elements with newlines, so a
+ * newline is an element boundary, not a space: "Signed in as Ramesh Iyer\nShop" is a
+ * status line and then a menu item, and letting a candidate straddle the two produced
+ * exactly the wrong result twice over - the straddling candidate was malformed AND it
+ * consumed the name so no clean candidate was found, which is how two of the three
+ * measured redaction leaks happened. Per-line detection also means a paragraph-length
+ * container is judged line by line, so `readsLikeProse` sees the field-like fragment the
+ * user sees, not a 1,000-word concatenation.
  */
 export function detectUnstructuredPii(text: string): PiiMatch[] {
-  const addresses = detectAddresses(text);
+  const found: PiiMatch[] = [];
+  let offset = 0;
 
-  // A street name inside a detected address is part of that address, not a second person
-  // standing in it. Only weak, shape-only name candidates are dropped this way: an
-  // explicitly labelled name inside an address line is still a name.
-  const names = detectNames(text).filter(
-    (name) =>
-      name.confidence > WEAK_EVIDENCE ||
-      !addresses.some((address) => name.start >= address.start && name.end <= address.end),
-  );
+  for (const line of text.split("\n")) {
+    const addresses = detectAddresses(line);
 
-  return [...names, ...addresses].sort(
+    // A street name inside a detected address is part of that address, not a second
+    // person standing in it. Only weak, shape-only name candidates are dropped this way:
+    // an explicitly labelled name inside an address line is still a name.
+    const names = detectNames(line).filter(
+      (name) =>
+        name.confidence > WEAK_EVIDENCE ||
+        !addresses.some((address) => name.start >= address.start && name.end <= address.end),
+    );
+
+    for (const match of [...names, ...addresses]) {
+      found.push({ ...match, start: match.start + offset, end: match.end + offset });
+    }
+    offset += line.length + 1; // the split-away "\n"
+  }
+
+  return found.sort(
     (left, right) => left.start - right.start || right.end - right.start - (left.end - left.start),
   );
 }

@@ -105,9 +105,9 @@ describe("the confidence review band", () => {
     }
   });
 
-  it("withholds the element entirely, so a borderline guess never reaches the server", () => {
+  it("withholds the element entirely, so a borderline guess never reaches the server", async () => {
     for (const text of BORDERLINE) {
-      const prepared = prepareContext("review the note", [element(text)]);
+      const prepared = await prepareContext("review the note", [element(text)]);
 
       expect(prepared.withheldForReview, `${text} was not withheld`).toBe(1);
       expect(prepared.context.elements, `${text} reached the payload`).toEqual([]);
@@ -122,10 +122,10 @@ describe("the confidence review band", () => {
     expect(privacyDecision(0.6)).toBe("mask");
   });
 
-  it("does not flag a high-confidence detection for review", () => {
+  it("does not flag a high-confidence detection for review", async () => {
     // The band is for uncertainty, not for everything. A labelled name is masked and
     // transmitted as a token, which keeps the element usable to the agent.
-    const prepared = prepareContext("call the account holder", [
+    const prepared = await prepareContext("call the account holder", [
       element("Account holder: Anita Sharma"),
     ]);
 

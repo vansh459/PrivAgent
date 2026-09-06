@@ -4,7 +4,13 @@ import {
   type FaceDetection,
   type RgbaSource,
 } from "../content/faceDetection";
-import { readRegions, sharedOcrWorker, type OcrRegion, type OcrResult } from "../content/ocr";
+import {
+  readRegions,
+  releaseSharedOcrWorker,
+  sharedOcrWorker,
+  type OcrRegion,
+  type OcrResult,
+} from "../content/ocr";
 import { applyMaskToCanvas, maskRegions } from "./redactPixels";
 import type { BoundingBox, ScreenStateElement } from "../schemas/screenState";
 import { PrivAgentError } from "../shared/errors";
@@ -94,7 +100,37 @@ export async function warmUpVision(): Promise<WarmUpReport> {
   const detector = faceDetectionSession().then(() => Math.round(performance.now() - started));
   const ocr = sharedOcrWorker().then(() => Math.round(performance.now() - started));
   const [detectorMs, ocrMs] = await Promise.all([detector, ocr]);
+  scheduleOcrIdleRelease();
   return { detectorMs, ocrMs, totalMs: Math.round(performance.now() - started) };
+}
+
+/**
+ * How long the shared OCR worker survives with no pass using it.
+ *
+ * The worker holds a ~4 MB WASM core plus parsed language data resident in the vision
+ * host - the single largest *retained* allocation in the pipeline, kept only so the next
+ * task does not repay ~2 s of startup. Ninety seconds covers a user running tasks in
+ * sequence; after that, memory wins and the next task pays the warm-up again.
+ */
+export const OCR_IDLE_RELEASE_MS = 90_000;
+
+let ocrIdleTimer: ReturnType<typeof setTimeout> | undefined;
+
+/** (Re)starts the idle countdown; every completed pass or warm-up pushes it back. */
+export function scheduleOcrIdleRelease(delayMs = OCR_IDLE_RELEASE_MS): void {
+  cancelOcrIdleRelease();
+  ocrIdleTimer = setTimeout(() => {
+    ocrIdleTimer = undefined;
+    releaseSharedOcrWorker().catch((error: unknown) => {
+      console.warn("PrivAgent OCR idle release failed:", error);
+    });
+  }, delayMs);
+}
+
+/** Called when a pass starts, so the worker is never torn down mid-read. */
+export function cancelOcrIdleRelease(): void {
+  if (ocrIdleTimer !== undefined) clearTimeout(ocrIdleTimer);
+  ocrIdleTimer = undefined;
 }
 
 /**
@@ -151,6 +187,7 @@ export async function analyzeScreenshot(
   options: AnalyzeOptions = {},
 ): Promise<VisionAnalysis> {
   const started = performance.now();
+  cancelOcrIdleRelease();
   const decode = options.decode ?? decodeCapture;
   const detect = options.detect ?? ((source: RgbaSource) => detectFacesInImage(source));
   const read =
@@ -174,7 +211,14 @@ export async function analyzeScreenshot(
 
   const ocrStarted = performance.now();
   const unread = regions.filter((region) => region.describedText.length === 0);
-  const texts = await read(screenshot.source, unread);
+  let texts: OcrResult[];
+  try {
+    texts = await read(screenshot.source, unread);
+  } finally {
+    // Whether the read succeeded or not, the pass is over: start the idle countdown so
+    // an abandoned worker cannot sit resident forever after a failure.
+    scheduleOcrIdleRelease();
+  }
   const finished = performance.now();
 
   const elements: ScreenStateElement[] = faces.map((face, index) => ({

@@ -1,4 +1,5 @@
 import browser from "webextension-polyfill";
+import type { NameVerifyItem } from "../content/nameVerifier";
 import type { VisionAnalysis, Viewport, VisualRegion } from "../vision/analyze";
 import { PrivAgentError } from "../shared/errors";
 import type { Reply, ToOffscreen } from "../shared/messages";
@@ -124,5 +125,38 @@ export async function analyzeInHost(
   throw new PrivAgentError(
     "capability_unavailable",
     "This browser offers no extension-origin document to run local vision in",
+  );
+}
+
+/**
+ * Scores NAME candidates in the same extension-origin host the vision pass uses.
+ *
+ * The routing mirrors `analyzeInHost` exactly - Chrome's offscreen document, or the
+ * Firefox event page itself - because the constraint is the same: the model's WASM has to
+ * instantiate on our origin, not the visited page's.
+ */
+export async function verifyNamesInHost(items: NameVerifyItem[]): Promise<boolean[][]> {
+  const api = offscreenApi();
+  if (api) {
+    await ensureOffscreenDocument(api);
+    const message: ToOffscreen = { type: "privagent/verify-names-run", items };
+    const reply = (await browser.runtime.sendMessage(message)) as Reply<boolean[][]>;
+    if (!reply?.ok) {
+      throw new PrivAgentError(
+        reply?.error?.code ?? "capability_unavailable",
+        reply?.error?.message ?? "The offscreen vision document did not respond",
+      );
+    }
+    return reply.value;
+  }
+
+  if (typeof document !== "undefined") {
+    const { verifyNamesInDocument } = await import("../vision/verifyNames");
+    return verifyNamesInDocument(items);
+  }
+
+  throw new PrivAgentError(
+    "capability_unavailable",
+    "This browser offers no extension-origin document to run the name verifier in",
   );
 }

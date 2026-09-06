@@ -7,47 +7,68 @@
     <link rel="stylesheet" href="./popup.css" />
   </head>
   <body>
-    <header>
-      <h1>PrivAgent</h1>
-      <p class="tagline">Local perception, local redaction, remote reasoning.</p>
+    <header class="app-bar">
+      <div class="app-bar__inner">
+        <h1>PrivAgent</h1>
+        <p class="tagline">Local perception, local redaction, remote reasoning.</p>
+      </div>
     </header>
 
-    <form id="task-form">
-      <label for="task">Task</label>
-      <input
-        id="task"
-        name="task"
-        type="text"
-        placeholder="e.g. click the download report link"
-        required
-      />
-      <button type="submit" id="run">Run task</button>
-    </form>
+    <main class="stack">
+      <form id="task-form" class="card">
+        <div class="field">
+          <label for="task">Task</label>
+          <input
+            id="task"
+            name="task"
+            type="text"
+            placeholder="e.g. click the download report link"
+            required
+          />
+        </div>
+        <label class="field field--inline" for="multi-step">
+          <input id="multi-step" name="multi-step" type="checkbox" />
+          Multi-step (agent keeps going until the task is done, max 15 steps)
+        </label>
+        <button type="submit" id="run" class="button button--primary button--block">
+          Run task
+        </button>
+        <button type="button" id="stop" class="button button--block" hidden>Stop</button>
+      </form>
 
-    <section id="summary" hidden>
-      <h2>Privacy summary</h2>
-      <dl id="summary-list"></dl>
-    </section>
+      <section id="summary" class="card" hidden>
+        <h2>Privacy summary</h2>
+        <!--
+          Flat by contract: four browser suites read `#summary-list > *` pairwise as
+          label/value, so nothing may be wrapped around a row.
+        -->
+        <dl id="summary-list"></dl>
+      </section>
 
-    <section id="trace" hidden>
-      <h2>Audit trail</h2>
-      <ol id="trace-list"></ol>
-    </section>
+      <section id="trace" class="card" hidden>
+        <h2>Audit trail</h2>
+        <ol id="trace-list"></ol>
+      </section>
 
-    <p id="status" role="status" data-state="idle">Ready.</p>
+      <p id="status" role="status" data-state="idle">Ready.</p>
 
-    <details id="settings">
-      <summary>Settings</summary>
-      <label for="server">Reasoner URL</label>
-      <input id="server" type="url" />
-      <button type="button" id="save-server">Save</button>
-      <p class="tagline">
-        <a id="open-diagnostics" href="./diagnostics.html" target="_blank" rel="noreferrer"
-          >Perception diagnostics</a
-        >
-        � which local inference backends this device can run.
-      </p>
-    </details>
+      <details id="settings" class="card">
+        <summary>Settings</summary>
+        <div class="settings-body">
+          <div class="field">
+            <label for="server">Reasoner URL</label>
+            <input id="server" type="url" />
+          </div>
+          <button type="button" id="save-server" class="button">Save</button>
+          <p class="tagline">
+            <a id="open-diagnostics" href="./diagnostics.html" target="_blank" rel="noreferrer"
+              >Perception diagnostics</a
+            >
+            — which local inference backends this device can run.
+          </p>
+        </div>
+      </details>
+    </main>
 
     <script type="module" src="./popup.ts"></script>
   </body>

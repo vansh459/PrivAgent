@@ -1,7 +1,10 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { describe, expect, it } from "vitest";
-import { detectPii, resolveSpans } from "../src/content/privacy";
+import * as ort from "onnxruntime-web";
+import { beforeAll, describe, expect, it } from "vitest";
+import { NameVerifier, WordPieceTokenizer } from "../src/content/nameVerifier";
+import { detectPii, resolveSpans, type PiiMatch } from "../src/content/privacy";
+import { createVisionSession } from "../src/content/visionRuntime";
 import type { PiiType } from "../src/schemas/screenState";
 
 /**
@@ -29,6 +32,52 @@ import type { PiiType } from "../src/schemas/screenState";
 const datasetDir = resolve(import.meta.dirname, "..", "..", "tests", "dataset", "screens");
 const reviewFile = resolve(import.meta.dirname, "..", "..", "tests", "dataset", "pii-review.json");
 const resultsDir = resolve(import.meta.dirname, "..", "..", "test-results");
+const modelsDir = resolve(import.meta.dirname, "..", "assets", "models");
+
+/**
+ * The measurement runs the same hybrid detection the pipeline runs: rules generate
+ * candidates, and the bundled NER model rejects NAME candidates it sees no person in
+ * (`prepareContext` -> `rejectedNameSpans`). The filter is replicated here rather than
+ * imported because the pipeline's version is shaped around elements and message hops;
+ * the decision rule - drop rejected NAME matches BEFORE span resolution - is the part
+ * that must match, and `namesRejected` in `dataset-pii-precision.json` is its witness.
+ */
+let verifier: NameVerifier;
+let namesRejected = 0;
+
+beforeAll(async () => {
+  const model = new Uint8Array(readFileSync(resolve(modelsDir, "tinybert_ner_int8.onnx")));
+  const tokenizerJson = JSON.parse(
+    readFileSync(resolve(modelsDir, "tinybert_ner_tokenizer.json"), "utf8"),
+  ) as unknown;
+  const { session } = await createVisionSession(model, { backend: "wasm" });
+  verifier = new NameVerifier(
+    session,
+    WordPieceTokenizer.fromTokenizerJson(tokenizerJson),
+    ort.Tensor,
+  );
+}, 120_000);
+
+async function verifiedSpans(text: string): Promise<PiiMatch[]> {
+  const detected = detectPii(text);
+  const candidates = detected.filter((match) => match.type === "NAME");
+  if (candidates.length === 0) return resolveSpans(detected);
+
+  const [confirmed] = await verifier.verify([
+    { text, spans: candidates.map(({ start, end }) => ({ start, end })) },
+  ]);
+  const rejected = new Set(
+    candidates
+      .filter((_, index) => confirmed?.[index] === false)
+      .map((match) => `${match.start}:${match.end}`),
+  );
+  namesRejected += rejected.size;
+  return resolveSpans(
+    detected.filter(
+      (match) => !(match.type === "NAME" && rejected.has(`${match.start}:${match.end}`)),
+    ),
+  );
+}
 
 interface Screen {
   id: string;
@@ -45,9 +94,9 @@ function screens(): Screen[] {
 }
 
 /** True when a resolved span of the right type covers the labelled value. */
-function coversValue(text: string, value: string, type: PiiType): boolean {
+async function coversValue(text: string, value: string, type: PiiType): Promise<boolean> {
   const at = text.indexOf(value);
-  return resolveSpans(detectPii(text)).some(
+  return (await verifiedSpans(text)).some(
     (span) =>
       span.type === type &&
       // Overlap rather than exact bounds: "Aadhaar 4321 8765 2109" may be detected as the
@@ -65,7 +114,7 @@ function write(name: string, value: unknown): void {
 describe("PII detection over the labelled dataset (Phase 8.3)", () => {
   const all = screens();
 
-  it("recalls the injected spans, and reports what it misses by type", () => {
+  it("recalls the injected spans, and reports what it misses by type", async () => {
     const byType = new Map<string, { found: number; total: number; missed: string[] }>();
     let found = 0;
     let total = 0;
@@ -86,7 +135,7 @@ describe("PII detection over the labelled dataset (Phase 8.3)", () => {
         total += 1;
         const bucket = byType.get(span.type) ?? { found: 0, total: 0, missed: [] };
         bucket.total += 1;
-        if (coversValue(text, span.value, span.type)) {
+        if (await coversValue(text, span.value, span.type)) {
           bucket.found += 1;
           found += 1;
         } else {
@@ -125,9 +174,9 @@ describe("PII detection over the labelled dataset (Phase 8.3)", () => {
     // docs/RESULTS.md carries what it actually scored.
     expect(total).toBeGreaterThanOrEqual(390);
     expect(found / total).toBeGreaterThan(0.95);
-  });
+  }, 300_000);
 
-  it("scores precision against the reviewed verdict for every unlabelled detection", () => {
+  it("scores precision against the reviewed verdict for every unlabelled detection", async () => {
     const review = JSON.parse(readFileSync(reviewFile, "utf8")) as {
       entries: { type: string; value: string; verdict: string }[];
     };
@@ -157,7 +206,7 @@ describe("PII detection over the labelled dataset (Phase 8.3)", () => {
           continue;
         }
         strings += 1;
-        for (const span of resolveSpans(detectPii(row.text))) {
+        for (const span of await verifiedSpans(row.text)) {
           const value = row.text.slice(span.start, span.end);
           if (isInjected(value)) continue;
           unlabelled.push({
@@ -188,6 +237,7 @@ describe("PII detection over the labelled dataset (Phase 8.3)", () => {
       detections: total,
       labelledSpans,
       unlabelledDetections: unlabelled.length,
+      namesRejectedByVerifier: namesRejected,
       ...tally,
       precision,
       typeCorrectPrecision: typeCorrect / total,
@@ -207,6 +257,7 @@ describe("PII detection over the labelled dataset (Phase 8.3)", () => {
       [...new Set(unreviewed)],
       "unreviewed detections; read them and add them to tests/dataset/pii-review.json",
     ).toEqual([]);
-    expect(precision).toBeGreaterThan(0.6);
-  });
+    // Raised from 0.6 when the NER name verifier landed (measured 95%+; see RESULTS.md).
+    expect(precision).toBeGreaterThan(0.9);
+  }, 600_000);
 });

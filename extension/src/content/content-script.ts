@@ -1,14 +1,22 @@
 import browser from "webextension-polyfill";
 import { effectiveRisk, executeAction, requiresConfirmation } from "./actions";
+import { detectBotBlock } from "./botBlock";
 import { confirmAction } from "./confirm";
 import { perceiveDom } from "./domWalker";
 import { fuseScreenElements } from "./fusion";
-import { prepareContext } from "./pipeline";
+import { prepareContext, type NameVerifierFn, type PreparedContext } from "./pipeline";
 import { tryVisionPass, type VisionPassOptions } from "./visionPass";
 import { parseAction } from "../schemas/screenState";
-import type { Action, RiskTier } from "../schemas/screenState";
+import type { Action, HistoryStep, RiskTier, StepInfo } from "../schemas/screenState";
 import { describeError, PrivAgentError } from "../shared/errors";
-import type { AuditStage, Reply, TaskSummary, ToBackground, ToContent } from "../shared/messages";
+import type {
+  AuditStage,
+  Reply,
+  StepReport,
+  TaskSummary,
+  ToBackground,
+  ToContent,
+} from "../shared/messages";
 
 /**
  * Content script: the perceive -> redact -> reason -> validate -> act loop.
@@ -43,6 +51,23 @@ export interface RunOptions {
   confirm?: (action: Action, risk: RiskTier) => Promise<boolean>;
   /** Injectable capture/detect/read seams, so the loop is testable without a browser. */
   vision?: VisionPassOptions;
+  /** Injectable NER name verifier; the real one runs in the extension-origin vision host. */
+  verifyNames?: NameVerifierFn;
+}
+
+/**
+ * Default name verifier: the candidates travel to the background worker, which hosts the
+ * model in the same extension-origin document the vision pass uses. `prepareContext`
+ * treats any failure here as "confirm everything", so an unreachable host costs precision
+ * only, never recall.
+ */
+const verifyNamesInHost: NameVerifierFn = (items) =>
+  send<boolean[][]>({ type: "privagent/verify-names", items });
+
+/** The loop controller's per-step context: which step this is, and what came before. */
+interface LoopStepContext {
+  step: StepInfo;
+  history: HistoryStep[];
 }
 
 async function runTask(
@@ -50,7 +75,42 @@ async function runTask(
   task: string,
   options: RunOptions = {},
 ): Promise<TaskSummary> {
+  return (await runStep(taskId, task, options)).summary;
+}
+
+async function runStep(
+  taskId: string,
+  task: string,
+  options: RunOptions = {},
+  loop?: LoopStepContext,
+): Promise<{ summary: TaskSummary; report: StepReport }> {
   const confirm = options.confirm ?? confirmAction;
+
+  // Bot-check gate, before a single pixel or element is read: a site that presents an
+  // automation challenge is answered by stopping, never by working around it.
+  const bot = detectBotBlock();
+  if (bot.blocked) {
+    await audit(
+      taskId,
+      "observe",
+      `automation challenge detected (${bot.marker}); stopping`,
+      false,
+    );
+    const summary = emptySummary(taskId, task, "blocked_by_site");
+    return {
+      summary,
+      report: {
+        state: "blocked",
+        actionType: "blocked",
+        targetRole: null,
+        outcome: `blocked by site (${bot.marker})`,
+        pageIdent: "",
+        blockedReason: "bot_detection",
+        summary,
+      },
+    };
+  }
+
   const { elements: domElements, refs } = perceiveDom();
 
   // Vision runs before redaction, not after: text read out of a canvas is exactly as
@@ -76,11 +136,21 @@ async function runTask(
     !vision.error,
   );
 
-  const prepared = prepareContext(task, elements);
+  const prepared = await prepareContext(task, elements, {
+    verifyNames: options.verifyNames ?? verifyNamesInHost,
+    loop,
+  });
+
+  // The page's identity for the step history: its title, through the same firewall as
+  // everything else, truncated. Never the URL - that stays on the never-transmitted list.
+  const pageIdent = prepared.tokens.redact(document.title ?? "").text.slice(0, 120);
   await audit(
     taskId,
     "detect_pii",
-    `${prepared.redactedElements} of ${elements.length} elements matched a PII detector`,
+    `${prepared.redactedElements} of ${elements.length} elements matched a PII detector` +
+      (prepared.namesRejected > 0
+        ? `; ${prepared.namesRejected} name candidate(s) released by the NER verifier`
+        : ""),
   );
   await audit(
     taskId,
@@ -101,9 +171,31 @@ async function runTask(
   const risk = effectiveRisk(action, targetSensitive);
   await audit(taskId, "validate", `effective risk=${risk} (server proposed ${action.risk})`);
 
+  const targetRole =
+    prepared.context.elements.find((element) => element.mark_id === action.target_id)?.role ?? null;
+
   if (requiresConfirmation(risk) && !(await confirm(action, risk))) {
     await audit(taskId, "act", "user denied the proposed action", false);
-    return summarize(taskId, task, elements.length, vision, prepared, action, "denied_by_user");
+    const summary = summarize(
+      taskId,
+      task,
+      elements.length,
+      vision,
+      prepared,
+      action,
+      "denied_by_user",
+    );
+    return {
+      summary,
+      report: {
+        state: "declined",
+        actionType: action.action,
+        targetRole,
+        outcome: "denied by user",
+        pageIdent,
+        summary,
+      },
+    };
   }
 
   const marks = new Map<string, HTMLElement>();
@@ -118,10 +210,75 @@ async function runTask(
       ? `executed ${outcome.action}`
       : outcome.status === "skipped"
         ? "no action proposed"
-        : `${outcome.reason}: ${outcome.detail}`;
-  await audit(taskId, "act", detail, outcome.status !== "failed");
+        : outcome.status === "done"
+          ? "task reported done"
+          : outcome.status === "blocked"
+            ? `stopped: ${outcome.reason}`
+            : `${outcome.reason}: ${outcome.detail}`;
 
-  return summarize(taskId, task, elements.length, vision, prepared, action, outcome.status);
+  const summary = summarize(
+    taskId,
+    task,
+    elements.length,
+    vision,
+    prepared,
+    action,
+    outcome.status,
+  );
+  const state: StepReport["state"] =
+    outcome.status === "executed"
+      ? "executed"
+      : outcome.status === "skipped"
+        ? "none"
+        : outcome.status === "done"
+          ? "done"
+          : outcome.status === "blocked"
+            ? "blocked"
+            : "failed";
+  const report: StepReport = {
+    state,
+    actionType: action.action,
+    targetRole,
+    outcome: detail,
+    pageIdent,
+    ...(outcome.status === "blocked" ? { blockedReason: outcome.reason } : {}),
+    summary,
+  };
+
+  // An executed click may already be navigating this page away. Everything below this
+  // line - the audit write, the reply on the message channel - is an await the unloading
+  // document may never come back from, so the finished report is fired to the background
+  // out-of-band FIRST, with nothing awaited before it. The loop controller falls back to
+  // this copy when the reply channel dies mid-navigation.
+  if (loop) {
+    void browser.runtime
+      .sendMessage({
+        type: "privagent/step-result",
+        taskId,
+        step: loop.step.n,
+        report,
+      } satisfies ToBackground)
+      .catch(() => undefined);
+  }
+
+  await audit(taskId, "act", detail, outcome.status !== "failed");
+  return { summary, report };
+}
+
+/** A summary for a step that stopped before perceiving anything. */
+function emptySummary(taskId: string, task: string, outcome: string): TaskSummary {
+  return {
+    taskId,
+    task,
+    observed: 0,
+    perceivedByVision: 0,
+    facesDetected: 0,
+    transmitted: 0,
+    redactedElements: 0,
+    withheldForReview: 0,
+    action: null,
+    outcome,
+  };
 }
 
 function summarize(
@@ -129,7 +286,7 @@ function summarize(
   task: string,
   observed: number,
   vision: { elements: unknown[]; faces: number },
-  prepared: ReturnType<typeof prepareContext>,
+  prepared: PreparedContext,
   action: TaskSummary["action"],
   outcome: string,
 ): TaskSummary {
@@ -147,12 +304,35 @@ function summarize(
   };
 }
 
-async function handleTask(request: ToContent): Promise<Reply<TaskSummary>> {
+async function handleTask(
+  request: Extract<ToContent, { type: "privagent/execute-task" }>,
+): Promise<Reply<TaskSummary>> {
   try {
     return { ok: true, value: await runTask(request.taskId, request.task) };
   } catch (error) {
     const described = describeError(error);
     await audit(request.taskId, "act", `pipeline failed: ${described.code}`, false);
+    return { ok: false, error: described };
+  }
+}
+
+async function handleLoopStep(
+  request: Extract<ToContent, { type: "privagent/loop-step" }>,
+): Promise<Reply<StepReport>> {
+  try {
+    const { report } = await runStep(
+      request.taskId,
+      request.task,
+      {},
+      {
+        step: request.step,
+        history: request.history,
+      },
+    );
+    return { ok: true, value: report };
+  } catch (error) {
+    const described = describeError(error);
+    await audit(request.taskId, "act", `step failed: ${described.code}`, false);
     return { ok: false, error: described };
   }
 }
@@ -165,8 +345,9 @@ async function handleTask(request: ToContent): Promise<Reply<TaskSummary>> {
  */
 browser.runtime.onMessage.addListener((message: unknown) => {
   const request = message as ToContent;
-  if (request?.type !== "privagent/execute-task") return undefined;
-  return handleTask(request);
+  if (request?.type === "privagent/execute-task") return handleTask(request);
+  if (request?.type === "privagent/loop-step") return handleLoopStep(request);
+  return undefined;
 });
 
-export { runTask };
+export { runTask, runStep };

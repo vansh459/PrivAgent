@@ -34,7 +34,7 @@ describe("credential fields are excluded at extraction", () => {
     expect(walkInteractiveDom()).toEqual([]);
   });
 
-  it("keeps a password field out of the transmitted context entirely", () => {
+  it("keeps a password field out of the transmitted context entirely", async () => {
     document.body.innerHTML = `
       <input id="user" name="username" placeholder="Username" />
       <input id="pass" type="password" name="password" />
@@ -46,7 +46,7 @@ describe("credential fields are excluded at extraction", () => {
     }
 
     const elements = walkInteractiveDom();
-    const { context } = prepareContext("log in", elements);
+    const { context } = await prepareContext("log in", elements);
     const payload = JSON.stringify(context);
 
     expect(payload).not.toContain(SECRET);

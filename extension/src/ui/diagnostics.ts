@@ -19,14 +19,23 @@ const assets = document.querySelector<HTMLUListElement>("#asset-list");
 const status = document.querySelector<HTMLParagraphElement>("#probe-status");
 const button = document.querySelector<HTMLButtonElement>("#run-probe");
 
+/**
+ * One key/value row, in the same shape the popup's audit trail uses.
+ *
+ * The pass/fail class goes on the `li`, not on the value span. It used to go on the span,
+ * which meant the only rule that styled it - `li.ok .stage` in the popup's stylesheet -
+ * never matched, and this page's status colouring silently did nothing at all. Two element
+ * children with the value last is a contract: `vision.spec.ts` reads `lastElementChild`.
+ */
 function row(parent: HTMLUListElement, ok: boolean, label: string, detail: string): void {
   const item = document.createElement("li");
   item.dataset.ok = String(ok);
+  item.className = ok ? "ok" : "bad";
   const name = document.createElement("span");
   name.className = "stage";
   name.textContent = label;
   const value = document.createElement("span");
-  value.className = ok ? "ok" : "bad";
+  value.className = "detail";
   value.textContent = detail;
   item.append(name, value);
   parent.append(item);
@@ -104,7 +113,7 @@ async function ocrSelfTest(): Promise<void> {
         ocrList,
         sample.accuracy >= 0.85,
         sample.id,
-        `${Math.round(sample.accuracy * 100)}% � read "${sample.actual}"`,
+        `${Math.round(sample.accuracy * 100)}% - read "${sample.actual}"`,
       );
     }
     ocrStatus.textContent =

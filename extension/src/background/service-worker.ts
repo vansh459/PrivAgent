@@ -1,12 +1,13 @@
 import browser from "webextension-polyfill";
 import { appendAudit, readAudit } from "./audit";
 import { requestAction } from "./reason";
-import { analyzeInHost, warmVisionHost } from "./vision";
+import { cancelTask, loopResult, startTaskLoop, stashStepReport } from "./taskLoop";
+import { analyzeInHost, verifyNamesInHost, warmVisionHost } from "./vision";
 import { getServerUrl } from "../shared/config";
 import { describeError, PrivAgentError } from "../shared/errors";
 import { fail, ok, type Reply, type ToBackground, type ToContent } from "../shared/messages";
 import type { Action, SanitizedContext } from "../schemas/screenState";
-import type { AuditEntry, TaskSummary } from "../shared/messages";
+import type { AuditEntry, LoopResult, TaskSummary } from "../shared/messages";
 import type { VisionAnalysis, Viewport, VisualRegion } from "../vision/analyze";
 
 /**
@@ -156,6 +157,21 @@ async function handle(message: ToBackground): Promise<Reply<unknown>> {
     case "privagent/warm-vision":
       await warmVisionHost();
       return ok<{ warm: true }>({ warm: true });
+    case "privagent/verify-names":
+      return ok<boolean[][]>(await verifyNamesInHost(message.items));
+    case "privagent/run-loop":
+      // Deliberately not awaited: the loop outlives any sendMessage reply channel. The
+      // popup polls "privagent/loop-result" for the terminal state.
+      startTaskLoop(message.taskId, message.task);
+      return ok<{ started: true }>({ started: true });
+    case "privagent/loop-result":
+      return ok<LoopResult | null>(loopResult(message.taskId));
+    case "privagent/step-result":
+      stashStepReport(message.taskId, message.step, message.report);
+      return ok<{ stashed: true }>({ stashed: true });
+    case "privagent/cancel-task":
+      cancelTask(message.taskId);
+      return ok<{ cancelled: true }>({ cancelled: true });
     default:
       return fail({ code: "execution_failed", message: "Unknown message type" });
   }
@@ -168,6 +184,11 @@ const HANDLED: ReadonlySet<string> = new Set([
   "privagent/run-task",
   "privagent/perceive-vision",
   "privagent/warm-vision",
+  "privagent/verify-names",
+  "privagent/run-loop",
+  "privagent/loop-result",
+  "privagent/step-result",
+  "privagent/cancel-task",
 ]);
 
 async function respond(request: ToBackground): Promise<Reply<unknown>> {

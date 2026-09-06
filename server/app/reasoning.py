@@ -38,6 +38,19 @@ class DeterministicProvider:
     name = "deterministic"
 
     def reason(self, context: SanitizedContext) -> Action:
+        # Multi-step awareness, kept as simple as the provider itself: if a prior step
+        # already executed an action for this task, the conservative next answer is
+        # "done" - repeating the same keyword match would click the same element forever.
+        if any(entry.outcome.startswith("executed") for entry in context.history):
+            return Action(
+                action="done",
+                params={"summary": "A previous step already executed the matching action."},
+                confidence=0.6,
+                risk="low",
+                explanation="The history shows the matching action was already executed.",
+                reasoning_trace_id=new_trace_id(),
+            )
+
         terms = {term for term in context.task.lower().split() if len(term) > 2}
 
         for element in context.elements:
@@ -63,6 +76,32 @@ class DeterministicProvider:
         )
 
 
+class FallbackProvider:
+    """Tries providers in order, falling through only on *unavailability*.
+
+    Only `ModelUnavailableError` - endpoint unreachable, model missing, bad config -
+    triggers the next provider. A provider that answered `none` gave an answer; second
+    opinions on answers would make behaviour depend on which models happened to be up.
+    """
+
+    def __init__(self, *providers: ReasonProvider) -> None:
+        assert providers, "FallbackProvider needs at least one provider"
+        self.providers = providers
+        self.name = " -> ".join(provider.name for provider in providers)
+
+    def reason(self, context: SanitizedContext) -> Action:
+        from .ollama import ModelUnavailableError
+
+        last_error: Exception | None = None
+        for provider in self.providers:
+            try:
+                return provider.reason(context)
+            except ModelUnavailableError as error:
+                last_error = error
+                print(f"[privagent] {provider.name} unavailable ({error}); falling back.")
+        raise last_error if last_error else RuntimeError("no provider answered")
+
+
 def _select_provider() -> ReasonProvider:
     """Chooses the reasoner from the environment.
 
@@ -71,11 +110,23 @@ def _select_provider() -> ReasonProvider:
     network. A model is opt-in - `PRIVAGENT_REASONER=ollama` - because a server that
     silently required a 1 GB download to answer would be a worse default than one that
     answers conservatively.
+
+    `foundry` selects the chain foundry -> ollama -> deterministic: the remote Claude
+    deployment is the brain, the local open-source model takes over the moment the
+    endpoint is unreachable, and the keyword baseline guarantees an answer offline. The
+    PS-compliance boundary is unchanged - rubric measurements and the judged demo run
+    `PRIVAGENT_REASONER=ollama`, where nothing leaves the machine.
     """
-    if os.environ.get("PRIVAGENT_REASONER", "deterministic").lower() == "ollama":
+    selected = os.environ.get("PRIVAGENT_REASONER", "deterministic").lower()
+    if selected == "ollama":
         from .ollama import provider_from_env
 
         return provider_from_env()
+    if selected == "foundry":
+        from .foundry import provider_from_env as foundry_from_env
+        from .ollama import provider_from_env as ollama_from_env
+
+        return FallbackProvider(foundry_from_env(), ollama_from_env(), DeterministicProvider())
     return DeterministicProvider()
 
 

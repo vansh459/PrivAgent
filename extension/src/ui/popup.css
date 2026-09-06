@@ -1,140 +1,533 @@
-:root {
-  color-scheme: light dark;
-  --bg: #ffffff;
-  --fg: #1a1a1a;
-  --muted: #5f5f5f;
-  --line: #e0e0e0;
-  --accent: #1a5fb4;
-  --ok: #1a7f37;
-  --bad: #c0392b;
+@import "./tokens.css";
+
+/*
+ * The extension's own pages: the popup and the diagnostics tab. Both, deliberately, from
+ * one stylesheet - they are the same product and there is not enough of either to justify
+ * a second set of rules. `body.wide` is the only difference between them, and it changes
+ * width, not language.
+ *
+ * Every value here resolves to a token. If a rule below contains a raw pixel, hex or shadow
+ * value, it is a bug in this file rather than a decision.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1e1e1e;
-    --fg: #ececec;
-    --muted: #a8a8a8;
-    --line: #3a3a3a;
-    --accent: #77a9f0;
-  }
+html {
+  color-scheme: light dark;
 }
 
 body {
-  width: 340px;
+  width: var(--width-popup);
   margin: 0;
-  padding: 14px;
-  background: var(--bg);
+  background: var(--canvas);
   color: var(--fg);
-  font:
-    13px/1.5 system-ui,
-    -apple-system,
-    "Segoe UI",
-    sans-serif;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
 }
+
+/* The diagnostics page is a full tab, not a panel. */
+body.wide {
+  width: auto;
+}
+
+/* ------------------------------------------------------------------ shell ---- */
+
+/*
+ * GLASS, use 1 of 3. The header floats: content scrolls underneath it, which is the only
+ * thing that earns this treatment. The blur is what makes the layering legible; the
+ * `@supports` fallback keeps the text on an opaque surface where it is not available,
+ * because a translucent header with no blur behind it is just a contrast failure.
+ */
+.app-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: var(--space-4);
+  border-bottom: var(--border-width) solid var(--glass-border);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+}
+
+/* `1px` is a support probe, not a design value - the real amount is `--glass-blur`. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .app-bar {
+    background: var(--surface);
+  }
+}
+
+.app-bar__inner,
+.stack {
+  margin-inline: auto;
+  max-width: var(--width-page);
+}
+
+.stack {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+}
+
+body.wide .stack {
+  gap: var(--space-4);
+  padding: var(--space-6) var(--space-4) var(--space-16);
+}
+
+/* -------------------------------------------------------------- typography ---- */
 
 h1 {
   margin: 0;
-  font-size: 15px;
+  font-size: var(--text-heading);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-tight);
 }
+
+/*
+ * Section headings are the same size as body text. The hierarchy is carried by weight,
+ * colour and letter-spacing, which is the whole reason this system needs only two sizes.
+ */
 h2 {
-  margin: 14px 0 6px;
-  font-size: 12px;
+  margin: 0;
+  color: var(--fg-muted);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-wide);
+  line-height: var(--leading-heading);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
 }
+
+p {
+  margin: 0;
+}
+
 .tagline {
-  margin: 2px 0 12px;
-  color: var(--muted);
-  font-size: 11px;
+  margin: var(--space-1) 0 0;
+  color: var(--fg-muted);
+  max-width: var(--measure);
 }
+
+a {
+  color: var(--accent-500);
+  border-radius: var(--radius-sm);
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+/* ------------------------------------------------------------------ cards ---- */
+
+/*
+ * One card, one padding, one internal rhythm. Every card in the product is a grid on the
+ * same gap, so nothing inside one needs a margin of its own - which is what stops the
+ * per-component spacing drift this file used to be full of.
+ */
+.card {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+/*
+ * `display: grid` on the card outranks the user agent's `[hidden] { display: none }`, so a
+ * card that JavaScript has hidden would otherwise sit on screen as an empty box - which is
+ * exactly what the privacy summary and the audit trail did before a task had run.
+ */
+.card[hidden] {
+  display: none;
+}
+
+/* A label and its control are one thing, so they sit closer than the card's own rhythm. */
+.field {
+  display: grid;
+  gap: var(--space-2);
+}
+
+/* ----------------------------------------------------------------- fields ---- */
 
 label {
   display: block;
-  margin-bottom: 4px;
-  font-weight: 600;
-  font-size: 11px;
+  color: var(--fg-muted);
+  font-weight: var(--weight-medium);
 }
 
 input {
   width: 100%;
-  box-sizing: border-box;
-  padding: 6px 8px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: var(--bg);
+  height: var(--control-height);
+  padding: 0 var(--space-3);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-sunken);
   color: var(--fg);
   font: inherit;
+  transition:
+    border-color var(--duration-fast) var(--ease),
+    box-shadow var(--duration-fast) var(--ease);
 }
 
-button {
-  margin-top: 8px;
-  padding: 6px 12px;
-  border: 1px solid var(--accent);
-  border-radius: 6px;
-  background: var(--accent);
-  color: #fff;
+input::placeholder {
+  color: var(--fg-subtle);
+}
+
+input:hover {
+  border-color: var(--border-strong);
+}
+
+input:focus-visible {
+  outline: none;
+  border-color: var(--accent-500);
+  box-shadow: var(--ring-inset);
+}
+
+/* ---------------------------------------------------------------- buttons ---- */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--control-height);
+  padding: 0 var(--space-4);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--fg);
   font: inherit;
+  font-weight: var(--weight-medium);
   cursor: pointer;
-}
-button[disabled] {
-  opacity: 0.6;
-  cursor: progress;
+  transition:
+    background-color var(--duration-fast) var(--ease),
+    border-color var(--duration-fast) var(--ease),
+    box-shadow var(--duration-fast) var(--ease),
+    transform var(--duration-fast) var(--ease);
 }
 
-dl {
+.button:hover {
+  border-color: var(--border-strong);
+  background: var(--neutral-100);
+}
+
+.button:active {
+  transform: translateY(var(--border-width));
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+.button[disabled] {
+  opacity: 0.55;
+  cursor: progress;
+  transform: none;
+}
+
+/*
+ * CLAY, use 1 of 4. Exactly one button per screen gets this: the thing the screen exists
+ * for. It is tactile because it should invite a press; if the Save button beside it were
+ * also tactile, neither would mean anything.
+ */
+.button--primary {
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--accent-500);
+  color: var(--accent-fg);
+  font-weight: var(--weight-semibold);
+  box-shadow: var(--clay-shadow);
+}
+
+.button--primary:hover {
+  background: var(--accent-600);
+  box-shadow: var(--clay-shadow-hover);
+}
+
+.button--primary:active {
+  transform: translateY(var(--border-width));
+  box-shadow: var(--clay-shadow-pressed);
+}
+
+.button--primary[disabled] {
+  box-shadow: var(--clay-shadow);
+}
+
+/*
+ * A button in a card is only as wide as its label, unless it is asked to fill. Grid would
+ * otherwise stretch every one of them to the column, which makes a secondary action look
+ * like a primary one on a 720px page.
+ */
+.card > .button {
+  justify-self: start;
+}
+
+.button--block {
+  width: 100%;
+  justify-self: stretch;
+}
+
+/* --------------------------------------------------------- privacy summary ---- */
+
+/*
+ * A flat two-column grid, and it must stay flat: four browser suites read
+ * `#summary-list > *` pairwise as label/value, so a wrapper element around a row would
+ * silently shift every reading by one.
+ */
+#summary-list {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 2px 10px;
+  gap: var(--space-2) var(--space-4);
   margin: 0;
 }
-dt {
-  color: var(--muted);
+
+#summary-list dt {
+  color: var(--fg-muted);
 }
-dd {
+
+#summary-list dd {
   margin: 0;
-  text-align: right;
+  font-weight: var(--weight-medium);
   font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
-ol {
+/* ------------------------------------------------------------ audit trail ---- */
+
+/*
+ * No inner scroll. Capping this list was the first instinct - body text is taller than the
+ * 11px it used to be - but it put a second scroll region inside a panel that already
+ * scrolls, and hid half the audit trail behind it. The trail is the thing this popup is
+ * for. It runs to its full length and the sticky header keeps the position legible, which
+ * is what that header is there to do.
+ */
+#trace-list {
+  display: grid;
+  gap: var(--space-3);
   margin: 0;
-  padding-left: 18px;
-}
-li {
-  margin-bottom: 4px;
-}
-li .stage {
-  font-weight: 600;
-}
-li.bad .stage {
-  color: var(--bad);
-}
-li.ok .stage {
-  color: var(--ok);
-}
-li .detail {
-  display: block;
-  color: var(--muted);
-  font-size: 11px;
+  padding: 0;
+  list-style: none;
 }
 
-#status {
-  margin: 12px 0 0;
-  padding-top: 10px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 11px;
-}
-#status.error {
-  color: var(--bad);
+/*
+ * The stage rule is the status: a coloured edge reads at a glance and costs no text. It has
+ * to cost no text - `#trace-list .stage` is asserted to contain exactly the six stage names
+ * and nothing else.
+ */
+#trace-list li {
+  display: grid;
+  gap: var(--space-1);
+  padding-left: var(--space-3);
+  border-left: var(--rule-width) solid var(--border);
 }
 
-details {
-  margin-top: 10px;
-  font-size: 11px;
+#trace-list li.ok {
+  border-left-color: var(--success);
 }
-summary {
+
+#trace-list li.bad {
+  border-left-color: var(--danger);
+}
+
+#trace-list .stage {
+  font-weight: var(--weight-semibold);
+}
+
+#trace-list li.bad .stage {
+  color: var(--danger);
+}
+
+#trace-list .detail {
+  color: var(--fg-muted);
+}
+
+/* ---------------------------------------------------------------- status ---- */
+
+/*
+ * Every status line in the product - the popup's, the probe's, the OCR self-test's - is
+ * this one component, matched on the ARIA role they already carry. The state indicator is a
+ * pseudo-element on purpose: `#status` is asserted with exact text, so the dot must not be
+ * part of `textContent`.
+ */
+[role="status"] {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--fg-muted);
+}
+
+[role="status"]::before {
+  content: "";
+  flex: none;
+  width: var(--space-2);
+  height: var(--space-2);
+  border-radius: 50%;
+  background: var(--fg-subtle);
+  transition: background-color var(--duration) var(--ease);
+}
+
+[role="status"][data-state="running"]::before {
+  background: var(--accent-500);
+  animation: pulse 1.4s var(--ease) infinite;
+}
+
+[role="status"][data-state="done"]::before {
+  background: var(--success);
+}
+
+[role="status"][data-state="error"]::before,
+[role="status"][data-state="failed"]::before,
+[role="status"].error::before {
+  background: var(--danger);
+}
+
+[role="status"].error,
+[role="status"][data-state="failed"] {
+  color: var(--danger);
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [role="status"][data-state="running"]::before {
+    animation: none;
+  }
+}
+
+/* -------------------------------------------------------------- key/value ---- */
+
+/*
+ * The diagnostics lists. Each row keeps exactly two element children with the value last -
+ * `vision.spec.ts` reads `lastElementChild` - so the layout is done with flex rather than
+ * with wrappers.
+ */
+.kv-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kv-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: var(--border-width) solid var(--border);
+}
+
+.kv-list li:last-child {
+  border-bottom: none;
+}
+
+.kv-list li:first-child {
+  padding-top: 0;
+}
+
+.kv-list .stage {
+  font-weight: var(--weight-medium);
+}
+
+.kv-list .detail {
+  color: var(--fg-muted);
+  text-align: right;
+  word-break: break-word;
+}
+
+.kv-list li.ok .detail {
+  color: var(--success);
+}
+
+.kv-list li.bad .detail {
+  color: var(--danger);
+}
+
+/* -------------------------------------------------------------- settings ---- */
+
+#settings summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--fg-muted);
+  font-weight: var(--weight-medium);
   cursor: pointer;
-  color: var(--muted);
+  list-style: none;
+  border-radius: var(--radius-sm);
+}
+
+#settings summary::-webkit-details-marker {
+  display: none;
+}
+
+#settings summary::before {
+  content: "›";
+  display: inline-block;
+  color: var(--fg-subtle);
+  transition: transform var(--duration) var(--ease);
+}
+
+#settings[open] summary::before {
+  transform: rotate(90deg);
+}
+
+#settings summary:hover {
+  color: var(--fg);
+}
+
+#settings summary:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+.settings-body {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.settings-body .button {
+  justify-self: start;
+}
+
+/* ------------------------------------------------------------ responsive ---- */
+
+/*
+ * The popup is a fixed panel and has no breakpoints - Chrome decides its size. The
+ * diagnostics tab does: below the page measure it loses its outer gutter, and key/value
+ * rows stack rather than squeezing a full-width extension URL against its label.
+ */
+/*
+ * The one literal length outside the token file, and it has to be one: a media query
+ * cannot read a custom property. 640px is where the page measure stops fitting.
+ */
+@media (max-width: 640px) {
+  body.wide .stack {
+    padding: var(--space-4) var(--space-3) var(--space-12);
+  }
+
+  .kv-list li {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .kv-list .detail {
+    text-align: left;
+  }
 }

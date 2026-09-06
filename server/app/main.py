@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from . import env as _env  # noqa: F401 - loads server/.env before providers read os.environ
 from .prompt import SYSTEM_PROMPT_VERSION
 from .reasoning import get_provider, reason
 from .schemas import Action, SanitizedContext

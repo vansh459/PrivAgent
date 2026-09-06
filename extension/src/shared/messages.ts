@@ -1,4 +1,5 @@
-import type { Action, SanitizedContext } from "../schemas/screenState";
+import type { NameVerifyItem } from "../content/nameVerifier";
+import type { Action, HistoryStep, SanitizedContext, StepInfo } from "../schemas/screenState";
 import type { Viewport, VisualRegion } from "../vision/analyze";
 import type { PrivAgentErrorCode } from "./errors";
 
@@ -36,10 +37,59 @@ export type ToBackground =
   | { type: "privagent/read-audit"; taskId?: string }
   | { type: "privagent/run-task"; task: string }
   | { type: "privagent/perceive-vision"; regions: VisualRegion[]; viewport: Viewport }
-  | { type: "privagent/warm-vision" };
+  | { type: "privagent/warm-vision" }
+  // Raw candidate texts travel one hop to the extension-origin vision host and no
+  // further; only per-span booleans come back. Same trust boundary as the screenshot.
+  | { type: "privagent/verify-names"; items: NameVerifyItem[] }
+  // The popup mints the taskId so it can poll progress and cancel while the loop runs.
+  | { type: "privagent/run-loop"; taskId: string; task: string }
+  // Polled by the popup until non-null. A loop runs for minutes; Chrome closes a single
+  // long-held sendMessage reply channel well before that, so completion is pulled, not
+  // pushed - and each poll conveniently resets the service worker's idle timer.
+  | { type: "privagent/loop-result"; taskId: string }
+  // Fired by the content script the instant a step's action has executed, before any
+  // further await. When the action navigates, the page - and with it the step's reply
+  // channel - dies mid-step; this out-of-band copy is the report that survives.
+  | { type: "privagent/step-result"; taskId: string; step: number; report: StepReport }
+  | { type: "privagent/cancel-task"; taskId: string };
 
 /** Background service worker -> content script. */
-export type ToContent = { type: "privagent/execute-task"; taskId: string; task: string };
+export type ToContent =
+  | { type: "privagent/execute-task"; taskId: string; task: string }
+  | {
+      type: "privagent/loop-step";
+      taskId: string;
+      task: string;
+      step: StepInfo;
+      history: HistoryStep[];
+    };
+
+/**
+ * What one loop step reports back to the controller. Everything here is already
+ * privacy-safe: `pageIdent` is the page title AFTER redaction, outcomes are status
+ * strings, and no element text or value rides along.
+ */
+export interface StepReport {
+  state: "executed" | "done" | "blocked" | "declined" | "none" | "failed";
+  actionType: Action["action"];
+  targetRole: string | null;
+  outcome: string;
+  pageIdent: string;
+  /** Set when the terminal state is `blocked`. */
+  blockedReason?: string;
+  /** The single-step summary, so the popup can render per-step counters. */
+  summary: TaskSummary;
+}
+
+/** The loop controller's final answer for a whole multi-step task. */
+export interface LoopResult {
+  taskId: string;
+  status:
+    "done" | "blocked" | "declined" | "budget_exhausted" | "cancelled" | "failed" | "no_progress";
+  steps: number;
+  detail: string;
+  history: HistoryStep[];
+}
 
 /**
  * Background service worker -> the offscreen document that hosts local vision.
@@ -54,7 +104,11 @@ export type ToOffscreen =
       regions: VisualRegion[];
       viewport: Viewport;
     }
-  | { type: "privagent/vision-warm" };
+  | { type: "privagent/vision-warm" }
+  // Distinct from the content script's "privagent/verify-names": `runtime.sendMessage`
+  // broadcasts, so reusing one type string would have background and offscreen racing to
+  // answer the same message.
+  | { type: "privagent/verify-names-run"; items: NameVerifyItem[] };
 
 export type { VisionAnalysis } from "../vision/analyze";
 

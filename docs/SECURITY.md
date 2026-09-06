@@ -44,6 +44,20 @@ The payload is validated against the schema in `background/reason.ts` immediatel
 `fetch`, and the server rejects unknown fields (`extra="forbid"`), so an accidental extra
 key fails closed at both ends rather than being transmitted and silently ignored.
 
+### The optional remote reasoner, stated plainly
+
+The server has an opt-in third provider (`PRIVAGENT_REASONER=foundry`,
+`server/app/foundry.py`) that forwards the reasoning call to a Claude model on the
+operator's own Azure AI Foundry deployment. While it is selected, the sentence "nothing
+is sent to a third party" no longer holds for the **sanitized context**: the same
+schema-validated payload above — tokens, marks, redacted text, never raw values, pixels
+or URLs — travels to that Azure endpoint. Everything else in this document is unchanged;
+the browser-side firewall neither knows nor cares which provider answers. This provider
+exists for the additive universal-browsing capability only. The default is still the
+deterministic local provider, the PS-compliance and rubric path is still the local
+open-source model via Ollama, and the API key lives only in the environment
+(`server/.env.example`; `.env` is untracked).
+
 ## Guarantee 1 — credential values are never read
 
 Fields whose contents are credentials or one-time secrets are dropped during

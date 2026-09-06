@@ -21,6 +21,7 @@ browser.runtime.onMessage.addListener((message: unknown) => {
   const request = message as ToOffscreen;
   if (request?.type === "privagent/vision-warm") return warm();
   if (request?.type === "privagent/vision-run") return analyze(request);
+  if (request?.type === "privagent/verify-names-run") return verifyNames(request);
   return undefined;
 });
 
@@ -41,6 +42,17 @@ async function analyze(request: Extract<ToOffscreen, { type: "privagent/vision-r
   } catch (error) {
     const described = describeError(error);
     console.warn("PrivAgent vision pass failed:", described.message);
+    return fail(described) as Reply<never>;
+  }
+}
+
+async function verifyNames(request: Extract<ToOffscreen, { type: "privagent/verify-names-run" }>) {
+  try {
+    const { verifyNamesInDocument } = await import("./verifyNames");
+    return ok(await verifyNamesInDocument(request.items));
+  } catch (error) {
+    const described = describeError(error);
+    console.warn("PrivAgent name verification failed:", described.message);
     return fail(described) as Reply<never>;
   }
 }

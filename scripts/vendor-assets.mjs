@@ -71,11 +71,37 @@ const PINNED = [
       "opencv/opencv_zoo @ main, models/face_detection_yunet/face_detection_yunet_2023mar.onnx (MIT)",
   },
   {
+    from: "assets/models/tinybert_ner_int8.onnx",
+    to: "models/tinybert_ner_int8.onnx",
+    sha256: "ba4a1a00cf1600cae8e7cf3fda4650c825811719065b51041256392edd3647b8",
+    source:
+      "onnx-community/TinyBERT-finetuned-NER-ONNX @ main, onnx/model_quantized.onnx " +
+      "(TinyBERT, huawei-noah; fine-tuned on CoNLL-2003; int8)",
+  },
+  {
+    from: "assets/models/tinybert_ner_tokenizer.json",
+    to: "models/tinybert_ner_tokenizer.json",
+    sha256: "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    source: "onnx-community/TinyBERT-finetuned-NER-ONNX @ main, tokenizer.json (bert-base-uncased scheme)",
+  },
+  {
     from: "assets/tessdata/eng.traineddata.gz",
     to: "tessdata/eng.traineddata.gz",
     sha256: "18c1ac52b75e35d44735fb6c2a60acfaf23033524653200738e98f0243edb75b",
     source:
       "tessdata_fast 4.0.0 'eng' via tessdata.projectnaptha.com (Apache-2.0)",
+  },
+  {
+    // The interface's one typeface. It is vendored for the same reason the model is: this
+    // extension fetches nothing at runtime, a browser test asserts that, and holding the
+    // inference stack to that rule while letting a font phone home to a CDN would be a
+    // pretence. The latin subset is 48 KB - less than a fifth of the face detector.
+    from: "assets/fonts/Inter-latin.woff2",
+    to: "fonts/Inter-latin.woff2",
+    sha256: "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    source:
+      "Inter v20 variable, latin subset, via fonts.gstatic.com (SIL OFL 1.1; " +
+      "licence committed at assets/fonts/LICENSE.txt)",
   },
 ];
 

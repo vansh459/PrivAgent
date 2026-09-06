@@ -29,7 +29,7 @@ from .prompt import (
     render_context,
     response_format,
 )
-from .schemas import Action, SanitizedContext
+from .schemas import BLOCKED_REASONS, Action, SanitizedContext
 
 # Chosen by measurement, not by size. On ten task payloads with the same prompt:
 # qwen2.5:1.5b scored 8/10 correct at a ~7-13 s median, llama3.2:1b scored 3/10 at ~13 s.
@@ -74,9 +74,11 @@ class OllamaProvider:
     def reason(self, context: SanitizedContext) -> Action:
         marks = {element.mark_id for element in context.elements}
         elements = [element.model_dump() for element in context.elements]
+        step = context.step.model_dump() if context.step else None
+        history = [entry.model_dump() for entry in context.history] or None
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": render_context(context.task, elements)},
+            {"role": "user", "content": render_context(context.task, elements, step, history)},
         ]
 
         rejection: str | None = None
@@ -151,6 +153,8 @@ def _semantic_problem(proposed: ModelAction, marks: set[str]) -> str | None:
         return "a type action needs params.text"
     if proposed.action == "navigate" and not proposed.params.get("url"):
         return "a navigate action needs params.url"
+    if proposed.action == "blocked" and proposed.params.get("reason") not in BLOCKED_REASONS:
+        return f"a blocked action needs params.reason, one of {', '.join(BLOCKED_REASONS)}"
     return None
 
 

@@ -7,3 +7,6 @@ src/schemas/generated.ts
 
 # Vendored third-party binaries and generated public assets.
 public/
+
+# Vendored model tokenizer - digest-pinned, must not be reformatted.
+assets/models/

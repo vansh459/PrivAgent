@@ -140,12 +140,29 @@ export function detectPii(text: string): PiiMatch[] {
  *
  * Without this, a card number matches both `CARD` and `AADHAAR`, and replacing both
  * corrupts the surrounding text and mislabels the type.
+ *
+ * A partially-consumed NAME or ADDRESS is trimmed to its tail rather than dropped: those
+ * types have fuzzy boundaries, and an address candidate that greedily swallowed the phone
+ * number before it used to lose the whole span when the phone won the overlap - which is
+ * how `27 MG Road, Kochi 682016` reached the wire raw while the phone next to it was
+ * tokenized. The tail of an address is still an address; the tail of a card number is not
+ * a card number, so structured types keep the drop semantics.
  */
 export function resolveSpans(matches: PiiMatch[]): PiiMatch[] {
   const resolved: PiiMatch[] = [];
   let cursor = -1;
   for (const match of matches) {
-    if (match.start < cursor) continue;
+    if (match.start < cursor) {
+      if ((match.type !== "NAME" && match.type !== "ADDRESS") || match.end <= cursor) continue;
+      let value = match.value.slice(cursor - match.start);
+      const trimmed = value.length - value.trimStart().length;
+      value = value.trimStart();
+      if (value.length === 0) continue;
+      const start = cursor + trimmed;
+      resolved.push({ ...match, start, end: match.end, value });
+      cursor = match.end;
+      continue;
+    }
     resolved.push(match);
     cursor = match.end;
   }
@@ -168,9 +185,17 @@ export class ClientTokenMap {
   private readonly tokensByValue = new Map<string, string>();
   private readonly counts = new Map<PiiType, number>();
 
-  /** Replaces resolved spans with tokens, walking forward so indices stay valid. */
-  redact(text: string): RedactionResult {
-    const matches = resolveSpans(detectPii(text));
+  /**
+   * Replaces resolved spans with tokens, walking forward so indices stay valid.
+   *
+   * `drop` removes detections BEFORE span resolution - a rejected candidate must not
+   * shadow an overlapping detection that would otherwise have been resolved and masked.
+   * It exists for the NER name verifier, which only ever removes redactions; a caller
+   * that cannot verify passes nothing and everything stays masked.
+   */
+  redact(text: string, drop?: (match: PiiMatch) => boolean): RedactionResult {
+    const detected = detectPii(text);
+    const matches = resolveSpans(drop ? detected.filter((match) => !drop(match)) : detected);
     const spans: RedactedSpan[] = [];
     let output = "";
     let cursor = 0;

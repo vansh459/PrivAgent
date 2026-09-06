@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quarterly Reports Portal</title>
+  </head>
+  <body>
+    <h1>Quarterly Reports</h1>
+
+    <!-- Planted PII: must never reach the wire from either step of the loop. -->
+    <div id="contact" role="note" tabindex="0">
+      Registrar: call 9876543210 or email registrar@example.com.
+    </div>
+
+    <!-- Step 1: the task-relevant link navigates to a second page, which is the point -
+         the loop controller must survive the content script dying with this document. -->
+    <a id="open-report" href="/loop-report">Open the report page</a>
+    <a id="unrelated" href="#nowhere">Terms of service</a>
+  </body>
+</html>

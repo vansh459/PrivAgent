@@ -134,7 +134,16 @@ export async function startReasoner(): Promise<Reasoner> {
       "--port",
       String(port),
     ],
-    { cwd: repoRoot, env: { ...process.env, PYTHONPATH: join(repoRoot, "server") } },
+    {
+      cwd: repoRoot,
+      env: {
+        ...process.env,
+        PYTHONPATH: join(repoRoot, "server"),
+        // Hermetic: a developer's server/.env must not silently reroute this suite
+        // through a remote model - measurements are deterministic unless opted in.
+        PRIVAGENT_REASONER: process.env.PRIVAGENT_REASONER ?? "deterministic",
+      },
+    },
   );
 
   await waitFor(

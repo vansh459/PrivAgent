@@ -22,6 +22,16 @@ export const LOCAL_ASSETS = {
   /** Directory holding `<lang>.traineddata.gz`. */
   tessdataDir: "tessdata/",
   faceModel: "models/face_detection_yunet_2023mar.onnx",
+  /** Token-classification model that verifies rule-detected NAME candidates. */
+  nerModel: "models/tinybert_ner_int8.onnx",
+  nerTokenizer: "models/tinybert_ner_tokenizer.json",
+  /**
+   * The interface's typeface, vendored for exactly the same reason as everything above it.
+   * It is listed here rather than only in the stylesheet so the diagnostics page reports it
+   * alongside the models - a font fetched from a CDN would leak the same thing an inference
+   * asset would, and this list is the place that claim is checked.
+   */
+  uiFont: "fonts/Inter-latin.woff2",
 } as const;
 
 interface RuntimeHost {

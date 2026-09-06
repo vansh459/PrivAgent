@@ -17,9 +17,11 @@ import {
 export type {
   Action,
   ContextElement,
+  HistoryStep,
   SanitizedContext,
   ScreenState,
   ScreenStateElement,
+  StepInfo,
 } from "./generated";
 export {
   ActionSchema,

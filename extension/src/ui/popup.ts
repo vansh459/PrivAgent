@@ -1,10 +1,12 @@
 import browser from "webextension-polyfill";
 import { DEFAULT_SERVER_URL, getServerUrl, setServerUrl } from "../shared/config";
-import type { AuditEntry, Reply, TaskSummary, ToBackground } from "../shared/messages";
+import type { AuditEntry, LoopResult, Reply, TaskSummary, ToBackground } from "../shared/messages";
 
 const form = document.querySelector<HTMLFormElement>("#task-form")!;
 const taskInput = document.querySelector<HTMLInputElement>("#task")!;
 const runButton = document.querySelector<HTMLButtonElement>("#run")!;
+const stopButton = document.querySelector<HTMLButtonElement>("#stop")!;
+const multiStep = document.querySelector<HTMLInputElement>("#multi-step")!;
 const status = document.querySelector<HTMLParagraphElement>("#status")!;
 const summarySection = document.querySelector<HTMLElement>("#summary")!;
 const summaryList = document.querySelector<HTMLDListElement>("#summary-list")!;
@@ -77,6 +79,89 @@ function renderTrace(entries: AuditEntry[]): void {
   traceSection.hidden = entries.length === 0;
 }
 
+/**
+ * How a finished loop reads to the person who asked for it. One line each; the trace
+ * below carries the step-by-step detail.
+ */
+const LOOP_ENDINGS: Record<LoopResult["status"], string> = {
+  done: "Task completed",
+  blocked: "Stopped: this site blocks automation or needs you to act",
+  declined: "Stopped: you denied a proposed action",
+  cancelled: "Stopped by you",
+  budget_exhausted: "Stopped: step limit reached before the task finished",
+  no_progress: "Stopped: nothing useful left to do on this page",
+  failed: "Failed",
+};
+
+/** Polls the audit trail while a loop runs, so the popup shows live per-step progress. */
+function startProgress(taskId: string): () => void {
+  let stopped = false;
+  const timer = setInterval(() => {
+    void send<AuditEntry[]>({ type: "privagent/read-audit", taskId })
+      .then((entries) => {
+        // A poll in flight when the loop finishes must not overwrite the final status.
+        if (stopped) return;
+        const steps = entries.filter((entry) => entry.stage === "observe").length;
+        if (steps > 0 && status.dataset.state === "running") {
+          setStatus(`Running step ${steps}...`, "running");
+        }
+        renderTrace(entries);
+      })
+      .catch(() => undefined);
+  }, 800);
+  return () => {
+    stopped = true;
+    clearInterval(timer);
+  };
+}
+
+/**
+ * Polls the background for the loop's terminal result.
+ *
+ * The alternative - awaiting the run-loop message itself - breaks on Chrome MV3: the
+ * reply channel of a single sendMessage closes long before a multi-minute loop finishes
+ * ("message channel closed before a response was received"). Pulling the result also
+ * keeps the service worker alive: each poll is an extension message, which resets its
+ * idle timer while the loop works.
+ */
+async function waitForLoopResult(taskId: string): Promise<LoopResult> {
+  for (;;) {
+    const result = await send<LoopResult | null>({ type: "privagent/loop-result", taskId });
+    if (result) return result;
+    await new Promise((done) => setTimeout(done, 800));
+  }
+}
+
+async function runSingle(task: string): Promise<void> {
+  const summary = await send<TaskSummary>({ type: "privagent/run-task", task });
+  renderSummary(summary);
+  renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit", taskId: summary.taskId }));
+  status.dataset.taskId = summary.taskId;
+  setStatus(`Task finished: ${summary.outcome}.`, "done");
+}
+
+async function runLoop(task: string): Promise<void> {
+  const taskId = crypto.randomUUID();
+  status.dataset.taskId = taskId;
+  stopButton.hidden = false;
+  stopButton.disabled = false;
+  const stopProgress = startProgress(taskId);
+
+  try {
+    await send<{ started: true }>({ type: "privagent/run-loop", taskId, task });
+    const result = await waitForLoopResult(taskId);
+    stopProgress();
+    renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit", taskId }));
+    setStatus(
+      `${LOOP_ENDINGS[result.status]} after ${result.steps} step(s): ${result.detail}`,
+      result.status === "done" ? "done" : result.status === "failed" ? "error" : "done",
+    );
+  } finally {
+    stopProgress();
+    stopButton.hidden = true;
+  }
+}
+
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const task = taskInput.value.trim();
@@ -88,17 +173,22 @@ form.addEventListener("submit", async (event) => {
   traceSection.hidden = true;
 
   try {
-    const summary = await send<TaskSummary>({ type: "privagent/run-task", task });
-    renderSummary(summary);
-    renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit", taskId: summary.taskId }));
-    status.dataset.taskId = summary.taskId;
-    setStatus(`Task finished: ${summary.outcome}.`, "done");
+    if (multiStep.checked) await runLoop(task);
+    else await runSingle(task);
   } catch (error) {
     setStatus(error instanceof Error ? error.message : String(error), "error");
     renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit" }).catch(() => []));
   } finally {
     runButton.disabled = false;
   }
+});
+
+stopButton.addEventListener("click", () => {
+  const taskId = status.dataset.taskId;
+  if (!taskId) return;
+  stopButton.disabled = true;
+  setStatus("Stopping after the current step...", "running");
+  void send({ type: "privagent/cancel-task", taskId }).catch(() => undefined);
 });
 
 saveServer.addEventListener("click", async () => {

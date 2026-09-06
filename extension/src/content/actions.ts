@@ -19,7 +19,10 @@ export function localRiskFor(
   // high risk and put a confirmation prompt in front of the user - asking them to approve
   // an action that does not exist. Observed: a task sat waiting on that prompt until
   // something else dismissed it. Prompting on no-ops is also how prompts stop being read.
-  if (action.action === "none") return "low";
+  // `done` and `blocked` are the same category: they end the loop and touch nothing.
+  if (action.action === "none" || action.action === "done" || action.action === "blocked") {
+    return "low";
+  }
   if (action.action === "navigate" || targetSensitive || action.confidence < 0.5) return "high";
   if (action.action === "type" || action.confidence < 0.75) return "medium";
   return "low";
@@ -44,6 +47,8 @@ export function requiresConfirmation(risk: RiskTier): boolean {
 export type ExecutionOutcome =
   | { status: "executed"; action: ActionType }
   | { status: "skipped"; reason: "no_action" }
+  | { status: "done"; summary: string }
+  | { status: "blocked"; reason: string }
   | { status: "failed"; reason: ExecutionFailure; detail: string };
 
 export type ExecutionFailure =
@@ -61,6 +66,15 @@ export function executeAction(
   marks: ReadonlyMap<string, HTMLElement>,
 ): ExecutionOutcome {
   if (action.action === "none") return { status: "skipped", reason: "no_action" };
+
+  // Terminal loop signals: nothing on the page is touched. What they carry is text the
+  // server produced, so it is reported to the user, never interpreted as an instruction.
+  if (action.action === "done") {
+    return { status: "done", summary: action.params?.summary ?? "completed" };
+  }
+  if (action.action === "blocked") {
+    return { status: "blocked", reason: action.params?.reason ?? "cannot_proceed" };
+  }
 
   if (action.action === "navigate") {
     const url = action.params?.url;

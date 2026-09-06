@@ -127,6 +127,7 @@ npm run package:firefox     # web-ext lint + a signed-shape .xpi in extension/di
 ## Documentation
 
 **[Results](results.md)** — every rubric number and what is wrong with it ·
+[Design system](docs/DESIGN.md) ·
 [Dataset](tests/dataset/README.md) · [Security](docs/SECURITY.md) ·
 [Architecture](docs/ARCHITECTURE.md) · [Setup](docs/SETUP_GUIDE.md) ·
 [Testing](docs/TESTING.md) · [Benchmarks](docs/BENCHMARKS.md) ·

@@ -15,10 +15,18 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from .schemas import ActionType, Confidence, RiskTier
 
-SYSTEM_PROMPT_VERSION = "1.1"
+SYSTEM_PROMPT_VERSION = "2.0"
 
 PROMPT_CHANGELOG = {
     "1.0": "First version. Rules only, no examples.",
+    "2.0": (
+        "Schema v1.1 vocabulary: adds the terminal actions 'done' (task complete, with a "
+        "short params.summary) and 'blocked' (params.reason: bot_detection | "
+        "login_required | cannot_proceed), and renders the optional step counter and "
+        "prior-step history for multi-step tasks. Single-shot payloads carry neither, and "
+        "rules 1-8 of v1.1 are otherwise unchanged - including rule 5 (PII tokens are "
+        "opaque), which is load-bearing for the privacy contract."
+    ),
     "1.1": (
         "Added the explicit 'does the element's text plainly match' check, confidence "
         "calibration guidance, and one worked example - of *declining*. Measured on ten "
@@ -39,9 +47,9 @@ M2, ...), a role, its visible text and its position. This is everything you get:
 cannot see the page, and you cannot ask for more.
 
 Rules:
-1. Choose exactly one action: click, type, scroll, navigate, or none.
+1. Choose exactly one action: click, type, scroll, navigate, none, done, or blocked.
 2. target_id must be one of the mark ids given to you, copied exactly. Never invent one.
-   Use null for scroll, navigate and none.
+   Use null for scroll, navigate, none, done and blocked.
 3. For "type", put the text to enter in params as {"text": "..."}.
 4. Before choosing click or type, check that the element's own text plainly matches what
    the task asks for. If nothing on the list does, answer "none". Do not settle for the
@@ -61,6 +69,14 @@ Rules:
    lowers it.
 8. explanation is one short sentence, for the user, saying what you are about to do and
    why. It is shown to them before anything happens.
+9. Multi-step tasks may include a step counter and a history of prior steps. When the
+   history shows the task's goal has already been achieved, answer "done" with a short
+   result summary in params as {"summary": "..."} instead of acting again. Repeating an
+   action the history shows already executed is an error.
+10. When the page cannot be advanced by any element you were given - a login is required,
+    an automation check (CAPTCHA or similar) is shown, or the task is impossible here -
+    answer "blocked" with params {"reason": "login_required"}, {"reason": "bot_detection"}
+    or {"reason": "cannot_proceed"}. Never try to defeat a bot check or guess credentials.
 
 Worked example of declining. Task: "delete my account". Elements: M6 [link] 'Download
 report', M7 [button] 'Submit payment'. Neither element deletes an account, so the answer
@@ -94,13 +110,30 @@ class ModelAction(BaseModel):
     explanation: str = Field(min_length=1)
 
 
-def render_context(task: str, elements: list[dict[str, object]]) -> str:
+def render_context(
+    task: str,
+    elements: list[dict[str, object]],
+    step: dict[str, object] | None = None,
+    history: list[dict[str, object]] | None = None,
+) -> str:
     """Renders the sanitized context as the user turn.
 
     Compact on purpose. Every token spent restating the schema is latency, and small
-    models follow a short concrete listing better than they follow prose.
+    models follow a short concrete listing better than they follow prose. The history
+    lines carry roles, outcomes and redacted page titles - the same already-sanitized
+    fields that arrived in the payload, nothing derived beyond them.
     """
-    lines = [f"Task: {task}", "", "Elements:"]
+    lines = [f"Task: {task}"]
+    if step:
+        lines.append(f"Step {step.get('n')} of at most {step.get('limit')}.")
+    if history:
+        lines.append("")
+        lines.append("Previous steps:")
+        for index, entry in enumerate(history, start=1):
+            target = f" on a {entry['target_role']}" if entry.get("target_role") else ""
+            page = f" [page: {entry['page_ident']}]" if entry.get("page_ident") else ""
+            lines.append(f"{index}. {entry['action']}{target} -> {entry['outcome']}{page}")
+    lines.extend(["", "Elements:"])
     for element in elements:
         text = str(element.get("text", "")).strip()
         lines.append(
@@ -124,4 +157,4 @@ def response_format() -> dict[str, object]:
     return ModelAction.model_json_schema()
 
 
-ProviderName = Literal["deterministic", "ollama"]
+ProviderName = Literal["deterministic", "ollama", "foundry"]

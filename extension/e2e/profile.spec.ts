@@ -5,8 +5,8 @@ import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gunzipSync } from "node:zlib";
-import { test, expect, type BrowserContext } from "@playwright/test";
-import { extensionIdOf, freePort, launchWithExtension, waitFor } from "./harness";
+import { test, expect, chromium, type BrowserContext } from "@playwright/test";
+import { channelOverride, extensionIdOf, freePort, launchWithExtension, waitFor } from "./harness";
 
 /**
  * Build Spec Phase 8.5 and 8.6: what the client costs, on two device tiers, over five real
@@ -157,7 +157,16 @@ test.beforeAll(async () => {
       "--port",
       String(apiPort),
     ],
-    { cwd: repoRoot, env: { ...process.env, PYTHONPATH: join(repoRoot, "server") } },
+    {
+      cwd: repoRoot,
+      env: {
+        ...process.env,
+        PYTHONPATH: join(repoRoot, "server"),
+        // Hermetic: a developer's server/.env must not silently reroute this suite
+        // through a remote model - measurements are deterministic unless opted in.
+        PRIVAGENT_REASONER: process.env.PRIVAGENT_REASONER ?? "deterministic",
+      },
+    },
   );
   await waitFor(
     async () => (await fetch(`${apiUrl}/health`)).ok,
@@ -177,6 +186,8 @@ interface TierResult {
   baselineMb?: number;
   peakMb?: number;
   attributableMb?: number;
+  /** Resident memory after 95 s of idle - past the OCR worker's self-release window. */
+  settledMb?: number;
   tasks: Record<string, unknown>[];
 }
 
@@ -313,12 +324,18 @@ async function runTier(tier: string, cores: number | "all"): Promise<TierResult>
     }
 
     const peakMb = residentMb(profileDir);
+    // Then let the pipeline go idle: the OCR worker releases itself after
+    // OCR_IDLE_RELEASE_MS (90 s), and the settled figure is what a user who stopped
+    // asking for tasks actually keeps paying.
+    await new Promise((done) => setTimeout(done, 95_000));
+    const settledMb = residentMb(profileDir);
     return {
       tier,
       cores,
       baselineMb,
       peakMb,
       attributableMb: baselineMb && peakMb ? peakMb - baselineMb : undefined,
+      settledMb,
       tasks,
     };
   } finally {
@@ -327,12 +344,53 @@ async function runTier(tier: string, cores: number | "all"): Promise<TierResult>
   }
 }
 
+/**
+ * The attribution control: the same browser, the same five pages, no extension.
+ *
+ * The tier runs report baseline -> peak of a browser that loaded five modern pages AND
+ * ran the pipeline on them; without this control, all of that growth gets billed to the
+ * pipeline. Pages stay open for a dwell comparable to a task run so the renderer settles
+ * into its real working set, then the same OS-level measurement is taken.
+ */
+async function runControl(): Promise<TierResult> {
+  const profileDir = mkdtempSync(join(tmpdir(), "privagent-control-"));
+  // Same browser binary the tier runs use (the harness channel), just with no extension.
+  const channel = channelOverride();
+  const context = await chromium.launchPersistentContext(profileDir, {
+    headless: false,
+    ...(channel ? { channel } : {}),
+  });
+  try {
+    const baselineMb = residentMb(profileDir);
+    const tasks: Record<string, unknown>[] = [];
+    for (const item of WORKLOAD) {
+      const page = await context.newPage();
+      await page.goto(`${baseUrl}/${item.screen}`, { waitUntil: "load", timeout: 90_000 });
+      await page.waitForTimeout(10_000);
+      tasks.push({ screen: item.screen, task: "(control: page load + dwell, no extension)" });
+      await page.close();
+    }
+    const peakMb = residentMb(profileDir);
+    return {
+      tier: "control-no-extension",
+      cores: "all",
+      baselineMb,
+      peakMb,
+      attributableMb: baselineMb && peakMb ? peakMb - baselineMb : undefined,
+      tasks,
+    };
+  } finally {
+    await context.close();
+  }
+}
+
 test("profiles the client on two device tiers across five tasks", async () => {
-  // Two browsers, five pages each, four runs per page, on a throttled second tier.
+  // Three browsers: a no-extension control, then five pages x four runs on two tiers.
   test.setTimeout(60 * 60_000);
 
   const logical =
     process.platform === "win32" ? Number(powershell("$env:NUMBER_OF_PROCESSORS")) : 0;
+  const control = await runControl();
   const full = await runTier("tier1-full", "all");
   const limited = await runTier("tier2-two-cores", 2);
 
@@ -346,8 +404,11 @@ test("profiles the client on two device tiers across five tasks", async () => {
     method:
       "Tier 1 is this machine unconstrained. Tier 2 is the same machine with every process " +
       "of the browser confined to 2 logical processors via Windows processor affinity. " +
-      "Tier 2 is an emulated tier, not a second physical device.",
+      "Tier 2 is an emulated tier, not a second physical device. The control is the same " +
+      "browser loading the same five pages with no extension installed, so the tier deltas " +
+      "can be attributed between the modern web and the pipeline.",
     runsPerTask: RUNS,
+    control,
     tiers: [full, limited],
   };
 
@@ -358,10 +419,14 @@ test("profiles the client on two device tiers across five tasks", async () => {
     "utf8",
   );
 
+  console.log(
+    `\ncontrol-no-extension: memory ${control.baselineMb} -> ${control.peakMb} MB ` +
+      `(+${control.attributableMb})`,
+  );
   for (const tier of report.tiers) {
     console.log(
       `\n${tier.tier} (${tier.cores} cores): memory ${tier.baselineMb} -> ${tier.peakMb} MB ` +
-        `(+${tier.attributableMb})`,
+        `(+${tier.attributableMb}), settled ${tier.settledMb} MB after 95 s idle`,
     );
     for (const task of tier.tasks) {
       console.log(

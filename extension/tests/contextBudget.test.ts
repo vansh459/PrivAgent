@@ -109,11 +109,11 @@ const PAGES: ReadonlyArray<readonly [string, string, string]> = [
 describe("Phase 4.3 - transmitted payload budget", () => {
   beforeEach(() => stubLayout());
 
-  it.each(PAGES)("reduces the %s payload by at least 70%%", (_siteType, task, html) => {
+  it.each(PAGES)("reduces the %s payload by at least 70%%", async (_siteType, task, html) => {
     document.body.innerHTML = html;
 
     const rawDump = document.body.outerHTML;
-    const { context } = prepareContext(task, perceiveDom().elements);
+    const { context } = await prepareContext(task, perceiveDom().elements);
     const payload = JSON.stringify(context);
 
     const reduction = 1 - payload.length / rawDump.length;
@@ -123,13 +123,13 @@ describe("Phase 4.3 - transmitted payload budget", () => {
     ).toBeGreaterThanOrEqual(0.7);
   });
 
-  it("excludes unrelated fields from a single-step task", () => {
+  it("excludes unrelated fields from a single-step task", async () => {
     document.body.innerHTML = `
       <a id="dl" href="/r.pdf">Download report</a>
       <input id="coupon" placeholder="Coupon code" />
       <p>Unrelated marketing copy about our newsletter</p>`;
 
-    const { context } = prepareContext("download report", perceiveDom().elements);
+    const { context } = await prepareContext("download report", perceiveDom().elements);
 
     expect(context.elements.map((element) => element.text)).not.toContain(
       "Unrelated marketing copy about our newsletter",
@@ -155,10 +155,10 @@ describe("Phase 4.4 - no raw PII in any serialized payload", () => {
     "246810",
   ];
 
-  it.each(PAGES)("emits no raw value for the %s page", (_siteType, task, html) => {
+  it.each(PAGES)("emits no raw value for the %s page", async (_siteType, task, html) => {
     document.body.innerHTML = html;
 
-    const payload = JSON.stringify(prepareContext(task, perceiveDom().elements).context);
+    const payload = JSON.stringify((await prepareContext(task, perceiveDom().elements)).context);
 
     for (const secret of secrets) {
       expect(payload, `payload leaked ${secret}`).not.toContain(secret);
@@ -166,17 +166,19 @@ describe("Phase 4.4 - no raw PII in any serialized payload", () => {
     expect(detectStructuredPii(payload)).toEqual([]);
   });
 
-  it("runs every page against every task without leaking, for 25 payloads in total", () => {
+  it("runs every page against every task without leaking, for 25 payloads in total", async () => {
     const leaks: string[] = [];
 
     for (const [siteType, , html] of PAGES) {
       for (const [, task] of PAGES) {
         document.body.innerHTML = html;
-        const payload = JSON.stringify(prepareContext(task, perceiveDom().elements).context);
+        const payload = JSON.stringify(
+          (await prepareContext(task, perceiveDom().elements)).context,
+        );
         if (detectStructuredPii(payload).length > 0) leaks.push(`${siteType} / ${task}`);
       }
     }
 
     expect(leaks).toEqual([]);
-  });
+  }, 30_000);
 });

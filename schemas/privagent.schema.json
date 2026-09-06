@@ -9,7 +9,9 @@
           "type",
           "scroll",
           "navigate",
-          "none"
+          "none",
+          "done",
+          "blocked"
         ],
         "title": "Action",
         "type": "string"
@@ -117,6 +119,55 @@
     "title": "ContextElement",
     "type": "object"
   },
+  "HistoryStep": {
+    "additionalProperties": false,
+    "description": "One compact prior step, so the reasoner can plan without re-deriving the past.\n\n`page_ident` is the page's *redacted title* - it has been through the same Privacy\nFirewall as every element text. It is never a URL, not even hashed: URLs are on the\nnever-transmitted list in docs/SECURITY.md and stay there in 1.1.",
+    "properties": {
+      "action": {
+        "enum": [
+          "click",
+          "type",
+          "scroll",
+          "navigate",
+          "none",
+          "done",
+          "blocked"
+        ],
+        "title": "Action",
+        "type": "string"
+      },
+      "outcome": {
+        "maxLength": 120,
+        "minLength": 1,
+        "title": "Outcome",
+        "type": "string"
+      },
+      "page_ident": {
+        "maxLength": 120,
+        "title": "Page Ident",
+        "type": "string"
+      },
+      "target_role": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Target Role"
+      }
+    },
+    "required": [
+      "action",
+      "outcome",
+      "page_ident"
+    ],
+    "title": "HistoryStep",
+    "type": "object"
+  },
   "SanitizedContext": {
     "$defs": {
       "ContextElement": {
@@ -166,6 +217,79 @@
         ],
         "title": "ContextElement",
         "type": "object"
+      },
+      "HistoryStep": {
+        "additionalProperties": false,
+        "description": "One compact prior step, so the reasoner can plan without re-deriving the past.\n\n`page_ident` is the page's *redacted title* - it has been through the same Privacy\nFirewall as every element text. It is never a URL, not even hashed: URLs are on the\nnever-transmitted list in docs/SECURITY.md and stay there in 1.1.",
+        "properties": {
+          "action": {
+            "enum": [
+              "click",
+              "type",
+              "scroll",
+              "navigate",
+              "none",
+              "done",
+              "blocked"
+            ],
+            "title": "Action",
+            "type": "string"
+          },
+          "outcome": {
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Outcome",
+            "type": "string"
+          },
+          "page_ident": {
+            "maxLength": 120,
+            "title": "Page Ident",
+            "type": "string"
+          },
+          "target_role": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Target Role"
+          }
+        },
+        "required": [
+          "action",
+          "outcome",
+          "page_ident"
+        ],
+        "title": "HistoryStep",
+        "type": "object"
+      },
+      "StepInfo": {
+        "additionalProperties": false,
+        "description": "Where the multi-step loop is: step `n` of at most `limit`.",
+        "properties": {
+          "limit": {
+            "maximum": 50,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          },
+          "n": {
+            "maximum": 50,
+            "minimum": 1,
+            "title": "N",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "n",
+          "limit"
+        ],
+        "title": "StepInfo",
+        "type": "object"
       }
     },
     "additionalProperties": false,
@@ -178,10 +302,32 @@
         "title": "Elements",
         "type": "array"
       },
+      "history": {
+        "items": {
+          "$ref": "#/$defs/HistoryStep"
+        },
+        "maxItems": 15,
+        "title": "History",
+        "type": "array"
+      },
       "schema_version": {
-        "const": "1.0",
+        "enum": [
+          "1.0",
+          "1.1"
+        ],
         "title": "Schema Version",
         "type": "string"
+      },
+      "step": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/StepInfo"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null
       },
       "task": {
         "maxLength": 500,
@@ -465,6 +611,30 @@
       "sensitive"
     ],
     "title": "ScreenStateElement",
+    "type": "object"
+  },
+  "StepInfo": {
+    "additionalProperties": false,
+    "description": "Where the multi-step loop is: step `n` of at most `limit`.",
+    "properties": {
+      "limit": {
+        "maximum": 50,
+        "minimum": 1,
+        "title": "Limit",
+        "type": "integer"
+      },
+      "n": {
+        "maximum": 50,
+        "minimum": 1,
+        "title": "N",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "n",
+      "limit"
+    ],
+    "title": "StepInfo",
     "type": "object"
   }
 }

@@ -3,6 +3,34 @@
 Semantic versioning. The extension and server share a version number because they share a
 generated wire contract — a breaking schema change breaks both.
 
+## Unreleased
+
+### Changed — the interface
+
+- **One design system, defined once** in `extension/src/ui/tokens.css`: one font, two type
+  sizes, an 8px spacing scale, one neutral ramp, one accent ramp and one semantic set. Both
+  extension pages and the in-page confirmation prompt import that same file - the prompt
+  inlines it into its closed shadow root, rewriting `:root` to `:host`, so there is no second
+  copy of any value. See [DESIGN.md](./DESIGN.md) for where glass and clay are used and why.
+- **Inter, vendored** (latin subset, 48 KB, SIL OFL 1.1) and pinned by SHA-256 next to the
+  ONNX model. Not from a CDN, for the reason nothing else here is.
+- **`tests/contrast.test.ts`** computes WCAG AA for every text/surface pair in both colour
+  schemes, including the glass fill composited onto pure white and pure black - the extremes
+  the in-page prompt can land on. It found five real contrast failures on its first run.
+- **`e2e/screenshots.spec.ts`** captures every surface in both schemes into `docs/ui/`.
+
+### Fixed — interface defects the redesign surfaced
+
+- **The diagnostics page rendered at 340px.** It set `class="wide"` on a class that did not
+  exist anywhere, so a full-tab options page was laid out as a popup with extension URLs
+  running off the edge.
+- **Its pass/fail colouring did nothing.** The class went on the value `<span>` while the
+  only rule that styled it matched `li.ok .stage`, so the selector never fired.
+- **Its key/value rows had no separator**, rendering as `webgpuran in 202 ms`.
+- **The confirmation prompt had no dark theme.** It carried a hardcoded light-only
+  stylesheet; light and dark screenshots of it were byte-identical.
+- Two mojibake characters in shipped HTML and one in the OCR self-test output.
+
 ## 0.3.0 — 2026-09-06
 
 Stage 3: the rubric numbers exist, and producing them found five real defects. Everything
