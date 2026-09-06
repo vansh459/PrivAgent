@@ -1,0 +1,1198 @@
+{
+  "id": "dash-adminlte-tables",
+  "type": "dashboard",
+  "sourceUrl": "https://adminlte.io/themes/v3/pages/tables/data.html",
+  "capturedAt": "2026-09-06T06:05:36.323Z",
+  "annotatedAt": "2026-09-06T06:57:01.399Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1974,
+  "persona": "Kavita Joshi",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "AdminLTE Logo AdminLTE 3",
+      "bbox": [
+        0,
+        0,
+        250,
+        57
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "searchbox",
+      "name": "Search",
+      "bbox": [
+        8,
+        140,
+        189,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        196,
+        140,
+        46,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "AdminLTE.io Write to kavita.joshi@example.in",
+      "bbox": [
+        448,
+        1935,
+        348,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        258,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Home Grievance cell kavita.joshi@example.in",
+      "bbox": [
+        302,
+        8,
+        350,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Contact",
+      "bbox": [
+        652,
+        8,
+        87,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1035,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": " 3",
+      "bbox": [
+        1079,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": " 15",
+      "bbox": [
+        1123,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1168,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1212,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Alexander Pierce Helpline 9456781230",
+      "bbox": [
+        64,
+        78,
+        173,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": " Dashboard ",
+      "bbox": [
+        8,
+        186,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": " Widgets New",
+      "bbox": [
+        8,
+        229,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": " Layout Options  6",
+      "bbox": [
+        8,
+        272,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": " Charts ",
+      "bbox": [
+        8,
+        315,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": " UI Elements ",
+      "bbox": [
+        8,
+        358,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": " Forms ",
+      "bbox": [
+        8,
+        402,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": " Tables ",
+      "bbox": [
+        8,
+        445,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": " Calendar 2",
+      "bbox": [
+        8,
+        655,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": " Gallery",
+      "bbox": [
+        8,
+        698,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": " Kanban Board",
+      "bbox": [
+        8,
+        742,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": " Mailbox ",
+      "bbox": [
+        8,
+        785,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": " Pages ",
+      "bbox": [
+        8,
+        828,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": " Extras ",
+      "bbox": [
+        8,
+        871,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": " Search ",
+      "bbox": [
+        8,
+        914,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": " Tabbed IFrame Plugin",
+      "bbox": [
+        8,
+        995,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": " Documentation",
+      "bbox": [
+        8,
+        1038,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": " Level 1",
+      "bbox": [
+        8,
+        1119,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": " Level 1 ",
+      "bbox": [
+        8,
+        1162,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": " Level 1",
+      "bbox": [
+        8,
+        1206,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": " Important",
+      "bbox": [
+        8,
+        1286,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": " Warning",
+      "bbox": [
+        8,
+        1330,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": " Informational",
+      "bbox": [
+        8,
+        1373,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        1108,
+        75,
+        43,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": " Simple Tables",
+      "bbox": [
+        8,
+        488,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": " DataTables",
+      "bbox": [
+        8,
+        531,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": " jsGrid",
+      "bbox": [
+        8,
+        574,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "button",
+      "name": "Copy",
+      "bbox": [
+        286,
+        1115,
+        62,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "button",
+      "name": "CSV",
+      "bbox": [
+        347,
+        1115,
+        54,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "button",
+      "name": "Excel",
+      "bbox": [
+        399,
+        1115,
+        61,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "button",
+      "name": "PDF",
+      "bbox": [
+        459,
+        1115,
+        54,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "button",
+      "name": "Print",
+      "bbox": [
+        512,
+        1115,
+        58,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "button",
+      "name": "Column visibility",
+      "bbox": [
+        569,
+        1115,
+        155,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "searchbox",
+      "name": "Search:",
+      "bbox": [
+        1053,
+        1115,
+        176,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Previous",
+      "bbox": [
+        765,
+        973,
+        85,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "1",
+      "bbox": [
+        850,
+        973,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "2",
+      "bbox": [
+        883,
+        973,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        916,
+        973,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "4",
+      "bbox": [
+        949,
+        973,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "5",
+      "bbox": [
+        983,
+        973,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "6",
+      "bbox": [
+        1016,
+        973,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Next PAN EFGHI2233J",
+      "bbox": [
+        1049,
+        973,
+        180,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Previous",
+      "bbox": [
+        887,
+        1842,
+        85,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "1",
+      "bbox": [
+        971,
+        1842,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "2",
+      "bbox": [
+        1004,
+        1842,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        1038,
+        1842,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "4",
+      "bbox": [
+        1071,
+        1842,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "5",
+      "bbox": [
+        1104,
+        1842,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "6",
+      "bbox": [
+        1137,
+        1842,
+        34,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Next",
+      "bbox": [
+        1171,
+        1842,
+        59,
+        38
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9456781230",
+      "text": "Helpline 9456781230",
+      "bbox": [
+        64,
+        78,
+        173,
+        24
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 94567 81230",
+      "text": "Alternate contact +91 94567 81230",
+      "bbox": [
+        266,
+        220,
+        984,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "kavita.joshi@example.in",
+      "text": "Write to kavita.joshi@example.in",
+      "bbox": [
+        448,
+        1935,
+        348,
+        22
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "2233 4455 6677",
+      "text": "Aadhaar 2233 4455 6677 linked to this account",
+      "bbox": [
+        258,
+        135,
+        999,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "EFGHI2233J",
+      "text": "PAN EFGHI2233J",
+      "bbox": [
+        1049,
+        973,
+        180,
+        38
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5200 8282 8282 8210",
+      "text": "Card on file 5200 8282 8282 8210",
+      "bbox": [
+        278,
+        331,
+        214,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one time password 141414",
+      "text": "one time password 141414 sent to your phone",
+      "bbox": [
+        286,
+        1205,
+        944,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Kavita Joshi",
+      "text": "Signed in as Kavita Joshi",
+      "bbox": [
+        266,
+        180,
+        984,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "44 Laxmi Road, Nagpur 440012",
+      "text": "Registered address 44 Laxmi Road, Nagpur 440012",
+      "bbox": [
+        278,
+        1160,
+        313,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "kavita.joshi@example.in",
+      "text": "Grievance cell kavita.joshi@example.in",
+      "bbox": [
+        302,
+        8,
+        350,
+        40
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Home Grievance cell kavita.joshi@example.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Contact",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "15",
+      "truthId": null
+    },
+    {
+      "text": "AdminLTE 3",
+      "truthId": null
+    },
+    {
+      "text": "Alexander Pierce Helpline 9456781230",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard Widgets New Layout Options 6 Charts UI Elements Forms Tables Simple Tables DataTables jsGrid EXAMPLES Calendar 2 Gallery Kanban Board Mailbox Pages Extras Search MISCELLANEOUS Tabbed IFrame Plugin Documentation MULTI LEVEL EXAMPLE Level 1 Level 1 Level 1 LABELS Important Warning Informational",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard",
+      "truthId": null
+    },
+    {
+      "text": "Widgets New",
+      "truthId": null
+    },
+    {
+      "text": "Layout Options 6",
+      "truthId": null
+    },
+    {
+      "text": "Charts",
+      "truthId": null
+    },
+    {
+      "text": "UI Elements",
+      "truthId": null
+    },
+    {
+      "text": "Forms",
+      "truthId": null
+    },
+    {
+      "text": "Tables",
+      "truthId": null
+    },
+    {
+      "text": "Simple Tables",
+      "truthId": null
+    },
+    {
+      "text": "DataTables",
+      "truthId": null
+    },
+    {
+      "text": "jsGrid",
+      "truthId": null
+    },
+    {
+      "text": "Calendar 2",
+      "truthId": null
+    },
+    {
+      "text": "Gallery",
+      "truthId": null
+    },
+    {
+      "text": "Kanban Board",
+      "truthId": null
+    },
+    {
+      "text": "Mailbox",
+      "truthId": null
+    },
+    {
+      "text": "Pages",
+      "truthId": null
+    },
+    {
+      "text": "Extras",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Tabbed IFrame Plugin",
+      "truthId": null
+    },
+    {
+      "text": "Documentation",
+      "truthId": null
+    },
+    {
+      "text": "Level 1",
+      "truthId": null
+    },
+    {
+      "text": "Level 1",
+      "truthId": null
+    },
+    {
+      "text": "Level 1",
+      "truthId": null
+    },
+    {
+      "text": "Important",
+      "truthId": null
+    },
+    {
+      "text": "Warning",
+      "truthId": null
+    },
+    {
+      "text": "Informational",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 2233 4455 6677 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Signed in as Kavita Joshi",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Alternate contact +91 94567 81230",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Card on file 5200 8282 8282 8210",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Rendering engine: activate to sort column descending",
+      "truthId": null
+    },
+    {
+      "text": "Browser: activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "Platform(s): activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "Engine version: activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "CSS grade: activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Showing 1 to 10 of 57 entries",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "5",
+      "truthId": null
+    },
+    {
+      "text": "6",
+      "truthId": null
+    },
+    {
+      "text": "Next PAN EFGHI2233J",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Copy",
+      "truthId": null
+    },
+    {
+      "text": "CSV",
+      "truthId": null
+    },
+    {
+      "text": "Excel",
+      "truthId": null
+    },
+    {
+      "text": "PDF",
+      "truthId": null
+    },
+    {
+      "text": "Print",
+      "truthId": null
+    },
+    {
+      "text": "Column visibility",
+      "truthId": null
+    },
+    {
+      "text": "Search:",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 44 Laxmi Road, Nagpur 440012",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "one time password 141414 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Rendering engine: activate to sort column descending",
+      "truthId": null
+    },
+    {
+      "text": "Browser: activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "Platform(s): activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "Engine version: activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "CSS grade: activate to sort column ascending",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Gecko",
+      "truthId": null
+    },
+    {
+      "text": "Showing 1 to 10 of 57 entries",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "5",
+      "truthId": null
+    },
+    {
+      "text": "6",
+      "truthId": null
+    },
+    {
+      "text": "Next",
+      "truthId": null
+    },
+    {
+      "text": "AdminLTE.io Write to kavita.joshi@example.in",
+      "truthId": "pii_3"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9456781230",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9456781230"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2990 @@
+{
+  "id": "fin-icici",
+  "type": "finance",
+  "sourceUrl": "https://www.icici.bank.in/",
+  "capturedAt": "2026-09-06T06:00:34.873Z",
+  "annotatedAt": "2026-09-06T06:56:45.772Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 4070,
+  "persona": "Anand Krishnamurthy",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Scroll To Top",
+      "bbox": [
+        1040,
+        2737,
+        172,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "CONTACT US",
+      "bbox": [
+        52,
+        2829,
+        113,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "LOCATE US",
+      "bbox": [
+        52,
+        2933,
+        102,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Ways to Bank",
+      "bbox": [
+        292,
+        3370,
+        114,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Investor Center",
+      "bbox": [
+        532,
+        3370,
+        126,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "About Us",
+      "bbox": [
+        772,
+        3370,
+        84,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Calculators",
+      "bbox": [
+        1012,
+        3370,
+        99,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "ICICI Bank Footer Logo",
+      "bbox": [
+        52,
+        2738,
+        194,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "ICICI Bank Country Websites",
+      "bbox": [
+        948,
+        2747,
+        44,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "1800 1080",
+      "bbox": [
+        52,
+        2857,
+        125,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "ICICI Bank Logo",
+      "bbox": [
+        19,
+        96,
+        207,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Service request",
+      "bbox": [
+        52,
+        709,
+        120,
+        64
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Explore all Credit Cards",
+      "bbox": [
+        56,
+        2151,
+        173,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "iOS link to download ICICI Bank's iMobile app (opens in new tab)",
+      "bbox": [
+        76,
+        3910,
+        138,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "android link to download ICICI Bank's iMobile app (opens in new tab)",
+      "bbox": [
+        238,
+        3910,
+        138,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "ICICI Bank Facebook Page (opens in new tab)",
+      "bbox": [
+        517,
+        3928,
+        24,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "ICICI Bank LinkedIn Page (opens in new tab)",
+      "bbox": [
+        569,
+        3928,
+        24,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "ICICI Bank X Page (opens in new tab)",
+      "bbox": [
+        621,
+        3928,
+        24,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "ICICI Bank Instagram Page (opens in new tab)",
+      "bbox": [
+        673,
+        3928,
+        24,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "ICICI Bank Youtube channel (opens in new tab)",
+      "bbox": [
+        725,
+        3928,
+        24,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        57,
+        4021,
+        56,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Terms and conditions",
+      "bbox": [
+        132,
+        4021,
+        149,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Disclaimer",
+      "bbox": [
+        300,
+        4021,
+        73,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Privacy Policy",
+      "bbox": [
+        392,
+        4021,
+        98,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Code of Commitment",
+      "bbox": [
+        509,
+        4021,
+        146,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "button",
+      "name": "Open search – Search for products and services",
+      "bbox": [
+        20,
+        192,
+        501,
+        69
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "button",
+      "name": "Go to Previous Offers",
+      "bbox": [
+        24,
+        614,
+        33,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "button",
+      "name": "Go to Next Offers",
+      "bbox": [
+        75,
+        614,
+        33,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "button",
+      "name": "personal-loan",
+      "bbox": [
+        572,
+        1553,
+        111,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "button",
+      "name": "home-loan",
+      "bbox": [
+        695,
+        1553,
+        90,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "button",
+      "name": "vehicle-loan",
+      "bbox": [
+        797,
+        1553,
+        100,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "button",
+      "name": "education-loan",
+      "bbox": [
+        572,
+        1599,
+        158,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "button",
+      "name": "Gold",
+      "bbox": [
+        743,
+        1599,
+        58,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        1168,
+        2151,
+        41,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "button",
+      "name": "OK",
+      "bbox": [
+        281,
+        625,
+        39,
+        25
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        292,
+        2859,
+        68,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Customer Care",
+      "bbox": [
+        292,
+        2890,
+        93,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Report unauthorized transaction",
+      "bbox": [
+        292,
+        2921,
+        127,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Form Center",
+      "bbox": [
+        292,
+        2971,
+        77,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Raise a service request",
+      "bbox": [
+        292,
+        3001,
+        145,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Report suspicious activities",
+      "bbox": [
+        292,
+        3032,
+        173,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Lodge a complaint (opens in new tab)",
+      "bbox": [
+        292,
+        3063,
+        115,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Complaint form (opens in new tab)",
+      "bbox": [
+        292,
+        3094,
+        96,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Central Know Your Customer (CKYC)",
+      "bbox": [
+        292,
+        3125,
+        179,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Account aggregator framework",
+      "bbox": [
+        292,
+        3174,
+        192,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "List of unclaimed accounts (opens in new tab)",
+      "bbox": [
+        292,
+        3205,
+        168,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Inoperative or dormant accounts (opens in new tab)",
+      "bbox": [
+        292,
+        3236,
+        142,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Customer compliments",
+      "bbox": [
+        292,
+        3285,
+        143,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "ICICI Foundation (opens in new tab)",
+      "bbox": [
+        532,
+        2859,
+        104,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "ICICI Lombard General Insurance (opens in new tab)",
+      "bbox": [
+        532,
+        2890,
+        141,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "ICICI Prudential Life Insurance (opens in new tab)",
+      "bbox": [
+        532,
+        2940,
+        190,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "ICICI Prudential AMC (opens in new tab) PAN ZYXWV9876A",
+      "bbox": [
+        532,
+        2971,
+        159,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "ICICI Venture (opens in new tab)",
+      "bbox": [
+        532,
+        3020,
+        81,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "ICICI Direct (opens in new tab)",
+      "bbox": [
+        532,
+        3051,
+        71,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "ICICI Securities Primary Dealership Ltd (opens in new tab)",
+      "bbox": [
+        532,
+        3082,
+        148,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "ICICI Home Finance (opens in new tab)",
+      "bbox": [
+        532,
+        3131,
+        122,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "ICICI Investment Management Company Limited (opens in new tab)",
+      "bbox": [
+        532,
+        3162,
+        184,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Safe Banking",
+      "bbox": [
+        772,
+        2859,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Reserve Bank of India (RBI) Awareness Campaign",
+      "bbox": [
+        772,
+        2890,
+        171,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "RBI: Beware of Fictitious Offers (opens in new tab)",
+      "bbox": [
+        772,
+        2940,
+        197,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "RBI Kehta Hai",
+      "bbox": [
+        772,
+        2971,
+        86,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Regulatory disclosure section (opens in new tab)",
+      "bbox": [
+        772,
+        3001,
+        186,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Customer Literature on Non-Performing Assets (NPAs) and Special Mention Accounts (SMAs)",
+      "bbox": [
+        772,
+        3032,
+        187,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Regulatory disclosure section 2024",
+      "bbox": [
+        772,
+        3119,
+        186,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "RBI-UDGAM Portal (Unclaimed Deposits Gateway to Access Information) (opens in new tab)",
+      "bbox": [
+        772,
+        3169,
+        189,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "List of SEBI Registrations",
+      "bbox": [
+        772,
+        3237,
+        160,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Your Money Your Right-Gateway to your unclaimed financial assets (opens in new tab)",
+      "bbox": [
+        772,
+        3268,
+        199,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Interest rates",
+      "bbox": [
+        1012,
+        2859,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Service charges and fee",
+      "bbox": [
+        1012,
+        2890,
+        149,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Forex rates",
+      "bbox": [
+        1012,
+        2921,
+        70,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "Terms and conditions",
+      "bbox": [
+        1012,
+        2952,
+        134,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Frequently asked questions (FAQs) Write to anand.k@example.org",
+      "bbox": [
+        1012,
+        2983,
+        172,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Important information related to digital lending",
+      "bbox": [
+        1012,
+        3051,
+        198,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Account activation process",
+      "bbox": [
+        1012,
+        3101,
+        170,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Career opportunities (opens in new tab)",
+      "bbox": [
+        52,
+        3400,
+        128,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Do not call registry",
+      "bbox": [
+        52,
+        3431,
+        119,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Customer service policies",
+      "bbox": [
+        52,
+        3462,
+        161,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Business conduct and ethics (opens in new tab)",
+      "bbox": [
+        52,
+        3493,
+        180,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Use of unparliamentary language by customers",
+      "bbox": [
+        52,
+        3523,
+        145,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Fair practice code for lenders (opens in new tab)",
+      "bbox": [
+        52,
+        3573,
+        183,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Multilingual disclaimer",
+      "bbox": [
+        52,
+        3604,
+        141,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        52,
+        3635,
+        50,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Offers",
+      "bbox": [
+        52,
+        3665,
+        38,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Nearby offers",
+      "bbox": [
+        52,
+        3696,
+        84,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Update KYC (opens in new tab)",
+      "bbox": [
+        52,
+        3727,
+        74,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Co-lending arrangements (opens in new tab) Grievance cell anand.k@example.org",
+      "bbox": [
+        52,
+        3758,
+        157,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Digital Banking",
+      "bbox": [
+        292,
+        3400,
+        95,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Mobile Banking",
+      "bbox": [
+        292,
+        3431,
+        96,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Net Banking",
+      "bbox": [
+        292,
+        3462,
+        76,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "ICICI Bank's iMobile app",
+      "bbox": [
+        292,
+        3493,
+        151,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "WhatsApp Banking Helpline 7654321098",
+      "bbox": [
+        292,
+        3523,
+        173,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Pockets by ICICI Bank",
+      "bbox": [
+        292,
+        3573,
+        137,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "ATMs and branches",
+      "bbox": [
+        292,
+        3604,
+        122,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "Insta Banking",
+      "bbox": [
+        292,
+        3635,
+        85,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Annual reports",
+      "bbox": [
+        532,
+        3400,
+        92,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Investor presentation",
+      "bbox": [
+        532,
+        3431,
+        133,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Quarterly results",
+      "bbox": [
+        532,
+        3462,
+        105,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Notice",
+      "bbox": [
+        532,
+        3493,
+        40,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Investor contact",
+      "bbox": [
+        532,
+        3523,
+        101,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Board of Directors",
+      "bbox": [
+        772,
+        3400,
+        114,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Awards and Recognition",
+      "bbox": [
+        772,
+        3431,
+        151,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Environment, Social and Governance",
+      "bbox": [
+        772,
+        3462,
+        152,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "Notices",
+      "bbox": [
+        772,
+        3511,
+        47,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Fixed Deposit Calculator",
+      "bbox": [
+        1012,
+        3400,
+        153,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "Personal Loan Equated Monthly Instalment (EMI) calculator",
+      "bbox": [
+        1012,
+        3431,
+        197,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Home Loan EMI Calculator",
+      "bbox": [
+        1012,
+        3481,
+        164,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "Car Loan EMI calculator",
+      "bbox": [
+        1012,
+        3511,
+        148,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "Mutual fund calculator",
+      "bbox": [
+        1012,
+        3542,
+        139,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Systematic Investment Plan (SIP) calculator",
+      "bbox": [
+        1012,
+        3573,
+        172,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "Education Loan EMI calculator",
+      "bbox": [
+        1012,
+        3623,
+        189,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "Retirement calculator",
+      "bbox": [
+        1012,
+        3653,
+        133,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "Two - Wheeler Loan EMI Calculator",
+      "bbox": [
+        1012,
+        3684,
+        148,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "NPS calculator",
+      "bbox": [
+        1012,
+        3734,
+        92,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "PPF calculator",
+      "bbox": [
+        1012,
+        3765,
+        90,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Gold Loan Calculator (opens in new tab)",
+      "bbox": [
+        1012,
+        3795,
+        131,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "button",
+      "name": "Login",
+      "bbox": [
+        1144,
+        101,
+        100,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "button",
+      "name": "Start voice search",
+      "bbox": [
+        20,
+        235,
+        501,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "Savings Account accounts",
+      "bbox": [
+        20,
+        233,
+        152,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "button",
+      "name": "Cards cards",
+      "bbox": [
+        192,
+        233,
+        152,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "button",
+      "name": "Loans loans",
+      "bbox": [
+        364,
+        233,
+        152,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "button",
+      "name": "Deposits deposit",
+      "bbox": [
+        20,
+        309,
+        152,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "button",
+      "name": "Investment investment",
+      "bbox": [
+        192,
+        309,
+        152,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "Track applications / Service requests",
+      "bbox": [
+        228,
+        701,
+        220,
+        80
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "Smart lock",
+      "bbox": [
+        488,
+        701,
+        220,
+        80
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "Block card (opens in new tab)",
+      "bbox": [
+        748,
+        701,
+        220,
+        80
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "Report fraud",
+      "bbox": [
+        1008,
+        701,
+        220,
+        80
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "Explore Savings Account",
+      "bbox": [
+        52,
+        1017,
+        204,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "Explore Salary Account",
+      "bbox": [
+        280,
+        1017,
+        204,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "Explore NRI Account",
+      "bbox": [
+        52,
+        1095,
+        204,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "Explore Business Account",
+      "bbox": [
+        280,
+        1095,
+        204,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "Explore Investments",
+      "bbox": [
+        52,
+        1174,
+        204,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "View all Accounts",
+      "bbox": [
+        52,
+        1329,
+        63,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "radio",
+      "name": "6 Months",
+      "bbox": [
+        572,
+        1793,
+        89,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "radio",
+      "name": "1 Year",
+      "bbox": [
+        668,
+        1793,
+        68,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "radio",
+      "name": "2 Year",
+      "bbox": [
+        742,
+        1793,
+        68,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "button",
+      "name": "Custom",
+      "bbox": [
+        817,
+        1793,
+        99,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "link",
+      "name": "Details",
+      "bbox": [
+        972,
+        1846,
+        87,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "Apply now (opens in new tab)",
+      "bbox": [
+        1067,
+        1846,
+        121,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "button",
+      "name": "Know more.",
+      "bbox": [
+        195,
+        639,
+        71,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "link",
+      "name": "Personal",
+      "bbox": [
+        233,
+        96,
+        81,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "NRI",
+      "bbox": [
+        315,
+        96,
+        45,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "Business",
+      "bbox": [
+        359,
+        96,
+        84,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "button",
+      "name": "Resources",
+      "bbox": [
+        627,
+        96,
+        94,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "button",
+      "name": "About",
+      "bbox": [
+        721,
+        96,
+        62,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "button",
+      "name": "Help",
+      "bbox": [
+        783,
+        96,
+        51,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "Ask iPal ipal ipal chat",
+      "bbox": [
+        954,
+        101,
+        30,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "Save Items",
+      "bbox": [
+        994,
+        83,
+        30,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "button",
+      "name": "Open Accessibility Menu",
+      "bbox": [
+        1034,
+        101,
+        30,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "button",
+      "name": "Country Dropdown",
+      "bbox": [
+        1074,
+        101,
+        60,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "link",
+      "name": "Get support 1800 1080",
+      "bbox": [
+        364,
+        309,
+        152,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "link",
+      "name": "Apply now to get Special offer on Personal Loan (opens in new tab)",
+      "bbox": [
+        594,
+        103,
+        670,
+        636
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "slider",
+      "name": "Amount",
+      "bbox": [
+        572,
+        1699,
+        222,
+        6
+      ]
+    },
+    {
+      "oracleId": "ax_153",
+      "role": "button",
+      "name": "Edit interest rate",
+      "bbox": [
+        1086,
+        1507,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_154",
+      "role": "link",
+      "name": "ICICI Bank Sapphiro Credit Card",
+      "bbox": [
+        87,
+        1611,
+        296,
+        181
+      ]
+    },
+    {
+      "oracleId": "ax_155",
+      "role": "link",
+      "name": "Sapphiro",
+      "bbox": [
+        78,
+        1827,
+        172,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_156",
+      "role": "link",
+      "name": "apply now about sapphiro credit card (opens in new tab)",
+      "bbox": [
+        78,
+        2044,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_157",
+      "role": "link",
+      "name": "details about sapphiro credit card",
+      "bbox": [
+        134,
+        2044,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_158",
+      "role": "link",
+      "name": "ICICI Bank Rubyx Credit Card",
+      "bbox": [
+        484,
+        1611,
+        296,
+        181
+      ]
+    },
+    {
+      "oracleId": "ax_159",
+      "role": "link",
+      "name": "Rubyx",
+      "bbox": [
+        475,
+        1827,
+        131,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_160",
+      "role": "link",
+      "name": "Apply Now for Rubyx Credit Card (opens in new tab)",
+      "bbox": [
+        475,
+        2044,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_161",
+      "role": "link",
+      "name": "Details about Rubyx Credit Card",
+      "bbox": [
+        532,
+        2044,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_162",
+      "role": "link",
+      "name": "ICICI Bank Coral Credit Card",
+      "bbox": [
+        882,
+        1611,
+        296,
+        181
+      ]
+    },
+    {
+      "oracleId": "ax_163",
+      "role": "link",
+      "name": "Coral (opens in new tab)",
+      "bbox": [
+        873,
+        1827,
+        114,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_164",
+      "role": "link",
+      "name": "Apply Now for Coral Credit Card (opens in new tab)",
+      "bbox": [
+        873,
+        2044,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_165",
+      "role": "link",
+      "name": "More about Coral Credit Card",
+      "bbox": [
+        929,
+        2044,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_166",
+      "role": "button",
+      "name": "Personal",
+      "bbox": [
+        243,
+        106,
+        61,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_167",
+      "role": "button",
+      "name": "NRI",
+      "bbox": [
+        325,
+        106,
+        25,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_168",
+      "role": "button",
+      "name": "Business",
+      "bbox": [
+        369,
+        106,
+        64,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_169",
+      "role": "textbox",
+      "name": "loan-amount",
+      "bbox": [
+        806,
+        1684,
+        118,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_170",
+      "role": "button",
+      "name": "More about Sapphiro Credit Card",
+      "bbox": [
+        230,
+        2005,
+        37,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_171",
+      "role": "button",
+      "name": "More about Rubyx Credit Card",
+      "bbox": [
+        660,
+        2005,
+        37,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_172",
+      "role": "button",
+      "name": "More about Coral Credit Card",
+      "bbox": [
+        968,
+        2005,
+        37,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_173",
+      "role": "link",
+      "name": "Apply for Credit Card (opens in new tab)",
+      "bbox": [
+        44,
+        545,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_174",
+      "role": "link",
+      "name": "Details about Credit Card",
+      "bbox": [
+        133,
+        545,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_175",
+      "role": "link",
+      "name": "Apply for Home Loan (opens in new tab)",
+      "bbox": [
+        660,
+        516,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_176",
+      "role": "link",
+      "name": "Details about Home Loan",
+      "bbox": [
+        748,
+        516,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_177",
+      "role": "link",
+      "name": "Apply for Personal Loan (opens in new tab)",
+      "bbox": [
+        1068,
+        499,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_178",
+      "role": "link",
+      "name": "Details about Personal Loan",
+      "bbox": [
+        1157,
+        499,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_179",
+      "role": "link",
+      "name": "Apply for Car Loan (opens in new tab)",
+      "bbox": [
+        1580,
+        499,
+        48,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_180",
+      "role": "link",
+      "name": "Details about Car Loan",
+      "bbox": [
+        1669,
+        499,
+        56,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_181",
+      "role": "button",
+      "name": "save",
+      "bbox": [
+        336,
+        1843,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_182",
+      "role": "button",
+      "name": "compare",
+      "bbox": [
+        368,
+        1843,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_183",
+      "role": "button",
+      "name": "save",
+      "bbox": [
+        733,
+        1843,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_184",
+      "role": "button",
+      "name": "compare",
+      "bbox": [
+        765,
+        1843,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_185",
+      "role": "button",
+      "name": "save",
+      "bbox": [
+        1131,
+        1843,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_186",
+      "role": "button",
+      "name": "compare",
+      "bbox": [
+        1163,
+        1843,
+        24,
+        24
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7654321098",
+      "text": "Helpline 7654321098",
+      "bbox": [
+        292,
+        3523,
+        173,
+        32
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "080 2345 6789",
+      "text": "Alternate contact 080 2345 6789",
+      "bbox": [
+        540,
+        903,
+        704,
+        501
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "anand.k@example.org",
+      "text": "Write to anand.k@example.org",
+      "bbox": [
+        1012,
+        2983,
+        172,
+        51
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "9876-5432-1098",
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "bbox": [
+        556,
+        433,
+        79,
+        150
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "ZYXWV9876A",
+      "text": "PAN ZYXWV9876A",
+      "bbox": [
+        532,
+        2971,
+        159,
+        32
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3400 0000 0000 009",
+      "text": "Card on file 3400 0000 0000 009",
+      "bbox": [
+        20,
+        153,
+        496,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 5678",
+      "text": "OTP: 5678 sent to your phone",
+      "bbox": [
+        540,
+        1410,
+        704,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Anand Krishnamurthy",
+      "text": "Signed in as Anand Krishnamurthy",
+      "bbox": [
+        20,
+        41,
+        1224,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Plot 9, Sector 21, Gurugram 122016",
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "bbox": [
+        44,
+        433,
+        448,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "anand.k@example.org",
+      "text": "Grievance cell anand.k@example.org",
+      "bbox": [
+        52,
+        3758,
+        157,
+        51
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Signed in as Anand Krishnamurthy",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "ICICI Bank Logo",
+      "truthId": null
+    },
+    {
+      "text": "Personal",
+      "truthId": null
+    },
+    {
+      "text": "Personal",
+      "truthId": null
+    },
+    {
+      "text": "NRI",
+      "truthId": null
+    },
+    {
+      "text": "NRI",
+      "truthId": null
+    },
+    {
+      "text": "Business",
+      "truthId": null
+    },
+    {
+      "text": "Business",
+      "truthId": null
+    },
+    {
+      "text": "Resources",
+      "truthId": null
+    },
+    {
+      "text": "About",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Ask iPal",
+      "truthId": null
+    },
+    {
+      "text": "Save Items",
+      "truthId": null
+    },
+    {
+      "text": "Open Accessibility Menu",
+      "truthId": null
+    },
+    {
+      "text": "Country Dropdown",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 3400 0000 0000 009 Search for \"Personal Loan\" Savings Account accounts Cards cards Loans loans Deposits deposit Investment investment Get support 1800 1080 Offers for you! Registered address Plot 9, Sector 21, Gurugram 122016 Credit Card for you! Enjoy discounts on BookMyShow, electronics, dining and more! Apply Details Hot selling Aadhaar 9876-5432-1098 linked to this account Home Loan Get a Home Loan of up to ₹5 crore* with quick processing Apply Details Ongoing offer Personal Loan Get instant disbursement with no foreclosure charges after 24 EMIs Apply Details Ongoing offer Car Loan Drive your new car with 100% on-road funding Apply Details Ongoing offer Go to Previous Offers Go to Next Offers Home upgrades, healthcare, holidays A Personal Loan with a 100% digital process, is all you need Apply now Service request Track applications / Service requests Smart lock Block card Report fraud Open an Account Savings Salary NRI Business Investments View all Alternate contact 080 2345 6789 OTP: 5678 sent to your phone Choose Your Loan Personal Home Vehicle Education Loan Gold Amount 50k 10L 20L 30L 40L 50L Duration 6 Months 1 Year 2 Year Custom Interest rate@ 9.99 % ₹8,578 Total interest: ₹1,467 Disclaimer and terms & conditions applied Minimal documentation No collateral required Details Apply now Choose your Credit Card Hot selling Sapphiro save compare Best Credit Card for Premium lifestyle offers Lounge access | Golf rounds | BookMyShow offer more Apply Details Exclusive rewards Rubyx save compare Best Credit Card for High-end lifestyle perks Welcome vouchers | Complimentary golf rounds | Lounge access more Apply Details Popular Coral save compare Best Credit Card for Everyday or on-the-go spends Lounge access | BookMyShow offers | INOX offers More Apply Details Explore all Credit Cards Looking for a Business Card? View Seamless mobile banking",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 3400 0000 0000 009",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Open search – Search for products and services",
+      "truthId": null
+    },
+    {
+      "text": "Start voice search",
+      "truthId": null
+    },
+    {
+      "text": "Savings Account accounts",
+      "truthId": null
+    },
+    {
+      "text": "Cards cards",
+      "truthId": null
+    },
+    {
+      "text": "Loans loans",
+      "truthId": null
+    },
+    {
+      "text": "Deposits deposit",
+      "truthId": null
+    },
+    {
+      "text": "Investment investment",
+      "truthId": null
+    },
+    {
+      "text": "Get support 1800 1080",
+      "truthId": null
+    },
+    {
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Apply for Credit Card (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Details about Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Apply for Home Loan (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Details about Home Loan",
+      "truthId": null
+    },
+    {
+      "text": "Apply for Personal Loan (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Details about Personal Loan",
+      "truthId": null
+    },
+    {
+      "text": "Apply for Car Loan (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Details about Car Loan",
+      "truthId": null
+    },
+    {
+      "text": "Go to Previous Offers",
+      "truthId": null
+    },
+    {
+      "text": "Go to Next Offers",
+      "truthId": null
+    },
+    {
+      "text": "Apply now to get Special offer on Personal Loan (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Service request",
+      "truthId": null
+    },
+    {
+      "text": "Track applications / Service requests",
+      "truthId": null
+    },
+    {
+      "text": "Smart lock",
+      "truthId": null
+    },
+    {
+      "text": "Block card (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Report fraud",
+      "truthId": null
+    },
+    {
+      "text": "Explore Savings Account",
+      "truthId": null
+    },
+    {
+      "text": "Explore Salary Account",
+      "truthId": null
+    },
+    {
+      "text": "Explore NRI Account",
+      "truthId": null
+    },
+    {
+      "text": "Explore Business Account",
+      "truthId": null
+    },
+    {
+      "text": "Explore Investments",
+      "truthId": null
+    },
+    {
+      "text": "View all Accounts",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 080 2345 6789",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "OTP: 5678 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "personal-loan",
+      "truthId": null
+    },
+    {
+      "text": "home-loan",
+      "truthId": null
+    },
+    {
+      "text": "vehicle-loan",
+      "truthId": null
+    },
+    {
+      "text": "education-loan",
+      "truthId": null
+    },
+    {
+      "text": "Gold",
+      "truthId": null
+    },
+    {
+      "text": "Amount",
+      "truthId": null
+    },
+    {
+      "text": "loan-amount",
+      "truthId": null
+    },
+    {
+      "text": "6 Months",
+      "truthId": null
+    },
+    {
+      "text": "1 Year",
+      "truthId": null
+    },
+    {
+      "text": "2 Year",
+      "truthId": null
+    },
+    {
+      "text": "Custom",
+      "truthId": null
+    },
+    {
+      "text": "Edit interest rate",
+      "truthId": null
+    },
+    {
+      "text": "Details",
+      "truthId": null
+    },
+    {
+      "text": "Apply now (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Sapphiro",
+      "truthId": null
+    },
+    {
+      "text": "save",
+      "truthId": null
+    },
+    {
+      "text": "compare",
+      "truthId": null
+    },
+    {
+      "text": "More about Sapphiro Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "apply now about sapphiro credit card (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "details about sapphiro credit card",
+      "truthId": null
+    },
+    {
+      "text": "Rubyx",
+      "truthId": null
+    },
+    {
+      "text": "save",
+      "truthId": null
+    },
+    {
+      "text": "compare",
+      "truthId": null
+    },
+    {
+      "text": "More about Rubyx Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Apply Now for Rubyx Credit Card (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Details about Rubyx Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Coral (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "save",
+      "truthId": null
+    },
+    {
+      "text": "compare",
+      "truthId": null
+    },
+    {
+      "text": "More about Coral Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Apply Now for Coral Credit Card (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "More about Coral Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Explore all Credit Cards",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "Know more.",
+      "truthId": null
+    },
+    {
+      "text": "OK",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank Footer Logo",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank Country Websites",
+      "truthId": null
+    },
+    {
+      "text": "Scroll To Top",
+      "truthId": null
+    },
+    {
+      "text": "CONTACT US",
+      "truthId": null
+    },
+    {
+      "text": "1800 1080",
+      "truthId": null
+    },
+    {
+      "text": "LOCATE US",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Customer Care",
+      "truthId": null
+    },
+    {
+      "text": "Report unauthorized transaction",
+      "truthId": null
+    },
+    {
+      "text": "Form Center",
+      "truthId": null
+    },
+    {
+      "text": "Raise a service request",
+      "truthId": null
+    },
+    {
+      "text": "Report suspicious activities",
+      "truthId": null
+    },
+    {
+      "text": "Lodge a complaint (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Complaint form (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Central Know Your Customer (CKYC)",
+      "truthId": null
+    },
+    {
+      "text": "Account aggregator framework",
+      "truthId": null
+    },
+    {
+      "text": "List of unclaimed accounts (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Inoperative or dormant accounts (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Customer compliments",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Foundation (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Lombard General Insurance (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Prudential Life Insurance (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Prudential AMC (opens in new tab) PAN ZYXWV9876A",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "ICICI Venture (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Direct (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Securities Primary Dealership Ltd (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Home Finance (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Investment Management Company Limited (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Safe Banking",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (RBI) Awareness Campaign",
+      "truthId": null
+    },
+    {
+      "text": "RBI: Beware of Fictitious Offers (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "RBI Kehta Hai",
+      "truthId": null
+    },
+    {
+      "text": "Regulatory disclosure section (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Customer Literature on Non-Performing Assets (NPAs) and Special Mention Accounts (SMAs)",
+      "truthId": null
+    },
+    {
+      "text": "Regulatory disclosure section 2024",
+      "truthId": null
+    },
+    {
+      "text": "RBI-UDGAM Portal (Unclaimed Deposits Gateway to Access Information) (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "List of SEBI Registrations",
+      "truthId": null
+    },
+    {
+      "text": "Your Money Your Right-Gateway to your unclaimed financial assets (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Interest rates",
+      "truthId": null
+    },
+    {
+      "text": "Service charges and fee",
+      "truthId": null
+    },
+    {
+      "text": "Forex rates",
+      "truthId": null
+    },
+    {
+      "text": "Terms and conditions",
+      "truthId": null
+    },
+    {
+      "text": "Frequently asked questions (FAQs) Write to anand.k@example.org",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Important information related to digital lending",
+      "truthId": null
+    },
+    {
+      "text": "Account activation process",
+      "truthId": null
+    },
+    {
+      "text": "Career opportunities (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Do not call registry",
+      "truthId": null
+    },
+    {
+      "text": "Customer service policies",
+      "truthId": null
+    },
+    {
+      "text": "Business conduct and ethics (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Use of unparliamentary language by customers",
+      "truthId": null
+    },
+    {
+      "text": "Fair practice code for lenders (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Multilingual disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "Offers",
+      "truthId": null
+    },
+    {
+      "text": "Nearby offers",
+      "truthId": null
+    },
+    {
+      "text": "Update KYC (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Co-lending arrangements (opens in new tab) Grievance cell anand.k@example.org",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Ways to Bank",
+      "truthId": null
+    },
+    {
+      "text": "Digital Banking",
+      "truthId": null
+    },
+    {
+      "text": "Mobile Banking",
+      "truthId": null
+    },
+    {
+      "text": "Net Banking",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank's iMobile app",
+      "truthId": null
+    },
+    {
+      "text": "WhatsApp Banking Helpline 7654321098",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Pockets by ICICI Bank",
+      "truthId": null
+    },
+    {
+      "text": "ATMs and branches",
+      "truthId": null
+    },
+    {
+      "text": "Insta Banking",
+      "truthId": null
+    },
+    {
+      "text": "Investor Center",
+      "truthId": null
+    },
+    {
+      "text": "Annual reports",
+      "truthId": null
+    },
+    {
+      "text": "Investor presentation",
+      "truthId": null
+    },
+    {
+      "text": "Quarterly results",
+      "truthId": null
+    },
+    {
+      "text": "Notice",
+      "truthId": null
+    },
+    {
+      "text": "Investor contact",
+      "truthId": null
+    },
+    {
+      "text": "About Us",
+      "truthId": null
+    },
+    {
+      "text": "Board of Directors",
+      "truthId": null
+    },
+    {
+      "text": "Awards and Recognition",
+      "truthId": null
+    },
+    {
+      "text": "Environment, Social and Governance",
+      "truthId": null
+    },
+    {
+      "text": "Notices",
+      "truthId": null
+    },
+    {
+      "text": "Calculators",
+      "truthId": null
+    },
+    {
+      "text": "Fixed Deposit Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Personal Loan Equated Monthly Instalment (EMI) calculator",
+      "truthId": null
+    },
+    {
+      "text": "Home Loan EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Car Loan EMI calculator",
+      "truthId": null
+    },
+    {
+      "text": "Mutual fund calculator",
+      "truthId": null
+    },
+    {
+      "text": "Systematic Investment Plan (SIP) calculator",
+      "truthId": null
+    },
+    {
+      "text": "Education Loan EMI calculator",
+      "truthId": null
+    },
+    {
+      "text": "Retirement calculator",
+      "truthId": null
+    },
+    {
+      "text": "Two - Wheeler Loan EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "NPS calculator",
+      "truthId": null
+    },
+    {
+      "text": "PPF calculator",
+      "truthId": null
+    },
+    {
+      "text": "Gold Loan Calculator (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "iOS link to download ICICI Bank's iMobile app (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "android link to download ICICI Bank's iMobile app (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank Facebook Page (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank LinkedIn Page (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank X Page (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank Instagram Page (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "ICICI Bank Youtube channel (opens in new tab)",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "Terms and conditions",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Code of Commitment",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7654321098",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7654321098"
+        }
+      }
+    ]
+  }
+}

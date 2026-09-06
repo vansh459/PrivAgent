@@ -1,0 +1,4026 @@
+{
+  "id": "form-w3-html",
+  "type": "form",
+  "sourceUrl": "https://www.w3schools.com/html/html_forms.asp",
+  "capturedAt": "2026-09-06T06:04:35.266Z",
+  "annotatedAt": "2026-09-06T06:56:57.511Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 9156,
+  "persona": "Meera Banerjee",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Home link",
+      "bbox": [
+        0,
+        0,
+        75,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "W3Schools Adventure App - iOS and Android",
+      "bbox": [
+        971,
+        8,
+        175,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "Sign in to your account",
+      "bbox": [
+        1160,
+        8,
+        95,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "HTML",
+      "bbox": [
+        0,
+        56,
+        76,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "CSS",
+      "bbox": [
+        77,
+        56,
+        64,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "JAVASCRIPT",
+      "bbox": [
+        142,
+        56,
+        130,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "SQL",
+      "bbox": [
+        273,
+        56,
+        63,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "PYTHON Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        337,
+        56,
+        446,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "JAVA",
+      "bbox": [
+        784,
+        56,
+        69,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "PHP",
+      "bbox": [
+        854,
+        56,
+        64,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "C",
+      "bbox": [
+        919,
+        56,
+        42,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "C++",
+      "bbox": [
+        962,
+        56,
+        61,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "C#",
+      "bbox": [
+        1024,
+        56,
+        51,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "AWS",
+      "bbox": [
+        1076,
+        56,
+        67,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "W3.CSS",
+      "bbox": [
+        1144,
+        56,
+        94,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "HOW TO",
+      "bbox": [
+        1238,
+        56,
+        97,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "BOOTSTRAP",
+      "bbox": [
+        1337,
+        56,
+        132,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "REACT",
+      "bbox": [
+        1469,
+        56,
+        86,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "MYSQL",
+      "bbox": [
+        1556,
+        56,
+        88,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "JQUERY",
+      "bbox": [
+        1644,
+        56,
+        97,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "EXCEL PAN LMNOP4321Q",
+      "bbox": [
+        1742,
+        56,
+        235,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "XML",
+      "bbox": [
+        1978,
+        56,
+        64,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "DJANGO",
+      "bbox": [
+        2043,
+        56,
+        99,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "NUMPY",
+      "bbox": [
+        2142,
+        56,
+        89,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "PANDAS",
+      "bbox": [
+        2233,
+        56,
+        97,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "NODEJS",
+      "bbox": [
+        2330,
+        56,
+        97,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "DSA",
+      "bbox": [
+        2428,
+        56,
+        64,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "TYPESCRIPT",
+      "bbox": [
+        2493,
+        56,
+        134,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "ANGULAR",
+      "bbox": [
+        2628,
+        56,
+        110,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "ANGULARJS",
+      "bbox": [
+        2739,
+        56,
+        129,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "GIT",
+      "bbox": [
+        2869,
+        56,
+        58,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "POSTGRESQL",
+      "bbox": [
+        2928,
+        56,
+        143,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "MONGODB",
+      "bbox": [
+        3072,
+        56,
+        116,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "ASP",
+      "bbox": [
+        3189,
+        56,
+        63,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "AI",
+      "bbox": [
+        3253,
+        56,
+        46,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "R",
+      "bbox": [
+        3300,
+        56,
+        42,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "GO",
+      "bbox": [
+        3343,
+        56,
+        55,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "KOTLIN",
+      "bbox": [
+        3400,
+        56,
+        90,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "SWIFT Write to meera.banerjee@example.net",
+      "bbox": [
+        3491,
+        56,
+        379,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "SASS",
+      "bbox": [
+        3871,
+        56,
+        74,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "VUE",
+      "bbox": [
+        3946,
+        56,
+        64,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "GEN AI",
+      "bbox": [
+        4011,
+        56,
+        86,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "SCIPY",
+      "bbox": [
+        4098,
+        56,
+        80,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "CYBERSECURITY",
+      "bbox": [
+        4179,
+        56,
+        171,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "DATA SCIENCE",
+      "bbox": [
+        4350,
+        56,
+        150,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "INTRO TO PROGRAMMING",
+      "bbox": [
+        4501,
+        56,
+        242,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "INTRO TO HTML & CSS",
+      "bbox": [
+        4744,
+        56,
+        214,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "BASH",
+      "bbox": [
+        4959,
+        56,
+        75,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "RUST",
+      "bbox": [
+        5035,
+        56,
+        75,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "TOOLS",
+      "bbox": [
+        5110,
+        56,
+        86,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "❮ Previous",
+      "bbox": [
+        262,
+        529,
+        124,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Next ❯",
+      "bbox": [
+        969,
+        529,
+        91,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Try it Yourself »",
+      "bbox": [
+        262,
+        1026,
+        153,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Try it Yourself »",
+      "bbox": [
+        262,
+        2987,
+        153,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Try it Yourself »",
+      "bbox": [
+        262,
+        4664,
+        153,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "radio",
+      "name": "HTML",
+      "bbox": [
+        262,
+        4842,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "radio",
+      "name": "CSS",
+      "bbox": [
+        262,
+        4866,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "radio",
+      "name": "JavaScript",
+      "bbox": [
+        262,
+        4890,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Try it Yourself »",
+      "bbox": [
+        262,
+        5431,
+        153,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "checkbox",
+      "name": "I have a bike",
+      "bbox": [
+        262,
+        5565,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "checkbox",
+      "name": "I have a car",
+      "bbox": [
+        262,
+        5589,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "checkbox",
+      "name": "I have a boat",
+      "bbox": [
+        262,
+        5613,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Try it Yourself »",
+      "bbox": [
+        262,
+        6177,
+        153,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Try it Yourself »",
+      "bbox": [
+        262,
+        6922,
+        153,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Tutorial on YouTube Tutorial on YouTube",
+      "bbox": [
+        278,
+        7084,
+        766,
+        405
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "❮ Previous",
+      "bbox": [
+        262,
+        7538,
+        124,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Next ❯",
+      "bbox": [
+        969,
+        7538,
+        91,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "button",
+      "name": "Tutorials",
+      "bbox": [
+        75,
+        0,
+        109,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "button",
+      "name": "References",
+      "bbox": [
+        184,
+        0,
+        130,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "button",
+      "name": "Exercises",
+      "bbox": [
+        314,
+        0,
+        117,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "button",
+      "name": "Certificates",
+      "bbox": [
+        431,
+        0,
+        128,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "button",
+      "name": "All our services",
+      "bbox": [
+        750,
+        10,
+        36,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "HTML HOME",
+      "bbox": [
+        8,
+        128,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "HTML Introduction ",
+      "bbox": [
+        8,
+        155,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "HTML Editors",
+      "bbox": [
+        8,
+        182,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "HTML Basic ",
+      "bbox": [
+        8,
+        209,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "HTML Elements ",
+      "bbox": [
+        8,
+        236,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "HTML Attributes ",
+      "bbox": [
+        8,
+        263,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "HTML Headings ",
+      "bbox": [
+        8,
+        290,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "HTML Paragraphs ",
+      "bbox": [
+        8,
+        317,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "HTML Styles ",
+      "bbox": [
+        8,
+        344,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "HTML Formatting ",
+      "bbox": [
+        8,
+        371,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "HTML Quotations ",
+      "bbox": [
+        8,
+        398,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "HTML Comments ",
+      "bbox": [
+        8,
+        425,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "HTML Colors ",
+      "bbox": [
+        8,
+        452,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "HTML CSS ",
+      "bbox": [
+        8,
+        479,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "HTML Links ",
+      "bbox": [
+        8,
+        506,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "HTML Images ",
+      "bbox": [
+        8,
+        533,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "HTML Project",
+      "bbox": [
+        8,
+        560,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "HTML Favicon ",
+      "bbox": [
+        8,
+        587,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "HTML Page Title ",
+      "bbox": [
+        8,
+        614,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "HTML Tables ",
+      "bbox": [
+        8,
+        641,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "HTML Lists ",
+      "bbox": [
+        8,
+        668,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "HTML Block & Inline ",
+      "bbox": [
+        8,
+        695,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "HTML Div ",
+      "bbox": [
+        8,
+        722,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "HTML Classes ",
+      "bbox": [
+        8,
+        749,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "HTML Id ",
+      "bbox": [
+        8,
+        776,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "HTML Buttons ",
+      "bbox": [
+        8,
+        803,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "HTML Iframes ",
+      "bbox": [
+        8,
+        830,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "HTML JavaScript ",
+      "bbox": [
+        8,
+        857,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "HTML File Paths ",
+      "bbox": [
+        8,
+        884,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "HTML Head ",
+      "bbox": [
+        8,
+        911,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "HTML Layout ",
+      "bbox": [
+        8,
+        938,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "HTML Responsive ",
+      "bbox": [
+        8,
+        965,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "HTML Computercode ",
+      "bbox": [
+        8,
+        992,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "HTML Semantics ",
+      "bbox": [
+        8,
+        1019,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "HTML Style Guide",
+      "bbox": [
+        8,
+        1046,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "HTML Entities ",
+      "bbox": [
+        8,
+        1073,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "HTML Symbols",
+      "bbox": [
+        8,
+        1100,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "HTML Emojis",
+      "bbox": [
+        8,
+        1127,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "HTML Charsets",
+      "bbox": [
+        8,
+        1154,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "HTML URL Encode",
+      "bbox": [
+        8,
+        1181,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "HTML vs. XHTML",
+      "bbox": [
+        8,
+        1208,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "HTML Forms ",
+      "bbox": [
+        8,
+        1280,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Forms",
+      "bbox": [
+        8,
+        1307,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Exercises",
+      "bbox": [
+        8,
+        1334,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Code Challenge",
+      "bbox": [
+        8,
+        1361,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "HTML Form Attributes ",
+      "bbox": [
+        8,
+        1388,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "HTML Form Elements ",
+      "bbox": [
+        8,
+        1415,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "HTML Input Types ",
+      "bbox": [
+        8,
+        1442,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "link",
+      "name": "HTML Input Attributes ",
+      "bbox": [
+        8,
+        1469,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "link",
+      "name": "Input Form Attributes ",
+      "bbox": [
+        8,
+        1496,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "HTML Canvas ",
+      "bbox": [
+        8,
+        1568,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "HTML SVG ",
+      "bbox": [
+        8,
+        1595,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "HTML Media",
+      "bbox": [
+        8,
+        1667,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "HTML Video ",
+      "bbox": [
+        8,
+        1694,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "HTML Audio ",
+      "bbox": [
+        8,
+        1721,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "HTML Plug-ins",
+      "bbox": [
+        8,
+        1748,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "HTML YouTube",
+      "bbox": [
+        8,
+        1775,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "HTML Web APIs",
+      "bbox": [
+        8,
+        1847,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "HTML Geolocation",
+      "bbox": [
+        8,
+        1874,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "HTML Drag and Drop",
+      "bbox": [
+        8,
+        1901,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "link",
+      "name": "HTML Web Storage",
+      "bbox": [
+        8,
+        1928,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "link",
+      "name": "HTML Web Workers",
+      "bbox": [
+        8,
+        1955,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "link",
+      "name": "HTML SSE",
+      "bbox": [
+        8,
+        1982,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "link",
+      "name": "HTML Certificate",
+      "bbox": [
+        8,
+        2054,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "link",
+      "name": "HTML Examples",
+      "bbox": [
+        8,
+        2126,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "HTML Editor Helpline 9988776655",
+      "bbox": [
+        8,
+        2153,
+        207,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "link",
+      "name": "HTML Quiz",
+      "bbox": [
+        8,
+        2204,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "link",
+      "name": "HTML Exercises",
+      "bbox": [
+        8,
+        2231,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "HTML Challenges",
+      "bbox": [
+        8,
+        2258,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "HTML Website",
+      "bbox": [
+        8,
+        2285,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "HTML Syllabus",
+      "bbox": [
+        8,
+        2312,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "HTML Study Plan",
+      "bbox": [
+        8,
+        2339,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "link",
+      "name": "HTML Interview Prep",
+      "bbox": [
+        8,
+        2366,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "HTML Summary",
+      "bbox": [
+        8,
+        2393,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "HTML Accessibility",
+      "bbox": [
+        8,
+        2420,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "link",
+      "name": "HTML Tag List",
+      "bbox": [
+        8,
+        2492,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "link",
+      "name": "HTML Attributes",
+      "bbox": [
+        8,
+        2519,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "link",
+      "name": "HTML Global Attributes",
+      "bbox": [
+        8,
+        2546,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "link",
+      "name": "HTML Browser Support",
+      "bbox": [
+        8,
+        2573,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "link",
+      "name": "HTML Events",
+      "bbox": [
+        8,
+        2600,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_153",
+      "role": "link",
+      "name": "HTML Colors",
+      "bbox": [
+        8,
+        2627,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_154",
+      "role": "link",
+      "name": "HTML Canvas",
+      "bbox": [
+        8,
+        2654,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_155",
+      "role": "link",
+      "name": "HTML Audio/Video",
+      "bbox": [
+        8,
+        2681,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_156",
+      "role": "link",
+      "name": "HTML Doctypes",
+      "bbox": [
+        8,
+        2708,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_157",
+      "role": "link",
+      "name": "HTML Character Sets",
+      "bbox": [
+        8,
+        2735,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_158",
+      "role": "link",
+      "name": "HTML URL Encode",
+      "bbox": [
+        8,
+        2762,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_159",
+      "role": "link",
+      "name": "HTML Lang Codes",
+      "bbox": [
+        8,
+        2789,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_160",
+      "role": "link",
+      "name": "HTTP Messages",
+      "bbox": [
+        8,
+        2816,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_161",
+      "role": "link",
+      "name": "HTTP Methods",
+      "bbox": [
+        8,
+        2843,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_162",
+      "role": "link",
+      "name": "PX to EM Converter",
+      "bbox": [
+        8,
+        2870,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_163",
+      "role": "link",
+      "name": "Keyboard Shortcuts",
+      "bbox": [
+        8,
+        2897,
+        207,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_164",
+      "role": "textbox",
+      "name": "First name:",
+      "bbox": [
+        278,
+        866,
+        188,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_165",
+      "role": "textbox",
+      "name": "Last name:",
+      "bbox": [
+        278,
+        919,
+        188,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_166",
+      "role": "button",
+      "name": "Submit",
+      "bbox": [
+        278,
+        972,
+        65,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_167",
+      "role": "link",
+      "name": "HTML Form Elements",
+      "bbox": [
+        678,
+        1564,
+        151,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_168",
+      "role": "link",
+      "name": "HTML Input Types",
+      "bbox": [
+        654,
+        2095,
+        127,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_169",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        262,
+        3140,
+        188,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_170",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        262,
+        3193,
+        188,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_171",
+      "role": "link",
+      "name": "REMOVE ADS",
+      "bbox": [
+        617,
+        4076,
+        87,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_172",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        262,
+        6330,
+        188,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_173",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        262,
+        6383,
+        188,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_174",
+      "role": "button",
+      "name": "Submit",
+      "bbox": [
+        262,
+        6436,
+        65,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_175",
+      "role": "link",
+      "name": "W3Schools app - build a streak worth keeping",
+      "bbox": [
+        1100,
+        196,
+        156,
+        300
+      ]
+    },
+    {
+      "oracleId": "ax_176",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1105,
+        519,
+        19,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_177",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1129,
+        519,
+        23,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_178",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1157,
+        519,
+        19,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_179",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1181,
+        519,
+        23,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_180",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1209,
+        519,
+        23,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_181",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1236,
+        519,
+        16,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_182",
+      "role": "textbox",
+      "name": "Search field",
+      "bbox": [
+        567,
+        10,
+        175,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_183",
+      "role": "button",
+      "name": "Button to search",
+      "bbox": [
+        707,
+        11,
+        34,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_184",
+      "role": "link",
+      "name": "REMOVE ADS",
+      "bbox": [
+        617,
+        2512,
+        87,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_185",
+      "role": "link",
+      "name": "Sign in to track your progress",
+      "bbox": [
+        543,
+        7538,
+        236,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_186",
+      "role": "link",
+      "name": "HTML Tutorial",
+      "bbox": [
+        226,
+        8246,
+        75,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_187",
+      "role": "link",
+      "name": "CSS Tutorial",
+      "bbox": [
+        230,
+        8261,
+        67,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_188",
+      "role": "link",
+      "name": "JavaScript Tutorial",
+      "bbox": [
+        214,
+        8276,
+        99,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_189",
+      "role": "link",
+      "name": "How To Tutorial",
+      "bbox": [
+        222,
+        8291,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_190",
+      "role": "link",
+      "name": "SQL Tutorial",
+      "bbox": [
+        230,
+        8306,
+        66,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_191",
+      "role": "link",
+      "name": "Python Tutorial",
+      "bbox": [
+        223,
+        8321,
+        80,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_192",
+      "role": "link",
+      "name": "W3.CSS Tutorial",
+      "bbox": [
+        219,
+        8336,
+        89,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_193",
+      "role": "link",
+      "name": "Bootstrap Tutorial",
+      "bbox": [
+        216,
+        8351,
+        94,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_194",
+      "role": "link",
+      "name": "PHP Tutorial",
+      "bbox": [
+        230,
+        8366,
+        67,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_195",
+      "role": "link",
+      "name": "Java Tutorial",
+      "bbox": [
+        229,
+        8381,
+        68,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_196",
+      "role": "link",
+      "name": "C++ Tutorial",
+      "bbox": [
+        231,
+        8396,
+        65,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_197",
+      "role": "link",
+      "name": "jQuery Tutorial",
+      "bbox": [
+        224,
+        8411,
+        78,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_198",
+      "role": "link",
+      "name": "HTML Reference",
+      "bbox": [
+        452,
+        8246,
+        91,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_199",
+      "role": "link",
+      "name": "CSS Reference",
+      "bbox": [
+        456,
+        8261,
+        83,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_200",
+      "role": "link",
+      "name": "JavaScript Reference",
+      "bbox": [
+        440,
+        8276,
+        115,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_201",
+      "role": "link",
+      "name": "SQL Reference",
+      "bbox": [
+        456,
+        8291,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_202",
+      "role": "link",
+      "name": "Python Reference",
+      "bbox": [
+        449,
+        8306,
+        96,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_203",
+      "role": "link",
+      "name": "W3.CSS Reference",
+      "bbox": [
+        445,
+        8321,
+        105,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_204",
+      "role": "link",
+      "name": "Bootstrap Reference",
+      "bbox": [
+        442,
+        8336,
+        110,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_205",
+      "role": "link",
+      "name": "PHP Reference",
+      "bbox": [
+        456,
+        8351,
+        83,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_206",
+      "role": "link",
+      "name": "HTML Colors",
+      "bbox": [
+        462,
+        8366,
+        70,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_207",
+      "role": "link",
+      "name": "Java Reference",
+      "bbox": [
+        455,
+        8381,
+        84,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_208",
+      "role": "link",
+      "name": "AngularJS Reference",
+      "bbox": [
+        440,
+        8396,
+        114,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_209",
+      "role": "link",
+      "name": "jQuery Reference",
+      "bbox": [
+        450,
+        8411,
+        94,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_210",
+      "role": "link",
+      "name": "HTML Examples",
+      "bbox": [
+        693,
+        8246,
+        88,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_211",
+      "role": "link",
+      "name": "CSS Examples",
+      "bbox": [
+        697,
+        8261,
+        81,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_212",
+      "role": "link",
+      "name": "JavaScript Examples",
+      "bbox": [
+        681,
+        8276,
+        112,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_213",
+      "role": "link",
+      "name": "How To Examples",
+      "bbox": [
+        689,
+        8291,
+        96,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_214",
+      "role": "link",
+      "name": "SQL Examples",
+      "bbox": [
+        697,
+        8306,
+        80,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_215",
+      "role": "link",
+      "name": "Python Examples",
+      "bbox": [
+        690,
+        8321,
+        93,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_216",
+      "role": "link",
+      "name": "W3.CSS Examples",
+      "bbox": [
+        686,
+        8336,
+        102,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_217",
+      "role": "link",
+      "name": "Bootstrap Examples",
+      "bbox": [
+        683,
+        8351,
+        107,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_218",
+      "role": "link",
+      "name": "PHP Examples",
+      "bbox": [
+        697,
+        8366,
+        80,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_219",
+      "role": "link",
+      "name": "Java Examples",
+      "bbox": [
+        696,
+        8381,
+        81,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_220",
+      "role": "link",
+      "name": "XML Examples",
+      "bbox": [
+        697,
+        8396,
+        80,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_221",
+      "role": "link",
+      "name": "jQuery Examples",
+      "bbox": [
+        691,
+        8411,
+        91,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_222",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        451,
+        8487,
+        16,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_223",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        482,
+        8487,
+        16,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_224",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        513,
+        8487,
+        16,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_225",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        544,
+        8487,
+        16,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_226",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        575,
+        8487,
+        16,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_227",
+      "role": "link",
+      "name": "FORUM",
+      "bbox": [
+        606,
+        8493,
+        51,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_228",
+      "role": "link",
+      "name": "ABOUT",
+      "bbox": [
+        673,
+        8493,
+        48,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_229",
+      "role": "link",
+      "name": "ACADEMY",
+      "bbox": [
+        736,
+        8493,
+        68,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_230",
+      "role": "link",
+      "name": "terms of use",
+      "bbox": [
+        877,
+        8540,
+        65,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_231",
+      "role": "link",
+      "name": "cookies",
+      "bbox": [
+        948,
+        8540,
+        40,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_232",
+      "role": "link",
+      "name": "privacy policy",
+      "bbox": [
+        1015,
+        8540,
+        72,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_233",
+      "role": "link",
+      "name": "Copyright 1999-2026",
+      "bbox": [
+        386,
+        8570,
+        112,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_234",
+      "role": "link",
+      "name": "W3Schools is Powered by W3.CSS",
+      "bbox": [
+        698,
+        8570,
+        179,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_235",
+      "role": "link",
+      "name": "REMOVE ADS",
+      "bbox": [
+        1135,
+        556,
+        87,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_236",
+      "role": "link",
+      "name": "Download on the App Store",
+      "bbox": [
+        16,
+        7853,
+        162,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_237",
+      "role": "link",
+      "name": "Get it on Google Play",
+      "bbox": [
+        192,
+        7853,
+        162,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_238",
+      "role": "link",
+      "name": "Learn more »",
+      "bbox": [
+        372,
+        7853,
+        85,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_239",
+      "role": "link",
+      "name": "W3Schools.com",
+      "bbox": [
+        202,
+        8050,
+        36,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_240",
+      "role": "link",
+      "name": "PLUS",
+      "bbox": [
+        278,
+        8038,
+        39,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_241",
+      "role": "link",
+      "name": "SPACES",
+      "bbox": [
+        377,
+        8038,
+        60,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_242",
+      "role": "link",
+      "name": "GET CERTIFIED",
+      "bbox": [
+        497,
+        8038,
+        114,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_243",
+      "role": "link",
+      "name": "FOR TEACHERS",
+      "bbox": [
+        671,
+        8038,
+        117,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_244",
+      "role": "link",
+      "name": "PRACTICE",
+      "bbox": [
+        848,
+        8038,
+        76,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_245",
+      "role": "link",
+      "name": "CONTACT US",
+      "bbox": [
+        278,
+        8141,
+        96,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_246",
+      "role": "link",
+      "name": "Get Certified",
+      "bbox": [
+        914,
+        8211,
+        113,
+        49
+      ]
+    },
+    {
+      "oracleId": "ax_247",
+      "role": "link",
+      "name": "HTML Certificate",
+      "bbox": [
+        925,
+        8246,
+        90,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_248",
+      "role": "link",
+      "name": "CSS Certificate",
+      "bbox": [
+        929,
+        8261,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_249",
+      "role": "link",
+      "name": "JavaScript Certificate",
+      "bbox": [
+        914,
+        8276,
+        113,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_250",
+      "role": "link",
+      "name": "Front End Certificate",
+      "bbox": [
+        915,
+        8291,
+        110,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_251",
+      "role": "link",
+      "name": "SQL Certificate",
+      "bbox": [
+        930,
+        8306,
+        81,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_252",
+      "role": "link",
+      "name": "Python Certificate",
+      "bbox": [
+        923,
+        8321,
+        95,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_253",
+      "role": "link",
+      "name": "PHP Certificate",
+      "bbox": [
+        929,
+        8336,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_254",
+      "role": "link",
+      "name": "jQuery Certificate",
+      "bbox": [
+        924,
+        8351,
+        93,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_255",
+      "role": "link",
+      "name": "Java Certificate",
+      "bbox": [
+        929,
+        8366,
+        83,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_256",
+      "role": "link",
+      "name": "C++ Certificate",
+      "bbox": [
+        930,
+        8381,
+        80,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_257",
+      "role": "link",
+      "name": "C# Certificate",
+      "bbox": [
+        934,
+        8396,
+        73,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_258",
+      "role": "link",
+      "name": "XML Certificate",
+      "bbox": [
+        929,
+        8411,
+        82,
+        14
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9988776655",
+      "text": "Helpline 9988776655",
+      "bbox": [
+        8,
+        2153,
+        207,
+        51
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 99887 76655",
+      "text": "Alternate contact +91 99887 76655",
+      "bbox": [
+        246,
+        2165,
+        830,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Write to meera.banerjee@example.net",
+      "bbox": [
+        3491,
+        56,
+        379,
+        33
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "334455667788",
+      "text": "Aadhaar 334455667788 linked to this account",
+      "bbox": [
+        0,
+        6,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "LMNOP4321Q",
+      "text": "PAN LMNOP4321Q",
+      "bbox": [
+        1742,
+        56,
+        235,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5105 1051 0510 5100",
+      "text": "Card on file 5105 1051 0510 5100",
+      "bbox": [
+        278,
+        1287,
+        770,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 778899",
+      "text": "OTP 778899 sent to your phone",
+      "bbox": [
+        230,
+        51,
+        1035,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Meera Banerjee",
+      "text": "Signed in as Meera Banerjee",
+      "bbox": [
+        262,
+        700,
+        798,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "8 Park Street, Kolkata 700016",
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "bbox": [
+        278,
+        803,
+        766,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        337,
+        56,
+        446,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Home link",
+      "truthId": null
+    },
+    {
+      "text": "Tutorials",
+      "truthId": null
+    },
+    {
+      "text": "References",
+      "truthId": null
+    },
+    {
+      "text": "Exercises",
+      "truthId": null
+    },
+    {
+      "text": "Certificates",
+      "truthId": null
+    },
+    {
+      "text": "Search field",
+      "truthId": null
+    },
+    {
+      "text": "Button to search",
+      "truthId": null
+    },
+    {
+      "text": "All our services",
+      "truthId": null
+    },
+    {
+      "text": "W3Schools Adventure App - iOS and Android",
+      "truthId": null
+    },
+    {
+      "text": "Sign in to your account",
+      "truthId": null
+    },
+    {
+      "text": "HTML",
+      "truthId": null
+    },
+    {
+      "text": "CSS",
+      "truthId": null
+    },
+    {
+      "text": "JAVASCRIPT",
+      "truthId": null
+    },
+    {
+      "text": "SQL",
+      "truthId": null
+    },
+    {
+      "text": "PYTHON Grievance cell meera.banerjee@example.net",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "JAVA",
+      "truthId": null
+    },
+    {
+      "text": "PHP",
+      "truthId": null
+    },
+    {
+      "text": "C",
+      "truthId": null
+    },
+    {
+      "text": "C++",
+      "truthId": null
+    },
+    {
+      "text": "C#",
+      "truthId": null
+    },
+    {
+      "text": "AWS",
+      "truthId": null
+    },
+    {
+      "text": "W3.CSS",
+      "truthId": null
+    },
+    {
+      "text": "HOW TO",
+      "truthId": null
+    },
+    {
+      "text": "BOOTSTRAP",
+      "truthId": null
+    },
+    {
+      "text": "REACT",
+      "truthId": null
+    },
+    {
+      "text": "MYSQL",
+      "truthId": null
+    },
+    {
+      "text": "JQUERY",
+      "truthId": null
+    },
+    {
+      "text": "EXCEL PAN LMNOP4321Q",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "XML",
+      "truthId": null
+    },
+    {
+      "text": "DJANGO",
+      "truthId": null
+    },
+    {
+      "text": "NUMPY",
+      "truthId": null
+    },
+    {
+      "text": "PANDAS",
+      "truthId": null
+    },
+    {
+      "text": "NODEJS",
+      "truthId": null
+    },
+    {
+      "text": "DSA",
+      "truthId": null
+    },
+    {
+      "text": "TYPESCRIPT",
+      "truthId": null
+    },
+    {
+      "text": "ANGULAR",
+      "truthId": null
+    },
+    {
+      "text": "ANGULARJS",
+      "truthId": null
+    },
+    {
+      "text": "GIT",
+      "truthId": null
+    },
+    {
+      "text": "POSTGRESQL",
+      "truthId": null
+    },
+    {
+      "text": "MONGODB",
+      "truthId": null
+    },
+    {
+      "text": "ASP",
+      "truthId": null
+    },
+    {
+      "text": "AI",
+      "truthId": null
+    },
+    {
+      "text": "R",
+      "truthId": null
+    },
+    {
+      "text": "GO",
+      "truthId": null
+    },
+    {
+      "text": "KOTLIN",
+      "truthId": null
+    },
+    {
+      "text": "SWIFT Write to meera.banerjee@example.net",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "SASS",
+      "truthId": null
+    },
+    {
+      "text": "VUE",
+      "truthId": null
+    },
+    {
+      "text": "GEN AI",
+      "truthId": null
+    },
+    {
+      "text": "SCIPY",
+      "truthId": null
+    },
+    {
+      "text": "CYBERSECURITY",
+      "truthId": null
+    },
+    {
+      "text": "DATA SCIENCE",
+      "truthId": null
+    },
+    {
+      "text": "INTRO TO PROGRAMMING",
+      "truthId": null
+    },
+    {
+      "text": "INTRO TO HTML & CSS",
+      "truthId": null
+    },
+    {
+      "text": "BASH",
+      "truthId": null
+    },
+    {
+      "text": "RUST",
+      "truthId": null
+    },
+    {
+      "text": "TOOLS",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 334455667788 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "HTML HOME",
+      "truthId": null
+    },
+    {
+      "text": "HTML Introduction",
+      "truthId": null
+    },
+    {
+      "text": "HTML Editors",
+      "truthId": null
+    },
+    {
+      "text": "HTML Basic",
+      "truthId": null
+    },
+    {
+      "text": "HTML Elements",
+      "truthId": null
+    },
+    {
+      "text": "HTML Attributes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Headings",
+      "truthId": null
+    },
+    {
+      "text": "HTML Paragraphs",
+      "truthId": null
+    },
+    {
+      "text": "HTML Styles",
+      "truthId": null
+    },
+    {
+      "text": "HTML Formatting",
+      "truthId": null
+    },
+    {
+      "text": "HTML Quotations",
+      "truthId": null
+    },
+    {
+      "text": "HTML Comments",
+      "truthId": null
+    },
+    {
+      "text": "HTML Colors",
+      "truthId": null
+    },
+    {
+      "text": "HTML CSS",
+      "truthId": null
+    },
+    {
+      "text": "HTML Links",
+      "truthId": null
+    },
+    {
+      "text": "HTML Images",
+      "truthId": null
+    },
+    {
+      "text": "HTML Project",
+      "truthId": null
+    },
+    {
+      "text": "HTML Favicon",
+      "truthId": null
+    },
+    {
+      "text": "HTML Page Title",
+      "truthId": null
+    },
+    {
+      "text": "HTML Tables",
+      "truthId": null
+    },
+    {
+      "text": "HTML Lists",
+      "truthId": null
+    },
+    {
+      "text": "HTML Block & Inline",
+      "truthId": null
+    },
+    {
+      "text": "HTML Div",
+      "truthId": null
+    },
+    {
+      "text": "HTML Classes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Id",
+      "truthId": null
+    },
+    {
+      "text": "HTML Buttons",
+      "truthId": null
+    },
+    {
+      "text": "HTML Iframes",
+      "truthId": null
+    },
+    {
+      "text": "HTML JavaScript",
+      "truthId": null
+    },
+    {
+      "text": "HTML File Paths",
+      "truthId": null
+    },
+    {
+      "text": "HTML Head",
+      "truthId": null
+    },
+    {
+      "text": "HTML Layout",
+      "truthId": null
+    },
+    {
+      "text": "HTML Responsive",
+      "truthId": null
+    },
+    {
+      "text": "HTML Computercode",
+      "truthId": null
+    },
+    {
+      "text": "HTML Semantics",
+      "truthId": null
+    },
+    {
+      "text": "HTML Style Guide",
+      "truthId": null
+    },
+    {
+      "text": "HTML Entities",
+      "truthId": null
+    },
+    {
+      "text": "HTML Symbols",
+      "truthId": null
+    },
+    {
+      "text": "HTML Emojis",
+      "truthId": null
+    },
+    {
+      "text": "HTML Charsets",
+      "truthId": null
+    },
+    {
+      "text": "HTML URL Encode",
+      "truthId": null
+    },
+    {
+      "text": "HTML vs. XHTML",
+      "truthId": null
+    },
+    {
+      "text": "HTML Forms",
+      "truthId": null
+    },
+    {
+      "text": "Forms",
+      "truthId": null
+    },
+    {
+      "text": "Exercises",
+      "truthId": null
+    },
+    {
+      "text": "Code Challenge",
+      "truthId": null
+    },
+    {
+      "text": "HTML Form Attributes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Form Elements",
+      "truthId": null
+    },
+    {
+      "text": "HTML Input Types",
+      "truthId": null
+    },
+    {
+      "text": "HTML Input Attributes",
+      "truthId": null
+    },
+    {
+      "text": "Input Form Attributes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Canvas",
+      "truthId": null
+    },
+    {
+      "text": "HTML SVG",
+      "truthId": null
+    },
+    {
+      "text": "HTML Media",
+      "truthId": null
+    },
+    {
+      "text": "HTML Video",
+      "truthId": null
+    },
+    {
+      "text": "HTML Audio",
+      "truthId": null
+    },
+    {
+      "text": "HTML Plug-ins",
+      "truthId": null
+    },
+    {
+      "text": "HTML YouTube",
+      "truthId": null
+    },
+    {
+      "text": "HTML Web APIs",
+      "truthId": null
+    },
+    {
+      "text": "HTML Geolocation",
+      "truthId": null
+    },
+    {
+      "text": "HTML Drag and Drop",
+      "truthId": null
+    },
+    {
+      "text": "HTML Web Storage",
+      "truthId": null
+    },
+    {
+      "text": "HTML Web Workers",
+      "truthId": null
+    },
+    {
+      "text": "HTML SSE",
+      "truthId": null
+    },
+    {
+      "text": "HTML Certificate",
+      "truthId": null
+    },
+    {
+      "text": "HTML Examples",
+      "truthId": null
+    },
+    {
+      "text": "HTML Editor Helpline 9988776655",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "HTML Quiz",
+      "truthId": null
+    },
+    {
+      "text": "HTML Exercises",
+      "truthId": null
+    },
+    {
+      "text": "HTML Challenges",
+      "truthId": null
+    },
+    {
+      "text": "HTML Website",
+      "truthId": null
+    },
+    {
+      "text": "HTML Syllabus",
+      "truthId": null
+    },
+    {
+      "text": "HTML Study Plan",
+      "truthId": null
+    },
+    {
+      "text": "HTML Interview Prep",
+      "truthId": null
+    },
+    {
+      "text": "HTML Summary",
+      "truthId": null
+    },
+    {
+      "text": "HTML Accessibility",
+      "truthId": null
+    },
+    {
+      "text": "HTML Tag List",
+      "truthId": null
+    },
+    {
+      "text": "HTML Attributes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Global Attributes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Browser Support",
+      "truthId": null
+    },
+    {
+      "text": "HTML Events",
+      "truthId": null
+    },
+    {
+      "text": "HTML Colors",
+      "truthId": null
+    },
+    {
+      "text": "HTML Canvas",
+      "truthId": null
+    },
+    {
+      "text": "HTML Audio/Video",
+      "truthId": null
+    },
+    {
+      "text": "HTML Doctypes",
+      "truthId": null
+    },
+    {
+      "text": "HTML Character Sets",
+      "truthId": null
+    },
+    {
+      "text": "HTML URL Encode",
+      "truthId": null
+    },
+    {
+      "text": "HTML Lang Codes",
+      "truthId": null
+    },
+    {
+      "text": "HTTP Messages",
+      "truthId": null
+    },
+    {
+      "text": "HTTP Methods",
+      "truthId": null
+    },
+    {
+      "text": "PX to EM Converter",
+      "truthId": null
+    },
+    {
+      "text": "Keyboard Shortcuts",
+      "truthId": null
+    },
+    {
+      "text": "OTP 778899 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "❮ Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next ❯",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Meera Banerjee",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "First name:",
+      "truthId": null
+    },
+    {
+      "text": "Last name:",
+      "truthId": null
+    },
+    {
+      "text": "Try it Yourself »",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5105 1051 0510 5100",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "HTML Form Elements",
+      "truthId": null
+    },
+    {
+      "text": "HTML Input Types",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 99887 76655",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "REMOVE ADS",
+      "truthId": null
+    },
+    {
+      "text": "Try it Yourself »",
+      "truthId": null
+    },
+    {
+      "text": "fname",
+      "truthId": null
+    },
+    {
+      "text": "lname",
+      "truthId": null
+    },
+    {
+      "text": "REMOVE ADS",
+      "truthId": null
+    },
+    {
+      "text": "Try it Yourself »",
+      "truthId": null
+    },
+    {
+      "text": "HTML",
+      "truthId": null
+    },
+    {
+      "text": "CSS",
+      "truthId": null
+    },
+    {
+      "text": "JavaScript",
+      "truthId": null
+    },
+    {
+      "text": "Try it Yourself »",
+      "truthId": null
+    },
+    {
+      "text": "I have a bike",
+      "truthId": null
+    },
+    {
+      "text": "I have a car",
+      "truthId": null
+    },
+    {
+      "text": "I have a boat",
+      "truthId": null
+    },
+    {
+      "text": "Try it Yourself »",
+      "truthId": null
+    },
+    {
+      "text": "firstname",
+      "truthId": null
+    },
+    {
+      "text": "lastname",
+      "truthId": null
+    },
+    {
+      "text": "Try it Yourself »",
+      "truthId": null
+    },
+    {
+      "text": "❮ Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next ❯",
+      "truthId": null
+    },
+    {
+      "text": "Sign in to track your progress",
+      "truthId": null
+    },
+    {
+      "text": "REMOVE ADS",
+      "truthId": null
+    },
+    {
+      "text": "Download on the App Store",
+      "truthId": null
+    },
+    {
+      "text": "Get it on Google Play",
+      "truthId": null
+    },
+    {
+      "text": "Learn more »",
+      "truthId": null
+    },
+    {
+      "text": "W3Schools.com",
+      "truthId": null
+    },
+    {
+      "text": "PLUS",
+      "truthId": null
+    },
+    {
+      "text": "SPACES",
+      "truthId": null
+    },
+    {
+      "text": "GET CERTIFIED",
+      "truthId": null
+    },
+    {
+      "text": "FOR TEACHERS",
+      "truthId": null
+    },
+    {
+      "text": "PRACTICE",
+      "truthId": null
+    },
+    {
+      "text": "CONTACT US",
+      "truthId": null
+    },
+    {
+      "text": "HTML Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "CSS Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "JavaScript Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "How To Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "SQL Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "Python Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "W3.CSS Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "Bootstrap Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "PHP Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "Java Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "C++ Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "jQuery Tutorial",
+      "truthId": null
+    },
+    {
+      "text": "HTML Reference",
+      "truthId": null
+    },
+    {
+      "text": "CSS Reference",
+      "truthId": null
+    },
+    {
+      "text": "JavaScript Reference",
+      "truthId": null
+    },
+    {
+      "text": "SQL Reference",
+      "truthId": null
+    },
+    {
+      "text": "Python Reference",
+      "truthId": null
+    },
+    {
+      "text": "W3.CSS Reference",
+      "truthId": null
+    },
+    {
+      "text": "Bootstrap Reference",
+      "truthId": null
+    },
+    {
+      "text": "PHP Reference",
+      "truthId": null
+    },
+    {
+      "text": "HTML Colors",
+      "truthId": null
+    },
+    {
+      "text": "Java Reference",
+      "truthId": null
+    },
+    {
+      "text": "AngularJS Reference",
+      "truthId": null
+    },
+    {
+      "text": "jQuery Reference",
+      "truthId": null
+    },
+    {
+      "text": "HTML Examples",
+      "truthId": null
+    },
+    {
+      "text": "CSS Examples",
+      "truthId": null
+    },
+    {
+      "text": "JavaScript Examples",
+      "truthId": null
+    },
+    {
+      "text": "How To Examples",
+      "truthId": null
+    },
+    {
+      "text": "SQL Examples",
+      "truthId": null
+    },
+    {
+      "text": "Python Examples",
+      "truthId": null
+    },
+    {
+      "text": "W3.CSS Examples",
+      "truthId": null
+    },
+    {
+      "text": "Bootstrap Examples",
+      "truthId": null
+    },
+    {
+      "text": "PHP Examples",
+      "truthId": null
+    },
+    {
+      "text": "Java Examples",
+      "truthId": null
+    },
+    {
+      "text": "XML Examples",
+      "truthId": null
+    },
+    {
+      "text": "jQuery Examples",
+      "truthId": null
+    },
+    {
+      "text": "Get Certified",
+      "truthId": null
+    },
+    {
+      "text": "HTML Certificate",
+      "truthId": null
+    },
+    {
+      "text": "CSS Certificate",
+      "truthId": null
+    },
+    {
+      "text": "JavaScript Certificate",
+      "truthId": null
+    },
+    {
+      "text": "Front End Certificate",
+      "truthId": null
+    },
+    {
+      "text": "SQL Certificate",
+      "truthId": null
+    },
+    {
+      "text": "Python Certificate",
+      "truthId": null
+    },
+    {
+      "text": "PHP Certificate",
+      "truthId": null
+    },
+    {
+      "text": "jQuery Certificate",
+      "truthId": null
+    },
+    {
+      "text": "Java Certificate",
+      "truthId": null
+    },
+    {
+      "text": "C++ Certificate",
+      "truthId": null
+    },
+    {
+      "text": "C# Certificate",
+      "truthId": null
+    },
+    {
+      "text": "XML Certificate",
+      "truthId": null
+    },
+    {
+      "text": "",
+      "truthId": null
+    },
+    {
+      "text": "",
+      "truthId": null
+    },
+    {
+      "text": "",
+      "truthId": null
+    },
+    {
+      "text": "",
+      "truthId": null
+    },
+    {
+      "text": "FORUM",
+      "truthId": null
+    },
+    {
+      "text": "ABOUT",
+      "truthId": null
+    },
+    {
+      "text": "ACADEMY",
+      "truthId": null
+    },
+    {
+      "text": "terms of use",
+      "truthId": null
+    },
+    {
+      "text": "privacy policy",
+      "truthId": null
+    },
+    {
+      "text": "Copyright 1999-2026",
+      "truthId": null
+    },
+    {
+      "text": "W3Schools is Powered by W3.CSS",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9988776655",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9988776655"
+        }
+      }
+    ]
+  }
+}

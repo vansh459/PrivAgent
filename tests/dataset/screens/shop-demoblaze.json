@@ -1,0 +1,663 @@
+{
+  "id": "shop-demoblaze",
+  "type": "ecommerce",
+  "sourceUrl": "https://www.demoblaze.com/",
+  "capturedAt": "2026-09-06T06:03:01.100Z",
+  "annotatedAt": "2026-09-06T06:56:52.464Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2263,
+  "persona": "Arjun Menon",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "PRODUCT STORE",
+      "bbox": [
+        16,
+        8,
+        236,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "CATEGORIES",
+      "bbox": [
+        247,
+        426,
+        255,
+        63
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Phones",
+      "bbox": [
+        247,
+        488,
+        255,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Laptops",
+      "bbox": [
+        247,
+        543,
+        255,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Monitors",
+      "bbox": [
+        247,
+        597,
+        255,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        170,
+        77,
+        118,
+        428
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        993,
+        77,
+        118,
+        428
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Home (current)",
+      "bbox": [
+        588,
+        16,
+        57,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Contact",
+      "bbox": [
+        645,
+        16,
+        70,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "About us",
+      "bbox": [
+        715,
+        16,
+        78,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Cart Helpline 7012345678",
+      "bbox": [
+        793,
+        16,
+        194,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Log in",
+      "bbox": [
+        986,
+        16,
+        60,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Sign up",
+      "bbox": [
+        1046,
+        16,
+        68,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        78,
+        654,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        363,
+        654,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        648,
+        654,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        78,
+        1005,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        363,
+        1005,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        648,
+        1005,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        78,
+        1409,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        363,
+        1409,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        648,
+        1409,
+        253,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        636,
+        1812,
+        83,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "Next PAN YZABC5566D",
+      "bbox": [
+        718,
+        1812,
+        185,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Samsung galaxy s6",
+      "bbox": [
+        98,
+        816,
+        185,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Nokia lumia 1520",
+      "bbox": [
+        383,
+        816,
+        173,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Nexus 6",
+      "bbox": [
+        668,
+        816,
+        79,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Samsung galaxy s7",
+      "bbox": [
+        98,
+        1167,
+        185,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Iphone 6 32gb",
+      "bbox": [
+        383,
+        1167,
+        139,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Sony xperia z5 Write to arjun.menon@example.com",
+      "bbox": [
+        668,
+        1167,
+        271,
+        79
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "HTC One M9",
+      "bbox": [
+        98,
+        1571,
+        133,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Sony vaio i5 Grievance cell arjun.menon@example.com",
+      "bbox": [
+        383,
+        1571,
+        271,
+        79
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Sony vaio i7",
+      "bbox": [
+        668,
+        1571,
+        121,
+        26
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7012345678",
+      "text": "Helpline 7012345678",
+      "bbox": [
+        793,
+        16,
+        194,
+        40
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "0471 233 4455",
+      "text": "Alternate contact 0471 233 4455",
+      "bbox": [
+        142,
+        1983,
+        353,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "arjun.menon@example.com",
+      "text": "Write to arjun.menon@example.com",
+      "bbox": [
+        668,
+        1167,
+        271,
+        79
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "8877 6655 4433",
+      "text": "Aadhaar 8877 6655 4433 linked to this account",
+      "bbox": [
+        248,
+        161,
+        784,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "YZABC5566D",
+      "text": "PAN YZABC5566D",
+      "bbox": [
+        718,
+        1812,
+        185,
+        36
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3782 822463 10005",
+      "text": "Card on file 3782 822463 10005",
+      "bbox": [
+        248,
+        83,
+        784,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 660011",
+      "text": "OTP: 660011 sent to your phone",
+      "bbox": [
+        248,
+        122,
+        784,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Arjun Menon",
+      "text": "Signed in as Arjun Menon",
+      "bbox": [
+        62,
+        432,
+        170,
+        215
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "19 Kowdiar Road, Thiruvananthapuram 695003",
+      "text": "Registered address 19 Kowdiar Road, Thiruvananthapuram 695003",
+      "bbox": [
+        141,
+        1918,
+        354,
+        53
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "arjun.menon@example.com",
+      "text": "Grievance cell arjun.menon@example.com",
+      "bbox": [
+        383,
+        1571,
+        271,
+        79
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "PRODUCT STORE",
+      "truthId": null
+    },
+    {
+      "text": "Home (current)",
+      "truthId": null
+    },
+    {
+      "text": "Contact",
+      "truthId": null
+    },
+    {
+      "text": "About us",
+      "truthId": null
+    },
+    {
+      "text": "Cart Helpline 7012345678",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Log in",
+      "truthId": null
+    },
+    {
+      "text": "Sign up",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 3782 822463 10005",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "OTP: 660011 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 8877 6655 4433 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Arjun Menon",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "CATEGORIES",
+      "truthId": null
+    },
+    {
+      "text": "Phones",
+      "truthId": null
+    },
+    {
+      "text": "Laptops",
+      "truthId": null
+    },
+    {
+      "text": "Monitors",
+      "truthId": null
+    },
+    {
+      "text": "Samsung galaxy s6",
+      "truthId": null
+    },
+    {
+      "text": "Nokia lumia 1520",
+      "truthId": null
+    },
+    {
+      "text": "Nexus 6",
+      "truthId": null
+    },
+    {
+      "text": "Samsung galaxy s7",
+      "truthId": null
+    },
+    {
+      "text": "Iphone 6 32gb",
+      "truthId": null
+    },
+    {
+      "text": "Sony xperia z5 Write to arjun.menon@example.com",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "HTC One M9",
+      "truthId": null
+    },
+    {
+      "text": "Sony vaio i5 Grievance cell arjun.menon@example.com",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Sony vaio i7",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next PAN YZABC5566D",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Registered address 19 Kowdiar Road, Thiruvananthapuram 695003",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Alternate contact 0471 233 4455",
+      "truthId": "pii_2"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "chawla.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7012345678",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7012345678"
+        }
+      }
+    ]
+  }
+}

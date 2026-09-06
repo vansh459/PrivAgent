@@ -3,6 +3,58 @@
 Semantic versioning. The extension and server share a version number because they share a
 generated wire contract — a breaking schema change breaks both.
 
+## 0.3.0 — 2026-09-06
+
+Stage 3: the rubric numbers exist, and producing them found five real defects. Everything
+below was measured before it was written down; see [`results.md`](../results.md).
+
+### Added — evaluation
+
+- **A versioned dataset of 42 real captured web pages** (`tests/dataset/`, v1.0): government
+  portals, banks, storefronts, forms, SPAs and dashboards, frozen as inert offline snapshots
+  by `scripts/capture-dataset.mjs` and labelled by `scripts/annotate-dataset.mjs` with 3 964
+  ground-truth elements from Chrome's accessibility tree, 400 synthetic PII spans, 42 faces
+  and 84 painted-text regions. The pages are real; the people in them are not.
+- **`e2e/dataset.spec.ts`** — one pass over all 42 screens answering both the visual-context
+  and redaction-precision criteria, with every outbound request blocked.
+- **`e2e/profile.spec.ts`** — resource use and per-stage latency on two device tiers, the
+  second emulated by confining the whole browser to two logical processors.
+- **`e2e/executor.spec.ts`** — all four action types on five differently-shaped pages, with a
+  per-page event ledger proving nothing else on the page was touched.
+- **`e2e/demo.spec.ts`** — executes the demo script twice and records the backup video.
+- **`tests/datasetPii.eval.test.ts`** and `tests/dataset/pii-review.json` — PII recall and
+  precision, with a hand review of every detection outside a labelled span.
+- **`results.md`**, `docs/QA_BRIEFING.md`, Mermaid architecture diagrams, and a `.xpi`
+  packaged and linted by `web-ext` (0 errors).
+
+### Fixed — detection, all found by the dataset
+
+- **Title Case was being read as people.** The unstructured recogniser scored 100% precision
+  on hand-written fixtures and fired **1 703 times** on 4 086 real strings — "Simple Tables",
+  "Mailbox Pages Extras". Navigation is written in Title Case. Shape-only evidence is now
+  accepted only inside short prose.
+- **`main`, `near`, `layout` and `block` counted as postal addresses.** "Skip to main
+  content" was masked as somebody's home, 77 times. The street-word list is now split into
+  evidence and support.
+- **Phone recall was 48%.** The regex demanded ten unbroken digits after an optional `+91`,
+  which is how a form stores a number and not how a page shows one. `+91 98123 45670` and
+  Indian landlines are now detected; recall is 100%.
+- **A bare "shipping" started an address.** Every "Free shipping" badge on a storefront was
+  the beginning of somebody's delivery address. The cue now requires "shipping to".
+- **A no-op scroll was rejected by the client.** `params` is a string map on the wire, so
+  `{top: 600}` never reached the executor — caught by the new browser suite, and exactly the
+  behaviour the client-side re-validation exists for.
+
+### Known and unfixed
+
+- **An `aria-label` can hide PII from the DOM walker.** An accessible name overrides visible
+  text, so an element painting an email address can still be _named_ "Customer Services".
+  Only the vision pass catches it.
+- **PII precision is 69.8%**, and 202 of the 212 false positives are the rule-based name
+  recogniser. The seam for a model is one function.
+- **Memory is +907 MB** over a five-page session. Three reductions are identified; none is
+  done.
+
 ## 0.2.0 — 2026-09-04
 
 Stage 1: the pipeline became a working loop, and two confirmed data-leak defects were

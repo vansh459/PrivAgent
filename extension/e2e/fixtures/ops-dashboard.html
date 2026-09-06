@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Operations Dashboard</title>
+    <style>
+      body {
+        font:
+          14px/1.5 system-ui,
+          sans-serif;
+        margin: 24px;
+      }
+      .card {
+        border: 1px solid #dcdcdc;
+        border-radius: 6px;
+        padding: 12px 14px;
+        margin: 10px 0;
+      }
+      .card h3 {
+        margin: 0 0 4px;
+        font-size: 13px;
+      }
+      .value {
+        font-size: 22px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>District Operations Dashboard</h1>
+
+    <!--
+      A long page, deliberately. `scroll` is the one action type whose effect is invisible
+      on a page that fits in the viewport, so the executor suite needs at least one screen
+      taller than the window to be able to assert that anything happened.
+    -->
+    <p>
+      <label for="metric-filter">Filter metrics</label>
+      <input id="metric-filter" name="metric-filter" />
+      <button id="refresh" type="button">Refresh metrics</button>
+      <a id="archive" href="#archive">Open archive</a>
+    </p>
+
+    <p id="result">not refreshed</p>
+
+    <div id="cards"></div>
+
+    <script>
+      const cards = document.getElementById("cards");
+      const names = [
+        "Applications received",
+        "Applications cleared",
+        "Pending verification",
+        "Average clearance time",
+        "Escalations open",
+        "Field visits scheduled",
+        "Documents rejected",
+        "Grievances filed",
+        "Grievances resolved",
+        "Disbursements today",
+        "Disbursements this week",
+        "Reconciliation gaps",
+        "Helpdesk calls",
+        "Helpdesk average wait",
+        "Portal uptime",
+        "Batch jobs failed",
+        "Records archived",
+        "Audit findings open",
+      ];
+      // Plain text nodes: no role, no tabindex, so the walker does not perceive them.
+      // They are here to make the document tall, not to be seen.
+      for (const [index, name] of names.entries()) {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = "<h3>" + name + "</h3><div class='value'>" + (index * 137 + 42) + "</div>";
+        cards.append(card);
+      }
+
+      document.getElementById("refresh").addEventListener("click", () => {
+        document.getElementById("result").textContent = "refreshed";
+      });
+    </script>
+  </body>
+</html>

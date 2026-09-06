@@ -1,0 +1,3357 @@
+{
+  "id": "fin-irdai",
+  "type": "finance",
+  "sourceUrl": "https://irdai.gov.in/",
+  "capturedAt": "2026-09-06T06:01:57.775Z",
+  "annotatedAt": "2026-09-06T06:56:48.493Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 4650,
+  "persona": "Vikram Deshpande",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Go to BimaBharosa",
+      "bbox": [
+        31,
+        608,
+        150,
+        81
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Skip to Content",
+      "bbox": [
+        0,
+        -1000,
+        1265,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "IRDAI",
+      "bbox": [
+        12,
+        25,
+        437,
+        87
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Main Content Main Content",
+      "bbox": [
+        788,
+        41,
+        127,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Text to Audio",
+      "bbox": [
+        919,
+        41,
+        40,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Change Language हिंदी Arrow",
+      "bbox": [
+        959,
+        41,
+        97,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Accessbility Options Accessibility Options Arrow",
+      "bbox": [
+        1056,
+        41,
+        197,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Youtube",
+      "bbox": [
+        12,
+        4045,
+        120,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "combobox",
+      "name": "Default select example",
+      "bbox": [
+        1031,
+        3718,
+        222,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Feed Back FEEDBACK",
+      "bbox": [
+        800,
+        3912,
+        108,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "CONTACT US",
+      "bbox": [
+        800,
+        3969,
+        105,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        0,
+        268,
+        63,
+        507
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1202,
+        268,
+        63,
+        507
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "VIEW ALL",
+      "bbox": [
+        1179,
+        3006,
+        74,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Careers",
+      "bbox": [
+        363,
+        3716,
+        40,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Tenders",
+      "bbox": [
+        363,
+        3748,
+        41,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Related Links",
+      "bbox": [
+        363,
+        3780,
+        73,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Ebooks",
+      "bbox": [
+        363,
+        3812,
+        39,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Screen Reader",
+      "bbox": [
+        363,
+        3844,
+        75,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "FAQs",
+      "bbox": [
+        363,
+        3876,
+        30,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Archives",
+      "bbox": [
+        363,
+        3908,
+        47,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        363,
+        3940,
+        43,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Help",
+      "bbox": [
+        363,
+        3972,
+        25,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Push Notifications",
+      "bbox": [
+        363,
+        4004,
+        96,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "RTI",
+      "bbox": [
+        363,
+        4036,
+        20,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Corporate Agent Login",
+      "bbox": [
+        539,
+        3716,
+        121,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "BIMA BHAROSA (Complaint Registration Portal) Write to v.deshpande+claims@example.com",
+      "bbox": [
+        539,
+        3748,
+        222,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "National Financial Reporting Authority (NFRA)",
+      "bbox": [
+        539,
+        3814,
+        222,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Securities and Exchange Board of India (SEBI)",
+      "bbox": [
+        539,
+        3863,
+        222,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Reserve Bank of India (RBI)",
+      "bbox": [
+        539,
+        3912,
+        150,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Insolvency and Bankruptcy Board of India (IBBI)",
+      "bbox": [
+        539,
+        3944,
+        222,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Ministry Of Corporate Affairs (MCA)",
+      "bbox": [
+        539,
+        3993,
+        198,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Ministry of Finance (MOF)",
+      "bbox": [
+        539,
+        4025,
+        143,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Department of Financial Services (DFS)",
+      "bbox": [
+        539,
+        4057,
+        210,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "RTI Online",
+      "bbox": [
+        539,
+        4089,
+        59,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Pension Fund Regulatory and Development Authority (PFRDA)",
+      "bbox": [
+        539,
+        4121,
+        222,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Competition Commission of India (CCI)",
+      "bbox": [
+        539,
+        4170,
+        212,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Insurance Information Bureau of India (IIB)",
+      "bbox": [
+        539,
+        4202,
+        222,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "CA institute",
+      "bbox": [
+        539,
+        4251,
+        62,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Institute of Actuaries of India(IAI)",
+      "bbox": [
+        539,
+        4283,
+        180,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Securities Appellate Tribunal (SAT)",
+      "bbox": [
+        539,
+        4315,
+        187,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Jan Suraksha portal for PMJJBY and PMSBY",
+      "bbox": [
+        539,
+        4347,
+        222,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Pradhan Mantri Fasal Bima Yojana",
+      "bbox": [
+        539,
+        4396,
+        182,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Visit Here Sy No. 115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad – 500032",
+      "bbox": [
+        785,
+        3716,
+        222,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Mail Here irda@irdai.gov.in",
+      "bbox": [
+        785,
+        3782,
+        121,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Call Us +91-4020204000",
+      "bbox": [
+        785,
+        3814,
+        222,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Call Us +91-4039328000",
+      "bbox": [
+        785,
+        3849,
+        222,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Visit Here Insurance Regulatory Development Authority of India (IRDAI), 3rd floor, Indian Globe Chamber, D. N Road Fort, Mumbai 400001",
+      "bbox": [
+        1031,
+        3778,
+        222,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Mail Here irdamro@irdai.gov.in",
+      "bbox": [
+        1031,
+        3861,
+        149,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Call Us 022-20822880",
+      "bbox": [
+        1031,
+        3893,
+        112,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Website Policies Helpline 9123456780",
+      "bbox": [
+        12,
+        4516,
+        239,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Terms & Conditions",
+      "bbox": [
+        254,
+        4516,
+        158,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Visitors : 161054955",
+      "bbox": [
+        413,
+        4516,
+        157,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "menuitem",
+      "name": "HOME",
+      "bbox": [
+        37,
+        151,
+        45,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "menuitem",
+      "name": "ABOUT US",
+      "bbox": [
+        102,
+        151,
+        96,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "menuitem",
+      "name": "LEGAL",
+      "bbox": [
+        218,
+        151,
+        69,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "menuitem",
+      "name": "REGULATORY ACTIONS",
+      "bbox": [
+        307,
+        151,
+        192,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "menuitem",
+      "name": "CONSUMER AFFAIRS",
+      "bbox": [
+        519,
+        151,
+        172,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "menuitem",
+      "name": "REPORTS & STATISTICS",
+      "bbox": [
+        710,
+        151,
+        192,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "menuitem",
+      "name": "INDUSTRY",
+      "bbox": [
+        922,
+        151,
+        96,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "menuitem",
+      "name": "MEDIA",
+      "bbox": [
+        1038,
+        151,
+        69,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "menuitem",
+      "name": "E-SERVICES",
+      "bbox": [
+        1127,
+        151,
+        107,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "menuitem",
+      "name": "CAREERS",
+      "bbox": [
+        37,
+        192,
+        70,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "textbox",
+      "name": "Search",
+      "bbox": [
+        697,
+        76,
+        470,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "button",
+      "name": "Submit",
+      "bbox": [
+        1190,
+        88,
+        40,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        705,
+        739,
+        14,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "tab",
+      "name": "ALL",
+      "bbox": [
+        24,
+        854,
+        56,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "tab",
+      "name": "PRESS RELEASES",
+      "bbox": [
+        80,
+        854,
+        158,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "tab",
+      "name": "CIRCULARS",
+      "bbox": [
+        238,
+        854,
+        116,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "tab",
+      "name": "GUIDELINES",
+      "bbox": [
+        354,
+        854,
+        122,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        17,
+        1571,
+        13,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1234,
+        1571,
+        13,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        596,
+        1703,
+        24,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        620,
+        1703,
+        24,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        644,
+        1703,
+        24,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "VIEW ALL",
+      "bbox": [
+        552,
+        1796,
+        68,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "VIEW ALL",
+      "bbox": [
+        1185,
+        1796,
+        68,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        17,
+        3197,
+        13,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1234,
+        3197,
+        13,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        557,
+        3382,
+        25,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        582,
+        3382,
+        25,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        607,
+        3382,
+        25,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        632,
+        3382,
+        25,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        657,
+        3382,
+        25,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        682,
+        3382,
+        25,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "LEARN MORE",
+      "bbox": [
+        45,
+        704,
+        128,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Insurance Icon",
+      "bbox": [
+        668,
+        944,
+        61,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Policy Holder Icon",
+      "bbox": [
+        985,
+        946,
+        61,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Intermediaries Icon",
+      "bbox": [
+        668,
+        1162,
+        61,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "Researchers Icon",
+      "bbox": [
+        985,
+        1161,
+        61,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "VIEW ALL",
+      "bbox": [
+        525,
+        1239,
+        68,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Insurance Companies",
+      "bbox": [
+        754,
+        927,
+        138,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "Circulars, Notices and other important information.",
+      "bbox": [
+        754,
+        961,
+        143,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "Policyholders",
+      "bbox": [
+        1070,
+        927,
+        88,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Public notices, policy holder imformation and claim procedure.",
+      "bbox": [
+        1070,
+        961,
+        152,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Intermediaries",
+      "bbox": [
+        754,
+        1144,
+        92,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Circulars, Notices and other important information.",
+      "bbox": [
+        754,
+        1178,
+        143,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Researchers",
+      "bbox": [
+        1070,
+        1144,
+        77,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Find information about policyholder’s protection, consumer education and other issues.",
+      "bbox": [
+        1070,
+        1178,
+        148,
+        114
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Circular",
+      "bbox": [
+        644,
+        2028,
+        52,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "FAQs on Saral Jeevan Bima",
+      "bbox": [
+        644,
+        2059,
+        180,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Standard Terms and Conditions",
+      "bbox": [
+        644,
+        2090,
+        127,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "Bharat Griha Raksha",
+      "bbox": [
+        855,
+        2028,
+        134,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Bharat Sookshma Udyam Suraksha",
+      "bbox": [
+        855,
+        2059,
+        164,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "Bharat Laghu Udyam Suraksha",
+      "bbox": [
+        855,
+        2111,
+        139,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Corona Kavach",
+      "bbox": [
+        1066,
+        2025,
+        100,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "Corana Rakshak Grievance cell v.deshpande+claims@example.com",
+      "bbox": [
+        1066,
+        2056,
+        187,
+        81
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "Arogya Sanjeevini",
+      "bbox": [
+        1066,
+        2150,
+        120,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Saral Suraksha Bima PAN PQRST5678U",
+      "bbox": [
+        1066,
+        2181,
+        169,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "आईआरडीएआई बीमा भरोसा/आईजीएमएस का प्रतिरूपण करनेवाली कपटपूर्ण / अनधिकृत वेबसाइट के विरुद्ध चेतावनी / caution against fraudulent/unauthorised website impersonating irdai bima bharosa/igms.",
+      "bbox": [
+        169,
+        980,
+        417,
+        84
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "सार्वजनिक बीमा रजिस्ट्री / public insurance registry (pir)",
+      "bbox": [
+        169,
+        1153,
+        349,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "सार्वजनिक बीमा रजिस्ट्री / public insurance registry",
+      "bbox": [
+        169,
+        1259,
+        316,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति - स्वास्थ्य बीमा सम्बंधी आईएसी उप-समिति की तीसरी बैठक / press release - 3rd meeting of iac sub-committee on health insurance",
+      "bbox": [
+        169,
+        1366,
+        421,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "पुनर्बीमा विनियामक विवरणियों और अन्य पुनर्बीमा कार्यात्मकताओं का समन्वित व्यवसाय वैश्लेषिकी प्लेटफार्म (बीएपी) में अंतरण / migration of reinsurance regulatory returns and other reinsurance functionalities to the integrated business analytics platform (bap)",
+      "bbox": [
+        169,
+        1517,
+        417,
+        84
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "न्यू डेवलपमेंट बैंक (एनडीबी) द्वारा जारी किये गये महाराजा आईएनआर बांडों में निवेश / investment in maharajah inr bonds issued by new development bank (ndb)",
+      "bbox": [
+        169,
+        1735,
+        421,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "पांच लैपटॉपों की आपूर्ति के लिए निविदा / tender for supply of five laptops",
+      "bbox": [
+        169,
+        1885,
+        404,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "प्रबंधन व्ययों की सीमाओं का अननुपालन संबंधी एडलवाइस लाइफ इंश्योरेंस कं. लि. और प्रामेरिका लाइफ इंश्योरेंस लि. के मामलों में आदेश / orders in the matters of edelweiss life insurance co. limited and pramerica life insurance ltd. for non-compliance with eom limits",
+      "bbox": [
+        169,
+        2014,
+        418,
+        106
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "मेसर्स एडलवाइस लाइफ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s edelweiss life insurance company limited",
+      "bbox": [
+        169,
+        2254,
+        394,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "मेसर्स प्रामेरिका लाइफ इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s pramerica life insurance limited",
+      "bbox": [
+        169,
+        2404,
+        394,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "प्रबंधन व्ययों की सीमाओं का अननुपालन सम्बंधी / non compliance with expenses of management limits",
+      "bbox": [
+        169,
+        2555,
+        401,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "link",
+      "name": "मेसर्स एक्को जनरल इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s acko general insurance limited",
+      "bbox": [
+        169,
+        2684,
+        409,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "link",
+      "name": "मेसर्स निवा बूपा हेल्थ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s niva bupa health insurance co limited",
+      "bbox": [
+        169,
+        2834,
+        394,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "सहारा इंडिया लाइफ इंश्योरेंस कंपनी लिमिटेड के संबंध में प्रशासक की नियुक्ति के आदेश का निरसन / cancellation of the order of appointment of administrator in respect of sahara india life insurance company limited",
+      "bbox": [
+        169,
+        2985,
+        420,
+        84
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "gross direct premium- flash figures of non-life insurers-for and up to the month of july 2026",
+      "bbox": [
+        169,
+        3158,
+        403,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "first year premium of life insurers as at 31.07.2026",
+      "bbox": [
+        169,
+        3286,
+        325,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "सदस्य (वितरण) के रूप में श्रीमती गिरिजा सुब्रमण्यन का कार्यभार ग्रहण करना / joining of member (distribution) - smt. girija subramanian",
+      "bbox": [
+        169,
+        3393,
+        388,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "सेवा उत्पादन के सूचकांक के प्रयोजन के लिए मासिक आधार पर बीमाकर्ताओं के द्वारा सूचना का प्रस्तुतीकरण / submission of information by insurers on monthly basis for the purpose of index of service production",
+      "bbox": [
+        169,
+        3544,
+        382,
+        84
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "प्राधिकरण की 137वीं बैठक का कार्यवृत्त / minutes of 137th meeting of authority",
+      "bbox": [
+        169,
+        3716,
+        415,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "असम के चार ज़िलों को प्रभावित करने वाली प्राकृतिक आपदा / natural disaster affecting four districts of assam",
+      "bbox": [
+        169,
+        3845,
+        420,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "Insurance Broker Icon Insurance Broker",
+      "bbox": [
+        32,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "Surveyor Icon Surveyor",
+      "bbox": [
+        351,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "Corporate Agent Icon Corporate Agent",
+      "bbox": [
+        670,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "link",
+      "name": "Marketing Firm Icon Insurance Marketing Firm",
+      "bbox": [
+        989,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "link",
+      "name": "Life Insurer Icon Life Insurer",
+      "bbox": [
+        1308,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "link",
+      "name": "NonLife Insurer Icon Non-Life Insurer",
+      "bbox": [
+        1627,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "link",
+      "name": "Web Aggregator Icon Web Aggregator",
+      "bbox": [
+        1946,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "link",
+      "name": "Repository Icon Insurance Repository",
+      "bbox": [
+        2265,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "TP Administrator Third Party Administrator",
+      "bbox": [
+        2584,
+        1483,
+        259,
+        160
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        12,
+        1859,
+        30,
+        487
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        529,
+        1859,
+        91,
+        487
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "Corporate Agents",
+      "bbox": [
+        664,
+        2554,
+        112,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "Insurance Marketing Firms",
+      "bbox": [
+        664,
+        2585,
+        133,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "Cross Border Reinsurance Filing Portal",
+      "bbox": [
+        862,
+        2554,
+        168,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "BIMA BHAROSA (Complaints Registration Portal)",
+      "bbox": [
+        1059,
+        2554,
+        161,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "link",
+      "name": "Booklets For Unclaimed Assets",
+      "bbox": [
+        664,
+        2706,
+        157,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "Bima Bharosa Portal For Unclaimed Assets",
+      "bbox": [
+        664,
+        2758,
+        160,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "Press Release On Public Insurance Registry",
+      "bbox": [
+        862,
+        2736,
+        156,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "link",
+      "name": "Consultation Paper On Public Insurance Registry",
+      "bbox": [
+        862,
+        2788,
+        165,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        181,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        606,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        1031,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        1457,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_153",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        1882,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_154",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        2307,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_155",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        2733,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_156",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        3158,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_157",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        3583,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_158",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        4009,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_159",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        4434,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_160",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        4859,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_161",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        5285,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_162",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        5710,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_163",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        6135,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_164",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        6561,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_165",
+      "role": "button",
+      "name": "YouTube video player",
+      "bbox": [
+        6986,
+        3143,
+        68,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_166",
+      "role": "link",
+      "name": "सार्वजनिक सूचना / PUBLIC NOTICE Download",
+      "bbox": [
+        197,
+        939,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_167",
+      "role": "link",
+      "name": "सार्वजनिक बीमा रजिस्ट्री /Public Consultation Paper Download",
+      "bbox": [
+        197,
+        1112,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_168",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति / Press Release Download",
+      "bbox": [
+        197,
+        1218,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_169",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति / Press Release Download",
+      "bbox": [
+        197,
+        1325,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_170",
+      "role": "link",
+      "name": "परिपत्र / Circular Download",
+      "bbox": [
+        197,
+        1476,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_171",
+      "role": "link",
+      "name": "परिपत्र / Circular Download",
+      "bbox": [
+        197,
+        1693,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_172",
+      "role": "link",
+      "name": "निविदा / Tender Download",
+      "bbox": [
+        197,
+        1844,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_173",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति / Press Release Download",
+      "bbox": [
+        197,
+        1973,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_174",
+      "role": "link",
+      "name": "आदेश / Order Download",
+      "bbox": [
+        197,
+        2212,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_175",
+      "role": "link",
+      "name": "आदेश / Order Download",
+      "bbox": [
+        197,
+        2363,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_176",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति / Press Release Download",
+      "bbox": [
+        197,
+        2514,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_177",
+      "role": "link",
+      "name": "आदेश / Order Download",
+      "bbox": [
+        197,
+        2642,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_178",
+      "role": "link",
+      "name": "आदेश / Order Download",
+      "bbox": [
+        197,
+        2793,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_179",
+      "role": "link",
+      "name": "आदेश / ORDER Download",
+      "bbox": [
+        197,
+        2944,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_180",
+      "role": "link",
+      "name": "मासिक व्यावसायिक आकडे / Monthly Business Figures Download",
+      "bbox": [
+        197,
+        3116,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_181",
+      "role": "link",
+      "name": "मासिक व्यावसायिक आँकड़े / Monthly Business Figures Download",
+      "bbox": [
+        197,
+        3245,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_182",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति / Press Release Download",
+      "bbox": [
+        197,
+        3352,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_183",
+      "role": "link",
+      "name": "परिपत्र / Circular Download",
+      "bbox": [
+        197,
+        3502,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_184",
+      "role": "link",
+      "name": "बैठक का कार्यवृत्त / Minutes of Meeting Download",
+      "bbox": [
+        197,
+        3675,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_185",
+      "role": "link",
+      "name": "प्रेस विज्ञप्ति / Press Release Download",
+      "bbox": [
+        197,
+        3804,
+        337,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_186",
+      "role": "button",
+      "name": "Accounts(IRDAI) -",
+      "bbox": [
+        12,
+        2480,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_187",
+      "role": "link",
+      "name": "KNOW MORE",
+      "bbox": [
+        512,
+        2623,
+        87,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_188",
+      "role": "button",
+      "name": "Actuarial +",
+      "bbox": [
+        12,
+        2663,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_189",
+      "role": "button",
+      "name": "Administration +",
+      "bbox": [
+        12,
+        2725,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_190",
+      "role": "button",
+      "name": "Agency Distribution +",
+      "bbox": [
+        12,
+        2787,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_191",
+      "role": "button",
+      "name": "Communication +",
+      "bbox": [
+        12,
+        2848,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_192",
+      "role": "button",
+      "name": "Policyholder's Protection & Grievance Redressal +",
+      "bbox": [
+        12,
+        2910,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_193",
+      "role": "button",
+      "name": "Corporate Agency +",
+      "bbox": [
+        12,
+        2971,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_194",
+      "role": "button",
+      "name": "Board Secretariat +",
+      "bbox": [
+        12,
+        3033,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_195",
+      "role": "button",
+      "name": "Enforcement and Compliance +",
+      "bbox": [
+        12,
+        3095,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_196",
+      "role": "button",
+      "name": "Finance & Accounts +",
+      "bbox": [
+        12,
+        3156,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_197",
+      "role": "button",
+      "name": "Health +",
+      "bbox": [
+        12,
+        3218,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_198",
+      "role": "button",
+      "name": "HR +",
+      "bbox": [
+        12,
+        3279,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_199",
+      "role": "button",
+      "name": "Supervision +",
+      "bbox": [
+        12,
+        3341,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_200",
+      "role": "button",
+      "name": "Insurance Marketing Firm +",
+      "bbox": [
+        12,
+        3403,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_201",
+      "role": "button",
+      "name": "Intermediaries +",
+      "bbox": [
+        12,
+        3464,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_202",
+      "role": "button",
+      "name": "Investment +",
+      "bbox": [
+        12,
+        3526,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_203",
+      "role": "button",
+      "name": "IT +",
+      "bbox": [
+        12,
+        3587,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_204",
+      "role": "button",
+      "name": "Legal +",
+      "bbox": [
+        12,
+        3649,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_205",
+      "role": "button",
+      "name": "Life +",
+      "bbox": [
+        12,
+        3711,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_206",
+      "role": "button",
+      "name": "Non Life +",
+      "bbox": [
+        12,
+        3772,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_207",
+      "role": "button",
+      "name": "OLI +",
+      "bbox": [
+        12,
+        3834,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_208",
+      "role": "button",
+      "name": "Reinsurance +",
+      "bbox": [
+        12,
+        3895,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_209",
+      "role": "button",
+      "name": "Insurance inclusion and Development +",
+      "bbox": [
+        12,
+        3957,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_210",
+      "role": "button",
+      "name": "Surveyors +",
+      "bbox": [
+        12,
+        4019,
+        603,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_211",
+      "role": "button",
+      "name": "Vigilance +",
+      "bbox": [
+        12,
+        4080,
+        603,
+        62
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9123456780",
+      "text": "Helpline 9123456780",
+      "bbox": [
+        12,
+        4516,
+        239,
+        16
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "022 2789 4561",
+      "text": "Alternate contact 022 2789 4561",
+      "bbox": [
+        169,
+        2173,
+        421,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "v.deshpande+claims@example.com",
+      "text": "Write to v.deshpande+claims@example.com",
+      "bbox": [
+        539,
+        3748,
+        222,
+        51
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "5678 1234 9012",
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "bbox": [
+        0,
+        268,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "PQRST5678U",
+      "text": "PAN PQRST5678U",
+      "bbox": [
+        1066,
+        2181,
+        169,
+        39
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4012 8888 8888 1881",
+      "text": "Card on file 4012 8888 8888 1881",
+      "bbox": [
+        0,
+        1370,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 135790",
+      "text": "OTP is 135790 sent to your phone",
+      "bbox": [
+        0,
+        229,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Vikram Deshpande",
+      "text": "Signed in as Vikram Deshpande",
+      "bbox": [
+        169,
+        1654,
+        421,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Shop 6, 41 Linking Road, Mumbai 400050",
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "bbox": [
+        632,
+        781,
+        632,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "v.deshpande+claims@example.com",
+      "text": "Grievance cell v.deshpande+claims@example.com",
+      "bbox": [
+        1066,
+        2056,
+        187,
+        81
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Skip to Content",
+      "truthId": null
+    },
+    {
+      "text": "Main Content",
+      "truthId": null
+    },
+    {
+      "text": "हिंदी",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility Options",
+      "truthId": null
+    },
+    {
+      "text": "Search...",
+      "truthId": null
+    },
+    {
+      "text": "Submit",
+      "truthId": null
+    },
+    {
+      "text": "Site Pages",
+      "truthId": null
+    },
+    {
+      "text": "HOME",
+      "truthId": null
+    },
+    {
+      "text": "HOME",
+      "truthId": null
+    },
+    {
+      "text": "ABOUT US",
+      "truthId": null
+    },
+    {
+      "text": "ABOUT US",
+      "truthId": null
+    },
+    {
+      "text": "LEGAL",
+      "truthId": null
+    },
+    {
+      "text": "LEGAL",
+      "truthId": null
+    },
+    {
+      "text": "REGULATORY ACTIONS",
+      "truthId": null
+    },
+    {
+      "text": "REGULATORY ACTIONS",
+      "truthId": null
+    },
+    {
+      "text": "CONSUMER AFFAIRS",
+      "truthId": null
+    },
+    {
+      "text": "CONSUMER AFFAIRS",
+      "truthId": null
+    },
+    {
+      "text": "REPORTS & STATISTICS",
+      "truthId": null
+    },
+    {
+      "text": "REPORTS & STATISTICS",
+      "truthId": null
+    },
+    {
+      "text": "INDUSTRY",
+      "truthId": null
+    },
+    {
+      "text": "INDUSTRY",
+      "truthId": null
+    },
+    {
+      "text": "MEDIA",
+      "truthId": null
+    },
+    {
+      "text": "MEDIA",
+      "truthId": null
+    },
+    {
+      "text": "E-SERVICES",
+      "truthId": null
+    },
+    {
+      "text": "E-SERVICES",
+      "truthId": null
+    },
+    {
+      "text": "CAREERS",
+      "truthId": null
+    },
+    {
+      "text": "CAREERS",
+      "truthId": null
+    },
+    {
+      "text": "OTP is 135790 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 5678 1234 9012 linked to this account Insuring India by 2047 LEARN MORE Previous Next Whatâs New ALL PRESS RELEASES CIRCULARS GUIDELINES 04-09-2026 New सार्वजनिक सूचना / PUBLIC NOTICE 1.1 MB आईआरडीएआई बीमा भरोसा/आईजीएमएस का प्रतिरूपण करनेवाली कपटपूर्ण / अनधिकृत वेबसाइट के विरुद्ध चेतावनी / caution against fraudulent/unauthorised website impersonating irdai bima bharosa/igms. 01-09-2026 New सार्वजनिक बीमा रजिस्ट्री /Public Consultation Paper 1.1 MB सार्वजनिक बीमा रजिस्ट्री / public insurance registry (pir) 01-09-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB सार्वजनिक बीमा रजिस्ट्री / public insurance registry 29-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB प्रेस विज्ञप्ति - स्वास्थ्य बीमा सम्बंधी आईएसी उप-समिति की तीसरी बैठक / press release - 3rd meeting of iac sub-committee on health insurance 28-08-2026 New परिपत्र / Circular 1.1 MB पुनर्बीमा विनियामक विवरणियों और अन्य पुनर्बीमा कार्यात्मकताओं का समन्वित व्यवसाय वैश्लेषिकी प्लेटफार्म (बीएपी) में अंतरण / migration of reinsurance regulatory returns and other reinsurance functionalities to the integrated business analytics platform (bap) 27-08-2026 New Signed in as Vikram Deshpande परिपत्र / Circular 1.1 MB न्यू डेवलपमेंट बैंक (एनडीबी) द्वारा जारी किये गये महाराजा आईएनआर बांडों में निवेश / investment in maharajah inr bonds issued by new development bank (ndb) 27-08-2026 New निविदा / Tender 1.1 MB पांच लैपटॉपों की आपूर्ति के लिए निविदा / tender for supply of five laptops 21-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB प्रबंधन व्ययों की सीमाओं का अननुपालन संबंधी एडलवाइस लाइफ इंश्योरेंस कं. लि. और प्रामेरिका लाइफ इंश्योरेंस लि. के मामलों में आदेश / orders in the matters of edelweiss life insurance co. limited and pramerica life insurance ltd. for non-compliance with eom limits 21-08-2026 New Alternate contact 022 2789 4561 आदेश / Order 1.1 MB मेसर्स एडलवाइस लाइफ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s edelweiss life insurance company limited 21-08-2026 New आदेश / Order 1.1 MB मेसर्स प्रामेरिका लाइफ इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s pramerica life insurance limited 20-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB प्रबंधन व्ययों की सीमाओं का अननुपालन सम्बंधी / non compliance with expenses of management limits 20-08-2026 New आदेश / Order 1.1 MB मेसर्स एक्को जनरल इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s acko general insurance limited 20-08-2026 New आदेश / Order 1.1 MB मेसर्स निवा बूपा हेल्थ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s niva bupa health insurance co limited 17-08-2026 New आदेश / ORDER 1.1 MB सहारा इंडिया लाइफ इंश्योरेंस कंपनी लिमिटेड के संबंध में प्रशासक की नियुक्ति के आदेश का निरसन / cancellation of the order of appointment of administrator in respect of sahara india life insurance company limited 17-08-2026 New मासिक व्यावसायिक आकडे / Monthly Business Figures 1.1 MB gross direct premium- flash figures of non-life insurers-for and up to the month of july 2026 12-08-2026 New मासिक व्यावसायिक आँकड़े / Monthly Business Figures 1.1 MB first year premium of life insurers as at 31.07.2026 10-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB सदस्य (वितरण) के रूप में श्रीमती गिरिजा सुब्रमण्यन का कार्यभार ग्रहण करना / joining of member (distribution) - smt. girija subramanian 07-08-2026 New परिपत्र / Circular 1.1 MB सेवा उत्पादन के सूचकांक के प्रयोजन के लिए मासिक आधार पर बीमाकर्ताओं के द्वारा सूचना का प्रस्तुतीकरण / submission of information by insurers on monthly basis for the purpose of index of service production 06-08-2026 New बैठक का कार्यवृत्त / Minutes of Meeting 1.1 MB प्राधिकरण की 137वीं बैठक का कार्यवृत्त / minutes of 137th meeting of authority 04-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB असम के चार ज़िलों को प्रभावित करने वाली प्राकृतिक आपदा / natural disaster affecting four districts of assam VIEW ALL Registered address Shop 6, 41 Linking Road, Mumbai 400050 Information for Insurance Companies Circulars, Notices and other important information. Policyholders Public notices, policy holder imformation and claim procedure. Intermediaries Circulars, Notices and other important information. Researchers Find information about policyholder’s protection, consumer education and other issues. Card on file 4012 8888 8888 1881 How to become Insurance Broker Surveyor Corporate Agent Insurance Marketing Firm Life Insurer Non-Life Insurer Web Aggregator Insurance Repository Third Party Administrator ‹ › Industry/Market Trends VIEW ALL Previous Next Standard Products Corner VIEW ALL Life Insurance Saral Jeevan Bima Circular FAQs on Saral Jeevan Bima Standard Terms and Conditions General Insurance Standard Products Bharat Griha Raksha Bharat Sookshma Udyam Suraksha Bharat Laghu Udyam Suraksha Health Insurance Health Insurance Corona Kavach Corana Rakshak Grievance cell v.deshpande+claims@example.com Arogya Sanjeevini Saral Suraksha Bima PAN PQRST5678U Departments Accounts(IRDAI) Accounts Finalization of Accounts within two months of end of financial year. Bank Reconciliation: on quarterly basis and when needed. Correspondence with Ministry and other outside agencies KNOW MORE Actuarial Administration Agency Distribution Communication Policyholder's Protection & Grievance Redressal Corporate Agency Board Secretariat Enforcement and Compliance Finance & Accounts Health HR Supervision Insurance Marketing Firm Intermediaries Investment IT Legal Life Non Life OLI Reinsurance Insurance inclusion and Development Surveyors Vigilance Important Links Registration Corporate Agents Insurance Marketing Firms Online Systems Cross Border Reinsurance Filing Portal Complaints BIMA BHAROSA (Complaints Registration Portal) Unclaimed Assets Booklets For Unclaimed Assets Bima Bharosa Portal For Unclaimed Assets Public Insurance Registry Press Release On Public Insurance Registry Consultation Paper On Public Insurance Registry Caution/Awareness Videos By IRDAI VIEW ALL YouTube video player Unclaimed asset awareness Video English YouTube video player Inter-Operable Regulatory Sandbox (IoRS) YouTube video player Unclaimed asset awareness Video Hindi YouTube video player How to register your Insurance Policy related complaints | BimaBharosa YouTube video player Life Insurance ( in Telugu language) YouTube video player Crop Insurance (in Hindi language) YouTube video player Property Insurance (in Hindi language) YouTube video player Third party insurance (in Hindi language) YouTube video player Cyber Awareness, English YouTube video player Caution Ad by IRDAI on Spurious Calls - 1 (in Hindi language) YouTube video player Caution Ad by IRDAI on Spurious Calls - 2, Hindi (in Hindi language) YouTube video player Caution Ad by IRDAI on Spurious Calls - 3 (in Hindi language) YouTube video player Health Insurance (in Hindi language) YouTube video player Crop Insurance ( in English language) YouTube video player Life Insurance ( in English language) YouTube video player Property Insurance ( in English language) YouTube video player Third Party Insurance ( in English language) ‹ ›",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "LEARN MORE",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next",
+      "truthId": null
+    },
+    {
+      "text": "ALL PRESS RELEASES CIRCULARS GUIDELINES",
+      "truthId": null
+    },
+    {
+      "text": "ALL",
+      "truthId": null
+    },
+    {
+      "text": "PRESS RELEASES",
+      "truthId": null
+    },
+    {
+      "text": "CIRCULARS",
+      "truthId": null
+    },
+    {
+      "text": "GUIDELINES",
+      "truthId": null
+    },
+    {
+      "text": "04-09-2026 New सार्वजनिक सूचना / PUBLIC NOTICE 1.1 MB आईआरडीएआई बीमा भरोसा/आईजीएमएस का प्रतिरूपण करनेवाली कपटपूर्ण / अनधिकृत वेबसाइट के विरुद्ध चेतावनी / caution against fraudulent/unauthorised website impersonating irdai bima bharosa/igms. 01-09-2026 New सार्वजनिक बीमा रजिस्ट्री /Public Consultation Paper 1.1 MB सार्वजनिक बीमा रजिस्ट्री / public insurance registry (pir) 01-09-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB सार्वजनिक बीमा रजिस्ट्री / public insurance registry 29-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB प्रेस विज्ञप्ति - स्वास्थ्य बीमा सम्बंधी आईएसी उप-समिति की तीसरी बैठक / press release - 3rd meeting of iac sub-committee on health insurance 28-08-2026 New परिपत्र / Circular 1.1 MB पुनर्बीमा विनियामक विवरणियों और अन्य पुनर्बीमा कार्यात्मकताओं का समन्वित व्यवसाय वैश्लेषिकी प्लेटफार्म (बीएपी) में अंतरण / migration of reinsurance regulatory returns and other reinsurance functionalities to the integrated business analytics platform (bap) 27-08-2026 New Signed in as Vikram Deshpande परिपत्र / Circular 1.1 MB न्यू डेवलपमेंट बैंक (एनडीबी) द्वारा जारी किये गये महाराजा आईएनआर बांडों में निवेश / investment in maharajah inr bonds issued by new development bank (ndb) 27-08-2026 New निविदा / Tender 1.1 MB पांच लैपटॉपों की आपूर्ति के लिए निविदा / tender for supply of five laptops 21-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB प्रबंधन व्ययों की सीमाओं का अननुपालन संबंधी एडलवाइस लाइफ इंश्योरेंस कं. लि. और प्रामेरिका लाइफ इंश्योरेंस लि. के मामलों में आदेश / orders in the matters of edelweiss life insurance co. limited and pramerica life insurance ltd. for non-compliance with eom limits 21-08-2026 New Alternate contact 022 2789 4561 आदेश / Order 1.1 MB मेसर्स एडलवाइस लाइफ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s edelweiss life insurance company limited 21-08-2026 New आदेश / Order 1.1 MB मेसर्स प्रामेरिका लाइफ इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s pramerica life insurance limited 20-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB प्रबंधन व्ययों की सीमाओं का अननुपालन सम्बंधी / non compliance with expenses of management limits 20-08-2026 New आदेश / Order 1.1 MB मेसर्स एक्को जनरल इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s acko general insurance limited 20-08-2026 New आदेश / Order 1.1 MB मेसर्स निवा बूपा हेल्थ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s niva bupa health insurance co limited 17-08-2026 New आदेश / ORDER 1.1 MB सहारा इंडिया लाइफ इंश्योरेंस कंपनी लिमिटेड के संबंध में प्रशासक की नियुक्ति के आदेश का निरसन / cancellation of the order of appointment of administrator in respect of sahara india life insurance company limited 17-08-2026 New मासिक व्यावसायिक आकडे / Monthly Business Figures 1.1 MB gross direct premium- flash figures of non-life insurers-for and up to the month of july 2026 12-08-2026 New मासिक व्यावसायिक आँकड़े / Monthly Business Figures 1.1 MB first year premium of life insurers as at 31.07.2026 10-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB सदस्य (वितरण) के रूप में श्रीमती गिरिजा सुब्रमण्यन का कार्यभार ग्रहण करना / joining of member (distribution) - smt. girija subramanian 07-08-2026 New परिपत्र / Circular 1.1 MB सेवा उत्पादन के सूचकांक के प्रयोजन के लिए मासिक आधार पर बीमाकर्ताओं के द्वारा सूचना का प्रस्तुतीकरण / submission of information by insurers on monthly basis for the purpose of index of service production 06-08-2026 New बैठक का कार्यवृत्त / Minutes of Meeting 1.1 MB प्राधिकरण की 137वीं बैठक का कार्यवृत्त / minutes of 137th meeting of authority 04-08-2026 New प्रेस विज्ञप्ति / Press Release 1.1 MB असम के चार ज़िलों को प्रभावित करने वाली प्राकृतिक आपदा / natural disaster affecting four districts of assam VIEW ALL",
+      "truthId": null
+    },
+    {
+      "text": "सार्वजनिक सूचना / PUBLIC NOTICE",
+      "truthId": null
+    },
+    {
+      "text": "आईआरडीएआई बीमा भरोसा/आईजीएमएस का प्रतिरूपण करनेवाली कपटपूर्ण / अनधिकृत वेबसाइट के विरुद्ध चेतावनी / caution against fraudulent/unauthorised website impersonating irdai bima bharosa/igms.",
+      "truthId": null
+    },
+    {
+      "text": "सार्वजनिक बीमा रजिस्ट्री /Public Consultation Paper",
+      "truthId": null
+    },
+    {
+      "text": "सार्वजनिक बीमा रजिस्ट्री / public insurance registry (pir)",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति / Press Release",
+      "truthId": null
+    },
+    {
+      "text": "सार्वजनिक बीमा रजिस्ट्री / public insurance registry",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति / Press Release",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति - स्वास्थ्य बीमा सम्बंधी आईएसी उप-समिति की तीसरी बैठक / press release - 3rd meeting of iac sub-committee on health insurance",
+      "truthId": null
+    },
+    {
+      "text": "परिपत्र / Circular",
+      "truthId": null
+    },
+    {
+      "text": "पुनर्बीमा विनियामक विवरणियों और अन्य पुनर्बीमा कार्यात्मकताओं का समन्वित व्यवसाय वैश्लेषिकी प्लेटफार्म (बीएपी) में अंतरण / migration of reinsurance regulatory returns and other reinsurance functionalities to the integrated business analytics platform (bap)",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Vikram Deshpande",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "परिपत्र / Circular",
+      "truthId": null
+    },
+    {
+      "text": "न्यू डेवलपमेंट बैंक (एनडीबी) द्वारा जारी किये गये महाराजा आईएनआर बांडों में निवेश / investment in maharajah inr bonds issued by new development bank (ndb)",
+      "truthId": null
+    },
+    {
+      "text": "निविदा / Tender",
+      "truthId": null
+    },
+    {
+      "text": "पांच लैपटॉपों की आपूर्ति के लिए निविदा / tender for supply of five laptops",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति / Press Release",
+      "truthId": null
+    },
+    {
+      "text": "प्रबंधन व्ययों की सीमाओं का अननुपालन संबंधी एडलवाइस लाइफ इंश्योरेंस कं. लि. और प्रामेरिका लाइफ इंश्योरेंस लि. के मामलों में आदेश / orders in the matters of edelweiss life insurance co. limited and pramerica life insurance ltd. for non-compliance with eom limits",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 022 2789 4561",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "आदेश / Order",
+      "truthId": null
+    },
+    {
+      "text": "मेसर्स एडलवाइस लाइफ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s edelweiss life insurance company limited",
+      "truthId": null
+    },
+    {
+      "text": "आदेश / Order",
+      "truthId": null
+    },
+    {
+      "text": "मेसर्स प्रामेरिका लाइफ इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s pramerica life insurance limited",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति / Press Release",
+      "truthId": null
+    },
+    {
+      "text": "प्रबंधन व्ययों की सीमाओं का अननुपालन सम्बंधी / non compliance with expenses of management limits",
+      "truthId": null
+    },
+    {
+      "text": "आदेश / Order",
+      "truthId": null
+    },
+    {
+      "text": "मेसर्स एक्को जनरल इंश्योरेंस लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s acko general insurance limited",
+      "truthId": null
+    },
+    {
+      "text": "आदेश / Order",
+      "truthId": null
+    },
+    {
+      "text": "मेसर्स निवा बूपा हेल्थ इंश्योरेंस कंपनी लिमिटेड के मामले में आईआरडीएआई का आदेश / order of irdai in the matter of m/s niva bupa health insurance co limited",
+      "truthId": null
+    },
+    {
+      "text": "आदेश / ORDER",
+      "truthId": null
+    },
+    {
+      "text": "सहारा इंडिया लाइफ इंश्योरेंस कंपनी लिमिटेड के संबंध में प्रशासक की नियुक्ति के आदेश का निरसन / cancellation of the order of appointment of administrator in respect of sahara india life insurance company limited",
+      "truthId": null
+    },
+    {
+      "text": "मासिक व्यावसायिक आकडे / Monthly Business Figures",
+      "truthId": null
+    },
+    {
+      "text": "gross direct premium- flash figures of non-life insurers-for and up to the month of july 2026",
+      "truthId": null
+    },
+    {
+      "text": "मासिक व्यावसायिक आँकड़े / Monthly Business Figures",
+      "truthId": null
+    },
+    {
+      "text": "first year premium of life insurers as at 31.07.2026",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति / Press Release",
+      "truthId": null
+    },
+    {
+      "text": "सदस्य (वितरण) के रूप में श्रीमती गिरिजा सुब्रमण्यन का कार्यभार ग्रहण करना / joining of member (distribution) - smt. girija subramanian",
+      "truthId": null
+    },
+    {
+      "text": "परिपत्र / Circular",
+      "truthId": null
+    },
+    {
+      "text": "सेवा उत्पादन के सूचकांक के प्रयोजन के लिए मासिक आधार पर बीमाकर्ताओं के द्वारा सूचना का प्रस्तुतीकरण / submission of information by insurers on monthly basis for the purpose of index of service production",
+      "truthId": null
+    },
+    {
+      "text": "बैठक का कार्यवृत्त / Minutes of Meeting",
+      "truthId": null
+    },
+    {
+      "text": "प्राधिकरण की 137वीं बैठक का कार्यवृत्त / minutes of 137th meeting of authority",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति / Press Release",
+      "truthId": null
+    },
+    {
+      "text": "असम के चार ज़िलों को प्रभावित करने वाली प्राकृतिक आपदा / natural disaster affecting four districts of assam",
+      "truthId": null
+    },
+    {
+      "text": "VIEW ALL",
+      "truthId": null
+    },
+    {
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Insurance Companies",
+      "truthId": null
+    },
+    {
+      "text": "Circulars, Notices and other important information.",
+      "truthId": null
+    },
+    {
+      "text": "Policyholders",
+      "truthId": null
+    },
+    {
+      "text": "Public notices, policy holder imformation and claim procedure.",
+      "truthId": null
+    },
+    {
+      "text": "Intermediaries",
+      "truthId": null
+    },
+    {
+      "text": "Circulars, Notices and other important information.",
+      "truthId": null
+    },
+    {
+      "text": "Researchers",
+      "truthId": null
+    },
+    {
+      "text": "Find information about policyholder’s protection, consumer education and other issues.",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 4012 8888 8888 1881",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Insurance Broker",
+      "truthId": null
+    },
+    {
+      "text": "Surveyor",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Agent",
+      "truthId": null
+    },
+    {
+      "text": "Insurance Marketing Firm",
+      "truthId": null
+    },
+    {
+      "text": "Life Insurer",
+      "truthId": null
+    },
+    {
+      "text": "Non-Life Insurer",
+      "truthId": null
+    },
+    {
+      "text": "Web Aggregator",
+      "truthId": null
+    },
+    {
+      "text": "Insurance Repository",
+      "truthId": null
+    },
+    {
+      "text": "Third Party Administrator",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "VIEW ALL",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next",
+      "truthId": null
+    },
+    {
+      "text": "VIEW ALL",
+      "truthId": null
+    },
+    {
+      "text": "Circular",
+      "truthId": null
+    },
+    {
+      "text": "FAQs on Saral Jeevan Bima",
+      "truthId": null
+    },
+    {
+      "text": "Standard Terms and Conditions",
+      "truthId": null
+    },
+    {
+      "text": "Bharat Griha Raksha",
+      "truthId": null
+    },
+    {
+      "text": "Bharat Sookshma Udyam Suraksha",
+      "truthId": null
+    },
+    {
+      "text": "Bharat Laghu Udyam Suraksha",
+      "truthId": null
+    },
+    {
+      "text": "Corona Kavach",
+      "truthId": null
+    },
+    {
+      "text": "Corana Rakshak Grievance cell v.deshpande+claims@example.com",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Arogya Sanjeevini",
+      "truthId": null
+    },
+    {
+      "text": "Saral Suraksha Bima PAN PQRST5678U",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Accounts(IRDAI) Accounts Finalization of Accounts within two months of end of financial year. Bank Reconciliation: on quarterly basis and when needed. Correspondence with Ministry and other outside agencies KNOW MORE Actuarial Administration Agency Distribution Communication Policyholder's Protection & Grievance Redressal Corporate Agency Board Secretariat Enforcement and Compliance Finance & Accounts Health HR Supervision Insurance Marketing Firm Intermediaries Investment IT Legal Life Non Life OLI Reinsurance Insurance inclusion and Development Surveyors Vigilance",
+      "truthId": null
+    },
+    {
+      "text": "Accounts(IRDAI)",
+      "truthId": null
+    },
+    {
+      "text": "KNOW MORE",
+      "truthId": null
+    },
+    {
+      "text": "Actuarial",
+      "truthId": null
+    },
+    {
+      "text": "Administration",
+      "truthId": null
+    },
+    {
+      "text": "Agency Distribution",
+      "truthId": null
+    },
+    {
+      "text": "Communication",
+      "truthId": null
+    },
+    {
+      "text": "Policyholder's Protection & Grievance Redressal",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Agency",
+      "truthId": null
+    },
+    {
+      "text": "Board Secretariat",
+      "truthId": null
+    },
+    {
+      "text": "Enforcement and Compliance",
+      "truthId": null
+    },
+    {
+      "text": "Finance & Accounts",
+      "truthId": null
+    },
+    {
+      "text": "Health",
+      "truthId": null
+    },
+    {
+      "text": "HR",
+      "truthId": null
+    },
+    {
+      "text": "Supervision",
+      "truthId": null
+    },
+    {
+      "text": "Insurance Marketing Firm",
+      "truthId": null
+    },
+    {
+      "text": "Intermediaries",
+      "truthId": null
+    },
+    {
+      "text": "Investment",
+      "truthId": null
+    },
+    {
+      "text": "IT",
+      "truthId": null
+    },
+    {
+      "text": "Legal",
+      "truthId": null
+    },
+    {
+      "text": "Life",
+      "truthId": null
+    },
+    {
+      "text": "Non Life",
+      "truthId": null
+    },
+    {
+      "text": "OLI",
+      "truthId": null
+    },
+    {
+      "text": "Reinsurance",
+      "truthId": null
+    },
+    {
+      "text": "Insurance inclusion and Development",
+      "truthId": null
+    },
+    {
+      "text": "Surveyors",
+      "truthId": null
+    },
+    {
+      "text": "Vigilance",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Agents",
+      "truthId": null
+    },
+    {
+      "text": "Insurance Marketing Firms",
+      "truthId": null
+    },
+    {
+      "text": "Cross Border Reinsurance Filing Portal",
+      "truthId": null
+    },
+    {
+      "text": "BIMA BHAROSA (Complaints Registration Portal)",
+      "truthId": null
+    },
+    {
+      "text": "Booklets For Unclaimed Assets",
+      "truthId": null
+    },
+    {
+      "text": "Bima Bharosa Portal For Unclaimed Assets",
+      "truthId": null
+    },
+    {
+      "text": "Press Release On Public Insurance Registry",
+      "truthId": null
+    },
+    {
+      "text": "Consultation Paper On Public Insurance Registry",
+      "truthId": null
+    },
+    {
+      "text": "VIEW ALL",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "YouTube video player",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "Careers",
+      "truthId": null
+    },
+    {
+      "text": "Tenders",
+      "truthId": null
+    },
+    {
+      "text": "Related Links",
+      "truthId": null
+    },
+    {
+      "text": "Ebooks",
+      "truthId": null
+    },
+    {
+      "text": "Screen Reader",
+      "truthId": null
+    },
+    {
+      "text": "FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Archives",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Push Notifications",
+      "truthId": null
+    },
+    {
+      "text": "RTI",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Agent Login",
+      "truthId": null
+    },
+    {
+      "text": "BIMA BHAROSA (Complaint Registration Portal) Write to v.deshpande+claims@example.com",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "National Financial Reporting Authority (NFRA)",
+      "truthId": null
+    },
+    {
+      "text": "Securities and Exchange Board of India (SEBI)",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (RBI)",
+      "truthId": null
+    },
+    {
+      "text": "Insolvency and Bankruptcy Board of India (IBBI)",
+      "truthId": null
+    },
+    {
+      "text": "Ministry Of Corporate Affairs (MCA)",
+      "truthId": null
+    },
+    {
+      "text": "Ministry of Finance (MOF)",
+      "truthId": null
+    },
+    {
+      "text": "Department of Financial Services (DFS)",
+      "truthId": null
+    },
+    {
+      "text": "RTI Online",
+      "truthId": null
+    },
+    {
+      "text": "Pension Fund Regulatory and Development Authority (PFRDA)",
+      "truthId": null
+    },
+    {
+      "text": "Competition Commission of India (CCI)",
+      "truthId": null
+    },
+    {
+      "text": "Insurance Information Bureau of India (IIB)",
+      "truthId": null
+    },
+    {
+      "text": "CA institute",
+      "truthId": null
+    },
+    {
+      "text": "Institute of Actuaries of India(IAI)",
+      "truthId": null
+    },
+    {
+      "text": "Securities Appellate Tribunal (SAT)",
+      "truthId": null
+    },
+    {
+      "text": "Jan Suraksha portal for PMJJBY and PMSBY",
+      "truthId": null
+    },
+    {
+      "text": "Pradhan Mantri Fasal Bima Yojana",
+      "truthId": null
+    },
+    {
+      "text": "Sy No. 115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad – 500032",
+      "truthId": null
+    },
+    {
+      "text": "irda@irdai.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "+91-4020204000",
+      "truthId": null
+    },
+    {
+      "text": "+91-4039328000",
+      "truthId": null
+    },
+    {
+      "text": "FEEDBACK",
+      "truthId": null
+    },
+    {
+      "text": "CONTACT US",
+      "truthId": null
+    },
+    {
+      "text": "Default select example",
+      "truthId": null
+    },
+    {
+      "text": "Insurance Regulatory Development Authority of India (IRDAI), 3rd floor, Indian Globe Chamber, D. N Road Fort, Mumbai 400001",
+      "truthId": null
+    },
+    {
+      "text": "irdamro@irdai.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "022-20822880",
+      "truthId": null
+    },
+    {
+      "text": "Website Policies Helpline 9123456780",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Terms & Conditions",
+      "truthId": null
+    },
+    {
+      "text": "Visitors : 161054955",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9123456780",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9123456780"
+        }
+      }
+    ]
+  }
+}

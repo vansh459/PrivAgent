@@ -1,0 +1,1250 @@
+{
+  "id": "dash-gentelella",
+  "type": "dashboard",
+  "sourceUrl": "https://preview.colorlib.com/theme/gentelella/production/index.html",
+  "capturedAt": "2026-09-06T06:06:03.181Z",
+  "annotatedAt": "2026-09-06T06:57:05.294Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2108,
+  "persona": "Priya Nair",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        8,
+        -64,
+        160,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "More options",
+      "bbox": [
+        212,
+        676,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "Open menu",
+      "bbox": [
+        276,
+        11,
+        34,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Docs",
+      "bbox": [
+        1031,
+        12,
+        75,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Toggle theme",
+      "bbox": [
+        1114,
+        12,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "Notifications",
+      "bbox": [
+        1148,
+        12,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "Messages",
+      "bbox": [
+        1182,
+        12,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "button",
+      "name": "Account menu",
+      "bbox": [
+        1222,
+        14,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "New view",
+      "bbox": [
+        1028,
+        81,
+        98,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "Create report",
+      "bbox": [
+        1132,
+        81,
+        119,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "7 days",
+      "bbox": [
+        763,
+        544,
+        44,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "30 days",
+      "bbox": [
+        808,
+        544,
+        44,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "90 days",
+      "bbox": [
+        852,
+        544,
+        44,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "Card options",
+      "bbox": [
+        1208,
+        493,
+        26,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "View All → Helpline 8765432109",
+      "bbox": [
+        702,
+        943,
+        196,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "Dashboards",
+      "bbox": [
+        8,
+        98,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "Forms Hot",
+      "bbox": [
+        8,
+        272,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "Tables",
+      "bbox": [
+        8,
+        313,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "Charts New",
+      "bbox": [
+        8,
+        354,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Calendar",
+      "bbox": [
+        8,
+        395,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Map",
+      "bbox": [
+        8,
+        428,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Chat 3",
+      "bbox": [
+        8,
+        496,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Inbox",
+      "bbox": [
+        8,
+        529,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Kanban",
+      "bbox": [
+        8,
+        562,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Files",
+      "bbox": [
+        8,
+        595,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Notifications",
+      "bbox": [
+        8,
+        628,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Storefront",
+      "bbox": [
+        8,
+        696,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Product",
+      "bbox": [
+        8,
+        729,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "button",
+      "name": "Orders",
+      "bbox": [
+        8,
+        762,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Invoice",
+      "bbox": [
+        8,
+        803,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Pricing",
+      "bbox": [
+        8,
+        836,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "All projects",
+      "bbox": [
+        8,
+        905,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Project detail",
+      "bbox": [
+        8,
+        938,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Elements",
+      "bbox": [
+        8,
+        1006,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Widgets 5",
+      "bbox": [
+        8,
+        1039,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Playground New",
+      "bbox": [
+        8,
+        1072,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Theme New",
+      "bbox": [
+        8,
+        1105,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Typography",
+      "bbox": [
+        8,
+        1138,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Icons",
+      "bbox": [
+        8,
+        1171,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Media",
+      "bbox": [
+        8,
+        1204,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Contacts",
+      "bbox": [
+        8,
+        1272,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "User management",
+      "bbox": [
+        8,
+        1305,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Your profile",
+      "bbox": [
+        8,
+        1338,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Settings",
+      "bbox": [
+        8,
+        1371,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Help center",
+      "bbox": [
+        8,
+        1404,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Fixed sidebar",
+      "bbox": [
+        8,
+        1472,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Fixed footer",
+      "bbox": [
+        8,
+        1505,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Nested page",
+      "bbox": [
+        8,
+        1538,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Blank",
+      "bbox": [
+        8,
+        1571,
+        234,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        322,
+        18,
+        35,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "textbox",
+      "name": "Open command palette",
+      "bbox": [
+        612,
+        12,
+        240,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Colorlib",
+      "bbox": [
+        534,
+        2075,
+        41,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "MIT",
+      "bbox": [
+        1230,
+        2075,
+        20,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Operations PAN CDEFG1234H",
+      "bbox": [
+        36,
+        136,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Analytics",
+      "bbox": [
+        36,
+        169,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Sales",
+      "bbox": [
+        36,
+        202,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "System health",
+      "bbox": [
+        36,
+        235,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "General",
+      "bbox": [
+        36,
+        310,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Advanced controls",
+      "bbox": [
+        36,
+        343,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Buttons",
+      "bbox": [
+        36,
+        375,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Upload Grievance cell priya_nair@example.gov.in",
+      "bbox": [
+        36,
+        408,
+        206,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Validation",
+      "bbox": [
+        36,
+        459,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Wizard",
+      "bbox": [
+        36,
+        492,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Static",
+      "bbox": [
+        36,
+        351,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Dynamic",
+      "bbox": [
+        36,
+        384,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Chart cards",
+      "bbox": [
+        36,
+        392,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "ECharts gallery",
+      "bbox": [
+        36,
+        425,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "SVG charts",
+      "bbox": [
+        36,
+        457,
+        206,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "All orders Write to priya_nair@example.gov.in",
+      "bbox": [
+        36,
+        800,
+        206,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Order detail",
+      "bbox": [
+        36,
+        851,
+        206,
+        32
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "8765432109",
+      "text": "Helpline 8765432109",
+      "bbox": [
+        702,
+        943,
+        196,
+        28
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 87654 32109",
+      "text": "Alternate contact +91 87654 32109",
+      "bbox": [
+        276,
+        1295,
+        314,
+        266
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "priya_nair@example.gov.in",
+      "text": "Write to priya_nair@example.gov.in",
+      "bbox": [
+        36,
+        800,
+        206,
+        50
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "2109 8765 4321",
+      "text": "Aadhaar 2109 8765 4321 linked to this account",
+      "bbox": [
+        492,
+        548,
+        193,
+        53
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "CDEFG1234H",
+      "text": "PAN CDEFG1234H",
+      "bbox": [
+        36,
+        136,
+        206,
+        32
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "6011 0000 0000 0004",
+      "text": "Card on file 6011 0000 0000 0004",
+      "bbox": [
+        277,
+        994,
+        637,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one time password is 998877",
+      "text": "one time password is 998877 sent to your phone",
+      "bbox": [
+        293,
+        548,
+        200,
+        53
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Priya Nair",
+      "text": "Signed in as Priya Nair",
+      "bbox": [
+        276,
+        143,
+        314,
+        81
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "27 MG Road, Kochi 682016",
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "bbox": [
+        277,
+        487,
+        637,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "priya_nair@example.gov.in",
+      "text": "Grievance cell priya_nair@example.gov.in",
+      "bbox": [
+        36,
+        408,
+        206,
+        50
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "Dashboards",
+      "truthId": null
+    },
+    {
+      "text": "Operations PAN CDEFG1234H",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Analytics",
+      "truthId": null
+    },
+    {
+      "text": "Sales",
+      "truthId": null
+    },
+    {
+      "text": "System health",
+      "truthId": null
+    },
+    {
+      "text": "Forms Hot",
+      "truthId": null
+    },
+    {
+      "text": "General",
+      "truthId": null
+    },
+    {
+      "text": "Advanced controls",
+      "truthId": null
+    },
+    {
+      "text": "Buttons",
+      "truthId": null
+    },
+    {
+      "text": "Upload Grievance cell priya_nair@example.gov.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Validation",
+      "truthId": null
+    },
+    {
+      "text": "Wizard",
+      "truthId": null
+    },
+    {
+      "text": "Tables",
+      "truthId": null
+    },
+    {
+      "text": "Static",
+      "truthId": null
+    },
+    {
+      "text": "Dynamic",
+      "truthId": null
+    },
+    {
+      "text": "Charts New",
+      "truthId": null
+    },
+    {
+      "text": "Chart cards",
+      "truthId": null
+    },
+    {
+      "text": "ECharts gallery",
+      "truthId": null
+    },
+    {
+      "text": "SVG charts",
+      "truthId": null
+    },
+    {
+      "text": "Calendar",
+      "truthId": null
+    },
+    {
+      "text": "Map",
+      "truthId": null
+    },
+    {
+      "text": "Chat 3",
+      "truthId": null
+    },
+    {
+      "text": "Inbox",
+      "truthId": null
+    },
+    {
+      "text": "Kanban",
+      "truthId": null
+    },
+    {
+      "text": "Files",
+      "truthId": null
+    },
+    {
+      "text": "Notifications",
+      "truthId": null
+    },
+    {
+      "text": "Storefront",
+      "truthId": null
+    },
+    {
+      "text": "Product",
+      "truthId": null
+    },
+    {
+      "text": "Orders",
+      "truthId": null
+    },
+    {
+      "text": "All orders Write to priya_nair@example.gov.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Order detail",
+      "truthId": null
+    },
+    {
+      "text": "Invoice",
+      "truthId": null
+    },
+    {
+      "text": "Pricing",
+      "truthId": null
+    },
+    {
+      "text": "All projects",
+      "truthId": null
+    },
+    {
+      "text": "Project detail",
+      "truthId": null
+    },
+    {
+      "text": "Elements",
+      "truthId": null
+    },
+    {
+      "text": "Widgets 5",
+      "truthId": null
+    },
+    {
+      "text": "Playground New",
+      "truthId": null
+    },
+    {
+      "text": "Theme New",
+      "truthId": null
+    },
+    {
+      "text": "Typography",
+      "truthId": null
+    },
+    {
+      "text": "Icons",
+      "truthId": null
+    },
+    {
+      "text": "Media",
+      "truthId": null
+    },
+    {
+      "text": "Contacts",
+      "truthId": null
+    },
+    {
+      "text": "User management",
+      "truthId": null
+    },
+    {
+      "text": "Your profile",
+      "truthId": null
+    },
+    {
+      "text": "Settings",
+      "truthId": null
+    },
+    {
+      "text": "Help center",
+      "truthId": null
+    },
+    {
+      "text": "Fixed sidebar",
+      "truthId": null
+    },
+    {
+      "text": "Fixed footer",
+      "truthId": null
+    },
+    {
+      "text": "Nested page",
+      "truthId": null
+    },
+    {
+      "text": "Blank",
+      "truthId": null
+    },
+    {
+      "text": "Open menu",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Open command palette",
+      "truthId": null
+    },
+    {
+      "text": "Docs",
+      "truthId": null
+    },
+    {
+      "text": "Toggle theme",
+      "truthId": null
+    },
+    {
+      "text": "Notifications",
+      "truthId": null
+    },
+    {
+      "text": "Messages",
+      "truthId": null
+    },
+    {
+      "text": "Account menu",
+      "truthId": null
+    },
+    {
+      "text": "New view",
+      "truthId": null
+    },
+    {
+      "text": "Create report",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Priya Nair",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "one time password is 998877 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 2109 8765 4321 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "7 days",
+      "truthId": null
+    },
+    {
+      "text": "30 days",
+      "truthId": null
+    },
+    {
+      "text": "90 days",
+      "truthId": null
+    },
+    {
+      "text": "Card options",
+      "truthId": null
+    },
+    {
+      "text": "View All → Helpline 8765432109",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Card on file 6011 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Alternate contact +91 87654 32109",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Colorlib",
+      "truthId": null
+    },
+    {
+      "text": "MIT",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1128,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          938,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 8765432109",
+        "bbox": [
+          938,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "8765432109"
+        }
+      }
+    ]
+  }
+}

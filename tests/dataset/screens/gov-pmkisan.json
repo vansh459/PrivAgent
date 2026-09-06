@@ -1,0 +1,1187 @@
+{
+  "id": "gov-pmkisan",
+  "type": "portal",
+  "sourceUrl": "https://pmkisan.gov.in/",
+  "capturedAt": "2026-09-06T05:59:08.672Z",
+  "annotatedAt": "2026-09-06T06:56:37.635Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2889,
+  "persona": "Meera Banerjee",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "BHARATI Bharat Vistaarâ€“Bharati AI Chatbot",
+      "bbox": [
+        1164,
+        433,
+        70,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "ﳐ New Farmer Registration",
+      "bbox": [
+        539,
+        1149,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "ﳐ Edit / Update Self Registration",
+      "bbox": [
+        723,
+        1149,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": " Status of Self Registered Farmer/ CSC Farmers",
+      "bbox": [
+        908,
+        1149,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": " Update Missing Information",
+      "bbox": [
+        1092,
+        1149,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": " Know Your Status",
+      "bbox": [
+        539,
+        1298,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": " Update Mobile Number",
+      "bbox": [
+        723,
+        1298,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "NIC Logo Online Refund",
+      "bbox": [
+        908,
+        1298,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "󰄔 Voluntary Surrender of PM Kisan Benefits",
+      "bbox": [
+        1092,
+        1298,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "ﭸ Beneficiary List",
+      "bbox": [
+        539,
+        1447,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "ﭸ Search your Point of Contact (POC)",
+      "bbox": [
+        723,
+        1447,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "ﭸ Voluntary Surrender Revocation",
+      "bbox": [
+        908,
+        1447,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "ﭸ Surrender Revocation Status",
+      "bbox": [
+        1092,
+        1447,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "ﭸ State Transfer Request",
+      "bbox": [
+        539,
+        1596,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": " Helpdesk - Query Form",
+      "bbox": [
+        723,
+        1596,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": " Download PM Kisan Mobile App",
+      "bbox": [
+        908,
+        1596,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "ﻑ FAQ",
+      "bbox": [
+        1092,
+        1596,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "󰄔 Download KCC Form",
+      "bbox": [
+        816,
+        1745,
+        160,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": " Financing Facility Under Agriculture Infrastructure",
+      "bbox": [
+        27,
+        2048,
+        473,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": " Campaign for Saturation of all PM KISAN beneficiaries with Kisan Credit Cards (KCC)",
+      "bbox": [
+        27,
+        2076,
+        473,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": " Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Ministry of India Shri Narendra Modi on 9th August 2021 12:30 PM IST",
+      "bbox": [
+        27,
+        2104,
+        473,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": " Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Minister of India Shri Narendra Modi on 14th May 2021 11:00 AM IST",
+      "bbox": [
+        27,
+        2155,
+        473,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": " Webcast of Hon'ble Prime Minister's event on the occasion of the \" One Year Completion of the PM-Kisan and Distribution of Kisan Credit Cards (KCC) \"",
+      "bbox": [
+        27,
+        2206,
+        473,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        24,
+        0,
+        54,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        97,
+        0,
+        39,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        387,
+        1,
+        100,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Screen Reader Access",
+      "bbox": [
+        506,
+        1,
+        106,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        620,
+        0,
+        14,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        643,
+        1,
+        9,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        662,
+        1,
+        9,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "The Hon’ble Prime Minister has released the 23rd installment of the PM-Kisan on 20th June 2026 from Tarakeswar, Hooghly , West Bengal.",
+      "bbox": [
+        44,
+        563,
+        1177,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Disclaimer Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        223,
+        2803,
+        271,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Terms and Conditions Helpline 9988776655",
+      "bbox": [
+        507,
+        2803,
+        213,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Privacy Policy",
+      "bbox": [
+        735,
+        2803,
+        70,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Copyright Policy",
+      "bbox": [
+        819,
+        2803,
+        82,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Hyperlinking Policy",
+      "bbox": [
+        915,
+        2803,
+        98,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Accessibility",
+      "bbox": [
+        233,
+        2821,
+        63,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Privacy Policy For Mobile App",
+      "bbox": [
+        309,
+        2821,
+        151,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        985,
+        5,
+        54,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Login",
+      "bbox": [
+        1058,
+        0,
+        49,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "button",
+      "name": "External Logins ",
+      "bbox": [
+        1106,
+        0,
+        106,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1211,
+        0,
+        29,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "HOME",
+      "bbox": [
+        527,
+        39,
+        57,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "button",
+      "name": "About Us ",
+      "bbox": [
+        598,
+        39,
+        72,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Guidelines ",
+      "bbox": [
+        684,
+        39,
+        79,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "PM-KMY ",
+      "bbox": [
+        777,
+        39,
+        76,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Letter / Circulars Write to meera.banerjee@example.net",
+      "bbox": [
+        404,
+        69,
+        369,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Know About eKYC Process",
+      "bbox": [
+        787,
+        69,
+        190,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Communication & Outreach ",
+      "bbox": [
+        592,
+        100,
+        197,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "ﳐ New Farmer Registration",
+      "bbox": [
+        1010,
+        196,
+        240,
+        100
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": " Know Your Status",
+      "bbox": [
+        1010,
+        301,
+        240,
+        100
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "button",
+      "name": "View chart menu,",
+      "bbox": [
+        488,
+        1308,
+        24,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "button",
+      "name": "Show 0.00 - 20.00",
+      "bbox": [
+        78,
+        1831,
+        96,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "button",
+      "name": "Show 20.00 - 40.00",
+      "bbox": [
+        212,
+        1831,
+        103,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "button",
+      "name": "Show 40.00 - 60.00",
+      "bbox": [
+        346,
+        1831,
+        103,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "button",
+      "name": "Show 60.00 - 80.00",
+      "bbox": [
+        78,
+        1846,
+        103,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "button",
+      "name": "Show 80.00 - 100.00",
+      "bbox": [
+        212,
+        1846,
+        111,
+        18
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9988776655",
+      "text": "Helpline 9988776655",
+      "bbox": [
+        507,
+        2803,
+        213,
+        14
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 99887 76655",
+      "text": "Alternate contact +91 99887 76655",
+      "bbox": [
+        8960,
+        146,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Write to meera.banerjee@example.net",
+      "bbox": [
+        404,
+        69,
+        369,
+        30
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "334455667788",
+      "text": "Aadhaar 334455667788 linked to this account",
+      "bbox": [
+        5120,
+        146,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5105 1051 0510 5100",
+      "text": "Card on file 5105 1051 0510 5100",
+      "bbox": [
+        12,
+        1213,
+        503,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 778899",
+      "text": "OTP 778899 sent to your phone",
+      "bbox": [
+        -2560,
+        146,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Meera Banerjee",
+      "text": "Signed in as Meera Banerjee",
+      "bbox": [
+        12,
+        1258,
+        503,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "8 Park Street, Kolkata 700016",
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "bbox": [
+        -3840,
+        146,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        223,
+        2803,
+        271,
+        14
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "Screen Reader Access",
+      "truthId": null
+    },
+    {
+      "text": "English Assamese Gujarati Hindi Kannada Malayalam Marathi Tamil Telugu Urdu",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "External Logins",
+      "truthId": null
+    },
+    {
+      "text": "HOME",
+      "truthId": null
+    },
+    {
+      "text": "About Us",
+      "truthId": null
+    },
+    {
+      "text": "Guidelines",
+      "truthId": null
+    },
+    {
+      "text": "PM-KMY",
+      "truthId": null
+    },
+    {
+      "text": "Letter / Circulars Write to meera.banerjee@example.net",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Know About eKYC Process",
+      "truthId": null
+    },
+    {
+      "text": "Communication & Outreach",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "OTP 778899 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 334455667788 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Alternate contact +91 99887 76655",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "New Farmer Registration",
+      "truthId": null
+    },
+    {
+      "text": "Know Your Status",
+      "truthId": null
+    },
+    {
+      "text": "The Hon’ble Prime Minister has released the 23rd installment of the PM-Kisan on 20th June 2026 from Tarakeswar, Hooghly , West Bengal.",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5105 1051 0510 5100",
+      "truthId": "pii_6"
+    },
+    {
+      "text": ". Highcharts interactive chart.",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Meera Banerjee",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "ANDAMAN AND NICOBAR ISLANDS​ANDAMAN AND NICOBAR ISLANDS ANDHRA PRADESH​ANDHRA PRADESH ARUNACHAL PRADESH​ARUNACHAL PRADESH ASSAM​ASSAM BIHAR​BIHAR CHANDIGARH​CHANDIGARH CHHATTISGARH​CHHATTISGARH DELHI​DELHI GOA​GOA GUJARAT​GUJARAT HARYANA​HARYANA HIMACHAL PRADESH​HIMACHAL PRADESH JAMMU AND KASHMIR​JAMMU AND KASHMIR JHARKHAND​JHARKHAND KARNATAKA​KARNATAKA KERALA​KERALA LAKSHADWEEP​LAKSHADWEEP MADHYA PRADESH​MADHYA PRADESH MAHARASHTRA​MAHARASHTRA MANIPUR​MANIPUR MEGHALAYA​MEGHALAYA MIZORAM​MIZORAM NAGALAND​NAGALAND ODISHA​ODISHA PUDUCHERRY​PUDUCHERRY PUNJAB​PUNJAB RAJASTHAN​RAJASTHAN SIKKIM​SIKKIM TAMIL NADU​TAMIL NADU TELANGANA​TELANGANA TRIPURA​TRIPURA UTTARAKHAND​UTTARAKHAND UTTAR PRADESH​UTTAR PRADESH WEST BENGAL​WEST BENGAL LADAKH​LADAKH The Dadra and Nagar Haveli and Daman and Diu​The Dadra and Nagar Haveli and Daman and Diu ​ ​ ​ ​ ​ ​ 0.00 - 20.00 20.00 - 40.00 40.00 - 60.00 60.00 - 80.00 80.00 - 100.00",
+      "truthId": null
+    },
+    {
+      "text": "x, 36, value: 99. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 37, value: 99. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 38, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 39, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 40, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 42, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 43, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 44, value: 99. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 45, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 46, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 47, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 48, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 49, value: 99. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 50, value: 97. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 51, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 52, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 53, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 54, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 55, value: 76. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 56, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 57, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 58, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 59, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 60, value: 98. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 61, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 62, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 63, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 64, value: 99. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 65, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 66, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 67, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 68, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 69, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 70, value: 100. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 71, value: 99. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 74, No value. .",
+      "truthId": null
+    },
+    {
+      "text": "x, 76, No value. .",
+      "truthId": null
+    },
+    {
+      "text": "Show 0.00 - 20.00",
+      "truthId": null
+    },
+    {
+      "text": "Show 20.00 - 40.00",
+      "truthId": null
+    },
+    {
+      "text": "Show 40.00 - 60.00",
+      "truthId": null
+    },
+    {
+      "text": "Show 60.00 - 80.00",
+      "truthId": null
+    },
+    {
+      "text": "Show 80.00 - 100.00",
+      "truthId": null
+    },
+    {
+      "text": "View chart menu,",
+      "truthId": null
+    },
+    {
+      "text": "New Farmer Registration",
+      "truthId": null
+    },
+    {
+      "text": "Edit / Update Self Registration",
+      "truthId": null
+    },
+    {
+      "text": "Status of Self Registered Farmer/ CSC Farmers",
+      "truthId": null
+    },
+    {
+      "text": "Update Missing Information",
+      "truthId": null
+    },
+    {
+      "text": "Know Your Status",
+      "truthId": null
+    },
+    {
+      "text": "Update Mobile Number",
+      "truthId": null
+    },
+    {
+      "text": "Online Refund",
+      "truthId": null
+    },
+    {
+      "text": "Voluntary Surrender of PM Kisan Benefits",
+      "truthId": null
+    },
+    {
+      "text": "Beneficiary List",
+      "truthId": null
+    },
+    {
+      "text": "Search your Point of Contact (POC)",
+      "truthId": null
+    },
+    {
+      "text": "Voluntary Surrender Revocation",
+      "truthId": null
+    },
+    {
+      "text": "Surrender Revocation Status",
+      "truthId": null
+    },
+    {
+      "text": "State Transfer Request",
+      "truthId": null
+    },
+    {
+      "text": "Helpdesk - Query Form",
+      "truthId": null
+    },
+    {
+      "text": "Download PM Kisan Mobile App",
+      "truthId": null
+    },
+    {
+      "text": "FAQ",
+      "truthId": null
+    },
+    {
+      "text": "Download KCC Form",
+      "truthId": null
+    },
+    {
+      "text": "Financing Facility Under Agriculture Infrastructure",
+      "truthId": null
+    },
+    {
+      "text": "Campaign for Saturation of all PM KISAN beneficiaries with Kisan Credit Cards (KCC)",
+      "truthId": null
+    },
+    {
+      "text": "Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Ministry of India Shri Narendra Modi on 9th August 2021 12:30 PM IST",
+      "truthId": null
+    },
+    {
+      "text": "Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Minister of India Shri Narendra Modi on 14th May 2021 11:00 AM IST",
+      "truthId": null
+    },
+    {
+      "text": "Webcast of Hon'ble Prime Minister's event on the occasion of the \" One Year Completion of the PM-Kisan and Distribution of Kisan Credit Cards (KCC) \"",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer Grievance cell meera.banerjee@example.net",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Terms and Conditions Helpline 9988776655",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Copyright Policy",
+      "truthId": null
+    },
+    {
+      "text": "Hyperlinking Policy",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility",
+      "truthId": null
+    },
+    {
+      "text": "Privacy Policy For Mobile App",
+      "truthId": null
+    },
+    {
+      "text": "BHARATI",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9988776655",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9988776655"
+        }
+      }
+    ]
+  }
+}

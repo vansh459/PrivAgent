@@ -1,0 +1,384 @@
+{
+  "id": "spa-todomvc-react",
+  "type": "spa",
+  "sourceUrl": "https://todomvc.com/examples/react/dist/",
+  "capturedAt": "2026-09-06T06:04:41.720Z",
+  "annotatedAt": "2026-09-06T06:56:57.998Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 841,
+  "persona": "Suresh Reddy",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Source Helpline 7000123456",
+      "bbox": [
+        18,
+        85,
+        181,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Demo",
+      "bbox": [
+        18,
+        132,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Source Grievance cell suresh.reddy@example.co",
+      "bbox": [
+        18,
+        132,
+        182,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "textbox",
+      "name": "New Todo Input",
+      "bbox": [
+        507,
+        365,
+        550,
+        65
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "TodoMVC",
+      "bbox": [
+        776,
+        538,
+        48,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "React",
+      "bbox": [
+        253,
+        448,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Quick Start Write to suresh.reddy@example.co",
+      "bbox": [
+        43,
+        541,
+        167,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "API Reference",
+      "bbox": [
+        43,
+        581,
+        91,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Philosophy",
+      "bbox": [
+        43,
+        601,
+        69,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "React Community PAN RSTUV1122W",
+      "bbox": [
+        43,
+        621,
+        238,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "ReactJS on Stack Overflow",
+      "bbox": [
+        43,
+        702,
+        170,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "let us know",
+      "bbox": [
+        63,
+        813,
+        70,
+        16
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7000123456",
+      "text": "Helpline 7000123456",
+      "bbox": [
+        18,
+        85,
+        181,
+        16
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91-70001-23456",
+      "text": "Alternate contact +91-70001-23456",
+      "bbox": [
+        507,
+        326,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "suresh.reddy@example.co",
+      "text": "Write to suresh.reddy@example.co",
+      "bbox": [
+        43,
+        541,
+        167,
+        36
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "7788 9900 1122",
+      "text": "Aadhaar 7788 9900 1122 linked to this account",
+      "bbox": [
+        507,
+        286,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "RSTUV1122W",
+      "text": "PAN RSTUV1122W",
+      "bbox": [
+        43,
+        621,
+        238,
+        16
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4111 1111 1111 1111",
+      "text": "Card on file 4111 1111 1111 1111",
+      "bbox": [
+        507,
+        247,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 4477",
+      "text": "OTP: 4477 sent to your phone",
+      "bbox": [
+        507,
+        208,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Suresh Reddy",
+      "text": "Signed in as Suresh Reddy",
+      "bbox": [
+        507,
+        169,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "112 Banjara Hills, Hyderabad 500034",
+      "text": "Registered address 112 Banjara Hills, Hyderabad 500034",
+      "bbox": [
+        507,
+        130,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "suresh.reddy@example.co",
+      "text": "Grievance cell suresh.reddy@example.co",
+      "bbox": [
+        18,
+        132,
+        182,
+        36
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Source Helpline 7000123456",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Demo",
+      "truthId": null
+    },
+    {
+      "text": "Source Grievance cell suresh.reddy@example.co",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "React",
+      "truthId": null
+    },
+    {
+      "text": "Quick Start Write to suresh.reddy@example.co",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "API Reference",
+      "truthId": null
+    },
+    {
+      "text": "Philosophy",
+      "truthId": null
+    },
+    {
+      "text": "React Community PAN RSTUV1122W",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "ReactJS on Stack Overflow",
+      "truthId": null
+    },
+    {
+      "text": "let us know",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 112 Banjara Hills, Hyderabad 500034",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Signed in as Suresh Reddy",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "OTP: 4477 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 4111 1111 1111 1111",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 7788 9900 1122 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Alternate contact +91-70001-23456",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "New Todo Input",
+      "truthId": null
+    },
+    {
+      "text": "TodoMVC",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7000123456",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7000123456"
+        }
+      }
+    ]
+  }
+}

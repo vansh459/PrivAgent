@@ -1,0 +1,5907 @@
+{
+  "id": "fin-sebi",
+  "type": "finance",
+  "sourceUrl": "https://www.sebi.gov.in/",
+  "capturedAt": "2026-09-06T06:00:01.440Z",
+  "annotatedAt": "2026-09-06T06:56:43.800Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 720,
+  "persona": "Ramesh Iyer",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Go to Top",
+      "bbox": [
+        1225,
+        617,
+        50,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Scan QR",
+      "bbox": [
+        927,
+        49,
+        48,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Type",
+      "bbox": [
+        976,
+        49,
+        31,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Account",
+      "bbox": [
+        1008,
+        49,
+        46,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Play/Pause",
+      "bbox": [
+        120,
+        240,
+        26,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "हिन्दी",
+      "bbox": [
+        512,
+        412,
+        120,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "English",
+      "bbox": [
+        648,
+        412,
+        120,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "NEW INVESTOR WEBSITE",
+      "bbox": [
+        396,
+        169,
+        168,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "textbox",
+      "name": "searchValue",
+      "bbox": [
+        579,
+        161,
+        191,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        864,
+        161,
+        33,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Previous Department",
+      "bbox": [
+        1100,
+        802,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Next Department",
+      "bbox": [
+        1130,
+        802,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Office of Informant Protection",
+      "bbox": [
+        827,
+        1414,
+        333,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Azadi ka Amrit Mahotsav",
+      "bbox": [
+        227,
+        33,
+        100,
+        57
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Securities and Exchange Board of India",
+      "bbox": [
+        351,
+        33,
+        450,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Securities and Exchange Board of India",
+      "bbox": [
+        120,
+        1653,
+        251,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Link to official X (formerly twitter) account of SEBI",
+      "bbox": [
+        413,
+        1653,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Link to official LinkedIn page of SEBI",
+      "bbox": [
+        446,
+        1653,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Link to official Instagram account of SEBI",
+      "bbox": [
+        479,
+        1653,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Link to official Facebook page of SEBI",
+      "bbox": [
+        511,
+        1653,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "National Portal of India - india.gov.in",
+      "bbox": [
+        1032,
+        1696,
+        128,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Hindi Language",
+      "bbox": [
+        394,
+        118,
+        35,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "(A)+",
+      "bbox": [
+        437,
+        118,
+        47,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "(A)",
+      "bbox": [
+        494,
+        121,
+        25,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "(A)-",
+      "bbox": [
+        528,
+        121,
+        31,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        567,
+        121,
+        149,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "A",
+      "bbox": [
+        726,
+        122,
+        13,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "A",
+      "bbox": [
+        748,
+        119,
+        17,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Yellow Font",
+      "bbox": [
+        775,
+        120,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Blue Font",
+      "bbox": [
+        812,
+        120,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Orange Font",
+      "bbox": [
+        844,
+        120,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "User Login",
+      "bbox": [
+        880,
+        125,
+        12,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "ABOUT",
+      "bbox": [
+        120,
+        197,
+        66,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "LEGAL",
+      "bbox": [
+        186,
+        197,
+        63,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "ENFORCEMENT",
+      "bbox": [
+        249,
+        197,
+        122,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "FILINGS",
+      "bbox": [
+        370,
+        197,
+        71,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "REPORTS & STATISTICS Write to ramesh.iyer@example.in",
+      "bbox": [
+        442,
+        197,
+        370,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "STATUS",
+      "bbox": [
+        811,
+        197,
+        68,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "MEDIA & NOTIFICATIONS",
+      "bbox": [
+        879,
+        197,
+        188,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "VIGILANCE",
+      "bbox": [
+        1067,
+        197,
+        93,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        428,
+        1085,
+        9,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Scores Investor-Complaints",
+      "bbox": [
+        140,
+        1135,
+        293,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1102,
+        1085,
+        43,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "What's New",
+      "bbox": [
+        134,
+        1748,
+        63,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        215,
+        1748,
+        58,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Feedback",
+      "bbox": [
+        291,
+        1748,
+        50,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Site Map",
+      "bbox": [
+        359,
+        1748,
+        47,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Website Policy",
+      "bbox": [
+        424,
+        1748,
+        78,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Guidelines for Data Sharing",
+      "bbox": [
+        520,
+        1748,
+        146,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "My SEBI",
+      "bbox": [
+        684,
+        1748,
+        49,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "FMC (Erstwhile)",
+      "bbox": [
+        752,
+        1748,
+        89,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "SAT ",
+      "bbox": [
+        859,
+        1748,
+        36,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Screen Reader Access",
+      "bbox": [
+        913,
+        1748,
+        115,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Investor Website ",
+      "bbox": [
+        1045,
+        1748,
+        101,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Useful Links",
+      "bbox": [
+        305,
+        1766,
+        68,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "RTI Act, 2005",
+      "bbox": [
+        390,
+        1766,
+        74,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Committees",
+      "bbox": [
+        482,
+        1766,
+        63,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Cause List",
+      "bbox": [
+        563,
+        1766,
+        55,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Tenders",
+      "bbox": [
+        636,
+        1766,
+        41,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Careers",
+      "bbox": [
+        695,
+        1766,
+        40,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Help",
+      "bbox": [
+        752,
+        1766,
+        25,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "FAQs",
+      "bbox": [
+        795,
+        1766,
+        30,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Intermediaries",
+      "bbox": [
+        843,
+        1766,
+        75,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Statistics",
+      "bbox": [
+        936,
+        1766,
+        47,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Terms & Conditions",
+      "bbox": [
+        125,
+        1854,
+        106,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Privacy Policy",
+      "bbox": [
+        249,
+        1854,
+        76,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Apply to join as Securities Market Trainers(SMARTS)",
+      "bbox": [
+        1148,
+        242,
+        333,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Invitation of Applications for the Post of Security Coordinator on Contract basis",
+      "bbox": [
+        1500,
+        242,
+        476,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "The link of PACL refund portal",
+      "bbox": [
+        1995,
+        242,
+        205,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Brochure - 7th National Online Quiz on Insolvency and Bankruptcy Code, 2016",
+      "bbox": [
+        2220,
+        242,
+        471,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "7th National Online Quiz on Insolvency and Bankruptcy Code, 2016",
+      "bbox": [
+        2710,
+        242,
+        408,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Corrigendum No. 2 to the Request for Proposal for Sale of Properties in Cuttack, Odisha",
+      "bbox": [
+        3138,
+        242,
+        522,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "PUBLIC NOTICE IN THE MATTER OF CITRUS CHECK INNS LIMITED AND ROYAL TWINKLE STAR CLUB PVT. LTD FOR REFUND (PHASE-II)",
+      "bbox": [
+        3679,
+        242,
+        901,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Corrigendum No. 1 to the Request for Proposal for Sale of Properties in Pune, Maharashtra",
+      "bbox": [
+        4599,
+        242,
+        539,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Corrigendum No. 1 to the Request for Proposal for Sale of Properties in Cuttack, Odisha",
+      "bbox": [
+        5157,
+        242,
+        522,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Request for Proposal for sale of PACL properties in Maharashtra and Gujarat",
+      "bbox": [
+        5698,
+        242,
+        465,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Settlement Helpdesk Facility",
+      "bbox": [
+        6182,
+        242,
+        190,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Invitation of Applications for the Post of Executive Director on Deputation/Contract basis",
+      "bbox": [
+        6391,
+        242,
+        527,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Advertisement for sale of PACL properties in Odisha,Gujarat, West Bengal, Andhra Pradesh, Maharashtra and Karnataka",
+      "bbox": [
+        6937,
+        242,
+        713,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Opportunity for PACL investors to rectify the deficiency in the bank accounts",
+      "bbox": [
+        7670,
+        242,
+        460,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Request for Proposal for sale of PACL properties in Maharashtra",
+      "bbox": [
+        8149,
+        242,
+        392,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "SEBI Helpline for Investors",
+      "bbox": [
+        8561,
+        242,
+        184,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Request for Proposal for sale of PACL properties in Uttarakhand,Odisha,Chandigarh and Andhra Pradesh",
+      "bbox": [
+        8765,
+        242,
+        623,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Request for proposal for Sale of Properties in Haryana,odisha and Delhi",
+      "bbox": [
+        9407,
+        242,
+        430,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Explanatory video on Inter-Operable Regulatory Sandbox (IoRS)",
+      "bbox": [
+        9856,
+        242,
+        394,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "MITRA - Gateway to unclaimed Mutual Funds",
+      "bbox": [
+        10269,
+        242,
+        291,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Request for Proposal for sale of PACL properties in Uttar Pradesh and Haryana",
+      "bbox": [
+        10580,
+        242,
+        474,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Launch of 'India Market Access' Website for Foreign Portfolio Investors (FPIs)",
+      "bbox": [
+        11074,
+        242,
+        469,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Request for proposals for sale of properties of PACL in Haryana, Uttar Pradesh and Karnataka",
+      "bbox": [
+        11562,
+        242,
+        560,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "FAQs on Inter-Operable Regulatory Sandbox (IoRS)",
+      "bbox": [
+        12141,
+        242,
+        323,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "SEBI Arth Yatra Contest 2025",
+      "bbox": [
+        12484,
+        242,
+        198,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Request for proposals for sale of properties of PACL in Haryana, Andhra Pradesh, Karnataka and Kerala",
+      "bbox": [
+        12701,
+        242,
+        617,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "6th National Online Quiz on Insolvency and Bankruptcy Code, 2016",
+      "bbox": [
+        13337,
+        242,
+        408,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "Securities Market Hackathon launched @ GFF 2025",
+      "bbox": [
+        13765,
+        242,
+        321,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Settlement Scheme for Association with Algo Platforms, 2025",
+      "bbox": [
+        14105,
+        242,
+        368,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Frequently Asked Questions (FAQs) on Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI REs and Framework for Adoption of Cloud Services by SEBI REs",
+      "bbox": [
+        14492,
+        242,
+        996,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Caution to public against buying / dealing with assets of Sai Prasad Group of companies and its Directors (English, Hindi, Marathi)",
+      "bbox": [
+        15508,
+        242,
+        758,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Request for Proposal for sale of PACL properties in Haryana, Uttar Pradesh, Tamil Nadu, Telangana, Maharashtra and Goa",
+      "bbox": [
+        16285,
+        242,
+        719,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Advertisement for sale of PACL properties in Odisha,Haryana and Chandigarh,",
+      "bbox": [
+        17426,
+        242,
+        474,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "For information about reward to informant under recovery proceedings, please click here",
+      "bbox": [
+        17919,
+        242,
+        526,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Requirements for filing objections w.r.t properties of PACL Limited",
+      "bbox": [
+        18465,
+        242,
+        405,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Public Notice - Submission of Original PACL Certificate for Refund",
+      "bbox": [
+        18889,
+        242,
+        406,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "FAQs for grant of registration as Alternative Investment Fund (AIF)",
+      "bbox": [
+        19314,
+        242,
+        410,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "For filing of Settlement Application, please click here",
+      "bbox": [
+        19743,
+        242,
+        323,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "Innovation Sandbox - An initiative by SEBI",
+      "bbox": [
+        20086,
+        242,
+        271,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Participate in the fight against corruption - take online integrity pledge",
+      "bbox": [
+        20377,
+        242,
+        424,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "Click here to make payment of SEBI Fees",
+      "bbox": [
+        144,
+        278,
+        231,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "Click here to make payment to SEBI IPEF",
+      "bbox": [
+        422,
+        278,
+        236,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Authenticate Document Issued by SEBI",
+      "bbox": [
+        290,
+        302,
+        220,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "What's New View All",
+      "bbox": [
+        618,
+        336,
+        47,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "PACL Matters",
+      "bbox": [
+        140,
+        840,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "Alternative Investment Funds (AIFs)",
+      "bbox": [
+        301,
+        840,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "Bankers to an Issue",
+      "bbox": [
+        459,
+        840,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "Collective Investment Schemes (C.I.S)",
+      "bbox": [
+        140,
+        895,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Commodity Derivatives",
+      "bbox": [
+        298,
+        895,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Corp. Debt Market",
+      "bbox": [
+        456,
+        895,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Credit Rating Agencies",
+      "bbox": [
+        140,
+        950,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "COVID-19 Measures",
+      "bbox": [
+        298,
+        950,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "Debenture Trustees",
+      "bbox": [
+        456,
+        950,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "Depository Participants",
+      "bbox": [
+        140,
+        987,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "link",
+      "name": "Derivatives",
+      "bbox": [
+        298,
+        987,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "link",
+      "name": "Foreign Portfolio Investors (FPI)",
+      "bbox": [
+        456,
+        987,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "International Affairs",
+      "bbox": [
+        140,
+        1042,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "Investigation",
+      "bbox": [
+        298,
+        1042,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "Investment Advisers",
+      "bbox": [
+        456,
+        1042,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "Listing Regulations",
+      "bbox": [
+        140,
+        1079,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "Investor Survey",
+      "bbox": [
+        298,
+        1079,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "Issues And Listing",
+      "bbox": [
+        456,
+        1079,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "Legal Affairs",
+      "bbox": [
+        140,
+        1116,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "Merchant Bankers",
+      "bbox": [
+        298,
+        1116,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "Mutual Fund",
+      "bbox": [
+        456,
+        1116,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "Portfolio Managers Helpline 9812345670",
+      "bbox": [
+        140,
+        1153,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "link",
+      "name": "Prosecution",
+      "bbox": [
+        298,
+        1153,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "link",
+      "name": "Infrastructure Investment Trusts (InvITs)",
+      "bbox": [
+        456,
+        1153,
+        133,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "link",
+      "name": "Registrars to an Issue and Share Transfer Agents",
+      "bbox": [
+        140,
+        1226,
+        133,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "link",
+      "name": "Research Analysts",
+      "bbox": [
+        298,
+        1226,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "link",
+      "name": "Stock Brokers",
+      "bbox": [
+        456,
+        1226,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "Takeover",
+      "bbox": [
+        140,
+        1299,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "link",
+      "name": "Trading, etc",
+      "bbox": [
+        298,
+        1299,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "link",
+      "name": "Real Estate Investment Trusts (REITs)",
+      "bbox": [
+        456,
+        1299,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "Underwriters",
+      "bbox": [
+        140,
+        1354,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "Venture Capital",
+      "bbox": [
+        298,
+        1354,
+        133,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "Electronic Gold Receipts",
+      "bbox": [
+        456,
+        1354,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "Municipal Debt Securities",
+      "bbox": [
+        140,
+        1409,
+        133,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "link",
+      "name": " View All Departments",
+      "bbox": [
+        733,
+        981,
+        427,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "Intermediaries / Market Infrastructure Institutions",
+      "bbox": [
+        494,
+        1078,
+        293,
+        84
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "Statistics",
+      "bbox": [
+        494,
+        1172,
+        293,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "link",
+      "name": "Careers",
+      "bbox": [
+        494,
+        1260,
+        293,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "link",
+      "name": "Settlement Application",
+      "bbox": [
+        494,
+        1348,
+        293,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "link",
+      "name": "Settlement Calculator BETA",
+      "bbox": [
+        494,
+        1436,
+        293,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "link",
+      "name": "Settlement Schemes",
+      "bbox": [
+        494,
+        1524,
+        293,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "link",
+      "name": "CIS Unrealistic Returns",
+      "bbox": [
+        847,
+        1135,
+        293,
+        213
+      ]
+    },
+    {
+      "oracleId": "ax_153",
+      "role": "link",
+      "name": "RSS",
+      "bbox": [
+        791,
+        1661,
+        15,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_154",
+      "role": "tab",
+      "name": "1",
+      "bbox": [
+        906,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_155",
+      "role": "tab",
+      "name": "2",
+      "bbox": [
+        927,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_156",
+      "role": "tab",
+      "name": "3",
+      "bbox": [
+        948,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_157",
+      "role": "tab",
+      "name": "4",
+      "bbox": [
+        969,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_158",
+      "role": "tab",
+      "name": "5",
+      "bbox": [
+        990,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_159",
+      "role": "tab",
+      "name": "6",
+      "bbox": [
+        1011,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_160",
+      "role": "tab",
+      "name": "7",
+      "bbox": [
+        1032,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_161",
+      "role": "tab",
+      "name": "8",
+      "bbox": [
+        1053,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_162",
+      "role": "tab",
+      "name": "9",
+      "bbox": [
+        1074,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_163",
+      "role": "tab",
+      "name": "10",
+      "bbox": [
+        1095,
+        328,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_164",
+      "role": "link",
+      "name": "The Preamble of the Securities and Exchange Board of India",
+      "bbox": [
+        733,
+        895,
+        427,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_165",
+      "role": "link",
+      "name": " Go to Department Section Alternative Investment Fund and Foreign Portfolio Investors Department (AFD)",
+      "bbox": [
+        1160,
+        1007,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_166",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        1587,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_167",
+      "role": "link",
+      "name": " Go to Department Section Communications Department (CD)",
+      "bbox": [
+        2014,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_168",
+      "role": "link",
+      "name": " Go to Department Section Corporation Finance Department (CFD)",
+      "bbox": [
+        2441,
+        1022,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_169",
+      "role": "link",
+      "name": " Go to Department Section Corporation Finance Investigation Department (CFID)",
+      "bbox": [
+        2868,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_170",
+      "role": "link",
+      "name": " Go to Department Section Department Economic and Policy Analysis (DEPA)",
+      "bbox": [
+        3295,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_171",
+      "role": "link",
+      "name": " Go to Department Section Department of Debt and Hybrid Securities (DDHS)",
+      "bbox": [
+        3722,
+        1007,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_172",
+      "role": "link",
+      "name": " Go to Department Section Enforcement Department - 1 (EFD1)",
+      "bbox": [
+        4149,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_173",
+      "role": "link",
+      "name": " Go to Department Section Enquiries and Adjudication Department (EAD)",
+      "bbox": [
+        4576,
+        1036,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_174",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        5003,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_175",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        5430,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_176",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        5857,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_177",
+      "role": "link",
+      "name": " Go to Department Section Human Resources Department (HRD)",
+      "bbox": [
+        6284,
+        961,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_178",
+      "role": "link",
+      "name": " Go to Department Section Information Technology Department (ITD)",
+      "bbox": [
+        6711,
+        1219,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_179",
+      "role": "link",
+      "name": " Go to Department Section Integrated Surveillance Department (ISD)",
+      "bbox": [
+        7138,
+        976,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_180",
+      "role": "link",
+      "name": " Go to Department Section Investigations Department (IVD)",
+      "bbox": [
+        7565,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_181",
+      "role": "link",
+      "name": " Go to Department Section Internal Inspection Department (IID)",
+      "bbox": [
+        7992,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_182",
+      "role": "link",
+      "name": " Go to Department Section Investment Management Department (IMD)",
+      "bbox": [
+        8419,
+        1007,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_183",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        8846,
+        1006,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_184",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        9273,
+        1007,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_185",
+      "role": "link",
+      "name": " Go to Department Section Market Intermediaries Regulation and Supervision Department (MIRSD)",
+      "bbox": [
+        9700,
+        1007,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_186",
+      "role": "link",
+      "name": " Go to Department Section Market Regulation Department (MRD)",
+      "bbox": [
+        10127,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_187",
+      "role": "link",
+      "name": " Go to Department Section National Institute of Securities Markets (NISM)",
+      "bbox": [
+        10554,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_188",
+      "role": "link",
+      "name": " Go to Department Section Office of International Affairs (OIA)",
+      "bbox": [
+        10981,
+        1052,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_189",
+      "role": "link",
+      "name": " Go to Department Section Office of Investor Assistance and Education (OIAE)",
+      "bbox": [
+        11408,
+        1007,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_190",
+      "role": "link",
+      "name": " Go to Department Section Office of Ethics and Compliance (OEC)",
+      "bbox": [
+        11835,
+        1022,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_191",
+      "role": "link",
+      "name": " Go to Department Section Office of the Chairperson (OCH)",
+      "bbox": [
+        12262,
+        961,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_192",
+      "role": "link",
+      "name": " Go to Department Section Office of WTM (OWTM)",
+      "bbox": [
+        12689,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_193",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        13116,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_194",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        13543,
+        961,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_195",
+      "role": "link",
+      "name": " Go to Department Section Prosecution and Settlement Department (PSD)",
+      "bbox": [
+        13970,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_196",
+      "role": "link",
+      "name": " Go to Department Section Quasi-Judicial Cell (QJC)",
+      "bbox": [
+        14397,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_197",
+      "role": "link",
+      "name": " Go to Department Section Regional Offices (RO's)",
+      "bbox": [
+        14824,
+        976,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_198",
+      "role": "link",
+      "name": " Go to Department Section",
+      "bbox": [
+        15251,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_199",
+      "role": "link",
+      "name": " Go to Department Section Recovery and Refund department (RRD)",
+      "bbox": [
+        15678,
+        991,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_200",
+      "role": "link",
+      "name": " Go to Department Section Regulatory Review Cell (RRC)",
+      "bbox": [
+        16105,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_201",
+      "role": "link",
+      "name": " Go to Department Section SAT - SC Department (SSLD)",
+      "bbox": [
+        16532,
+        946,
+        417,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_202",
+      "role": "link",
+      "name": "Complaint Registration",
+      "bbox": [
+        140,
+        1291,
+        313,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_203",
+      "role": "link",
+      "name": "View Complaint Status",
+      "bbox": [
+        140,
+        1318,
+        313,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_204",
+      "role": "link",
+      "name": "Toll Free Helpline: 1800 266 7575 or 1800 22 7575",
+      "bbox": [
+        140,
+        1345,
+        313,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_205",
+      "role": "link",
+      "name": "Common Investor Service Centres of Stock Exchanges",
+      "bbox": [
+        140,
+        1372,
+        313,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_206",
+      "role": "link",
+      "name": "Nippon India Financial Services Debt Fund",
+      "bbox": [
+        158,
+        422,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_207",
+      "role": "link",
+      "name": "UTI Nifty Smallcap 250 Index Fund",
+      "bbox": [
+        158,
+        458,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_208",
+      "role": "link",
+      "name": "MSIF EQUITY LONG-SHORT FUND",
+      "bbox": [
+        158,
+        494,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_209",
+      "role": "link",
+      "name": "THE WEALTH COMPANY FOCUSED FUND",
+      "bbox": [
+        158,
+        529,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_210",
+      "role": "link",
+      "name": "THE WEALTH COMPANY LARGE CAP FUND PAN BNZAA2318J",
+      "bbox": [
+        158,
+        565,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_211",
+      "role": "link",
+      "name": "Carnelian Liquid Fund",
+      "bbox": [
+        158,
+        601,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_212",
+      "role": "link",
+      "name": "Adjudication order in respect of Laxmi Chhugani in the matter of trading in Illiquid Stock Options at BSE",
+      "bbox": [
+        158,
+        660,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_213",
+      "role": "link",
+      "name": "Adjudication Order in respect of Puja Rungta in the matter of Illiquid Stock Options at BSE",
+      "bbox": [
+        158,
+        716,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_214",
+      "role": "link",
+      "name": "SEBI signs MoU with European Securities and Markets Authority on cooperation and exchange of information relating to Central Counterparties",
+      "bbox": [
+        158,
+        775,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_215",
+      "role": "link",
+      "name": "Processing status - Scheme of Arrangement.",
+      "bbox": [
+        158,
+        854,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_216",
+      "role": "link",
+      "name": "Processing Status : Issues",
+      "bbox": [
+        158,
+        890,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_217",
+      "role": "link",
+      "name": "Processing Status: Takeovers",
+      "bbox": [
+        158,
+        925,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_218",
+      "role": "link",
+      "name": "LCC PROJECTS LIMITED - RHP",
+      "bbox": [
+        158,
+        984,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_219",
+      "role": "link",
+      "name": "LCC PROJECTS LIMITED - Abridged Prospectus",
+      "bbox": [
+        158,
+        1009,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_220",
+      "role": "link",
+      "name": "Gaurik Fashions Limited - Addendum to DRHP",
+      "bbox": [
+        158,
+        1045,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_221",
+      "role": "link",
+      "name": "India Exposition Mart Limited",
+      "bbox": [
+        158,
+        1081,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_222",
+      "role": "link",
+      "name": "Manipal Payment and Identity Solutions Limited - RHP",
+      "bbox": [
+        158,
+        1117,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_223",
+      "role": "link",
+      "name": "Manipal Payment and Identity Solutions Limited - Abridged Prospectus",
+      "bbox": [
+        158,
+        1142,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_224",
+      "role": "link",
+      "name": "Rentomojo Limited - RHP",
+      "bbox": [
+        158,
+        1178,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_225",
+      "role": "link",
+      "name": "Rentomojo Limited - Abridged Prospectus",
+      "bbox": [
+        158,
+        1203,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_226",
+      "role": "link",
+      "name": "Steamhouse India Limited - RHP",
+      "bbox": [
+        158,
+        1238,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_227",
+      "role": "link",
+      "name": "Steamhouse India Limited - Abridged Prospectus",
+      "bbox": [
+        158,
+        1263,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_228",
+      "role": "link",
+      "name": "UTI Nifty Smallcap 250 Exchange Traded Fund",
+      "bbox": [
+        158,
+        1343,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_229",
+      "role": "link",
+      "name": "Appeal No. 7028 of 2026 filed by Samar Imran",
+      "bbox": [
+        158,
+        1402,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_230",
+      "role": "link",
+      "name": "Appeal No. 7027 of 2026 filed by Samar Imran",
+      "bbox": [
+        158,
+        1437,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_231",
+      "role": "link",
+      "name": "Appeal No. 7026 of 2026 filed by Samar Imran",
+      "bbox": [
+        158,
+        1473,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_232",
+      "role": "link",
+      "name": "Appeal No. 7023 of 2026 filed by Vivek Tripathi",
+      "bbox": [
+        158,
+        1509,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_233",
+      "role": "link",
+      "name": "Adjudication order in respect of Aastha Ruia Beneficial Trust in the matter of trading in Illiquid Stock Options at BSE",
+      "bbox": [
+        158,
+        1545,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_234",
+      "role": "link",
+      "name": "SEBI to review Settlement Price methodology for Derivative Contracts in the light of CAS rollout",
+      "bbox": [
+        158,
+        1624,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_235",
+      "role": "link",
+      "name": "Vinit Mobile limited",
+      "bbox": [
+        158,
+        1703,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_236",
+      "role": "link",
+      "name": "Advance Technoforge Limited",
+      "bbox": [
+        158,
+        1739,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_237",
+      "role": "link",
+      "name": "GLASS WALL SYSTEMS (INDIA) LIMITED - RHP",
+      "bbox": [
+        158,
+        1774,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_238",
+      "role": "link",
+      "name": "GLASS WALL SYSTEMS (INDIA) LIMITED - Abridged Prospectus",
+      "bbox": [
+        158,
+        1799,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_239",
+      "role": "link",
+      "name": "KANOHAR ELECTRICALS LIMITED - RHP",
+      "bbox": [
+        158,
+        1835,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_240",
+      "role": "link",
+      "name": "KANOHAR ELECTRICALS LIMITED - Abridged Prospectus",
+      "bbox": [
+        158,
+        1860,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_241",
+      "role": "link",
+      "name": "PRASOL CHEMICALS LIMITED - RHP",
+      "bbox": [
+        158,
+        1896,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_242",
+      "role": "link",
+      "name": "PRASOL CHEMICALS LIMITED - Abridged Prospectus",
+      "bbox": [
+        158,
+        1921,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_243",
+      "role": "link",
+      "name": "Karamtara Engineering Limited - RHP",
+      "bbox": [
+        158,
+        1957,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_244",
+      "role": "link",
+      "name": "Karamtara Engineering Limited - Abridged Prospectus",
+      "bbox": [
+        158,
+        1982,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_245",
+      "role": "link",
+      "name": "Notice of Demand under Recovery Certificate number 9292 of 2026 dated September 03, 2026, issued to Anugrah Stock and Broking Private Limited (PAN – AAACW2920N) in the matter of Anugrah Stock and Broking Private Limited",
+      "bbox": [
+        158,
+        2041,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_246",
+      "role": "link",
+      "name": "Notice of Demand under Recovery Certificate number 9293 of 2026 dated September 03, 2026, issued to Om Sri Sai Investments (PAN – AADFO8242K) in the matter of Anugrah Stock and Broking Private Limited",
+      "bbox": [
+        158,
+        2117,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_247",
+      "role": "link",
+      "name": "Notice of Demand under Recovery Certificate number 9294 of 2026 dated September 03, 2026, issued to Sadhana Paresh Kariya (PAN – AJHPK6018N) in the matter of Anugrah Stock and Broking Private Limited",
+      "bbox": [
+        158,
+        2192,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_248",
+      "role": "link",
+      "name": "Notice of Demand under Recovery Certificate number 9295 of 2026 dated September 03, 2026, issued to Paresh Mulji Kariya (PAN – AAEPK0469M) in the matter of Anugrah Stock and Broking Private Limited",
+      "bbox": [
+        158,
+        2268,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_249",
+      "role": "link",
+      "name": "SEBI Order for Compliance Notice of Attachment Bank/Post Office account for Recovery Certificate No.8511 of 2025 against Add Life Pharma Ltd in the matter of Add Life Pharma Ltd",
+      "bbox": [
+        158,
+        2344,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_250",
+      "role": "link",
+      "name": "SEBI Order for Compliance Notice of Attachment of Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8511 of 2025 against Add Life Pharma Ltd in the matter of Add Life Pharma Ltd",
+      "bbox": [
+        158,
+        2400,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_251",
+      "role": "link",
+      "name": "Release Order dated September 03, 2026 issued under RC No. 9176 of 2026 drawn against Nikunj Sureshchandra Shah in the matter of dealing in Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "bbox": [
+        158,
+        2476,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_252",
+      "role": "link",
+      "name": "Release Order dated September 03, 2026 issued under RC No. 9177 of 2026 drawn against Vidhi Nikunj Shah in the matter of dealing in Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "bbox": [
+        158,
+        2551,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_253",
+      "role": "link",
+      "name": "Consultation Paper on proposal to permit net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+      "bbox": [
+        158,
+        2650,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_254",
+      "role": "link",
+      "name": "Click here to provide your comments",
+      "bbox": [
+        158,
+        2695,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_255",
+      "role": "link",
+      "name": "PVR INOX LIMITED",
+      "bbox": [
+        158,
+        2775,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_256",
+      "role": "link",
+      "name": "WhiteOak Capital Diversified Equity Small Cap Active FOF",
+      "bbox": [
+        158,
+        2834,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_257",
+      "role": "link",
+      "name": "THE WEALTH COMPANY LIFE CYCLE FUND 2041",
+      "bbox": [
+        158,
+        2869,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_258",
+      "role": "link",
+      "name": "Titanium Active Asset Allocator Long-Short Fund - Titanium SIF",
+      "bbox": [
+        158,
+        2905,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_259",
+      "role": "link",
+      "name": "Appeal No. 7022 of 2026 filed by Sandeep Kumar",
+      "bbox": [
+        158,
+        2964,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_260",
+      "role": "link",
+      "name": "Appeal No. 7021 of 2026 filed by Dhieraj Pal",
+      "bbox": [
+        158,
+        3000,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_261",
+      "role": "link",
+      "name": "Appeal No. 7020 of 2026 filed by Shamshad Ahmed",
+      "bbox": [
+        158,
+        3036,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_262",
+      "role": "link",
+      "name": "Appeal No. 7019 of 2026 filed by Nitin Goel",
+      "bbox": [
+        158,
+        3072,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_263",
+      "role": "link",
+      "name": "Appeal No. 7018 of 2026 filed by R K Singhal",
+      "bbox": [
+        158,
+        3107,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_264",
+      "role": "link",
+      "name": "Appeal No. 7017 of 2026 filed by Jeetendra Kumar",
+      "bbox": [
+        158,
+        3143,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_265",
+      "role": "link",
+      "name": "Appeal No. 7016 of 2026 filed by Neha Jain",
+      "bbox": [
+        158,
+        3179,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_266",
+      "role": "link",
+      "name": "Adjudication Order in the matter of Jainam Broking Limited",
+      "bbox": [
+        158,
+        3215,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_267",
+      "role": "link",
+      "name": "ASSET RECONSTRUCTION COMPANY (INDIA) Limited - RHP",
+      "bbox": [
+        158,
+        3274,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_268",
+      "role": "link",
+      "name": "ASSET RECONSTRUCTION COMPANY (INDIA) Limited - Abridged Prospectus",
+      "bbox": [
+        158,
+        3299,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_269",
+      "role": "link",
+      "name": "PRIORITY JEWELS LIMITED - PROSPECTUS Grievance cell ramesh.iyer@example.in",
+      "bbox": [
+        158,
+        3335,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_270",
+      "role": "link",
+      "name": "Completion of Recovery Certificate No. RC9282 of 2026 in respect of Atit Commercial Company Private Limited (Transferee company of Ashirwad Tie Up Pvt. Ltd.) (PAN: AACCA5249E) in the matter of Illiquid Stock Options",
+      "bbox": [
+        158,
+        3394,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_271",
+      "role": "link",
+      "name": "Bandhan Financial Services Sectoral Debt Fund",
+      "bbox": [
+        158,
+        3513,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_272",
+      "role": "link",
+      "name": "Motilal Oswal Nifty REITs & Realty Index Fund",
+      "bbox": [
+        158,
+        3549,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_273",
+      "role": "link",
+      "name": "Motilal Oswal Nifty REITs & Realty ETF",
+      "bbox": [
+        158,
+        3584,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_274",
+      "role": "link",
+      "name": "Settlement Order in the matter of DMI Income Fund Pte Ltd.",
+      "bbox": [
+        158,
+        3643,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_275",
+      "role": "link",
+      "name": "Kataria Dhulchand Pannalal Jewellers Limited - DRHP",
+      "bbox": [
+        158,
+        3702,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_276",
+      "role": "link",
+      "name": "Kataria Dhulchand Pannalal Jewellers Limited - Draft Abridged Prospectus",
+      "bbox": [
+        158,
+        3727,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_277",
+      "role": "link",
+      "name": "PRANAV CONSTRUCTIONS LIMITED - RHP",
+      "bbox": [
+        158,
+        3763,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_278",
+      "role": "link",
+      "name": "PRANAV CONSTRUCTIONS LIMITED - Abridged Prospectus",
+      "bbox": [
+        158,
+        3788,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_279",
+      "role": "link",
+      "name": "Sembcorp Green Infra Limited - DRHP",
+      "bbox": [
+        158,
+        3824,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_280",
+      "role": "link",
+      "name": "Sembcorp Green Infra Limited - Draft Abridged Prospectus",
+      "bbox": [
+        158,
+        3849,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_281",
+      "role": "link",
+      "name": "ARAGEN LIFE SCIENCES LIMITED - DRHP",
+      "bbox": [
+        158,
+        3885,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_282",
+      "role": "link",
+      "name": "ARAGEN LIFE SCIENCES LIMITED - Draft Abridged Prospectus",
+      "bbox": [
+        158,
+        3910,
+        507,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_283",
+      "role": "link",
+      "name": "Notice of Demand under Recovery Certificate No. 9290 of 2026 dated 01.09.2026 issued against Harsha Ishvarbhai Solanki (PAN: DCXPS3726R) and 20 others jointly and severally in the matter of trading activity in the scrip of ANI Integrated Services Limited",
+      "bbox": [
+        158,
+        3969,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_284",
+      "role": "link",
+      "name": "Completion of Recovery Certificate No. 9251 of 2026 dated July 27, 2026, issued to Neha Aggarwal [Defaulter] PAN: AQDPA1749D in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.",
+      "bbox": [
+        158,
+        4045,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_285",
+      "role": "link",
+      "name": "Completion of Recovery Certificate No. 9253 of 2026 dated July 27, 2026, issued to Paras Shah [Defaulter] PAN: DOKPS0203A in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.",
+      "bbox": [
+        158,
+        4120,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_286",
+      "role": "link",
+      "name": "Release Order – Paras Shah [Defaulter] PAN: DOKPS0203A in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd. under Certificate No. 9253 of 2026.",
+      "bbox": [
+        158,
+        4196,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_287",
+      "role": "link",
+      "name": "Release Order – Neha Aggarwal [Defaulter] PAN: AQDPA1749D in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd. under Certificate No. 9251 of 2026.",
+      "bbox": [
+        158,
+        4272,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_288",
+      "role": "link",
+      "name": "Completion of Recovery Certificate No.9270 of 2026 dated July 30, 2026, issued to Magnesh Bala [Defaulter] PAN: ABKPG9103H in the matter of Sadhna Broadcast Limited.",
+      "bbox": [
+        158,
+        4348,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_289",
+      "role": "link",
+      "name": "General Remittance Order dated 01.09.2026 in Recovery Certificate No. 9195 of 2026 issued against Manjulaben Parmar (PAN: DKYPP5235B) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "bbox": [
+        158,
+        4404,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_290",
+      "role": "link",
+      "name": "General Remittance Order dated 01.09.2026 in Recovery Certificate No. 9197 of 2026 issued against Bhaumik Parmar (PAN: EQQPP8919H) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "bbox": [
+        158,
+        4479,
+        507,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_291",
+      "role": "link",
+      "name": "Release Order – Magnesh Bala [Defaulter] PAN: ABKPG9103H in the matter of Sadhna Broadcast Limited: under Certificate No. 9270 of 2026",
+      "bbox": [
+        158,
+        4555,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_292",
+      "role": "link",
+      "name": "Cancellation of Recovery Certificate No. 9265 of 2026 dated 29.07.2026 issued against Kavita Shah in the matter of Sadhna Broadcast Limited",
+      "bbox": [
+        158,
+        4611,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_293",
+      "role": "link",
+      "name": "Certificate of Completion dated September 01, 2026 issued under RC No. 9262 of 2026 drawn against Aahuti Rasik Mistry in the matter of dealing in Sadhna Broadcast Limited",
+      "bbox": [
+        158,
+        4667,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_294",
+      "role": "link",
+      "name": "Release Order dated September 01, 2026 issued under RC No. 9262 of 2026 drawn against Aahuti Rasik Mistry in the matter of dealing in Sadhna Broadcast Limited",
+      "bbox": [
+        158,
+        4723,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_295",
+      "role": "link",
+      "name": "Release Order dated September 01, 2026 issued under RC No. 9265 of 2026 drawn against Kavita Shah in the matter of Sadhna Broadcast Limited",
+      "bbox": [
+        158,
+        4778,
+        507,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_296",
+      "role": "link",
+      "name": "Alternative Investment Fund and Foreign Portfolio Investors Department (AFD)",
+      "bbox": [
+        1160,
+        895,
+        417,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_297",
+      "role": "link",
+      "name": "AFD handles all work related to Alternative Investment Funds (AIF), Venture Capital Funds (VCF), Foreign Venture Capital Investors (FVCI), Foreign Portfolio Investors (FPI), Designated Depository Participant (DDP) and Custodians.",
+      "bbox": [
+        1160,
+        941,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_298",
+      "role": "link",
+      "name": "Board Cell (Board Cell)",
+      "bbox": [
+        1587,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_299",
+      "role": "link",
+      "name": "Board Cell",
+      "bbox": [
+        1587,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_300",
+      "role": "link",
+      "name": "Communications Department (CD)",
+      "bbox": [
+        2014,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_301",
+      "role": "link",
+      "name": "The division would be responsible for all communications of SEBI. These include: - Media releases and other forms of communication including the publication of SEBI materials. - News conferences and responding to inquiries from the press.",
+      "bbox": [
+        2014,
+        926,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_302",
+      "role": "link",
+      "name": "Corporation Finance Department (CFD)",
+      "bbox": [
+        2441,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_303",
+      "role": "link",
+      "name": "The Corporation Finance Department deals with matters relating to (i) Issuance and listing of securities, including initial and continuous listing requirements (ii) Corporate governance and accounting/auditing standards (iii) Corporate restructuring through Takeovers / buy backs (iv) Social Stock Exchange- Policy Formulation, Regulatory Supervision, Creation of eco-system etc. (v) Delisting etc.",
+      "bbox": [
+        2441,
+        926,
+        417,
+        91
+      ]
+    },
+    {
+      "oracleId": "ax_304",
+      "role": "link",
+      "name": "Corporation Finance Investigation Department (CFID)",
+      "bbox": [
+        2868,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_305",
+      "role": "link",
+      "name": "Corporation Finance Investigation Department",
+      "bbox": [
+        2868,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_306",
+      "role": "link",
+      "name": "Department Economic and Policy Analysis (DEPA)",
+      "bbox": [
+        3295,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_307",
+      "role": "link",
+      "name": "The Department will handle its functions through the following Divisions: 1.Statistics Division 2.Publication Division 3.Regulatory Research Division 4.History Cell 5.Policy Research Division 6.Systematic Stability Unit 7.Division Of Commodity Research (Agriculture) & (Non Agriculture)",
+      "bbox": [
+        3295,
+        926,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_308",
+      "role": "link",
+      "name": "Department of Debt and Hybrid Securities (DDHS)",
+      "bbox": [
+        3722,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_309",
+      "role": "link",
+      "name": "The Department of Debt and Hybrid Securities is responsibe for matters related to Corporate Bonds, listed debt securities, Real Estate Investment Trust, Infrastructure Investment Trust, deemed public issues of debt securities and complaints in respect of aforementioned areas of work.",
+      "bbox": [
+        3722,
+        926,
+        417,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_310",
+      "role": "link",
+      "name": "Enforcement Department - 1 (EFD1)",
+      "bbox": [
+        4149,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_311",
+      "role": "link",
+      "name": "Contents required from department.",
+      "bbox": [
+        4149,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_312",
+      "role": "link",
+      "name": "Enquiries and Adjudication Department (EAD)",
+      "bbox": [
+        4576,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_313",
+      "role": "link",
+      "name": "The Enquiries and Adjudication Department would handle quasi-judicial matters and provide timely hearings and initiates adjudication brought by the other Departments against alleged violators who are within SEBI's disciplinary jurisdiction.",
+      "bbox": [
+        4576,
+        971,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_314",
+      "role": "link",
+      "name": "General Services Department - 1 (GSD - 1)",
+      "bbox": [
+        5003,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_315",
+      "role": "link",
+      "name": "GSD - 1",
+      "bbox": [
+        5003,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_316",
+      "role": "link",
+      "name": "General Services Department - 2 (GSD - 2)",
+      "bbox": [
+        5430,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_317",
+      "role": "link",
+      "name": "GSD - 2",
+      "bbox": [
+        5430,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_318",
+      "role": "link",
+      "name": "General Services Department - 3 (GSD - 3)",
+      "bbox": [
+        5857,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_319",
+      "role": "link",
+      "name": "GSD - 3",
+      "bbox": [
+        5857,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_320",
+      "role": "link",
+      "name": "Human Resources Department (HRD)",
+      "bbox": [
+        6284,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_321",
+      "role": "link",
+      "name": "The Human Resources Division will perform all the functions in its role as the principal personnel and human resources authority in SEBI.",
+      "bbox": [
+        6284,
+        926,
+        417,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_322",
+      "role": "link",
+      "name": "Information Technology Department (ITD)",
+      "bbox": [
+        6711,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_323",
+      "role": "link",
+      "name": "The Information Technology Department (ITD) of SEBI is the enabler of technology landscape in the organisation. ITD is committed to its vision of leveraging technology in partnership with every department of SEBI to achieve the following goals: \\n1. Development and implementation of Enterprise wide solutions like Portals and gateways, Network Infrastructure, Private Cloud Infrastructure, Mail and messaging solution, Data lake, Document Management system, SAP Solution etc. \\n2. Facilitating Ease of doing Business for market intermediaries by enhancing the digital interfaces between them and SEBI in respect of a large range of functions such as Regulations, Compliance and Reporting. \\n3. Developing Data Warehouse system for surveillance, inspections and supervision activities. \\n4. Driving data analytics practice at SEBI. \\n5. Ensuring deployment of strong cyber security measures and information technology (IT) resilience in the market Infrastructure to facilitate uninterrupted trading and privacy of investor data. \\n6. Undertaking IT inspections and audit for MIIs and intermediaries. \\n7. Development of framework for information interchange with various government agencies. \\n8. Facilitating innovation in markets through SEBI’s Innovation Sandbox Framework.",
+      "bbox": [
+        6711,
+        926,
+        417,
+        289
+      ]
+    },
+    {
+      "oracleId": "ax_324",
+      "role": "link",
+      "name": "Integrated Surveillance Department (ISD)",
+      "bbox": [
+        7138,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_325",
+      "role": "link",
+      "name": "The integrated Surveillance department is responsible for monitoring market activity through market systems, data from other departments and analytical software.",
+      "bbox": [
+        7138,
+        926,
+        417,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_326",
+      "role": "link",
+      "name": "Investigations Department (IVD)",
+      "bbox": [
+        7565,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_327",
+      "role": "link",
+      "name": "The Investigations department is responsible for: - Conducting investigations on potentially illegal market activities. - Providing referrals to the enforcement department. - Assisting the enforcement department in enforcing SEBI action against violators.",
+      "bbox": [
+        7565,
+        926,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_328",
+      "role": "link",
+      "name": "Internal Inspection Department (IID)",
+      "bbox": [
+        7992,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_329",
+      "role": "link",
+      "name": "Internal Inspection Department",
+      "bbox": [
+        7992,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_330",
+      "role": "link",
+      "name": "Investment Management Department (IMD)",
+      "bbox": [
+        8419,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_331",
+      "role": "link",
+      "name": "The Investment Management department is responsible for registering and regulating mutual funds, venture capital funds, foreign venture capital investors, collective investment schemes, including plantation schemes, Foreign Institutional Investors, Portfolio Managers and Custodians",
+      "bbox": [
+        8419,
+        926,
+        417,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_332",
+      "role": "link",
+      "name": "Legal Affairs Department 1 (LAD 1) Vertical-I (LAD1 Vertical-I)",
+      "bbox": [
+        8846,
+        940,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_333",
+      "role": "link",
+      "name": "CGM: Shri D. V. Sekhar, Tel No.:- +91 022 26449570 Email Id: dvsekhar@sebi.gov.in",
+      "bbox": [
+        8846,
+        971,
+        417,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_334",
+      "role": "link",
+      "name": "Legal Affairs Department 1 (Vertical 2) (LAD2 (V2))",
+      "bbox": [
+        9273,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_335",
+      "role": "link",
+      "name": "The Legal Affairs Department 2 (LAD2) is responsible for all the litigations wherein SEBI is a party (except appeals before the Hon’ble Securities Appellate Tribunal (SAT) and criminal/prosecution matters). Presently, there are three divisions in LAD2 that handle the functions of the Department.",
+      "bbox": [
+        9273,
+        926,
+        417,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_336",
+      "role": "link",
+      "name": "Market Intermediaries Regulation and Supervision Department (MIRSD)",
+      "bbox": [
+        9700,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_337",
+      "role": "link",
+      "name": "The Market Intermediaries Regulation and Supervision Department is responsible for the registration, supervision, compliance monitoring and inspections of all market intermediaries in respect of all segments of the markets viz. equity, equity derivatives, currency derivatives, debt and debt related derivatives.",
+      "bbox": [
+        9700,
+        926,
+        417,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_338",
+      "role": "link",
+      "name": "Market Regulation Department (MRD)",
+      "bbox": [
+        10127,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_339",
+      "role": "link",
+      "name": "The Market Regulation Department (MRD) is responsible for formulation of policy and supervision of functioning and operations of Market Infrastructure Institutions (MIIs) such as, Stock Exchanges, Depositories and Clearing Corporations. MRD consists of the following divisions:",
+      "bbox": [
+        10127,
+        926,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_340",
+      "role": "link",
+      "name": "National Institute of Securities Markets (NISM)",
+      "bbox": [
+        10554,
+        940,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_341",
+      "role": "link",
+      "name": "NISM",
+      "bbox": [
+        10554,
+        971,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_342",
+      "role": "link",
+      "name": "Office of International Affairs (OIA)",
+      "bbox": [
+        10981,
+        940,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_343",
+      "role": "link",
+      "name": "The office would perform the following: -Implement information-sharing initiatives with international regulators -Participate in international regulatory organizations -Handle all matters related to foreign assisted projects -Establish guidelines for interaction with foreign Government agencies and foreign",
+      "bbox": [
+        10981,
+        971,
+        417,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_344",
+      "role": "link",
+      "name": "Office of Investor Assistance and Education (OIAE)",
+      "bbox": [
+        11408,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_345",
+      "role": "link",
+      "name": "The Office will support SEBI's operation by handling investor complaints centrally and be the focal point of SEBI's investor education effort.The Office would be the single point interface with investors and would receive complaints relating to all departments, forward to the concerned departments.",
+      "bbox": [
+        11408,
+        926,
+        417,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_346",
+      "role": "link",
+      "name": "Office of Ethics and Compliance (OEC)",
+      "bbox": [
+        11835,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_347",
+      "role": "link",
+      "name": "The Office of Ethics and Compliance (OEC) has been established for administering and strengthening ethics and compliance framework for SEBI employees. The functions of OEC include establishing and administrating conflict of interest framework, overseeing whistleblower system for reporting conflicts of interest, maintaining disclosures made by employees concerning financial assets, immovable properties, etc",
+      "bbox": [
+        11835,
+        926,
+        417,
+        91
+      ]
+    },
+    {
+      "oracleId": "ax_348",
+      "role": "link",
+      "name": "Office of the Chairperson (OCH)",
+      "bbox": [
+        12262,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_349",
+      "role": "link",
+      "name": "The Department will handle its functions through the following Divisions: - Office of the Executive Assistant to Chairman",
+      "bbox": [
+        12262,
+        926,
+        417,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_350",
+      "role": "link",
+      "name": "Office of WTM (OWTM)",
+      "bbox": [
+        12689,
+        940,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_351",
+      "role": "link",
+      "name": "OWTM",
+      "bbox": [
+        12689,
+        971,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_352",
+      "role": "link",
+      "name": "PACL Committtee (PACL Committtee)",
+      "bbox": [
+        13116,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_353",
+      "role": "link",
+      "name": "PACL Committtee",
+      "bbox": [
+        13116,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_354",
+      "role": "link",
+      "name": "Parliament Questions (PQ) Cell & Right to Information (RTI) Cell (PQ Cell & RTI Cell)",
+      "bbox": [
+        13543,
+        895,
+        417,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_355",
+      "role": "link",
+      "name": "PQ Cell & RTI Cell",
+      "bbox": [
+        13543,
+        941,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_356",
+      "role": "link",
+      "name": "Prosecution and Settlement Department (PSD)",
+      "bbox": [
+        13970,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_357",
+      "role": "link",
+      "name": "Prosecution and Settlement Department",
+      "bbox": [
+        13970,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_358",
+      "role": "link",
+      "name": "Quasi-Judicial Cell (QJC)",
+      "bbox": [
+        14397,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_359",
+      "role": "link",
+      "name": "To execute Quasi-judicial functions of the Board",
+      "bbox": [
+        14397,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_360",
+      "role": "link",
+      "name": "Regional Offices (RO's)",
+      "bbox": [
+        14824,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_361",
+      "role": "link",
+      "name": "The Regional Office will handle work as per existing delegation and shall continue to report to functional heads for specific departmental functions while reporting administratively to SEBI Executive Directors.",
+      "bbox": [
+        14824,
+        926,
+        417,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_362",
+      "role": "link",
+      "name": "Vigilance Department (Vigilance Dept.)",
+      "bbox": [
+        15251,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_363",
+      "role": "link",
+      "name": "Vigilance Department is headed by Chief Vigilance officer (CVO)",
+      "bbox": [
+        15251,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_364",
+      "role": "link",
+      "name": "Recovery and Refund department (RRD)",
+      "bbox": [
+        15678,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_365",
+      "role": "link",
+      "name": "The Recovery and Refund Department deals with recovery proceedings against the defaulters who have failed to pay the penalty, fees, disgorgement amount or monies directed to be refunded to investors and refund of such monies.",
+      "bbox": [
+        15678,
+        926,
+        417,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_366",
+      "role": "link",
+      "name": "Regulatory Review Cell (RRC)",
+      "bbox": [
+        16105,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_367",
+      "role": "link",
+      "name": "RRC",
+      "bbox": [
+        16105,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_368",
+      "role": "link",
+      "name": "SAT - SC Department (SSLD)",
+      "bbox": [
+        16532,
+        895,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_369",
+      "role": "link",
+      "name": "SSLD",
+      "bbox": [
+        16532,
+        926,
+        417,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_370",
+      "role": "link",
+      "name": "Join NCFE as a Financial Education Trainer today!",
+      "bbox": [
+        306,
+        316,
+        419,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_371",
+      "role": "link",
+      "name": "Now Live | Dharohar - Milestones in the Indian Securities Market",
+      "bbox": [
+        725,
+        316,
+        419,
+        335
+      ]
+    },
+    {
+      "oracleId": "ax_372",
+      "role": "link",
+      "name": "Launch of ‘India Market Access’ Website for Foreign Portfolio Investors (FPIs)",
+      "bbox": [
+        1144,
+        316,
+        419,
+        335
+      ]
+    },
+    {
+      "oracleId": "ax_373",
+      "role": "link",
+      "name": "Vigilance Awareness Week- 2025",
+      "bbox": [
+        1563,
+        316,
+        419,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_374",
+      "role": "link",
+      "name": "Bharat Ka Share Bazaar @ INDIA INTERNATIONAL TRADE FAIR – 2025",
+      "bbox": [
+        1982,
+        316,
+        419,
+        335
+      ]
+    },
+    {
+      "oracleId": "ax_375",
+      "role": "link",
+      "name": "SEBI Arth Yatra Contest 2025 Results",
+      "bbox": [
+        2401,
+        316,
+        419,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_376",
+      "role": "link",
+      "name": "MITRA - Gateway to unclaimed Mutual Funds",
+      "bbox": [
+        2820,
+        316,
+        419,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_377",
+      "role": "link",
+      "name": "Invitation of Applications for the Post of Executive Director",
+      "bbox": [
+        3239,
+        316,
+        419,
+        335
+      ]
+    },
+    {
+      "oracleId": "ax_378",
+      "role": "link",
+      "name": "Invitation of Applications for the post of Security Coordinator on Contract basis",
+      "bbox": [
+        3658,
+        316,
+        419,
+        335
+      ]
+    },
+    {
+      "oracleId": "ax_379",
+      "role": "link",
+      "name": "Download the TRAI DND App and Report Spam",
+      "bbox": [
+        4077,
+        316,
+        419,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_380",
+      "role": "link",
+      "name": "Join NCFE as a Financial Education Trainer today!",
+      "bbox": [
+        4496,
+        316,
+        419,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_381",
+      "role": "link",
+      "name": "Now Live | Dharohar - Milestones in the Indian Securities Market",
+      "bbox": [
+        4915,
+        316,
+        419,
+        335
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9812345670",
+      "text": "Helpline 9812345670",
+      "bbox": [
+        140,
+        1153,
+        133,
+        40
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 98123 45670",
+      "text": "Alternate contact +91 98123 45670",
+      "bbox": [
+        8846,
+        901,
+        427,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "ramesh.iyer@example.in",
+      "text": "Write to ramesh.iyer@example.in",
+      "bbox": [
+        442,
+        197,
+        370,
+        38
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "4321 8765 2109",
+      "text": "Aadhaar 4321 8765 2109 linked to this account",
+      "bbox": [
+        10981,
+        901,
+        427,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "BNZAA2318J",
+      "text": "PAN BNZAA2318J",
+      "bbox": [
+        158,
+        565,
+        507,
+        20
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4111 1111 1111 1111",
+      "text": "Card on file 4111 1111 1111 1111",
+      "bbox": [
+        713,
+        793,
+        447,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 246810",
+      "text": "OTP 246810 sent to your phone",
+      "bbox": [
+        10554,
+        901,
+        427,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Ramesh Iyer",
+      "text": "Signed in as Ramesh Iyer",
+      "bbox": [
+        12689,
+        901,
+        427,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "14 Nehru Road, Pune 411001",
+      "text": "Registered address 14 Nehru Road, Pune 411001",
+      "bbox": [
+        4576,
+        932,
+        417,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "ramesh.iyer@example.in",
+      "text": "Grievance cell ramesh.iyer@example.in",
+      "bbox": [
+        158,
+        3335,
+        507,
+        20
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "सेबी की वेबसाइट पर आपका स्वागत है Welcome to website of Securities and Exchange Board of India वेबसाइट देखने के लिए अपनी पसंदीदा भाषा चुनें Select your preferred language to access the website हिन्दी English",
+      "truthId": null
+    },
+    {
+      "text": "Language choices",
+      "truthId": null
+    },
+    {
+      "text": "हिन्दी",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "Scan QR",
+      "truthId": null
+    },
+    {
+      "text": "Type",
+      "truthId": null
+    },
+    {
+      "text": "Account",
+      "truthId": null
+    },
+    {
+      "text": "(A)+",
+      "truthId": null
+    },
+    {
+      "text": "(A)",
+      "truthId": null
+    },
+    {
+      "text": "(A)-",
+      "truthId": null
+    },
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "A",
+      "truthId": null
+    },
+    {
+      "text": "A",
+      "truthId": null
+    },
+    {
+      "text": "User Login",
+      "truthId": null
+    },
+    {
+      "text": "NEW INVESTOR WEBSITE",
+      "truthId": null
+    },
+    {
+      "text": "searchValue",
+      "truthId": null
+    },
+    {
+      "text": "ABOUT",
+      "truthId": null
+    },
+    {
+      "text": "LEGAL",
+      "truthId": null
+    },
+    {
+      "text": "ENFORCEMENT",
+      "truthId": null
+    },
+    {
+      "text": "FILINGS",
+      "truthId": null
+    },
+    {
+      "text": "REPORTS & STATISTICS Write to ramesh.iyer@example.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "STATUS",
+      "truthId": null
+    },
+    {
+      "text": "MEDIA & NOTIFICATIONS",
+      "truthId": null
+    },
+    {
+      "text": "VIGILANCE",
+      "truthId": null
+    },
+    {
+      "text": "Apply to join as Securities Market Trainers(SMARTS)",
+      "truthId": null
+    },
+    {
+      "text": "Invitation of Applications for the Post of Security Coordinator on Contract basis",
+      "truthId": null
+    },
+    {
+      "text": "The link of PACL refund portal",
+      "truthId": null
+    },
+    {
+      "text": "Brochure - 7th National Online Quiz on Insolvency and Bankruptcy Code, 2016",
+      "truthId": null
+    },
+    {
+      "text": "7th National Online Quiz on Insolvency and Bankruptcy Code, 2016",
+      "truthId": null
+    },
+    {
+      "text": "Corrigendum No. 2 to the Request for Proposal for Sale of Properties in Cuttack, Odisha",
+      "truthId": null
+    },
+    {
+      "text": "PUBLIC NOTICE IN THE MATTER OF CITRUS CHECK INNS LIMITED AND ROYAL TWINKLE STAR CLUB PVT. LTD FOR REFUND (PHASE-II)",
+      "truthId": null
+    },
+    {
+      "text": "Corrigendum No. 1 to the Request for Proposal for Sale of Properties in Pune, Maharashtra",
+      "truthId": null
+    },
+    {
+      "text": "Corrigendum No. 1 to the Request for Proposal for Sale of Properties in Cuttack, Odisha",
+      "truthId": null
+    },
+    {
+      "text": "Request for Proposal for sale of PACL properties in Maharashtra and Gujarat",
+      "truthId": null
+    },
+    {
+      "text": "Settlement Helpdesk Facility",
+      "truthId": null
+    },
+    {
+      "text": "Invitation of Applications for the Post of Executive Director on Deputation/Contract basis",
+      "truthId": null
+    },
+    {
+      "text": "Advertisement for sale of PACL properties in Odisha,Gujarat, West Bengal, Andhra Pradesh, Maharashtra and Karnataka",
+      "truthId": null
+    },
+    {
+      "text": "Opportunity for PACL investors to rectify the deficiency in the bank accounts",
+      "truthId": null
+    },
+    {
+      "text": "Request for Proposal for sale of PACL properties in Maharashtra",
+      "truthId": null
+    },
+    {
+      "text": "SEBI Helpline for Investors",
+      "truthId": null
+    },
+    {
+      "text": "Request for Proposal for sale of PACL properties in Uttarakhand,Odisha,Chandigarh and Andhra Pradesh",
+      "truthId": null
+    },
+    {
+      "text": "Request for proposal for Sale of Properties in Haryana,odisha and Delhi",
+      "truthId": null
+    },
+    {
+      "text": "Explanatory video on Inter-Operable Regulatory Sandbox (IoRS)",
+      "truthId": null
+    },
+    {
+      "text": "MITRA - Gateway to unclaimed Mutual Funds",
+      "truthId": null
+    },
+    {
+      "text": "Request for Proposal for sale of PACL properties in Uttar Pradesh and Haryana",
+      "truthId": null
+    },
+    {
+      "text": "Launch of 'India Market Access' Website for Foreign Portfolio Investors (FPIs)",
+      "truthId": null
+    },
+    {
+      "text": "Request for proposals for sale of properties of PACL in Haryana, Uttar Pradesh and Karnataka",
+      "truthId": null
+    },
+    {
+      "text": "FAQs on Inter-Operable Regulatory Sandbox (IoRS)",
+      "truthId": null
+    },
+    {
+      "text": "SEBI Arth Yatra Contest 2025",
+      "truthId": null
+    },
+    {
+      "text": "Request for proposals for sale of properties of PACL in Haryana, Andhra Pradesh, Karnataka and Kerala",
+      "truthId": null
+    },
+    {
+      "text": "6th National Online Quiz on Insolvency and Bankruptcy Code, 2016",
+      "truthId": null
+    },
+    {
+      "text": "Securities Market Hackathon launched @ GFF 2025",
+      "truthId": null
+    },
+    {
+      "text": "Settlement Scheme for Association with Algo Platforms, 2025",
+      "truthId": null
+    },
+    {
+      "text": "Frequently Asked Questions (FAQs) on Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI REs and Framework for Adoption of Cloud Services by SEBI REs",
+      "truthId": null
+    },
+    {
+      "text": "Caution to public against buying / dealing with assets of Sai Prasad Group of companies and its Directors (English, Hindi, Marathi)",
+      "truthId": null
+    },
+    {
+      "text": "Request for Proposal for sale of PACL properties in Haryana, Uttar Pradesh, Tamil Nadu, Telangana, Maharashtra and Goa",
+      "truthId": null
+    },
+    {
+      "text": "Advertisement for sale of PACL properties in Odisha,Haryana and Chandigarh,",
+      "truthId": null
+    },
+    {
+      "text": "For information about reward to informant under recovery proceedings, please click here",
+      "truthId": null
+    },
+    {
+      "text": "Requirements for filing objections w.r.t properties of PACL Limited",
+      "truthId": null
+    },
+    {
+      "text": "Public Notice - Submission of Original PACL Certificate for Refund",
+      "truthId": null
+    },
+    {
+      "text": "FAQs for grant of registration as Alternative Investment Fund (AIF)",
+      "truthId": null
+    },
+    {
+      "text": "For filing of Settlement Application, please click here",
+      "truthId": null
+    },
+    {
+      "text": "Innovation Sandbox - An initiative by SEBI",
+      "truthId": null
+    },
+    {
+      "text": "Participate in the fight against corruption - take online integrity pledge",
+      "truthId": null
+    },
+    {
+      "text": "Click here to make payment of SEBI Fees",
+      "truthId": null
+    },
+    {
+      "text": "Click here to make payment to SEBI IPEF",
+      "truthId": null
+    },
+    {
+      "text": "Authenticate Document Issued by SEBI",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Nippon India Financial Services Debt Fund",
+      "truthId": null
+    },
+    {
+      "text": "UTI Nifty Smallcap 250 Index Fund",
+      "truthId": null
+    },
+    {
+      "text": "MSIF EQUITY LONG-SHORT FUND",
+      "truthId": null
+    },
+    {
+      "text": "THE WEALTH COMPANY FOCUSED FUND",
+      "truthId": null
+    },
+    {
+      "text": "THE WEALTH COMPANY LARGE CAP FUND PAN BNZAA2318J",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Carnelian Liquid Fund",
+      "truthId": null
+    },
+    {
+      "text": "Adjudication order in respect of Laxmi Chhugani in the matter of trading in Illiquid Stock Options at BSE",
+      "truthId": null
+    },
+    {
+      "text": "Adjudication Order in respect of Puja Rungta in the matter of Illiquid Stock Options at BSE",
+      "truthId": null
+    },
+    {
+      "text": "SEBI signs MoU with European Securities and Markets Authority on cooperation and exchange of information relating to Central Counterparties",
+      "truthId": null
+    },
+    {
+      "text": "Processing status - Scheme of Arrangement.",
+      "truthId": null
+    },
+    {
+      "text": "Processing Status : Issues",
+      "truthId": null
+    },
+    {
+      "text": "Processing Status: Takeovers",
+      "truthId": null
+    },
+    {
+      "text": "LCC PROJECTS LIMITED - RHP",
+      "truthId": null
+    },
+    {
+      "text": "LCC PROJECTS LIMITED - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Gaurik Fashions Limited - Addendum to DRHP",
+      "truthId": null
+    },
+    {
+      "text": "India Exposition Mart Limited",
+      "truthId": null
+    },
+    {
+      "text": "Manipal Payment and Identity Solutions Limited - RHP",
+      "truthId": null
+    },
+    {
+      "text": "Manipal Payment and Identity Solutions Limited - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Rentomojo Limited - RHP",
+      "truthId": null
+    },
+    {
+      "text": "Rentomojo Limited - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Steamhouse India Limited - RHP",
+      "truthId": null
+    },
+    {
+      "text": "Steamhouse India Limited - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "UTI Nifty Smallcap 250 Exchange Traded Fund",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7028 of 2026 filed by Samar Imran",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7027 of 2026 filed by Samar Imran",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7026 of 2026 filed by Samar Imran",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7023 of 2026 filed by Vivek Tripathi",
+      "truthId": null
+    },
+    {
+      "text": "Adjudication order in respect of Aastha Ruia Beneficial Trust in the matter of trading in Illiquid Stock Options at BSE",
+      "truthId": null
+    },
+    {
+      "text": "SEBI to review Settlement Price methodology for Derivative Contracts in the light of CAS rollout",
+      "truthId": null
+    },
+    {
+      "text": "Vinit Mobile limited",
+      "truthId": null
+    },
+    {
+      "text": "Advance Technoforge Limited",
+      "truthId": null
+    },
+    {
+      "text": "GLASS WALL SYSTEMS (INDIA) LIMITED - RHP",
+      "truthId": null
+    },
+    {
+      "text": "GLASS WALL SYSTEMS (INDIA) LIMITED - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "KANOHAR ELECTRICALS LIMITED - RHP",
+      "truthId": null
+    },
+    {
+      "text": "KANOHAR ELECTRICALS LIMITED - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "PRASOL CHEMICALS LIMITED - RHP",
+      "truthId": null
+    },
+    {
+      "text": "PRASOL CHEMICALS LIMITED - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Karamtara Engineering Limited - RHP",
+      "truthId": null
+    },
+    {
+      "text": "Karamtara Engineering Limited - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Notice of Demand under Recovery Certificate number 9292 of 2026 dated September 03, 2026, issued to Anugrah Stock and Broking Private Limited (PAN – AAACW2920N) in the matter of Anugrah Stock and Broking Private Limited",
+      "truthId": null
+    },
+    {
+      "text": "Notice of Demand under Recovery Certificate number 9293 of 2026 dated September 03, 2026, issued to Om Sri Sai Investments (PAN – AADFO8242K) in the matter of Anugrah Stock and Broking Private Limited",
+      "truthId": null
+    },
+    {
+      "text": "Notice of Demand under Recovery Certificate number 9294 of 2026 dated September 03, 2026, issued to Sadhana Paresh Kariya (PAN – AJHPK6018N) in the matter of Anugrah Stock and Broking Private Limited",
+      "truthId": null
+    },
+    {
+      "text": "Notice of Demand under Recovery Certificate number 9295 of 2026 dated September 03, 2026, issued to Paresh Mulji Kariya (PAN – AAEPK0469M) in the matter of Anugrah Stock and Broking Private Limited",
+      "truthId": null
+    },
+    {
+      "text": "SEBI Order for Compliance Notice of Attachment Bank/Post Office account for Recovery Certificate No.8511 of 2025 against Add Life Pharma Ltd in the matter of Add Life Pharma Ltd",
+      "truthId": null
+    },
+    {
+      "text": "SEBI Order for Compliance Notice of Attachment of Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8511 of 2025 against Add Life Pharma Ltd in the matter of Add Life Pharma Ltd",
+      "truthId": null
+    },
+    {
+      "text": "Release Order dated September 03, 2026 issued under RC No. 9176 of 2026 drawn against Nikunj Sureshchandra Shah in the matter of dealing in Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "truthId": null
+    },
+    {
+      "text": "Release Order dated September 03, 2026 issued under RC No. 9177 of 2026 drawn against Vidhi Nikunj Shah in the matter of dealing in Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "truthId": null
+    },
+    {
+      "text": "Consultation Paper on proposal to permit net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+      "truthId": null
+    },
+    {
+      "text": "Click here to provide your comments",
+      "truthId": null
+    },
+    {
+      "text": "PVR INOX LIMITED",
+      "truthId": null
+    },
+    {
+      "text": "WhiteOak Capital Diversified Equity Small Cap Active FOF",
+      "truthId": null
+    },
+    {
+      "text": "THE WEALTH COMPANY LIFE CYCLE FUND 2041",
+      "truthId": null
+    },
+    {
+      "text": "Titanium Active Asset Allocator Long-Short Fund - Titanium SIF",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7022 of 2026 filed by Sandeep Kumar",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7021 of 2026 filed by Dhieraj Pal",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7020 of 2026 filed by Shamshad Ahmed",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7019 of 2026 filed by Nitin Goel",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7018 of 2026 filed by R K Singhal",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7017 of 2026 filed by Jeetendra Kumar",
+      "truthId": null
+    },
+    {
+      "text": "Appeal No. 7016 of 2026 filed by Neha Jain",
+      "truthId": null
+    },
+    {
+      "text": "Adjudication Order in the matter of Jainam Broking Limited",
+      "truthId": null
+    },
+    {
+      "text": "ASSET RECONSTRUCTION COMPANY (INDIA) Limited - RHP",
+      "truthId": null
+    },
+    {
+      "text": "ASSET RECONSTRUCTION COMPANY (INDIA) Limited - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "PRIORITY JEWELS LIMITED - PROSPECTUS Grievance cell ramesh.iyer@example.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Completion of Recovery Certificate No. RC9282 of 2026 in respect of Atit Commercial Company Private Limited (Transferee company of Ashirwad Tie Up Pvt. Ltd.) (PAN: AACCA5249E) in the matter of Illiquid Stock Options",
+      "truthId": null
+    },
+    {
+      "text": "Bandhan Financial Services Sectoral Debt Fund",
+      "truthId": null
+    },
+    {
+      "text": "Motilal Oswal Nifty REITs & Realty Index Fund",
+      "truthId": null
+    },
+    {
+      "text": "Motilal Oswal Nifty REITs & Realty ETF",
+      "truthId": null
+    },
+    {
+      "text": "Settlement Order in the matter of DMI Income Fund Pte Ltd.",
+      "truthId": null
+    },
+    {
+      "text": "Kataria Dhulchand Pannalal Jewellers Limited - DRHP",
+      "truthId": null
+    },
+    {
+      "text": "Kataria Dhulchand Pannalal Jewellers Limited - Draft Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "PRANAV CONSTRUCTIONS LIMITED - RHP",
+      "truthId": null
+    },
+    {
+      "text": "PRANAV CONSTRUCTIONS LIMITED - Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Sembcorp Green Infra Limited - DRHP",
+      "truthId": null
+    },
+    {
+      "text": "Sembcorp Green Infra Limited - Draft Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "ARAGEN LIFE SCIENCES LIMITED - DRHP",
+      "truthId": null
+    },
+    {
+      "text": "ARAGEN LIFE SCIENCES LIMITED - Draft Abridged Prospectus",
+      "truthId": null
+    },
+    {
+      "text": "Notice of Demand under Recovery Certificate No. 9290 of 2026 dated 01.09.2026 issued against Harsha Ishvarbhai Solanki (PAN: DCXPS3726R) and 20 others jointly and severally in the matter of trading activity in the scrip of ANI Integrated Services Limited",
+      "truthId": null
+    },
+    {
+      "text": "Completion of Recovery Certificate No. 9251 of 2026 dated July 27, 2026, issued to Neha Aggarwal [Defaulter] PAN: AQDPA1749D in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.",
+      "truthId": null
+    },
+    {
+      "text": "Completion of Recovery Certificate No. 9253 of 2026 dated July 27, 2026, issued to Paras Shah [Defaulter] PAN: DOKPS0203A in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.",
+      "truthId": null
+    },
+    {
+      "text": "Release Order – Paras Shah [Defaulter] PAN: DOKPS0203A in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd. under Certificate No. 9253 of 2026.",
+      "truthId": null
+    },
+    {
+      "text": "Release Order – Neha Aggarwal [Defaulter] PAN: AQDPA1749D in the matter of trading-based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd. under Certificate No. 9251 of 2026.",
+      "truthId": null
+    },
+    {
+      "text": "Completion of Recovery Certificate No.9270 of 2026 dated July 30, 2026, issued to Magnesh Bala [Defaulter] PAN: ABKPG9103H in the matter of Sadhna Broadcast Limited.",
+      "truthId": null
+    },
+    {
+      "text": "General Remittance Order dated 01.09.2026 in Recovery Certificate No. 9195 of 2026 issued against Manjulaben Parmar (PAN: DKYPP5235B) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "truthId": null
+    },
+    {
+      "text": "General Remittance Order dated 01.09.2026 in Recovery Certificate No. 9197 of 2026 issued against Bhaumik Parmar (PAN: EQQPP8919H) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "truthId": null
+    },
+    {
+      "text": "Release Order – Magnesh Bala [Defaulter] PAN: ABKPG9103H in the matter of Sadhna Broadcast Limited: under Certificate No. 9270 of 2026",
+      "truthId": null
+    },
+    {
+      "text": "Cancellation of Recovery Certificate No. 9265 of 2026 dated 29.07.2026 issued against Kavita Shah in the matter of Sadhna Broadcast Limited",
+      "truthId": null
+    },
+    {
+      "text": "Certificate of Completion dated September 01, 2026 issued under RC No. 9262 of 2026 drawn against Aahuti Rasik Mistry in the matter of dealing in Sadhna Broadcast Limited",
+      "truthId": null
+    },
+    {
+      "text": "Release Order dated September 01, 2026 issued under RC No. 9262 of 2026 drawn against Aahuti Rasik Mistry in the matter of dealing in Sadhna Broadcast Limited",
+      "truthId": null
+    },
+    {
+      "text": "Release Order dated September 01, 2026 issued under RC No. 9265 of 2026 drawn against Kavita Shah in the matter of Sadhna Broadcast Limited",
+      "truthId": null
+    },
+    {
+      "text": "Join NCFE as a Financial Education Trainer today!",
+      "truthId": null
+    },
+    {
+      "text": "Now Live | Dharohar - Milestones in the Indian Securities Market",
+      "truthId": null
+    },
+    {
+      "text": "Launch of ‘India Market Access’ Website for Foreign Portfolio Investors (FPIs)",
+      "truthId": null
+    },
+    {
+      "text": "Vigilance Awareness Week- 2025",
+      "truthId": null
+    },
+    {
+      "text": "Bharat Ka Share Bazaar @ INDIA INTERNATIONAL TRADE FAIR – 2025",
+      "truthId": null
+    },
+    {
+      "text": "SEBI Arth Yatra Contest 2025 Results",
+      "truthId": null
+    },
+    {
+      "text": "MITRA - Gateway to unclaimed Mutual Funds",
+      "truthId": null
+    },
+    {
+      "text": "Invitation of Applications for the Post of Executive Director",
+      "truthId": null
+    },
+    {
+      "text": "Invitation of Applications for the post of Security Coordinator on Contract basis",
+      "truthId": null
+    },
+    {
+      "text": "Download the TRAI DND App and Report Spam",
+      "truthId": null
+    },
+    {
+      "text": "Join NCFE as a Financial Education Trainer today!",
+      "truthId": null
+    },
+    {
+      "text": "Now Live | Dharohar - Milestones in the Indian Securities Market",
+      "truthId": null
+    },
+    {
+      "text": "1 2 3 4 5 6 7 8 9 10",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "5",
+      "truthId": null
+    },
+    {
+      "text": "5",
+      "truthId": null
+    },
+    {
+      "text": "6",
+      "truthId": null
+    },
+    {
+      "text": "6",
+      "truthId": null
+    },
+    {
+      "text": "7",
+      "truthId": null
+    },
+    {
+      "text": "7",
+      "truthId": null
+    },
+    {
+      "text": "8",
+      "truthId": null
+    },
+    {
+      "text": "8",
+      "truthId": null
+    },
+    {
+      "text": "9",
+      "truthId": null
+    },
+    {
+      "text": "9",
+      "truthId": null
+    },
+    {
+      "text": "10",
+      "truthId": null
+    },
+    {
+      "text": "10",
+      "truthId": null
+    },
+    {
+      "text": "PACL Matters",
+      "truthId": null
+    },
+    {
+      "text": "Alternative Investment Funds (AIFs)",
+      "truthId": null
+    },
+    {
+      "text": "Bankers to an Issue",
+      "truthId": null
+    },
+    {
+      "text": "Collective Investment Schemes (C.I.S)",
+      "truthId": null
+    },
+    {
+      "text": "Commodity Derivatives",
+      "truthId": null
+    },
+    {
+      "text": "Corp. Debt Market",
+      "truthId": null
+    },
+    {
+      "text": "Credit Rating Agencies",
+      "truthId": null
+    },
+    {
+      "text": "COVID-19 Measures",
+      "truthId": null
+    },
+    {
+      "text": "Debenture Trustees",
+      "truthId": null
+    },
+    {
+      "text": "Depository Participants",
+      "truthId": null
+    },
+    {
+      "text": "Derivatives",
+      "truthId": null
+    },
+    {
+      "text": "Foreign Portfolio Investors (FPI)",
+      "truthId": null
+    },
+    {
+      "text": "International Affairs",
+      "truthId": null
+    },
+    {
+      "text": "Investigation",
+      "truthId": null
+    },
+    {
+      "text": "Investment Advisers",
+      "truthId": null
+    },
+    {
+      "text": "Listing Regulations",
+      "truthId": null
+    },
+    {
+      "text": "Investor Survey",
+      "truthId": null
+    },
+    {
+      "text": "Issues And Listing",
+      "truthId": null
+    },
+    {
+      "text": "Legal Affairs",
+      "truthId": null
+    },
+    {
+      "text": "Merchant Bankers",
+      "truthId": null
+    },
+    {
+      "text": "Mutual Fund",
+      "truthId": null
+    },
+    {
+      "text": "Portfolio Managers Helpline 9812345670",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Prosecution",
+      "truthId": null
+    },
+    {
+      "text": "Infrastructure Investment Trusts (InvITs)",
+      "truthId": null
+    },
+    {
+      "text": "Registrars to an Issue and Share Transfer Agents",
+      "truthId": null
+    },
+    {
+      "text": "Research Analysts",
+      "truthId": null
+    },
+    {
+      "text": "Stock Brokers",
+      "truthId": null
+    },
+    {
+      "text": "Takeover",
+      "truthId": null
+    },
+    {
+      "text": "Trading, etc",
+      "truthId": null
+    },
+    {
+      "text": "Real Estate Investment Trusts (REITs)",
+      "truthId": null
+    },
+    {
+      "text": "Underwriters",
+      "truthId": null
+    },
+    {
+      "text": "Venture Capital",
+      "truthId": null
+    },
+    {
+      "text": "Electronic Gold Receipts",
+      "truthId": null
+    },
+    {
+      "text": "Municipal Debt Securities",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 4111 1111 1111 1111",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Previous Department",
+      "truthId": null
+    },
+    {
+      "text": "Next Department",
+      "truthId": null
+    },
+    {
+      "text": "The Preamble of the Securities and Exchange Board of India",
+      "truthId": null
+    },
+    {
+      "text": "View All Departments",
+      "truthId": null
+    },
+    {
+      "text": "Alternative Investment Fund and Foreign Portfolio Investors Department (AFD)",
+      "truthId": null
+    },
+    {
+      "text": "AFD handles all work related to Alternative Investment Funds (AIF), Venture Capital Funds (VCF), Foreign Venture Capital Investors (FVCI), Foreign Portfolio Investors (FPI), Designated Depository Participant (DDP) and Custodians.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Board Cell (Board Cell)",
+      "truthId": null
+    },
+    {
+      "text": "Board Cell",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Communications Department (CD)",
+      "truthId": null
+    },
+    {
+      "text": "The division would be responsible for all communications of SEBI. These include: - Media releases and other forms of communication including the publication of SEBI materials. - News conferences and responding to inquiries from the press.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Corporation Finance Department (CFD)",
+      "truthId": null
+    },
+    {
+      "text": "The Corporation Finance Department deals with matters relating to (i) Issuance and listing of securities, including initial and continuous listing requirements (ii) Corporate governance and accounting/auditing standards (iii) Corporate restructuring through Takeovers / buy backs (iv) Social Stock Exchange- Policy Formulation, Regulatory Supervision, Creation of eco-system etc. (v) Delisting etc.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Corporation Finance Investigation Department (CFID)",
+      "truthId": null
+    },
+    {
+      "text": "Corporation Finance Investigation Department",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Department Economic and Policy Analysis (DEPA)",
+      "truthId": null
+    },
+    {
+      "text": "The Department will handle its functions through the following Divisions: 1.Statistics Division 2.Publication Division 3.Regulatory Research Division 4.History Cell 5.Policy Research Division 6.Systematic Stability Unit 7.Division Of Commodity Research (Agriculture) & (Non Agriculture)",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Department of Debt and Hybrid Securities (DDHS)",
+      "truthId": null
+    },
+    {
+      "text": "The Department of Debt and Hybrid Securities is responsibe for matters related to Corporate Bonds, listed debt securities, Real Estate Investment Trust, Infrastructure Investment Trust, deemed public issues of debt securities and complaints in respect of aforementioned areas of work.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Enforcement Department - 1 (EFD1)",
+      "truthId": null
+    },
+    {
+      "text": "Contents required from department.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Enquiries and Adjudication Department (EAD)",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 14 Nehru Road, Pune 411001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "The Enquiries and Adjudication Department would handle quasi-judicial matters and provide timely hearings and initiates adjudication brought by the other Departments against alleged violators who are within SEBI's disciplinary jurisdiction.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "General Services Department - 1 (GSD - 1)",
+      "truthId": null
+    },
+    {
+      "text": "GSD - 1",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "General Services Department - 2 (GSD - 2)",
+      "truthId": null
+    },
+    {
+      "text": "GSD - 2",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "General Services Department - 3 (GSD - 3)",
+      "truthId": null
+    },
+    {
+      "text": "GSD - 3",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Human Resources Department (HRD)",
+      "truthId": null
+    },
+    {
+      "text": "The Human Resources Division will perform all the functions in its role as the principal personnel and human resources authority in SEBI.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Information Technology Department (ITD)",
+      "truthId": null
+    },
+    {
+      "text": "The Information Technology Department (ITD) of SEBI is the enabler of technology landscape in the organisation. ITD is committed to its vision of leveraging technology in partnership with every department of SEBI to achieve the following goals: \\n1. Development and implementation of Enterprise wide solutions like Portals and gateways, Network Infrastructure, Private Cloud Infrastructure, Mail and messaging solution, Data lake, Document Management system, SAP Solution etc. \\n2. Facilitating Ease of doing Business for market intermediaries by enhancing the digital interfaces between them and SEBI in respect of a large range of functions such as Regulations, Compliance and Reporting. \\n3. Developing Data Warehouse system for surveillance, inspections and supervision activities. \\n4. Driving data analytics practice at SEBI. \\n5. Ensuring deployment of strong cyber security measures and information technology (IT) resilience in the market Infrastructure to facilitate uninterrupted trading and privacy of investor data. \\n6. Undertaking IT inspections and audit for MIIs and intermediaries. \\n7. Development of framework for information interchange with various government agencies. \\n8. Facilitating innovation in markets through SEBI’s Innovation Sandbox Framework.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Integrated Surveillance Department (ISD)",
+      "truthId": null
+    },
+    {
+      "text": "The integrated Surveillance department is responsible for monitoring market activity through market systems, data from other departments and analytical software.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Investigations Department (IVD)",
+      "truthId": null
+    },
+    {
+      "text": "The Investigations department is responsible for: - Conducting investigations on potentially illegal market activities. - Providing referrals to the enforcement department. - Assisting the enforcement department in enforcing SEBI action against violators.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Internal Inspection Department (IID)",
+      "truthId": null
+    },
+    {
+      "text": "Internal Inspection Department",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Investment Management Department (IMD)",
+      "truthId": null
+    },
+    {
+      "text": "The Investment Management department is responsible for registering and regulating mutual funds, venture capital funds, foreign venture capital investors, collective investment schemes, including plantation schemes, Foreign Institutional Investors, Portfolio Managers and Custodians",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 98123 45670",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Legal Affairs Department 1 (LAD 1) Vertical-I (LAD1 Vertical-I)",
+      "truthId": null
+    },
+    {
+      "text": "CGM: Shri D. V. Sekhar, Tel No.:- +91 022 26449570 Email Id: dvsekhar@sebi.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Legal Affairs Department 1 (Vertical 2) (LAD2 (V2))",
+      "truthId": null
+    },
+    {
+      "text": "The Legal Affairs Department 2 (LAD2) is responsible for all the litigations wherein SEBI is a party (except appeals before the Hon’ble Securities Appellate Tribunal (SAT) and criminal/prosecution matters). Presently, there are three divisions in LAD2 that handle the functions of the Department.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Market Intermediaries Regulation and Supervision Department (MIRSD)",
+      "truthId": null
+    },
+    {
+      "text": "The Market Intermediaries Regulation and Supervision Department is responsible for the registration, supervision, compliance monitoring and inspections of all market intermediaries in respect of all segments of the markets viz. equity, equity derivatives, currency derivatives, debt and debt related derivatives.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Market Regulation Department (MRD)",
+      "truthId": null
+    },
+    {
+      "text": "The Market Regulation Department (MRD) is responsible for formulation of policy and supervision of functioning and operations of Market Infrastructure Institutions (MIIs) such as, Stock Exchanges, Depositories and Clearing Corporations. MRD consists of the following divisions:",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "OTP 246810 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "National Institute of Securities Markets (NISM)",
+      "truthId": null
+    },
+    {
+      "text": "NISM",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 4321 8765 2109 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Office of International Affairs (OIA)",
+      "truthId": null
+    },
+    {
+      "text": "The office would perform the following: -Implement information-sharing initiatives with international regulators -Participate in international regulatory organizations -Handle all matters related to foreign assisted projects -Establish guidelines for interaction with foreign Government agencies and foreign",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Office of Investor Assistance and Education (OIAE)",
+      "truthId": null
+    },
+    {
+      "text": "The Office will support SEBI's operation by handling investor complaints centrally and be the focal point of SEBI's investor education effort.The Office would be the single point interface with investors and would receive complaints relating to all departments, forward to the concerned departments.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Office of Ethics and Compliance (OEC)",
+      "truthId": null
+    },
+    {
+      "text": "The Office of Ethics and Compliance (OEC) has been established for administering and strengthening ethics and compliance framework for SEBI employees. The functions of OEC include establishing and administrating conflict of interest framework, overseeing whistleblower system for reporting conflicts of interest, maintaining disclosures made by employees concerning financial assets, immovable properties, etc",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Office of the Chairperson (OCH)",
+      "truthId": null
+    },
+    {
+      "text": "The Department will handle its functions through the following Divisions: - Office of the Executive Assistant to Chairman",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Ramesh Iyer",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Office of WTM (OWTM)",
+      "truthId": null
+    },
+    {
+      "text": "OWTM",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "PACL Committtee (PACL Committtee)",
+      "truthId": null
+    },
+    {
+      "text": "PACL Committtee",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Parliament Questions (PQ) Cell & Right to Information (RTI) Cell (PQ Cell & RTI Cell)",
+      "truthId": null
+    },
+    {
+      "text": "PQ Cell & RTI Cell",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Prosecution and Settlement Department (PSD)",
+      "truthId": null
+    },
+    {
+      "text": "Prosecution and Settlement Department",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Quasi-Judicial Cell (QJC)",
+      "truthId": null
+    },
+    {
+      "text": "To execute Quasi-judicial functions of the Board",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Regional Offices (RO's)",
+      "truthId": null
+    },
+    {
+      "text": "The Regional Office will handle work as per existing delegation and shall continue to report to functional heads for specific departmental functions while reporting administratively to SEBI Executive Directors.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Vigilance Department (Vigilance Dept.)",
+      "truthId": null
+    },
+    {
+      "text": "Vigilance Department is headed by Chief Vigilance officer (CVO)",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Recovery and Refund department (RRD)",
+      "truthId": null
+    },
+    {
+      "text": "The Recovery and Refund Department deals with recovery proceedings against the defaulters who have failed to pay the penalty, fees, disgorgement amount or monies directed to be refunded to investors and refund of such monies.",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "Regulatory Review Cell (RRC)",
+      "truthId": null
+    },
+    {
+      "text": "RRC",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "SAT - SC Department (SSLD)",
+      "truthId": null
+    },
+    {
+      "text": "SSLD",
+      "truthId": null
+    },
+    {
+      "text": "Go to Department Section",
+      "truthId": null
+    },
+    {
+      "text": "",
+      "truthId": null
+    },
+    {
+      "text": "Complaint Registration",
+      "truthId": null
+    },
+    {
+      "text": "View Complaint Status",
+      "truthId": null
+    },
+    {
+      "text": "Toll Free Helpline: 1800 266 7575 or 1800 22 7575",
+      "truthId": null
+    },
+    {
+      "text": "Common Investor Service Centres of Stock Exchanges",
+      "truthId": null
+    },
+    {
+      "text": "Intermediaries / Market Infrastructure Institutions",
+      "truthId": null
+    },
+    {
+      "text": "Statistics",
+      "truthId": null
+    },
+    {
+      "text": "Careers",
+      "truthId": null
+    },
+    {
+      "text": "Settlement Application",
+      "truthId": null
+    },
+    {
+      "text": "Settlement Calculator BETA",
+      "truthId": null
+    },
+    {
+      "text": "Settlement Schemes",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "CIS Unrealistic Returns",
+      "truthId": null
+    },
+    {
+      "text": "Office of Informant Protection",
+      "truthId": null
+    },
+    {
+      "text": "RSS",
+      "truthId": null
+    },
+    {
+      "text": "What's New",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Feedback",
+      "truthId": null
+    },
+    {
+      "text": "Site Map",
+      "truthId": null
+    },
+    {
+      "text": "Website Policy",
+      "truthId": null
+    },
+    {
+      "text": "Guidelines for Data Sharing",
+      "truthId": null
+    },
+    {
+      "text": "My SEBI",
+      "truthId": null
+    },
+    {
+      "text": "FMC (Erstwhile)",
+      "truthId": null
+    },
+    {
+      "text": "SAT ",
+      "truthId": null
+    },
+    {
+      "text": "Screen Reader Access",
+      "truthId": null
+    },
+    {
+      "text": "Investor Website ",
+      "truthId": null
+    },
+    {
+      "text": "Useful Links",
+      "truthId": null
+    },
+    {
+      "text": "RTI Act, 2005",
+      "truthId": null
+    },
+    {
+      "text": "Committees",
+      "truthId": null
+    },
+    {
+      "text": "Cause List",
+      "truthId": null
+    },
+    {
+      "text": "Tenders",
+      "truthId": null
+    },
+    {
+      "text": "Careers",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Intermediaries",
+      "truthId": null
+    },
+    {
+      "text": "Statistics",
+      "truthId": null
+    },
+    {
+      "text": "Terms & Conditions",
+      "truthId": null
+    },
+    {
+      "text": "Privacy Policy",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "chawla.png",
+        "bbox": [
+          1134,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          944,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9812345670",
+        "bbox": [
+          944,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9812345670"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1150 @@
+{
+  "id": "shop-scrapingcourse",
+  "type": "ecommerce",
+  "sourceUrl": "https://www.scrapingcourse.com/ecommerce/",
+  "capturedAt": "2026-09-06T06:03:36.890Z",
+  "annotatedAt": "2026-09-06T06:56:54.086Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2754,
+  "persona": "Ramesh Iyer",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to navigation",
+      "bbox": [
+        99,
+        131,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Skip to content",
+      "bbox": [
+        99,
+        131,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Ecommerce Test Site to Learn Web Scraping",
+      "bbox": [
+        100,
+        134,
+        637,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Built with WooCommerce",
+      "bbox": [
+        100,
+        2630,
+        179,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "searchbox",
+      "name": "Search for:",
+      "bbox": [
+        933,
+        132,
+        231,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "Search",
+      "bbox": [
+        932,
+        131,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "$0.00 0 items ",
+      "bbox": [
+        933,
+        306,
+        231,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Shop",
+      "bbox": [
+        84,
+        306,
+        69,
+        78
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        100,
+        384,
+        43,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Cart",
+      "bbox": [
+        143,
+        384,
+        30,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Checkout",
+      "bbox": [
+        178,
+        384,
+        68,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "My account",
+      "bbox": [
+        250,
+        384,
+        82,
+        54
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "searchbox",
+      "name": "Search",
+      "bbox": [
+        933,
+        475,
+        155,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "Search",
+      "bbox": [
+        1099,
+        475,
+        66,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "combobox",
+      "name": "Shop order",
+      "bbox": [
+        100,
+        617,
+        175,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Abominable Hoodie $69.00",
+      "bbox": [
+        100,
+        679,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Select options for “Abominable Hoodie” Grievance cell ramesh.iyer@example.in",
+      "bbox": [
+        100,
+        983,
+        204,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Adrienne Trek Jacket $57.00",
+      "bbox": [
+        304,
+        679,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Select options for “Adrienne Trek Jacket”",
+      "bbox": [
+        323,
+        983,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Aeon Capri $48.00",
+      "bbox": [
+        507,
+        679,
+        173,
+        289
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Select options for “Aeon Capri”",
+      "bbox": [
+        526,
+        983,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Aero Daily Fitness Tee $24.00",
+      "bbox": [
+        710,
+        679,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Select options for “Aero Daily Fitness Tee”",
+      "bbox": [
+        729,
+        983,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Aether Gym Pant $74.00",
+      "bbox": [
+        100,
+        1131,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Select options for “Aether Gym Pant”",
+      "bbox": [
+        119,
+        1436,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Affirm Water Bottle $7.00",
+      "bbox": [
+        304,
+        1131,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Add to cart: “Affirm Water Bottle”",
+      "bbox": [
+        334,
+        1436,
+        114,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Aim Analog Watch $45.00",
+      "bbox": [
+        507,
+        1131,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Add to cart: “Aim Analog Watch”",
+      "bbox": [
+        537,
+        1436,
+        114,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Ajax Full-Zip Sweatshirt $69.00",
+      "bbox": [
+        710,
+        1131,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Select options for “Ajax Full-Zip Sweatshirt”",
+      "bbox": [
+        729,
+        1436,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Ana Running Short $40.00",
+      "bbox": [
+        100,
+        1538,
+        173,
+        289
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Select options for “Ana Running Short”",
+      "bbox": [
+        119,
+        1843,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Angel Light Running Short $42.00",
+      "bbox": [
+        304,
+        1538,
+        173,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Select options for “Angel Light Running Short”",
+      "bbox": [
+        323,
+        1862,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Antonia Racer Tank $34.00",
+      "bbox": [
+        507,
+        1538,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Select options for “Antonia Racer Tank”",
+      "bbox": [
+        526,
+        1842,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Apollo Running Short $32.50",
+      "bbox": [
+        710,
+        1538,
+        173,
+        289
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Select options for “Apollo Running Short”",
+      "bbox": [
+        729,
+        1843,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Arcadio Gym Short $20.00",
+      "bbox": [
+        100,
+        1965,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Select options for “Arcadio Gym Short”",
+      "bbox": [
+        119,
+        2269,
+        135,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Argus All-Weather Tank $22.00",
+      "bbox": [
+        304,
+        1965,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Select options for “Argus All-Weather Tank” Helpline 9812345670",
+      "bbox": [
+        304,
+        2269,
+        173,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Ariel Roll Sleeve Sweatshirt $39.00",
+      "bbox": [
+        507,
+        1965,
+        173,
+        308
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Select options for “Ariel Roll Sleeve Sweatshirt” Write to ramesh.iyer@example.in",
+      "bbox": [
+        507,
+        2288,
+        204,
+        63
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Artemis Running Short $45.00",
+      "bbox": [
+        710,
+        1965,
+        173,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Select options for “Artemis Running Short” PAN BNZAA2318J",
+      "bbox": [
+        710,
+        2269,
+        173,
+        63
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "combobox",
+      "name": "Shop order",
+      "bbox": [
+        100,
+        2423,
+        175,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "2",
+      "bbox": [
+        577,
+        610,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        613,
+        610,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "4",
+      "bbox": [
+        649,
+        610,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "10",
+      "bbox": [
+        728,
+        610,
+        40,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "11",
+      "bbox": [
+        772,
+        610,
+        39,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "12",
+      "bbox": [
+        815,
+        610,
+        40,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "→ ",
+      "bbox": [
+        859,
+        610,
+        28,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "2",
+      "bbox": [
+        577,
+        2417,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        613,
+        2417,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "4",
+      "bbox": [
+        649,
+        2417,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "10",
+      "bbox": [
+        728,
+        2417,
+        40,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "11",
+      "bbox": [
+        772,
+        2417,
+        39,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "12",
+      "bbox": [
+        815,
+        2417,
+        40,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "→ ",
+      "bbox": [
+        859,
+        2417,
+        28,
+        32
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9812345670",
+      "text": "Helpline 9812345670",
+      "bbox": [
+        304,
+        2269,
+        173,
+        85
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 98123 45670",
+      "text": "Alternate contact +91 98123 45670",
+      "bbox": [
+        100,
+        498,
+        786,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "ramesh.iyer@example.in",
+      "text": "Write to ramesh.iyer@example.in",
+      "bbox": [
+        507,
+        2288,
+        204,
+        63
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "4321 8765 2109",
+      "text": "Aadhaar 4321 8765 2109 linked to this account",
+      "bbox": [
+        0,
+        222,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "BNZAA2318J",
+      "text": "PAN BNZAA2318J",
+      "bbox": [
+        710,
+        2269,
+        173,
+        63
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4111 1111 1111 1111",
+      "text": "Card on file 4111 1111 1111 1111",
+      "bbox": [
+        100,
+        93,
+        1064,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 246810",
+      "text": "OTP 246810 sent to your phone",
+      "bbox": [
+        0,
+        6,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Ramesh Iyer",
+      "text": "Signed in as Ramesh Iyer",
+      "bbox": [
+        100,
+        267,
+        1064,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "14 Nehru Road, Pune 411001",
+      "text": "Registered address 14 Nehru Road, Pune 411001",
+      "bbox": [
+        100,
+        459,
+        786,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "ramesh.iyer@example.in",
+      "text": "Grievance cell ramesh.iyer@example.in",
+      "bbox": [
+        100,
+        983,
+        204,
+        85
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "OTP 246810 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 4111 1111 1111 1111 Skip to navigation Skip to content Ecommerce Test Site to Learn Web Scraping ScrapingCourse.com Search for: Search Aadhaar 4321 8765 2109 linked to this account Signed in as Ramesh Iyer Shop Home Cart Checkout My account $0.00 0 items No products in the cart.",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 4111 1111 1111 1111",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Ecommerce Test Site to Learn Web Scraping",
+      "truthId": null
+    },
+    {
+      "text": "Search for: Search",
+      "truthId": null
+    },
+    {
+      "text": "Search for:",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 4321 8765 2109 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Signed in as Ramesh Iyer",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Primary Navigation",
+      "truthId": null
+    },
+    {
+      "text": "Shop",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Cart",
+      "truthId": null
+    },
+    {
+      "text": "Checkout",
+      "truthId": null
+    },
+    {
+      "text": "My account",
+      "truthId": null
+    },
+    {
+      "text": "$0.00 0 items",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 14 Nehru Road, Pune 411001 Alternate contact +91 98123 45670 Shop Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low Showing 1–16 of 188 results 1 2 3 4 … 10 11 12 → Abominable Hoodie $69.00 Select options Grievance cell ramesh.iyer@example.in Adrienne Trek Jacket $57.00 Select options Aeon Capri $48.00 Select options Aero Daily Fitness Tee $24.00 Select options Aether Gym Pant $74.00 Select options Affirm Water Bottle $7.00 Add to cart Aim Analog Watch $45.00 Add to cart Ajax Full-Zip Sweatshirt $69.00 Select options Ana Running Short $40.00 Select options Angel Light Running Short $42.00 Select options Antonia Racer Tank $34.00 Select options Apollo Running Short $32.50 Select options Arcadio Gym Short $20.00 Select options Argus All-Weather Tank $22.00 Select options Helpline 9812345670 Ariel Roll Sleeve Sweatshirt $39.00 Select options Write to ramesh.iyer@example.in Artemis Running Short $45.00 Select options PAN BNZAA2318J Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low Showing 1–16 of 188 results 1 2 3 4 … 10 11 12 →",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 14 Nehru Road, Pune 411001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Alternate contact +91 98123 45670",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Shop order",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "10",
+      "truthId": null
+    },
+    {
+      "text": "11",
+      "truthId": null
+    },
+    {
+      "text": "12",
+      "truthId": null
+    },
+    {
+      "text": "→",
+      "truthId": null
+    },
+    {
+      "text": "Abominable Hoodie $69.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Abominable Hoodie” Grievance cell ramesh.iyer@example.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Adrienne Trek Jacket $57.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Adrienne Trek Jacket”",
+      "truthId": null
+    },
+    {
+      "text": "Aeon Capri $48.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Aeon Capri”",
+      "truthId": null
+    },
+    {
+      "text": "Aero Daily Fitness Tee $24.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Aero Daily Fitness Tee”",
+      "truthId": null
+    },
+    {
+      "text": "Aether Gym Pant $74.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Aether Gym Pant”",
+      "truthId": null
+    },
+    {
+      "text": "Affirm Water Bottle $7.00",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart: “Affirm Water Bottle”",
+      "truthId": null
+    },
+    {
+      "text": "Aim Analog Watch $45.00",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart: “Aim Analog Watch”",
+      "truthId": null
+    },
+    {
+      "text": "Ajax Full-Zip Sweatshirt $69.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Ajax Full-Zip Sweatshirt”",
+      "truthId": null
+    },
+    {
+      "text": "Ana Running Short $40.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Ana Running Short”",
+      "truthId": null
+    },
+    {
+      "text": "Angel Light Running Short $42.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Angel Light Running Short”",
+      "truthId": null
+    },
+    {
+      "text": "Antonia Racer Tank $34.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Antonia Racer Tank”",
+      "truthId": null
+    },
+    {
+      "text": "Apollo Running Short $32.50",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Apollo Running Short”",
+      "truthId": null
+    },
+    {
+      "text": "Arcadio Gym Short $20.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Arcadio Gym Short”",
+      "truthId": null
+    },
+    {
+      "text": "Argus All-Weather Tank $22.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Argus All-Weather Tank” Helpline 9812345670",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Ariel Roll Sleeve Sweatshirt $39.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Ariel Roll Sleeve Sweatshirt” Write to ramesh.iyer@example.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Artemis Running Short $45.00",
+      "truthId": null
+    },
+    {
+      "text": "Select options for “Artemis Running Short” PAN BNZAA2318J",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Shop order",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "10",
+      "truthId": null
+    },
+    {
+      "text": "11",
+      "truthId": null
+    },
+    {
+      "text": "12",
+      "truthId": null
+    },
+    {
+      "text": "→",
+      "truthId": null
+    },
+    {
+      "text": "Search Search",
+      "truthId": null
+    },
+    {
+      "text": "Search Search",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "© Ecommerce Test Site to Learn Web Scraping 2026 Built with WooCommerce.",
+      "truthId": null
+    },
+    {
+      "text": "Built with WooCommerce",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9812345670",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9812345670"
+        }
+      }
+    ]
+  }
+}

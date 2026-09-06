@@ -19,7 +19,13 @@
     "test:server": "node scripts/run-server-tests.mjs",
     "test": "npm run check:schemas && npm run lint && npm run typecheck && npm run format:check && npm run test:extension && npm run test:server",
     "vendor:assets": "node scripts/vendor-assets.mjs",
-    "test:reasoner": "node scripts/run-server-tests.mjs --live"
+    "test:reasoner": "node scripts/run-server-tests.mjs --live",
+    "dataset:capture": "node scripts/capture-dataset.mjs",
+    "dataset:annotate": "node scripts/annotate-dataset.mjs",
+    "eval:dataset": "npm run test:e2e --prefix extension -- e2e/dataset.spec.ts",
+    "eval:profile": "npm run test:e2e --prefix extension -- e2e/profile.spec.ts",
+    "demo:rehearse": "npm run test:e2e --prefix extension -- e2e/demo.spec.ts",
+    "package:firefox": "npm run package:firefox --prefix extension"
   },
   "devDependencies": {
     "concurrently": "9.2.1"

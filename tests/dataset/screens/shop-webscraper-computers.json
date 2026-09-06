@@ -1,0 +1,2544 @@
+{
+  "id": "shop-webscraper-computers",
+  "type": "ecommerce",
+  "sourceUrl": "https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops",
+  "capturedAt": "2026-09-06T06:02:29.547Z",
+  "annotatedAt": "2026-09-06T06:56:51.476Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 13240,
+  "persona": "Joseph Fernandes",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Web Scraper",
+      "bbox": [
+        74,
+        13162,
+        116,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Web Scraper",
+      "bbox": [
+        74,
+        49,
+        116,
+        49
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "PRODUCTS",
+      "bbox": [
+        74,
+        12868,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "COMPANY",
+      "bbox": [
+        358,
+        12868,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "RESOURCES",
+      "bbox": [
+        642,
+        12868,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "CONTACT US",
+      "bbox": [
+        926,
+        12868,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Web Scraper on Facebook",
+      "bbox": [
+        926,
+        12989,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Web Scraper on LinkedIn",
+      "bbox": [
+        978,
+        12989,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Web Scraper on Youtube",
+      "bbox": [
+        1030,
+        12989,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Download the Web Scraper extension",
+      "bbox": [
+        1082,
+        12989,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Web Scraper Cloud replaces your complex scraping stack.Try it free for 7 days",
+      "bbox": [
+        382,
+        11,
+        501,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Close",
+      "bbox": [
+        1231,
+        10,
+        18,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Install extension",
+      "bbox": [
+        927,
+        54,
+        153,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Cloud login",
+      "bbox": [
+        1090,
+        54,
+        100,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        370,
+        820,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Prestigio Smar...",
+      "bbox": [
+        655,
+        820,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Prestigio Smar...",
+      "bbox": [
+        940,
+        820,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Aspire E1-510",
+      "bbox": [
+        370,
+        1131,
+        107,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Lenovo V110-15...",
+      "bbox": [
+        655,
+        1131,
+        138,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Lenovo V110-15...",
+      "bbox": [
+        940,
+        1131,
+        138,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Hewlett Packar...",
+      "bbox": [
+        370,
+        1441,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Acer Aspire 3...",
+      "bbox": [
+        655,
+        1441,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Acer Aspire A3...",
+      "bbox": [
+        940,
+        1441,
+        133,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Acer Aspire ES...",
+      "bbox": [
+        370,
+        1752,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Acer Aspire 3...",
+      "bbox": [
+        655,
+        1752,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Acer Aspire 3...",
+      "bbox": [
+        940,
+        1752,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        370,
+        2062,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        655,
+        2062,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Lenovo ThinkPa...",
+      "bbox": [
+        940,
+        2062,
+        142,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Acer Aspire 3...",
+      "bbox": [
+        370,
+        2373,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Lenovo V110-15...",
+      "bbox": [
+        655,
+        2373,
+        138,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Acer Aspire ES...",
+      "bbox": [
+        940,
+        2373,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        370,
+        2684,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Packard 255 G2",
+      "bbox": [
+        655,
+        2684,
+        126,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Asus EeeBook R...",
+      "bbox": [
+        940,
+        2684,
+        143,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Acer Aspire 3...",
+      "bbox": [
+        370,
+        2994,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Acer Aspire ES...",
+      "bbox": [
+        655,
+        2994,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Acer Extensa 1...",
+      "bbox": [
+        940,
+        2994,
+        129,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Acer Aspire ES...",
+      "bbox": [
+        370,
+        3305,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Lenovo V110-15...",
+      "bbox": [
+        655,
+        3305,
+        138,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Lenovo V110-15...",
+      "bbox": [
+        370,
+        3615,
+        138,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        655,
+        3615,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Acer Aspire ES...",
+      "bbox": [
+        940,
+        3615,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Lenovo V510 Bl...",
+      "bbox": [
+        370,
+        3926,
+        137,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Lenovo V510 Bl...",
+      "bbox": [
+        940,
+        3926,
+        137,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Acer Swift 1 S...",
+      "bbox": [
+        370,
+        4237,
+        123,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Dell Vostro 15",
+      "bbox": [
+        655,
+        4237,
+        112,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Acer Aspire 3...",
+      "bbox": [
+        940,
+        4237,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Dell Vostro 15...",
+      "bbox": [
+        370,
+        4547,
+        125,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Lenovo V510 Bl...",
+      "bbox": [
+        655,
+        4547,
+        137,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "HP 250 G3",
+      "bbox": [
+        940,
+        4547,
+        86,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Acer Spin 5",
+      "bbox": [
+        370,
+        4858,
+        93,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "HP 350 G1",
+      "bbox": [
+        655,
+        4858,
+        83,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Aspire E1-572G",
+      "bbox": [
+        940,
+        4858,
+        122,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Pavilion",
+      "bbox": [
+        370,
+        5168,
+        64,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Acer Aspire A5...",
+      "bbox": [
+        655,
+        5168,
+        133,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Dell Inspiron...",
+      "bbox": [
+        940,
+        5168,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        370,
+        5479,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "ProBook",
+      "bbox": [
+        655,
+        5479,
+        70,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Inspiron 15",
+      "bbox": [
+        940,
+        5479,
+        89,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Asus ROG STRIX...",
+      "bbox": [
+        370,
+        5790,
+        146,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Acer Nitro 5 A...",
+      "bbox": [
+        655,
+        5790,
+        129,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Asus ROG STRIX...",
+      "bbox": [
+        940,
+        5790,
+        146,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Lenovo ThinkPa...",
+      "bbox": [
+        370,
+        6100,
+        142,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "ThinkPad Yoga",
+      "bbox": [
+        655,
+        6100,
+        120,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Lenovo ThinkPa...",
+      "bbox": [
+        940,
+        6100,
+        142,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Dell Inspiron...",
+      "bbox": [
+        370,
+        6411,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "MSI GL72M 7RDX",
+      "bbox": [
+        655,
+        6411,
+        144,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "MSI GL72M 7RDX",
+      "bbox": [
+        940,
+        6411,
+        144,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Asus ROG Strix...",
+      "bbox": [
+        370,
+        6721,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        655,
+        6721,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        6721,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Lenovo Legion...",
+      "bbox": [
+        370,
+        7032,
+        132,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Toshiba Porteg...",
+      "bbox": [
+        655,
+        7032,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Acer Predator...",
+      "bbox": [
+        940,
+        7032,
+        124,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Acer Aspire 7...",
+      "bbox": [
+        370,
+        7343,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        7343,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Lenovo Legion...",
+      "bbox": [
+        370,
+        7653,
+        132,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Asus AsusPro A...",
+      "bbox": [
+        655,
+        7653,
+        139,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Acer Nitro 5 A...",
+      "bbox": [
+        940,
+        7653,
+        129,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        370,
+        7964,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "Dell Inspiron...",
+      "bbox": [
+        655,
+        7964,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        7964,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Lenovo Legion...",
+      "bbox": [
+        370,
+        8274,
+        132,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "MSI GP62M 7RDX...",
+      "bbox": [
+        655,
+        8274,
+        159,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Lenovo Yoga 72...",
+      "bbox": [
+        940,
+        8274,
+        142,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Toshiba Porteg...",
+      "bbox": [
+        370,
+        8585,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Acer TravelMat...",
+      "bbox": [
+        655,
+        8585,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        8585,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "ThinkPad T540p",
+      "bbox": [
+        370,
+        8896,
+        131,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "MSI GS63 7RD S...",
+      "bbox": [
+        655,
+        8896,
+        146,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        8896,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "Acer Predator...",
+      "bbox": [
+        370,
+        9206,
+        124,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "MSI GL62M 7REX",
+      "bbox": [
+        655,
+        9206,
+        141,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "MSI GL62M 7REX...",
+      "bbox": [
+        940,
+        9206,
+        155,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Lenovo Yoga 91...",
+      "bbox": [
+        370,
+        9517,
+        139,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Toshiba Porteg...",
+      "bbox": [
+        655,
+        9517,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Lenovo IdeaPad...",
+      "bbox": [
+        940,
+        9517,
+        143,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "ThinkPad Yoga",
+      "bbox": [
+        655,
+        9827,
+        120,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Asus VivoBook...",
+      "bbox": [
+        940,
+        9827,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        370,
+        10138,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Asus ZenBook U...",
+      "bbox": [
+        655,
+        10138,
+        146,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "ThinkPad X230",
+      "bbox": [
+        940,
+        10138,
+        121,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Asus ROG Strix...",
+      "bbox": [
+        370,
+        10449,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "Apple MacBook...",
+      "bbox": [
+        655,
+        10449,
+        143,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        10449,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "Hewlett Packar...",
+      "bbox": [
+        370,
+        10759,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "Dell XPS 13",
+      "bbox": [
+        655,
+        10759,
+        90,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Toshiba Porteg...",
+      "bbox": [
+        940,
+        10759,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "MSI GL62VR 7RF...",
+      "bbox": [
+        370,
+        11070,
+        147,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        655,
+        11070,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "ThinkPad X240",
+      "bbox": [
+        940,
+        11070,
+        122,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "Hewlett Packar...",
+      "bbox": [
+        370,
+        11380,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "Apple MacBook...",
+      "bbox": [
+        655,
+        11380,
+        143,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        940,
+        11380,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        370,
+        11691,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Dell Latitude...",
+      "bbox": [
+        655,
+        11691,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "Apple MacBook...",
+      "bbox": [
+        940,
+        11691,
+        143,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "Lenovo ThinkPa...",
+      "bbox": [
+        370,
+        12002,
+        142,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "Lenovo ThinkPa...",
+      "bbox": [
+        655,
+        12002,
+        142,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "link",
+      "name": "Toshiba Porteg...",
+      "bbox": [
+        940,
+        12002,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "link",
+      "name": "Asus ASUSPRO B...",
+      "bbox": [
+        370,
+        12312,
+        151,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "Lenovo Legion...",
+      "bbox": [
+        655,
+        12312,
+        132,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "Asus ROG Strix...",
+      "bbox": [
+        940,
+        12312,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "Asus ROG Strix...",
+      "bbox": [
+        370,
+        12623,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "Asus ROG Strix...",
+      "bbox": [
+        655,
+        12623,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "Asus ROG Strix...",
+      "bbox": [
+        940,
+        12623,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        74,
+        514,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "Navigation category",
+      "bbox": [
+        74,
+        555,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "Navigation category",
+      "bbox": [
+        74,
+        676,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "Acer Aspire A3... Write to joseph.fernandes@example.org",
+      "bbox": [
+        940,
+        3305,
+        468,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "Acer Aspire ES... Grievance cell joseph.fernandes@example.org",
+      "bbox": [
+        655,
+        3926,
+        511,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "link",
+      "name": "Dell Inspiron... PAN MNOPQ3344R",
+      "bbox": [
+        655,
+        7343,
+        282,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "link",
+      "name": "Acer Predator... Helpline 8899001122",
+      "bbox": [
+        370,
+        9827,
+        296,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "link",
+      "name": "Web Scraper browser extension",
+      "bbox": [
+        74,
+        12897,
+        185,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "link",
+      "name": "Web Scraper Cloud",
+      "bbox": [
+        74,
+        12922,
+        114,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "link",
+      "name": "About us",
+      "bbox": [
+        358,
+        12897,
+        53,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "Contacts",
+      "bbox": [
+        358,
+        12922,
+        51,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "link",
+      "name": "Website Privacy Policy",
+      "bbox": [
+        358,
+        12947,
+        128,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "link",
+      "name": "Browser Extension Privacy Policy",
+      "bbox": [
+        358,
+        12972,
+        187,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "Media kit",
+      "bbox": [
+        358,
+        12997,
+        53,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "Blog",
+      "bbox": [
+        642,
+        12897,
+        26,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "Documentation",
+      "bbox": [
+        642,
+        12922,
+        91,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "Video Tutorials",
+      "bbox": [
+        642,
+        12947,
+        85,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "link",
+      "name": "Test Sites",
+      "bbox": [
+        642,
+        12972,
+        52,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "Forum",
+      "bbox": [
+        642,
+        12997,
+        38,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "Status",
+      "bbox": [
+        642,
+        13022,
+        35,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "link",
+      "name": "info@webscraper.io",
+      "bbox": [
+        926,
+        12897,
+        114,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "link",
+      "name": "Web Scraper Cloud",
+      "bbox": [
+        298,
+        56,
+        130,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "link",
+      "name": "Extension",
+      "bbox": [
+        446,
+        56,
+        71,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "link",
+      "name": "Pricing",
+      "bbox": [
+        535,
+        56,
+        56,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "link",
+      "name": "Marketplace",
+      "bbox": [
+        608,
+        56,
+        88,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_153",
+      "role": "button",
+      "name": "Solutions",
+      "bbox": [
+        714,
+        56,
+        88,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_154",
+      "role": "button",
+      "name": "Learn",
+      "bbox": [
+        820,
+        56,
+        67,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_155",
+      "role": "link",
+      "name": "Navigation subcategory",
+      "bbox": [
+        74,
+        595,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_156",
+      "role": "link",
+      "name": "Navigation subcategory",
+      "bbox": [
+        74,
+        635,
+        261,
+        40
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "8899001122",
+      "text": "Helpline 8899001122",
+      "bbox": [
+        370,
+        9827,
+        296,
+        24
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 88990 01122",
+      "text": "Alternate contact +91 88990 01122",
+      "bbox": [
+        62,
+        314,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "joseph.fernandes@example.org",
+      "text": "Write to joseph.fernandes@example.org",
+      "bbox": [
+        940,
+        3305,
+        468,
+        24
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "6655 4433 2211",
+      "text": "Aadhaar 6655 4433 2211 linked to this account",
+      "bbox": [
+        0,
+        152,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "MNOPQ3344R",
+      "text": "PAN MNOPQ3344R",
+      "bbox": [
+        655,
+        7343,
+        282,
+        24
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "6011 1111 1111 1117",
+      "text": "Card on file 6011 1111 1111 1117",
+      "bbox": [
+        0,
+        113,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 909090",
+      "text": "OTP 909090 sent to your phone",
+      "bbox": [
+        12,
+        269,
+        1241,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Joseph Fernandes",
+      "text": "Signed in as Joseph Fernandes",
+      "bbox": [
+        0,
+        191,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "3 Church Street, Panaji 403001",
+      "text": "Registered address 3 Church Street, Panaji 403001",
+      "bbox": [
+        12,
+        230,
+        1241,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "joseph.fernandes@example.org",
+      "text": "Grievance cell joseph.fernandes@example.org",
+      "bbox": [
+        655,
+        3926,
+        511,
+        24
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Web Scraper Cloud replaces your complex scraping stack. Try it free for 7 days",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper Cloud replaces your complex scraping stack. Try it free for 7 days",
+      "truthId": null
+    },
+    {
+      "text": "Close",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper Cloud",
+      "truthId": null
+    },
+    {
+      "text": "Extension",
+      "truthId": null
+    },
+    {
+      "text": "Pricing",
+      "truthId": null
+    },
+    {
+      "text": "Marketplace",
+      "truthId": null
+    },
+    {
+      "text": "Solutions",
+      "truthId": null
+    },
+    {
+      "text": "Learn",
+      "truthId": null
+    },
+    {
+      "text": "Install extension",
+      "truthId": null
+    },
+    {
+      "text": "Cloud login",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 6011 1111 1111 1117",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 6655 4433 2211 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Signed in as Joseph Fernandes",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Registered address 3 Church Street, Panaji 403001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "OTP 909090 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Alternate contact +91 88990 01122",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Home Computers Laptops Tablets Phones",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Navigation category",
+      "truthId": null
+    },
+    {
+      "text": "Navigation subcategory",
+      "truthId": null
+    },
+    {
+      "text": "Navigation subcategory",
+      "truthId": null
+    },
+    {
+      "text": "Navigation category",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "Prestigio Smar...",
+      "truthId": null
+    },
+    {
+      "text": "Prestigio Smar...",
+      "truthId": null
+    },
+    {
+      "text": "Aspire E1-510",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo V110-15...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo V110-15...",
+      "truthId": null
+    },
+    {
+      "text": "Hewlett Packar...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 3...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire A3...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire ES...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 3...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 3...",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo ThinkPa...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 3...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo V110-15...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire ES...",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "Packard 255 G2",
+      "truthId": null
+    },
+    {
+      "text": "Asus EeeBook R...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 3...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire ES...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Extensa 1...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire ES...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo V110-15...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire A3... Write to joseph.fernandes@example.org",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Lenovo V110-15...",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire ES...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo V510 Bl...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire ES... Grievance cell joseph.fernandes@example.org",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Lenovo V510 Bl...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Swift 1 S...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Vostro 15",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 3...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Vostro 15...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo V510 Bl...",
+      "truthId": null
+    },
+    {
+      "text": "HP 250 G3",
+      "truthId": null
+    },
+    {
+      "text": "Acer Spin 5",
+      "truthId": null
+    },
+    {
+      "text": "HP 350 G1",
+      "truthId": null
+    },
+    {
+      "text": "Aspire E1-572G",
+      "truthId": null
+    },
+    {
+      "text": "Pavilion",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire A5...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Inspiron...",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "ProBook",
+      "truthId": null
+    },
+    {
+      "text": "Inspiron 15",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG STRIX...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Nitro 5 A...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG STRIX...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo ThinkPa...",
+      "truthId": null
+    },
+    {
+      "text": "ThinkPad Yoga",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo ThinkPa...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Inspiron...",
+      "truthId": null
+    },
+    {
+      "text": "MSI GL72M 7RDX",
+      "truthId": null
+    },
+    {
+      "text": "MSI GL72M 7RDX",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG Strix...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo Legion...",
+      "truthId": null
+    },
+    {
+      "text": "Toshiba Porteg...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Predator...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Aspire 7...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Inspiron... PAN MNOPQ3344R",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo Legion...",
+      "truthId": null
+    },
+    {
+      "text": "Asus AsusPro A...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Nitro 5 A...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Inspiron...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo Legion...",
+      "truthId": null
+    },
+    {
+      "text": "MSI GP62M 7RDX...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo Yoga 72...",
+      "truthId": null
+    },
+    {
+      "text": "Toshiba Porteg...",
+      "truthId": null
+    },
+    {
+      "text": "Acer TravelMat...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "ThinkPad T540p",
+      "truthId": null
+    },
+    {
+      "text": "MSI GS63 7RD S...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Predator...",
+      "truthId": null
+    },
+    {
+      "text": "MSI GL62M 7REX",
+      "truthId": null
+    },
+    {
+      "text": "MSI GL62M 7REX...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo Yoga 91...",
+      "truthId": null
+    },
+    {
+      "text": "Toshiba Porteg...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo IdeaPad...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Predator... Helpline 8899001122",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "ThinkPad Yoga",
+      "truthId": null
+    },
+    {
+      "text": "Asus VivoBook...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ZenBook U...",
+      "truthId": null
+    },
+    {
+      "text": "ThinkPad X230",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG Strix...",
+      "truthId": null
+    },
+    {
+      "text": "Apple MacBook...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Hewlett Packar...",
+      "truthId": null
+    },
+    {
+      "text": "Dell XPS 13",
+      "truthId": null
+    },
+    {
+      "text": "Toshiba Porteg...",
+      "truthId": null
+    },
+    {
+      "text": "MSI GL62VR 7RF...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "ThinkPad X240",
+      "truthId": null
+    },
+    {
+      "text": "Hewlett Packar...",
+      "truthId": null
+    },
+    {
+      "text": "Apple MacBook...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Dell Latitude...",
+      "truthId": null
+    },
+    {
+      "text": "Apple MacBook...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo ThinkPa...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo ThinkPa...",
+      "truthId": null
+    },
+    {
+      "text": "Toshiba Porteg...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ASUSPRO B...",
+      "truthId": null
+    },
+    {
+      "text": "Lenovo Legion...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG Strix...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG Strix...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG Strix...",
+      "truthId": null
+    },
+    {
+      "text": "Asus ROG Strix...",
+      "truthId": null
+    },
+    {
+      "text": "PRODUCTS",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper browser extension",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper Cloud",
+      "truthId": null
+    },
+    {
+      "text": "COMPANY",
+      "truthId": null
+    },
+    {
+      "text": "About us",
+      "truthId": null
+    },
+    {
+      "text": "Contacts",
+      "truthId": null
+    },
+    {
+      "text": "Website Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Browser Extension Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Media kit",
+      "truthId": null
+    },
+    {
+      "text": "RESOURCES",
+      "truthId": null
+    },
+    {
+      "text": "Blog",
+      "truthId": null
+    },
+    {
+      "text": "Documentation",
+      "truthId": null
+    },
+    {
+      "text": "Video Tutorials",
+      "truthId": null
+    },
+    {
+      "text": "Test Sites",
+      "truthId": null
+    },
+    {
+      "text": "Forum",
+      "truthId": null
+    },
+    {
+      "text": "Status",
+      "truthId": null
+    },
+    {
+      "text": "CONTACT US",
+      "truthId": null
+    },
+    {
+      "text": "info@webscraper.io",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper on Facebook",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper on LinkedIn",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper on Youtube",
+      "truthId": null
+    },
+    {
+      "text": "Download the Web Scraper extension",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 8899001122",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "8899001122"
+        }
+      }
+    ]
+  }
+}

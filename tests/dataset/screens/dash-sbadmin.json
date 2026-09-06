@@ -1,0 +1,433 @@
+{
+  "id": "dash-sbadmin",
+  "type": "dashboard",
+  "sourceUrl": "https://startbootstrap.github.io/startbootstrap-sb-admin-2/",
+  "capturedAt": "2026-09-06T06:05:57.050Z",
+  "annotatedAt": "2026-09-06T06:57:04.461Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1842,
+  "persona": "Anand Krishnamurthy",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": " SB ADMIN 2",
+      "bbox": [
+        0,
+        0,
+        224,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Upgrade to Pro!",
+      "bbox": [
+        54,
+        678,
+        117,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": " Dashboard",
+      "bbox": [
+        0,
+        71,
+        224,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": " Components ",
+      "bbox": [
+        0,
+        159,
+        224,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": " Utilities ",
+      "bbox": [
+        0,
+        215,
+        224,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": " Pages ",
+      "bbox": [
+        0,
+        304,
+        224,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": " Charts",
+      "bbox": [
+        0,
+        360,
+        224,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": " Tables",
+      "bbox": [
+        0,
+        416,
+        224,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        92,
+        488,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": " Generate Report",
+      "bbox": [
+        1108,
+        141,
+        132,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Browse Illustrations on unDraw →",
+      "bbox": [
+        777,
+        1276,
+        237,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "textbox",
+      "name": "Search",
+      "bbox": [
+        256,
+        61,
+        365,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        620,
+        61,
+        37,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": " 3+",
+      "bbox": [
+        963,
+        45,
+        44,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": " 7",
+      "bbox": [
+        1015,
+        45,
+        44,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "Douglas McGee",
+      "bbox": [
+        1095,
+        45,
+        153,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        864,
+        428,
+        18,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1202,
+        338,
+        18,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "unDraw Helpline 7654321098",
+      "bbox": [
+        777,
+        1188,
+        208,
+        22
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7654321098",
+      "text": "Helpline 7654321098",
+      "bbox": [
+        777,
+        1188,
+        208,
+        22
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "080 2345 6789",
+      "text": "Alternate contact 080 2345 6789",
+      "bbox": [
+        269,
+        492,
+        1225,
+        33
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "9876-5432-1098",
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "bbox": [
+        236,
+        1267,
+        294,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3400 0000 0000 009",
+      "text": "Card on file 3400 0000 0000 009",
+      "bbox": [
+        249,
+        375,
+        652,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 5678",
+      "text": "OTP: 5678 sent to your phone",
+      "bbox": [
+        224,
+        6,
+        1041,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Anand Krishnamurthy",
+      "text": "Signed in as Anand Krishnamurthy",
+      "bbox": [
+        757,
+        1350,
+        483,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Plot 9, Sector 21, Gurugram 122016",
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "bbox": [
+        249,
+        330,
+        652,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "SB ADMIN 2",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard",
+      "truthId": null
+    },
+    {
+      "text": "Components",
+      "truthId": null
+    },
+    {
+      "text": "Utilities",
+      "truthId": null
+    },
+    {
+      "text": "Pages",
+      "truthId": null
+    },
+    {
+      "text": "Charts",
+      "truthId": null
+    },
+    {
+      "text": "Tables",
+      "truthId": null
+    },
+    {
+      "text": "Upgrade to Pro!",
+      "truthId": null
+    },
+    {
+      "text": "OTP: 5678 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "3+",
+      "truthId": null
+    },
+    {
+      "text": "7",
+      "truthId": null
+    },
+    {
+      "text": "Douglas McGee",
+      "truthId": null
+    },
+    {
+      "text": "Generate Report",
+      "truthId": null
+    },
+    {
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Card on file 3400 0000 0000 009",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "unDraw Helpline 7654321098",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Browse Illustrations on unDraw →",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Anand Krishnamurthy",
+      "truthId": "pii_8"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7654321098",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7654321098"
+        }
+      }
+    ]
+  }
+}

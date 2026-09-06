@@ -1,0 +1,2696 @@
+{
+  "id": "fin-hdfc",
+  "type": "finance",
+  "sourceUrl": "https://www.hdfc.bank.in/",
+  "capturedAt": "2026-09-06T06:00:54.346Z",
+  "annotatedAt": "2026-09-06T06:56:47.059Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2857,
+  "persona": "Priya Nair",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Skip To Main Content",
+      "bbox": [
+        250,
+        -55,
+        160,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        358,
+        1469,
+        72,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "https://www.dicgc.org.in",
+      "bbox": [
+        812,
+        2683,
+        111,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Facebook",
+      "bbox": [
+        977,
+        2811,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Instagram",
+      "bbox": [
+        1004,
+        2811,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "You Tube",
+      "bbox": [
+        1031,
+        2811,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Twitter",
+      "bbox": [
+        1058,
+        2811,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Linkdin",
+      "bbox": [
+        1086,
+        2811,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": " View More",
+      "bbox": [
+        610,
+        2462,
+        51,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "HDFC Bank - Personal Banking & Netbanking Services",
+      "bbox": [
+        167,
+        2613,
+        142,
+        142
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "HDFC Bank Logo",
+      "bbox": [
+        167,
+        57,
+        90,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Toggle Accessiblity",
+      "bbox": [
+        1059,
+        54,
+        26,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "Apply Now Vigil Aunty Says… Laziness Saves",
+      "bbox": [
+        830,
+        398,
+        69,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "Know More Vigil Aunty Says… Laziness Saves",
+      "bbox": [
+        912,
+        398,
+        58,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "tab",
+      "name": "Trending",
+      "bbox": [
+        362,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "tab",
+      "name": "Accounts",
+      "bbox": [
+        440,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "tab",
+      "name": "Deposits",
+      "bbox": [
+        518,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "tab",
+      "name": "Cards",
+      "bbox": [
+        596,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "tab",
+      "name": "Loans",
+      "bbox": [
+        674,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "tab",
+      "name": "Insurance",
+      "bbox": [
+        752,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "tab",
+      "name": "Investments",
+      "bbox": [
+        830,
+        710,
+        78,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "Previous Slide in Official Government Announcements",
+      "bbox": [
+        591,
+        1677,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "Next Slide in Official Government Announcements",
+      "bbox": [
+        647,
+        1677,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Call",
+      "bbox": [
+        491,
+        1857,
+        90,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Chat",
+      "bbox": [
+        590,
+        1857,
+        90,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Locate",
+      "bbox": [
+        690,
+        1857,
+        90,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Overview",
+      "bbox": [
+        167,
+        1958,
+        44,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Investor Relations",
+      "bbox": [
+        167,
+        1987,
+        82,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Careers",
+      "bbox": [
+        167,
+        2017,
+        34,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Other Stakeholders' Information",
+      "bbox": [
+        167,
+        2047,
+        144,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "News Room",
+      "bbox": [
+        167,
+        2076,
+        56,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Corporate Governance",
+      "bbox": [
+        167,
+        2106,
+        102,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "ESG",
+      "bbox": [
+        167,
+        2135,
+        21,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "CSR",
+      "bbox": [
+        167,
+        2165,
+        21,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Online Dispute Resolution Portal",
+      "bbox": [
+        167,
+        2195,
+        149,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Regulatory Disclosures",
+      "bbox": [
+        167,
+        2224,
+        105,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Our Corporate commitment",
+      "bbox": [
+        167,
+        2254,
+        124,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Erstwhile HDFC Limited T&C",
+      "bbox": [
+        167,
+        2283,
+        139,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Quick Links",
+      "bbox": [
+        358,
+        1958,
+        56,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "New Issuance",
+      "bbox": [
+        358,
+        1987,
+        63,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "List of third parties engaged by Bank",
+      "bbox": [
+        358,
+        2017,
+        167,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Security",
+      "bbox": [
+        358,
+        2047,
+        37,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "US Patriot Act Certificate",
+      "bbox": [
+        358,
+        2076,
+        115,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Important Messages",
+      "bbox": [
+        358,
+        2106,
+        91,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "RBI Kehta Hai",
+      "bbox": [
+        358,
+        2135,
+        67,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "RBI UDGAM-Unclaimed Deposit",
+      "bbox": [
+        358,
+        2165,
+        154,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "RBI Complaint Management System",
+      "bbox": [
+        358,
+        2195,
+        166,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "RBI Sachet Portal",
+      "bbox": [
+        358,
+        2224,
+        81,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "1+1 Credit Card Application",
+      "bbox": [
+        358,
+        2254,
+        128,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Credit Card Referral Program",
+      "bbox": [
+        358,
+        2283,
+        133,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Fees & Charges",
+      "bbox": [
+        548,
+        1958,
+        71,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Customer Services Write to priya_nair@example.gov.in",
+      "bbox": [
+        548,
+        1987,
+        125,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Bank Holiday List",
+      "bbox": [
+        548,
+        2034,
+        83,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Online Services",
+      "bbox": [
+        548,
+        2063,
+        71,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Notice Board",
+      "bbox": [
+        548,
+        2093,
+        60,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Interest Rates",
+      "bbox": [
+        548,
+        2123,
+        61,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Forex Rates",
+      "bbox": [
+        548,
+        2152,
+        54,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Ways To Bank",
+      "bbox": [
+        548,
+        2182,
+        65,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Better Money Choices",
+      "bbox": [
+        548,
+        2211,
+        101,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Auction Notices",
+      "bbox": [
+        548,
+        2241,
+        73,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Forms Centre",
+      "bbox": [
+        548,
+        2271,
+        61,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Lodge a Complaint/Query/Request",
+      "bbox": [
+        738,
+        1958,
+        157,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "FAQs",
+      "bbox": [
+        738,
+        1987,
+        26,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Customer Care",
+      "bbox": [
+        738,
+        2017,
+        68,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Active Channel Partners",
+      "bbox": [
+        738,
+        2047,
+        109,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Consent to Call Registration",
+      "bbox": [
+        738,
+        2076,
+        127,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Do-Not-Call-Registration",
+      "bbox": [
+        738,
+        2106,
+        115,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Branch Locator",
+      "bbox": [
+        738,
+        2135,
+        70,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "WhatsApp Banking",
+      "bbox": [
+        738,
+        2165,
+        89,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Citizen's Charter",
+      "bbox": [
+        929,
+        1958,
+        75,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "Wolfsberg AML Questionnaire",
+      "bbox": [
+        929,
+        1987,
+        138,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Grievance Redressal Digital",
+      "bbox": [
+        929,
+        2017,
+        126,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Grievance Redressal Officer",
+      "bbox": [
+        929,
+        2047,
+        127,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Use Of Unparliamentary Language By Customers",
+      "bbox": [
+        929,
+        2076,
+        174,
+        29
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Digital Lending-Important Links",
+      "bbox": [
+        929,
+        2123,
+        147,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Equal Opportunity Policy",
+      "bbox": [
+        929,
+        2152,
+        115,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Personal Loan",
+      "bbox": [
+        308,
+        2339,
+        76,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Car Loan",
+      "bbox": [
+        384,
+        2339,
+        54,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Business Loan",
+      "bbox": [
+        438,
+        2339,
+        77,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Two Wheeler Loan",
+      "bbox": [
+        515,
+        2339,
+        98,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Gold Loan",
+      "bbox": [
+        613,
+        2339,
+        60,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "Home Loan",
+      "bbox": [
+        673,
+        2339,
+        65,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Pre-Verified Properties",
+      "bbox": [
+        738,
+        2339,
+        115,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Savings Account",
+      "bbox": [
+        853,
+        2339,
+        87,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Salary Account",
+      "bbox": [
+        940,
+        2339,
+        81,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Current Account",
+      "bbox": [
+        308,
+        2361,
+        86,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Demat Account",
+      "bbox": [
+        394,
+        2361,
+        82,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Credit Card",
+      "bbox": [
+        476,
+        2361,
+        64,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Debit Card",
+      "bbox": [
+        540,
+        2361,
+        61,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "Forex Card",
+      "bbox": [
+        601,
+        2361,
+        63,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "PayZapp",
+      "bbox": [
+        664,
+        2361,
+        52,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "FASTag",
+      "bbox": [
+        716,
+        2361,
+        48,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "Fixed Deposit",
+      "bbox": [
+        764,
+        2361,
+        75,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "MSME Loan",
+      "bbox": [
+        839,
+        2361,
+        71,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "EMI Calculator",
+      "bbox": [
+        308,
+        2389,
+        82,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Personal Loan EMI Calculator",
+      "bbox": [
+        389,
+        2389,
+        149,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Car Loan EMI Calculator",
+      "bbox": [
+        538,
+        2389,
+        127,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Two Wheeler EMI Calculator",
+      "bbox": [
+        665,
+        2389,
+        145,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Business Loan Calculator",
+      "bbox": [
+        810,
+        2389,
+        127,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Gold Loan EMI Calculator",
+      "bbox": [
+        937,
+        2389,
+        133,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Home Loan Calculator",
+      "bbox": [
+        308,
+        2411,
+        114,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Loan Against Property Calculator",
+      "bbox": [
+        422,
+        2411,
+        163,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "AMB Calculator",
+      "bbox": [
+        585,
+        2411,
+        87,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Credit Card EMI Calculator",
+      "bbox": [
+        672,
+        2411,
+        137,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "SSY Calculator",
+      "bbox": [
+        809,
+        2411,
+        81,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "PPF Calculator",
+      "bbox": [
+        890,
+        2411,
+        80,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "SIP Calculator",
+      "bbox": [
+        970,
+        2411,
+        77,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "Fixed Deposit Calculator",
+      "bbox": [
+        308,
+        2432,
+        124,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Recurring Deposit Calculator",
+      "bbox": [
+        432,
+        2432,
+        144,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "Car Loan BT-Top-Up Calculator",
+      "bbox": [
+        576,
+        2432,
+        158,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "NPS Calculator",
+      "bbox": [
+        734,
+        2432,
+        82,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "NPS Vatsalya Calculator",
+      "bbox": [
+        815,
+        2432,
+        122,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "combobox",
+      "name": "select hdfc websites",
+      "bbox": [
+        167,
+        2521,
+        155,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "combobox",
+      "name": "select hdfc groups",
+      "bbox": [
+        337,
+        2521,
+        263,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Cookie Policy PAN CDEFG1234H",
+      "bbox": [
+        342,
+        2807,
+        158,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Terms & Conditions Grievance cell priya_nair@example.gov.in",
+      "bbox": [
+        513,
+        2807,
+        287,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Privacy",
+      "bbox": [
+        812,
+        2807,
+        34,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "Consent Connect Portal",
+      "bbox": [
+        167,
+        2820,
+        106,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "Website Usage Terms",
+      "bbox": [
+        286,
+        2820,
+        97,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "Glossary",
+      "bbox": [
+        396,
+        2820,
+        40,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "button",
+      "name": "About Us",
+      "bbox": [
+        942,
+        60,
+        53,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "button",
+      "name": "English",
+      "bbox": [
+        1002,
+        60,
+        44,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "button",
+      "name": "notification",
+      "bbox": [
+        1091,
+        58,
+        12,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "button",
+      "name": "Watch Now Vigil Aunty Says… Laziness Saves",
+      "bbox": [
+        167,
+        467,
+        108,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "combobox",
+      "name": "Select Product Type",
+      "bbox": [
+        830,
+        315,
+        253,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "combobox",
+      "name": "Select Product",
+      "bbox": [
+        830,
+        353,
+        253,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "textbox",
+      "name": "What are you looking for today?",
+      "bbox": [
+        264,
+        590,
+        795,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "button",
+      "name": "Previous slide in Banking Solutions tailor-made for you",
+      "bbox": [
+        600,
+        1134,
+        26,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "button",
+      "name": "Next slide in Banking Solutions tailor-made for you",
+      "bbox": [
+        645,
+        1134,
+        26,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "Personal",
+      "bbox": [
+        392,
+        58,
+        42,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "NRI",
+      "bbox": [
+        434,
+        58,
+        26,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "HNI",
+      "bbox": [
+        459,
+        58,
+        26,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "link",
+      "name": "Wholesale Helpline 8765432109",
+      "bbox": [
+        486,
+        58,
+        154,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "link",
+      "name": "Agri",
+      "bbox": [
+        639,
+        58,
+        27,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "link",
+      "name": "MSME",
+      "bbox": [
+        666,
+        58,
+        39,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "link",
+      "name": "Government Schemes",
+      "bbox": [
+        706,
+        58,
+        102,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "button",
+      "name": "Login",
+      "bbox": [
+        1035,
+        98,
+        69,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "Discover Products",
+      "bbox": [
+        410,
+        90,
+        125,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "link",
+      "name": "Need Help",
+      "bbox": [
+        535,
+        90,
+        87,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "link",
+      "name": "Better Money Choices",
+      "bbox": [
+        623,
+        90,
+        134,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "Offers",
+      "bbox": [
+        756,
+        90,
+        66,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "Invest in Government Securities with RBI Retail Direct",
+      "bbox": [
+        50,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "Unbelievable offer Thoda Dhyan se. If an offer looks unbelievably good, pause and think. Fraudsters often lure people with \"to good to be true\" deals to trick them into sharing money and personal details. Stay alert to keep your money safe.",
+      "bbox": [
+        447,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "Reserve bank - Integrated ombudsman scheme. Single window for resolutions of complaints against RBI regulated entities.",
+      "bbox": [
+        844,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "link",
+      "name": "Unlock the wealth of knowledge with saarthi app",
+      "bbox": [
+        1240,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "Secure yourself from unauthorized foreign exchange transactions. RBI issues 'Alert List' of entities and electronic trading platforms (ETPs) unauthorised to deal in foreign exchange transactions.",
+      "bbox": [
+        1637,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "A whatsapp from you boss may not be from your boss. Fraudsters are taking control of boss's account to send fake payment instructions and malware to their teams",
+      "bbox": [
+        2034,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "link",
+      "name": "Tired of submitting your KYC again and again use your ckyc card steps to check and download and CKYC Card. Steps to check and download your CKYC Card.",
+      "bbox": [
+        2430,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "link",
+      "name": "Ghar ki EMI samay par chukani, hai adhuri zimmedari nibhana. Apne retirement ka bhi plan banao. NPS lekar puri zimedari nibhao.",
+      "bbox": [
+        2827,
+        1611,
+        1,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "button",
+      "name": "Open Search",
+      "bbox": [
+        836,
+        97,
+        180,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "link",
+      "name": "Apply Now Credit Card",
+      "bbox": [
+        437,
+        891,
+        70,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "link",
+      "name": "Know more Credit Card",
+      "bbox": [
+        519,
+        892,
+        84,
+        29
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "8765432109",
+      "text": "Helpline 8765432109",
+      "bbox": [
+        486,
+        54,
+        154,
+        19
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 87654 32109",
+      "text": "Alternate contact +91 87654 32109",
+      "bbox": [
+        0,
+        1354,
+        1270,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "priya_nair@example.gov.in",
+      "text": "Write to priya_nair@example.gov.in",
+      "bbox": [
+        548,
+        1987,
+        125,
+        29
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "2109 8765 4321",
+      "text": "Aadhaar 2109 8765 4321 linked to this account",
+      "bbox": [
+        0,
+        6,
+        1270,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "CDEFG1234H",
+      "text": "PAN CDEFG1234H",
+      "bbox": [
+        342,
+        2807,
+        158,
+        13
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "6011 0000 0000 0004",
+      "text": "Card on file 6011 0000 0000 0004",
+      "bbox": [
+        0,
+        747,
+        1270,
+        27
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one time password is 998877",
+      "text": "one time password is 998877 sent to your phone",
+      "bbox": [
+        0,
+        138,
+        1270,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Priya Nair",
+      "text": "Signed in as Priya Nair",
+      "bbox": [
+        167,
+        279,
+        328,
+        27
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "27 MG Road, Kochi 682016",
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "bbox": [
+        1389,
+        840,
+        397,
+        25
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "priya_nair@example.gov.in",
+      "text": "Grievance cell priya_nair@example.gov.in",
+      "bbox": [
+        513,
+        2807,
+        287,
+        13
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Aadhaar 2109 8765 4321 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "HDFC Bank Logo",
+      "truthId": null
+    },
+    {
+      "text": "Personal",
+      "truthId": null
+    },
+    {
+      "text": "NRI",
+      "truthId": null
+    },
+    {
+      "text": "HNI",
+      "truthId": null
+    },
+    {
+      "text": "Wholesale Helpline 8765432109",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Agri",
+      "truthId": null
+    },
+    {
+      "text": "MSME",
+      "truthId": null
+    },
+    {
+      "text": "Government Schemes",
+      "truthId": null
+    },
+    {
+      "text": "Discover Products",
+      "truthId": null
+    },
+    {
+      "text": "Need Help",
+      "truthId": null
+    },
+    {
+      "text": "Better Money Choices",
+      "truthId": null
+    },
+    {
+      "text": "Offers",
+      "truthId": null
+    },
+    {
+      "text": "ASK EVA Search...",
+      "truthId": null
+    },
+    {
+      "text": "Open Search",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "About Us",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "Toggle Accessiblity",
+      "truthId": null
+    },
+    {
+      "text": "notification",
+      "truthId": null
+    },
+    {
+      "text": "one time password is 998877 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Signed in as Priya Nair",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Watch Now Vigil Aunty Says… Laziness Saves",
+      "truthId": null
+    },
+    {
+      "text": "Select Product Type",
+      "truthId": null
+    },
+    {
+      "text": "Select Product",
+      "truthId": null
+    },
+    {
+      "text": "Apply Now Vigil Aunty Says… Laziness Saves",
+      "truthId": null
+    },
+    {
+      "text": "Know More Vigil Aunty Says… Laziness Saves",
+      "truthId": null
+    },
+    {
+      "text": "What are you looking for today?",
+      "truthId": null
+    },
+    {
+      "text": "Trending Accounts Deposits Cards Loans Insurance Investments",
+      "truthId": null
+    },
+    {
+      "text": "Trending",
+      "truthId": null
+    },
+    {
+      "text": "Accounts",
+      "truthId": null
+    },
+    {
+      "text": "Deposits",
+      "truthId": null
+    },
+    {
+      "text": "Cards",
+      "truthId": null
+    },
+    {
+      "text": "Loans",
+      "truthId": null
+    },
+    {
+      "text": "Insurance",
+      "truthId": null
+    },
+    {
+      "text": "Investments",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 6011 0000 0000 0004 Loan On Credit Card Get instant cash at a low interest rate, anytime Check Eligibility Know More Fixed Deposit A growth plan with peace of mind Quick apply Learn more Vigil Aunty Says… Laziness Saves India’s top comedians bring you a hilarious fraud-awareness stand-up series. Now streaming on JioHotstar Watch Now My Money Get one view for all your Bank Accounts & Equities. Register Now Know More Senior Citizen Fixed Deposit Here’s the number worth noticing: 7.10% p.a.* Book FD View Rates Home Loan Let your dreams find their address Quick Apply Explore Rajiv Makhni Just Experienced Banking Differently Know More Credit Card Explore a range of Credit Cards for every lifestyle Apply Now Know more Forex Card Easy-to-use forex cards Explore cards Know more Registered address 27 MG Road, Kochi 682016 Personal Loan A loan for everything from dreams to emergencies Apply online Learn more Digital Arrest is 100% Fake! Police or CBI will never arrest you over video call Know More RemitNow Enjoy fast and secure overseas transfers 24x7 via NetBanking & HDFC Bank App Know More Cardless EASYEMI A little magic for your summer upgrades! Check Offer MyEMIShop Via SmartBuy Shop top brands with EASYEMI & get up to ₹10,000 instant CashBack Explore Now Previous slide button is enabled. Next slide button is enabled.",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 6011 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Loan On Credit Card Get instant cash at a low interest rate, anytime Check Eligibility Know More Fixed Deposit A growth plan with peace of mind Quick apply Learn more Vigil Aunty Says… Laziness Saves India’s top comedians bring you a hilarious fraud-awareness stand-up series. Now streaming on JioHotstar Watch Now My Money Get one view for all your Bank Accounts & Equities. Register Now Know More Senior Citizen Fixed Deposit Here’s the number worth noticing: 7.10% p.a.* Book FD View Rates Home Loan Let your dreams find their address Quick Apply Explore Rajiv Makhni Just Experienced Banking Differently Know More Credit Card Explore a range of Credit Cards for every lifestyle Apply Now Know more Forex Card Easy-to-use forex cards Explore cards Know more Registered address 27 MG Road, Kochi 682016 Personal Loan A loan for everything from dreams to emergencies Apply online Learn more Digital Arrest is 100% Fake! Police or CBI will never arrest you over video call Know More RemitNow Enjoy fast and secure overseas transfers 24x7 via NetBanking & HDFC Bank App Know More Cardless EASYEMI A little magic for your summer upgrades! Check Offer MyEMIShop Via SmartBuy Shop top brands with EASYEMI & get up to ₹10,000 instant CashBack Explore Now Previous slide button is enabled. Next slide button is enabled.",
+      "truthId": null
+    },
+    {
+      "text": "Loan On Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Check Eligibility Know More",
+      "truthId": null
+    },
+    {
+      "text": "Check Eligibility Loan On Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Know More Loan On Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "Quick apply Learn more",
+      "truthId": null
+    },
+    {
+      "text": "Quick apply Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "Learn more Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "Vigil Aunty Says… Laziness Saves",
+      "truthId": null
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Watch Now Vigil Aunty Says… Laziness Saves",
+      "truthId": null
+    },
+    {
+      "text": "My Money",
+      "truthId": null
+    },
+    {
+      "text": "Register Now Know More",
+      "truthId": null
+    },
+    {
+      "text": "Register Now My Money",
+      "truthId": null
+    },
+    {
+      "text": "Know More My Money",
+      "truthId": null
+    },
+    {
+      "text": "Senior Citizen Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "Book FD View Rates",
+      "truthId": null
+    },
+    {
+      "text": "Book FD Senior Citizen Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "View Rates Senior Citizen Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "Home Loan",
+      "truthId": null
+    },
+    {
+      "text": "Quick Apply Explore",
+      "truthId": null
+    },
+    {
+      "text": "Quick Apply Home Loan",
+      "truthId": null
+    },
+    {
+      "text": "Explore Home Loan",
+      "truthId": null
+    },
+    {
+      "text": "Rajiv Makhni Just Experienced Banking Differently",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More Rajiv Makhni Just Experienced Banking Differently",
+      "truthId": null
+    },
+    {
+      "text": "Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Apply Now Know more",
+      "truthId": null
+    },
+    {
+      "text": "Apply Now Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Know more Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Forex Card",
+      "truthId": null
+    },
+    {
+      "text": "Explore cards Know more",
+      "truthId": null
+    },
+    {
+      "text": "Explore cards Forex Card",
+      "truthId": null
+    },
+    {
+      "text": "Know more Forex Card",
+      "truthId": null
+    },
+    {
+      "text": "Personal Loan",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Apply online Learn more",
+      "truthId": null
+    },
+    {
+      "text": "Apply online Personal Loan",
+      "truthId": null
+    },
+    {
+      "text": "Learn more Personal Loan",
+      "truthId": null
+    },
+    {
+      "text": "Digital Arrest is 100% Fake!",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More Digital Arrest is 100% Fake!",
+      "truthId": null
+    },
+    {
+      "text": "10 / 14",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More RemitNow",
+      "truthId": null
+    },
+    {
+      "text": "Cardless EASYEMI",
+      "truthId": null
+    },
+    {
+      "text": "Check Offer",
+      "truthId": null
+    },
+    {
+      "text": "Check Offer Cardless EASYEMI",
+      "truthId": null
+    },
+    {
+      "text": "MyEMIShop Via SmartBuy",
+      "truthId": null
+    },
+    {
+      "text": "Explore Now",
+      "truthId": null
+    },
+    {
+      "text": "Explore Now MyEMIShop Via SmartBuy",
+      "truthId": null
+    },
+    {
+      "text": "Previous slide in Banking Solutions tailor-made for you",
+      "truthId": null
+    },
+    {
+      "text": "Next slide in Banking Solutions tailor-made for you",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 87654 32109",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "Previous slide button is disabled. Next slide button is enabled.",
+      "truthId": null
+    },
+    {
+      "text": "1 / 8",
+      "truthId": null
+    },
+    {
+      "text": "2 / 8",
+      "truthId": null
+    },
+    {
+      "text": "3 / 8",
+      "truthId": null
+    },
+    {
+      "text": "4 / 8",
+      "truthId": null
+    },
+    {
+      "text": "5 / 8",
+      "truthId": null
+    },
+    {
+      "text": "6 / 8",
+      "truthId": null
+    },
+    {
+      "text": "7 / 8",
+      "truthId": null
+    },
+    {
+      "text": "8 / 8",
+      "truthId": null
+    },
+    {
+      "text": "Previous Slide in Official Government Announcements",
+      "truthId": null
+    },
+    {
+      "text": "Next Slide in Official Government Announcements",
+      "truthId": null
+    },
+    {
+      "text": "Call",
+      "truthId": null
+    },
+    {
+      "text": "Chat",
+      "truthId": null
+    },
+    {
+      "text": "Locate",
+      "truthId": null
+    },
+    {
+      "text": "Overview",
+      "truthId": null
+    },
+    {
+      "text": "Investor Relations",
+      "truthId": null
+    },
+    {
+      "text": "Careers",
+      "truthId": null
+    },
+    {
+      "text": "Other Stakeholders' Information",
+      "truthId": null
+    },
+    {
+      "text": "News Room",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Governance",
+      "truthId": null
+    },
+    {
+      "text": "ESG",
+      "truthId": null
+    },
+    {
+      "text": "CSR",
+      "truthId": null
+    },
+    {
+      "text": "Online Dispute Resolution Portal",
+      "truthId": null
+    },
+    {
+      "text": "Regulatory Disclosures",
+      "truthId": null
+    },
+    {
+      "text": "Our Corporate commitment",
+      "truthId": null
+    },
+    {
+      "text": "Erstwhile HDFC Limited T&C",
+      "truthId": null
+    },
+    {
+      "text": "Quick Links",
+      "truthId": null
+    },
+    {
+      "text": "New Issuance",
+      "truthId": null
+    },
+    {
+      "text": "List of third parties engaged by Bank",
+      "truthId": null
+    },
+    {
+      "text": "Security",
+      "truthId": null
+    },
+    {
+      "text": "US Patriot Act Certificate",
+      "truthId": null
+    },
+    {
+      "text": "Important Messages",
+      "truthId": null
+    },
+    {
+      "text": "RBI Kehta Hai",
+      "truthId": null
+    },
+    {
+      "text": "RBI UDGAM-Unclaimed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "RBI Complaint Management System",
+      "truthId": null
+    },
+    {
+      "text": "RBI Sachet Portal",
+      "truthId": null
+    },
+    {
+      "text": "1+1 Credit Card Application",
+      "truthId": null
+    },
+    {
+      "text": "Credit Card Referral Program",
+      "truthId": null
+    },
+    {
+      "text": "Fees & Charges",
+      "truthId": null
+    },
+    {
+      "text": "Customer Services Write to priya_nair@example.gov.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Bank Holiday List",
+      "truthId": null
+    },
+    {
+      "text": "Online Services",
+      "truthId": null
+    },
+    {
+      "text": "Notice Board",
+      "truthId": null
+    },
+    {
+      "text": "Interest Rates",
+      "truthId": null
+    },
+    {
+      "text": "Forex Rates",
+      "truthId": null
+    },
+    {
+      "text": "Ways To Bank",
+      "truthId": null
+    },
+    {
+      "text": "Better Money Choices",
+      "truthId": null
+    },
+    {
+      "text": "Auction Notices",
+      "truthId": null
+    },
+    {
+      "text": "Forms Centre",
+      "truthId": null
+    },
+    {
+      "text": "Lodge a Complaint/Query/Request",
+      "truthId": null
+    },
+    {
+      "text": "FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Customer Care",
+      "truthId": null
+    },
+    {
+      "text": "Active Channel Partners",
+      "truthId": null
+    },
+    {
+      "text": "Consent to Call Registration",
+      "truthId": null
+    },
+    {
+      "text": "Do-Not-Call-Registration",
+      "truthId": null
+    },
+    {
+      "text": "Branch Locator",
+      "truthId": null
+    },
+    {
+      "text": "WhatsApp Banking",
+      "truthId": null
+    },
+    {
+      "text": "Citizen's Charter",
+      "truthId": null
+    },
+    {
+      "text": "Wolfsberg AML Questionnaire",
+      "truthId": null
+    },
+    {
+      "text": "Grievance Redressal Digital",
+      "truthId": null
+    },
+    {
+      "text": "Grievance Redressal Officer",
+      "truthId": null
+    },
+    {
+      "text": "Use Of Unparliamentary Language By Customers",
+      "truthId": null
+    },
+    {
+      "text": "Digital Lending-Important Links",
+      "truthId": null
+    },
+    {
+      "text": "Equal Opportunity Policy",
+      "truthId": null
+    },
+    {
+      "text": "Personal Loan",
+      "truthId": null
+    },
+    {
+      "text": "Car Loan",
+      "truthId": null
+    },
+    {
+      "text": "Business Loan",
+      "truthId": null
+    },
+    {
+      "text": "Two Wheeler Loan",
+      "truthId": null
+    },
+    {
+      "text": "Gold Loan",
+      "truthId": null
+    },
+    {
+      "text": "Home Loan",
+      "truthId": null
+    },
+    {
+      "text": "Pre-Verified Properties",
+      "truthId": null
+    },
+    {
+      "text": "Savings Account",
+      "truthId": null
+    },
+    {
+      "text": "Salary Account",
+      "truthId": null
+    },
+    {
+      "text": "Current Account",
+      "truthId": null
+    },
+    {
+      "text": "Demat Account",
+      "truthId": null
+    },
+    {
+      "text": "Credit Card",
+      "truthId": null
+    },
+    {
+      "text": "Debit Card",
+      "truthId": null
+    },
+    {
+      "text": "Forex Card",
+      "truthId": null
+    },
+    {
+      "text": "PayZapp",
+      "truthId": null
+    },
+    {
+      "text": "FASTag",
+      "truthId": null
+    },
+    {
+      "text": "Fixed Deposit",
+      "truthId": null
+    },
+    {
+      "text": "MSME Loan",
+      "truthId": null
+    },
+    {
+      "text": "EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Personal Loan EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Car Loan EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Two Wheeler EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Business Loan Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Gold Loan EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Home Loan Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Loan Against Property Calculator",
+      "truthId": null
+    },
+    {
+      "text": "AMB Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Credit Card EMI Calculator",
+      "truthId": null
+    },
+    {
+      "text": "SSY Calculator",
+      "truthId": null
+    },
+    {
+      "text": "PPF Calculator",
+      "truthId": null
+    },
+    {
+      "text": "SIP Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Fixed Deposit Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Recurring Deposit Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Car Loan BT-Top-Up Calculator",
+      "truthId": null
+    },
+    {
+      "text": "NPS Calculator",
+      "truthId": null
+    },
+    {
+      "text": "NPS Vatsalya Calculator",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "select hdfc websites",
+      "truthId": null
+    },
+    {
+      "text": "select hdfc groups",
+      "truthId": null
+    },
+    {
+      "text": "(opens in a new tab)",
+      "truthId": null
+    },
+    {
+      "text": "https://www.dicgc.org.in",
+      "truthId": null
+    },
+    {
+      "text": "Cookie Policy PAN CDEFG1234H",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Terms & Conditions Grievance cell priya_nair@example.gov.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Privacy",
+      "truthId": null
+    },
+    {
+      "text": "Consent Connect Portal",
+      "truthId": null
+    },
+    {
+      "text": "Website Usage Terms",
+      "truthId": null
+    },
+    {
+      "text": "Glossary",
+      "truthId": null
+    },
+    {
+      "text": "Facebook",
+      "truthId": null
+    },
+    {
+      "text": "Instagram",
+      "truthId": null
+    },
+    {
+      "text": "You Tube",
+      "truthId": null
+    },
+    {
+      "text": "Twitter",
+      "truthId": null
+    },
+    {
+      "text": "Linkdin",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1124,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          934,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 8765432109",
+        "bbox": [
+          934,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "8765432109"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "id": "shop-saucedemo",
+  "type": "ecommerce",
+  "sourceUrl": "https://www.saucedemo.com/",
+  "capturedAt": "2026-09-06T06:02:35.796Z",
+  "annotatedAt": "2026-09-06T06:56:51.860Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1014,
+  "persona": "Neha Sharma",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Login",
+      "bbox": [
+        681,
+        669,
+        292,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "textbox",
+      "name": "Username",
+      "bbox": [
+        681,
+        524,
+        292,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "textbox",
+      "name": "Password",
+      "bbox": [
+        681,
+        576,
+        292,
+        38
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9765432108",
+      "text": "Helpline 9765432108",
+      "bbox": [
+        0,
+        439,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 97654 32108",
+      "text": "Alternate contact +91 97654 32108",
+      "bbox": [
+        0,
+        123,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "neha.sharma@sub.example.co.in",
+      "text": "Write to neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        238,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "445566778899",
+      "text": "Aadhaar 445566778899 linked to this account",
+      "bbox": [
+        0,
+        400,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "STUVW9900X",
+      "text": "PAN STUVW9900X",
+      "bbox": [
+        0,
+        45,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4222 2222 2222 2",
+      "text": "Card on file 4222 2222 2222 2",
+      "bbox": [
+        242,
+        500,
+        390,
+        225
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 3311",
+      "text": "OTP is 3311 sent to your phone",
+      "bbox": [
+        0,
+        198,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Neha Sharma",
+      "text": "Signed in as Neha Sharma",
+      "bbox": [
+        0,
+        84,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "62 Civil Lines, Jaipur 302006",
+      "text": "Registered address 62 Civil Lines, Jaipur 302006",
+      "bbox": [
+        0,
+        6,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "neha.sharma@sub.example.co.in",
+      "text": "Grievance cell neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        361,
+        1265,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Registered address 62 Civil Lines, Jaipur 302006",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "PAN STUVW9900X",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Signed in as Neha Sharma",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Alternate contact +91 97654 32108",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "OTP is 3311 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Write to neha.sharma@sub.example.co.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Grievance cell neha.sharma@sub.example.co.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Aadhaar 445566778899 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Helpline 9765432108",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Card on file 4222 2222 2222 2",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Username",
+      "truthId": null
+    },
+    {
+      "text": "Password",
+      "truthId": null
+    },
+    {
+      "text": "login-button",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9765432108",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9765432108"
+        }
+      }
+    ]
+  }
+}

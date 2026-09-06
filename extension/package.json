@@ -1,7 +1,7 @@
 {
   "name": "@privagent/extension",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,8 @@
     "vendor:assets": "node ../scripts/vendor-assets.mjs",
     "prebuild:chrome": "npm run vendor:assets",
     "prebuild:firefox": "npm run vendor:assets",
-    "pretest:e2e": "npm run vendor:assets"
+    "pretest:e2e": "npm run vendor:assets",
+    "package:firefox": "web-ext lint --source-dir dist/firefox --no-config-discovery && web-ext build --source-dir dist/firefox --artifacts-dir dist --overwrite-dest --no-config-discovery --filename privagent-{version}.xpi"
   },
   "dependencies": {
     "onnxruntime-web": "1.29.0",
@@ -40,6 +41,7 @@
     "typescript": "5.9.3",
     "typescript-eslint": "8.69.0",
     "vite": "8.2.2",
-    "vitest": "^4.0.18"
+    "vitest": "^4.0.18",
+    "web-ext": "^8.10.0"
   }
 }

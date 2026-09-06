@@ -1,0 +1,658 @@
+{
+  "id": "spa-react-shopping",
+  "type": "spa",
+  "sourceUrl": "https://react-shopping-cart-67954.firebaseapp.com/",
+  "capturedAt": "2026-09-06T06:05:22.229Z",
+  "annotatedAt": "2026-09-06T06:56:59.442Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 3958,
+  "persona": "Neha Sharma",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "follow me on Linkedin.",
+      "bbox": [
+        898,
+        949,
+        157,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Star jeffersonRibeiro/react-shopping-cart on GitHub",
+      "bbox": [
+        0,
+        1208,
+        26,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "0",
+      "bbox": [
+        0,
+        3935,
+        23,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "checkbox",
+      "name": "XS",
+      "bbox": [
+        0,
+        1030,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "checkbox",
+      "name": "S",
+      "bbox": [
+        0,
+        1048,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "checkbox",
+      "name": "M",
+      "bbox": [
+        0,
+        1067,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "checkbox",
+      "name": "ML",
+      "bbox": [
+        0,
+        1085,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "checkbox",
+      "name": "L",
+      "bbox": [
+        0,
+        1104,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "checkbox",
+      "name": "XL",
+      "bbox": [
+        0,
+        1122,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "checkbox",
+      "name": "XXL",
+      "bbox": [
+        0,
+        1140,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        1492,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        1654,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        1796,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "Add to cart Helpline 9765432108",
+      "bbox": [
+        0,
+        1958,
+        230,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "Add to cart Write to neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        2164,
+        358,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        2370,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        2531,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        2693,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        2854,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "button",
+      "name": "Add to cart Grievance cell neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        3015,
+        399,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        3158,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        3285,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "Add to cart PAN STUVW9900X",
+      "bbox": [
+        0,
+        3446,
+        226,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        3589,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        3750,
+        87,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "button",
+      "name": "Add to cart",
+      "bbox": [
+        0,
+        3911,
+        87,
+        24
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9765432108",
+      "text": "Helpline 9765432108",
+      "bbox": [
+        0,
+        1958,
+        230,
+        24
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 97654 32108",
+      "text": "Alternate contact +91 97654 32108",
+      "bbox": [
+        0,
+        2193,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "neha.sharma@sub.example.co.in",
+      "text": "Write to neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        2164,
+        358,
+        24
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "445566778899",
+      "text": "Aadhaar 445566778899 linked to this account",
+      "bbox": [
+        0,
+        1987,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "STUVW9900X",
+      "text": "PAN STUVW9900X",
+      "bbox": [
+        0,
+        3446,
+        226,
+        24
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4222 2222 2222 2",
+      "text": "Card on file 4222 2222 2222 2",
+      "bbox": [
+        0,
+        45,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 3311",
+      "text": "OTP is 3311 sent to your phone",
+      "bbox": [
+        0,
+        6,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Neha Sharma",
+      "text": "Signed in as Neha Sharma",
+      "bbox": [
+        0,
+        1316,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "62 Civil Lines, Jaipur 302006",
+      "text": "Registered address 62 Civil Lines, Jaipur 302006",
+      "bbox": [
+        0,
+        1277,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "neha.sharma@sub.example.co.in",
+      "text": "Grievance cell neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        3015,
+        399,
+        24
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "OTP is 3311 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 4222 2222 2222 2",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "follow me on Linkedin.",
+      "truthId": null
+    },
+    {
+      "text": "XS",
+      "truthId": null
+    },
+    {
+      "text": "S",
+      "truthId": null
+    },
+    {
+      "text": "M",
+      "truthId": null
+    },
+    {
+      "text": "ML",
+      "truthId": null
+    },
+    {
+      "text": "L",
+      "truthId": null
+    },
+    {
+      "text": "XL",
+      "truthId": null
+    },
+    {
+      "text": "XXL",
+      "truthId": null
+    },
+    {
+      "text": "Star jeffersonRibeiro/react-shopping-cart on GitHub",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 62 Civil Lines, Jaipur 302006",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Signed in as Neha Sharma",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Free shipping Cropped Stay Groovy off white $10.90 or 9 x$1.21 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Basic Cactus White T-shirt $13.25 or 3 x$4.42 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Skater Black Sweatshirt $25.90 or 12 x$2.16 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Black Tule Oversized $29.45 or 5 x$5.89 Add to cart Helpline 9765432108",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart Helpline 9765432108",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Aadhaar 445566778899 linked to this account Free shipping Black Batman T-shirt $10.90 or 9 x$1.21 Add to cart Write to neha.sharma@sub.example.co.in",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 445566778899 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Add to cart Write to neha.sharma@sub.example.co.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Alternate contact +91 97654 32108 Free shipping Blue T-Shirt $9.00 or 3 x$3.00 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 97654 32108",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Loose Black T-shirt $14.00 or 5 x$2.80 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Ringer Hall Pass $10.90 or 9 x$1.21 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Grey T-shirt $14.90 or 7 x$2.13 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Black T-shirt with white stripes $14.90 or 7 x$2.13 Add to cart Grievance cell neha.sharma@sub.example.co.in",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart Grievance cell neha.sharma@sub.example.co.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Turtles Ninja T-shirt $10.90 or 9 x$1.21 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Slim black T-shirt $49.90 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Blue Sweatshirt $22.50 or 4 x$5.63 Add to cart PAN STUVW9900X",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart PAN STUVW9900X",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "White T-shirt Gucci $18.70 or 4 x$4.67 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Tropical Wine T-shirt $134.90 or 5 x$26.98 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Free shipping Marine Blue T-shirt $49.00 or 9 x$5.44 Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "Add to cart",
+      "truthId": null
+    },
+    {
+      "text": "0",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9765432108",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9765432108"
+        }
+      }
+    ]
+  }
+}

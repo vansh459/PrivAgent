@@ -1,0 +1,804 @@
+{
+  "id": "shop-webscraper",
+  "type": "ecommerce",
+  "sourceUrl": "https://webscraper.io/test-sites/e-commerce/allinone",
+  "capturedAt": "2026-09-06T06:02:21.139Z",
+  "annotatedAt": "2026-09-06T06:56:50.491Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1629,
+  "persona": "Aisha Qureshi",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Web Scraper",
+      "bbox": [
+        74,
+        1551,
+        116,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Web Scraper",
+      "bbox": [
+        74,
+        49,
+        116,
+        49
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "PRODUCTS",
+      "bbox": [
+        74,
+        1241,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "COMPANY",
+      "bbox": [
+        358,
+        1241,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "RESOURCES",
+      "bbox": [
+        642,
+        1241,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "CONTACT US",
+      "bbox": [
+        926,
+        1241,
+        264,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Web Scraper on Facebook",
+      "bbox": [
+        926,
+        1362,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Web Scraper on LinkedIn",
+      "bbox": [
+        978,
+        1362,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Web Scraper on Youtube",
+      "bbox": [
+        1030,
+        1362,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Download the Web Scraper extension",
+      "bbox": [
+        1082,
+        1362,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Web Scraper Cloud replaces your complex scraping stack.Try it free for 7 days",
+      "bbox": [
+        382,
+        11,
+        501,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Close",
+      "bbox": [
+        1231,
+        10,
+        18,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Install extension",
+      "bbox": [
+        927,
+        54,
+        153,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Cloud login",
+      "bbox": [
+        1090,
+        54,
+        100,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Acer Aspire ES...",
+      "bbox": [
+        370,
+        950,
+        130,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Acer Swift 1 S...",
+      "bbox": [
+        655,
+        950,
+        123,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Asus MeMO Pad",
+      "bbox": [
+        940,
+        950,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        74,
+        397,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Navigation category",
+      "bbox": [
+        74,
+        438,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Navigation category",
+      "bbox": [
+        74,
+        478,
+        261,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Web Scraper browser extension",
+      "bbox": [
+        74,
+        1269,
+        185,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Web Scraper Cloud",
+      "bbox": [
+        74,
+        1294,
+        114,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "About us Grievance cell aisha.qureshi@example.in",
+      "bbox": [
+        358,
+        1269,
+        151,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Contacts PAN GHIJK7788L",
+      "bbox": [
+        358,
+        1315,
+        152,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Website Privacy Policy Write to aisha.qureshi@example.in",
+      "bbox": [
+        358,
+        1340,
+        179,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Browser Extension Privacy Policy",
+      "bbox": [
+        358,
+        1386,
+        187,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Media kit Helpline 9345678901",
+      "bbox": [
+        358,
+        1411,
+        179,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Blog",
+      "bbox": [
+        642,
+        1269,
+        26,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Documentation",
+      "bbox": [
+        642,
+        1294,
+        91,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Video Tutorials",
+      "bbox": [
+        642,
+        1319,
+        85,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Test Sites",
+      "bbox": [
+        642,
+        1344,
+        52,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Forum",
+      "bbox": [
+        642,
+        1369,
+        38,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Status",
+      "bbox": [
+        642,
+        1394,
+        35,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "info@webscraper.io",
+      "bbox": [
+        926,
+        1269,
+        114,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Web Scraper Cloud",
+      "bbox": [
+        298,
+        56,
+        130,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Extension",
+      "bbox": [
+        446,
+        56,
+        71,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Pricing",
+      "bbox": [
+        535,
+        56,
+        56,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Marketplace",
+      "bbox": [
+        608,
+        56,
+        88,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "button",
+      "name": "Solutions",
+      "bbox": [
+        714,
+        56,
+        88,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "button",
+      "name": "Learn",
+      "bbox": [
+        820,
+        56,
+        67,
+        34
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9345678901",
+      "text": "Helpline 9345678901",
+      "bbox": [
+        358,
+        1411,
+        179,
+        18
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "044 2812 3456",
+      "text": "Alternate contact 044 2812 3456",
+      "bbox": [
+        359,
+        403,
+        831,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "aisha.qureshi@example.in",
+      "text": "Write to aisha.qureshi@example.in",
+      "bbox": [
+        358,
+        1340,
+        179,
+        39
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "1122-3344-5566",
+      "text": "Aadhaar 1122-3344-5566 linked to this account",
+      "bbox": [
+        347,
+        766,
+        855,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "GHIJK7788L",
+      "text": "PAN GHIJK7788L",
+      "bbox": [
+        358,
+        1315,
+        152,
+        18
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5555 5555 5555 4444",
+      "text": "Card on file 5555 5555 5555 4444",
+      "bbox": [
+        62,
+        358,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one-time password 220033",
+      "text": "one-time password 220033 sent to your phone",
+      "bbox": [
+        0,
+        113,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Aisha Qureshi",
+      "text": "Signed in as Aisha Qureshi",
+      "bbox": [
+        12,
+        152,
+        1241,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "5 Anna Salai, Chennai 600002",
+      "text": "Registered address 5 Anna Salai, Chennai 600002",
+      "bbox": [
+        74,
+        1201,
+        1116,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "aisha.qureshi@example.in",
+      "text": "Grievance cell aisha.qureshi@example.in",
+      "bbox": [
+        358,
+        1269,
+        151,
+        39
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Web Scraper Cloud replaces your complex scraping stack. Try it free for 7 days",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper Cloud replaces your complex scraping stack. Try it free for 7 days",
+      "truthId": null
+    },
+    {
+      "text": "Close",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper Cloud",
+      "truthId": null
+    },
+    {
+      "text": "Extension",
+      "truthId": null
+    },
+    {
+      "text": "Pricing",
+      "truthId": null
+    },
+    {
+      "text": "Marketplace",
+      "truthId": null
+    },
+    {
+      "text": "Solutions",
+      "truthId": null
+    },
+    {
+      "text": "Learn",
+      "truthId": null
+    },
+    {
+      "text": "Install extension",
+      "truthId": null
+    },
+    {
+      "text": "Cloud login",
+      "truthId": null
+    },
+    {
+      "text": "one-time password 220033 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Signed in as Aisha Qureshi",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Card on file 5555 5555 5555 4444",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Home Computers Phones",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Navigation category",
+      "truthId": null
+    },
+    {
+      "text": "Navigation category",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 044 2812 3456",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Aadhaar 1122-3344-5566 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Acer Aspire ES...",
+      "truthId": null
+    },
+    {
+      "text": "Acer Swift 1 S...",
+      "truthId": null
+    },
+    {
+      "text": "Asus MeMO Pad",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 5 Anna Salai, Chennai 600002",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "PRODUCTS",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper browser extension",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper Cloud",
+      "truthId": null
+    },
+    {
+      "text": "COMPANY",
+      "truthId": null
+    },
+    {
+      "text": "About us Grievance cell aisha.qureshi@example.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Contacts PAN GHIJK7788L",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Website Privacy Policy Write to aisha.qureshi@example.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Browser Extension Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Media kit Helpline 9345678901",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "RESOURCES",
+      "truthId": null
+    },
+    {
+      "text": "Blog",
+      "truthId": null
+    },
+    {
+      "text": "Documentation",
+      "truthId": null
+    },
+    {
+      "text": "Video Tutorials",
+      "truthId": null
+    },
+    {
+      "text": "Test Sites",
+      "truthId": null
+    },
+    {
+      "text": "Forum",
+      "truthId": null
+    },
+    {
+      "text": "Status",
+      "truthId": null
+    },
+    {
+      "text": "CONTACT US",
+      "truthId": null
+    },
+    {
+      "text": "info@webscraper.io",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper on Facebook",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper on LinkedIn",
+      "truthId": null
+    },
+    {
+      "text": "Web Scraper on Youtube",
+      "truthId": null
+    },
+    {
+      "text": "Download the Web Scraper extension",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9345678901",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9345678901"
+        }
+      }
+    ]
+  }
+}

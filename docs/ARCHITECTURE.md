@@ -1,7 +1,9 @@
 # PrivAgent Architecture
 
-Last verified: 2026-09-04 against the Stage 1 build. This document describes what is
-**built**; anything not yet built is marked as such.
+Last verified: 2026-09-06 against the Stage 2 build. This document describes what is
+**built**; anything not yet built is marked as such. The diagrams here are the ones the pitch
+deck uses, and they were re-drawn from the code as it stands rather than from the original
+design - where the two differ, the difference is listed under Drift at the end.
 
 ## The privacy boundary
 
@@ -9,45 +11,165 @@ Everything that could identify a user happens on the left of this line. Only the
 crosses it.
 
 ```
-┌──────────────────────── BROWSER ─────────────────────────┐
-│                                                           │
-│  CONTENT SCRIPT (per tab, page origin)                    │
-│  ┌─────────────────────────────────────────────────┐      │
-│  │ perceiveDom()                                    │      │
-│  │   · role, label, bbox for interactive elements    │      │
-│  │   · credential fields dropped here, not later     │      │
-│  │   · never reads element.value                     │      │
-│  └──────────────────────┬──────────────────────────┘      │
-│                          ▼                                 │
-│  ┌─────────────────────────────────────────────────┐      │
-│  │ prepareContext()  — the Privacy Firewall          │      │
-│  │   · detect  → 6 structured PII detectors          │      │
-│  │   · resolve → longest-match-wins, non-overlapping │      │
-│  │   · decide  → mask ≥0.6 · review ≥0.4 · allow     │      │
-│  │   · tokenize → [PII_TYPE_NN], map stays in memory │      │
-│  └──────────────────────┬──────────────────────────┘      │
-│                          ▼                                 │
-│  ┌─────────────────────────────────────────────────┐      │
-│  │ buildContext()                                    │      │
-│  │   · Set-of-Mark ids (M1, M2, …)                   │      │
-│  │   · withholds anything still flagged sensitive    │      │
-│  │   · keeps only task-relevant elements             │      │
-│  └──────────────────────┬──────────────────────────┘      │
-│                          │ SanitizedContext                │
-│  BACKGROUND WORKER (extension origin)                      │
-│  ┌──────────────────────▼──────────────────────────┐      │
-│  │ requestAction()  · re-validates before fetch      │──────┼──▶ POST /reason
-│  │ audit trail      · IndexedDB, extension origin    │      │
-│  └──────────────────────┬──────────────────────────┘      │◀── Action JSON
-│                          │ validated Action                │
-│  CONTENT SCRIPT                                            │
-│  ┌──────────────────────▼──────────────────────────┐      │
-│  │ effectiveRisk()  = max(server tier, local tier)   │      │
-│  │ confirmAction()  · closed shadow root, if > low   │      │
-│  │ executeAction()  · resolves marks → live nodes    │      │
-│  └─────────────────────────────────────────────────┘      │
-└───────────────────────────────────────────────────────────┘
++------------------------------- BROWSER --------------------------------+
+|                                                                        |
+|  CONTENT SCRIPT (per tab, runs on the PAGE's origin)                   |
+|  +----------------------------------------------------------+         |
+|  | perceiveDom()                                             |         |
+|  |   . role, accessible name and bbox per interactive element|         |
+|  |   . credential fields dropped HERE, not during redaction  |         |
+|  |   . never reads element.value                             |         |
+|  +----------------------------------------------------------+         |
+|  | collectVisualRegions()  -> canvas, img, svg, video, iframe|         |
+|  +-----------+----------------------------------+-----------+         |
+|              | region boxes only                |                     |
+|  BACKGROUND (extension origin)                   |                     |
+|  +-----------v-----------+                       |                     |
+|  | captureVisibleTab()   |   the screenshot never touches the site     |
+|  +-----------+-----------+                       |                     |
+|  OFFSCREEN DOCUMENT (extension origin)           |                     |
+|  +-----------v------------------------------+    |                     |
+|  | analyzeScreenshot()                       |    |                     |
+|  |   . YuNet over the whole viewport         |    |                     |
+|  |   . faces painted OUT of the buffer FIRST |    |                     |
+|  |   . Tesseract then reads the masked buffer|    |                     |
+|  |   -> text, boxes, counts. Image released. |    |                     |
+|  +-----------+------------------------------+    |                     |
+|              | vision elements                    |                     |
+|  +-----------v------------------------------------v----------+        |
+|  | fuseScreenElements()    DOM wins ties at IoU >= 0.7        |        |
+|  +-----------------------------------------------------------+        |
+|  | prepareContext()  - the PRIVACY FIREWALL                   |        |
+|  |   . detect   -> 6 structured detectors + name/address rules|        |
+|  |   . resolve  -> longest-match-wins, non-overlapping        |        |
+|  |   . decide   -> mask >= 0.6 . review 0.4-0.6 . allow < 0.4 |        |
+|  |   . tokenize -> [PII_TYPE_NN]; the map stays in memory     |        |
+|  +-----------------------------------------------------------+        |
+|  | buildContext()                                             |        |
+|  |   . Set-of-Mark ids (M1, M2, ...)                          |        |
+|  |   . withholds anything still flagged sensitive             |        |
+|  |   . keeps only task-relevant elements                      |        |
+|  +----------------------+------------------------------------+        |
+|                         | SanitizedContext - the ONLY thing that leaves|
+|  BACKGROUND WORKER      |                                              |
+|  +----------------------v------------------------+                    |
+|  | requestAction()  . re-validates before fetch   |--------------------+--> POST /reason
+|  | audit trail      . IndexedDB, extension origin |                    |
+|  +----------------------+------------------------+                    |<-- Action JSON
+|                         | validated Action                             |
+|  CONTENT SCRIPT         |                                              |
+|  +----------------------v------------------------+                    |
+|  | effectiveRisk()  = max(server tier, local tier)|                    |
+|  | confirmAction()  . closed shadow root, if > low|                    |
+|  | executeAction()  . resolves marks -> live nodes|                    |
+|  +-----------------------------------------------+                    |
++------------------------------------------------------------------------+
 ```
+
+The screenshot is the part worth pointing at. It is taken by the background worker, decoded
+in an extension-origin document, and released when the pass returns. It never reaches the
+content script, so it never exists on the visited site's origin - and the face pixels are
+destroyed in that buffer _before_ OCR reads from it, so a face cannot reach the OCR worker
+either.
+
+## Diagrams for the deck
+
+Two views of the same system, kept next to the code they describe so that they rot visibly
+when it changes.
+
+### Trust boundaries
+
+```mermaid
+flowchart LR
+  subgraph device["The user's device"]
+    subgraph pageOrigin["Visited page's origin"]
+      dom["DOM walker<br/>role - name - bbox"]
+      regions["Visual region finder"]
+      exec["Action executor<br/>+ confirmation gate"]
+    end
+    subgraph extOrigin["Extension's own origin"]
+      shot["captureVisibleTab"]
+      vision["Offscreen vision<br/>YuNet - mask - OCR"]
+      audit[("Audit trail<br/>IndexedDB")]
+    end
+    fuse["Fusion"]
+    fw["Privacy Firewall<br/>detect - resolve - decide - tokenize"]
+    ctx["Context builder<br/>Set-of-Mark + task filter"]
+  end
+  server["Reasoner<br/>FastAPI + local model"]
+
+  dom --> fuse
+  regions -- "boxes only" --> shot
+  shot --> vision
+  vision -- "text, boxes, counts" --> fuse
+  fuse --> fw --> ctx
+  ctx -- "SanitizedContext<br/>tokens only" --> server
+  server -- "Action JSON" --> exec
+  fw -.-> audit
+  exec -.-> audit
+
+  style server fill:#fde2e2,stroke:#c0392b
+  style fw fill:#e8f4ea,stroke:#1e7b34
+  style ctx fill:#e8f4ea,stroke:#1e7b34
+```
+
+Everything inside `device` is local. Exactly one arrow crosses to the server, and it carries
+`SanitizedContext`: Set-of-Mark ids, roles, boxes, and text in which every detected value has
+already been replaced by a token.
+
+### One task, end to end
+
+```mermaid
+sequenceDiagram
+  autonumber
+  participant U as User
+  participant P as Popup
+  participant C as Content script
+  participant B as Background
+  participant O as Offscreen vision
+  participant S as Reasoner
+
+  U->>P: task text
+  P->>B: run-task
+  B->>C: execute-task
+  C->>C: perceiveDom() - credential fields dropped
+  C->>B: perceive-vision(region boxes)
+  B->>B: captureVisibleTab()
+  B->>O: screenshot + boxes
+  O->>O: detect faces, mask pixels, then OCR
+  O-->>B: text, boxes, counts (no image)
+  B-->>C: vision elements
+  C->>C: fuse, detect PII, tokenize, withhold
+  C->>B: reason(SanitizedContext)
+  B->>S: POST /reason
+  S-->>B: Action JSON
+  B-->>C: validated Action
+  C->>C: effectiveRisk = max(server, local)
+  alt risk above low
+    C->>U: confirmation prompt (closed shadow root)
+    U-->>C: Ctrl+Enter allows, Escape denies
+  end
+  C->>C: executeAction() - marks resolve to live nodes
+  C-->>P: summary + six-stage trace
+```
+
+## Drift from the original design
+
+Checked against section 2 of the build specification on 2026-09-06. Three differences, all
+deliberate and all recorded where the decision was taken:
+
+1. **Vision runs in an offscreen document, not in the content script.** The specification put
+   local inference in the content script. That is not possible: a content script cannot
+   construct a `Worker` from a `chrome-extension:` URL, because the script must be same-origin
+   with its document and that document belongs to the site. Firefox's MV3 background is an
+   event page with a DOM, so it hosts the same module directly and needs no `offscreen`
+   permission.
+2. **The screenshot is taken by the background worker.** `tabs.captureVisibleTab` is not
+   callable from a content script at all.
+3. **Unstructured PII is recognised by rules, not by a neural NER.** Costed at Phase 3.2: the
+   smallest credible ONNX export is 94-109 MB against a 40 MB package and a 20%
+   resource-utilisation rubric line. The seam is one function if that trade is ever worth
+   making.
 
 ## Why the background worker orchestrates
 

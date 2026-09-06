@@ -1,0 +1,429 @@
+{
+  "id": "form-demoqa",
+  "type": "form",
+  "sourceUrl": "https://demoqa.com/automation-practice-form",
+  "capturedAt": "2026-09-06T06:03:46.841Z",
+  "annotatedAt": "2026-09-06T06:56:54.633Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1373,
+  "persona": "Fatima Sheikh",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        459,
+        0,
+        347,
+        100
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "Choose File",
+      "bbox": [
+        412,
+        718,
+        518,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Practice Form",
+      "bbox": [
+        59,
+        368,
+        111,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "textbox",
+      "name": "First Name",
+      "bbox": [
+        412,
+        423,
+        217,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "textbox",
+      "name": "Last Name",
+      "bbox": [
+        713,
+        423,
+        217,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "textbox",
+      "name": "name@example.com",
+      "bbox": [
+        412,
+        469,
+        518,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "textbox",
+      "name": "Mobile Number",
+      "bbox": [
+        412,
+        548,
+        518,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "textbox",
+      "name": "Current Address",
+      "bbox": [
+        412,
+        847,
+        518,
+        134
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "Submit Helpline 9876543210",
+      "bbox": [
+        834,
+        1085,
+        112,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "radio",
+      "name": "Male",
+      "bbox": [
+        412,
+        518,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "radio",
+      "name": "Female",
+      "bbox": [
+        487,
+        518,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "radio",
+      "name": "Other",
+      "bbox": [
+        577,
+        518,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        412,
+        643,
+        518,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "checkbox",
+      "name": "Sports",
+      "bbox": [
+        412,
+        685,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "checkbox",
+      "name": "Reading",
+      "bbox": [
+        497,
+        685,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "checkbox",
+      "name": "Music",
+      "bbox": [
+        594,
+        685,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        412,
+        1013,
+        217,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        412,
+        594,
+        206,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        653,
+        1013,
+        217,
+        24
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9876543210",
+      "text": "Helpline 9876543210",
+      "bbox": [
+        834,
+        1085,
+        112,
+        86
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91-98765-43210",
+      "text": "Alternate contact +91-98765-43210",
+      "bbox": [
+        13,
+        106,
+        1240,
+        33
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "123456789012",
+      "text": "Aadhaar 123456789012 linked to this account",
+      "bbox": [
+        231,
+        253,
+        699,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5500 0000 0000 0004",
+      "text": "Card on file 5500 0000 0000 0004",
+      "bbox": [
+        412,
+        808,
+        518,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one-time password 4821",
+      "text": "one-time password 4821 sent to your phone",
+      "bbox": [
+        412,
+        769,
+        518,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Fatima Sheikh",
+      "text": "Signed in as Fatima Sheikh",
+      "bbox": [
+        231,
+        214,
+        699,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "bbox": [
+        231,
+        175,
+        699,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Alternate contact +91-98765-43210",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Practice Form",
+      "truthId": null
+    },
+    {
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Signed in as Fatima Sheikh",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Aadhaar 123456789012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "First Name",
+      "truthId": null
+    },
+    {
+      "text": "Last Name",
+      "truthId": null
+    },
+    {
+      "text": "name@example.com",
+      "truthId": null
+    },
+    {
+      "text": "Male",
+      "truthId": null
+    },
+    {
+      "text": "Female",
+      "truthId": null
+    },
+    {
+      "text": "Other",
+      "truthId": null
+    },
+    {
+      "text": "Mobile Number",
+      "truthId": null
+    },
+    {
+      "text": "Sports",
+      "truthId": null
+    },
+    {
+      "text": "Reading",
+      "truthId": null
+    },
+    {
+      "text": "Music",
+      "truthId": null
+    },
+    {
+      "text": "one-time password 4821 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 5500 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Current Address",
+      "truthId": null
+    },
+    {
+      "text": "Submit Helpline 9876543210",
+      "truthId": "pii_1"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9876543210",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9876543210"
+        }
+      }
+    ]
+  }
+}

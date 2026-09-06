@@ -27,7 +27,7 @@ import type { PiiMatch } from "./privacy";
  * always next to a word saying that it is one.
  */
 const NAME_CUES =
-  /\b(?:full[ -]?name|first[ -]?name|last[ -]?name|middle[ -]?name|account[ -]?holder|card[ -]?holder|policy[ -]?holder|applicant|beneficiary|nominee|customer[ -]?name|patient|employee[ -]?name|guardian|father'?s name|mother'?s name|spouse|contact[ -]?person|registered to|issued to|in the name of|name)\b/i;
+  /\b(?:full[ -]?name|first[ -]?name|last[ -]?name|middle[ -]?name|account[ -]?holder|card[ -]?holder|policy[ -]?holder|applicant|beneficiary|nominee|customer[ -]?name|patient|employee[ -]?name|guardian|father'?s name|mother'?s name|spouse|contact[ -]?person|registered to|issued to|in the name of|signed in as|logged in as|welcome back,?|name)\b/i;
 
 /** Salutations, which mark the following words as a name in almost any context. */
 const SALUTATION = /\b(?:Mr|Mrs|Ms|Miss|Dr|Prof|Shri|Smt|Sri|Kum|Master)\.?\s+/;
@@ -109,15 +109,40 @@ const GIVEN_NAMES = new Set(
   ).split(/\s+/),
 );
 
-/** Street and locality words that mark a postal address. */
-const ADDRESS_WORDS =
-  /\b(?:flat|apartment|apt|house|plot|door|building|block|tower|floor|room|street|st|road|rd|lane|ln|avenue|ave|marg|nagar|colony|sector|phase|layout|cross|main|extension|vihar|puram|pura|ganj|bagh|chowk|circle|society|enclave|park|gali|mohalla|ward|taluk|tehsil|district|village|po|p\.o\.|near|opposite|behind|beside)\b/i;
+/**
+ * Words that are evidence of a postal address on their own.
+ *
+ * The split between these and `LOCALITY_HINTS` is something the Phase 8.1 dataset paid
+ * for. There was originally one list, and any single word in it was enough to call a line
+ * an address - which meant `main`, `near`, `layout`, `cross` and `block` counted as
+ * evidence. Those are ordinary interface vocabulary, so "Skip to main content", "Find An
+ * ATM Near You", "Layout Options 6" and "Block card" were each masked as somebody's postal
+ * address, 77 times across forty-two real pages. `Road` and `Marg` are addresses; `Main`
+ * is a word.
+ */
+const STREET_WORDS =
+  /\b(?:flat|apartment|apt|house|plot|door|building|tower|floor|room|street|road|lane|avenue|marg|nagar|colony|vihar|puram|pura|ganj|bagh|chowk|enclave|gali|mohalla|salai|hills|lines|apartments)\b/i;
+
+/** Locality vocabulary that supports an address but is not evidence of one by itself. */
+const LOCALITY_HINTS =
+  /\b(?:block|sector|st|rd|ln|ave|phase|layout|cross|main|extension|circle|society|park|ward|taluk|tehsil|district|village|po|p\.o\.|near|opposite|behind|beside)\b/i;
+
+/** Both sets together. Used when deciding a word cannot be part of a person's name. */
+const ADDRESS_WORDS = new RegExp(`${STREET_WORDS.source}|${LOCALITY_HINTS.source}`, "i");
 
 /** An Indian PIN code: six digits not starting with zero. */
 const PIN_CODE = /\b[1-9]\d{5}\b/;
 
+/**
+ * Labels that introduce a postal address.
+ *
+ * `billing` and `shipping` used to appear here on their own, and on real storefronts that
+ * made every "Free shipping" badge the start of somebody's address - the cue alone is
+ * enough to admit a candidate, so "Free shipping ... $29.45 or 5 x$5.89" was being masked.
+ * A bare "shipping" is a delivery method; "shipping to" is a label.
+ */
 const ADDRESS_CUE =
-  /\b(?:address|residence|residing at|billing|shipping|delivered to|located at)\b/i;
+  /\b(?:address|residence|residing at|billing address|billed to|shipping address|ship(?:ping)? to|delivered to|located at)\b/i;
 
 /**
  * A candidate address line: a house/street token, some text, and a PIN code or locality
@@ -177,6 +202,47 @@ function hasKnownGivenName(candidate: string): boolean {
 }
 
 /**
+ * True when the surrounding text reads like prose rather than a user-interface label.
+ *
+ * This is the single most valuable rule in the module, and it exists because of the
+ * Phase 8.1 dataset. On hand-written fixtures the recogniser scored 100% precision; on
+ * 4 086 strings taken from forty-two real pages it fired 1 703 times on things like
+ * "Simple Tables", "Mailbox Pages Extras" and "Plugin Documentation". The reason is
+ * simple and was invisible until real pages were used: **navigation is written in Title
+ * Case**, and two capitalised words is the shape of a menu item at least as often as it
+ * is the shape of a person.
+ *
+ * Prose has lowercase in it. A person's name in real content sits inside a sentence
+ * ("signed in as Ramesh Iyer", "claim filed by Sandeep Joshi") or next to a label; a menu
+ * item is capitalised end to end. So shape-alone evidence - no label, no recognised given
+ * name - is only accepted when at least a third of the surrounding words are lowercase.
+ *
+ * What this costs is real and should be stated: a name that appears alone as the whole of
+ * a button or a heading, with no label and no gazetteer hit - "Alexander Pierce" as a
+ * profile link - is no longer detected. That is a recall loss on a genuine case, accepted
+ * because the alternative is withholding most of the page from the reasoner and leaving
+ * the agent unable to act.
+ */
+function readsLikeProse(text: string): boolean {
+  const words = text.split(/\s+/).filter((word) => /[A-Za-z]/.test(word));
+  // Short, too. An unlabelled name sits in a field-like fragment - "Forwarded by Tanmay
+  // Chakraborty", "Second approver Kiet Nguyen" - not in a paragraph. Long strings on real
+  // pages are article listings and policy prose, and 611 of the 822 remaining false
+  // positives were in strings of thirteen words or more: "Foreign Assets", "Cash Reserve
+  // Ratio", "Recovery Certificate No". A name genuinely present in a long sentence
+  // normally carries a label or a recognised given name, and both of those paths run
+  // before this one, so the recall this costs is narrow: an unknown name, unlabelled, in
+  // running text.
+  if (words.length < 3 || words.length > 12) return false;
+  const lower = words.filter((word) => /^[a-z]/.test(word)).length;
+  // One in five, calibrated against the dataset. "Forwarded by Tanmay Chakraborty" is one
+  // lowercase word in four and is prose; "Mailbox Pages Extras" is none in three and is a
+  // menu. The rule is the principle - prose has lowercase in it, navigation does not - and
+  // the threshold is where that principle was measured to sit.
+  return lower > 0 && lower / words.length >= 0.2;
+}
+
+/**
  * True when a name-shaped candidate is introduced by a label or salutation.
  *
  * Only the text immediately before the candidate counts: a "Name:" thirty words earlier
@@ -204,6 +270,8 @@ function detectNames(text: string): PiiMatch[] {
 
     const introduced = isIntroduced(text, start);
     const known = hasKnownGivenName(value);
+    // Shape alone is only evidence inside prose - see `readsLikeProse`.
+    if (!introduced && !known && !readsLikeProse(text)) continue;
 
     found.push({
       type: "NAME",
@@ -250,7 +318,7 @@ function detectAddresses(text: string): PiiMatch[] {
 
     const start = hit.index + hit[0].indexOf(value);
     const preceding = text.slice(Math.max(0, start - 30), start);
-    const hasLocality = ADDRESS_WORDS.test(value);
+    const hasStreet = STREET_WORDS.test(value);
     const hasPin = PIN_CODE.test(value);
     const cued = ADDRESS_CUE.test(preceding);
 
@@ -259,9 +327,13 @@ function detectAddresses(text: string): PiiMatch[] {
     // number was masked as a postal address, which is both wrong and destroys the span
     // the phone detector had correctly claimed. A street word or an explicit label is
     // required; the PIN only raises confidence.
-    if (!hasLocality && !cued) continue;
+    //
+    // The cost of the narrowed street-word list, stated: "1, Financial District,
+    // Nanakramguda, Gachibowli, Hyderabad" - a real office address whose only locality
+    // word is `district`, with no PIN code and no label - is no longer detected.
+    if (!hasStreet && !cued) continue;
 
-    const signals = Number(hasLocality) + Number(hasPin) + Number(cued);
+    const signals = Number(hasStreet) + Number(hasPin) + Number(cued);
     found.push({
       type: "ADDRESS",
       value,

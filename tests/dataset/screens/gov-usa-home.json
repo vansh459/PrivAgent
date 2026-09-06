@@ -1,0 +1,1044 @@
+{
+  "id": "gov-usa-home",
+  "type": "portal",
+  "sourceUrl": "https://www.usa.gov/",
+  "capturedAt": "2026-09-06T05:59:35.846Z",
+  "annotatedAt": "2026-09-06T06:56:40.409Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 3662,
+  "persona": "Neha Sharma",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content Grievance cell neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        -61,
+        590,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "Español",
+      "bbox": [
+        1093,
+        150,
+        101,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Back to top",
+      "bbox": [
+        1275,
+        590,
+        90,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "Find benefits",
+      "bbox": [
+        898,
+        976,
+        260,
+        51
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Here's how you know",
+      "bbox": [
+        392,
+        4,
+        137,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "USAGov Logo",
+      "bbox": [
+        70,
+        60,
+        80,
+        80
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "searchbox",
+      "name": "Search",
+      "bbox": [
+        879,
+        202,
+        271,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "button",
+      "name": "Search",
+      "bbox": [
+        1150,
+        202,
+        44,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Jump to all topics and services",
+      "bbox": [
+        517,
+        789,
+        231,
+        72
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Voting and elections Find out how to register to vote, where your voting location is, how presidential elections work, and more about voting in the United States.",
+      "bbox": [
+        72,
+        1297,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "The U.S. and its government Learn about U.S. laws, history, and more. Buy government property. Contact elected officials and federal agencies.",
+      "bbox": [
+        355,
+        1297,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Complaints File complaints involving government agencies, telemarketers, products and services, travel, housing, and banking.",
+      "bbox": [
+        638,
+        1297,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Disability services Find government benefits and programs for people with disabilities and their families.",
+      "bbox": [
+        921,
+        1297,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Disasters and emergencies Learn about disaster assistance and find government benefits for other emergencies.",
+      "bbox": [
+        72,
+        1621,
+        272,
+        285
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Education Learn about Federal Student Aid and studying in the U.S. Find early intervention, special education, and Head Start programs.",
+      "bbox": [
+        355,
+        1621,
+        272,
+        285
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Government benefits Find government programs that may help pay for food, housing, health care, and more.",
+      "bbox": [
+        638,
+        1621,
+        272,
+        285
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Health Get information about health insurance. Find help for mental health and other medical conditions, testing, and paying medical bills.",
+      "bbox": [
+        921,
+        1621,
+        272,
+        285
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Housing help Learn about rental and buyer assistance programs. Find emergency housing and avoid eviction.",
+      "bbox": [
+        72,
+        1917,
+        272,
+        339
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Immigration and U.S. citizenship Learn about U.S. residency, Green Cards, citizenship requirements, and related issues.",
+      "bbox": [
+        355,
+        1917,
+        272,
+        339
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Innovation Find ways you can participate through citizen science projects and challenges. Explore active competitions and volunteer opportunities. Innovation is essential to solving problems.",
+      "bbox": [
+        638,
+        1917,
+        272,
+        339
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Jobs, labor laws, and unemployment Get resources for finding a job. Learn about unemployment insurance and important labor laws.",
+      "bbox": [
+        921,
+        1917,
+        272,
+        339
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Laws and legal issues Learn how to replace vital records, get child support enforcement, find legal help, and more.",
+      "bbox": [
+        72,
+        2267,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Military and veterans Learn how to join the military. Find benefits and services as a member or veteran, including how to apply for housing, financial, health, and other support.",
+      "bbox": [
+        355,
+        2267,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Money and credit Find government grants, loans, and unclaimed money. Learn about taxes. Get credit reports and scores.",
+      "bbox": [
+        638,
+        2267,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Scams and fraud Learn about identity theft, Social Security scams, and how to report scams and fraud.",
+      "bbox": [
+        921,
+        2267,
+        272,
+        312
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Small business Learn how to start, fund, and manage your own business. Understand how to get import and export licenses.",
+      "bbox": [
+        72,
+        2590,
+        272,
+        258
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Taxes Learn about filing federal income tax. Find out how to pay, how to check your refund, and more.",
+      "bbox": [
+        355,
+        2590,
+        272,
+        258
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Travel Learn about passports, travel documents for minors, and travel to, from, and within the U.S.",
+      "bbox": [
+        638,
+        2590,
+        272,
+        258
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Life events Discover government benefits and services to help you and your family through every stage of life.",
+      "bbox": [
+        921,
+        2590,
+        272,
+        258
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Call us at 1-844-USAGOV1",
+      "bbox": [
+        651,
+        200,
+        228,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Check my voter registration",
+      "bbox": [
+        136,
+        692,
+        195,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Get or renew a passport",
+      "bbox": [
+        392,
+        692,
+        172,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Get housing help",
+      "bbox": [
+        648,
+        692,
+        121,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Find unclaimed money",
+      "bbox": [
+        904,
+        692,
+        161,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "U.S. General Services Administration",
+      "bbox": [
+        258,
+        3552,
+        279,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Accessibility policy Write to neha.sharma@sub.example.co.in",
+      "bbox": [
+        70,
+        3583,
+        257,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Privacy and security policies",
+      "bbox": [
+        359,
+        3583,
+        201,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "FOIA requests",
+      "bbox": [
+        648,
+        3583,
+        102,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "All topics and services",
+      "bbox": [
+        59,
+        291,
+        172,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "The U.S. and its government",
+      "bbox": [
+        231,
+        291,
+        209,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Government benefits",
+      "bbox": [
+        440,
+        291,
+        160,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Immigration and U.S. citizenship",
+      "bbox": [
+        601,
+        291,
+        236,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Money and credit",
+      "bbox": [
+        837,
+        291,
+        136,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Travel",
+      "bbox": [
+        973,
+        291,
+        65,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Voting and elections",
+      "bbox": [
+        1038,
+        291,
+        156,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": [
+        70,
+        3432,
+        285,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "All topics and services PAN STUVW9900X",
+      "bbox": [
+        70,
+        3057,
+        220,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Directory of U.S. government agencies and departments",
+      "bbox": [
+        70,
+        3127,
+        208,
+        74
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Branches of government Helpline 9765432108",
+      "bbox": [
+        70,
+        3224,
+        197,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "About USAGov",
+      "bbox": [
+        334,
+        3057,
+        123,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Report a website issue",
+      "bbox": [
+        334,
+        3100,
+        183,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Website usage data",
+      "bbox": [
+        334,
+        3143,
+        159,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Partner with us",
+      "bbox": [
+        598,
+        3057,
+        121,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Read our blog",
+      "bbox": [
+        598,
+        3100,
+        114,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "USAGov Outreach",
+      "bbox": [
+        862,
+        3057,
+        150,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Feature articles",
+      "bbox": [
+        862,
+        3100,
+        125,
+        20
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9765432108",
+      "text": "Helpline 9765432108",
+      "bbox": [
+        70,
+        3224,
+        197,
+        47
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 97654 32108",
+      "text": "Alternate contact +91 97654 32108",
+      "bbox": [
+        192,
+        913,
+        651,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "neha.sharma@sub.example.co.in",
+      "text": "Write to neha.sharma@sub.example.co.in",
+      "bbox": [
+        70,
+        3583,
+        257,
+        48
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "445566778899",
+      "text": "Aadhaar 445566778899 linked to this account",
+      "bbox": [
+        894,
+        58,
+        250,
+        53
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "STUVW9900X",
+      "text": "PAN STUVW9900X",
+      "bbox": [
+        70,
+        3057,
+        220,
+        47
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4222 2222 2222 2",
+      "text": "Card on file 4222 2222 2222 2",
+      "bbox": [
+        1001,
+        111,
+        193,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 3311",
+      "text": "OTP is 3311 sent to your phone",
+      "bbox": [
+        644,
+        58,
+        202,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Neha Sharma",
+      "text": "Signed in as Neha Sharma",
+      "bbox": [
+        0,
+        1237,
+        632,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "62 Civil Lines, Jaipur 302006",
+      "text": "Registered address 62 Civil Lines, Jaipur 302006",
+      "bbox": [
+        901,
+        66,
+        293,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "neha.sharma@sub.example.co.in",
+      "text": "Grievance cell neha.sharma@sub.example.co.in",
+      "bbox": [
+        0,
+        -61,
+        590,
+        44
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Skip to main content Grievance cell neha.sharma@sub.example.co.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "An official website of the United States government Here's how you know",
+      "truthId": null
+    },
+    {
+      "text": "Here's how you know",
+      "truthId": null
+    },
+    {
+      "text": "OTP is 3311 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 445566778899 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Registered address 62 Civil Lines, Jaipur 302006",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Card on file 4222 2222 2222 2",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Español",
+      "truthId": null
+    },
+    {
+      "text": "Call us at 1-844-USAGOV1",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "All topics and services",
+      "truthId": null
+    },
+    {
+      "text": "The U.S. and its government",
+      "truthId": null
+    },
+    {
+      "text": "Government benefits",
+      "truthId": null
+    },
+    {
+      "text": "Immigration and U.S. citizenship",
+      "truthId": null
+    },
+    {
+      "text": "Money and credit",
+      "truthId": null
+    },
+    {
+      "text": "Travel",
+      "truthId": null
+    },
+    {
+      "text": "Voting and elections",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Neha Sharma",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Check my voter registration",
+      "truthId": null
+    },
+    {
+      "text": "Get or renew a passport",
+      "truthId": null
+    },
+    {
+      "text": "Get housing help",
+      "truthId": null
+    },
+    {
+      "text": "Find unclaimed money",
+      "truthId": null
+    },
+    {
+      "text": "Jump to all topics and services",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 97654 32108",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Find benefits",
+      "truthId": null
+    },
+    {
+      "text": "Voting and elections Find out how to register to vote, where your voting location is, how presidential elections work, and more about voting in the United States.",
+      "truthId": null
+    },
+    {
+      "text": "The U.S. and its government Learn about U.S. laws, history, and more. Buy government property. Contact elected officials and federal agencies.",
+      "truthId": null
+    },
+    {
+      "text": "Complaints File complaints involving government agencies, telemarketers, products and services, travel, housing, and banking.",
+      "truthId": null
+    },
+    {
+      "text": "Disability services Find government benefits and programs for people with disabilities and their families.",
+      "truthId": null
+    },
+    {
+      "text": "Disasters and emergencies Learn about disaster assistance and find government benefits for other emergencies.",
+      "truthId": null
+    },
+    {
+      "text": "Education Learn about Federal Student Aid and studying in the U.S. Find early intervention, special education, and Head Start programs.",
+      "truthId": null
+    },
+    {
+      "text": "Government benefits Find government programs that may help pay for food, housing, health care, and more.",
+      "truthId": null
+    },
+    {
+      "text": "Health Get information about health insurance. Find help for mental health and other medical conditions, testing, and paying medical bills.",
+      "truthId": null
+    },
+    {
+      "text": "Housing help Learn about rental and buyer assistance programs. Find emergency housing and avoid eviction.",
+      "truthId": null
+    },
+    {
+      "text": "Immigration and U.S. citizenship Learn about U.S. residency, Green Cards, citizenship requirements, and related issues.",
+      "truthId": null
+    },
+    {
+      "text": "Innovation Find ways you can participate through citizen science projects and challenges. Explore active competitions and volunteer opportunities. Innovation is essential to solving problems.",
+      "truthId": null
+    },
+    {
+      "text": "Jobs, labor laws, and unemployment Get resources for finding a job. Learn about unemployment insurance and important labor laws.",
+      "truthId": null
+    },
+    {
+      "text": "Laws and legal issues Learn how to replace vital records, get child support enforcement, find legal help, and more.",
+      "truthId": null
+    },
+    {
+      "text": "Military and veterans Learn how to join the military. Find benefits and services as a member or veteran, including how to apply for housing, financial, health, and other support.",
+      "truthId": null
+    },
+    {
+      "text": "Money and credit Find government grants, loans, and unclaimed money. Learn about taxes. Get credit reports and scores.",
+      "truthId": null
+    },
+    {
+      "text": "Scams and fraud Learn about identity theft, Social Security scams, and how to report scams and fraud.",
+      "truthId": null
+    },
+    {
+      "text": "Small business Learn how to start, fund, and manage your own business. Understand how to get import and export licenses.",
+      "truthId": null
+    },
+    {
+      "text": "Taxes Learn about filing federal income tax. Find out how to pay, how to check your refund, and more.",
+      "truthId": null
+    },
+    {
+      "text": "Travel Learn about passports, travel documents for minors, and travel to, from, and within the U.S.",
+      "truthId": null
+    },
+    {
+      "text": "Life events Discover government benefits and services to help you and your family through every stage of life.",
+      "truthId": null
+    },
+    {
+      "text": "Back to top",
+      "truthId": null
+    },
+    {
+      "text": "All topics and services PAN STUVW9900X",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Directory of U.S. government agencies and departments",
+      "truthId": null
+    },
+    {
+      "text": "Branches of government Helpline 9765432108",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "About USAGov",
+      "truthId": null
+    },
+    {
+      "text": "Report a website issue",
+      "truthId": null
+    },
+    {
+      "text": "Website usage data",
+      "truthId": null
+    },
+    {
+      "text": "Partner with us",
+      "truthId": null
+    },
+    {
+      "text": "Read our blog",
+      "truthId": null
+    },
+    {
+      "text": "USAGov Outreach",
+      "truthId": null
+    },
+    {
+      "text": "Feature articles",
+      "truthId": null
+    },
+    {
+      "text": "1-844-USAGOV1 (1-844-872-4681)",
+      "truthId": null
+    },
+    {
+      "text": "U.S. General Services Administration",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility policy Write to neha.sharma@sub.example.co.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Privacy and security policies",
+      "truthId": null
+    },
+    {
+      "text": "FOIA requests",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9765432108",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9765432108"
+        }
+      }
+    ]
+  }
+}

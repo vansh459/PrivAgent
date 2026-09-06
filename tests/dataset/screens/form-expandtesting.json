@@ -1,0 +1,797 @@
+{
+  "id": "form-expandtesting",
+  "type": "form",
+  "sourceUrl": "https://practice.expandtesting.com/register",
+  "capturedAt": "2026-09-06T06:03:55.674Z",
+  "annotatedAt": "2026-09-06T06:56:55.276Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1717,
+  "persona": "Anand Krishnamurthy",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Download Productivity Apps",
+      "bbox": [
+        8,
+        40,
+        212,
+        25
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "PMP Practice Helpline 7654321098",
+      "bbox": [
+        8,
+        10,
+        225,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "SUT",
+      "bbox": [
+        62,
+        91,
+        1140,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "Toggle navigation",
+      "bbox": [
+        62,
+        136,
+        47,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Expand Testing",
+      "bbox": [
+        261,
+        1374,
+        99,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Free ISTQB Mock Exams Grievance cell anand.k@example.org",
+      "bbox": [
+        62,
+        626,
+        437,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Buy us a coffee",
+      "bbox": [
+        273,
+        675,
+        100,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "button",
+      "name": "Register",
+      "bbox": [
+        213,
+        1199,
+        65,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Discover Productivity Apps",
+      "bbox": [
+        1008,
+        812,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Download Secure Browsers",
+      "bbox": [
+        1008,
+        872,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Upgrade Industrial Robotics",
+      "bbox": [
+        1008,
+        932,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Learn Coding Online",
+      "bbox": [
+        1008,
+        992,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Find Computer Processors",
+      "bbox": [
+        1008,
+        1052,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Compare Developer Tools",
+      "bbox": [
+        1008,
+        1112,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Download Productivity Apps",
+      "bbox": [
+        1008,
+        1172,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Explore Scripting Courses",
+      "bbox": [
+        1008,
+        1232,
+        190,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "Demos",
+      "bbox": [
+        102,
+        233,
+        54,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Tools PAN ZYXWV9876A",
+      "bbox": [
+        102,
+        484,
+        212,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Tips",
+      "bbox": [
+        102,
+        506,
+        33,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Test Cases",
+      "bbox": [
+        102,
+        527,
+        81,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "API Testing",
+      "bbox": [
+        102,
+        549,
+        92,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "About",
+      "bbox": [
+        102,
+        570,
+        48,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Get Quality Software",
+      "bbox": [
+        11,
+        810,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Explore Scripting Courses",
+      "bbox": [
+        11,
+        870,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Upgrade Industrial Robotics",
+      "bbox": [
+        11,
+        930,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Download Secure Browsers",
+      "bbox": [
+        11,
+        990,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Download Productivity Apps",
+      "bbox": [
+        11,
+        1050,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Find Computer Processors",
+      "bbox": [
+        11,
+        1110,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Compare Developer Tools",
+      "bbox": [
+        11,
+        1170,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Learn Coding Online",
+      "bbox": [
+        11,
+        1230,
+        189,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "textbox",
+      "name": "Username",
+      "bbox": [
+        281,
+        1135,
+        170,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "textbox",
+      "name": "Password",
+      "bbox": [
+        278,
+        1157,
+        170,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "textbox",
+      "name": "Confirm Password",
+      "bbox": [
+        336,
+        1178,
+        170,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        253,
+        744,
+        39,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Examples Write to anand.k@example.org",
+      "bbox": [
+        142,
+        254,
+        267,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Apps",
+      "bbox": [
+        142,
+        307,
+        34,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "APIs",
+      "bbox": [
+        142,
+        360,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Assertions",
+      "bbox": [
+        142,
+        413,
+        68,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Reports",
+      "bbox": [
+        142,
+        466,
+        50,
+        18
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7654321098",
+      "text": "Helpline 7654321098",
+      "bbox": [
+        8,
+        10,
+        225,
+        17
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "080 2345 6789",
+      "text": "Alternate contact 080 2345 6789",
+      "bbox": [
+        213,
+        1057,
+        809,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "anand.k@example.org",
+      "text": "Write to anand.k@example.org",
+      "bbox": [
+        142,
+        254,
+        267,
+        18
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "9876-5432-1098",
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "bbox": [
+        213,
+        882,
+        809,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "ZYXWV9876A",
+      "text": "PAN ZYXWV9876A",
+      "bbox": [
+        102,
+        484,
+        212,
+        21
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3400 0000 0000 009",
+      "text": "Card on file 3400 0000 0000 009",
+      "bbox": [
+        213,
+        1096,
+        809,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 5678",
+      "text": "OTP: 5678 sent to your phone",
+      "bbox": [
+        213,
+        843,
+        809,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Anand Krishnamurthy",
+      "text": "Signed in as Anand Krishnamurthy",
+      "bbox": [
+        62,
+        184,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Plot 9, Sector 21, Gurugram 122016",
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "bbox": [
+        213,
+        1018,
+        809,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "anand.k@example.org",
+      "text": "Grievance cell anand.k@example.org",
+      "bbox": [
+        62,
+        626,
+        437,
+        18
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "PMP Practice Helpline 7654321098",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Download Productivity Apps",
+      "truthId": null
+    },
+    {
+      "text": "SUT",
+      "truthId": null
+    },
+    {
+      "text": "Toggle navigation",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Anand Krishnamurthy",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Demos",
+      "truthId": null
+    },
+    {
+      "text": "Examples Write to anand.k@example.org",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Apps",
+      "truthId": null
+    },
+    {
+      "text": "APIs",
+      "truthId": null
+    },
+    {
+      "text": "Assertions",
+      "truthId": null
+    },
+    {
+      "text": "Reports",
+      "truthId": null
+    },
+    {
+      "text": "Tools PAN ZYXWV9876A",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Tips",
+      "truthId": null
+    },
+    {
+      "text": "Test Cases",
+      "truthId": null
+    },
+    {
+      "text": "API Testing",
+      "truthId": null
+    },
+    {
+      "text": "About",
+      "truthId": null
+    },
+    {
+      "text": "Free ISTQB Mock Exams Grievance cell anand.k@example.org",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Buy us a coffee",
+      "truthId": null
+    },
+    {
+      "text": "These are topics related to the article that might interest you",
+      "truthId": null
+    },
+    {
+      "text": "Get Quality Software",
+      "truthId": null
+    },
+    {
+      "text": "Explore Scripting Courses",
+      "truthId": null
+    },
+    {
+      "text": "Upgrade Industrial Robotics",
+      "truthId": null
+    },
+    {
+      "text": "Download Secure Browsers",
+      "truthId": null
+    },
+    {
+      "text": "Download Productivity Apps",
+      "truthId": null
+    },
+    {
+      "text": "Find Computer Processors",
+      "truthId": null
+    },
+    {
+      "text": "Compare Developer Tools",
+      "truthId": null
+    },
+    {
+      "text": "Learn Coding Online",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "OTP: 5678 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Alternate contact 080 2345 6789",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Card on file 3400 0000 0000 009",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Username",
+      "truthId": null
+    },
+    {
+      "text": "Password",
+      "truthId": null
+    },
+    {
+      "text": "Confirm Password",
+      "truthId": null
+    },
+    {
+      "text": "Register",
+      "truthId": null
+    },
+    {
+      "text": "These are topics related to the article that might interest you",
+      "truthId": null
+    },
+    {
+      "text": "Discover Productivity Apps",
+      "truthId": null
+    },
+    {
+      "text": "Download Secure Browsers",
+      "truthId": null
+    },
+    {
+      "text": "Upgrade Industrial Robotics",
+      "truthId": null
+    },
+    {
+      "text": "Learn Coding Online",
+      "truthId": null
+    },
+    {
+      "text": "Find Computer Processors",
+      "truthId": null
+    },
+    {
+      "text": "Compare Developer Tools",
+      "truthId": null
+    },
+    {
+      "text": "Download Productivity Apps",
+      "truthId": null
+    },
+    {
+      "text": "Explore Scripting Courses",
+      "truthId": null
+    },
+    {
+      "text": "Expand Testing",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7654321098",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7654321098"
+        }
+      }
+    ]
+  }
+}

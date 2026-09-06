@@ -1,0 +1,1869 @@
+{
+  "id": "gov-epfo",
+  "type": "portal",
+  "sourceUrl": "https://www.epfo.gov.in/",
+  "capturedAt": "2026-09-06T05:59:02.437Z",
+  "annotatedAt": "2026-09-06T06:56:36.150Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 8162,
+  "persona": "Vikram Deshpande",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Accessibility Widget",
+      "bbox": [
+        0,
+        7993,
+        39,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "↑",
+      "bbox": [
+        16,
+        621,
+        59,
+        59
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "Submit",
+      "bbox": [
+        0,
+        8138,
+        47,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Get Started",
+      "bbox": [
+        521,
+        4431,
+        149,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1105,
+        5077,
+        82,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Get it on Google Play",
+      "bbox": [
+        557,
+        5712,
+        169,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Download on the App Store",
+      "bbox": [
+        746,
+        5712,
+        150,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1105,
+        5912,
+        82,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "General Helpline 9123456780",
+      "bbox": [
+        77,
+        5983,
+        228,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "Employee",
+      "bbox": [
+        317,
+        5983,
+        104,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "Employer",
+      "bbox": [
+        433,
+        5983,
+        101,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Pensioner",
+      "bbox": [
+        546,
+        5983,
+        105,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Acts & Manuals Manuals & Guidelines ›",
+      "bbox": [
+        97,
+        7051,
+        237,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Press Release Publications ›",
+      "bbox": [
+        369,
+        7051,
+        176,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Tenders Tenders ›",
+      "bbox": [
+        580,
+        7051,
+        150,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Videos Media Centre ›",
+      "bbox": [
+        765,
+        7051,
+        185,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Photo Gallery Recruitments ›",
+      "bbox": [
+        985,
+        7051,
+        183,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Get in touch",
+      "bbox": [
+        1036,
+        7240,
+        152,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "New Version",
+      "bbox": [
+        489,
+        7,
+        97,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Old Version",
+      "bbox": [
+        590,
+        7,
+        92,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "logo",
+      "bbox": [
+        119,
+        954,
+        392,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "For Employees",
+      "bbox": [
+        265,
+        2712,
+        128,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "For Employers Grievance cell v.deshpande+claims@example.com",
+      "bbox": [
+        409,
+        2712,
+        446,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "For Pensioners",
+      "bbox": [
+        871,
+        2712,
+        129,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Activate Now",
+      "bbox": [
+        188,
+        2979,
+        124,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "View Now",
+      "bbox": [
+        495,
+        3000,
+        101,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Update Now",
+      "bbox": [
+        762,
+        3000,
+        117,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Apply Now",
+      "bbox": [
+        1054,
+        2979,
+        108,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Know Now",
+      "bbox": [
+        345,
+        3290,
+        108,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Submit Now",
+      "bbox": [
+        621,
+        3313,
+        117,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "File Now",
+      "bbox": [
+        930,
+        3290,
+        94,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Check Eligibility",
+      "bbox": [
+        454,
+        3902,
+        127,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Learn More",
+      "bbox": [
+        298,
+        4141,
+        98,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Learn More",
+      "bbox": [
+        1065,
+        3790,
+        98,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        687,
+        4115,
+        97,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1098,
+        4632,
+        89,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "twitter",
+      "bbox": [
+        173,
+        6592,
+        69,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "youtube",
+      "bbox": [
+        456,
+        6592,
+        70,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "instagram",
+      "bbox": [
+        739,
+        6592,
+        70,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "facebook",
+      "bbox": [
+        1023,
+        6592,
+        70,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Epfo logo",
+      "bbox": [
+        77,
+        7391,
+        194,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "facebook footer",
+      "bbox": [
+        77,
+        7455,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "twitter footer",
+      "bbox": [
+        136,
+        7455,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "instagram footer",
+      "bbox": [
+        195,
+        7455,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "linkedin footer",
+      "bbox": [
+        254,
+        7455,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "india gov",
+      "bbox": [
+        1010,
+        7386,
+        89,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7703,
+        92,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7727,
+        68,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7751,
+        63,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7775,
+        69,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7799,
+        88,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7824,
+        78,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7848,
+        102,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7872,
+        76,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7896,
+        42,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7920,
+        83,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "button",
+      "name": "Enable the UserWay screen reader",
+      "bbox": [
+        0,
+        7945,
+        77,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "button",
+      "name": "Reset All Settings",
+      "bbox": [
+        0,
+        7969,
+        113,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Created by logo",
+      "bbox": [
+        117,
+        7973,
+        114,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "भारत सरकार | Government of India",
+      "bbox": [
+        112,
+        8,
+        196,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "skip to Content",
+      "bbox": [
+        887,
+        450,
+        106,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Increase font",
+      "bbox": [
+        892,
+        469,
+        34,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Reset font",
+      "bbox": [
+        926,
+        469,
+        29,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "decrease font",
+      "bbox": [
+        954,
+        469,
+        32,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "button",
+      "name": "English",
+      "bbox": [
+        1057,
+        4,
+        72,
+        64
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Employee Login",
+      "bbox": [
+        879,
+        954,
+        148,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Employer Login",
+      "bbox": [
+        1043,
+        954,
+        144,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "tab",
+      "name": "1 of 10",
+      "bbox": [
+        548,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "tab",
+      "name": "2 of 10",
+      "bbox": [
+        561,
+        2109,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "tab",
+      "name": "3 of 10",
+      "bbox": [
+        612,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "tab",
+      "name": "4 of 10",
+      "bbox": [
+        626,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "tab",
+      "name": "5 of 10",
+      "bbox": [
+        640,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "tab",
+      "name": "6 of 10",
+      "bbox": [
+        654,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "tab",
+      "name": "7 of 10",
+      "bbox": [
+        668,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "tab",
+      "name": "8 of 10",
+      "bbox": [
+        682,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "tab",
+      "name": "9 of 10",
+      "bbox": [
+        696,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "tab",
+      "name": "10 of 10",
+      "bbox": [
+        710,
+        2110,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        1110,
+        4722,
+        53,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Read More",
+      "bbox": [
+        102,
+        5329,
+        303,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Read More",
+      "bbox": [
+        480,
+        5329,
+        303,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Read More",
+      "bbox": [
+        858,
+        5329,
+        303,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "EPF Scheme",
+      "bbox": [
+        361,
+        7411,
+        84,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "FAQs",
+      "bbox": [
+        361,
+        7444,
+        36,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Disclaimer",
+      "bbox": [
+        361,
+        7477,
+        67,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Copyright Policy",
+      "bbox": [
+        361,
+        7509,
+        104,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        551,
+        7411,
+        52,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "RTI",
+      "bbox": [
+        551,
+        7444,
+        23,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "EPFiGMS",
+      "bbox": [
+        551,
+        7477,
+        63,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "mGovernance",
+      "bbox": [
+        551,
+        7509,
+        90,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "M/o L&E",
+      "bbox": [
+        740,
+        7411,
+        55,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "Hyperlinking Policy",
+      "bbox": [
+        740,
+        7444,
+        121,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Terms & Conditions",
+      "bbox": [
+        888,
+        7623,
+        151,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "Privacy Policy",
+      "bbox": [
+        1058,
+        7623,
+        113,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "checkbox",
+      "name": "checkbox",
+      "bbox": [
+        2,
+        7924,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "button",
+      "name": "next arrow",
+      "bbox": [
+        714,
+        1484,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "button",
+      "name": "prev arrow",
+      "bbox": [
+        299,
+        1614,
+        27,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "button",
+      "name": "next arrow",
+      "bbox": [
+        1105,
+        1614,
+        27,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "About ",
+      "bbox": [
+        214,
+        996,
+        78,
+        71
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Employee ",
+      "bbox": [
+        292,
+        996,
+        101,
+        69
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Employer ",
+      "bbox": [
+        393,
+        996,
+        98,
+        69
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Pensioner ",
+      "bbox": [
+        492,
+        996,
+        102,
+        69
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Legal Framework ",
+      "bbox": [
+        594,
+        996,
+        144,
+        71
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "Resources ",
+      "bbox": [
+        738,
+        996,
+        106,
+        71
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Opportunities PAN PQRST5678U ",
+      "bbox": [
+        844,
+        996,
+        237,
+        71
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "account_balance_wallet Check EPF Balance",
+      "bbox": [
+        200,
+        1485,
+        146,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "credit_score Withdraw EPF",
+      "bbox": [
+        388,
+        1485,
+        110,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "VENUE DETAILS OF CAMPS UNDER NIDHI AAPKE NIKAT 2.0 (AUGUST – 2026)",
+      "bbox": [
+        347,
+        1616,
+        739,
+        17
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9123456780",
+      "text": "Helpline 9123456780",
+      "bbox": [
+        77,
+        5983,
+        228,
+        43
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "022 2789 4561",
+      "text": "Alternate contact 022 2789 4561",
+      "bbox": [
+        742,
+        10,
+        144,
+        924
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "v.deshpande+claims@example.com",
+      "text": "Write to v.deshpande+claims@example.com",
+      "bbox": [
+        1100,
+        1616,
+        739,
+        17
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "5678 1234 9012",
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "bbox": [
+        0,
+        1055,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "PQRST5678U",
+      "text": "PAN PQRST5678U",
+      "bbox": [
+        844,
+        996,
+        237,
+        71
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4012 8888 8888 1881",
+      "text": "Card on file 4012 8888 8888 1881",
+      "bbox": [
+        0,
+        1094,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 135790",
+      "text": "OTP is 135790 sent to your phone",
+      "bbox": [
+        -840,
+        1783,
+        925,
+        31
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Vikram Deshpande",
+      "text": "Signed in as Vikram Deshpande",
+      "bbox": [
+        -2860,
+        1783,
+        925,
+        31
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Shop 6, 41 Linking Road, Mumbai 400050",
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "bbox": [
+        0,
+        6,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "v.deshpande+claims@example.com",
+      "text": "Grievance cell v.deshpande+claims@example.com",
+      "bbox": [
+        409,
+        2712,
+        446,
+        39
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "भारत सरकार | Government of India",
+      "truthId": null
+    },
+    {
+      "text": "New Version",
+      "truthId": null
+    },
+    {
+      "text": "Old Version",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 022 2789 4561",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "skip to Content",
+      "truthId": null
+    },
+    {
+      "text": "Increase font",
+      "truthId": null
+    },
+    {
+      "text": "Reset font",
+      "truthId": null
+    },
+    {
+      "text": "decrease font",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "Employee Login",
+      "truthId": null
+    },
+    {
+      "text": "Employer Login",
+      "truthId": null
+    },
+    {
+      "text": "About",
+      "truthId": null
+    },
+    {
+      "text": "Employee",
+      "truthId": null
+    },
+    {
+      "text": "Employer",
+      "truthId": null
+    },
+    {
+      "text": "Pensioner",
+      "truthId": null
+    },
+    {
+      "text": "Legal Framework",
+      "truthId": null
+    },
+    {
+      "text": "Resources",
+      "truthId": null
+    },
+    {
+      "text": "Opportunities PAN PQRST5678U",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Card on file 4012 8888 8888 1881",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Check EPF Balance",
+      "truthId": null
+    },
+    {
+      "text": "Check EPF Balance",
+      "truthId": null
+    },
+    {
+      "text": "Withdraw EPF",
+      "truthId": null
+    },
+    {
+      "text": "Withdraw EPF",
+      "truthId": null
+    },
+    {
+      "text": "Apply for Pension",
+      "truthId": null
+    },
+    {
+      "text": "Submit ECR",
+      "truthId": null
+    },
+    {
+      "text": "Employer Registration",
+      "truthId": null
+    },
+    {
+      "text": "Generate UAN",
+      "truthId": null
+    },
+    {
+      "text": "EPF Advance",
+      "truthId": null
+    },
+    {
+      "text": "Submit DLC",
+      "truthId": null
+    },
+    {
+      "text": "Submit e-Nomination",
+      "truthId": null
+    },
+    {
+      "text": "Corrigendum regarding filling up the post of vigilance assistant on deputation basis in epfo",
+      "truthId": null
+    },
+    {
+      "text": "VENUE DETAILS OF CAMPS UNDER NIDHI AAPKE NIKAT 2.0 (AUGUST – 2026)",
+      "truthId": null
+    },
+    {
+      "text": "VENUE DETAILS OF CAMPS UNDER NIDHI AAPKE NIKAT 2.0 (AUGUST – 2026)",
+      "truthId": null
+    },
+    {
+      "text": "March 2026 NAN Venue Details Write to v.deshpande+claims@example.com",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Venue Details of Camps under Nidhi Aapke Nikat 2.0",
+      "truthId": null
+    },
+    {
+      "text": "Use of Social Media Platform of EPFO HO",
+      "truthId": null
+    },
+    {
+      "text": "Corrigendum regarding filling up the post of vigilance assistant on deputation basis in epfo",
+      "truthId": null
+    },
+    {
+      "text": "VENUE DETAILS OF CAMPS UNDER NIDHI AAPKE NIKAT 2.0 (AUGUST – 2026)",
+      "truthId": null
+    },
+    {
+      "text": "March 2026 NAN Venue Details",
+      "truthId": null
+    },
+    {
+      "text": "Venue Details of Camps under Nidhi Aapke Nikat 2.0",
+      "truthId": null
+    },
+    {
+      "text": "Use of Social Media Platform of EPFO HO",
+      "truthId": null
+    },
+    {
+      "text": "Corrigendum regarding filling up the post of vigilance assistant on deputation basis in epfo",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Vikram Deshpande",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "OTP is 135790 sent to your phone",
+      "truthId": null
+    },
+    {
+      "text": "OTP is 135790 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "1 2 3 4 5 6 7 8 9 10",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "1 of 10",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "2 of 10",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "3 of 10",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "4 of 10",
+      "truthId": null
+    },
+    {
+      "text": "5",
+      "truthId": null
+    },
+    {
+      "text": "5 of 10",
+      "truthId": null
+    },
+    {
+      "text": "6",
+      "truthId": null
+    },
+    {
+      "text": "6 of 10",
+      "truthId": null
+    },
+    {
+      "text": "7",
+      "truthId": null
+    },
+    {
+      "text": "7 of 10",
+      "truthId": null
+    },
+    {
+      "text": "8",
+      "truthId": null
+    },
+    {
+      "text": "8 of 10",
+      "truthId": null
+    },
+    {
+      "text": "9",
+      "truthId": null
+    },
+    {
+      "text": "9 of 10",
+      "truthId": null
+    },
+    {
+      "text": "10",
+      "truthId": null
+    },
+    {
+      "text": "10 of 10",
+      "truthId": null
+    },
+    {
+      "text": "For Employees",
+      "truthId": null
+    },
+    {
+      "text": "For Employers Grievance cell v.deshpande+claims@example.com",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "For Pensioners",
+      "truthId": null
+    },
+    {
+      "text": "Activate Now",
+      "truthId": null
+    },
+    {
+      "text": "View Now",
+      "truthId": null
+    },
+    {
+      "text": "Update Now",
+      "truthId": null
+    },
+    {
+      "text": "Apply Now",
+      "truthId": null
+    },
+    {
+      "text": "Know Now",
+      "truthId": null
+    },
+    {
+      "text": "Submit Now",
+      "truthId": null
+    },
+    {
+      "text": "File Now",
+      "truthId": null
+    },
+    {
+      "text": "Check Eligibility",
+      "truthId": null
+    },
+    {
+      "text": "Learn More",
+      "truthId": null
+    },
+    {
+      "text": "Learn More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Get Started",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "2026 2027 2028 2029 2030",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "February 26, 2026 Union-Minister-Dr.-Mansukh-Mandaviya-Inaugurates-Fifth-Regional-Conference-on-Labour-Codes-in-New-Delhi-Posted-On-27-Feb-2026 Read More December 30, 2025 Year End Review 2025 – Ministry of Labour & Employment Read More December 29, 2025 PDUNASS and IC Centre for Governance Forge Landmark Partnership to Embed Ethics in Social Security Administration Read More",
+      "truthId": null
+    },
+    {
+      "text": "Read More",
+      "truthId": null
+    },
+    {
+      "text": "Read More",
+      "truthId": null
+    },
+    {
+      "text": "Read More",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "General Helpline 9123456780",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Employee",
+      "truthId": null
+    },
+    {
+      "text": "Employer",
+      "truthId": null
+    },
+    {
+      "text": "Pensioner",
+      "truthId": null
+    },
+    {
+      "text": "Manuals & Guidelines ›",
+      "truthId": null
+    },
+    {
+      "text": "Publications ›",
+      "truthId": null
+    },
+    {
+      "text": "Tenders ›",
+      "truthId": null
+    },
+    {
+      "text": "Media Centre ›",
+      "truthId": null
+    },
+    {
+      "text": "Recruitments ›",
+      "truthId": null
+    },
+    {
+      "text": "Get in touch",
+      "truthId": null
+    },
+    {
+      "text": "EPF Scheme",
+      "truthId": null
+    },
+    {
+      "text": "FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Copyright Policy",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "RTI",
+      "truthId": null
+    },
+    {
+      "text": "EPFiGMS",
+      "truthId": null
+    },
+    {
+      "text": "mGovernance",
+      "truthId": null
+    },
+    {
+      "text": "M/o L&E",
+      "truthId": null
+    },
+    {
+      "text": "Hyperlinking Policy",
+      "truthId": null
+    },
+    {
+      "text": "Terms & Conditions",
+      "truthId": null
+    },
+    {
+      "text": "Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Enable the UserWay screen reader",
+      "truthId": null
+    },
+    {
+      "text": "Reset All Settings",
+      "truthId": null
+    },
+    {
+      "text": "Created by",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility Widget",
+      "truthId": null
+    },
+    {
+      "text": "↑",
+      "truthId": null
+    },
+    {
+      "text": "Submit",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9123456780",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9123456780"
+        }
+      }
+    ]
+  }
+}

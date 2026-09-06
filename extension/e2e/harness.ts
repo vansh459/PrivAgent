@@ -40,6 +40,13 @@ export interface LaunchOptions {
    * would simply report "unavailable" everywhere and prove nothing.
    */
   args?: string[];
+  /**
+   * Where to write a video of the session, and at what size.
+   *
+   * Used by the demo rehearsal to produce the Phase 9.4 backup recording. Playwright writes
+   * one video per page, so the page under test and the popup arrive as separate files.
+   */
+  recordVideo?: { dir: string; size?: { width: number; height: number } };
 }
 
 /** Extensions require a full headed Chromium; the headless shell cannot load them. */
@@ -47,11 +54,13 @@ export async function launchWithExtension({
   extensionPath,
   args = [],
   userDataDir = "",
+  recordVideo,
 }: LaunchOptions): Promise<BrowserContext> {
   const channel = channelOverride();
   return chromium.launchPersistentContext(userDataDir, {
     headless: false,
     ...(channel ? { channel } : {}),
+    ...(recordVideo ? { recordVideo } : {}),
     args: [
       `--disable-extensions-except=${extensionPath}`,
       `--load-extension=${extensionPath}`,

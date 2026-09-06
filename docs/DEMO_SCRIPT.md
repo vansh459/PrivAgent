@@ -1,158 +1,157 @@
-# PrivAgent Demo Script
+# PrivAgent demo script
 
-Extension 0.2.0. Last updated: 2026-09-04.
+Extension 0.3.0 · last updated 2026-09-06 · **automated rehearsal: passing (two consecutive
+passes). Human rehearsal: not yet done.**
 
-> **Not yet rehearsed by a person.** Every step below is executed automatically by
-> `extension/e2e/loop.spec.ts` against a real browser, so the flow is known to work — but
-> Build Spec Phase 9.3 requires two clean human rehearsals before this is demo-ready. Do
-> not present it as rehearsed.
+Every step below is executed by `extension/e2e/demo.spec.ts`, twice in a row, against a real
+browser, and every number quoted is asserted by that test. So the flow is known to work and
+the figures are known to be current. What has _not_ happened is two clean run-throughs by a
+person, which is what Build Spec Phase 9.3 actually asks for — until that is done, do not
+describe this as rehearsed.
+
+A recording of the automated rehearsal is at [`demo/privagent-demo.webm`](./demo/privagent-demo.webm),
+which is the Phase 9.4 backup. Regenerate it with `npx playwright test e2e/demo.spec.ts`.
 
 ## Before you start
 
 ```bash
 npm ci --prefix extension
 pip install -r server/requirements-dev.txt
-npm run build                 # both targets + manifest validation
+npm run build                                    # both targets + manifest validation
 python -m uvicorn app.main:app --app-dir server --port 8000
-curl http://127.0.0.1:8000/health     # confirm, and note the provider
+curl http://127.0.0.1:8000/health                # confirm, and note which provider is active
 ```
 
-Load `extension/dist/chrome` unpacked. Open `extension/e2e/fixtures/report-portal.html`
-through a local HTTP server — a `file://` URL will not do, content scripts need an http
-origin.
+Load `extension/dist/chrome` unpacked. Serve the two fixture pages over HTTP — a `file://`
+URL will not do, content scripts need an http origin:
 
-The fixture is built for this demo: a `role="note"` region carrying a phone number, an
-email, an Aadhaar number and a card number; a `role="status"` line with another phone
-number; a login form with a password field; a download link; and a "Request callback on
-9876543210" link — one PII value that the agent _does_ need, so it is tokenized rather
-than withheld.
-
-Have open, ready to show: the popup, and DevTools on the page (Application and Network
-tabs).
-
-## The three-minute version
-
-**1. The problem (20s).** "An agent that can act on your screen has to see your screen. Sent
-to a server, that means your passwords, your Aadhaar number and your card details leave
-your machine. PrivAgent does the seeing and the redacting on-device, and sends the server
-only what it needs to decide."
-
-**2. Run a task (40s).** Popup → `download report` → **Run task**. The link is clicked.
-
-Then read the privacy summary out loud, because this is the whole argument:
-
-> "Six elements perceived, four transmitted, three redacted. Two never left the machine at
-> all, and the one that did went as a token."
-
-(Those are the real numbers from this fixture, asserted by the e2e suite.)
-
-**3. Show what was actually sent (60s).** DevTools → Network → the `/reason` request →
-Payload:
-
-```json
-{
-  "schema_version": "1.0",
-  "task": "download report",
-  "elements": [
-    {
-      "mark_id": "M1",
-      "role": "text_field",
-      "text": "Username",
-      "bbox": [77, 117, 170, 21]
-    },
-    {
-      "mark_id": "M2",
-      "role": "link",
-      "text": "Download report",
-      "bbox": [8, 139, 109, 18]
-    },
-    {
-      "mark_id": "M3",
-      "role": "link",
-      "text": "Request callback on [PII_PHONE_01]",
-      "bbox": [121, 139, 213, 18]
-    },
-    {
-      "mark_id": "M4",
-      "role": "button",
-      "text": "Cancel",
-      "bbox": [338, 138, 57, 21]
-    }
-  ]
-}
+```bash
+npx serve extension/e2e/fixtures      # or any static server on 127.0.0.1
 ```
 
-That is a real captured payload, not an illustration.
+Have open and ready: the popup, and DevTools on the page (Network and Application tabs).
 
-Three things to point at, in order:
+**Optional, and worth it if the room is patient:** start Ollama with `qwen2.5:1.5b` and run
+the server with `PRIVAGENT_REASONER=ollama`. The whole loop then runs on the machine in
+front of you, with no network at all. It costs about ten seconds per task — see the closing
+note.
 
-1. **No password field at all.** Not redacted — never perceived. Excluding it at extraction
-   means there is no code path on which its value could have been read.
-2. **The Aadhaar, card and email are simply absent.** Those regions were perceived and
-   redacted, then withheld entirely as not task-relevant. Redaction is the second line of
-   defence; not sending is the first.
-3. **M3 is the interesting one.** The agent _needs_ that link to act, so it was
-   transmitted — as `Request callback on [PII_PHONE_01]`. The server learns that there is a
-   phone number and what the control does, and never learns the number.
+---
 
-**4. The confirmation gate (30s).** Run a task that produces a `navigate`. The prompt
-appears in the page; the reasoner's own explanation is shown. Press **Deny** — nothing
-happens; the audit trail records the denial.
+## The four-minute version
 
-Worth saying: "The server proposed low risk here. The client scored it high and the client
-won. A compromised server can escalate risk, never lower it."
+### 1. The problem — 25 seconds
 
-**5. The audit trail (30s).** Six stages in the popup. Then the punchline, in DevTools →
-Application → Storage, **on the page's origin**: the page's own `localStorage` holds only
-what the page wrote, and there is no `privagent` database. The trail lives on the
-extension's origin, so the site you are on cannot read what the agent saw there.
+> "An agent that can act on your screen has to see your screen. Send that to a server and
+> your passwords, your Aadhaar number and your card details leave your machine — and the
+> screenshot doesn't come back. PrivAgent does the seeing and the redacting on the device,
+> and sends the server only what it needs in order to decide."
 
-This is asserted directly by the e2e suite, not just demonstrated — it is the one privacy
-property that no unit test could establish.
+### 2. Run a task — 40 seconds
 
-## The PII redaction close-up
+Open `report-portal.html`. Type a username and a password into the login form, so the room
+can see there is something to protect. Popup → `download report` → **Run task**.
 
-If you have longer, the strongest single moment is the adjacent-PII case. Run
-`npx vitest run tests/privacy.test.ts` and show this line from the suite:
+The link is clicked. Then read the privacy summary out loud, because it is the whole
+argument:
 
-```
-in : Aadhaar 1234 5678 9012 and card 4111 1111 1111 1111
-out: Aadhaar [PII_AADHAAR_01] and card [PII_CARD_01]
-```
+> "Six elements perceived. Four transmitted. Three redacted. The password field was never
+> even read."
 
-Two different PII types, adjacent, and the card's first twelve digits are themselves
-Aadhaar-shaped. An earlier build got this wrong: it labelled the card `[PII_AADHAAR_01]`
-and ate six characters of the surrounding sentence. Five regression tests now cover exactly
-these overlapping cases, plus a 30-sample / 30-control corpus with 100% recall and zero
-false positives.
+(Those are the real numbers on this fixture, asserted by the rehearsal test.)
 
-Worth stating plainly: this was a real defect found by running the code, not a hypothetical.
-The tests exist because it happened.
+### 3. Show what actually left — 60 seconds
 
-## What to say when asked what is missing
+DevTools → Network → the `/reason` request → Payload.
 
-Answer these directly; they are the obvious questions and evasion costs more than candour.
+Point at three things, in this order:
 
-**"Where is the vision model?"** Not built. Perception today is DOM and accessibility-tree
-extraction. Screenshot capture, OCR, face and object detection are Stage 2, and the
-architecture is already staged for them — the fusion engine and runtime selection are
-written and tested, and the manifest already carries the `tabs` permission and the WASM CSP
-they need. Until a real model runs on real pixels, we call this a DOM agent.
+- **The password is not there, and neither is the field's value.** Credential fields are
+  dropped during _extraction_, not during redaction — the value is never read at all, so
+  there is nothing to leak later.
+- **The Aadhaar number, the card number and the support phone number are not there either.**
+  Those live in a `role="note"` region that is not relevant to this task, so the context
+  builder withheld the whole element rather than sending a redacted version of it.
+- **Run `request callback` and look again.** Now the phone number _is_ needed, so the
+  element is transmitted — as `Request callback on [PII_PHONE_01]`. The token is stable
+  within the task and the map from token to value never leaves the client's memory.
 
-**"Is that a real LLM?"** No. A deterministic keyword matcher, behind a provider interface,
-so the endpoint and client do not change when a real model lands. `/health` reports which
-provider is active — check it before demoing.
+> "Redaction isn't deletion. The agent can still act on a field it is not allowed to read."
 
-**"What if redaction fails?"** Three layers. Credential fields are never read at all.
-Detected PII is tokenized. Anything the confidence gate finds borderline is withheld
-entirely rather than sent. And the payload is schema-validated immediately before `fetch`,
-with the server rejecting unknown fields — so a leak has to defeat both ends.
+### 4. The half a DOM cannot see — 60 seconds
 
-## Fallback
+Open `claims-review.html`. It has two things no text-only privacy filter can handle: a
+photograph carrying a face, and a `<canvas>` whose text exists only as pixels. Neither has
+alt text, deliberately — an author's description is a claim about an image, not an
+observation of it.
 
-If the live demo fails, run `npm run test:e2e --prefix extension` — the same flow, driven
-automatically in a real browser, in about 15 seconds. Failing that, `npm test` (210 client
-and 14 server tests, including the credential and overlapping-PII regression suites) and
-walk the captured payload in [SECURITY.md](./SECURITY.md).
+Popup → `check the settlement total` → **Run task**.
 
-A recorded backup video (Build Spec Phase 9.4) has not been made yet.
+> "Five elements perceived, two of them by vision. One face detected — and never sent."
+
+DevTools → the `/reason` payload again:
+
+- **`Settlement total 84,200` is in it.** That string appears in no text node and no
+  attribute anywhere on the page. It was read off the screen, on the device, by OCR.
+- **The face is not.** It was detected, painted out of the screenshot buffer _before_ OCR
+  read from the same pixels, and withheld from the payload entirely.
+
+> "Anything vision reads goes through the same privacy firewall as anything the DOM reads.
+> It enters by the same door, so it can't get round it."
+
+### 5. When it should ask first — 30 seconds
+
+The server proposes a `navigate` action and labels it low risk. The client scores it high —
+`max(server, local)`, so a server can raise risk but never lower it — and the confirmation
+prompt appears on the page, in a closed shadow root the page cannot read or restyle.
+
+Press **Escape**. Nothing happens, and the audit trail records `denied_by_user`.
+
+> "Approving is Ctrl+Enter. Denying is Escape. That asymmetry is deliberate: dismissing has
+> to be the reflex."
+
+### 6. The trail — 25 seconds
+
+Popup → the stage list: observe, detect PII, redact, reason, validate, act — six entries for
+every task, successful or not.
+
+Then, in DevTools → Application on the _visited page_: its `localStorage` holds only the key
+the page itself wrote, and it has no `privagent` IndexedDB database. The trail lives on the
+extension's origin, not the site's.
+
+> "Every entry is a count or a status. A detector runs over each one before it is written,
+> and refuses to store anything that matches. The trail cannot become the leak."
+
+---
+
+## The numbers, if you are asked
+
+All from [`results.md`](../results.md), measured over 42 real captured pages:
+
+- Interactive elements: **F1 92.2%** against Chrome's own accessibility tree.
+- Text that exists only as pixels: **97.3%** character accuracy.
+- PII: **100% recall**, 69.8% precision.
+- **Zero** of 400 identifiers or contact details reached the wire. Zero faces.
+- **960 ms** median task, warm, without a model in the loop.
+
+## The closing note, and do not skip it
+
+> "With a local 1.5-billion-parameter model doing the reasoning, a task takes about ten
+> seconds instead of one. The model _is_ the latency. We could make that number look better
+> by sending your screen to a datacentre with a GPU in it — which is exactly the thing this
+> project exists not to do."
+
+---
+
+## If something goes wrong on stage
+
+| Symptom                                | What it is                                             | What to do                                              |
+| -------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------- |
+| Popup sits on "Perceiving the page..." | The page under test is not the frontmost window        | Click the page, then run the task again                 |
+| First task takes several seconds       | Cold start: 33 MB of model, runtime and language data  | Open the popup once before you begin; it preloads them  |
+| "Could not reach the reasoner"         | The FastAPI server is not running, or the URL is wrong | Check `/health`; the URL is under Settings in the popup |
+| Nothing is redacted                    | You are on the wrong fixture                           | `report-portal.html`, not the claims page               |
+| Vision reports zero regions            | You are on the portal fixture, which has no images     | That is correct behaviour — say so, then switch pages   |
+
+Fall back to [`demo/privagent-demo.webm`](./demo/privagent-demo.webm) rather than debugging
+in front of the room.

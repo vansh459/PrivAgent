@@ -12,6 +12,15 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const failures = [];
 
+/**
+ * The version a packaged `.xpi` is named from is the manifest's, not the package's. When
+ * the two drift, `npm run package:firefox` silently ships an artefact whose filename claims
+ * a version the build does not carry - which happened once, and is cheap to prevent.
+ */
+const packageVersion = JSON.parse(
+  readFileSync(join(root, "extension", "package.json"), "utf8"),
+).version;
+
 function check(condition, message) {
   if (!condition) failures.push(message);
 }
@@ -23,6 +32,10 @@ for (const target of ["chrome", "firefox"]) {
   check(
     manifest.manifest_version === 3,
     `${target}: expected manifest_version 3`,
+  );
+  check(
+    manifest.version === packageVersion,
+    `${target}: manifest version ${manifest.version} does not match package.json ${packageVersion}`,
   );
   check(
     manifest.permissions?.includes("tabs"),

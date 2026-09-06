@@ -1,0 +1,1110 @@
+{
+  "id": "gov-passport",
+  "type": "portal",
+  "sourceUrl": "https://www.passportindia.gov.in/psp",
+  "capturedAt": "2026-09-06T05:59:14.781Z",
+  "annotatedAt": "2026-09-06T06:56:38.460Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 4538,
+  "persona": "Suresh Reddy",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Circular PAN RSTUV1122W",
+      "bbox": [
+        81,
+        2199,
+        234,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "Latest News",
+      "bbox": [
+        315,
+        2199,
+        118,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "View More",
+      "bbox": [
+        1098,
+        1761,
+        101,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "View More",
+      "bbox": [
+        1098,
+        2142,
+        101,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Go to top",
+      "bbox": [
+        1172,
+        678,
+        28,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "searchbox",
+      "name": "Enter your PIN code",
+      "bbox": [
+        137,
+        3288,
+        285,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "Close",
+      "bbox": [
+        1029,
+        98,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "button",
+      "name": "• 1",
+      "bbox": [
+        615,
+        2092,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "• 2",
+      "bbox": [
+        645,
+        2092,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "• 1",
+      "bbox": [
+        345,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "• 2",
+      "bbox": [
+        375,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "• 3",
+      "bbox": [
+        405,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "• 4",
+      "bbox": [
+        435,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "• 5",
+      "bbox": [
+        465,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "• 6",
+      "bbox": [
+        495,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "• 7",
+      "bbox": [
+        525,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "• 8",
+      "bbox": [
+        555,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "• 9",
+      "bbox": [
+        585,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "• 10",
+      "bbox": [
+        615,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "button",
+      "name": "• 11",
+      "bbox": [
+        645,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "button",
+      "name": "• 12",
+      "bbox": [
+        675,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "• 13",
+      "bbox": [
+        705,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "• 14",
+      "bbox": [
+        735,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "• 15",
+      "bbox": [
+        765,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "button",
+      "name": "• 16",
+      "bbox": [
+        795,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "button",
+      "name": "• 17",
+      "bbox": [
+        825,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "button",
+      "name": "• 18",
+      "bbox": [
+        855,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "button",
+      "name": "• 19",
+      "bbox": [
+        885,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "button",
+      "name": "• 20",
+      "bbox": [
+        915,
+        2781,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Login",
+      "bbox": [
+        913,
+        49,
+        86,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Register Grievance cell suresh.reddy@example.co",
+      "bbox": [
+        999,
+        49,
+        231,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "www.passportindia.gov.in",
+      "bbox": [
+        473,
+        479,
+        157,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Passport Seva",
+      "bbox": [
+        489,
+        514,
+        91,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "button",
+      "name": "Login",
+      "bbox": [
+        913,
+        49,
+        86,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "button",
+      "name": "Register Grievance cell suresh.reddy@example.co",
+      "bbox": [
+        1011,
+        49,
+        219,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Hindi",
+      "bbox": [
+        238,
+        209,
+        32,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "English",
+      "bbox": [
+        281,
+        209,
+        46,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Hindi",
+      "bbox": [
+        852,
+        230,
+        32,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "English",
+      "bbox": [
+        899,
+        230,
+        46,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Skip to Main Content |",
+      "bbox": [
+        431,
+        9,
+        128,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        852,
+        44,
+        5,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        101,
+        1995,
+        81,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        523,
+        2002,
+        81,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        945,
+        1988,
+        81,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        101,
+        2489,
+        75,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        101,
+        2734,
+        75,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        507,
+        2444,
+        75,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        507,
+        2689,
+        75,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        913,
+        2444,
+        75,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Know More",
+      "bbox": [
+        913,
+        2689,
+        75,
+        16
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7000123456",
+      "text": "Helpline 7000123456",
+      "bbox": [
+        1319,
+        2444,
+        216,
+        16
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91-70001-23456",
+      "text": "Alternate contact +91-70001-23456",
+      "bbox": [
+        81,
+        1803,
+        1119,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "suresh.reddy@example.co",
+      "text": "Write to suresh.reddy@example.co",
+      "bbox": [
+        2131,
+        2689,
+        313,
+        16
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "7788 9900 1122",
+      "text": "Aadhaar 7788 9900 1122 linked to this account",
+      "bbox": [
+        0,
+        6,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "RSTUV1122W",
+      "text": "PAN RSTUV1122W",
+      "bbox": [
+        81,
+        2199,
+        234,
+        42
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4111 1111 1111 1111",
+      "text": "Card on file 4111 1111 1111 1111",
+      "bbox": [
+        81,
+        2247,
+        406,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 4477",
+      "text": "OTP: 4477 sent to your phone",
+      "bbox": [
+        651,
+        1319,
+        549,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Suresh Reddy",
+      "text": "Signed in as Suresh Reddy",
+      "bbox": [
+        24,
+        1722,
+        1232,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "112 Banjara Hills, Hyderabad 500034",
+      "text": "Registered address 112 Banjara Hills, Hyderabad 500034",
+      "bbox": [
+        81,
+        1247,
+        549,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "suresh.reddy@example.co",
+      "text": "Grievance cell suresh.reddy@example.co",
+      "bbox": [
+        1011,
+        49,
+        219,
+        41
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Aadhaar 7788 9900 1122 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Skip to Main Content |",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "Register Grievance cell suresh.reddy@example.co",
+      "truthId": null
+    },
+    {
+      "text": "Register Grievance cell suresh.reddy@example.co",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Registered address 112 Banjara Hills, Hyderabad 500034",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "OTP: 4477 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Signed in as Suresh Reddy",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91-70001-23456",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "Circular PAN RSTUV1122W",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Latest News",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 4111 1111 1111 1111",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More Helpline 7000123456",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More Write to suresh.reddy@example.co",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "Know More",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "5",
+      "truthId": null
+    },
+    {
+      "text": "6",
+      "truthId": null
+    },
+    {
+      "text": "7",
+      "truthId": null
+    },
+    {
+      "text": "8",
+      "truthId": null
+    },
+    {
+      "text": "9",
+      "truthId": null
+    },
+    {
+      "text": "10",
+      "truthId": null
+    },
+    {
+      "text": "11",
+      "truthId": null
+    },
+    {
+      "text": "12",
+      "truthId": null
+    },
+    {
+      "text": "13",
+      "truthId": null
+    },
+    {
+      "text": "14",
+      "truthId": null
+    },
+    {
+      "text": "15",
+      "truthId": null
+    },
+    {
+      "text": "16",
+      "truthId": null
+    },
+    {
+      "text": "17",
+      "truthId": null
+    },
+    {
+      "text": "18",
+      "truthId": null
+    },
+    {
+      "text": "19",
+      "truthId": null
+    },
+    {
+      "text": "20",
+      "truthId": null
+    },
+    {
+      "text": "Enter your PIN code",
+      "truthId": null
+    },
+    {
+      "text": "Tatkaal Advisory Before applying under Tatkaal scheme, applicant needs to check eligibility criteria, “Categories not under Tatkaal Scheme”- Hindi / English Applicants applying under Tatkaal scheme need to fill the \"Undertaking for Tatkaal Scheme\"- Hindi / English. Applicants are required to sign the undertaking and bring it to the Passport Office for submission at the time of appointment. Alert on Fake Websites related to Passport Services It has come to the notice of the Ministry that many fraudulent websites and mobile applications are collecting data from applicants and also levying additional hefty charges for filling up the online application form and scheduling appointment for Passport and related services. Some of these fake website are registered in the domain name *.org, *.in, *.com. such as : www.indiapassport.org, www.online-passportindia.com, www.passportindiaportal.in, www.passport-india.in, www.passport-seva.in, www.applypassport.org It is therefore advised to all citizens applying for Indian Passport and related services that they should not visit to the above mentioned fraudulent websites or make any kind of payment. The official website of the Ministry of External Affairs, Government of India, for applying Passport services is www.passportindia.gov.in Alternatively, applicants may also use the Passport Seva mobile App which can be downloaded from Android and iOS App store. ©This is the official website of Ministry of External Affairs, Government of India",
+      "truthId": null
+    },
+    {
+      "text": "Close",
+      "truthId": null
+    },
+    {
+      "text": "Hindi",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "Hindi",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "www.passportindia.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "Passport Seva",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1134,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          944,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7000123456",
+        "bbox": [
+          944,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7000123456"
+        }
+      }
+    ]
+  }
+}

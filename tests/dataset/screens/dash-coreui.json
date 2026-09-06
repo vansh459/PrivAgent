@@ -1,0 +1,743 @@
+{
+  "id": "dash-coreui",
+  "type": "dashboard",
+  "sourceUrl": "https://coreui.io/demos/bootstrap/5.1/free/",
+  "capturedAt": "2026-09-06T06:05:42.902Z",
+  "annotatedAt": "2026-09-06T06:57:02.030Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2369,
+  "persona": "Ramesh Iyer",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        223,
+        688,
+        16,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        266,
+        58,
+        44,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        468,
+        292,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        714,
+        292,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        960,
+        292,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1206,
+        292,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1182,
+        523,
+        42,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "CoreUI Helpline 9812345670",
+      "bbox": [
+        280,
+        2314,
+        202,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Bootstrap Admin Template",
+      "bbox": [
+        482,
+        2314,
+        188,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "CoreUI UI Components Write to ramesh.iyer@example.in",
+      "bbox": [
+        840,
+        2338,
+        401,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Dashboard",
+      "bbox": [
+        310,
+        57,
+        93,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Users",
+      "bbox": [
+        403,
+        57,
+        55,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Settings",
+      "bbox": [
+        458,
+        57,
+        73,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1015,
+        57,
+        36,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1051,
+        57,
+        36,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1087,
+        57,
+        36,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1140,
+        57,
+        36,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "user@email.com",
+      "bbox": [
+        1193,
+        57,
+        48,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "radio",
+      "name": "",
+      "bbox": [
+        983,
+        523,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "radio",
+      "name": "",
+      "bbox": [
+        983,
+        523,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "radio",
+      "name": "",
+      "bbox": [
+        983,
+        523,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Home PAN BNZAA2318J",
+      "bbox": [
+        280,
+        123,
+        173,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1196,
+        1911,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1196,
+        1973,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1196,
+        2035,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1196,
+        2097,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1196,
+        2158,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1196,
+        2220,
+        18,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Dashboard NEW",
+      "bbox": [
+        8,
+        73,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Colors",
+      "bbox": [
+        8,
+        180,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Typography",
+      "bbox": [
+        8,
+        229,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Base",
+      "bbox": [
+        8,
+        336,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Buttons",
+      "bbox": [
+        8,
+        384,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Charts",
+      "bbox": [
+        8,
+        433,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Forms",
+      "bbox": [
+        8,
+        482,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Icons",
+      "bbox": [
+        8,
+        530,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Notifications",
+      "bbox": [
+        8,
+        578,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Widgets NEW",
+      "bbox": [
+        8,
+        627,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Pages",
+      "bbox": [
+        8,
+        735,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Docs",
+      "bbox": [
+        8,
+        783,
+        239,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Try CoreUI PRO",
+      "bbox": [
+        8,
+        832,
+        239,
+        48
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9812345670",
+      "text": "Helpline 9812345670",
+      "bbox": [
+        280,
+        2314,
+        202,
+        22
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 98123 45670",
+      "text": "Alternate contact +91 98123 45670",
+      "bbox": [
+        285,
+        1174,
+        295,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "ramesh.iyer@example.in",
+      "text": "Write to ramesh.iyer@example.in",
+      "bbox": [
+        840,
+        2338,
+        401,
+        22
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "4321 8765 2109",
+      "text": "Aadhaar 4321 8765 2109 linked to this account",
+      "bbox": [
+        285,
+        1368,
+        476,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "BNZAA2318J",
+      "text": "PAN BNZAA2318J",
+      "bbox": [
+        280,
+        123,
+        173,
+        22
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4111 1111 1111 1111",
+      "text": "Card on file 4111 1111 1111 1111",
+      "bbox": [
+        280,
+        189,
+        961,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 246810",
+      "text": "OTP 246810 sent to your phone",
+      "bbox": [
+        268,
+        210,
+        985,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Ramesh Iyer",
+      "text": "Signed in as Ramesh Iyer",
+      "bbox": [
+        297,
+        484,
+        927,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "14 Nehru Road, Pune 411001",
+      "text": "Registered address 14 Nehru Road, Pune 411001",
+      "bbox": [
+        256,
+        6,
+        1009,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "scrollable content",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard NEW",
+      "truthId": null
+    },
+    {
+      "text": "Colors",
+      "truthId": null
+    },
+    {
+      "text": "Typography",
+      "truthId": null
+    },
+    {
+      "text": "Base",
+      "truthId": null
+    },
+    {
+      "text": "Buttons",
+      "truthId": null
+    },
+    {
+      "text": "Charts",
+      "truthId": null
+    },
+    {
+      "text": "Forms",
+      "truthId": null
+    },
+    {
+      "text": "Icons",
+      "truthId": null
+    },
+    {
+      "text": "Notifications",
+      "truthId": null
+    },
+    {
+      "text": "Widgets NEW",
+      "truthId": null
+    },
+    {
+      "text": "Pages",
+      "truthId": null
+    },
+    {
+      "text": "Docs",
+      "truthId": null
+    },
+    {
+      "text": "Try CoreUI PRO",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 14 Nehru Road, Pune 411001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Dashboard",
+      "truthId": null
+    },
+    {
+      "text": "Users",
+      "truthId": null
+    },
+    {
+      "text": "Settings",
+      "truthId": null
+    },
+    {
+      "text": "Home PAN BNZAA2318J",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Card on file 4111 1111 1111 1111",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "OTP 246810 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Signed in as Ramesh Iyer",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Toolbar with buttons",
+      "truthId": null
+    },
+    {
+      "text": "options",
+      "truthId": null
+    },
+    {
+      "text": "options",
+      "truthId": null
+    },
+    {
+      "text": "options",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 98123 45670",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Aadhaar 4321 8765 2109 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "CoreUI Helpline 9812345670",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Bootstrap Admin Template",
+      "truthId": null
+    },
+    {
+      "text": "CoreUI UI Components Write to ramesh.iyer@example.in",
+      "truthId": "pii_3"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9812345670",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9812345670"
+        }
+      }
+    ]
+  }
+}

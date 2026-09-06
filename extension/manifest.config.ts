@@ -20,7 +20,10 @@ const background = isFirefox
 export default defineManifest({
   manifest_version: 3,
   name: "PrivAgent",
-  version: "0.2.0",
+  // Kept in step with `package.json` by hand, and asserted by
+  // `scripts/verify-manifests.mjs` so the two cannot drift apart silently - a packaged
+  // `.xpi` is named from the manifest, not from the package.
+  version: "0.3.0",
   description: "Privacy-preserving browser agent with on-device perception and redaction",
   action: {
     default_popup: "src/ui/popup.html",
@@ -73,6 +76,13 @@ export default defineManifest({
           gecko: {
             id: "privagent@example.invalid",
             strict_min_version: "128.0",
+            // Firefox is beginning to require an explicit data-collection declaration, and
+            // for this extension the answer is the whole point of the project: none. The
+            // screen is perceived, redacted and acted on locally; the only thing that
+            // leaves the machine is a Set-of-Mark payload with every detected value
+            // replaced by a token, sent to a reasoner the user chooses and can run on
+            // their own hardware.
+            data_collection_permissions: { required: ["none"] },
           },
         },
       }

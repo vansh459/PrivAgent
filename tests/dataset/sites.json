@@ -1,0 +1,216 @@
+{
+  "version": "1.0",
+  "note": "Curated capture list for the Phase 8.1 dataset. Public, logged-out pages only. See README.md in this directory for what is and is not captured, and why.",
+  "sites": [
+    {
+      "id": "gov-india-home",
+      "type": "portal",
+      "url": "https://www.india.gov.in/"
+    },
+    {
+      "id": "gov-mygov",
+      "type": "portal",
+      "url": "https://www.mygov.in/"
+    },
+    {
+      "id": "gov-uidai",
+      "type": "portal",
+      "url": "https://uidai.gov.in/"
+    },
+    {
+      "id": "gov-incometax",
+      "type": "portal",
+      "url": "https://www.incometax.gov.in/iec/foportal/"
+    },
+    {
+      "id": "gov-epfo",
+      "type": "portal",
+      "url": "https://www.epfindia.gov.in/"
+    },
+    {
+      "id": "gov-pmkisan",
+      "type": "portal",
+      "url": "https://pmkisan.gov.in/"
+    },
+    {
+      "id": "gov-passport",
+      "type": "portal",
+      "url": "https://www.passportindia.gov.in/"
+    },
+    {
+      "id": "gov-uk-home",
+      "type": "portal",
+      "url": "https://www.gov.uk/"
+    },
+    {
+      "id": "gov-uk-benefits",
+      "type": "portal",
+      "url": "https://www.gov.uk/browse/benefits"
+    },
+    {
+      "id": "gov-usa-home",
+      "type": "portal",
+      "url": "https://www.usa.gov/"
+    },
+    {
+      "id": "gov-digilocker",
+      "type": "portal",
+      "url": "https://www.digilocker.gov.in/"
+    },
+    {
+      "id": "fin-rbi",
+      "type": "finance",
+      "url": "https://www.rbi.org.in/"
+    },
+    {
+      "id": "fin-sebi",
+      "type": "finance",
+      "url": "https://www.sebi.gov.in/"
+    },
+    {
+      "id": "fin-npci",
+      "type": "finance",
+      "url": "https://www.npci.org.in/"
+    },
+    {
+      "id": "fin-icici",
+      "type": "finance",
+      "url": "https://www.icicibank.com/"
+    },
+    {
+      "id": "fin-hdfc",
+      "type": "finance",
+      "url": "https://www.hdfcbank.com/"
+    },
+    {
+      "id": "fin-irdai",
+      "type": "finance",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "id": "shop-books",
+      "type": "ecommerce",
+      "url": "https://books.toscrape.com/"
+    },
+    {
+      "id": "shop-books-category",
+      "type": "ecommerce",
+      "url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html"
+    },
+    {
+      "id": "shop-webscraper",
+      "type": "ecommerce",
+      "url": "https://webscraper.io/test-sites/e-commerce/allinone"
+    },
+    {
+      "id": "shop-webscraper-computers",
+      "type": "ecommerce",
+      "url": "https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops"
+    },
+    {
+      "id": "shop-saucedemo",
+      "type": "ecommerce",
+      "url": "https://www.saucedemo.com/"
+    },
+    {
+      "id": "shop-demoblaze",
+      "type": "ecommerce",
+      "url": "https://www.demoblaze.com/"
+    },
+    {
+      "id": "shop-automationexercise",
+      "type": "ecommerce",
+      "url": "https://automationexercise.com/"
+    },
+    {
+      "id": "shop-scrapingcourse",
+      "type": "ecommerce",
+      "url": "https://www.scrapingcourse.com/ecommerce/"
+    },
+    {
+      "id": "form-demoqa",
+      "type": "form",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "id": "form-expandtesting",
+      "type": "form",
+      "url": "https://practice.expandtesting.com/register"
+    },
+    {
+      "id": "form-herokuapp-login",
+      "type": "form",
+      "url": "https://the-internet.herokuapp.com/login"
+    },
+    {
+      "id": "form-httpbin",
+      "type": "form",
+      "url": "https://httpbin.org/forms/post"
+    },
+    {
+      "id": "form-w3-html",
+      "type": "form",
+      "url": "https://www.w3schools.com/html/html_forms.asp"
+    },
+    {
+      "id": "spa-todomvc-react",
+      "type": "spa",
+      "url": "https://todomvc.com/examples/react/dist/"
+    },
+    {
+      "id": "spa-todomvc-vue",
+      "type": "spa",
+      "url": "https://todomvc.com/examples/vue/dist/"
+    },
+    {
+      "id": "spa-realworld",
+      "type": "spa",
+      "url": "https://demo.realworld.show/"
+    },
+    {
+      "id": "spa-react-shopping",
+      "type": "spa",
+      "url": "https://react-shopping-cart-67954.firebaseapp.com/"
+    },
+    {
+      "id": "dash-adminlte",
+      "type": "dashboard",
+      "url": "https://adminlte.io/themes/v3/index.html"
+    },
+    {
+      "id": "dash-adminlte-tables",
+      "type": "dashboard",
+      "url": "https://adminlte.io/themes/v3/pages/tables/data.html"
+    },
+    {
+      "id": "dash-coreui",
+      "type": "dashboard",
+      "url": "https://coreui.io/demos/bootstrap/5.1/free/"
+    },
+    {
+      "id": "dash-tabler",
+      "type": "dashboard",
+      "url": "https://preview.tabler.io/"
+    },
+    {
+      "id": "dash-sbadmin",
+      "type": "dashboard",
+      "url": "https://startbootstrap.github.io/startbootstrap-sb-admin-2/"
+    },
+    {
+      "id": "dash-gentelella",
+      "type": "dashboard",
+      "url": "https://colorlib.com/polygon/gentelella/index.html"
+    },
+    {
+      "id": "gov-mca",
+      "type": "portal",
+      "url": "https://www.mca.gov.in/content/mca/global/en/home.html"
+    },
+    {
+      "id": "gov-services",
+      "type": "portal",
+      "url": "https://services.india.gov.in/"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 # PrivAgent Benchmarks
 
+> **The rubric numbers now live in [`results.md`](../results.md)**, measured over a versioned
+> dataset of 42 real captured pages. This document keeps the component-level measurements —
+> the vision pass, the reasoning provider — which are about how the parts behave rather than
+> how the system scores. Where the two overlap, `results.md` is the one to quote.
+
 **Status: partially measured.** The vision pipeline has real numbers as of Stage 2
 (2026-09-05); the five rubric lines are still scored in Stage 3 against one versioned
 dataset. Everything below that carries a number was produced by a command in this repo, in
@@ -11,9 +16,9 @@ a real browser, and can be reproduced by running it.
 | -------------------------------------- | -----: | ------------------- | ----------------------------------------------------------------- |
 | Accuracy of visual context from screen |    25% | Phase 8.2 (Stage 3) | Component results only: OCR 99.4% CER-accuracy, faces 100% recall |
 | PII detection recall and precision     |    20% | Phase 8.3 (Stage 3) | Structured PII 30/30 detected, 0/30 false positives               |
-| Precision of redaction                 |    20% | Phase 8.4 (Stage 3) | —                                                                 |
+| Precision of redaction                 |    20% | Phase 8.4 (Stage 3) | 27/27 faces masked, 0 re-detected afterwards                      |
 | Client-side resource utilization       |    20% | Phase 8.5 (Stage 3) | Vision pipeline +312–397 MB RSS (one device tier)                 |
-| End-to-end latency                     |    15% | Phase 8.6 (Stage 3) | 445–494 ms per task warm, one page shape                          |
+| End-to-end latency                     |    15% | Phase 8.6 (Stage 3) | 445–494 ms warm without a model; ~10 s with the local model       |
 
 The right-hand column is component evidence, not a rubric score. A rubric line needs one
 number over one labelled dataset across many page types; these are measurements of parts,
@@ -75,20 +80,64 @@ repeat this across the labelled dataset and a second device tier.
 Each of these is measured against the fixtures that part was built with, which is exactly
 why none of them is a rubric score.
 
-## Why nothing is measured yet
+## Reasoning (Phase 5.5, measured 2026-09-05)
 
-The 25% line — accuracy of **visual** context — cannot be measured until there is a visual
-pipeline. Today perception is DOM and accessibility-tree extraction, with no screenshot
-capture and no vision model. Measuring DOM extraction and reporting it against a visual
-rubric line would be misleading, so it is not reported at all.
+Command: `npm run test:reasoner`, which runs `server/tests/test_ollama_live.py` against the
+real model and writes `test-results/reasoner-benchmark.json`.
 
-The latency line is similarly blocked: with a deterministic keyword matcher standing in for
-a model and no vision pass, an end-to-end number would describe a system nobody will
-evaluate.
+| Measurement                                    | qwen2.5:1.5b (Ollama, local) | Deterministic provider |
+| ---------------------------------------------- | ---------------------------: | ---------------------: |
+| Correct action over 10 task payloads           |                         8/10 |                  10/10 |
+| Schema-valid Action JSON                       |                        10/10 |                  10/10 |
+| Provider latency, median                       |                    13 731 ms |                  ~9 ms |
+| Provider latency, min / max                    |            4 903 / 16 036 ms |                      — |
+| `/reason` HTTP round trip (FastAPI TestClient) |                    10 707 ms |                      — |
 
-The two PII lines _could_ partially be measured today against a labelled corpus. They are
-held for Stage 3 so all five land together against one versioned dataset, rather than
-arriving piecemeal from different builds.
+A second run of the same suite on the same machine put the median at 10 400 ms, so treat
+the figure as **10.4–13.7 s** rather than a single number; a 1.5B model on a CPU is not
+repeatable to better than that.
+
+### What these numbers mean
+
+**This is the system's worst result, and it should not be dressed up.** Perception is
+~250 ms warm and the whole client loop is ~450–500 ms. With a model in the loop, the model
+_is_ the latency: reasoning is roughly twenty times everything else combined. Against the
+rubric's 15% end-to-end latency line that is a bad score, and it is reported as one.
+
+The gap between 13 731 ms of provider time and a 10 707 ms HTTP round trip is not the
+server getting faster — it is run-to-run variance in the model. What it does establish is
+that the server's own overhead (inbound validation, provider dispatch, outbound validation)
+is inside the noise, in the tens of milliseconds. The latency is a model problem, not a
+server problem.
+
+**The honest options are all costs**: a smaller model (worse answers), a GPU (this machine
+has none — the same reason WebGPU falls back to SwiftShader), or accepting that an agent
+which reasons locally is slower than one that ships your screen to a datacentre. The
+deterministic provider stays the default for exactly this reason, and the model is opt-in
+via `PRIVAGENT_REASONER=ollama`.
+
+**8/10, not 10/10, and the two misses are the interesting part.** Both are over-action: for
+"open the settings menu" and "delete my account" on screens that offer neither, the model
+clicked _something_ rather than declining. A model that would rather act than admit the
+screen cannot serve the task is the failure mode this architecture has to survive, which is
+why the client takes `max(server, local)` risk and never lowers it — the model also called
+"pay the bill" low risk. The risk tier the model reports is treated as advice, not as a
+decision.
+
+Model choice was made by measurement, not reputation: `scripts/compare-reasoners.py` scores
+candidates on the same ten payloads with the same prompt. `llama3.2:1b` scored 3/10 at a
+~13 s median against qwen's 8/10.
+
+## What is still unmeasured
+
+Stage 2 removed both of the blockers this section used to describe: there is now a real
+vision pipeline and a real model, so the 25% and 15% lines are measurable rather than
+hypothetical. What is missing is no longer capability, it is **one dataset**.
+
+Every number above was produced against the fixture the component was built with — one
+photograph, one canvas, one portal page. A rubric line needs a single number over a
+labelled set of many page types, produced by one command. That is Phase 8, and until it
+runs, nothing above is a rubric score.
 
 ## The existing benchmark test does not count
 
@@ -134,9 +183,9 @@ pipeline's footprint lives, and reporting a JS heap figure would understate it b
 of magnitude. Phase 2.5 established the method and the first tier's numbers.
 
 **End-to-end latency (15%).** Wall clock per task, broken into perceive / filter / reason /
-act, measured on real pages in a real browser — not in jsdom. Phase 2.5 measured the
-perceive half; the reason half is not meaningful until a model replaces the deterministic
-keyword provider (Phase 5.2).
+act, measured on real pages in a real browser — not in jsdom. Reported against **both**
+providers, because the two answer different questions: the deterministic provider shows
+what the client costs, and the local model shows what a user actually waits for.
 
 **Reproducibility.** One command, output written to `results.md` with the commit hash,
 device tier and dataset version, so a number can always be traced to the build that

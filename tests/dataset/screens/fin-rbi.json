@@ -1,0 +1,2199 @@
+{
+  "id": "fin-rbi",
+  "type": "finance",
+  "sourceUrl": "https://www.rbi.org.in/",
+  "capturedAt": "2026-09-06T05:59:51.416Z",
+  "annotatedAt": "2026-09-06T06:56:42.047Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2718,
+  "persona": "Kavita Joshi",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        102,
+        7,
+        112,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Logo of Official website of Reserve Bank of India",
+      "bbox": [
+        102,
+        147,
+        300,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Connect 2 Regulate",
+      "bbox": [
+        112,
+        766,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "RBI Regulated Entities",
+      "bbox": [
+        112,
+        846,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "close dialog",
+      "bbox": [
+        878,
+        313,
+        31,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "हिंदी",
+      "bbox": [
+        1140,
+        7,
+        23,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "National Portal of India logo",
+      "bbox": [
+        955,
+        2536,
+        116,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "checkbox",
+      "name": "मेरा चयनित विकल्प याद रखें / Remember my choice",
+      "bbox": [
+        482,
+        518,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "Website in Hindi",
+      "bbox": [
+        525,
+        552,
+        83,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "Website in English",
+      "bbox": [
+        671,
+        554,
+        83,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "Increase Letter Spacing Not pressed",
+      "bbox": [
+        809,
+        7,
+        21,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "Increase Font Size Not Pressed",
+      "bbox": [
+        833,
+        7,
+        20,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "Regular Font Size Pressed",
+      "bbox": [
+        857,
+        7,
+        20,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "Decrease Font Size Not Pressed",
+      "bbox": [
+        881,
+        7,
+        20,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "Apply Dark Theme NOT PRESSED",
+      "bbox": [
+        915,
+        7,
+        20,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "Apply Normal Theme PRESSED",
+      "bbox": [
+        939,
+        7,
+        20,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "Apply Grey Theme NOT PRESSED",
+      "bbox": [
+        963,
+        7,
+        20,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        92,
+        208,
+        44,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "About Us ▼ Helpline 9456781230",
+      "bbox": [
+        137,
+        208,
+        199,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "button",
+      "name": "Notification ▼",
+      "bbox": [
+        336,
+        208,
+        92,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Press Releases",
+      "bbox": [
+        428,
+        208,
+        99,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "Speeches & Media Interactions ▼",
+      "bbox": [
+        527,
+        208,
+        203,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "Publications ▼",
+      "bbox": [
+        730,
+        208,
+        97,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "Legal Framework ▼",
+      "bbox": [
+        827,
+        208,
+        125,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "button",
+      "name": "Research ▼",
+      "bbox": [
+        952,
+        208,
+        80,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "button",
+      "name": "Statistics ▼",
+      "bbox": [
+        1032,
+        208,
+        79,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "button",
+      "name": "Regulatory Reporting ▼ Write to kavita.joshi@example.in",
+      "bbox": [
+        92,
+        243,
+        339,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "button",
+      "name": "Policy Rates",
+      "bbox": [
+        112,
+        576,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "button",
+      "name": "Reserve Ratios",
+      "bbox": [
+        112,
+        604,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "button",
+      "name": "Exchange Rates",
+      "bbox": [
+        112,
+        631,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "button",
+      "name": "Lending / Deposit Rates",
+      "bbox": [
+        112,
+        659,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "button",
+      "name": "Market Trends",
+      "bbox": [
+        112,
+        687,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Reserve Bank of India Lodge a complaint",
+      "bbox": [
+        103,
+        917,
+        121,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Mobile Aided Note Identifier",
+      "bbox": [
+        103,
+        1026,
+        108,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "The RBI Museum",
+      "bbox": [
+        103,
+        1134,
+        108,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Fintech",
+      "bbox": [
+        103,
+        1237,
+        107,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "RBI Retail Direct",
+      "bbox": [
+        228,
+        916,
+        113,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "UDGAM",
+      "bbox": [
+        228,
+        1020,
+        110,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "PRAVAAH",
+      "bbox": [
+        228,
+        1126,
+        106,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "RBIDATA app",
+      "bbox": [
+        228,
+        1235,
+        105,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "RBI Kehta Hai Jaankaar Baniye Satark Rahiye",
+      "bbox": [
+        103,
+        1358,
+        219,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "tab",
+      "name": "What's New",
+      "bbox": [
+        363,
+        551,
+        98,
+        65
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "tab",
+      "name": "SectionsUpdated Today",
+      "bbox": [
+        461,
+        551,
+        110,
+        60
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "tab",
+      "name": "Citizen's Corner",
+      "bbox": [
+        572,
+        551,
+        120,
+        65
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "ReKYC",
+      "bbox": [
+        694,
+        556,
+        75,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "menuitem",
+      "name": "Monetary Policy",
+      "bbox": [
+        927,
+        576,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "menuitem",
+      "name": "Banker to Governments and Banks Grievance cell kavita.joshi@example.in",
+      "bbox": [
+        927,
+        604,
+        195,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "menuitem",
+      "name": "Currency Management",
+      "bbox": [
+        927,
+        665,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "menuitem",
+      "name": "Consumer Education and Protection",
+      "bbox": [
+        927,
+        693,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "menuitem",
+      "name": "Debt Management",
+      "bbox": [
+        927,
+        720,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "menuitem",
+      "name": "Enforcement",
+      "bbox": [
+        927,
+        748,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "menuitem",
+      "name": "External Investments and Operations",
+      "bbox": [
+        927,
+        775,
+        195,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "menuitem",
+      "name": "Financial Inclusion and Development",
+      "bbox": [
+        927,
+        820,
+        195,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "menuitem",
+      "name": "Financial Markets",
+      "bbox": [
+        927,
+        864,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "menuitem",
+      "name": "Financial Stability Analysis",
+      "bbox": [
+        927,
+        892,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "menuitem",
+      "name": "FinTech",
+      "bbox": [
+        927,
+        919,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "menuitem",
+      "name": "Foreign Exchange Management",
+      "bbox": [
+        927,
+        947,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "menuitem",
+      "name": "International Relations",
+      "bbox": [
+        927,
+        975,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "menuitem",
+      "name": "Payment and Settlement Systems",
+      "bbox": [
+        927,
+        1002,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "menuitem",
+      "name": "Regulation",
+      "bbox": [
+        927,
+        1030,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "menuitem",
+      "name": "Supervision",
+      "bbox": [
+        927,
+        1057,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "menuitem",
+      "name": "Research",
+      "bbox": [
+        927,
+        1085,
+        195,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "textbox",
+      "name": "Search the Website",
+      "bbox": [
+        917,
+        1160,
+        172,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "button",
+      "name": "SEARCH",
+      "bbox": [
+        1097,
+        1162,
+        65,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        1053,
+        2646,
+        44,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Disclaimer",
+      "bbox": [
+        1106,
+        2646,
+        56,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Web Information Manager",
+      "bbox": [
+        102,
+        2680,
+        139,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Accessibility Statement PDF - Accessibility Statement (133 KB)",
+      "bbox": [
+        760,
+        2680,
+        199,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Screen Reader and Accessibility Help",
+      "bbox": [
+        962,
+        2680,
+        200,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "►",
+      "bbox": [
+        230,
+        469,
+        22,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "⏸",
+      "bbox": [
+        256,
+        469,
+        22,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Bank Holidays",
+      "bbox": [
+        112,
+        2490,
+        77,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Banking Glossary",
+      "bbox": [
+        112,
+        2514,
+        94,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Citizen's Charter",
+      "bbox": [
+        112,
+        2538,
+        88,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Complaints",
+      "bbox": [
+        112,
+        2562,
+        60,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        112,
+        2586,
+        59,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "COVID-19 Measures",
+      "bbox": [
+        112,
+        2610,
+        111,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "E-LMS",
+      "bbox": [
+        324,
+        2490,
+        37,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Events",
+      "bbox": [
+        324,
+        2514,
+        37,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "FAQs",
+      "bbox": [
+        324,
+        2538,
+        30,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Financial Education",
+      "bbox": [
+        324,
+        2562,
+        105,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "Forms",
+      "bbox": [
+        324,
+        2586,
+        34,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "IFSC/MICR Codes",
+      "bbox": [
+        324,
+        2610,
+        99,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Important Websites",
+      "bbox": [
+        535,
+        2490,
+        103,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Opportunities@RBI",
+      "bbox": [
+        535,
+        2514,
+        104,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "RBI Clarifications PAN EFGHI2233J",
+      "bbox": [
+        535,
+        2538,
+        119,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "RBI Kehta Hai",
+      "bbox": [
+        535,
+        2586,
+        76,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "RBI’s Vision and Values PDF document (652 KB)",
+      "bbox": [
+        746,
+        2490,
+        169,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Right to Information Act",
+      "bbox": [
+        746,
+        2538,
+        125,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "Tenders",
+      "bbox": [
+        746,
+        2562,
+        43,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "RSS Icon RSS",
+      "bbox": [
+        988,
+        2451,
+        25,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Twitter Icon Twitter",
+      "bbox": [
+        1068,
+        2451,
+        35,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "YouTube Icon YouTube",
+      "bbox": [
+        989,
+        2475,
+        47,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "Instagram Icon Instagram",
+      "bbox": [
+        1067,
+        2475,
+        53,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Facebook Icon Facebook",
+      "bbox": [
+        986,
+        2499,
+        53,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "LinkedIn Icon LinkedIn",
+      "bbox": [
+        1068,
+        2499,
+        45,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Marching ahead with Responsibility and Growth - Keynote Address delivered by Shri Shirish Chandra Murmu, Deputy Governor, at the 7th NBFC and HFC Summit in Mumbai on September 03, 2026",
+      "bbox": [
+        372,
+        666,
+        515,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Data on Forex inflows via FCNR(B) Deposits, External Commercial Borrowings (ECBs) and Overseas Foreign Currency Borrowings (OFCBs) under Reserve Bank’s Swap facility",
+      "bbox": [
+        372,
+        737,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Conference for Registrars of Cooperative Societies held at Reserve Bank of India, New Delhi on September 1, 2026",
+      "bbox": [
+        372,
+        792,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Processing of Applications Received Under the Citizen’s Charter - Status as on August 31, 2026",
+      "bbox": [
+        372,
+        846,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Sources of Variation in India’s Foreign Exchange Reserves during April-June 2026",
+      "bbox": [
+        372,
+        901,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Developments in India’s Balance of Payments during the First Quarter (April-June) of 2026-27",
+      "bbox": [
+        372,
+        938,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "RBI appoints Shri Suman Ray as new Executive Director",
+      "bbox": [
+        372,
+        993,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Quarterly Basic Statistical Return (BSR)-2 on Deposits with Scheduled Commercial Banks - June 2026",
+      "bbox": [
+        372,
+        1030,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "Quarterly Basic Statistical Return (BSR)-1 on Credit by Scheduled Commercial Banks – June 2026",
+      "bbox": [
+        372,
+        1085,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Survey of Foreign Liabilities and Assets of Mutual Funds – 2025-26",
+      "bbox": [
+        372,
+        1139,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "Performance of Private Corporate Business Sector during Q1:2026-27",
+      "bbox": [
+        372,
+        1177,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1214,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1269,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1323,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "Reserve Bank of India (Local Area Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1377,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1432,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1486,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1541,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1595,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1649,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1704,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "bbox": [
+        372,
+        1758,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "RBI Bulletin – August 2026",
+      "bbox": [
+        372,
+        1813,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "Appointment of Shri Janmejaya Kumar Sinha, Shri Syed Akbaruddin and Ms. Annie George Mathew as part-time, Non-official Directors on the Central Board of Reserve Bank of India",
+      "bbox": [
+        372,
+        1850,
+        515,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "link",
+      "name": "Data on Forex inflows via FCNR(B) Deposits, External Commercial Borrowings (ECBs) and Overseas Foreign Currency Borrowings (OFCBs) under Reserve Bank’s Swap facility",
+      "bbox": [
+        372,
+        1921,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "link",
+      "name": "624th Meeting of Central Board of the Reserve Bank of India",
+      "bbox": [
+        372,
+        1976,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "Appointment of Shri Somanath Sreedhara Panicker as part-time, Non-official Director on the Central Board of Reserve Bank of India",
+      "bbox": [
+        372,
+        2013,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "Re-appointment of Shri Anand Gopal Mahindra as part-time, Non-official Director on the Central Board of Reserve Bank of India",
+      "bbox": [
+        372,
+        2068,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "RBI invites comments on the Draft “Reserve Bank of India (Interest Rates on Loans and Advances) Directions, 2026”",
+      "bbox": [
+        372,
+        2122,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "RBI invites comments on the draft “Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026”",
+      "bbox": [
+        372,
+        2177,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "RBI invites public comments on Draft Guidelines for ‘on tap’ Licensing of Urban Co-operative Banks",
+      "bbox": [
+        372,
+        2231,
+        515,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "Recruitment related Announcements",
+      "bbox": [
+        372,
+        2285,
+        515,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "View More what’s new items",
+      "bbox": [
+        372,
+        2323,
+        515,
+        17
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9456781230",
+      "text": "Helpline 9456781230",
+      "bbox": [
+        137,
+        208,
+        199,
+        35
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 94567 81230",
+      "text": "Alternate contact +91 94567 81230",
+      "bbox": [
+        92,
+        329,
+        1080,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "kavita.joshi@example.in",
+      "text": "Write to kavita.joshi@example.in",
+      "bbox": [
+        92,
+        243,
+        339,
+        35
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "2233 4455 6677",
+      "text": "Aadhaar 2233 4455 6677 linked to this account",
+      "bbox": [
+        362,
+        617,
+        535,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "EFGHI2233J",
+      "text": "PAN EFGHI2233J",
+      "bbox": [
+        535,
+        2538,
+        119,
+        38
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5200 8282 8282 8210",
+      "text": "Card on file 5200 8282 8282 8210",
+      "bbox": [
+        0,
+        284,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one time password 141414",
+      "text": "one time password 141414 sent to your phone",
+      "bbox": [
+        102,
+        2417,
+        833,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Kavita Joshi",
+      "text": "Signed in as Kavita Joshi",
+      "bbox": [
+        102,
+        36,
+        353,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "44 Laxmi Road, Nagpur 440012",
+      "text": "Registered address 44 Laxmi Road, Nagpur 440012",
+      "bbox": [
+        102,
+        79,
+        353,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "kavita.joshi@example.in",
+      "text": "Grievance cell kavita.joshi@example.in",
+      "bbox": [
+        927,
+        604,
+        195,
+        50
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "Not pressed",
+      "truthId": null
+    },
+    {
+      "text": "Not Pressed",
+      "truthId": null
+    },
+    {
+      "text": "Pressed",
+      "truthId": null
+    },
+    {
+      "text": "Not Pressed",
+      "truthId": null
+    },
+    {
+      "text": "NOT PRESSED",
+      "truthId": null
+    },
+    {
+      "text": "PRESSED",
+      "truthId": null
+    },
+    {
+      "text": "NOT PRESSED",
+      "truthId": null
+    },
+    {
+      "text": "हिंदी",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Kavita Joshi Registered address 44 Laxmi Road, Nagpur 440012",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Kavita Joshi",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Registered address 44 Laxmi Road, Nagpur 440012",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "About Us ▼ Helpline 9456781230",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Notification ▼",
+      "truthId": null
+    },
+    {
+      "text": "Press Releases",
+      "truthId": null
+    },
+    {
+      "text": "Speeches & Media Interactions ▼",
+      "truthId": null
+    },
+    {
+      "text": "Publications ▼",
+      "truthId": null
+    },
+    {
+      "text": "Legal Framework ▼",
+      "truthId": null
+    },
+    {
+      "text": "Research ▼",
+      "truthId": null
+    },
+    {
+      "text": "Statistics ▼",
+      "truthId": null
+    },
+    {
+      "text": "Regulatory Reporting ▼ Write to kavita.joshi@example.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Card on file 5200 8282 8282 8210",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Alternate contact +91 94567 81230",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "►",
+      "truthId": null
+    },
+    {
+      "text": "⏸",
+      "truthId": null
+    },
+    {
+      "text": "Policy Rates",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Ratios",
+      "truthId": null
+    },
+    {
+      "text": "Exchange Rates",
+      "truthId": null
+    },
+    {
+      "text": "Lending / Deposit Rates",
+      "truthId": null
+    },
+    {
+      "text": "Market Trends",
+      "truthId": null
+    },
+    {
+      "text": "Connect 2 Regulate",
+      "truthId": null
+    },
+    {
+      "text": "RBI Regulated Entities",
+      "truthId": null
+    },
+    {
+      "text": "What's New Sections Updated Today Citizen's Corner",
+      "truthId": null
+    },
+    {
+      "text": "What's New",
+      "truthId": null
+    },
+    {
+      "text": "What's New",
+      "truthId": null
+    },
+    {
+      "text": "Sections Updated Today",
+      "truthId": null
+    },
+    {
+      "text": "Sections Updated Today",
+      "truthId": null
+    },
+    {
+      "text": "Citizen's Corner",
+      "truthId": null
+    },
+    {
+      "text": "Citizen's Corner",
+      "truthId": null
+    },
+    {
+      "text": "ReKYC",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 2233 4455 6677 linked to this account Marching ahead with Responsibility and Growth - Keynote Address delivered by Shri Shirish Chandra Murmu, Deputy Governor, at the 7th NBFC and HFC Summit in Mumbai on September 03, 2026 Data on Forex inflows via FCNR(B) Deposits, External Commercial Borrowings (ECBs) and Overseas Foreign Currency Borrowings (OFCBs) under Reserve Bank’s Swap facility Conference for Registrars of Cooperative Societies held at Reserve Bank of India, New Delhi on September 1, 2026 Processing of Applications Received Under the Citizen’s Charter - Status as on August 31, 2026 Sources of Variation in India’s Foreign Exchange Reserves during April-June 2026 Developments in India’s Balance of Payments during the First Quarter (April-June) of 2026-27 RBI appoints Shri Suman Ray as new Executive Director Quarterly Basic Statistical Return (BSR)-2 on Deposits with Scheduled Commercial Banks - June 2026 Quarterly Basic Statistical Return (BSR)-1 on Credit by Scheduled Commercial Banks – June 2026 Survey of Foreign Liabilities and Assets of Mutual Funds – 2025-26 Performance of Private Corporate Business Sector during Q1:2026-27 Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026 Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Third Amendment Directions, 2026 Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Third Amendment Directions, 2026 Reserve Bank of India (Local Area Banks – Interest Rate on Deposits) Third Amendment Directions, 2026 Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Third Amendment Directions, 2026 Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Third Amendment Directions, 2026 Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 RBI Bulletin – August 2026 Appointment of Shri Janmejaya Kumar Sinha, Shri Syed Akbaruddin and Ms. Annie George Mathew as part-time, Non-official Directors on the Central Board of Reserve Bank of India Data on Forex inflows via FCNR(B) Deposits, External Commercial Borrowings (ECBs) and Overseas Foreign Currency Borrowings (OFCBs) under Reserve Bank’s Swap facility 624th Meeting of Central Board of the Reserve Bank of India Appointment of Shri Somanath Sreedhara Panicker as part-time, Non-official Director on the Central Board of Reserve Bank of India Re-appointment of Shri Anand Gopal Mahindra as part-time, Non-official Director on the Central Board of Reserve Bank of India RBI invites comments on the Draft “Reserve Bank of India (Interest Rates on Loans and Advances) Directions, 2026” RBI invites comments on the draft “Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026” RBI invites public comments on Draft Guidelines for ‘on tap’ Licensing of Urban Co-operative Banks Recruitment related Announcements View More what’s new items 11:29:48 AM Sunday, September 6, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 2233 4455 6677 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Marching ahead with Responsibility and Growth - Keynote Address delivered by Shri Shirish Chandra Murmu, Deputy Governor, at the 7th NBFC and HFC Summit in Mumbai on September 03, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Data on Forex inflows via FCNR(B) Deposits, External Commercial Borrowings (ECBs) and Overseas Foreign Currency Borrowings (OFCBs) under Reserve Bank’s Swap facility",
+      "truthId": null
+    },
+    {
+      "text": "Conference for Registrars of Cooperative Societies held at Reserve Bank of India, New Delhi on September 1, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Processing of Applications Received Under the Citizen’s Charter - Status as on August 31, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Sources of Variation in India’s Foreign Exchange Reserves during April-June 2026",
+      "truthId": null
+    },
+    {
+      "text": "Developments in India’s Balance of Payments during the First Quarter (April-June) of 2026-27",
+      "truthId": null
+    },
+    {
+      "text": "RBI appoints Shri Suman Ray as new Executive Director",
+      "truthId": null
+    },
+    {
+      "text": "Quarterly Basic Statistical Return (BSR)-2 on Deposits with Scheduled Commercial Banks - June 2026",
+      "truthId": null
+    },
+    {
+      "text": "Quarterly Basic Statistical Return (BSR)-1 on Credit by Scheduled Commercial Banks – June 2026",
+      "truthId": null
+    },
+    {
+      "text": "Survey of Foreign Liabilities and Assets of Mutual Funds – 2025-26",
+      "truthId": null
+    },
+    {
+      "text": "Performance of Private Corporate Business Sector during Q1:2026-27",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Local Area Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "truthId": null
+    },
+    {
+      "text": "RBI Bulletin – August 2026",
+      "truthId": null
+    },
+    {
+      "text": "Appointment of Shri Janmejaya Kumar Sinha, Shri Syed Akbaruddin and Ms. Annie George Mathew as part-time, Non-official Directors on the Central Board of Reserve Bank of India",
+      "truthId": null
+    },
+    {
+      "text": "Data on Forex inflows via FCNR(B) Deposits, External Commercial Borrowings (ECBs) and Overseas Foreign Currency Borrowings (OFCBs) under Reserve Bank’s Swap facility",
+      "truthId": null
+    },
+    {
+      "text": "624th Meeting of Central Board of the Reserve Bank of India",
+      "truthId": null
+    },
+    {
+      "text": "Appointment of Shri Somanath Sreedhara Panicker as part-time, Non-official Director on the Central Board of Reserve Bank of India",
+      "truthId": null
+    },
+    {
+      "text": "Re-appointment of Shri Anand Gopal Mahindra as part-time, Non-official Director on the Central Board of Reserve Bank of India",
+      "truthId": null
+    },
+    {
+      "text": "RBI invites comments on the Draft “Reserve Bank of India (Interest Rates on Loans and Advances) Directions, 2026”",
+      "truthId": null
+    },
+    {
+      "text": "RBI invites comments on the draft “Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026”",
+      "truthId": null
+    },
+    {
+      "text": "RBI invites public comments on Draft Guidelines for ‘on tap’ Licensing of Urban Co-operative Banks",
+      "truthId": null
+    },
+    {
+      "text": "Recruitment related Announcements",
+      "truthId": null
+    },
+    {
+      "text": "View More what’s new items",
+      "truthId": null
+    },
+    {
+      "text": "Monetary Policy Banker to Governments and Banks Grievance cell kavita.joshi@example.in Currency Management Consumer Education and Protection Debt Management Enforcement External Investments and Operations Financial Inclusion and Development Financial Markets Financial Stability Analysis FinTech Foreign Exchange Management International Relations Payment and Settlement Systems Regulation Supervision Research",
+      "truthId": null
+    },
+    {
+      "text": "Monetary Policy",
+      "truthId": null
+    },
+    {
+      "text": "Monetary Policy",
+      "truthId": null
+    },
+    {
+      "text": "Banker to Governments and Banks Grievance cell kavita.joshi@example.in",
+      "truthId": null
+    },
+    {
+      "text": "Banker to Governments and Banks Grievance cell kavita.joshi@example.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Currency Management",
+      "truthId": null
+    },
+    {
+      "text": "Currency Management",
+      "truthId": null
+    },
+    {
+      "text": "Consumer Education and Protection",
+      "truthId": null
+    },
+    {
+      "text": "Consumer Education and Protection",
+      "truthId": null
+    },
+    {
+      "text": "Debt Management",
+      "truthId": null
+    },
+    {
+      "text": "Debt Management",
+      "truthId": null
+    },
+    {
+      "text": "Enforcement",
+      "truthId": null
+    },
+    {
+      "text": "Enforcement",
+      "truthId": null
+    },
+    {
+      "text": "External Investments and Operations",
+      "truthId": null
+    },
+    {
+      "text": "External Investments and Operations",
+      "truthId": null
+    },
+    {
+      "text": "Financial Inclusion and Development",
+      "truthId": null
+    },
+    {
+      "text": "Financial Inclusion and Development",
+      "truthId": null
+    },
+    {
+      "text": "Financial Markets",
+      "truthId": null
+    },
+    {
+      "text": "Financial Markets",
+      "truthId": null
+    },
+    {
+      "text": "Financial Stability Analysis",
+      "truthId": null
+    },
+    {
+      "text": "Financial Stability Analysis",
+      "truthId": null
+    },
+    {
+      "text": "FinTech",
+      "truthId": null
+    },
+    {
+      "text": "FinTech",
+      "truthId": null
+    },
+    {
+      "text": "Foreign Exchange Management",
+      "truthId": null
+    },
+    {
+      "text": "Foreign Exchange Management",
+      "truthId": null
+    },
+    {
+      "text": "International Relations",
+      "truthId": null
+    },
+    {
+      "text": "International Relations",
+      "truthId": null
+    },
+    {
+      "text": "Payment and Settlement Systems",
+      "truthId": null
+    },
+    {
+      "text": "Payment and Settlement Systems",
+      "truthId": null
+    },
+    {
+      "text": "Regulation",
+      "truthId": null
+    },
+    {
+      "text": "Regulation",
+      "truthId": null
+    },
+    {
+      "text": "Supervision",
+      "truthId": null
+    },
+    {
+      "text": "Supervision",
+      "truthId": null
+    },
+    {
+      "text": "Research",
+      "truthId": null
+    },
+    {
+      "text": "Research",
+      "truthId": null
+    },
+    {
+      "text": "SEARCH",
+      "truthId": null
+    },
+    {
+      "text": "Search the Website",
+      "truthId": null
+    },
+    {
+      "text": "SEARCH",
+      "truthId": null
+    },
+    {
+      "text": "one time password 141414 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Bank Holidays",
+      "truthId": null
+    },
+    {
+      "text": "Banking Glossary",
+      "truthId": null
+    },
+    {
+      "text": "Citizen's Charter",
+      "truthId": null
+    },
+    {
+      "text": "Complaints",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "COVID-19 Measures",
+      "truthId": null
+    },
+    {
+      "text": "E-LMS",
+      "truthId": null
+    },
+    {
+      "text": "Events",
+      "truthId": null
+    },
+    {
+      "text": "FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Financial Education",
+      "truthId": null
+    },
+    {
+      "text": "Forms",
+      "truthId": null
+    },
+    {
+      "text": "IFSC/MICR Codes",
+      "truthId": null
+    },
+    {
+      "text": "Important Websites",
+      "truthId": null
+    },
+    {
+      "text": "Opportunities@RBI",
+      "truthId": null
+    },
+    {
+      "text": "RBI Clarifications PAN EFGHI2233J",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "RBI Kehta Hai",
+      "truthId": null
+    },
+    {
+      "text": "RBI’s Vision and Values (652 KB)",
+      "truthId": null
+    },
+    {
+      "text": "Right to Information Act",
+      "truthId": null
+    },
+    {
+      "text": "Tenders",
+      "truthId": null
+    },
+    {
+      "text": "RSS",
+      "truthId": null
+    },
+    {
+      "text": "Twitter",
+      "truthId": null
+    },
+    {
+      "text": "YouTube",
+      "truthId": null
+    },
+    {
+      "text": "Instagram",
+      "truthId": null
+    },
+    {
+      "text": "Facebook",
+      "truthId": null
+    },
+    {
+      "text": "LinkedIn",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Web Information Manager",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility Statement (133 KB)",
+      "truthId": null
+    },
+    {
+      "text": "Screen Reader and Accessibility Help",
+      "truthId": null
+    },
+    {
+      "text": "भारतीय रिज़र्व बैंक की आधिकारिक वेबसाइट में आपका स्वागत है Welcome to official website of Reserve Bank of India वेबसाइट देखने के लिए अपनी पसंदीदा भाषा का चयन करें Select your Preferred Language to Access the Website मेरा चयनित विकल्प याद रखें / Remember my choice हिंदी English X",
+      "truthId": null
+    },
+    {
+      "text": "मेरा चयनित विकल्प याद रखें / Remember my choice",
+      "truthId": null
+    },
+    {
+      "text": "Website in Hindi",
+      "truthId": null
+    },
+    {
+      "text": "Website in English",
+      "truthId": null
+    },
+    {
+      "text": "close dialog",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9456781230",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9456781230"
+        }
+      }
+    ]
+  }
+}

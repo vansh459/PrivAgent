@@ -1,0 +1,1618 @@
+{
+  "id": "gov-uidai",
+  "type": "portal",
+  "sourceUrl": "https://uidai.gov.in/hi",
+  "capturedAt": "2026-09-06T05:58:45.256Z",
+  "annotatedAt": "2026-09-06T06:56:34.033Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 6192,
+  "persona": "Anand Krishnamurthy",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Open Aadhaar Chatbot",
+      "bbox": [
+        1158,
+        604,
+        100,
+        100
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "मुख्य सामग्री पर जाएँ",
+      "bbox": [
+        119,
+        0,
+        121,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "स्क्रीन रीडर",
+      "bbox": [
+        815,
+        9,
+        90,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "Select Language, currently Hindi (हिन्दी)",
+      "bbox": [
+        936,
+        3,
+        128,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Accessibility Options",
+      "bbox": [
+        1095,
+        1,
+        60,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "UIDAI — Unique Identification Authority of India logo",
+      "bbox": [
+        119,
+        57,
+        819,
+        63
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "Submit search",
+      "bbox": [
+        954,
+        88,
+        15,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "button",
+      "name": "अधिक जानें",
+      "bbox": [
+        151,
+        2861,
+        111,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "घोषणाएं नया",
+      "bbox": [
+        673,
+        2414,
+        104,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "आधिकारिक ज्ञापन",
+      "bbox": [
+        789,
+        2414,
+        119,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "प्रेस विज्ञप्ति",
+      "bbox": [
+        919,
+        2414,
+        85,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "button",
+      "name": "परिपत्र",
+      "bbox": [
+        1016,
+        2414,
+        64,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "निविदाएं",
+      "bbox": [
+        673,
+        2465,
+        72,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1085,
+        2619,
+        26,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1085,
+        2734,
+        26,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1085,
+        2849,
+        26,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "सभी देखें",
+      "bbox": [
+        631,
+        4626,
+        81,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "Play video: How to register on Aadhaar App and login",
+      "bbox": [
+        151,
+        4672,
+        173,
+        358
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "Play video: OVSE use cases video",
+      "bbox": [
+        344,
+        4672,
+        173,
+        358
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "button",
+      "name": "Play video: Aadhaar App Launch Video",
+      "bbox": [
+        538,
+        4672,
+        173,
+        358
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "button",
+      "name": "आधार ऐप कैसे डाउनलोड करें?",
+      "bbox": [
+        756,
+        4697,
+        346,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "आधार ऐप पर पंजीकरण कैसे करें?",
+      "bbox": [
+        756,
+        4841,
+        346,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "इस ऐप पर कौन सी सेवाएं उपलब्ध हैं?",
+      "bbox": [
+        756,
+        4912,
+        346,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "आधार ऐप में शामिल होने के लिए किन विवरणों की आवश्यकता होती है?",
+      "bbox": [
+        756,
+        4982,
+        346,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "सभी अक्सर पूछे जाने वाले प्रश्न देखें",
+      "bbox": [
+        870,
+        5061,
+        253,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Facebook",
+      "bbox": [
+        962,
+        5441,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Youtube",
+      "bbox": [
+        1002,
+        5441,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Instagram",
+      "bbox": [
+        1042,
+        5441,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "LinkedIn",
+      "bbox": [
+        1082,
+        5441,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Twitter",
+      "bbox": [
+        1122,
+        5441,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "combobox",
+      "name": "Search Services",
+      "bbox": [
+        954,
+        65,
+        202,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "button",
+      "name": "Home",
+      "bbox": [
+        123,
+        144,
+        116,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "button",
+      "name": "My Aadhaar, has submenu",
+      "bbox": [
+        247,
+        144,
+        141,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "button",
+      "name": "About UIDAI, has submenu",
+      "bbox": [
+        396,
+        144,
+        249,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "button",
+      "name": "Build with Us, has submenu",
+      "bbox": [
+        652,
+        144,
+        200,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "button",
+      "name": "Media, has submenu",
+      "bbox": [
+        860,
+        144,
+        121,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "button",
+      "name": "Documents, has submenu",
+      "bbox": [
+        989,
+        144,
+        128,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "button",
+      "name": "Help, has submenu",
+      "bbox": [
+        1125,
+        144,
+        132,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "button",
+      "name": "Go to slide 1",
+      "bbox": [
+        580,
+        759,
+        8,
+        8
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "button",
+      "name": "Go to slide 2",
+      "bbox": [
+        594,
+        759,
+        8,
+        8
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "button",
+      "name": "Go to slide 3",
+      "bbox": [
+        608,
+        759,
+        8,
+        8
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "button",
+      "name": "Go to slide 4",
+      "bbox": [
+        622,
+        759,
+        8,
+        8
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "button",
+      "name": "Go to slide 5",
+      "bbox": [
+        636,
+        759,
+        8,
+        8
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "button",
+      "name": "Go to slide 6",
+      "bbox": [
+        650,
+        759,
+        8,
+        8
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "button",
+      "name": "Pause slider autoplay",
+      "bbox": [
+        676,
+        749,
+        28,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "button",
+      "name": "सभी सेवाओं को देखें",
+      "bbox": [
+        934,
+        862,
+        189,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Download Aadhaar - opens in new tab",
+      "bbox": [
+        151,
+        931,
+        231,
+        225
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Address Update - opens in new tab",
+      "bbox": [
+        398,
+        931,
+        231,
+        225
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Lock/Unlock Biometrics - opens in new tab",
+      "bbox": [
+        645,
+        931,
+        231,
+        225
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Check Update Status - opens in new tab",
+      "bbox": [
+        892,
+        931,
+        231,
+        225
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "button",
+      "name": "सभी स्वीकृत दस्तावेज़ देखें",
+      "bbox": [
+        153,
+        1493,
+        190,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "button",
+      "name": "आधार केंद्र खोजें",
+      "bbox": [
+        507,
+        1493,
+        139,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "button",
+      "name": "शिकायत दर्ज कराएँ",
+      "bbox": [
+        860,
+        1493,
+        155,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "button",
+      "name": "अधिक पढ़ें",
+      "bbox": [
+        157,
+        4013,
+        95,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "button",
+      "name": "अधिक पढ़ें",
+      "bbox": [
+        500,
+        4013,
+        95,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "button",
+      "name": "अधिक पढ़ें Grievance cell anand.k@example.org",
+      "bbox": [
+        843,
+        4013,
+        274,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "button",
+      "name": "पार्टनर बनें",
+      "bbox": [
+        199,
+        4373,
+        148,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "यू. आई. डी. ए. आई. के बारे में",
+      "bbox": [
+        137,
+        5543,
+        133,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "आधार सेवाएँ",
+      "bbox": [
+        354,
+        5545,
+        65,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "दस्तावेज़",
+      "bbox": [
+        570,
+        5545,
+        42,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "combobox",
+      "name": "क्षेत्रीय और राज्य कार्यालय असम",
+      "bbox": [
+        518,
+        5863,
+        238,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Store",
+      "bbox": [
+        208,
+        1863,
+        140,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Store",
+      "bbox": [
+        208,
+        1919,
+        140,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "button",
+      "name": "डैशबोर्ड पर जाएँ",
+      "bbox": [
+        984,
+        2997,
+        163,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "button",
+      "name": "कैरियर पोर्टल पर जाएँ",
+      "bbox": [
+        159,
+        3536,
+        185,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "विजन और मिशन Write to anand.k@example.org",
+      "bbox": [
+        137,
+        5593,
+        133,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "आधार डैशबोर्ड",
+      "bbox": [
+        137,
+        5637,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "नागरिक चार्टर",
+      "bbox": [
+        137,
+        5663,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "वार्षिक प्रतिवेदन",
+      "bbox": [
+        137,
+        5689,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "आधार डाउनलोड करें PAN ZYXWV9876A",
+      "bbox": [
+        354,
+        5576,
+        133,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "आधार को अपडेट करें",
+      "bbox": [
+        354,
+        5620,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "आधार की स्थिति की जाँच करें",
+      "bbox": [
+        354,
+        5646,
+        133,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "पीवीसी कार्ड का ऑर्डर दें",
+      "bbox": [
+        354,
+        5690,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "वी. आई. डी. बनाएँ",
+      "bbox": [
+        354,
+        5716,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "खोए हुए यू. आई. डी. को पुनर्प्राप्त करें",
+      "bbox": [
+        354,
+        5742,
+        133,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "नामांकन और अद्यतन प्रपत्र",
+      "bbox": [
+        570,
+        5576,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "हैंडबुक",
+      "bbox": [
+        570,
+        5602,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "वार्षिक प्रतिवेदन",
+      "bbox": [
+        570,
+        5628,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "परिपत्र",
+      "bbox": [
+        570,
+        5654,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "नीतियाँ",
+      "bbox": [
+        570,
+        5680,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "मेरा आधार पोर्टल Open external website",
+      "bbox": [
+        787,
+        5574,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "आधार ऐप Open external website",
+      "bbox": [
+        787,
+        5600,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "सेवा केंद्र लोकेटर Open external website",
+      "bbox": [
+        787,
+        5626,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "डेवलपर सैंडबॉक्स",
+      "bbox": [
+        787,
+        5652,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "कैरियर पोर्टल Open external website",
+      "bbox": [
+        787,
+        5678,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "एक ओवीएसई बनें Helpline 7654321098",
+      "bbox": [
+        787,
+        5704,
+        133,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "साइट का नक्शा",
+      "bbox": [
+        1004,
+        5574,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "वेबसाइट नीतियाँ",
+      "bbox": [
+        1004,
+        5600,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "वेबसाइट सहायता",
+      "bbox": [
+        1004,
+        5626,
+        133,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "button",
+      "name": "ओवीएसई के बारे में जानें",
+      "bbox": [
+        -4371,
+        561,
+        226,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "button",
+      "name": "सेवाओं का अन्वेषण करें",
+      "bbox": [
+        -2113,
+        599,
+        219,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "button",
+      "name": "अभी जाएँ",
+      "bbox": [
+        -985,
+        561,
+        133,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "button",
+      "name": "निकटतम आधार केंद्र",
+      "bbox": [
+        144,
+        601,
+        204,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "button",
+      "name": "अभी डाउनलोड करें",
+      "bbox": [
+        1273,
+        586,
+        197,
+        47
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7654321098",
+      "text": "Helpline 7654321098",
+      "bbox": [
+        787,
+        5704,
+        133,
+        36
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "080 2345 6789",
+      "text": "Alternate contact 080 2345 6789",
+      "bbox": [
+        1213,
+        314,
+        1109,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "anand.k@example.org",
+      "text": "Write to anand.k@example.org",
+      "bbox": [
+        137,
+        5593,
+        133,
+        36
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "9876-5432-1098",
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "bbox": [
+        -2113,
+        400,
+        294,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "ZYXWV9876A",
+      "text": "PAN ZYXWV9876A",
+      "bbox": [
+        354,
+        5576,
+        133,
+        36
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3400 0000 0000 009",
+      "text": "Card on file 3400 0000 0000 009",
+      "bbox": [
+        0,
+        6,
+        1274,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 5678",
+      "text": "OTP: 5678 sent to your phone",
+      "bbox": [
+        119,
+        1271,
+        1036,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Anand Krishnamurthy",
+      "text": "Signed in as Anand Krishnamurthy",
+      "bbox": [
+        528,
+        253,
+        219,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Plot 9, Sector 21, Gurugram 122016",
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "bbox": [
+        119,
+        1226,
+        1036,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "anand.k@example.org",
+      "text": "Grievance cell anand.k@example.org",
+      "bbox": [
+        843,
+        4013,
+        274,
+        40
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Card on file 3400 0000 0000 009",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "मुख्य सामग्री पर जाएँ",
+      "truthId": null
+    },
+    {
+      "text": "स्क्रीन रीडर",
+      "truthId": null
+    },
+    {
+      "text": "Select Language, currently Hindi (हिन्दी)",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility Options",
+      "truthId": null
+    },
+    {
+      "text": "Search Services",
+      "truthId": null
+    },
+    {
+      "text": "Submit search",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "My Aadhaar, has submenu",
+      "truthId": null
+    },
+    {
+      "text": "About UIDAI, has submenu",
+      "truthId": null
+    },
+    {
+      "text": "Build with Us, has submenu",
+      "truthId": null
+    },
+    {
+      "text": "Media, has submenu",
+      "truthId": null
+    },
+    {
+      "text": "Documents, has submenu",
+      "truthId": null
+    },
+    {
+      "text": "Help, has submenu",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Anand Krishnamurthy",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Homepage banner slider",
+      "truthId": null
+    },
+    {
+      "text": "Slide 5 of 6",
+      "truthId": null
+    },
+    {
+      "text": "ओवीएसई के बारे में जानें",
+      "truthId": null
+    },
+    {
+      "text": "Slide 6 of 6",
+      "truthId": null
+    },
+    {
+      "text": "Slide 1 of 6",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 9876-5432-1098 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "सेवाओं का अन्वेषण करें",
+      "truthId": null
+    },
+    {
+      "text": "Slide 2 of 6",
+      "truthId": null
+    },
+    {
+      "text": "अभी जाएँ",
+      "truthId": null
+    },
+    {
+      "text": "Slide 3 of 6",
+      "truthId": null
+    },
+    {
+      "text": "निकटतम आधार केंद्र",
+      "truthId": null
+    },
+    {
+      "text": "Slide 4 of 6",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 080 2345 6789",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "अभी डाउनलोड करें",
+      "truthId": null
+    },
+    {
+      "text": "Go to slide 1",
+      "truthId": null
+    },
+    {
+      "text": "Go to slide 2",
+      "truthId": null
+    },
+    {
+      "text": "Go to slide 3",
+      "truthId": null
+    },
+    {
+      "text": "Go to slide 4",
+      "truthId": null
+    },
+    {
+      "text": "Go to slide 5",
+      "truthId": null
+    },
+    {
+      "text": "Go to slide 6",
+      "truthId": null
+    },
+    {
+      "text": "Pause slider autoplay",
+      "truthId": null
+    },
+    {
+      "text": "सभी सेवाओं को देखें",
+      "truthId": null
+    },
+    {
+      "text": "Download Aadhaar - opens in new tab",
+      "truthId": null
+    },
+    {
+      "text": "Address Update - opens in new tab",
+      "truthId": null
+    },
+    {
+      "text": "Lock/Unlock Biometrics - opens in new tab",
+      "truthId": null
+    },
+    {
+      "text": "Check Update Status - opens in new tab",
+      "truthId": null
+    },
+    {
+      "text": "Registered address Plot 9, Sector 21, Gurugram 122016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "OTP: 5678 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "सभी स्वीकृत दस्तावेज़ देखें",
+      "truthId": null
+    },
+    {
+      "text": "आधार केंद्र खोजें",
+      "truthId": null
+    },
+    {
+      "text": "शिकायत दर्ज कराएँ",
+      "truthId": null
+    },
+    {
+      "text": "अधिक जानें",
+      "truthId": null
+    },
+    {
+      "text": "घोषणाएं नया",
+      "truthId": null
+    },
+    {
+      "text": "आधिकारिक ज्ञापन",
+      "truthId": null
+    },
+    {
+      "text": "प्रेस विज्ञप्ति",
+      "truthId": null
+    },
+    {
+      "text": "परिपत्र",
+      "truthId": null
+    },
+    {
+      "text": "निविदाएं",
+      "truthId": null
+    },
+    {
+      "text": "डैशबोर्ड पर जाएँ",
+      "truthId": null
+    },
+    {
+      "text": "कैरियर पोर्टल पर जाएँ",
+      "truthId": null
+    },
+    {
+      "text": "अधिक पढ़ें",
+      "truthId": null
+    },
+    {
+      "text": "अधिक पढ़ें",
+      "truthId": null
+    },
+    {
+      "text": "अधिक पढ़ें Grievance cell anand.k@example.org",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "पार्टनर बनें",
+      "truthId": null
+    },
+    {
+      "text": "सभी देखें",
+      "truthId": null
+    },
+    {
+      "text": "Play video: How to register on Aadhaar App and login",
+      "truthId": null
+    },
+    {
+      "text": "Play video: OVSE use cases video",
+      "truthId": null
+    },
+    {
+      "text": "Play video: Aadhaar App Launch Video",
+      "truthId": null
+    },
+    {
+      "text": "आधार ऐप कैसे डाउनलोड करें?",
+      "truthId": null
+    },
+    {
+      "text": "आधार ऐप पर पंजीकरण कैसे करें?",
+      "truthId": null
+    },
+    {
+      "text": "इस ऐप पर कौन सी सेवाएं उपलब्ध हैं?",
+      "truthId": null
+    },
+    {
+      "text": "आधार ऐप में शामिल होने के लिए किन विवरणों की आवश्यकता होती है?",
+      "truthId": null
+    },
+    {
+      "text": "सभी अक्सर पूछे जाने वाले प्रश्न देखें",
+      "truthId": null
+    },
+    {
+      "text": "Facebook",
+      "truthId": null
+    },
+    {
+      "text": "Youtube",
+      "truthId": null
+    },
+    {
+      "text": "Instagram",
+      "truthId": null
+    },
+    {
+      "text": "LinkedIn",
+      "truthId": null
+    },
+    {
+      "text": "Twitter",
+      "truthId": null
+    },
+    {
+      "text": "यू. आई. डी. ए. आई. के बारे में",
+      "truthId": null
+    },
+    {
+      "text": "विजन और मिशन Write to anand.k@example.org",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "आधार डैशबोर्ड",
+      "truthId": null
+    },
+    {
+      "text": "नागरिक चार्टर",
+      "truthId": null
+    },
+    {
+      "text": "वार्षिक प्रतिवेदन",
+      "truthId": null
+    },
+    {
+      "text": "आधार सेवाएँ",
+      "truthId": null
+    },
+    {
+      "text": "आधार डाउनलोड करें PAN ZYXWV9876A",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "आधार को अपडेट करें",
+      "truthId": null
+    },
+    {
+      "text": "आधार की स्थिति की जाँच करें",
+      "truthId": null
+    },
+    {
+      "text": "पीवीसी कार्ड का ऑर्डर दें",
+      "truthId": null
+    },
+    {
+      "text": "वी. आई. डी. बनाएँ",
+      "truthId": null
+    },
+    {
+      "text": "खोए हुए यू. आई. डी. को पुनर्प्राप्त करें",
+      "truthId": null
+    },
+    {
+      "text": "दस्तावेज़",
+      "truthId": null
+    },
+    {
+      "text": "नामांकन और अद्यतन प्रपत्र",
+      "truthId": null
+    },
+    {
+      "text": "हैंडबुक",
+      "truthId": null
+    },
+    {
+      "text": "वार्षिक प्रतिवेदन",
+      "truthId": null
+    },
+    {
+      "text": "परिपत्र",
+      "truthId": null
+    },
+    {
+      "text": "नीतियाँ",
+      "truthId": null
+    },
+    {
+      "text": "मेरा आधार पोर्टल",
+      "truthId": null
+    },
+    {
+      "text": "आधार ऐप",
+      "truthId": null
+    },
+    {
+      "text": "सेवा केंद्र लोकेटर",
+      "truthId": null
+    },
+    {
+      "text": "डेवलपर सैंडबॉक्स",
+      "truthId": null
+    },
+    {
+      "text": "कैरियर पोर्टल",
+      "truthId": null
+    },
+    {
+      "text": "एक ओवीएसई बनें Helpline 7654321098",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "साइट का नक्शा",
+      "truthId": null
+    },
+    {
+      "text": "वेबसाइट नीतियाँ",
+      "truthId": null
+    },
+    {
+      "text": "वेबसाइट सहायता",
+      "truthId": null
+    },
+    {
+      "text": "असम",
+      "truthId": null
+    },
+    {
+      "text": "Open Aadhaar Chatbot",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "chawla.png",
+        "bbox": [
+          1128,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          938,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7654321098",
+        "bbox": [
+          938,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7654321098"
+        }
+      }
+    ]
+  }
+}

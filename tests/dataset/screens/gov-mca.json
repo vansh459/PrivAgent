@@ -1,0 +1,1535 @@
+{
+  "id": "gov-mca",
+  "type": "portal",
+  "sourceUrl": "https://www.mca.gov.in/content/mca/global/en/home.html",
+  "capturedAt": "2026-09-06T06:06:11.548Z",
+  "annotatedAt": "2026-09-06T06:57:06.151Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2747,
+  "persona": "Vikram Deshpande",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Ease of doing business",
+      "bbox": [
+        77,
+        2070,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Employees Corner",
+      "bbox": [
+        359,
+        2070,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Mediation & Conciliation Panel",
+      "bbox": [
+        640,
+        2070,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Annual Reports",
+      "bbox": [
+        921,
+        2070,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Parliament Questions & Assurances",
+      "bbox": [
+        77,
+        2158,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Corporate Seva Kendra",
+      "bbox": [
+        359,
+        2158,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "XBRL V3",
+      "bbox": [
+        640,
+        2158,
+        266,
+        73
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Azadi Ka Amrit Mahotsav initiative marking 75 years of India’s independence",
+      "bbox": [
+        90,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Serious Fraud Investigation Office responsible for probing major corporate fraud cases",
+      "bbox": [
+        233,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Investor Education and Protection Fund Authority promoting investor awareness and protection in India",
+      "bbox": [
+        376,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Indian Institute of Corporate Affairs supporting research, training, and corporate governance initiatives",
+      "bbox": [
+        518,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Indian Institute of Corporate Affairs supporting research, training, and corporate governance initiatives",
+      "bbox": [
+        661,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Insolvency and Bankruptcy Board of India overseeing insolvency professionals and processes",
+      "bbox": [
+        804,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "National Financial Reporting Authority regulating auditors and enforcing financial reporting standards",
+      "bbox": [
+        947,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "National Company Law Appellate Tribunal hearing appeals related to corporate and insolvency matters",
+      "bbox": [
+        1090,
+        2315,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "National Company Law Tribunal handling company law disputes and insolvency cases",
+      "bbox": [
+        90,
+        2403,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "National CSR Data Portal enabling access to corporate social responsibility data and disclosures",
+      "bbox": [
+        233,
+        2403,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "National Foundation for Corporate Governance supporting research, training, and best practices in corporate governance",
+      "bbox": [
+        376,
+        2403,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "MyGov portal of the Government of India for citizen engagement and participatory governance",
+      "bbox": [
+        518,
+        2403,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Corporate Data Management. An Initiative of Ministry of Corporate Affairs. Portal Link",
+      "bbox": [
+        661,
+        2403,
+        85,
+        85
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "twitter",
+      "bbox": [
+        971,
+        2651,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "facebook",
+      "bbox": [
+        1018,
+        2651,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "youTube",
+      "bbox": [
+        1065,
+        2651,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "instagram",
+      "bbox": [
+        1112,
+        2651,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "linkedin",
+      "bbox": [
+        1159,
+        2651,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "National Emblem & Ministry of Corporate Affairs logo",
+      "bbox": [
+        62,
+        234,
+        559,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Login/Register",
+      "bbox": [
+        1105,
+        232,
+        86,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "‘ FAQs on Foreign Companies / Indian Subsidiaries of Foreign Body Corporates ’",
+      "bbox": [
+        1181,
+        753,
+        459,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "https://swayamplus.education.gov.in/courses/corporate-mitra",
+      "bbox": [
+        3088,
+        753,
+        341,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "www.mca.gov.in.",
+      "bbox": [
+        4220,
+        753,
+        98,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "‘Corporate Mitra’ Guidelines",
+      "bbox": [
+        4337,
+        753,
+        163,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "FAQs for Annual Filing Forms",
+      "bbox": [
+        4522,
+        753,
+        172,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "V3 Offline Payment FAQs",
+      "bbox": [
+        9656,
+        753,
+        149,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Filing Steps and FAQs of Form 11 LLP",
+      "bbox": [
+        9832,
+        753,
+        221,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Revised Filing Steps and FAQs of Form 3 LLP",
+      "bbox": [
+        10080,
+        753,
+        263,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "DSC Association FAQs",
+      "bbox": [
+        10370,
+        753,
+        132,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "FAQs V3 Set 2 forms[46 forms]",
+      "bbox": [
+        10532,
+        753,
+        180,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Presentation for newly launched 56 Company Forms",
+      "bbox": [
+        10743,
+        753,
+        296,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "FAQ V3 Spice+ and Linked Filing",
+      "bbox": [
+        11069,
+        753,
+        194,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Webinar Presentation of MCA21 V3 Login Registration and Company Go Live",
+      "bbox": [
+        11293,
+        753,
+        445,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Professional Staff Member FAQ",
+      "bbox": [
+        11772,
+        753,
+        181,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "V3 Consolidated FAQ",
+      "bbox": [
+        12197,
+        753,
+        132,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Other Key Success Indicators Grievance cell v.deshpande+claims@example.com",
+      "bbox": [
+        274,
+        1205,
+        432,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1092,
+        1925,
+        100,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "About",
+      "bbox": [
+        400,
+        2528,
+        65,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Policies",
+      "bbox": [
+        507,
+        2528,
+        74,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Links",
+      "bbox": [
+        625,
+        2528,
+        62,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Trademark's Portal",
+      "bbox": [
+        729,
+        2528,
+        136,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Disclaimer",
+      "bbox": [
+        475,
+        2658,
+        53,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "BacktoTop Icon",
+      "bbox": [
+        1175,
+        2488,
+        80,
+        80
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "textbox",
+      "name": "search",
+      "bbox": [
+        647,
+        224,
+        357,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "button",
+      "name": "search",
+      "bbox": [
+        961,
+        226,
+        35,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "button",
+      "name": "Pause carousel",
+      "bbox": [
+        632,
+        546,
+        1,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "menuitem",
+      "name": "HOME",
+      "bbox": [
+        132,
+        309,
+        61,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "menuitem",
+      "name": "About MCA Helpline 9123456780",
+      "bbox": [
+        193,
+        309,
+        215,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "menuitem",
+      "name": "Acts & Rules",
+      "bbox": [
+        408,
+        309,
+        95,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "menuitem",
+      "name": "My Application",
+      "bbox": [
+        504,
+        309,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "menuitem",
+      "name": "MCA Services",
+      "bbox": [
+        612,
+        309,
+        102,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "menuitem",
+      "name": "Additional Services",
+      "bbox": [
+        714,
+        309,
+        131,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "menuitem",
+      "name": "Data & Reports",
+      "bbox": [
+        845,
+        309,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "menuitem",
+      "name": "Help & FAQs",
+      "bbox": [
+        953,
+        309,
+        98,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "menuitem",
+      "name": "Contact Us",
+      "bbox": [
+        1050,
+        309,
+        83,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        87,
+        546,
+        35,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "button",
+      "name": "carousel next button",
+      "bbox": [
+        1145,
+        546,
+        35,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Next",
+      "bbox": [
+        1156,
+        1445,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Extension of time period for validity of name reservation and resubmission",
+      "bbox": [
+        148,
+        1654,
+        421,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Participate in the Fight against Corruption -Take Integrity Pledge",
+      "bbox": [
+        154,
+        2331,
+        365,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Observance of Vigilance Awareness Week, 2025 (27 th October, 2025 to 2nd November, 2025) Providing hyperlink of e-pledge on Ministry's website",
+      "bbox": [
+        148,
+        2558,
+        837,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "https://www.mca.gov.in/V3XBRL/",
+      "bbox": [
+        148,
+        2788,
+        195,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "http://www.mca.gov.in/XBRL/",
+      "bbox": [
+        516,
+        2788,
+        173,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "MCA 21 V3 Presentation on Company module Lot-3 forms",
+      "bbox": [
+        148,
+        3105,
+        333,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Launch of Final Set of 38 Company Forms (Including 13 Annual Filing Forms and 6 Audit/Cost Audit Forms)",
+      "bbox": [
+        154,
+        3198,
+        617,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "General Circular No.02/2024 - Deployment and usage of Change Request Form (CRF) on MCA-21",
+      "bbox": [
+        154,
+        4502,
+        558,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "CVO-MCA@GOV.IN",
+      "bbox": [
+        148,
+        5114,
+        126,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Stakeholders please note that Company Incorporation forms (Spice + Part A, Part B & RUN) will be available for filing purposes in V2 till 21st January 00:00 Hrs. These forms will be enabled on V3 portal from 23rd January 2023 00:00 Hours. Remaining 46 forms will also be available for filing purposes in V3 from 23rd January 2023 00:00 Hours.",
+      "bbox": [
+        148,
+        7186,
+        985,
+        77
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Launch of 56 Company Forms (Including 10 Incorporation Forms)",
+      "bbox": [
+        148,
+        7619,
+        375,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Sitemap",
+      "bbox": [
+        82,
+        13,
+        53,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Skip to Main Content",
+      "bbox": [
+        136,
+        13,
+        118,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Corporate Mitra Course banner showing eligibility, academic support institutions, course fee, and fee concession details.",
+      "bbox": [
+        62,
+        536,
+        1140,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "tab",
+      "name": "Important Updates PAN PQRST5678U",
+      "bbox": [
+        86,
+        1400,
+        184,
+        128
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "tab",
+      "name": "What's New",
+      "bbox": [
+        286,
+        1400,
+        184,
+        128
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "button",
+      "name": "increase font size",
+      "bbox": [
+        818,
+        16,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "button",
+      "name": "decrease font size",
+      "bbox": [
+        864,
+        16,
+        18,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "switch",
+      "name": "Light mode enabled",
+      "bbox": [
+        1018,
+        18,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Switch to Hindi language",
+      "bbox": [
+        1092,
+        11,
+        110,
+        28
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9123456780",
+      "text": "Helpline 9123456780",
+      "bbox": [
+        193,
+        309,
+        215,
+        47
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "022 2789 4561",
+      "text": "Alternate contact 022 2789 4561",
+      "bbox": [
+        62,
+        2276,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "v.deshpande+claims@example.com",
+      "text": "Write to v.deshpande+claims@example.com",
+      "bbox": [
+        1481,
+        1400,
+        184,
+        128
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "5678 1234 9012",
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "bbox": [
+        62,
+        113,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "PQRST5678U",
+      "text": "PAN PQRST5678U",
+      "bbox": [
+        86,
+        1400,
+        184,
+        128
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4012 8888 8888 1881",
+      "text": "Card on file 4012 8888 8888 1881",
+      "bbox": [
+        62,
+        74,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 135790",
+      "text": "OTP is 135790 sent to your phone",
+      "bbox": [
+        87,
+        1559,
+        1105,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Vikram Deshpande",
+      "text": "Signed in as Vikram Deshpande",
+      "bbox": [
+        73,
+        810,
+        1119,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Shop 6, 41 Linking Road, Mumbai 400050",
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "bbox": [
+        52,
+        158,
+        1161,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "v.deshpande+claims@example.com",
+      "text": "Grievance cell v.deshpande+claims@example.com",
+      "bbox": [
+        274,
+        1205,
+        432,
+        40
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Sitemap Skip to Main Content Font size decreased Font Size A Light Mode हिन्दी",
+      "truthId": null
+    },
+    {
+      "text": "Sitemap",
+      "truthId": null
+    },
+    {
+      "text": "Skip to Main Content",
+      "truthId": null
+    },
+    {
+      "text": "increase font size",
+      "truthId": null
+    },
+    {
+      "text": "decrease font size",
+      "truthId": null
+    },
+    {
+      "text": "Switch to Hindi language",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 4012 8888 8888 1881",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "search",
+      "truthId": null
+    },
+    {
+      "text": "search",
+      "truthId": null
+    },
+    {
+      "text": "Login/Register",
+      "truthId": null
+    },
+    {
+      "text": "Primary navigation",
+      "truthId": null
+    },
+    {
+      "text": "Primary navigation",
+      "truthId": null
+    },
+    {
+      "text": "HOME",
+      "truthId": null
+    },
+    {
+      "text": "HOME",
+      "truthId": null
+    },
+    {
+      "text": "About MCA Helpline 9123456780",
+      "truthId": null
+    },
+    {
+      "text": "About MCA Helpline 9123456780",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Acts & Rules",
+      "truthId": null
+    },
+    {
+      "text": "Acts & Rules",
+      "truthId": null
+    },
+    {
+      "text": "My Application",
+      "truthId": null
+    },
+    {
+      "text": "My Application",
+      "truthId": null
+    },
+    {
+      "text": "MCA Services",
+      "truthId": null
+    },
+    {
+      "text": "MCA Services",
+      "truthId": null
+    },
+    {
+      "text": "Additional Services",
+      "truthId": null
+    },
+    {
+      "text": "Additional Services",
+      "truthId": null
+    },
+    {
+      "text": "Data & Reports",
+      "truthId": null
+    },
+    {
+      "text": "Data & Reports",
+      "truthId": null
+    },
+    {
+      "text": "Help & FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Help & FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Image",
+      "truthId": null
+    },
+    {
+      "text": "Slide 2 of 6",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "‘ FAQs on Foreign Companies / Indian Subsidiaries of Foreign Body Corporates ’ || The 'Corporate Mitra' Course registration window timeline has been extended up to 14th August 2026 for the North Eastern States candidates. Don't miss this opportunity. Register before the closing date. Registration Link: https://swayamplus.education.gov.in/courses/corporate-mitra || Stay alert against fake MCA communications. Do not click suspicious links or open unsolicited ZIP files. Verify only at www.mca.gov.in. || ‘Corporate Mitra’ Guidelines || FAQs for Annual Filing Forms || Attention Foreign Directors - Stakeholders facing OTP issues are advised to raise a ticket with the MCA Helpdesk and follow the instructions received via email in response to the ticket || Stakeholders are advised to create user ID/upgrade existing V2 ID/Merge V2 ID in V3 system under ‘Business user’ category and associate the DSC if not already done. || Users are requested to make payments for fund transfer to IEPFA through MCA portal under V3 Miscellaneous fee service only. Kindly do not make direct payments to Bharat Kosh for such fund transfers. || IEPF-5 EVR to be filed as a link form to IEPF-5 in V3 now. Nodal Officer/Deputy Nodal Officer will be able to access the IEPF-5EVR after upgrading their user profile as Nodal/Deputy Nodal officer. || V3 Offline Payment FAQs || Filing Steps and FAQs of Form 11 LLP || Revised Filing Steps and FAQs of Form 3 LLP || DSC Association FAQs || FAQs V3 Set 2 forms[46 forms] || Presentation for newly launched 56 Company Forms || FAQ V3 Spice+ and Linked Filing || Webinar Presentation of MCA21 V3 Login Registration and Company Go Live || Professional Staff Member FAQ || Login and Registration Video Demo || V3 Consolidated FAQ",
+      "truthId": null
+    },
+    {
+      "text": "‘ FAQs on Foreign Companies / Indian Subsidiaries of Foreign Body Corporates ’",
+      "truthId": null
+    },
+    {
+      "text": "https://swayamplus.education.gov.in/courses/corporate-mitra",
+      "truthId": null
+    },
+    {
+      "text": "www.mca.gov.in.",
+      "truthId": null
+    },
+    {
+      "text": "‘Corporate Mitra’ Guidelines",
+      "truthId": null
+    },
+    {
+      "text": "FAQs for Annual Filing Forms",
+      "truthId": null
+    },
+    {
+      "text": "V3 Offline Payment FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Filing Steps and FAQs of Form 11 LLP",
+      "truthId": null
+    },
+    {
+      "text": "Revised Filing Steps and FAQs of Form 3 LLP",
+      "truthId": null
+    },
+    {
+      "text": "DSC Association FAQs",
+      "truthId": null
+    },
+    {
+      "text": "FAQs V3 Set 2 forms[46 forms]",
+      "truthId": null
+    },
+    {
+      "text": "Presentation for newly launched 56 Company Forms",
+      "truthId": null
+    },
+    {
+      "text": "FAQ V3 Spice+ and Linked Filing",
+      "truthId": null
+    },
+    {
+      "text": "Webinar Presentation of MCA21 V3 Login Registration and Company Go Live",
+      "truthId": null
+    },
+    {
+      "text": "Professional Staff Member FAQ",
+      "truthId": null
+    },
+    {
+      "text": "V3 Consolidated FAQ",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Vikram Deshpande",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Other Key Success Indicators Grievance cell v.deshpande+claims@example.com",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Notifications and updates tabs",
+      "truthId": null
+    },
+    {
+      "text": "Important Updates PAN PQRST5678U",
+      "truthId": null
+    },
+    {
+      "text": "Important Updates PAN PQRST5678U",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "What's New",
+      "truthId": null
+    },
+    {
+      "text": "What's New",
+      "truthId": null
+    },
+    {
+      "text": "Notices",
+      "truthId": null
+    },
+    {
+      "text": "Notices",
+      "truthId": null
+    },
+    {
+      "text": "Circulars",
+      "truthId": null
+    },
+    {
+      "text": "Circulars",
+      "truthId": null
+    },
+    {
+      "text": "Recent Reports",
+      "truthId": null
+    },
+    {
+      "text": "Recent Reports",
+      "truthId": null
+    },
+    {
+      "text": "Quotations & Tenders",
+      "truthId": null
+    },
+    {
+      "text": "Quotations & Tenders",
+      "truthId": null
+    },
+    {
+      "text": "Press Release",
+      "truthId": null
+    },
+    {
+      "text": "Press Release",
+      "truthId": null
+    },
+    {
+      "text": "Vacancies Write to v.deshpande+claims@example.com",
+      "truthId": null
+    },
+    {
+      "text": "Vacancies Write to v.deshpande+claims@example.com",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Next",
+      "truthId": null
+    },
+    {
+      "text": "OTP is 135790 sent to your phone Important Updates ( 50 items) Extension of time period for validity of name reservation and resubmission 20-06-2026 What procedure is to be followed in case of transfer of interest of a member in a company not having share capital? Ans. Section 56 of the Companies Act, 2013 provides that a proper instrument of transfer is required to be executed in case of transfer of the interest of a member in case of a company having no share capital. Such instrument is required to be executed by or on behalf of the transferor and the transferee and must be delivered to the company in terms of the said provision. Rule 11 of the Companies (Share Capital and Debentures) Rules, 2014 provides that form SH-4 shall be the format for transfer of securities held in the physical form. Rule 11(2) of the said rules clarifies that the same form is also required to be used in case of transfer of interest of a member in a company not having Share capital. The said provision clarifies that the reference to securities shall be read as reference to interest of the member of the company. Accordingly, stakeholders are advised to use form SH-4 for transfer of interest of member in case of a company limited with guarantee in terms of rule 11(2). 11-05-2026 Stakeholders are informed that MCA portal will not be available from 15th February 2026 12:00 AM to 15th February 11:59 PM due to establishment of new RDs and ROCs which are effective from 16th February 2026. To facilitate implementation of this change, stakeholders are advised to note the following points: (1) All registered companies and LLPs mapped with the below mentioned ROC locations currently will be bifurcated as: a. ROC Delhi: Companies or LLPs registered with Haryana State will be moved to ROC Haryana and the remaining companies will be split between ROC Delhi I and ROC Delhi II based on existing district and PIN code. b. ROC Kanpur: Companies or LLPs registered will be split between ROC Uttar Pradesh I and ROC Uttar Pradesh II based on existing district and PIN code. c. ROC Mumbai: Companies or LLPs registered will be split between ROC Mumbai I, ROC Mumbai II and ROC Nagpur based on existing district and PIN code. d. ROC Kolkata: Companies or LLPs registered will be split between ROC Kolkata I and ROC Kolkata II based on existing district and PIN code. (2) ROC and RD mapping will get updated for all the new RD locations and existing impacted RD locations. (3) Please refer Act & Rules - Notifications tab to access the relevant notifications issued on 23rd October 2025. (4) All Foreign companies who have their place of business in India will be mapped from ROC Delhi to ROC Delhi I. (5) Stakeholders are advised to plan and file/resubmit current V3 forms before 15th February 2026 if the due date/resubmission date falls on 15th February 2026. 12-02-2026 Participate in the Fight against Corruption -Take Integrity Pledge 24-09-2025 Attention Foreign Directors! It has been observed that some stakeholders are experiencing OTP-related issues while filing Form DIR-3 KYC / DIR-3 KYC Web. To address this, MCA has introduced a new IVR flow to facilitate smooth OTP generation. Stakeholders still facing OTP issues are advised to raise a ticket with the MCA Helpdesk and follow the instructions received via email in response to the ticket. 19-09-2025 Observance of Vigilance Awareness Week, 2025 (27 th October, 2025 to 2nd November, 2025) Providing hyperlink of e-pledge on Ministry's website 16-09-2025 Final set of 38 Company Forms [including 13 Annual filing forms, 6 Audit/Cost audit forms] is live on MCA portal. Stakeholders are advised to create user ID/upgrade existing V2 ID/Merge V2 ID in V3 system under \"Business user\" category and associate the DSC if not already done. 14-07-2025 The software vendors shall use latest schema URL for new MCA XBRL Validation tool for all taxonomies in MCA V3 portal as given below:- The new schema URL is https://www.mca.gov.in/V3XBRL/ replaces the V2 Schema URL http://www.mca.gov.in/XBRL/ 13-07-2025 MCA XBRL Validation Tool V5.1 New Version of MCA XBRL Validation Tool has been released for C&I and IND-AS Taxonomies. Stakeholders are advised to use new version of MCA XBRL Validation Tool while filing AOC-4 XBRL. 12-07-2025 MCA XBRL Validation tool version V5.1 New version of MCA XBRL validation tool has been released for Costing Taxonomy. Stakeholders are advised to use new version of MCA XBRL Validation Tool while filing CRA-4 XBRL 12-07-2025 MCA 21 V3 Presentation on Company module Lot-3 forms 16-06-2025 Launch of Final Set of 38 Company Forms (Including 13 Annual Filing Forms and 6 Audit/Cost Audit Forms) 30-05-2025 Stakeholders may please note that Financial Statements of Producer Companies shall be required to file with the Registrar within sixty days of the date on which the annual general meeting is held as per section 378ZA(10) of the Companies Act, 2013. It is hereby informed that additional fee logic changes in AOC-4 forms are likely to be deployed in the next week to enable filing within 60 days with Normal fee instead of 30 days. Stakeholders may kindly note and plan accordingly. 30-10-2024 In our continuous endeavour to serve you better, the Ministry of Corporate Affairs is launching Company ADJ form on 16th September 2024 at 12:00 AM. To facilitate implementation of this form in V3 MCA21 portal, stakeholders are advised to note the following points: (1) ADJ form on V2 portal will be disabled from 12th September 2024 12:00 AM to 15th September 11:59 pm which is planned for roll-out on 16th September 2024 at 12:00 AM. (2) All stakeholders are advised to ensure that there are no SRNs in pending payment and Resubmission status. (3) Offline payments in V2 using Pay later option would be stopped from 04th September 12:00 AM. You are requested to make payments for these forms in V2 through online mode (Credit/Debit Card and Net Banking). (4) V3 portal will not be available for filing of Company/LLP forms on 15th September due to ADJ form roll-out. (5) V2 Portal for company filing will remain available for all the forms which are currently in V2 system. Stakeholders may plan accordingly. 07-09-2024 Stakeholders are informed that the Beta version of MCA Chatbot is now live on the portal. This can be accessed by clicking the Chat icon in bottom right section on the portal. 21-08-2024 The Central Processing Centre (CPC) has disposed off 22857 eforms from April 24 to June 24 as compared to 21704 eforms processed by different RoCs during the same period in previous year for the 12 eforms migrated to CPC 11-07-2024 In our continuous endeavour to serve you better, the Ministry of Corporate Affairs is launching third set of Company Forms covering 9 forms [MSME, BEN-2, MGT-6, IEPF-1, IEPF-1A, IEPF-2, IEPF-4, IEPF-5, IEPF-5 e-verification report] on 15th July 2024 at 12:00 AM. To facilitate implementation of these forms in V3 MCA21 portal, stakeholders are advised to note the following points: (1) Company e-Filings on V2 portal will be disabled from 04th July 2024 12:00AM. (2) All stakeholders are advised to ensure that there are no SRNs in pending payment/pending for investor details upload/Resubmission status. (3) Offline payments for the above 9 forms in V2 using Pay later option would be stopped from 01st July 2024 12:00 AM. You are requested to make payments for these forms in V2 through online mode (Credit/Debit Card and Net Banking). (4) In view of the upcoming launch of 9 Company forms, V3 portal will not be available from 13th July 20204 12:00 AM to 14th July 2024 11:59 pm. (5) V2 Portal for company filing will remain available for all the V2 forms excluding above mentioned 9 forms. Stakeholders may plan accordingly. 28-06-2024 MCA Legal Training Progam-Scheme for the engagement legal students on pro-bono Basis 24-06-2024 In view of various pending litigation, a status quo is ordered on the affairs and assets of the company, Three C Shelters Private Limited, by the Hon'ble Supreme court vide Case No. 006792-006796 of 2023 order dated 13.10.2023 21-04-2024 Stakeholders please note that CSR-2 PDF to be saved after affixing DSC before uploading on V2 portal 28-03-2024 Public comments are invited on Report of Committee on Digital Competition Law and Draft Digital Competition Bill. Report is available under the Section; Data and Report -> Reports -> Library (Expert Committee Reports). Report and the draft bill shall be available under e consultation module on 15.03.2024 for comments and suggestions. Stakeholders may submit their comments/suggestions up to 15.04.2024. 12-03-2024 General Circular No.02/2024 - Deployment and usage of Change Request Form (CRF) on MCA-21 19-02-2024 Stakeholders may please note that V3 INC-28 form has placeholder for the Restoration of Struck-off company to Active u/s 252. Stakeholders may plan accordingly and file INC-28 with section 252(2) along with NCLT order and proof of cost/fee [if levied]. Upon approval of form, the status would get restored automatically. 07-02-2024 Due to a scheduled technical upgrade planned for CBDT e-filing services, filing of the following MCA eForm may be impacted from 3rd February 2024, 14:00 PM to 5th February 2024, 06:00 AM: SPICe+, FiLLip, DIR-3, DIR-3 KYC, DIR-6, IEPF-5, Form 4 LLP, DIR-12, FC-1, FC-2, BEN-2. Stakeholders are requested to plan accordingly to avoid any inconvenience. 01-02-2024 Stakeholders may please note that LEAP-1 form under the Companies (Listing of equity shares in permissible jurisdictions) Rules, 2024 would be deployed in MCA-V2 system tonight under Company forms download - Compliance Related Filing 24-01-2024 Stakeholders please note that post registration on the V3 portal, the user shall receive their V2 user ids on their registered email within 5 hours. 26-12-2023 The stakeholders are informed that the processing of application forms for the purpose of name reservation and incorporation at the Central Reservation Centre (CRC) is faceless and randomised. The applications if sent for resubmissions are normally not processed by the same official who has processed the application at the first instance. Stakeholders may inform the Ministry in case of any malpractice or irregularity on the part of any official/officer at CRC or any professional with supporting evidences at CVO-MCA@GOV.IN for taking action in accordance with the extent CVC guidelines 12-10-2023 Stakeholders please note that VPD V3 Beta version is available under Document Services from 7pm to 10pm. It is for testing purposes only and forms prior to May 2023 are available for download. 16-08-2023 1,086 requests of ICSI and 184 requests of ICAI for Merger/Deactivation of User ids have been executed in system. Professionals are requested to contact the respective Institutes for Merger/Deactivation/Degradation of their MCA User ids. 12-08-2023 Total 19,62,585 forms have been filed on V3 portal during the period of April-July 2023. 07-08-2023 More than 2.5 Lakh LLP forms have been filed on V3 portal between April-Jul 2023 as compared to 1.9 Lakh for the same period in 2022. 07-08-2023 1.9 Lakh Company Incorporation forms have been filed on V3 portal between April-Jul 2023 as compared to 1.6 Lakh for the same period in 2022 07-08-2023 In our continuous endeavour to serve you better, the Ministry of Corporate Affairs is launching Refund form on V3 portal effective on 04th August 2023. Refund form on V2 portal will continue for availing refund for forms filed in V2. 01-08-2023 Stakeholders are informed that Beta Version of View Public Documents [VPD] service in V3 shall be launched on 16th August 2023 for V3 documents (only for Testing purposes between 7:00 pm to 10:00 pm daily). Existing V2 VPD Service shall remain available for the stakeholders. 01-08-2023 Approval for incorporation of 82,628 companies and LLPs has been given during April- July 2023 compared to 73,875 during April- July 2022. 01-08-2023 Portal Performance and PDF generation time has been significantly improved. 29-07-2023 Stakeholders are informed that Beta Version of Master Data Services in V-3 ( for Testing purposes Only; not to be used for any statutory and legal purpose) shall be launched on 09/07/2023. Existing V-2 Master Data Services shall remain available for the stakeholders. 07-07-2023 Stakeholders please note excel file download and upload functionality has been enabled in Form 11 LLP in which all the existing data of the Partners and Designated Partners of the LLP will get pre-filled. Stakeholders are requested to read the instruction kit before filing the form 03-06-2023 Stakeholders please note that in order to provide hassle-free filing experience of Form 3 LLP, excel download and upload functionality has been provided in the form in which all the existing data of the Partners and Designated Partners of the LLP will get pre-filled. Stakeholders are requested to read the instruction kit before filing the form 03-06-2023 Stakeholders please note that there is a delay in issuance of TAN (Tax Deduction and Collection Account Number) from NSDL, which is resulting a slight delay in obtaining COI (Certificate of Incorporation). All pending COI will be issued as soon as TAN is received from NSDL. 27-04-2023 In our continuous endeavour to serve you better, the Ministry of Corporate Affairs is launching STK-2 form along with C-PACE functionality on 01st May 2023 at 12:00 AM. To facilitate implementation of this form in V3 MCA21 portal, stakeholders are advised to note the following points: (1) STK-2 form on V2 portal will be disabled from 28th April 11:59 PM to 30th April 11:59 pm which is planned for roll-out on 01st May 2023 at 12:00 AM. (2) All stakeholders are advised to ensure that there are no SRNs in pending payment and Resubmission status. (3) Offline payments using Pay later option would not be available in V2 for STK-2. You are requested to make payments for these forms in V2 through online mode (Credit/Debit Card and Net Banking). (4) V3 portal will not be available for filing of all Company/LLP forms due to STK-2 form roll-out from 30th April (03:00 PM) to 01st May 2023 (12:00 AM). (5) V2 Portal for company filing will remain available for all the forms which are currently in V2 system ( except STK-2 ), throughout this time period. 21-04-2023 All Members of ICSI & ICAI (registered in Professional category at MCA) are requested to add Membership Type ( viz Associate or Fellow) in their profile. This functionality is also applicable to the users who had associated their Professional Membership Numbers with their ID in past on MCA portal. 06-03-2023 All new Directors are advised to register as Business Users and Associate DSC in V3 before filing forms in V3 13-02-2023 Stakeholders are advised to check their already filed/initiated Spice+ applications of V2 in the Historic tab of V3 Application History. 13-02-2023 Consultation Paper on refund process at IEPF Authority 31-01-2023 Stakeholders please note that Company Incorporation forms (Spice + Part A, Part B & RUN) will be available for filing purposes in V2 till 21st January 00:00 Hrs. These forms will be enabled on V3 portal from 23rd January 2023 00:00 Hours. Remaining 46 forms will also be available for filing purposes in V3 from 23rd January 2023 00:00 Hours. 19-01-2023 In view of the upcoming launch of 56 Company forms, V3 portal will not be available from 21st January 2023 to 22nd January 2023. V2 Portal for Company filing will remain available for all the forms during this period excluding Company Incorporation forms & other 46 forms as referred above 19-01-2023 Stakeholders please note that for hassle free form filings in V3, all Signatories have to register themselves as Business User and associate their DSC in V3. 19-01-2023 Stakeholders please note that PAS-3 form will be available for filing purposes in V2 till 19th January 2023 11:59 PM. 05-01-2023 Launch of 56 Company Forms (Including 10 Incorporation Forms) 26-12-2022 View All",
+      "truthId": null
+    },
+    {
+      "text": "OTP is 135790 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Extension of time period for validity of name reservation and resubmission",
+      "truthId": null
+    },
+    {
+      "text": "Participate in the Fight against Corruption -Take Integrity Pledge",
+      "truthId": null
+    },
+    {
+      "text": "Observance of Vigilance Awareness Week, 2025 (27 th October, 2025 to 2nd November, 2025) Providing hyperlink of e-pledge on Ministry's website",
+      "truthId": null
+    },
+    {
+      "text": "https://www.mca.gov.in/V3XBRL/",
+      "truthId": null
+    },
+    {
+      "text": "http://www.mca.gov.in/XBRL/",
+      "truthId": null
+    },
+    {
+      "text": "MCA 21 V3 Presentation on Company module Lot-3 forms",
+      "truthId": null
+    },
+    {
+      "text": "Launch of Final Set of 38 Company Forms (Including 13 Annual Filing Forms and 6 Audit/Cost Audit Forms)",
+      "truthId": null
+    },
+    {
+      "text": "General Circular No.02/2024 - Deployment and usage of Change Request Form (CRF) on MCA-21",
+      "truthId": null
+    },
+    {
+      "text": "CVO-MCA@GOV.IN",
+      "truthId": null
+    },
+    {
+      "text": "Stakeholders please note that Company Incorporation forms (Spice + Part A, Part B & RUN) will be available for filing purposes in V2 till 21st January 00:00 Hrs. These forms will be enabled on V3 portal from 23rd January 2023 00:00 Hours. Remaining 46 forms will also be available for filing purposes in V3 from 23rd January 2023 00:00 Hours.",
+      "truthId": null
+    },
+    {
+      "text": "Launch of 56 Company Forms (Including 10 Incorporation Forms)",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Ease of doing business",
+      "truthId": null
+    },
+    {
+      "text": "Employees Corner",
+      "truthId": null
+    },
+    {
+      "text": "Mediation & Conciliation Panel",
+      "truthId": null
+    },
+    {
+      "text": "Annual Reports",
+      "truthId": null
+    },
+    {
+      "text": "Parliament Questions & Assurances",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Seva Kendra",
+      "truthId": null
+    },
+    {
+      "text": "XBRL V3",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 022 2789 4561",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "About",
+      "truthId": null
+    },
+    {
+      "text": "Policies",
+      "truthId": null
+    },
+    {
+      "text": "Links",
+      "truthId": null
+    },
+    {
+      "text": "Trademark's Portal",
+      "truthId": null
+    },
+    {
+      "text": "© Copyright Ministry of Corporate Affairs, Government of India. All Rights Reserved. This site is best viewed at a screen resolution of 1366×768 using the latest versions of Chrome, Firefox, Safari, or Microsoft Edge. Disclaimer Last Updated: 3 September, 2026",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Follow us:",
+      "truthId": null
+    },
+    {
+      "text": "twitter",
+      "truthId": null
+    },
+    {
+      "text": "facebook",
+      "truthId": null
+    },
+    {
+      "text": "youTube",
+      "truthId": null
+    },
+    {
+      "text": "instagram",
+      "truthId": null
+    },
+    {
+      "text": "linkedin",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9123456780",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9123456780"
+        }
+      }
+    ]
+  }
+}

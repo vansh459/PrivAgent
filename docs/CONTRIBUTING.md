@@ -44,7 +44,7 @@ that state and the reasons are written down; keep it that way rather than roundi
 
 Update the doc that describes a behaviour in the same change that alters it. The docs
 carry a "last verified" date and are expected to describe what has been run, not what is
-intended. If you cannot verify a claim, write what *is* verified and mark the rest.
+intended. If you cannot verify a claim, write what _is_ verified and mark the rest.
 
 ## Privacy-sensitive changes
 
@@ -52,13 +52,13 @@ Anything touching the DOM walker, Privacy Firewall, Context Builder, the server 
 the Action Executor or the audit trail needs a focused test showing that raw values do not
 cross the boundary. Start from the existing regression suites:
 
-| Suite | Guards |
-|---|---|
-| `tests/credentials.test.ts` | No `<input>` value is ever read, credential or otherwise. |
-| `tests/privacy.test.ts` | Overlapping/adjacent PII of different types. |
-| `tests/piiCorpus.test.ts` | 30 PII samples / 30 near-miss controls. |
-| `tests/contextBudget.test.ts` | Serialized payloads contain no raw PII. |
-| `e2e/loop.spec.ts` | What actually leaves a real browser, on the wire. |
+| Suite                         | Guards                                                    |
+| ----------------------------- | --------------------------------------------------------- |
+| `tests/credentials.test.ts`   | No `<input>` value is ever read, credential or otherwise. |
+| `tests/privacy.test.ts`       | Overlapping/adjacent PII of different types.              |
+| `tests/piiCorpus.test.ts`     | 30 PII samples / 30 near-miss controls.                   |
+| `tests/contextBudget.test.ts` | Serialized payloads contain no raw PII.                   |
+| `e2e/loop.spec.ts`            | What actually leaves a real browser, on the wire.         |
 
 Two of these exist because of confirmed, reproduced defects — a password transmitted in
 plaintext, and overlapping detectors corrupting output. Do not weaken them.

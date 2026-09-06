@@ -1,0 +1,1406 @@
+{
+  "reviewedAt": "2026-09-06",
+  "method": "Every distinct value detected outside a labelled span was read against the page it came from and given one of three verdicts: real (genuine PII the site publishes), wrong_type (genuine PII, wrong label) or false_positive.",
+  "distinctValues": 199,
+  "detections": 305,
+  "tally": {
+    "real": 91,
+    "false_positive": 212,
+    "wrong_type": 2
+  },
+  "entries": [
+    {
+      "type": "ADDRESS",
+      "value": "Kochi 682016 Digital Arrest is 100",
+      "count": 2,
+      "screens": ["fin-hdfc"],
+      "verdict": "real"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "to emergencies Apply online Learn more Registered address 27 MG Road",
+      "count": 2,
+      "screens": ["fin-hdfc"],
+      "verdict": "real"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "3rd floor, Indian Globe Chamber, D. N Road Fort, Mumbai 400001",
+      "count": 1,
+      "screens": ["fin-irdai"],
+      "verdict": "real"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "Building Scalable APIs with Node.js Architectural patterns and best practices for",
+      "count": 1,
+      "screens": ["spa-realworld"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "Dadra and Nagar Haveli and Daman and Diu",
+      "count": 1,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "LADAKH The Dadra and Nagar Haveli and Daman and Diu",
+      "count": 1,
+      "screens": ["gov-pmkisan"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "on-road funding Apply Details Ongoing offer Go to Previous Offers Go",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "Shri Shirish Chandra Murmu, Deputy Governor, at the 7th NBFC and",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "wrong_type"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "The Dadra and Nagar Haveli and Daman and Diu",
+      "count": 1,
+      "screens": ["gov-pmkisan"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "CARD",
+      "value": "14 15 16 17 18 19 20 21 22",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "CARD",
+      "value": "2026 2027 2028 2029",
+      "count": 1,
+      "screens": ["gov-epfo"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "CARD",
+      "value": "23 24 25 26 27 28 29 30 1 2 3",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "CARD",
+      "value": "31 1 2 3 4 5 6 7 8 9 10 11 12 13",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "CARD",
+      "value": "91 022 26449570",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "wrong_type"
+    },
+    {
+      "type": "EMAIL",
+      "value": "taxdemand@cpc.incometax.gov.in",
+      "count": 8,
+      "screens": ["gov-incometax"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "CVO-MCA@GOV.IN",
+      "count": 2,
+      "screens": ["gov-mca"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "info@webscraper.io",
+      "count": 2,
+      "screens": ["shop-webscraper", "shop-webscraper-computers"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "dvsekhar@sebi.gov.in",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "grievance@mygov.in",
+      "count": 1,
+      "screens": ["gov-mygov"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "irda@irdai.gov.in",
+      "count": 1,
+      "screens": ["fin-irdai"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "irdamro@irdai.gov.in",
+      "count": 1,
+      "screens": ["fin-irdai"],
+      "verdict": "real"
+    },
+    {
+      "type": "EMAIL",
+      "value": "name@example.com",
+      "count": 1,
+      "screens": ["form-demoqa"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Appeal No",
+      "count": 11,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Web Scraper",
+      "count": 10,
+      "screens": ["shop-webscraper", "shop-webscraper-computers"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Winners Announcement",
+      "count": 5,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Mascot Design",
+      "count": 4,
+      "screens": ["gov-india-home", "gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Name Contest",
+      "count": 4,
+      "screens": ["gov-india-home", "gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Register Write",
+      "count": 4,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Anil Kumar Singh",
+      "count": 3,
+      "screens": ["gov-mygov"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Benami Property",
+      "count": 3,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Dinesh Kumar",
+      "count": 3,
+      "screens": ["gov-mygov"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Executive Director",
+      "count": 3,
+      "screens": ["fin-rbi", "fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Online Quiz",
+      "count": 3,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Rajiv Makhni Just",
+      "count": 3,
+      "screens": ["fin-hdfc"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Samar Imran",
+      "count": 3,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Startup Hi Kyu",
+      "count": 3,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Tax Evasion",
+      "count": 3,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Annie George Mathew",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Apply Now",
+      "count": 2,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Basic Heritage",
+      "count": 2,
+      "screens": ["gov-services"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Consumer Education",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Data",
+      "count": 2,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Digital Agenda",
+      "count": 2,
+      "screens": ["gov-services"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Educational Research",
+      "count": 2,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Essay Competition",
+      "count": 2,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Explore Bharat",
+      "count": 2,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "External Investments",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Financial Education Trainer",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Financial Inclusion",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Fixed Deposit",
+      "count": 2,
+      "screens": ["fin-hdfc"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Governance Division",
+      "count": 2,
+      "screens": ["gov-digilocker"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Hon'ble Prime Minister",
+      "count": 2,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Inviting Ideas",
+      "count": 2,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Janmejaya",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Job Seekers",
+      "count": 2,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Kavita Shah",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Library Automation",
+      "count": 2,
+      "screens": ["gov-services"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Narendra",
+      "count": 2,
+      "screens": ["gov-pmkisan"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Neha Aggarwal",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Nidhi Aapke Nikat",
+      "count": 2,
+      "screens": ["gov-epfo"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "North East",
+      "count": 2,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Now Live",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Revision Cases",
+      "count": 2,
+      "screens": ["gov-services"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Securities Market",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Security Coordinator",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Shri Anand Gopal",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Social Media Platform",
+      "count": 2,
+      "screens": ["gov-epfo"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Somanath",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Syed",
+      "count": 2,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Tax Payer Charter",
+      "count": 2,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Video Contest",
+      "count": 2,
+      "screens": ["gov-mygov"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Visit Bhashini",
+      "count": 2,
+      "screens": ["gov-india-home", "gov-services"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Access Information",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Adrienne Trek Jacket",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Adventure App",
+      "count": 1,
+      "screens": ["form-w3-html"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Aeon Capri",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Aero Daily Fitness",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Aether Gym Pant",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Affirm Water Bottle",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Aim Analog Watch",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Ajax Full-Zip Sweatshirt",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Algo Platforms",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Alternative Investment",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Ana Running Short",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Angel Light Running",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Annual Filing Forms",
+      "count": 1,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Antonia Racer Tank",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Anugrah Stock",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Apollo Running Short",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "App Store",
+      "count": 1,
+      "screens": ["form-w3-html"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Applications Received Under",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Apply Now Know",
+      "count": 1,
+      "screens": ["fin-hdfc"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Arcadio Gym Short",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Authenticate Document Issued",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Banks Grievance",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Basic Cactus White",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Bengal Tiger",
+      "count": 1,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Black Tule Oversized",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Blue Sweatshirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Blue T-Shirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Browse Illustrations",
+      "count": 1,
+      "screens": ["dash-sbadmin"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Call Registration",
+      "count": 1,
+      "screens": ["fin-hdfc"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Call Us",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Call Us English",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Check Update",
+      "count": 1,
+      "screens": ["gov-uidai"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Chief Vigilance",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Citizen’s Charter",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Corporate Business",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Count Dracula",
+      "count": 1,
+      "screens": ["dash-adminlte"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Cropped Stay Groovy",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Data Sharing",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Dhieraj Pal",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Digital Arrest",
+      "count": 1,
+      "screens": ["fin-hdfc"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Direct Taxation",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Do Video Contest",
+      "count": 1,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Driving Licence",
+      "count": 1,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Ecommerce Test Site",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "English Selected",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Fictitious Offers",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Filing Calendar",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Foreign Body Corporates",
+      "count": 1,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Foreign Companies",
+      "count": 1,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Foreign Liabilities",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Google Play",
+      "count": 1,
+      "screens": ["form-w3-html"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Grey T-shirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Helpdesk Numbers",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Hybrid Securities",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "India’s Foreign Exchange",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Informant Protection",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Information Act",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Information Categories",
+      "count": 1,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Innovation Sandbox",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Inter-Operable Regulatory Sandbox",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Investor Assistance",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Jan Suraksha",
+      "count": 1,
+      "screens": ["fin-irdai"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Jeetendra Kumar",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Jitendra Singh",
+      "count": 1,
+      "screens": ["gov-india-home"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Know More Rajiv",
+      "count": 1,
+      "screens": ["fin-hdfc"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Learn Web Scraping",
+      "count": 1,
+      "screens": ["shop-scrapingcourse"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Lombard General",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Loose Black T-shirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Magnesh Bala",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Marginalized Individuals",
+      "count": 1,
+      "screens": ["gov-india-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Marine Blue T-shirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Nadia Jolie",
+      "count": 1,
+      "screens": ["dash-adminlte"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Neha Jain",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Nitin Goel",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Om Sri Sai",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Our Corporate",
+      "count": 1,
+      "screens": ["fin-hdfc"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Paras Shah",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Paresh Mulji Kariya",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Prudential Life",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Register Grievance",
+      "count": 1,
+      "screens": ["gov-passport"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Revised Filing",
+      "count": 1,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Ringer Hall Pass",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Sadhana Paresh Kariya",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Sandeep Kumar",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Sarah Doe",
+      "count": 1,
+      "screens": ["dash-adminlte"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Saral Jeevan Bima",
+      "count": 1,
+      "screens": ["fin-irdai"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Screen Reader",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Securities Market Hackathon",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Securities Market Trainers",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Securities Primary Dealership",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Self Assessment",
+      "count": 1,
+      "screens": ["gov-uk-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Shamshad Ahmed",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Shirish",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Shri Suman Ray",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Site Map",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Skater Black Sweatshirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Stack Overflow",
+      "count": 1,
+      "screens": ["spa-todomvc-react"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Suman",
+      "count": 1,
+      "screens": ["fin-rbi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Systematic Investment Plan",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Take Integrity Pledge",
+      "count": 1,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "That Darkness",
+      "count": 1,
+      "screens": ["shop-books-category"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Toll Free Helpline",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Transfer Agents",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Tropical Wine T-shirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Turtles Ninja T-shirt",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Unclaimed Deposits Gateway",
+      "count": 1,
+      "screens": ["fin-icici"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "United States",
+      "count": 1,
+      "screens": ["gov-usa-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Vacancies Write",
+      "count": 1,
+      "screens": ["gov-mca"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Vivek Tripathi",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "NAME",
+      "value": "Wasanaethau Cymraeg",
+      "count": 1,
+      "screens": ["gov-uk-home"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "What Happened",
+      "count": 1,
+      "screens": ["shop-books-category"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "White T-shirt Gucci",
+      "count": 1,
+      "screens": ["spa-react-shopping"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "NAME",
+      "value": "Who We",
+      "count": 1,
+      "screens": ["gov-incometax"],
+      "verdict": "false_positive"
+    },
+    {
+      "type": "PAN",
+      "value": "ABKPG9103H",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "AQDPA1749D",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "DOKPS0203A",
+      "count": 2,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "AAACW2920N",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "AACCA5249E",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "AADFO8242K",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "AAEPK0469M",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "AJHPK6018N",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "DCXPS3726R",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "DKYPP5235B",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PAN",
+      "value": "EQQPP8919H",
+      "count": 1,
+      "screens": ["fin-sebi"],
+      "verdict": "real"
+    },
+    {
+      "type": "PHONE",
+      "value": "0821-6671200",
+      "count": 8,
+      "screens": ["gov-incometax"],
+      "verdict": "real"
+    },
+    {
+      "type": "PHONE",
+      "value": "022-20822880",
+      "count": 1,
+      "screens": ["fin-irdai"],
+      "verdict": "real"
+    }
+  ]
+}

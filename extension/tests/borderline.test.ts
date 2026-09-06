@@ -21,7 +21,19 @@ import type { ScreenStateElement } from "../src/schemas/screenState";
  * it is withheld from the payload entirely rather than transmitted with a token.
  */
 
-/** Twenty texts whose only detection is a borderline one. */
+/**
+ * Twenty texts whose only detection is a borderline one.
+ *
+ * Two entries changed on 2026-09-06, when the Phase 8.1 dataset was first run. "Near the
+ * main gate" and "Opposite the district office" used to land here, because a single
+ * locality word was enough to call a line an address. On forty-two real pages that same
+ * rule also caught "Skip to main content", "Find An ATM Near You" and "Layout Options 6",
+ * so `near`, `main`, `opposite` and `district` were demoted from evidence to hints - and
+ * those two samples stopped being detections of any confidence. They were replaced with
+ * fragments that are still genuinely uncertain under the narrowed rule: a room and a plot
+ * with no PIN code and no label. The criterion is unchanged - twenty samples, every one
+ * flagged rather than passed through.
+ */
 const BORDERLINE = [
   "Contact Vikrant Bhardwaj about the file",
   "Forwarded by Tanmay Chakraborty",
@@ -40,9 +52,9 @@ const BORDERLINE = [
   "Second approver Kiet Nguyen",
   "Building 7, Fourth Floor",
   "Second Floor, East Block",
-  "Near the main gate",
+  "Room 214, Annexe Wing",
   "Tower B, Ninth Floor",
-  "Opposite the district office",
+  "Plot 12, Phase II Extension",
 ] as const;
 
 function borderlineMatches(text: string) {

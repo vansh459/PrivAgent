@@ -1,0 +1,1795 @@
+{
+  "id": "dash-tabler",
+  "type": "dashboard",
+  "sourceUrl": "https://preview.tabler.io/",
+  "capturedAt": "2026-09-06T06:05:49.932Z",
+  "annotatedAt": "2026-09-06T06:57:03.621Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 3875,
+  "persona": "Fatima Sheikh",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        -1,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "New view",
+      "bbox": [
+        907,
+        138,
+        95,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Create new report",
+      "bbox": [
+        1010,
+        138,
+        176,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "Customize",
+      "bbox": [
+        1209,
+        664,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Tabler",
+      "bbox": [
+        78,
+        12,
+        110,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Sponsor",
+      "bbox": [
+        758,
+        8,
+        110,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Enable dark mode",
+      "bbox": [
+        884,
+        8,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Sponsor Tabler!",
+      "bbox": [
+        828,
+        2059,
+        359,
+        391
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Show notifications",
+      "bbox": [
+        924,
+        8,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Show app menu",
+      "bbox": [
+        964,
+        8,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Select language",
+      "bbox": [
+        1004,
+        8,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Open user menu",
+      "bbox": [
+        1060,
+        8,
+        127,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        384,
+        225,
+        267,
+        288
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Tabler",
+      "bbox": [
+        194,
+        3824,
+        37,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "Customize",
+      "bbox": [
+        1070,
+        64,
+        117,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "Last 7 days",
+      "bbox": [
+        244,
+        571,
+        78,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "Last 7 days",
+      "bbox": [
+        525,
+        571,
+        78,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "button",
+      "name": "Last 7 days",
+      "bbox": [
+        806,
+        571,
+        78,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "Last 7 days PAN AAACR5055K",
+      "bbox": [
+        1038,
+        579,
+        195,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Tabler Icons Website",
+      "bbox": [
+        594,
+        1893,
+        144,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Download icons",
+      "bbox": [
+        119,
+        1962,
+        159,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "textbox",
+      "name": "Invoices count",
+      "bbox": [
+        145,
+        3073,
+        60,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "textbox",
+      "name": "Search invoice",
+      "bbox": [
+        1010,
+        3073,
+        155,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Documentation",
+      "bbox": [
+        819,
+        3824,
+        96,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "License",
+      "bbox": [
+        941,
+        3824,
+        45,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Source code",
+      "bbox": [
+        1013,
+        3824,
+        76,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Sponsor",
+      "bbox": [
+        1116,
+        3824,
+        71,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "button",
+      "name": "Dashboards",
+      "bbox": [
+        78,
+        64,
+        136,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "button",
+      "name": "Interface",
+      "bbox": [
+        215,
+        64,
+        117,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "button",
+      "name": "Forms",
+      "bbox": [
+        331,
+        64,
+        101,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "button",
+      "name": "Extra",
+      "bbox": [
+        432,
+        64,
+        93,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "button",
+      "name": "Layout",
+      "bbox": [
+        525,
+        64,
+        104,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "button",
+      "name": "Plugins",
+      "bbox": [
+        629,
+        64,
+        107,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "button",
+      "name": "Addons",
+      "bbox": [
+        736,
+        64,
+        110,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "button",
+      "name": "Help",
+      "bbox": [
+        846,
+        64,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Open website",
+      "bbox": [
+        113,
+        2172,
+        20,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Open website",
+      "bbox": [
+        235,
+        2221,
+        20,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Open website",
+      "bbox": [
+        177,
+        2269,
+        20,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Open website",
+      "bbox": [
+        176,
+        2318,
+        20,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Open website",
+      "bbox": [
+        147,
+        2367,
+        20,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Open website",
+      "bbox": [
+        205,
+        2416,
+        20,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Previous page",
+      "bbox": [
+        924,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Page 1",
+      "bbox": [
+        959,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Page 2",
+      "bbox": [
+        994,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Page 3",
+      "bbox": [
+        1029,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Page 4",
+      "bbox": [
+        1064,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Page 5",
+      "bbox": [
+        1099,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Next page",
+      "bbox": [
+        1134,
+        3715,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "checkbox",
+      "name": "Select task",
+      "bbox": [
+        698,
+        2555,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Extend the data model.",
+      "bbox": [
+        730,
+        2544,
+        97,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "2/7",
+      "bbox": [
+        1024,
+        2554,
+        44,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        1100,
+        2554,
+        31,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "checkbox",
+      "name": "Select task",
+      "bbox": [
+        698,
+        2620,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Verify the event flow.",
+      "bbox": [
+        730,
+        2609,
+        96,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "0/5",
+      "bbox": [
+        1024,
+        2619,
+        44,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "0",
+      "bbox": [
+        1100,
+        2619,
+        31,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "checkbox",
+      "name": "Select task",
+      "bbox": [
+        698,
+        2694,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Database backup and maintenance",
+      "bbox": [
+        730,
+        2674,
+        79,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "0/5",
+      "bbox": [
+        1024,
+        2694,
+        44,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "0",
+      "bbox": [
+        1100,
+        2694,
+        31,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "checkbox",
+      "name": "Select task",
+      "bbox": [
+        698,
+        2779,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Identify the implementation team.",
+      "bbox": [
+        730,
+        2759,
+        98,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "6/10",
+      "bbox": [
+        1024,
+        2779,
+        52,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "12",
+      "bbox": [
+        1100,
+        2779,
+        39,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "checkbox",
+      "name": "Select task",
+      "bbox": [
+        698,
+        2854,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Define users and workflow",
+      "bbox": [
+        730,
+        2843,
+        83,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "0/5",
+      "bbox": [
+        1024,
+        2853,
+        44,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "0",
+      "bbox": [
+        1100,
+        2853,
+        31,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "checkbox",
+      "name": "Select task",
+      "bbox": [
+        698,
+        2919,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Check Pull Requests",
+      "bbox": [
+        730,
+        2908,
+        64,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "2/9",
+      "bbox": [
+        1024,
+        2918,
+        44,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        1100,
+        2918,
+        31,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3178,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Design Works",
+      "bbox": [
+        212,
+        3178,
+        85,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "button",
+      "name": "Actions",
+      "bbox": [
+        1391,
+        3167,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3244,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "UX Wireframes",
+      "bbox": [
+        212,
+        3243,
+        92,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "button",
+      "name": "Actions",
+      "bbox": [
+        1391,
+        3233,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3310,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "New Dashboard",
+      "bbox": [
+        212,
+        3309,
+        99,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "button",
+      "name": "Actions",
+      "bbox": [
+        1391,
+        3299,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3375,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Landing Page",
+      "bbox": [
+        212,
+        3375,
+        83,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "button",
+      "name": "Actions Helpline 9876543210",
+      "bbox": [
+        1255,
+        3364,
+        228,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3441,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Marketing Templates",
+      "bbox": [
+        212,
+        3440,
+        129,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "button",
+      "name": "Actions",
+      "bbox": [
+        1391,
+        3430,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3506,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Sales Presentation Write to f.sheikh@mail.example.co.in",
+      "bbox": [
+        212,
+        3506,
+        343,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "button",
+      "name": "Actions",
+      "bbox": [
+        1391,
+        3495,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3572,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Logo & Print",
+      "bbox": [
+        212,
+        3571,
+        79,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "button",
+      "name": "Actions Grievance cell f.sheikh@mail.example.co.in",
+      "bbox": [
+        1116,
+        3561,
+        366,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "checkbox",
+      "name": "Select invoice",
+      "bbox": [
+        99,
+        3638,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Icons",
+      "bbox": [
+        212,
+        3637,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "button",
+      "name": "Actions",
+      "bbox": [
+        1391,
+        3627,
+        92,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "checkbox",
+      "name": "Select all invoices",
+      "bbox": [
+        99,
+        3126,
+        20,
+        20
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9876543210",
+      "text": "Helpline 9876543210",
+      "bbox": [
+        1255,
+        3364,
+        228,
+        40
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91-98765-43210",
+      "text": "Alternate contact +91-98765-43210",
+      "bbox": [
+        79,
+        824,
+        544,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "f.sheikh@mail.example.co.in",
+      "text": "Write to f.sheikh@mail.example.co.in",
+      "bbox": [
+        212,
+        3506,
+        343,
+        18
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "123456789012",
+      "text": "Aadhaar 123456789012 linked to this account",
+      "bbox": [
+        453,
+        2472,
+        225,
+        498
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "AAACR5055K",
+      "text": "PAN AAACR5055K",
+      "bbox": [
+        1038,
+        579,
+        195,
+        14
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5500 0000 0000 0004",
+      "text": "Card on file 5500 0000 0000 0004",
+      "bbox": [
+        78,
+        210,
+        144,
+        318
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one-time password 4821",
+      "text": "one-time password 4821 sent to your phone",
+      "bbox": [
+        661,
+        1226,
+        277,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Fatima Sheikh",
+      "text": "Signed in as Fatima Sheikh",
+      "bbox": [
+        861,
+        2118,
+        293,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "bbox": [
+        -376,
+        541,
+        351,
+        53
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "f.sheikh@mail.example.co.in",
+      "text": "Grievance cell f.sheikh@mail.example.co.in",
+      "bbox": [
+        1116,
+        3561,
+        366,
+        40
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Tabler",
+      "truthId": null
+    },
+    {
+      "text": "Sponsor",
+      "truthId": null
+    },
+    {
+      "text": "Enable dark mode",
+      "truthId": null
+    },
+    {
+      "text": "Show notifications",
+      "truthId": null
+    },
+    {
+      "text": "Show app menu",
+      "truthId": null
+    },
+    {
+      "text": "Select language",
+      "truthId": null
+    },
+    {
+      "text": "Open user menu",
+      "truthId": null
+    },
+    {
+      "text": "Dashboards",
+      "truthId": null
+    },
+    {
+      "text": "Interface",
+      "truthId": null
+    },
+    {
+      "text": "Forms",
+      "truthId": null
+    },
+    {
+      "text": "Extra",
+      "truthId": null
+    },
+    {
+      "text": "Layout",
+      "truthId": null
+    },
+    {
+      "text": "Plugins",
+      "truthId": null
+    },
+    {
+      "text": "Addons",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Customize",
+      "truthId": null
+    },
+    {
+      "text": "New view",
+      "truthId": null
+    },
+    {
+      "text": "Create new report",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5500 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "75% Complete",
+      "truthId": null
+    },
+    {
+      "text": "78% Complete",
+      "truthId": null
+    },
+    {
+      "text": ":where(.theme-dark, [data-theme='dark']) .tblr-illustrations-good-info-a { fill: black; opacity: 0.07; } :where(.theme-dark, [data-theme='dark']) .tblr-illustrations-good-info-b { fill: #1d2535; } :where(.theme-dark, [data-theme='dark']) .tblr-illustrations-good-info-c { fill: #454c5e; } @media (prefers-color-scheme: dark) { .tblr-illustrations-good-info-a { fill: black; opacity: 0.07; } .tblr-illustrations-good-info-b { fill: #1d2535; } .tblr-illustrations-good-info-c { fill: #454c5e; } }",
+      "truthId": null
+    },
+    {
+      "text": "Total users",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 2 data series: Visitors, Visitors last month",
+      "truthId": null
+    },
+    {
+      "text": "Active users",
+      "truthId": null
+    },
+    {
+      "text": "radialBar chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Last 7 days",
+      "truthId": null
+    },
+    {
+      "text": "75% Complete",
+      "truthId": null
+    },
+    {
+      "text": "Last 7 days",
+      "truthId": null
+    },
+    {
+      "text": "Revenue",
+      "truthId": null
+    },
+    {
+      "text": "area chart with 1 data series: Profits",
+      "truthId": null
+    },
+    {
+      "text": "Last 7 days",
+      "truthId": null
+    },
+    {
+      "text": "New clients",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 2 data series: May, April",
+      "truthId": null
+    },
+    {
+      "text": "Last 7 days PAN AAACR5055K",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Active subscriptions",
+      "truthId": null
+    },
+    {
+      "text": "bar chart with 1 data series: Profits",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91-98765-43210",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Traffic summary",
+      "truthId": null
+    },
+    {
+      "text": "bar chart with 3 data series: Web, Social, Other",
+      "truthId": null
+    },
+    {
+      "text": "World map",
+      "truthId": null
+    },
+    {
+      "text": "Regular",
+      "truthId": null
+    },
+    {
+      "text": "System",
+      "truthId": null
+    },
+    {
+      "text": "Shared",
+      "truthId": null
+    },
+    {
+      "text": "one-time password 4821 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "radialBar chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Development activity",
+      "truthId": null
+    },
+    {
+      "text": "area chart with 1 data series: Purchases",
+      "truthId": null
+    },
+    {
+      "text": "Tabler Icons Website",
+      "truthId": null
+    },
+    {
+      "text": "Download icons",
+      "truthId": null
+    },
+    {
+      "text": "Open website",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Open website",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Open website",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Open website",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Open website",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Open website",
+      "truthId": null
+    },
+    {
+      "text": "line chart with 1 data series",
+      "truthId": null
+    },
+    {
+      "text": "Sponsor Tabler!",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Fatima Sheikh",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Aadhaar 123456789012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Select task",
+      "truthId": null
+    },
+    {
+      "text": "Extend the data model.",
+      "truthId": null
+    },
+    {
+      "text": "2/7",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "Select task",
+      "truthId": null
+    },
+    {
+      "text": "Verify the event flow.",
+      "truthId": null
+    },
+    {
+      "text": "0/5",
+      "truthId": null
+    },
+    {
+      "text": "0",
+      "truthId": null
+    },
+    {
+      "text": "Select task",
+      "truthId": null
+    },
+    {
+      "text": "Database backup and maintenance",
+      "truthId": null
+    },
+    {
+      "text": "0/5",
+      "truthId": null
+    },
+    {
+      "text": "0",
+      "truthId": null
+    },
+    {
+      "text": "Select task",
+      "truthId": null
+    },
+    {
+      "text": "Identify the implementation team.",
+      "truthId": null
+    },
+    {
+      "text": "6/10",
+      "truthId": null
+    },
+    {
+      "text": "12",
+      "truthId": null
+    },
+    {
+      "text": "Select task",
+      "truthId": null
+    },
+    {
+      "text": "Define users and workflow",
+      "truthId": null
+    },
+    {
+      "text": "0/5",
+      "truthId": null
+    },
+    {
+      "text": "0",
+      "truthId": null
+    },
+    {
+      "text": "Select task",
+      "truthId": null
+    },
+    {
+      "text": "Check Pull Requests",
+      "truthId": null
+    },
+    {
+      "text": "2/9",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "Invoices count",
+      "truthId": null
+    },
+    {
+      "text": "Search invoice",
+      "truthId": null
+    },
+    {
+      "text": "Select all invoices",
+      "truthId": null
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "Design Works",
+      "truthId": null
+    },
+    {
+      "text": "United States",
+      "truthId": null
+    },
+    {
+      "text": "Actions",
+      "truthId": null
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "UX Wireframes",
+      "truthId": null
+    },
+    {
+      "text": "United Kingdom",
+      "truthId": null
+    },
+    {
+      "text": "Actions",
+      "truthId": null
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "New Dashboard",
+      "truthId": null
+    },
+    {
+      "text": "Germany",
+      "truthId": null
+    },
+    {
+      "text": "Actions",
+      "truthId": null
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "Landing Page",
+      "truthId": null
+    },
+    {
+      "text": "BR",
+      "truthId": null
+    },
+    {
+      "text": "Actions Helpline 9876543210",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "Marketing Templates",
+      "truthId": null
+    },
+    {
+      "text": "Poland",
+      "truthId": null
+    },
+    {
+      "text": "Actions",
+      "truthId": null
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "Sales Presentation Write to f.sheikh@mail.example.co.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "BR",
+      "truthId": null
+    },
+    {
+      "text": "Actions",
+      "truthId": null
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "Logo & Print",
+      "truthId": null
+    },
+    {
+      "text": "United States",
+      "truthId": null
+    },
+    {
+      "text": "Actions Grievance cell f.sheikh@mail.example.co.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Select invoice",
+      "truthId": null
+    },
+    {
+      "text": "Icons",
+      "truthId": null
+    },
+    {
+      "text": "Poland",
+      "truthId": null
+    },
+    {
+      "text": "Actions",
+      "truthId": null
+    },
+    {
+      "text": "Previous page",
+      "truthId": null
+    },
+    {
+      "text": "Page 1",
+      "truthId": null
+    },
+    {
+      "text": "Page 2",
+      "truthId": null
+    },
+    {
+      "text": "Page 3",
+      "truthId": null
+    },
+    {
+      "text": "Page 4",
+      "truthId": null
+    },
+    {
+      "text": "Page 5",
+      "truthId": null
+    },
+    {
+      "text": "Next page",
+      "truthId": null
+    },
+    {
+      "text": "Documentation",
+      "truthId": null
+    },
+    {
+      "text": "License",
+      "truthId": null
+    },
+    {
+      "text": "Source code",
+      "truthId": null
+    },
+    {
+      "text": "Sponsor",
+      "truthId": null
+    },
+    {
+      "text": "Tabler",
+      "truthId": null
+    },
+    {
+      "text": "Customize",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "chawla.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9876543210",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9876543210"
+        }
+      }
+    ]
+  }
+}

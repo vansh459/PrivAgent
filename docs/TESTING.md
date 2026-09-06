@@ -109,6 +109,60 @@ requires (`scripts/verify-manifests.mjs`).
 locally installed Edge or Chrome when it is absent, so it is runnable without a 150 MB
 download. Override with `PRIVAGENT_E2E_CHANNEL`.
 
+## Evaluation suites
+
+Four suites exist to produce numbers rather than to catch regressions, and they are named
+separately because they are slow and because a number is only worth anything when you know
+which command made it. All of them write JSON into `test-results/`.
+
+| Command                 | Suite                              | Answers                                      | Output                    |
+| ----------------------- | ---------------------------------- | -------------------------------------------- | ------------------------- |
+| `npm run eval:dataset`  | `e2e/dataset.spec.ts`              | Visual-context accuracy, redaction precision | `dataset-eval.json`       |
+| (part of `npm test`)    | `tests/datasetPii.eval.test.ts`    | PII recall and precision                     | `dataset-pii*.json`       |
+| `npm run eval:profile`  | `e2e/profile.spec.ts`              | Resource use and latency, two device tiers   | `device-profile.json`     |
+| `npm run test:reasoner` | `server/tests/test_ollama_live.py` | The real model's accuracy and latency        | `reasoner-benchmark.json` |
+
+Two properties of these suites are deliberate and worth keeping.
+
+**The PII evaluation refuses to grade itself.** Every detection outside a labelled span has
+to carry a hand-written verdict in `tests/dataset/pii-review.json`, and the test fails if any
+detection is unreviewed. Change a detector and new values appear there; the honest response
+is to read them and extend the review file, not to widen a tolerance. It is what keeps
+"precision 69.8%" from being a number nobody checked.
+
+**The dataset evaluation blocks the network.** Every request that is not to `127.0.0.1` is
+aborted for the duration of the run. That keeps the measurement reproducible — a snapshot
+that quietly fetched a live font would drift between runs — and it means a benchmark of a
+privacy tool cannot itself talk to anyone.
+
+### Regenerating the dataset
+
+```bash
+npm run dataset:capture     # needs the internet; produces a DIFFERENT dataset each time
+npm run dataset:annotate    # offline and deterministic; re-labels the committed snapshots
+```
+
+Annotation is seeded per screen, so re-running it reproduces the same labelling byte for
+byte. Capture is not reproducible, because the sites change — the committed snapshots are the
+versioned artefact, and the capture script is how they were made rather than something to run
+before measuring. Both run **headed**: a headless Chromium driven through Playwright's
+viewport emulation hides the scrollbar, the page then lays out 15 pixels wider than it does in
+the browser the extension actually runs in, and on a centred layout that moved every
+ground-truth box by eight pixels — which reported element recall as 52% for a system that
+scores 94%.
+
+## Demo rehearsal
+
+```bash
+npm run demo:rehearse
+```
+
+`e2e/demo.spec.ts` executes `docs/DEMO_SCRIPT.md` twice in a row and asserts every number the
+document quotes, so the script cannot drift from the system. It also records
+`docs/demo/privagent-demo.webm`, which is the backup for a failed live demo. Both passes must
+produce identical privacy summaries: a demo whose numbers move between rehearsals will move
+on stage.
+
 ## Known-weak tests
 
 Recorded rather than quietly relied on:

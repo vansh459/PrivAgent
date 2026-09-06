@@ -1,0 +1,1355 @@
+{
+  "id": "fin-npci",
+  "type": "finance",
+  "sourceUrl": "https://www.npci.org.in/",
+  "capturedAt": "2026-09-06T06:00:27.161Z",
+  "annotatedAt": "2026-09-06T06:56:44.513Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 4092,
+  "persona": "Fatima Sheikh",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Back to Top",
+      "bbox": [
+        1196,
+        496,
+        44,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Facebook",
+      "bbox": [
+        944,
+        3931,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "LinkedIn",
+      "bbox": [
+        994,
+        3931,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "X",
+      "bbox": [
+        1044,
+        3931,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Youtube",
+      "bbox": [
+        1094,
+        3931,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Instagram",
+      "bbox": [
+        1144,
+        3931,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "Har Payment Digital",
+      "bbox": [
+        421,
+        2,
+        40,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Disclaimer Helpline 9876543210",
+      "bbox": [
+        82,
+        3935,
+        124,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Terms and Condition",
+      "bbox": [
+        294,
+        3935,
+        132,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Accessibility Statement",
+      "bbox": [
+        451,
+        3935,
+        149,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Privacy Policy",
+      "bbox": [
+        623,
+        3935,
+        90,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Site Map",
+      "bbox": [
+        737,
+        3935,
+        57,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Careers Write to f.sheikh@mail.example.co.in",
+      "bbox": [
+        485,
+        13,
+        243,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Contact us PAN AAACR5055K",
+      "bbox": [
+        752,
+        13,
+        163,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "Skip to content",
+      "bbox": [
+        939,
+        12,
+        91,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "NPCI - National Payments Corporation of India Logo",
+      "bbox": [
+        82,
+        55,
+        148,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "button",
+      "name": "All products",
+      "bbox": [
+        1042,
+        62,
+        156,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Purpose, Mission & Value",
+      "bbox": [
+        82,
+        3132,
+        189,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Board Of Directors",
+      "bbox": [
+        82,
+        3170,
+        138,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Corporate Governance",
+      "bbox": [
+        82,
+        3208,
+        169,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Speeches",
+      "bbox": [
+        82,
+        3246,
+        74,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Management Team",
+      "bbox": [
+        82,
+        3326,
+        141,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Advisors",
+      "bbox": [
+        82,
+        3364,
+        64,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Organization Structure",
+      "bbox": [
+        82,
+        3402,
+        167,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Calendar Meetings",
+      "bbox": [
+        82,
+        3440,
+        139,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Past Chairman & CEO",
+      "bbox": [
+        82,
+        3478,
+        166,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Corporate Social Responsibility",
+      "bbox": [
+        82,
+        3558,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Risk Management",
+      "bbox": [
+        82,
+        3622,
+        133,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Business Continuity Management",
+      "bbox": [
+        82,
+        3660,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "NPCI International",
+      "bbox": [
+        82,
+        3766,
+        136,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "NPCI BharatBillPay Ltd.",
+      "bbox": [
+        82,
+        3804,
+        177,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "NPCI BHIM Service Limited",
+      "bbox": [
+        82,
+        3842,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Register A Complaint",
+      "bbox": [
+        303,
+        3132,
+        155,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "NETC FASTag Status",
+      "bbox": [
+        303,
+        3170,
+        159,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Aadhar Seeding Status",
+      "bbox": [
+        303,
+        3208,
+        232,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Find An ATM Near You",
+      "bbox": [
+        303,
+        3246,
+        167,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "UPI Complaint/Support",
+      "bbox": [
+        303,
+        3284,
+        170,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "DigiSaathi",
+      "bbox": [
+        303,
+        3322,
+        76,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "How To Use NPCI Products",
+      "bbox": [
+        303,
+        3402,
+        203,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Safety Features",
+      "bbox": [
+        303,
+        3440,
+        117,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Live Bank Members",
+      "bbox": [
+        303,
+        3478,
+        147,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Fraud Awareness",
+      "bbox": [
+        303,
+        3516,
+        129,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "RuPay Credit Card Offers",
+      "bbox": [
+        303,
+        3596,
+        189,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "BHIM UPI Offers",
+      "bbox": [
+        303,
+        3634,
+        123,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Circulars & Notifications",
+      "bbox": [
+        559,
+        3132,
+        177,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Research And Publications",
+      "bbox": [
+        559,
+        3170,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "All Members",
+      "bbox": [
+        559,
+        3234,
+        92,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "NPCI Partner Program",
+      "bbox": [
+        559,
+        3272,
+        167,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "API Accelerator Program",
+      "bbox": [
+        559,
+        3352,
+        183,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "API Development Kit",
+      "bbox": [
+        559,
+        3390,
+        153,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Onboarding & Offboarding",
+      "bbox": [
+        559,
+        3470,
+        194,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Transactions & Settlement Lifecycle",
+      "bbox": [
+        559,
+        3508,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Product Statistics",
+      "bbox": [
+        780,
+        3100,
+        129,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Ecosystem Statistics",
+      "bbox": [
+        780,
+        3138,
+        153,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "RBI Bulletin",
+      "bbox": [
+        780,
+        3176,
+        87,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Bankwise Data Of Volumes",
+      "bbox": [
+        780,
+        3214,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Bank-Wise ATM/POS/Card Statistics",
+      "bbox": [
+        780,
+        3278,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "RBI -Payment System Indicators",
+      "bbox": [
+        780,
+        3342,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "NPCI Retail Payment Statistics",
+      "bbox": [
+        780,
+        3406,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Press Releases / Publications",
+      "bbox": [
+        1001,
+        3132,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Product Campaigns",
+      "bbox": [
+        1001,
+        3196,
+        146,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Events & Awards",
+      "bbox": [
+        1001,
+        3234,
+        125,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Innovators Playground Podcast",
+      "bbox": [
+        1001,
+        3272,
+        197,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Brand Guidelines & Logos",
+      "bbox": [
+        1001,
+        3336,
+        193,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Blog",
+      "bbox": [
+        1001,
+        3374,
+        33,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Tenders & Notices",
+      "bbox": [
+        1001,
+        3412,
+        135,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Careers",
+      "bbox": [
+        1001,
+        3486,
+        59,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        1001,
+        3524,
+        82,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "button",
+      "name": "Select Language",
+      "bbox": [
+        1150,
+        17,
+        50,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "National Payment Corporation of India logo to navigate home page",
+      "bbox": [
+        82,
+        60,
+        148,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "button",
+      "name": "increment font size",
+      "bbox": [
+        1055,
+        12,
+        27,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "button",
+      "name": "deafult font size",
+      "bbox": [
+        1082,
+        12,
+        20,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "button",
+      "name": "decrement font size",
+      "bbox": [
+        1102,
+        12,
+        24,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "button",
+      "name": "About NPCI",
+      "bbox": [
+        246,
+        66,
+        125,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "button",
+      "name": "Customer",
+      "bbox": [
+        379,
+        66,
+        110,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "button",
+      "name": "Business",
+      "bbox": [
+        497,
+        66,
+        107,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "button",
+      "name": "Statistics",
+      "bbox": [
+        612,
+        66,
+        107,
+        40
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9876543210",
+      "text": "Helpline 9876543210",
+      "bbox": [
+        82,
+        3935,
+        124,
+        40
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91-98765-43210",
+      "text": "Alternate contact +91-98765-43210",
+      "bbox": [
+        0,
+        2012,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "f.sheikh@mail.example.co.in",
+      "text": "Write to f.sheikh@mail.example.co.in",
+      "bbox": [
+        485,
+        13,
+        243,
+        24
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "123456789012",
+      "text": "Aadhaar 123456789012 linked to this account",
+      "bbox": [
+        0,
+        894,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "AAACR5055K",
+      "text": "PAN AAACR5055K",
+      "bbox": [
+        752,
+        13,
+        163,
+        24
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5500 0000 0000 0004",
+      "text": "Card on file 5500 0000 0000 0004",
+      "bbox": [
+        0,
+        1406,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one-time password 4821",
+      "text": "one-time password 4821 sent to your phone",
+      "bbox": [
+        0,
+        2357,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Fatima Sheikh",
+      "text": "Signed in as Fatima Sheikh",
+      "bbox": [
+        70,
+        228,
+        71,
+        337
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "bbox": [
+        0,
+        2318,
+        1280,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Careers Write to f.sheikh@mail.example.co.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Contact us PAN AAACR5055K",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Skip to content",
+      "truthId": null
+    },
+    {
+      "text": "increment font size",
+      "truthId": null
+    },
+    {
+      "text": "deafult font size",
+      "truthId": null
+    },
+    {
+      "text": "decrement font size",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "About NPCI Customer Business Statistics All Products",
+      "truthId": null
+    },
+    {
+      "text": "NPCI - National Payments Corporation of India Logo",
+      "truthId": null
+    },
+    {
+      "text": "About NPCI",
+      "truthId": null
+    },
+    {
+      "text": "Customer",
+      "truthId": null
+    },
+    {
+      "text": "Business",
+      "truthId": null
+    },
+    {
+      "text": "Statistics",
+      "truthId": null
+    },
+    {
+      "text": "All products",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Fatima Sheikh National Payment Corporation of India(NPCI) Enabling Digital Payments in India Home Page Where Every Payment Builds a Better Tomorrow 842 Mn+ Transactions processed daily Our flagship payment platforms have revolutionized everyday transactions Open in new window Open in new window Open in new window",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Fatima Sheikh",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "redirect toUPI",
+      "truthId": null
+    },
+    {
+      "text": "redirect toRuPay",
+      "truthId": null
+    },
+    {
+      "text": "redirect toNETC Fastag",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 123456789012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Card on file 5500 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Alternate contact +91-98765-43210",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "one-time password 4821 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Purpose, Mission & Value",
+      "truthId": null
+    },
+    {
+      "text": "Board Of Directors",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Governance",
+      "truthId": null
+    },
+    {
+      "text": "Speeches",
+      "truthId": null
+    },
+    {
+      "text": "Management Team",
+      "truthId": null
+    },
+    {
+      "text": "Advisors",
+      "truthId": null
+    },
+    {
+      "text": "Organization Structure",
+      "truthId": null
+    },
+    {
+      "text": "Calendar Meetings",
+      "truthId": null
+    },
+    {
+      "text": "Past Chairman & CEO",
+      "truthId": null
+    },
+    {
+      "text": "Corporate Social Responsibility",
+      "truthId": null
+    },
+    {
+      "text": "Risk Management",
+      "truthId": null
+    },
+    {
+      "text": "Business Continuity Management",
+      "truthId": null
+    },
+    {
+      "text": "NPCI International",
+      "truthId": null
+    },
+    {
+      "text": "NPCI BharatBillPay Ltd.",
+      "truthId": null
+    },
+    {
+      "text": "NPCI BHIM Service Limited",
+      "truthId": null
+    },
+    {
+      "text": "Register A Complaint",
+      "truthId": null
+    },
+    {
+      "text": "NETC FASTag Status",
+      "truthId": null
+    },
+    {
+      "text": "Aadhar Seeding Status",
+      "truthId": null
+    },
+    {
+      "text": "Find An ATM Near You",
+      "truthId": null
+    },
+    {
+      "text": "UPI Complaint/Support",
+      "truthId": null
+    },
+    {
+      "text": "DigiSaathi",
+      "truthId": null
+    },
+    {
+      "text": "How To Use NPCI Products",
+      "truthId": null
+    },
+    {
+      "text": "Safety Features",
+      "truthId": null
+    },
+    {
+      "text": "Live Bank Members",
+      "truthId": null
+    },
+    {
+      "text": "Fraud Awareness",
+      "truthId": null
+    },
+    {
+      "text": "RuPay Credit Card Offers",
+      "truthId": null
+    },
+    {
+      "text": "BHIM UPI Offers",
+      "truthId": null
+    },
+    {
+      "text": "Circulars & Notifications",
+      "truthId": null
+    },
+    {
+      "text": "Research And Publications",
+      "truthId": null
+    },
+    {
+      "text": "All Members",
+      "truthId": null
+    },
+    {
+      "text": "NPCI Partner Program",
+      "truthId": null
+    },
+    {
+      "text": "API Accelerator Program",
+      "truthId": null
+    },
+    {
+      "text": "API Development Kit",
+      "truthId": null
+    },
+    {
+      "text": "Onboarding & Offboarding",
+      "truthId": null
+    },
+    {
+      "text": "Transactions & Settlement Lifecycle",
+      "truthId": null
+    },
+    {
+      "text": "Product Statistics",
+      "truthId": null
+    },
+    {
+      "text": "Ecosystem Statistics",
+      "truthId": null
+    },
+    {
+      "text": "RBI Bulletin",
+      "truthId": null
+    },
+    {
+      "text": "Bankwise Data Of Volumes",
+      "truthId": null
+    },
+    {
+      "text": "Bank-Wise ATM/POS/Card Statistics",
+      "truthId": null
+    },
+    {
+      "text": "RBI -Payment System Indicators",
+      "truthId": null
+    },
+    {
+      "text": "NPCI Retail Payment Statistics",
+      "truthId": null
+    },
+    {
+      "text": "Press Releases / Publications",
+      "truthId": null
+    },
+    {
+      "text": "Product Campaigns",
+      "truthId": null
+    },
+    {
+      "text": "Events & Awards",
+      "truthId": null
+    },
+    {
+      "text": "Innovators Playground Podcast",
+      "truthId": null
+    },
+    {
+      "text": "Brand Guidelines & Logos",
+      "truthId": null
+    },
+    {
+      "text": "Blog",
+      "truthId": null
+    },
+    {
+      "text": "Tenders & Notices",
+      "truthId": null
+    },
+    {
+      "text": "Careers",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer Helpline 9876543210",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Terms and Condition",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility Statement",
+      "truthId": null
+    },
+    {
+      "text": "Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Site Map",
+      "truthId": null
+    },
+    {
+      "text": "Facebook",
+      "truthId": null
+    },
+    {
+      "text": "LinkedIn",
+      "truthId": null
+    },
+    {
+      "text": "X",
+      "truthId": null
+    },
+    {
+      "text": "Youtube",
+      "truthId": null
+    },
+    {
+      "text": "Instagram",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1134,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          944,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9876543210",
+        "bbox": [
+          944,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9876543210"
+        }
+      }
+    ]
+  }
+}

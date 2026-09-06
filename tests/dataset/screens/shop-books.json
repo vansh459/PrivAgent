@@ -1,0 +1,1838 @@
+{
+  "id": "shop-books",
+  "type": "ecommerce",
+  "sourceUrl": "https://books.toscrape.com/",
+  "capturedAt": "2026-09-06T06:02:05.333Z",
+  "annotatedAt": "2026-09-06T06:56:49.243Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 2833,
+  "persona": "Meera Banerjee",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Books to Scrape",
+      "bbox": [
+        15,
+        137,
+        221,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        60,
+        343,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Books",
+      "bbox": [
+        65,
+        454,
+        232,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "next",
+      "bbox": [
+        1164,
+        2751,
+        56,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Travel PAN LMNOP4321Q",
+      "bbox": [
+        90,
+        496,
+        166,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Mystery",
+      "bbox": [
+        90,
+        516,
+        49,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Historical Fiction",
+      "bbox": [
+        90,
+        536,
+        103,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Sequential Art",
+      "bbox": [
+        90,
+        556,
+        87,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Classics",
+      "bbox": [
+        90,
+        576,
+        52,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Philosophy",
+      "bbox": [
+        90,
+        596,
+        69,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Romance",
+      "bbox": [
+        90,
+        616,
+        60,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Womens Fiction",
+      "bbox": [
+        90,
+        636,
+        100,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Fiction",
+      "bbox": [
+        90,
+        656,
+        41,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Childrens",
+      "bbox": [
+        90,
+        676,
+        59,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Religion",
+      "bbox": [
+        90,
+        696,
+        51,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Nonfiction",
+      "bbox": [
+        90,
+        716,
+        62,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Music",
+      "bbox": [
+        90,
+        736,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Default",
+      "bbox": [
+        90,
+        756,
+        44,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Science Fiction Helpline 9988776655",
+      "bbox": [
+        90,
+        776,
+        149,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Sports and Games",
+      "bbox": [
+        90,
+        816,
+        117,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Add a comment",
+      "bbox": [
+        90,
+        836,
+        98,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Fantasy",
+      "bbox": [
+        90,
+        856,
+        50,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "New Adult",
+      "bbox": [
+        90,
+        876,
+        63,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Young Adult",
+      "bbox": [
+        90,
+        896,
+        74,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Science",
+      "bbox": [
+        90,
+        916,
+        50,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Poetry",
+      "bbox": [
+        90,
+        936,
+        40,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Paranormal",
+      "bbox": [
+        90,
+        956,
+        72,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Art",
+      "bbox": [
+        90,
+        976,
+        18,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Psychology",
+      "bbox": [
+        90,
+        996,
+        72,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Autobiography",
+      "bbox": [
+        90,
+        1016,
+        90,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Parenting",
+      "bbox": [
+        90,
+        1036,
+        60,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Adult Fiction",
+      "bbox": [
+        90,
+        1056,
+        77,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Humor",
+      "bbox": [
+        90,
+        1076,
+        42,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Horror",
+      "bbox": [
+        90,
+        1096,
+        40,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "History",
+      "bbox": [
+        90,
+        1116,
+        44,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Food and Drink Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        90,
+        1136,
+        189,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Christian Fiction",
+      "bbox": [
+        90,
+        1176,
+        100,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Business",
+      "bbox": [
+        90,
+        1196,
+        57,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Biography",
+      "bbox": [
+        90,
+        1216,
+        63,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Thriller",
+      "bbox": [
+        90,
+        1236,
+        43,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Contemporary",
+      "bbox": [
+        90,
+        1256,
+        89,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Spirituality",
+      "bbox": [
+        90,
+        1276,
+        65,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Academic",
+      "bbox": [
+        90,
+        1296,
+        61,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Self Help",
+      "bbox": [
+        90,
+        1316,
+        57,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Historical",
+      "bbox": [
+        90,
+        1336,
+        58,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Christian",
+      "bbox": [
+        90,
+        1356,
+        55,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Suspense",
+      "bbox": [
+        90,
+        1376,
+        62,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Short Stories",
+      "bbox": [
+        90,
+        1396,
+        81,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Novels",
+      "bbox": [
+        90,
+        1416,
+        43,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Health",
+      "bbox": [
+        90,
+        1436,
+        40,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Politics",
+      "bbox": [
+        90,
+        1456,
+        44,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Cultural",
+      "bbox": [
+        90,
+        1476,
+        48,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Erotica",
+      "bbox": [
+        90,
+        1496,
+        44,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Crime",
+      "bbox": [
+        90,
+        1516,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "A Light in the Attic",
+      "bbox": [
+        361,
+        701,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "A Light in the ...",
+      "bbox": [
+        409,
+        908,
+        97,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Tipping the Velvet",
+      "bbox": [
+        583,
+        701,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Tipping the Velvet",
+      "bbox": [
+        624,
+        908,
+        111,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Soumission",
+      "bbox": [
+        806,
+        701,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Soumission",
+      "bbox": [
+        865,
+        908,
+        72,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Sharp Objects",
+      "bbox": [
+        1028,
+        701,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Sharp Objects",
+      "bbox": [
+        1079,
+        908,
+        89,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Sapiens: A Brief History of Humankind",
+      "bbox": [
+        361,
+        1111,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Sapiens: A Brief History ...",
+      "bbox": [
+        376,
+        1318,
+        162,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "The Requiem Red",
+      "bbox": [
+        583,
+        1111,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "The Requiem Red",
+      "bbox": [
+        623,
+        1318,
+        114,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "The Dirty Little Secrets of Getting Your Dream Job",
+      "bbox": [
+        806,
+        1111,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "The Dirty Little Secrets ...",
+      "bbox": [
+        823,
+        1318,
+        157,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+      "bbox": [
+        1028,
+        1111,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "The Coming Woman: A ...",
+      "bbox": [
+        1044,
+        1318,
+        159,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+      "bbox": [
+        361,
+        1521,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "The Boys in the ...",
+      "bbox": [
+        401,
+        1728,
+        113,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "The Black Maria",
+      "bbox": [
+        583,
+        1521,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "The Black Maria",
+      "bbox": [
+        629,
+        1728,
+        101,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+      "bbox": [
+        806,
+        1521,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Starving Hearts (Triangular Trade ...",
+      "bbox": [
+        818,
+        1728,
+        168,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Shakespeare's Sonnets",
+      "bbox": [
+        1028,
+        1521,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Shakespeare's Sonnets",
+      "bbox": [
+        1050,
+        1728,
+        147,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Set Me Free",
+      "bbox": [
+        361,
+        1931,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Set Me Free",
+      "bbox": [
+        419,
+        2138,
+        77,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+      "bbox": [
+        583,
+        1931,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "Scott Pilgrim's Precious Little ...",
+      "bbox": [
+        589,
+        2138,
+        180,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Rip it Up and Start Again",
+      "bbox": [
+        806,
+        1931,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Rip it Up and ...",
+      "bbox": [
+        853,
+        2138,
+        97,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+      "bbox": [
+        1028,
+        1931,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Our Band Could Be ...",
+      "bbox": [
+        1055,
+        2138,
+        137,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Olio",
+      "bbox": [
+        361,
+        2341,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Olio",
+      "bbox": [
+        445,
+        2548,
+        25,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+      "bbox": [
+        583,
+        2341,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "Mesaerion: The Best Science ...",
+      "bbox": [
+        588,
+        2548,
+        183,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "Libertarianism for Beginners",
+      "bbox": [
+        806,
+        2341,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Libertarianism for Beginners",
+      "bbox": [
+        814,
+        2548,
+        175,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "It's Only the Himalayas",
+      "bbox": [
+        1028,
+        2341,
+        192,
+        155
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "It's Only the Himalayas Write to meera.banerjee@example.net",
+      "bbox": [
+        1029,
+        2548,
+        189,
+        56
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        361,
+        1038,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        583,
+        1038,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        806,
+        1038,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        1028,
+        1038,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        361,
+        1448,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        583,
+        1448,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        806,
+        1448,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        1028,
+        1448,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        361,
+        1858,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        583,
+        1858,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        806,
+        1858,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        1028,
+        1858,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        361,
+        2268,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        583,
+        2268,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        806,
+        2268,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        1028,
+        2268,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        361,
+        2678,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        583,
+        2678,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        806,
+        2678,
+        192,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "button",
+      "name": "Add to basket",
+      "bbox": [
+        1028,
+        2678,
+        192,
+        34
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9988776655",
+      "text": "Helpline 9988776655",
+      "bbox": [
+        90,
+        776,
+        149,
+        36
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 99887 76655",
+      "text": "Alternate contact +91 99887 76655",
+      "bbox": [
+        15,
+        95,
+        1235,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Write to meera.banerjee@example.net",
+      "bbox": [
+        1029,
+        2548,
+        189,
+        56
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "334455667788",
+      "text": "Aadhaar 334455667788 linked to this account",
+      "bbox": [
+        15,
+        56,
+        1235,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "LMNOP4321Q",
+      "text": "PAN LMNOP4321Q",
+      "bbox": [
+        90,
+        496,
+        166,
+        16
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5105 1051 0510 5100",
+      "text": "Card on file 5105 1051 0510 5100",
+      "bbox": [
+        362,
+        566,
+        842,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 778899",
+      "text": "OTP 778899 sent to your phone",
+      "bbox": [
+        30,
+        396,
+        1205,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Meera Banerjee",
+      "text": "Signed in as Meera Banerjee",
+      "bbox": [
+        45,
+        294,
+        1175,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "8 Park Street, Kolkata 700016",
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "bbox": [
+        15,
+        219,
+        1235,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        90,
+        1136,
+        189,
+        36
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Aadhaar 334455667788 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Alternate contact +91 99887 76655",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Books to Scrape",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Signed in as Meera Banerjee",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "OTP 778899 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Books",
+      "truthId": null
+    },
+    {
+      "text": "Travel PAN LMNOP4321Q",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Mystery",
+      "truthId": null
+    },
+    {
+      "text": "Historical Fiction",
+      "truthId": null
+    },
+    {
+      "text": "Sequential Art",
+      "truthId": null
+    },
+    {
+      "text": "Classics",
+      "truthId": null
+    },
+    {
+      "text": "Philosophy",
+      "truthId": null
+    },
+    {
+      "text": "Romance",
+      "truthId": null
+    },
+    {
+      "text": "Womens Fiction",
+      "truthId": null
+    },
+    {
+      "text": "Fiction",
+      "truthId": null
+    },
+    {
+      "text": "Childrens",
+      "truthId": null
+    },
+    {
+      "text": "Religion",
+      "truthId": null
+    },
+    {
+      "text": "Nonfiction",
+      "truthId": null
+    },
+    {
+      "text": "Music",
+      "truthId": null
+    },
+    {
+      "text": "Default",
+      "truthId": null
+    },
+    {
+      "text": "Science Fiction Helpline 9988776655",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Sports and Games",
+      "truthId": null
+    },
+    {
+      "text": "Add a comment",
+      "truthId": null
+    },
+    {
+      "text": "Fantasy",
+      "truthId": null
+    },
+    {
+      "text": "New Adult",
+      "truthId": null
+    },
+    {
+      "text": "Young Adult",
+      "truthId": null
+    },
+    {
+      "text": "Science",
+      "truthId": null
+    },
+    {
+      "text": "Poetry",
+      "truthId": null
+    },
+    {
+      "text": "Paranormal",
+      "truthId": null
+    },
+    {
+      "text": "Art",
+      "truthId": null
+    },
+    {
+      "text": "Psychology",
+      "truthId": null
+    },
+    {
+      "text": "Autobiography",
+      "truthId": null
+    },
+    {
+      "text": "Parenting",
+      "truthId": null
+    },
+    {
+      "text": "Adult Fiction",
+      "truthId": null
+    },
+    {
+      "text": "Humor",
+      "truthId": null
+    },
+    {
+      "text": "Horror",
+      "truthId": null
+    },
+    {
+      "text": "History",
+      "truthId": null
+    },
+    {
+      "text": "Food and Drink Grievance cell meera.banerjee@example.net",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Christian Fiction",
+      "truthId": null
+    },
+    {
+      "text": "Business",
+      "truthId": null
+    },
+    {
+      "text": "Biography",
+      "truthId": null
+    },
+    {
+      "text": "Thriller",
+      "truthId": null
+    },
+    {
+      "text": "Contemporary",
+      "truthId": null
+    },
+    {
+      "text": "Spirituality",
+      "truthId": null
+    },
+    {
+      "text": "Academic",
+      "truthId": null
+    },
+    {
+      "text": "Self Help",
+      "truthId": null
+    },
+    {
+      "text": "Historical",
+      "truthId": null
+    },
+    {
+      "text": "Christian",
+      "truthId": null
+    },
+    {
+      "text": "Suspense",
+      "truthId": null
+    },
+    {
+      "text": "Short Stories",
+      "truthId": null
+    },
+    {
+      "text": "Novels",
+      "truthId": null
+    },
+    {
+      "text": "Health",
+      "truthId": null
+    },
+    {
+      "text": "Politics",
+      "truthId": null
+    },
+    {
+      "text": "Cultural",
+      "truthId": null
+    },
+    {
+      "text": "Erotica",
+      "truthId": null
+    },
+    {
+      "text": "Crime",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5105 1051 0510 5100 Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5105 1051 0510 5100",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "A Light in the ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Tipping the Velvet",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Soumission",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Sharp Objects",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Sapiens: A Brief History ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "The Requiem Red",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "The Dirty Little Secrets ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "The Coming Woman: A ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "The Boys in the ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "The Black Maria",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Starving Hearts (Triangular Trade ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Shakespeare's Sonnets",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Set Me Free",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Scott Pilgrim's Precious Little ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Rip it Up and ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Our Band Could Be ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Olio",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Mesaerion: The Best Science ...",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "Libertarianism for Beginners",
+      "truthId": null
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "It's Only the Himalayas Write to meera.banerjee@example.net",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Add to basket",
+      "truthId": null
+    },
+    {
+      "text": "next",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "chawla.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9988776655",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9988776655"
+        }
+      }
+    ]
+  }
+}

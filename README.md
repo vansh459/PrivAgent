@@ -24,34 +24,45 @@ BROWSER (content script)                    BROWSER (background worker)        S
 ```
 
 The network boundary carries exactly one payload shape, and it never contains pixels, raw
-DOM, URLs, or any field's typed contents. See **[docs/SECURITY.md](docs/SECURITY.md)**.
+DOM, URLs, or any field's typed contents. See **[docs/SECURITY.md](docs/SECURITY.md)**, and
+**[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** for the full diagram including the vision
+pass, which this sketch leaves out.
 
 ## What actually works today
 
-Stage 1 is complete. Every row below was run, not assumed.
+Stage 3 is complete. Every row below was run, not assumed, and the numbers come from
+[`results.md`](./results.md) — measured over 42 real captured web pages.
 
-| Capability                                                           | State                                              |
-| -------------------------------------------------------------------- | -------------------------------------------------- |
-| End-to-end loop: perceive → redact → reason → validate → act → audit | ✅ Working                                         |
-| Credential fields excluded at extraction (never read `.value`)       | ✅ Working, regression-tested                      |
-| Structured PII detection + overlap-safe tokenization                 | ✅ Working, regression-tested                      |
-| Set-of-Mark context building, task-relevance filtering               | ✅ Working                                         |
-| Risk gate with in-page confirmation for medium/high risk             | ✅ Working                                         |
-| Audit trail in IndexedDB on the extension origin                     | ✅ Working                                         |
-| `/reason` endpoint, schema-validated both directions                 | ✅ Working                                         |
-| Shared wire contract generated from one source                       | ✅ Working, drift-checked in CI                    |
-| Chrome + Firefox manifests                                           | ✅ Both build and validate                         |
-| Verified end to end in a real browser                                | ✅ 7 Playwright tests against the loaded extension |
-| Screenshot capture                                                   | ❌ Stage 2                                         |
-| Local vision models (OCR / face / object)                            | ❌ Stage 2 — see below                             |
-| LLM behind `/reason`                                                 | ❌ Stage 2 — a deterministic matcher stands in     |
-| Benchmarks against the rubric                                        | ❌ Stage 3                                         |
+| Capability                                                           | State                                                             |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| End-to-end loop: perceive → redact → reason → validate → act → audit | Working                                                           |
+| Credential fields excluded at extraction (never read `.value`)       | Working, regression-tested                                        |
+| Screenshot capture + local vision in an extension-origin document    | Working — YuNet face detection, Tesseract OCR, nothing from a CDN |
+| Text read out of `<canvas>` and images                               | Working — **97.3%** character accuracy across the dataset         |
+| Face detection and pixel redaction before OCR reads the buffer       | Working — **100%** recall, 0 faces ever transmitted               |
+| Structured + unstructured PII detection, overlap-safe tokenization   | Working — **100%** recall, 69.8% precision on real page text      |
+| Set-of-Mark context building, task-relevance filtering               | Working — **F1 92.2%** against Chrome's accessibility tree        |
+| Risk gate with in-page confirmation for medium/high risk             | Working, verified in a browser                                    |
+| Action executor: click, type, scroll, navigate                       | Working — all four types on five pages, no misfires               |
+| Audit trail in IndexedDB on the extension origin                     | Working                                                           |
+| `/reason` endpoint, schema-validated in both directions              | Working                                                           |
+| Real open-weight LLM behind `/reason`                                | Working — Qwen2.5-1.5B on local Ollama, opt-in                    |
+| Chrome + Firefox builds                                              | Both build and validate; `.xpi` lints clean                       |
+| Benchmarks against all five rubric criteria                          | Measured — see [`results.md`](./results.md)                       |
+| Firefox load on a clean profile                                      | **Not done** — Firefox is not installed on the dev machine        |
+| Human demo rehearsal and Q&A rehearsal                               | **Not done** — the scripts exist, nobody has read them aloud      |
 
-**Being precise about "vision":** the perception layer today is DOM and accessibility-tree
-extraction only. `visionRuntime.ts`, `ocr.ts` and `faceDetection.ts` exist and are tested,
-but they are **not wired into the running pipeline** and no real model ships yet. Stage 2
-adds screenshot capture and real ONNX/Tesseract inference. Until then this is a
-privacy-preserving _DOM_ agent, and the README will not claim otherwise.
+**Being precise about "vision":** perception now really is visual. The pipeline takes a
+screenshot in the background worker, decodes it in an extension-origin offscreen document,
+runs a 232 KB YuNet detector over the whole viewport, paints every detected face out of the
+buffer, and only then lets OCR read from it. Everything it reads goes through the same
+Privacy Firewall as DOM text, because it is fused in _before_ redaction rather than after.
+
+**Being precise about what is weak.** Memory is +907 MB over a five-page session, which is
+the worst number in the project. PII precision is 69.8%, and 202 of the 212 false positives
+come from the rule-based name recogniser firing on Title-Case navigation. And with the local
+model in the loop a task takes about ten seconds instead of one. All three are measured,
+explained and left visible in [`results.md`](./results.md) rather than tidied away.
 
 ## Quick start
 
@@ -82,29 +93,44 @@ Full instructions: **[docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**.
 ## Verify
 
 ```bash
-npm test          # schema drift, lint, typecheck, format, 210 client + 14 server tests
-npm run build     # both browser targets + manifest validation
+npm test                    # schema drift, lint, typecheck, format, 305 client + 30 server tests
+npm run build               # both browser targets + manifest validation
+npm run test:e2e --prefix extension   # 24 tests in a real browser against the loaded extension
+```
 
-npm run build:chrome --prefix extension
-npm run test:e2e --prefix extension   # 7 tests in a real browser, real server
+Reproduce the rubric numbers (each writes its JSON into `test-results/`):
+
+```bash
+npm run eval:dataset        # visual-context accuracy and redaction precision, 42 screens
+npm run eval:profile        # resource use and end-to-end latency, two device tiers
+npm run demo:rehearse       # runs the demo script twice and re-records the backup video
+npm run test:reasoner       # the real local model; needs Ollama with qwen2.5:1.5b
+npm run package:firefox     # web-ext lint + a signed-shape .xpi in extension/dist/
 ```
 
 ## Repository layout
 
-| Path                        | Contents                                                              |
-| --------------------------- | --------------------------------------------------------------------- |
-| `extension/src/content/`    | DOM walker, Privacy Firewall, context builder, risk gate, executor    |
-| `extension/src/background/` | Orchestrator, `/reason` client, IndexedDB audit trail                 |
-| `extension/e2e/`            | Playwright suite driving the loaded extension in a real browser       |
-| `extension/src/schemas/`    | `generated.ts` — do not edit; regenerate with `npm run gen:schemas`   |
-| `server/app/`               | FastAPI app, reasoning providers, **authoritative** Pydantic contract |
-| `schemas/`                  | JSON Schema exported from the Pydantic models                         |
-| `docs/`                     | Architecture, security, testing, setup                                |
+| Path                            | Contents                                                              |
+| ------------------------------- | --------------------------------------------------------------------- |
+| `extension/src/content/`        | DOM walker, Privacy Firewall, context builder, risk gate, executor    |
+| `extension/src/background/`     | Orchestrator, `/reason` client, IndexedDB audit trail                 |
+| `extension/e2e/`                | Playwright suite driving the loaded extension in a real browser       |
+| `extension/src/schemas/`        | `generated.ts` — do not edit; regenerate with `npm run gen:schemas`   |
+| `server/app/`                   | FastAPI app, reasoning providers, **authoritative** Pydantic contract |
+| `schemas/`                      | JSON Schema exported from the Pydantic models                         |
+| `extension/e2e/dataset.spec.ts` | The Phase 8 evaluation harness: 42 screens, one pass, two criteria    |
+| `tests/dataset/`                | The versioned evaluation dataset — 42 captured pages, ground truth    |
+| `scripts/`                      | Dataset capture and annotation, schema generation, manifest checks    |
+| `docs/`                         | Architecture, security, testing, setup, demo script, Q&A briefing     |
+| `results.md`                    | Every rubric number, with the command that produced it                |
 
 ## Documentation
 
-[Security](docs/SECURITY.md) · [Architecture](docs/ARCHITECTURE.md) ·
-[Setup](docs/SETUP_GUIDE.md) · [Testing](docs/TESTING.md) ·
+**[Results](results.md)** — every rubric number and what is wrong with it ·
+[Dataset](tests/dataset/README.md) · [Security](docs/SECURITY.md) ·
+[Architecture](docs/ARCHITECTURE.md) · [Setup](docs/SETUP_GUIDE.md) ·
+[Testing](docs/TESTING.md) · [Benchmarks](docs/BENCHMARKS.md) ·
+[Demo script](docs/DEMO_SCRIPT.md) · [Q&A briefing](docs/QA_BRIEFING.md) ·
 [Data schemas](docs/DATA_SCHEMAS.md) · [API reference](docs/API_REFERENCE.md) ·
 [Build specification](PrivAgent_Build_Specification.md)
 

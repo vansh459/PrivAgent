@@ -1,0 +1,225 @@
+{
+  "id": "spa-todomvc-vue",
+  "type": "spa",
+  "sourceUrl": "https://todomvc.com/examples/vue/dist/#/",
+  "capturedAt": "2026-09-06T06:04:47.761Z",
+  "annotatedAt": "2026-09-06T06:56:58.434Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 720,
+  "persona": "Aisha Qureshi",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Source Write to aisha.qureshi@example.in",
+      "bbox": [
+        18,
+        85,
+        265,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "textbox",
+      "name": "What needs to be done?",
+      "bbox": [
+        515,
+        365,
+        550,
+        65
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "TodoMVC Helpline 9345678901",
+      "bbox": [
+        730,
+        538,
+        155,
+        12
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9345678901",
+      "text": "Helpline 9345678901",
+      "bbox": [
+        730,
+        538,
+        155,
+        12
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "044 2812 3456",
+      "text": "Alternate contact 044 2812 3456",
+      "bbox": [
+        515,
+        326,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "aisha.qureshi@example.in",
+      "text": "Write to aisha.qureshi@example.in",
+      "bbox": [
+        18,
+        85,
+        265,
+        16
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "1122-3344-5566",
+      "text": "Aadhaar 1122-3344-5566 linked to this account",
+      "bbox": [
+        515,
+        286,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5555 5555 5555 4444",
+      "text": "Card on file 5555 5555 5555 4444",
+      "bbox": [
+        515,
+        247,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one-time password 220033",
+      "text": "one-time password 220033 sent to your phone",
+      "bbox": [
+        515,
+        208,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Aisha Qureshi",
+      "text": "Signed in as Aisha Qureshi",
+      "bbox": [
+        515,
+        169,
+        550,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "5 Anna Salai, Chennai 600002",
+      "text": "Registered address 5 Anna Salai, Chennai 600002",
+      "bbox": [
+        515,
+        130,
+        550,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Source Write to aisha.qureshi@example.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Registered address 5 Anna Salai, Chennai 600002",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Signed in as Aisha Qureshi",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "one-time password 220033 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 5555 5555 5555 4444",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 1122-3344-5566 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Alternate contact 044 2812 3456",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "What needs to be done?",
+      "truthId": null
+    },
+    {
+      "text": "TodoMVC Helpline 9345678901",
+      "truthId": "pii_1"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1132,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          942,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9345678901",
+        "bbox": [
+          942,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9345678901"
+        }
+      }
+    ]
+  }
+}

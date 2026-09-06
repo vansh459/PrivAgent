@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Records Index</title>
+    <style>
+      body {
+        font:
+          14px/1.5 system-ui,
+          sans-serif;
+        margin: 24px;
+      }
+      li {
+        margin: 6px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Public Records Index</h1>
+
+    <!--
+      Link-heavy on purpose. Twenty-four anchors of similar shape is the page where a
+      click executor is most likely to misfire, so "the right one, and only the right
+      one" is worth asserting here specifically.
+    -->
+    <p>
+      <label for="filter">Filter documents</label>
+      <input id="filter" name="filter" />
+    </p>
+
+    <ul id="documents"></ul>
+
+    <p><a id="handbook" href="#handbook">Open handbook</a></p>
+    <p id="result">nothing opened</p>
+
+    <!-- Makes the document taller than the viewport, so a `scroll` action has an
+         observable effect. Not interactive, so the walker never perceives it. -->
+    <div id="spacer" aria-hidden="true" style="height: 1700px"></div>
+
+    <script>
+      const list = document.getElementById("documents");
+      const titles = [
+        "Annual report 2019",
+        "Annual report 2020",
+        "Annual report 2021",
+        "Annual report 2022",
+        "Annual report 2023",
+        "Budget estimates",
+        "Revised estimates",
+        "Audit observations",
+        "Tender notice 114",
+        "Tender notice 115",
+        "Tender notice 116",
+        "Circular on allowances",
+        "Circular on transfers",
+        "Citizen charter",
+        "Right to information guide",
+        "Grievance procedure",
+        "Scheme guidelines",
+        "Beneficiary eligibility",
+        "District contact list",
+        "Office order 22",
+        "Office order 23",
+        "Meeting minutes March",
+        "Meeting minutes April",
+        "Meeting minutes May",
+      ];
+      for (const [index, title] of titles.entries()) {
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        link.id = "doc-" + index;
+        link.href = "#doc-" + index;
+        link.textContent = title;
+        item.append(link);
+        list.append(item);
+      }
+
+      document.getElementById("handbook").addEventListener("click", () => {
+        document.getElementById("result").textContent = "handbook opened";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2113 @@
+{
+  "id": "gov-digilocker",
+  "type": "portal",
+  "sourceUrl": "https://www.digilocker.gov.in/",
+  "capturedAt": "2026-09-06T05:59:43.988Z",
+  "annotatedAt": "2026-09-06T06:56:41.267Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 7396,
+  "persona": "Arjun Menon",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Accessibility Widget",
+      "bbox": [
+        8,
+        7345,
+        172,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Identity Documents Icon Identity Documents",
+      "bbox": [
+        25,
+        2093,
+        1200,
+        109
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Education and Learning Icon Education and Learning",
+      "bbox": [
+        25,
+        2266,
+        1200,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Health and Wellness Icon Health and Wellness",
+      "bbox": [
+        25,
+        2407,
+        1200,
+        109
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Transport and Travel Icon Transport & Infrastructure",
+      "bbox": [
+        25,
+        2626,
+        1200,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Government & Public Icon Government & Public Sector",
+      "bbox": [
+        25,
+        2760,
+        1200,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "Skill & Vocational Training icon Skill & Vocational Training",
+      "bbox": [
+        25,
+        2895,
+        1200,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Industry & Private Sector Icon Industry & Private Sector",
+      "bbox": [
+        25,
+        3029,
+        1200,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Sports & Culture Icon Sports & Culture",
+      "bbox": [
+        25,
+        3164,
+        1200,
+        70
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        8,
+        3505,
+        55,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "More about DigiLocker",
+      "bbox": [
+        8,
+        4098,
+        144,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "View Statistics",
+      "bbox": [
+        8,
+        4123,
+        91,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "GET REGISTERED",
+      "bbox": [
+        8,
+        5470,
+        134,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "playstore",
+      "bbox": [
+        8,
+        5637,
+        71,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "ios",
+      "bbox": [
+        8,
+        5671,
+        34,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Facebook",
+      "bbox": [
+        8,
+        6844,
+        78,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Twitter",
+      "bbox": [
+        86,
+        6844,
+        63,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Instagram",
+      "bbox": [
+        149,
+        6844,
+        80,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "LinkedIn",
+      "bbox": [
+        228,
+        6844,
+        75,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "YouTube",
+      "bbox": [
+        303,
+        6844,
+        71,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        8,
+        7046,
+        15,
+        5
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Explore DigiLocker",
+      "bbox": [
+        8,
+        791,
+        132,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Become a Partner Write to arjun.menon@example.com",
+      "bbox": [
+        144,
+        791,
+        330,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Login / Register",
+      "bbox": [
+        478,
+        791,
+        113,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        20,
+        1541,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1206,
+        1541,
+        38,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "APAAR ID",
+      "bbox": [
+        141,
+        1751,
+        106,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Class X Marksheet",
+      "bbox": [
+        296,
+        1751,
+        154,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Class XII Marksheet",
+      "bbox": [
+        500,
+        1751,
+        164,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "PAN Card",
+      "bbox": [
+        714,
+        1751,
+        98,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Driving Licence",
+      "bbox": [
+        862,
+        1751,
+        136,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "More Categories",
+      "bbox": [
+        8,
+        3284,
+        102,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        20,
+        3608,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1203,
+        3608,
+        38,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "FOLLOW us on Facebook",
+      "bbox": [
+        8,
+        5972,
+        180,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "FOLLOW us on X",
+      "bbox": [
+        188,
+        5972,
+        133,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "FOLLOW us on Instagram",
+      "bbox": [
+        321,
+        5972,
+        182,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "FOLLOW us on LinkedIn",
+      "bbox": [
+        502,
+        5972,
+        177,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "FOLLOW us on YouTube",
+      "bbox": [
+        679,
+        5972,
+        172,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "National e-Governance Division (NeGD)",
+      "bbox": [
+        8,
+        6424,
+        241,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Download from Google Play",
+      "bbox": [
+        8,
+        6633,
+        190,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Download from App Store",
+      "bbox": [
+        202,
+        6633,
+        176,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Download from Gov.in App Store",
+      "bbox": [
+        8,
+        6676,
+        224,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Website maintained by National e-Governance Division (NeGD)",
+      "bbox": [
+        121,
+        6873,
+        389,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "DigiLocker Policy",
+      "bbox": [
+        8,
+        6900,
+        136,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        148,
+        6900,
+        98,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "button",
+      "name": "Text To Speech",
+      "bbox": [
+        8,
+        7059,
+        106,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "button",
+      "name": "Bigger Text",
+      "bbox": [
+        8,
+        7085,
+        82,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "button",
+      "name": "Text Spacing",
+      "bbox": [
+        8,
+        7110,
+        92,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "button",
+      "name": "Line Height",
+      "bbox": [
+        8,
+        7136,
+        83,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "button",
+      "name": "Highlight Links",
+      "bbox": [
+        8,
+        7161,
+        102,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "button",
+      "name": "Dyslexia Friendly",
+      "bbox": [
+        8,
+        7187,
+        117,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "button",
+      "name": "Hide Images",
+      "bbox": [
+        8,
+        7212,
+        90,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "button",
+      "name": "Cursor",
+      "bbox": [
+        8,
+        7238,
+        55,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "button",
+      "name": "Light-Dark",
+      "bbox": [
+        8,
+        7260,
+        100,
+        25
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "button",
+      "name": "Invert Colors",
+      "bbox": [
+        8,
+        7290,
+        91,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "button",
+      "name": "Reset All Settings",
+      "bbox": [
+        8,
+        7323,
+        120,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Created by UX4G Logo",
+      "bbox": [
+        131,
+        7324,
+        162,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "indian flag Government of India",
+      "bbox": [
+        8,
+        107,
+        136,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        8,
+        142,
+        108,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "button",
+      "name": "Increase font size",
+      "bbox": [
+        126,
+        134,
+        30,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "button",
+      "name": "Reset font size",
+      "bbox": [
+        160,
+        134,
+        30,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "button",
+      "name": "Decrease font size",
+      "bbox": [
+        194,
+        134,
+        30,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "button",
+      "name": "English",
+      "bbox": [
+        262,
+        139,
+        53,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "digilocker logo",
+      "bbox": [
+        8,
+        766,
+        240,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "button",
+      "name": "Previous Slide",
+      "bbox": [
+        967,
+        1228,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "button",
+      "name": "Pause Carousel",
+      "bbox": [
+        1019,
+        1228,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "button",
+      "name": "Next Slide",
+      "bbox": [
+        1071,
+        1228,
+        42,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        48,
+        6015,
+        32,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "About Us",
+      "bbox": [
+        48,
+        6040,
+        50,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "FAQ",
+      "bbox": [
+        48,
+        6066,
+        25,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Statistics",
+      "bbox": [
+        48,
+        6091,
+        47,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Resources",
+      "bbox": [
+        48,
+        6117,
+        53,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Circulars",
+      "bbox": [
+        48,
+        6142,
+        48,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Explore DigiLocker",
+      "bbox": [
+        48,
+        6168,
+        104,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Support/Feedback",
+      "bbox": [
+        48,
+        6211,
+        95,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Terms & Condition Of Use",
+      "bbox": [
+        48,
+        6236,
+        141,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Informational Videos",
+      "bbox": [
+        48,
+        6262,
+        111,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Credits",
+      "bbox": [
+        48,
+        6287,
+        38,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Partners",
+      "bbox": [
+        48,
+        6313,
+        43,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "MeriPehchaan",
+      "bbox": [
+        48,
+        6341,
+        75,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        20,
+        7266,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Karnataka Karnataka 200+ Issuers",
+      "bbox": [
+        -1349,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Kerala Kerala 95+ Issuers",
+      "bbox": [
+        -1123,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Maharashtra Maharashtra 300+ Issuers",
+      "bbox": [
+        -897,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Odisha Odisha 65+ Issuers",
+      "bbox": [
+        -670,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Rajasthan Rajasthan 125+ Issuers",
+      "bbox": [
+        -444,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Assam Assam 50+ Issuers",
+      "bbox": [
+        -218,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Bihar Bihar 45+ Issuers",
+      "bbox": [
+        8,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "Delhi Delhi 110+ Issuers",
+      "bbox": [
+        234,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "Gujarat Gujarat 110+ Issuers",
+      "bbox": [
+        461,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Karnataka Karnataka 200+ Issuers",
+      "bbox": [
+        687,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "Kerala Kerala 95+ Issuers",
+      "bbox": [
+        913,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "Maharashtra Maharashtra 300+ Issuers",
+      "bbox": [
+        1139,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Odisha Odisha 65+ Issuers",
+      "bbox": [
+        1365,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Rajasthan Rajasthan 125+ Issuers",
+      "bbox": [
+        1592,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "link",
+      "name": "Assam Assam 50+ Issuers",
+      "bbox": [
+        1818,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Bihar Bihar 45+ Issuers",
+      "bbox": [
+        2044,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Delhi Delhi 110+ Issuers",
+      "bbox": [
+        2270,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Gujarat Gujarat 110+ Issuers",
+      "bbox": [
+        2496,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Karnataka Karnataka 200+ Issuers",
+      "bbox": [
+        2723,
+        3553,
+        211,
+        185
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "button",
+      "name": "English ✓",
+      "bbox": [
+        -107,
+        203,
+        95,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "button",
+      "name": "हिंदी (Hindi)",
+      "bbox": [
+        -107,
+        244,
+        113,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "button",
+      "name": "অসমীয়া (Assamese)",
+      "bbox": [
+        -107,
+        288,
+        180,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "button",
+      "name": "বাংলা (Bengali)",
+      "bbox": [
+        -107,
+        332,
+        138,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "button",
+      "name": "ગુજરાતી (Gujarati) Helpline 7012345678",
+      "bbox": [
+        -107,
+        376,
+        313,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "button",
+      "name": "ಕನ್ನಡ (Kannada)",
+      "bbox": [
+        -107,
+        420,
+        158,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "button",
+      "name": "മലയാളം (Malayalam)",
+      "bbox": [
+        -107,
+        464,
+        205,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "button",
+      "name": "मराठी (Marathi)",
+      "bbox": [
+        -107,
+        508,
+        139,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "button",
+      "name": "ଓଡ଼ିଆ (Odia)",
+      "bbox": [
+        -107,
+        552,
+        117,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "button",
+      "name": "ਪੰਜਾਬੀ (Punjabi)",
+      "bbox": [
+        -107,
+        596,
+        141,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "button",
+      "name": "தமிழ் (Tamil)",
+      "bbox": [
+        -107,
+        640,
+        133,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "button",
+      "name": "తెలుగు (Telugu)",
+      "bbox": [
+        -107,
+        684,
+        147,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "Airport entry get more easier now",
+      "bbox": [
+        -1813,
+        929,
+        894,
+        307
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Your Documents, Always accessible",
+      "bbox": [
+        -827,
+        929,
+        894,
+        307
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Now drive hassle-free with Digilocker",
+      "bbox": [
+        98,
+        884,
+        1016,
+        396
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Indian Railways accept Digilocker as valid ID",
+      "bbox": [
+        1145,
+        929,
+        894,
+        307
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        -1472,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        -1176,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        -880,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "button",
+      "name": "Available Now PAN YZABC5566D",
+      "bbox": [
+        -583,
+        1690,
+        199,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        -287,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        9,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "button",
+      "name": "Available Now Grievance cell arjun.menon@example.com",
+      "bbox": [
+        306,
+        1690,
+        286,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        602,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        898,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        1195,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        1491,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        1787,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        2084,
+        1690,
+        93,
+        23
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "button",
+      "name": "Available Now",
+      "bbox": [
+        2380,
+        1690,
+        93,
+        23
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7012345678",
+      "text": "Helpline 7012345678",
+      "bbox": [
+        -107,
+        376,
+        313,
+        44
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "0471 233 4455",
+      "text": "Alternate contact 0471 233 4455",
+      "bbox": [
+        8,
+        703,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "arjun.menon@example.com",
+      "text": "Write to arjun.menon@example.com",
+      "bbox": [
+        144,
+        791,
+        330,
+        30
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "8877 6655 4433",
+      "text": "Aadhaar 8877 6655 4433 linked to this account",
+      "bbox": [
+        25,
+        2586,
+        1200,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "YZABC5566D",
+      "text": "PAN YZABC5566D",
+      "bbox": [
+        -583,
+        1690,
+        199,
+        23
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3782 822463 10005",
+      "text": "Card on file 3782 822463 10005",
+      "bbox": [
+        8,
+        1918,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 660011",
+      "text": "OTP: 660011 sent to your phone",
+      "bbox": [
+        25,
+        2407,
+        1200,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Arjun Menon",
+      "text": "Signed in as Arjun Menon",
+      "bbox": [
+        25,
+        2093,
+        1200,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "19 Kowdiar Road, Thiruvananthapuram 695003",
+      "text": "Registered address 19 Kowdiar Road, Thiruvananthapuram 695003",
+      "bbox": [
+        8,
+        825,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "arjun.menon@example.com",
+      "text": "Grievance cell arjun.menon@example.com",
+      "bbox": [
+        306,
+        1690,
+        286,
+        23
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Government of India",
+      "truthId": null
+    },
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "Increase font size",
+      "truthId": null
+    },
+    {
+      "text": "Reset font size",
+      "truthId": null
+    },
+    {
+      "text": "Decrease font size",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "हिंदी (Hindi)",
+      "truthId": null
+    },
+    {
+      "text": "অসমীয়া (Assamese)",
+      "truthId": null
+    },
+    {
+      "text": "বাংলা (Bengali)",
+      "truthId": null
+    },
+    {
+      "text": "ગુજરાતી (Gujarati) Helpline 7012345678",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "ಕನ್ನಡ (Kannada)",
+      "truthId": null
+    },
+    {
+      "text": "മലയാളം (Malayalam)",
+      "truthId": null
+    },
+    {
+      "text": "मराठी (Marathi)",
+      "truthId": null
+    },
+    {
+      "text": "ଓଡ଼ିଆ (Odia)",
+      "truthId": null
+    },
+    {
+      "text": "ਪੰਜਾਬੀ (Punjabi)",
+      "truthId": null
+    },
+    {
+      "text": "தமிழ் (Tamil)",
+      "truthId": null
+    },
+    {
+      "text": "తెలుగు (Telugu)",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact 0471 233 4455",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Explore DigiLocker",
+      "truthId": null
+    },
+    {
+      "text": "Become a Partner Write to arjun.menon@example.com",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Login / Register",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 19 Kowdiar Road, Thiruvananthapuram 695003",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "4 / 4",
+      "truthId": null
+    },
+    {
+      "text": "1 / 4",
+      "truthId": null
+    },
+    {
+      "text": "2 / 4",
+      "truthId": null
+    },
+    {
+      "text": "3 / 4",
+      "truthId": null
+    },
+    {
+      "text": "Previous Slide",
+      "truthId": null
+    },
+    {
+      "text": "Pause Carousel",
+      "truthId": null
+    },
+    {
+      "text": "Next Slide",
+      "truthId": null
+    },
+    {
+      "text": "Failed to load data. Please check the console for details.",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now PAN YZABC5566D",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now Grievance cell arjun.menon@example.com",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "Available Now",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "APAAR ID",
+      "truthId": null
+    },
+    {
+      "text": "Class X Marksheet",
+      "truthId": null
+    },
+    {
+      "text": "Class XII Marksheet",
+      "truthId": null
+    },
+    {
+      "text": "PAN Card",
+      "truthId": null
+    },
+    {
+      "text": "Driving Licence",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 3782 822463 10005",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Signed in as Arjun Menon Identity Documents",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Arjun Menon",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Education and Learning",
+      "truthId": null
+    },
+    {
+      "text": "OTP: 660011 sent to your phone Health and Wellness",
+      "truthId": null
+    },
+    {
+      "text": "OTP: 660011 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Aadhaar 8877 6655 4433 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Transport & Infrastructure",
+      "truthId": null
+    },
+    {
+      "text": "Government & Public Sector",
+      "truthId": null
+    },
+    {
+      "text": "Skill & Vocational Training",
+      "truthId": null
+    },
+    {
+      "text": "Industry & Private Sector",
+      "truthId": null
+    },
+    {
+      "text": "Sports & Culture",
+      "truthId": null
+    },
+    {
+      "text": "More Categories",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Karnataka 200+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Kerala 95+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Maharashtra 300+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Odisha 65+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Rajasthan 125+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Assam 50+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Bihar 45+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Delhi 110+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Gujarat 110+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Karnataka 200+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Kerala 95+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Maharashtra 300+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Odisha 65+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Rajasthan 125+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Assam 50+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Bihar 45+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Delhi 110+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Gujarat 110+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "Karnataka 200+ Issuers",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "More about DigiLocker",
+      "truthId": null
+    },
+    {
+      "text": "View Statistics",
+      "truthId": null
+    },
+    {
+      "text": "GET REGISTERED",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "About Us",
+      "truthId": null
+    },
+    {
+      "text": "FAQ",
+      "truthId": null
+    },
+    {
+      "text": "Statistics",
+      "truthId": null
+    },
+    {
+      "text": "Resources",
+      "truthId": null
+    },
+    {
+      "text": "Circulars",
+      "truthId": null
+    },
+    {
+      "text": "Explore DigiLocker",
+      "truthId": null
+    },
+    {
+      "text": "Support/Feedback",
+      "truthId": null
+    },
+    {
+      "text": "Terms & Condition Of Use",
+      "truthId": null
+    },
+    {
+      "text": "Informational Videos",
+      "truthId": null
+    },
+    {
+      "text": "Credits",
+      "truthId": null
+    },
+    {
+      "text": "Partners",
+      "truthId": null
+    },
+    {
+      "text": "MeriPehchaan",
+      "truthId": null
+    },
+    {
+      "text": "National e-Governance Division (NeGD)",
+      "truthId": null
+    },
+    {
+      "text": "Website maintained by National e-Governance Division (NeGD)",
+      "truthId": null
+    },
+    {
+      "text": "DigiLocker Policy",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "CANCEL",
+      "truthId": null
+    },
+    {
+      "text": "CANCEL",
+      "truthId": null
+    },
+    {
+      "text": "CANCEL",
+      "truthId": null
+    },
+    {
+      "text": "Text To Speech",
+      "truthId": null
+    },
+    {
+      "text": "Bigger Text",
+      "truthId": null
+    },
+    {
+      "text": "Text Spacing",
+      "truthId": null
+    },
+    {
+      "text": "Line Height",
+      "truthId": null
+    },
+    {
+      "text": "Highlight Links",
+      "truthId": null
+    },
+    {
+      "text": "Dyslexia Friendly",
+      "truthId": null
+    },
+    {
+      "text": "Hide Images",
+      "truthId": null
+    },
+    {
+      "text": "Cursor",
+      "truthId": null
+    },
+    {
+      "text": "Light-Dark",
+      "truthId": null
+    },
+    {
+      "text": "Invert Colors",
+      "truthId": null
+    },
+    {
+      "text": "Reset All Settings",
+      "truthId": null
+    },
+    {
+      "text": "Created by",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility Widget",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "armstrong.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7012345678",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7012345678"
+        }
+      }
+    ]
+  }
+}

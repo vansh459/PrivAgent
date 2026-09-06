@@ -1,0 +1,1285 @@
+{
+  "id": "shop-automationexercise",
+  "type": "ecommerce",
+  "sourceUrl": "https://automationexercise.com/",
+  "capturedAt": "2026-09-06T06:03:26.374Z",
+  "annotatedAt": "2026-09-06T06:56:53.334Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 10094,
+  "persona": "Kavita Joshi",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Go to shopping options for Website development services",
+      "bbox": [
+        928,
+        657,
+        193,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "Close shopping anchor",
+      "bbox": [
+        861,
+        669,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Website for automation practice",
+      "bbox": [
+        62,
+        102,
+        263,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        62,
+        523,
+        47,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1156,
+        523,
+        47,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        355,
+        9079,
+        36,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        1182,
+        9079,
+        36,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "textbox",
+      "name": "Your email address",
+      "bbox": [
+        160,
+        9875,
+        212,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        371,
+        9874,
+        50,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": " WOMEN",
+      "bbox": [
+        83,
+        947,
+        55,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": " MEN",
+      "bbox": [
+        83,
+        980,
+        31,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": " KIDS",
+      "bbox": [
+        83,
+        1013,
+        33,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "(6) POLO",
+      "bbox": [
+        63,
+        1155,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "(5) H&M",
+      "bbox": [
+        63,
+        1187,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "(5) MADAME",
+      "bbox": [
+        63,
+        1219,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "(3) MAST & HARBOUR",
+      "bbox": [
+        63,
+        1251,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "(4) BABYHUG",
+      "bbox": [
+        63,
+        1283,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "(3) ALLEN SOLLY JUNIOR",
+      "bbox": [
+        63,
+        1315,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "(3) KOOKIE KIDS",
+      "bbox": [
+        63,
+        1347,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "(5) BIBA",
+      "bbox": [
+        63,
+        1379,
+        261,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": " Home",
+      "bbox": [
+        472,
+        75,
+        55,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": " Products",
+      "bbox": [
+        558,
+        75,
+        74,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": " Cart",
+      "bbox": [
+        662,
+        75,
+        44,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": " Signup / Login",
+      "bbox": [
+        736,
+        75,
+        107,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": " Test Cases",
+      "bbox": [
+        873,
+        75,
+        87,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": " API Testing",
+      "bbox": [
+        990,
+        75,
+        88,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": " Video Tutorials",
+      "bbox": [
+        662,
+        105,
+        110,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": " Contact us",
+      "bbox": [
+        802,
+        105,
+        85,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        1306,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        1306,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        1306,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        1760,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        1760,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        1760,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        2354,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        2231,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "E-commerce website templates",
+      "bbox": [
+        968,
+        2222,
+        211,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        2313,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "QA best practices",
+      "bbox": [
+        719,
+        2776,
+        135,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        2868,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        2864,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        3389,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        3913,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        3913,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        3892,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "API testing guide",
+      "bbox": [
+        1007,
+        4355,
+        134,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        4447,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        4985,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        5041,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Test case management",
+      "bbox": [
+        993,
+        4876,
+        162,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        4967,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        5512,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        5983,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        6058,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        6066,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        6537,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        6619,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        6598,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        7069,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        7623,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        7647,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        7607,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        8170,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        375,
+        8785,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        662,
+        8724,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Apparel",
+      "bbox": [
+        1033,
+        8659,
+        81,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": " View Product",
+      "bbox": [
+        950,
+        8751,
+        248,
+        39
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Factory Automation",
+      "bbox": [
+        177,
+        683,
+        166,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Test Cases PAN EFGHI2233J",
+      "bbox": [
+        177,
+        725,
+        211,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "APIs list for practice Helpline 9456781230",
+      "bbox": [
+        177,
+        759,
+        286,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "Tshirt",
+      "bbox": [
+        777,
+        1218,
+        49,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Dress",
+      "bbox": [
+        1083,
+        1218,
+        52,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "T-Shirt",
+      "bbox": [
+        822,
+        5970,
+        57,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "button",
+      "name": "Test Cases PAN EFGHI2233J",
+      "bbox": [
+        177,
+        718,
+        211,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "button",
+      "name": "APIs list for practice Helpline 9456781230",
+      "bbox": [
+        177,
+        751,
+        286,
+        34
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9456781230",
+      "text": "Helpline 9456781230",
+      "bbox": [
+        177,
+        751,
+        286,
+        34
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 94567 81230",
+      "text": "Alternate contact +91 94567 81230",
+      "bbox": [
+        47,
+        223,
+        1170,
+        33
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "2233 4455 6677",
+      "text": "Aadhaar 2233 4455 6677 linked to this account",
+      "bbox": [
+        62,
+        268,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "EFGHI2233J",
+      "text": "PAN EFGHI2233J",
+      "bbox": [
+        177,
+        718,
+        211,
+        34
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5200 8282 8282 8210",
+      "text": "Card on file 5200 8282 8282 8210",
+      "bbox": [
+        47,
+        184,
+        1170,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one time password 141414",
+      "text": "one time password 141414 sent to your phone",
+      "bbox": [
+        177,
+        313,
+        490,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Kavita Joshi",
+      "text": "Signed in as Kavita Joshi",
+      "bbox": [
+        62,
+        6,
+        1140,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "44 Laxmi Road, Nagpur 440012",
+      "text": "Registered address 44 Laxmi Road, Nagpur 440012",
+      "bbox": [
+        0,
+        836,
+        1265,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Signed in as Kavita Joshi",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": " Products",
+      "truthId": null
+    },
+    {
+      "text": "Cart",
+      "truthId": null
+    },
+    {
+      "text": "Signup / Login",
+      "truthId": null
+    },
+    {
+      "text": "Test Cases",
+      "truthId": null
+    },
+    {
+      "text": "API Testing",
+      "truthId": null
+    },
+    {
+      "text": "Video Tutorials",
+      "truthId": null
+    },
+    {
+      "text": "Contact us",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5200 8282 8282 8210",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Alternate contact +91 94567 81230",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Aadhaar 2233 4455 6677 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "one time password 141414 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Factory Automation",
+      "truthId": null
+    },
+    {
+      "text": "Test Cases PAN EFGHI2233J",
+      "truthId": null
+    },
+    {
+      "text": "Test Cases PAN EFGHI2233J",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "APIs list for practice Helpline 9456781230",
+      "truthId": null
+    },
+    {
+      "text": "APIs list for practice Helpline 9456781230",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Registered address 44 Laxmi Road, Nagpur 440012",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "WOMEN",
+      "truthId": null
+    },
+    {
+      "text": "MEN",
+      "truthId": null
+    },
+    {
+      "text": "KIDS",
+      "truthId": null
+    },
+    {
+      "text": "(6) POLO",
+      "truthId": null
+    },
+    {
+      "text": "(5) H&M",
+      "truthId": null
+    },
+    {
+      "text": "(5) MADAME",
+      "truthId": null
+    },
+    {
+      "text": "(3) MAST & HARBOUR",
+      "truthId": null
+    },
+    {
+      "text": "(4) BABYHUG",
+      "truthId": null
+    },
+    {
+      "text": "(3) ALLEN SOLLY JUNIOR",
+      "truthId": null
+    },
+    {
+      "text": "(3) KOOKIE KIDS",
+      "truthId": null
+    },
+    {
+      "text": "(5) BIBA",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "Tshirt",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "Dress",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "E-commerce website templates",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "QA best practices",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "API testing guide",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "Test case management",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "T-Shirt",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "Apparel",
+      "truthId": null
+    },
+    {
+      "text": "View Product",
+      "truthId": null
+    },
+    {
+      "text": "Your email address",
+      "truthId": null
+    },
+    {
+      "text": "Website development services",
+      "truthId": null
+    },
+    {
+      "text": "Go to shopping options for Website development services",
+      "truthId": null
+    },
+    {
+      "text": "Close shopping anchor",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9456781230",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9456781230"
+        }
+      }
+    ]
+  }
+}

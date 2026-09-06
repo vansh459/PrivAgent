@@ -1,0 +1,2500 @@
+{
+  "id": "gov-services",
+  "type": "portal",
+  "sourceUrl": "https://www.india.gov.in/services",
+  "capturedAt": "2026-09-06T06:06:20.263Z",
+  "annotatedAt": "2026-09-06T06:57:07.202Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 4242,
+  "persona": "Meera Banerjee",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Submit",
+      "bbox": [
+        0,
+        4217,
+        50,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "CUSTOMIZE COOKIES",
+      "bbox": [
+        659,
+        638,
+        160,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "DECLINE OPTIONAL COOKIES",
+      "bbox": [
+        835,
+        638,
+        210,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "ACCEPT ALL COOKIES",
+      "bbox": [
+        1061,
+        637,
+        167,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Search",
+      "bbox": [
+        732,
+        17,
+        115,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "Translation Feedback",
+      "bbox": [
+        1220,
+        191,
+        45,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "CPGRAMS",
+      "bbox": [
+        1220,
+        240,
+        45,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Calendar",
+      "bbox": [
+        1220,
+        289,
+        45,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "Share",
+      "bbox": [
+        1220,
+        338,
+        45,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "Color",
+      "bbox": [
+        1220,
+        387,
+        45,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "button",
+      "name": "View More",
+      "bbox": [
+        591,
+        1499,
+        91,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Right To Information",
+      "bbox": [
+        109,
+        3033,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Centralised Public Grievance Redress and Monitoring System",
+      "bbox": [
+        265,
+        3033,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Open Government Data",
+      "bbox": [
+        422,
+        3033,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "PM India",
+      "bbox": [
+        578,
+        3033,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Digital India",
+      "bbox": [
+        735,
+        3033,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "MyGov",
+      "bbox": [
+        891,
+        3033,
+        108,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Umang",
+      "bbox": [
+        1048,
+        3036,
+        108,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Translation Disclaimer",
+      "bbox": [
+        136,
+        3788,
+        117,
+        90
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Cookie Settings",
+      "bbox": [
+        300,
+        683,
+        112,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "India.gov.in national portal of india",
+      "bbox": [
+        24,
+        18,
+        207,
+        49
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "combobox",
+      "name": "All Categories Dropdown",
+      "bbox": [
+        533,
+        17,
+        186,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "Skip to main content",
+      "bbox": [
+        948,
+        22,
+        36,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "Calendar Widget",
+      "bbox": [
+        1004,
+        22,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Agriculture, Rural & Environment",
+      "bbox": [
+        154,
+        1106,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Benefits & Social development",
+      "bbox": [
+        350,
+        1106,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Business & Self-employed",
+      "bbox": [
+        547,
+        1106,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Citizenship, Visa & Passports",
+      "bbox": [
+        743,
+        1106,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Defence & Foreign affairs",
+      "bbox": [
+        940,
+        1106,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Driving & Transport",
+      "bbox": [
+        154,
+        1302,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Education & Learning",
+      "bbox": [
+        350,
+        1302,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Governance & Planning",
+      "bbox": [
+        547,
+        1302,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Health & Wellness",
+      "bbox": [
+        743,
+        1302,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Housing & Local services",
+      "bbox": [
+        940,
+        1302,
+        180,
+        180
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Category",
+      "bbox": [
+        70,
+        3169,
+        69,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Agriculture, Rural & Environment",
+      "bbox": [
+        78,
+        3202,
+        79,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Benefits & Social development",
+      "bbox": [
+        78,
+        3271,
+        80,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Business & Self-employed",
+      "bbox": [
+        78,
+        3340,
+        70,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Citizenship, Visa & Passports",
+      "bbox": [
+        78,
+        3409,
+        72,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Defence & Foreign affairs",
+      "bbox": [
+        78,
+        3478,
+        65,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Driving & Transport",
+      "bbox": [
+        78,
+        3547,
+        59,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Education & Learning",
+      "bbox": [
+        78,
+        3595,
+        76,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Governance & Planning",
+      "bbox": [
+        78,
+        3643,
+        76,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Health & Wellness",
+      "bbox": [
+        78,
+        3691,
+        57,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Housing & Local services",
+      "bbox": [
+        199,
+        3204,
+        89,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Infrastructure & Industries",
+      "bbox": [
+        199,
+        3252,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Jobs",
+      "bbox": [
+        199,
+        3300,
+        30,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Justice, Law & Grievances",
+      "bbox": [
+        199,
+        3327,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Money & Taxes",
+      "bbox": [
+        199,
+        3375,
+        95,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Science, IT & Communication",
+      "bbox": [
+        199,
+        3402,
+        97,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Travel & Tourism",
+      "bbox": [
+        199,
+        3450,
+        52,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Welfare of Families",
+      "bbox": [
+        199,
+        3498,
+        64,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Youth sports & Culture",
+      "bbox": [
+        199,
+        3546,
+        91,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "My-Government",
+      "bbox": [
+        328,
+        3169,
+        94,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Acts & Rules",
+      "bbox": [
+        336,
+        3226,
+        80,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Schemes",
+      "bbox": [
+        336,
+        3253,
+        58,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Constitution of India",
+      "bbox": [
+        336,
+        3280,
+        74,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "Documents",
+      "bbox": [
+        336,
+        3328,
+        71,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Directory",
+      "bbox": [
+        328,
+        3360,
+        70,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Who's Who Helpline 9988776655",
+      "bbox": [
+        336,
+        3393,
+        78,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Contact Directory",
+      "bbox": [
+        336,
+        3462,
+        56,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Web Directory",
+      "bbox": [
+        336,
+        3510,
+        56,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "Public Utilities",
+      "bbox": [
+        336,
+        3558,
+        45,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Helpline",
+      "bbox": [
+        336,
+        3606,
+        51,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Explore India",
+      "bbox": [
+        454,
+        3169,
+        100,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Travel & Tourism Write to meera.banerjee@example.net",
+      "bbox": [
+        462,
+        3202,
+        189,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Culinary Delights",
+      "bbox": [
+        462,
+        3250,
+        106,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "One District One Product",
+      "bbox": [
+        462,
+        3277,
+        156,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Facts of India",
+      "bbox": [
+        462,
+        3304,
+        84,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "News Hub",
+      "bbox": [
+        454,
+        3336,
+        77,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "Services",
+      "bbox": [
+        454,
+        3374,
+        66,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "About Us",
+      "bbox": [
+        683,
+        3169,
+        71,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        683,
+        3207,
+        60,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "Feedback",
+      "bbox": [
+        683,
+        3269,
+        74,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "FAQs",
+      "bbox": [
+        683,
+        3307,
+        42,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Help",
+      "bbox": [
+        683,
+        3345,
+        35,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Link to Us",
+      "bbox": [
+        683,
+        3383,
+        77,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Newsletter",
+      "bbox": [
+        683,
+        3421,
+        81,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Site Map",
+      "bbox": [
+        683,
+        3459,
+        66,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Calendar",
+      "bbox": [
+        683,
+        3497,
+        68,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "Spotlights",
+      "bbox": [
+        796,
+        3169,
+        78,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "Visitor Summary",
+      "bbox": [
+        796,
+        3207,
+        73,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "link",
+      "name": "Disclaimer",
+      "bbox": [
+        796,
+        3269,
+        81,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "link",
+      "name": "Website Policy PAN LMNOP4321Q",
+      "bbox": [
+        796,
+        3307,
+        106,
+        66
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "Subscribe to Newsletter",
+      "bbox": [
+        796,
+        3393,
+        97,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "App Privacy Policy",
+      "bbox": [
+        796,
+        3455,
+        92,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Content Sources",
+      "bbox": [
+        796,
+        3517,
+        63,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "India Portal 2.0 Brochure",
+      "bbox": [
+        796,
+        3579,
+        98,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "textbox",
+      "name": "Search Data",
+      "bbox": [
+        241,
+        17,
+        479,
+        50
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "button",
+      "name": "Accessibility",
+      "bbox": [
+        1064,
+        22,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "button",
+      "name": "Menu Bar",
+      "bbox": [
+        1177,
+        16,
+        64,
+        52
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "Fully Online Avail Online LPG Services You can access online LPG services through the MyLPG Portal. Users can join PAHAL DBTL by providing their 17-digit LPG ID. Consumers can also apply to give up their LPG subsidy online. Forms for joining the PAHAL scheme and obtaining a new LPG connection are available. Safety tips for LPG consumers are also provided.",
+      "bbox": [
+        123,
+        2187,
+        489,
+        99
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "Open in new tab Ministries/Departments",
+      "bbox": [
+        289,
+        2513,
+        209,
+        190
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "Open in new tab State/UTs",
+      "bbox": [
+        514,
+        2513,
+        115,
+        190
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Find us on Facebook",
+      "bbox": [
+        1065,
+        3399,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Find us on X",
+      "bbox": [
+        1112,
+        3399,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "button",
+      "name": "Share",
+      "bbox": [
+        1128,
+        258,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "link",
+      "name": "Information Online textbooks of National Council of Educational Research and Training Online textbooks of National Council of Educational Research and Training (NCERT). Users can get textbooks of all subjects published by NCERT for classes I to XII in Hindi, English and Urdu. The entire book or individual chapters can be downloaded. In order to discourage piracy, the online textbooks carry a watermark on all pages declaring the copyright of NCERT.",
+      "bbox": [
+        662,
+        2142,
+        489,
+        99
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "link",
+      "name": "Fully Online Apply for New Ujjwala 2.0 Connection Pradhan Mantri Ujjwala Yojana (PMUY) is a flagship scheme to make clean cooking fuel such as LPG available to the rural and deprived households which were otherwise using traditional cooking fuels such as firewood, coal, cow-dung cakes etc.",
+      "bbox": [
+        123,
+        2336,
+        489,
+        99
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "link",
+      "name": "Fully Online eSanjeevani - National Telemedicine Service National Teleconsultation Service aims to provide healthcare services to patients in their homes. Safe & structured video based clinical consultations between a doctor in a hospital and a patient in the confines of his home are being enabled.",
+      "bbox": [
+        662,
+        2336,
+        489,
+        99
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "button",
+      "name": "Notify Us Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        589,
+        2822,
+        514,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "combobox",
+      "name": "Language Translator",
+      "bbox": [
+        1096,
+        -526,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "listbox",
+      "name": "Select language",
+      "bbox": [
+        1051,
+        -488,
+        90,
+        1098
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        110,
+        216,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "button",
+      "name": "Next slide",
+      "bbox": [
+        1085,
+        1845,
+        48,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Visit Bhashini website",
+      "bbox": [
+        1051,
+        561,
+        90,
+        49
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "e-Counselling",
+      "bbox": [
+        171,
+        948,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "button",
+      "name": "feedback",
+      "bbox": [
+        1051,
+        528,
+        24,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "button",
+      "name": "Aadhaar Card",
+      "bbox": [
+        171,
+        518,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "button",
+      "name": "ABHA Health Card",
+      "bbox": [
+        171,
+        561,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "button",
+      "name": "CGHS",
+      "bbox": [
+        171,
+        604,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "button",
+      "name": "Child Adoption",
+      "bbox": [
+        171,
+        647,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "button",
+      "name": "Citizenship",
+      "bbox": [
+        171,
+        690,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "button",
+      "name": "Consumer Helpline",
+      "bbox": [
+        171,
+        733,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "button",
+      "name": "Crime Reporting",
+      "bbox": [
+        171,
+        776,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "button",
+      "name": "DigiLocker",
+      "bbox": [
+        171,
+        819,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "button",
+      "name": "Disability Card",
+      "bbox": [
+        171,
+        862,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "button",
+      "name": "Driving Licence",
+      "bbox": [
+        171,
+        905,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "button",
+      "name": "E-Way bill",
+      "bbox": [
+        487,
+        518,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "button",
+      "name": "eCourts",
+      "bbox": [
+        487,
+        561,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "button",
+      "name": "eMulakat",
+      "bbox": [
+        487,
+        604,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "button",
+      "name": "GeM",
+      "bbox": [
+        487,
+        647,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "button",
+      "name": "Grievances",
+      "bbox": [
+        487,
+        690,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "button",
+      "name": "GST",
+      "bbox": [
+        487,
+        733,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "button",
+      "name": "Income Tax",
+      "bbox": [
+        487,
+        776,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "button",
+      "name": "India Post",
+      "bbox": [
+        487,
+        819,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "button",
+      "name": "Indian Railways",
+      "bbox": [
+        487,
+        862,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "button",
+      "name": "Jeevan Pramaan",
+      "bbox": [
+        487,
+        905,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "button",
+      "name": "KVS Admission",
+      "bbox": [
+        487,
+        948,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "button",
+      "name": "Open Schooling",
+      "bbox": [
+        803,
+        518,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "button",
+      "name": "Pan Card",
+      "bbox": [
+        803,
+        561,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "button",
+      "name": "Passport",
+      "bbox": [
+        803,
+        604,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "button",
+      "name": "Pension Registration",
+      "bbox": [
+        803,
+        647,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "button",
+      "name": "PM Jan Arogya",
+      "bbox": [
+        803,
+        690,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "button",
+      "name": "PM Kisan Samman Nidhi",
+      "bbox": [
+        803,
+        733,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "button",
+      "name": "RTI",
+      "bbox": [
+        803,
+        776,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "button",
+      "name": "Scholarship",
+      "bbox": [
+        803,
+        819,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "button",
+      "name": "Transgender Card",
+      "bbox": [
+        803,
+        862,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "button",
+      "name": "Vehicle Services",
+      "bbox": [
+        803,
+        905,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "button",
+      "name": "Voter ID",
+      "bbox": [
+        803,
+        948,
+        300,
+        43
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "Register / Login to E-Sampada Website of Directorate of Estates of Ministry of Housing and Urban Affairs Register / Login to E-Sampada Website of Directorate of Estates of Ministry of Housing and Urban Affairs",
+      "bbox": [
+        157,
+        1767,
+        228,
+        244
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "Register Your Tourism Unit Register Your Tourism Unit",
+      "bbox": [
+        401,
+        1767,
+        228,
+        244
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "Check list of villages and towns by sub-district level Check list of villages and towns by sub-district level",
+      "bbox": [
+        645,
+        1767,
+        228,
+        244
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "Search for Basic Heritage hotels approved by Ministry of Tourism Search for Basic Heritage hotels approved by Ministry of Tourism",
+      "bbox": [
+        889,
+        1767,
+        228,
+        244
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9988776655",
+      "text": "Helpline 9988776655",
+      "bbox": [
+        336,
+        3393,
+        78,
+        58
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 99887 76655",
+      "text": "Alternate contact +91 99887 76655",
+      "bbox": [
+        146,
+        2582,
+        127,
+        53
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Write to meera.banerjee@example.net",
+      "bbox": [
+        462,
+        3202,
+        189,
+        37
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "334455667788",
+      "text": "Aadhaar 334455667788 linked to this account",
+      "bbox": [
+        42,
+        1569,
+        1190,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "LMNOP4321Q",
+      "text": "PAN LMNOP4321Q",
+      "bbox": [
+        796,
+        3307,
+        106,
+        66
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5105 1051 0510 5100",
+      "text": "Card on file 5105 1051 0510 5100",
+      "bbox": [
+        157,
+        1728,
+        960,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 778899",
+      "text": "OTP 778899 sent to your phone",
+      "bbox": [
+        123,
+        2148,
+        489,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Meera Banerjee",
+      "text": "Signed in as Meera Banerjee",
+      "bbox": [
+        0,
+        83,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "8 Park Street, Kolkata 700016",
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "bbox": [
+        29,
+        630,
+        227,
+        53
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "meera.banerjee@example.net",
+      "text": "Grievance cell meera.banerjee@example.net",
+      "bbox": [
+        589,
+        2822,
+        514,
+        46
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "cookieconsent",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 8 Park Street, Kolkata 700016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Cookie Settings",
+      "truthId": null
+    },
+    {
+      "text": "CUSTOMIZE COOKIES",
+      "truthId": null
+    },
+    {
+      "text": "DECLINE OPTIONAL COOKIES",
+      "truthId": null
+    },
+    {
+      "text": "ACCEPT ALL COOKIES",
+      "truthId": null
+    },
+    {
+      "text": "Search Data",
+      "truthId": null
+    },
+    {
+      "text": "All Categories Dropdown",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "Calendar Widget",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility",
+      "truthId": null
+    },
+    {
+      "text": "Language Translator",
+      "truthId": null
+    },
+    {
+      "text": "Select language",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "Assamese (অসমীয়া)",
+      "truthId": null
+    },
+    {
+      "text": "Bengali (বাংলা)",
+      "truthId": null
+    },
+    {
+      "text": "Bodo (बड़ो)",
+      "truthId": null
+    },
+    {
+      "text": "Dogri (डोगरी)",
+      "truthId": null
+    },
+    {
+      "text": "Goan Konkani (गोवा कोंकणी)",
+      "truthId": null
+    },
+    {
+      "text": "Gujarati (ગુજરાતી)",
+      "truthId": null
+    },
+    {
+      "text": "Hindi (हिन्दी)",
+      "truthId": null
+    },
+    {
+      "text": "Kannada (ಕನ್ನಡ)",
+      "truthId": null
+    },
+    {
+      "text": "Kashmiri (कश्मीरी)",
+      "truthId": null
+    },
+    {
+      "text": "Maithili (मैथिली)",
+      "truthId": null
+    },
+    {
+      "text": "Malayalam (മലയാളം)",
+      "truthId": null
+    },
+    {
+      "text": "Manipuri (মণিপুরী)",
+      "truthId": null
+    },
+    {
+      "text": "Marathi (मराठी)",
+      "truthId": null
+    },
+    {
+      "text": "Nepali (नेपाली)",
+      "truthId": null
+    },
+    {
+      "text": "Odia (ଓଡ଼ିଆ)",
+      "truthId": null
+    },
+    {
+      "text": "Punjabi (ਪੰਜਾਬੀ)",
+      "truthId": null
+    },
+    {
+      "text": "Sanskrit (संस्कृत)",
+      "truthId": null
+    },
+    {
+      "text": "Santali (संताली)",
+      "truthId": null
+    },
+    {
+      "text": "Sindhi (سنڌي)",
+      "truthId": null
+    },
+    {
+      "text": "Tamil (தமிழ்)",
+      "truthId": null
+    },
+    {
+      "text": "Telugu (తెలుగు)",
+      "truthId": null
+    },
+    {
+      "text": "Urdu (اردو)",
+      "truthId": null
+    },
+    {
+      "text": "Visit Bhashini website",
+      "truthId": null
+    },
+    {
+      "text": "Menu Bar",
+      "truthId": null
+    },
+    {
+      "text": "Translation Feedback",
+      "truthId": null
+    },
+    {
+      "text": "CPGRAMS",
+      "truthId": null
+    },
+    {
+      "text": "Calendar",
+      "truthId": null
+    },
+    {
+      "text": "Share",
+      "truthId": null
+    },
+    {
+      "text": "Color",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Meera Banerjee",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Home> Services Services The government of India has taken significant strides to ensure that its services are easily accessible to citizens, both online and offline, through user-friendly platforms. Online services have been streamlined, with dedicated portals and mobile applications making it convenient for citizens to search and access a wide range of services. Initiatives like the Digital India campaign have played a pivotal role in promoting online accessibility. Important Services Aadhaar Card Aadhaar Card ABHA Health Card ABHA Health Card CGHS CGHS Child Adoption Child Adoption Citizenship Citizenship Consumer Helpline Consumer Helpline Crime Reporting Crime Reporting DigiLocker DigiLocker Disability Card Disability Card Driving Licence Driving Licence e-Counselling E-Way bill E-Way bill eCourts eCourts eMulakat eMulakat GeM GeM Grievances Grievances GST GST Income Tax Income Tax India Post India Post Indian Railways Indian Railways Jeevan Pramaan Jeevan Pramaan KVS Admission KVS Admission Open Schooling Open Schooling Pan Card Pan Card Passport Passport Pension Registration Pension Registration PM Jan Arogya PM Jan Arogya PM Kisan Samman Nidhi PM Kisan Samman Nidhi RTI RTI Scholarship Scholarship Transgender Card Transgender Card Vehicle Services Vehicle Services Voter ID Voter ID Services by Category Agriculture, Rural & Environment Benefits & Social development Business & Self-employed Citizenship, Visa & Passports Defence & Foreign affairs Driving & Transport Education & Learning Governance & Planning Health & Wellness Housing & Local services View More Aadhaar 334455667788 linked to this account Featured Services Displaying slide 1 to 4 of 5 Card on file 5105 1051 0510 5100 Register / Login to E-Sampada Website of Directorate of Estates of Ministry of Housing and Urban Affairs Register Your Tourism Unit Check list of villages and towns by sub-district level Search for Basic Heritage hotels approved by Ministry of Tourism Check district wise weather forecast Avail online services for pilots State wise/Month wise Status of Revision Cases in Government e-Granthalaya: A Digital Agenda for Library Automation and Networking Next slide Most viewed Services OTP 778899 sent to your phone Fully Online Avail Online LPG Services You can access online LPG services through the MyLPG Portal. Users can join PAHAL DBTL by providing their 17-digit LPG ID. Consumers can also apply to give up their LPG subsidy online. Forms for joining the PAHAL scheme and obtaining a new LPG connection are available. Safety tips for LPG consumers are also provided. Information Online textbooks of National Council of Educational Research and Training Online textbooks of National Council of Educational Research and Training (NCERT). Users can get textbooks of all subjects published by NCERT for classes I to XII in Hindi, English and Urdu. The entire book or individual chapters can be downloaded. In order to discourage piracy, the online textbooks carry a watermark on all pages declaring the copyright of NCERT. Fully Online Apply for New Ujjwala 2.0 Connection Pradhan Mantri Ujjwala Yojana (PMUY) is a flagship scheme to make clean cooking fuel such as LPG available to the rural and deprived households which were otherwise using traditional cooking fuels such as firewood, coal, cow-dung cakes etc. Fully Online eSanjeevani - National Telemedicine Service National Teleconsultation Service aims to provide healthcare services to patients in their homes. Safe & structured video based clinical consultations between a doctor in a hospital and a patient in the confines of his home are being enabled. Alternate contact +91 99887 76655 Ministries/Departments 1095 Services State/UTs 12325 Services Access Over 13420 Government Services Streamline Your Interactions and Save Time. Suggest / Report a Service Help us improve! Suggest a Government service that is not listed on this portal. Report incorrect details pertaining to any service. Notify Us Grievance cell meera.banerjee@example.net",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Share",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar Card",
+      "truthId": null
+    },
+    {
+      "text": "ABHA Health Card",
+      "truthId": null
+    },
+    {
+      "text": "CGHS",
+      "truthId": null
+    },
+    {
+      "text": "Child Adoption",
+      "truthId": null
+    },
+    {
+      "text": "Citizenship",
+      "truthId": null
+    },
+    {
+      "text": "Consumer Helpline",
+      "truthId": null
+    },
+    {
+      "text": "Crime Reporting",
+      "truthId": null
+    },
+    {
+      "text": "DigiLocker",
+      "truthId": null
+    },
+    {
+      "text": "Disability Card",
+      "truthId": null
+    },
+    {
+      "text": "Driving Licence",
+      "truthId": null
+    },
+    {
+      "text": "e-Counselling",
+      "truthId": null
+    },
+    {
+      "text": "E-Way bill",
+      "truthId": null
+    },
+    {
+      "text": "eCourts",
+      "truthId": null
+    },
+    {
+      "text": "eMulakat",
+      "truthId": null
+    },
+    {
+      "text": "GeM",
+      "truthId": null
+    },
+    {
+      "text": "Grievances",
+      "truthId": null
+    },
+    {
+      "text": "GST",
+      "truthId": null
+    },
+    {
+      "text": "Income Tax",
+      "truthId": null
+    },
+    {
+      "text": "India Post",
+      "truthId": null
+    },
+    {
+      "text": "Indian Railways",
+      "truthId": null
+    },
+    {
+      "text": "Jeevan Pramaan",
+      "truthId": null
+    },
+    {
+      "text": "KVS Admission",
+      "truthId": null
+    },
+    {
+      "text": "Open Schooling",
+      "truthId": null
+    },
+    {
+      "text": "Pan Card",
+      "truthId": null
+    },
+    {
+      "text": "Passport",
+      "truthId": null
+    },
+    {
+      "text": "Pension Registration",
+      "truthId": null
+    },
+    {
+      "text": "PM Jan Arogya",
+      "truthId": null
+    },
+    {
+      "text": "PM Kisan Samman Nidhi",
+      "truthId": null
+    },
+    {
+      "text": "RTI",
+      "truthId": null
+    },
+    {
+      "text": "Scholarship",
+      "truthId": null
+    },
+    {
+      "text": "Transgender Card",
+      "truthId": null
+    },
+    {
+      "text": "Vehicle Services",
+      "truthId": null
+    },
+    {
+      "text": "Voter ID",
+      "truthId": null
+    },
+    {
+      "text": "Agriculture, Rural & Environment Benefits & Social development Business & Self-employed Citizenship, Visa & Passports Defence & Foreign affairs Driving & Transport Education & Learning Governance & Planning Health & Wellness Housing & Local services",
+      "truthId": null
+    },
+    {
+      "text": "Agriculture, Rural & Environment",
+      "truthId": null
+    },
+    {
+      "text": "Benefits & Social development",
+      "truthId": null
+    },
+    {
+      "text": "Business & Self-employed",
+      "truthId": null
+    },
+    {
+      "text": "Citizenship, Visa & Passports",
+      "truthId": null
+    },
+    {
+      "text": "Defence & Foreign affairs",
+      "truthId": null
+    },
+    {
+      "text": "Driving & Transport",
+      "truthId": null
+    },
+    {
+      "text": "Education & Learning",
+      "truthId": null
+    },
+    {
+      "text": "Governance & Planning",
+      "truthId": null
+    },
+    {
+      "text": "Health & Wellness",
+      "truthId": null
+    },
+    {
+      "text": "Housing & Local services",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 334455667788 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Displaying slide 1 to 4 of 5 Card on file 5105 1051 0510 5100 Register / Login to E-Sampada Website of Directorate of Estates of Ministry of Housing and Urban Affairs Register Your Tourism Unit Check list of villages and towns by sub-district level Search for Basic Heritage hotels approved by Ministry of Tourism Check district wise weather forecast Avail online services for pilots State wise/Month wise Status of Revision Cases in Government e-Granthalaya: A Digital Agenda for Library Automation and Networking Next slide",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5105 1051 0510 5100",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Register / Login to E-Sampada Website of Directorate of Estates of Ministry of Housing and Urban Affairs",
+      "truthId": null
+    },
+    {
+      "text": "Register / Login to E-Sampada Website of Directorate of Estates of Ministry of Housing and Urban Affairs",
+      "truthId": null
+    },
+    {
+      "text": "Register Your Tourism Unit",
+      "truthId": null
+    },
+    {
+      "text": "Register Your Tourism Unit",
+      "truthId": null
+    },
+    {
+      "text": "Check list of villages and towns by sub-district level",
+      "truthId": null
+    },
+    {
+      "text": "Check list of villages and towns by sub-district level",
+      "truthId": null
+    },
+    {
+      "text": "Search for Basic Heritage hotels approved by Ministry of Tourism",
+      "truthId": null
+    },
+    {
+      "text": "Search for Basic Heritage hotels approved by Ministry of Tourism",
+      "truthId": null
+    },
+    {
+      "text": "Check district wise weather forecast",
+      "truthId": null
+    },
+    {
+      "text": "Check district wise weather forecast",
+      "truthId": null
+    },
+    {
+      "text": "Avail online services for pilots",
+      "truthId": null
+    },
+    {
+      "text": "Avail online services for pilots",
+      "truthId": null
+    },
+    {
+      "text": "State wise/Month wise Status of Revision Cases in Government",
+      "truthId": null
+    },
+    {
+      "text": "State wise/Month wise Status of Revision Cases in Government",
+      "truthId": null
+    },
+    {
+      "text": "e-Granthalaya: A Digital Agenda for Library Automation and Networking",
+      "truthId": null
+    },
+    {
+      "text": "e-Granthalaya: A Digital Agenda for Library Automation and Networking",
+      "truthId": null
+    },
+    {
+      "text": "Next slide",
+      "truthId": null
+    },
+    {
+      "text": "OTP 778899 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Fully Online Avail Online LPG Services You can access online LPG services through the MyLPG Portal. Users can join PAHAL DBTL by providing their 17-digit LPG ID. Consumers can also apply to give up their LPG subsidy online. Forms for joining the PAHAL scheme and obtaining a new LPG connection are available. Safety tips for LPG consumers are also provided.",
+      "truthId": null
+    },
+    {
+      "text": "Information Online textbooks of National Council of Educational Research and Training Online textbooks of National Council of Educational Research and Training (NCERT). Users can get textbooks of all subjects published by NCERT for classes I to XII in Hindi, English and Urdu. The entire book or individual chapters can be downloaded. In order to discourage piracy, the online textbooks carry a watermark on all pages declaring the copyright of NCERT.",
+      "truthId": null
+    },
+    {
+      "text": "Fully Online Apply for New Ujjwala 2.0 Connection Pradhan Mantri Ujjwala Yojana (PMUY) is a flagship scheme to make clean cooking fuel such as LPG available to the rural and deprived households which were otherwise using traditional cooking fuels such as firewood, coal, cow-dung cakes etc.",
+      "truthId": null
+    },
+    {
+      "text": "Fully Online eSanjeevani - National Telemedicine Service National Teleconsultation Service aims to provide healthcare services to patients in their homes. Safe & structured video based clinical consultations between a doctor in a hospital and a patient in the confines of his home are being enabled.",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 99887 76655",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Open in new tab Ministries/Departments",
+      "truthId": null
+    },
+    {
+      "text": "Open in new tab State/UTs",
+      "truthId": null
+    },
+    {
+      "text": "Notify Us Grievance cell meera.banerjee@example.net",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Category Agriculture, Rural & Environment Benefits & Social development Business & Self-employed Citizenship, Visa & Passports Defence & Foreign affairs Driving & Transport Education & Learning Governance & Planning Health & Wellness",
+      "truthId": null
+    },
+    {
+      "text": "Category",
+      "truthId": null
+    },
+    {
+      "text": "Agriculture, Rural & Environment",
+      "truthId": null
+    },
+    {
+      "text": "Benefits & Social development",
+      "truthId": null
+    },
+    {
+      "text": "Business & Self-employed",
+      "truthId": null
+    },
+    {
+      "text": "Citizenship, Visa & Passports",
+      "truthId": null
+    },
+    {
+      "text": "Defence & Foreign affairs",
+      "truthId": null
+    },
+    {
+      "text": "Driving & Transport",
+      "truthId": null
+    },
+    {
+      "text": "Education & Learning",
+      "truthId": null
+    },
+    {
+      "text": "Governance & Planning",
+      "truthId": null
+    },
+    {
+      "text": "Health & Wellness",
+      "truthId": null
+    },
+    {
+      "text": "Housing & Local services Infrastructure & Industries Jobs Justice, Law & Grievances Money & Taxes Science, IT & Communication Travel & Tourism Welfare of Families Youth sports & Culture",
+      "truthId": null
+    },
+    {
+      "text": "Housing & Local services",
+      "truthId": null
+    },
+    {
+      "text": "Infrastructure & Industries",
+      "truthId": null
+    },
+    {
+      "text": "Jobs",
+      "truthId": null
+    },
+    {
+      "text": "Justice, Law & Grievances",
+      "truthId": null
+    },
+    {
+      "text": "Money & Taxes",
+      "truthId": null
+    },
+    {
+      "text": "Science, IT & Communication",
+      "truthId": null
+    },
+    {
+      "text": "Travel & Tourism",
+      "truthId": null
+    },
+    {
+      "text": "Welfare of Families",
+      "truthId": null
+    },
+    {
+      "text": "Youth sports & Culture",
+      "truthId": null
+    },
+    {
+      "text": "My-Government Acts & Rules Schemes Constitution of India Documents Directory Who's Who Helpline 9988776655 Contact Directory Web Directory Public Utilities Helpline",
+      "truthId": null
+    },
+    {
+      "text": "My-Government",
+      "truthId": null
+    },
+    {
+      "text": "Acts & Rules",
+      "truthId": null
+    },
+    {
+      "text": "Schemes",
+      "truthId": null
+    },
+    {
+      "text": "Constitution of India",
+      "truthId": null
+    },
+    {
+      "text": "Documents",
+      "truthId": null
+    },
+    {
+      "text": "Directory",
+      "truthId": null
+    },
+    {
+      "text": "Who's Who Helpline 9988776655",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Contact Directory",
+      "truthId": null
+    },
+    {
+      "text": "Web Directory",
+      "truthId": null
+    },
+    {
+      "text": "Public Utilities",
+      "truthId": null
+    },
+    {
+      "text": "Helpline",
+      "truthId": null
+    },
+    {
+      "text": "Explore India Travel & Tourism Write to meera.banerjee@example.net Culinary Delights One District One Product Facts of India News Hub Services",
+      "truthId": null
+    },
+    {
+      "text": "Explore India",
+      "truthId": null
+    },
+    {
+      "text": "Travel & Tourism Write to meera.banerjee@example.net",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Culinary Delights",
+      "truthId": null
+    },
+    {
+      "text": "One District One Product",
+      "truthId": null
+    },
+    {
+      "text": "Facts of India",
+      "truthId": null
+    },
+    {
+      "text": "News Hub",
+      "truthId": null
+    },
+    {
+      "text": "Services",
+      "truthId": null
+    },
+    {
+      "text": "About Us Contact Us Feedback FAQs Help Link to Us Newsletter Site Map Calendar",
+      "truthId": null
+    },
+    {
+      "text": "About Us",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "Feedback",
+      "truthId": null
+    },
+    {
+      "text": "FAQs",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Link to Us",
+      "truthId": null
+    },
+    {
+      "text": "Newsletter",
+      "truthId": null
+    },
+    {
+      "text": "Site Map",
+      "truthId": null
+    },
+    {
+      "text": "Calendar",
+      "truthId": null
+    },
+    {
+      "text": "Spotlights Visitor Summary Disclaimer Website Policy PAN LMNOP4321Q Subscribe to Newsletter App Privacy Policy Content Sources India Portal 2.0 Brochure",
+      "truthId": null
+    },
+    {
+      "text": "Spotlights",
+      "truthId": null
+    },
+    {
+      "text": "Visitor Summary",
+      "truthId": null
+    },
+    {
+      "text": "Disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Website Policy PAN LMNOP4321Q",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Subscribe to Newsletter",
+      "truthId": null
+    },
+    {
+      "text": "App Privacy Policy",
+      "truthId": null
+    },
+    {
+      "text": "Content Sources",
+      "truthId": null
+    },
+    {
+      "text": "India Portal 2.0 Brochure",
+      "truthId": null
+    },
+    {
+      "text": "Translation Disclaimer",
+      "truthId": null
+    },
+    {
+      "text": "Submit",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9988776655",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9988776655"
+        }
+      }
+    ]
+  }
+}

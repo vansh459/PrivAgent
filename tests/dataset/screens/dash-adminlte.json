@@ -1,0 +1,1282 @@
+{
+  "id": "dash-adminlte",
+  "type": "dashboard",
+  "sourceUrl": "https://adminlte.io/themes/v3/index.html",
+  "capturedAt": "2026-09-06T06:05:30.298Z",
+  "annotatedAt": "2026-09-06T06:57:00.620Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1748,
+  "persona": "Arjun Menon",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "AdminLTE Logo AdminLTE 3",
+      "bbox": [
+        0,
+        0,
+        250,
+        57
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "AdminLTE.io PAN YZABC5566D",
+      "bbox": [
+        448,
+        1709,
+        234,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        258,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Home Helpline 7012345678",
+      "bbox": [
+        302,
+        8,
+        228,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Contact",
+      "bbox": [
+        531,
+        8,
+        87,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1035,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": " 3",
+      "bbox": [
+        1079,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": " 15",
+      "bbox": [
+        1123,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1168,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1212,
+        8,
+        44,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Home Write to arjun.menon@example.com",
+      "bbox": [
+        823,
+        75,
+        306,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "More info ",
+      "bbox": [
+        266,
+        326,
+        235,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "More info ",
+      "bbox": [
+        515,
+        326,
+        235,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "More info ",
+      "bbox": [
+        765,
+        326,
+        235,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "More info ",
+      "bbox": [
+        1015,
+        326,
+        235,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": " Add item",
+      "bbox": [
+        706,
+        1626,
+        107,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        906,
+        1217,
+        34,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        1032,
+        1217,
+        34,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        1157,
+        1217,
+        34,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        729,
+        843,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        762,
+        843,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        795,
+        843,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "textbox",
+      "name": "Type Message ...",
+      "bbox": [
+        286,
+        1188,
+        468,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "Send",
+      "bbox": [
+        752,
+        1188,
+        61,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        349,
+        1330,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        349,
+        1376,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        349,
+        1422,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        349,
+        1468,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        349,
+        1514,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "checkbox",
+      "name": "",
+      "bbox": [
+        349,
+        1560,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1178,
+        388,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1211,
+        388,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1178,
+        852,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1211,
+        852,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1178,
+        1326,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1211,
+        1326,
+        29,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Alexander Pierce",
+      "bbox": [
+        64,
+        78,
+        117,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "searchbox",
+      "name": "Search",
+      "bbox": [
+        8,
+        140,
+        189,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        196,
+        140,
+        46,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Area",
+      "bbox": [
+        379,
+        383,
+        64,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Donut Grievance cell arjun.menon@example.com",
+      "bbox": [
+        444,
+        383,
+        380,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "«",
+      "bbox": [
+        702,
+        1261,
+        25,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "1",
+      "bbox": [
+        726,
+        1261,
+        25,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "2",
+      "bbox": [
+        750,
+        1261,
+        25,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "3",
+      "bbox": [
+        774,
+        1261,
+        25,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "»",
+      "bbox": [
+        798,
+        1261,
+        25,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        1130,
+        1326,
+        44,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": " Dashboard ",
+      "bbox": [
+        8,
+        186,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": " Widgets New",
+      "bbox": [
+        8,
+        358,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": " Layout Options  6",
+      "bbox": [
+        8,
+        402,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": " Charts ",
+      "bbox": [
+        8,
+        445,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": " UI Elements ",
+      "bbox": [
+        8,
+        488,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": " Forms ",
+      "bbox": [
+        8,
+        531,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": " Tables ",
+      "bbox": [
+        8,
+        574,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": " Calendar 2",
+      "bbox": [
+        8,
+        655,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": " Gallery",
+      "bbox": [
+        8,
+        698,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": " Kanban Board",
+      "bbox": [
+        8,
+        742,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": " Mailbox ",
+      "bbox": [
+        8,
+        785,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": " Pages ",
+      "bbox": [
+        8,
+        828,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": " Extras ",
+      "bbox": [
+        8,
+        871,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": " Search ",
+      "bbox": [
+        8,
+        914,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": " Tabbed IFrame Plugin",
+      "bbox": [
+        8,
+        995,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": " Documentation",
+      "bbox": [
+        8,
+        1038,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": " Level 1",
+      "bbox": [
+        8,
+        1119,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": " Level 1 ",
+      "bbox": [
+        8,
+        1162,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": " Level 1",
+      "bbox": [
+        8,
+        1206,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": " Important",
+      "bbox": [
+        8,
+        1286,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": " Warning",
+      "bbox": [
+        8,
+        1330,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": " Informational",
+      "bbox": [
+        8,
+        1373,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "User Avatar Count Dracula 2/28/2015 How have you been? I was...",
+      "bbox": [
+        849,
+        891,
+        532,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "User Avatar Sarah Doe 2/23/2015 I will be waiting for...",
+      "bbox": [
+        849,
+        960,
+        532,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "User Avatar Nadia Jolie 2/20/2015 I'll call you back at...",
+      "bbox": [
+        849,
+        1028,
+        532,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "User Avatar Nora S. Vans 2/10/2015 Where is your new...",
+      "bbox": [
+        849,
+        1097,
+        532,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "User Avatar John K. 1/27/2015 Can I take a look at...",
+      "bbox": [
+        849,
+        1166,
+        532,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "User Avatar Kenneth M. 1/4/2015 Never mind I found...",
+      "bbox": [
+        849,
+        1235,
+        532,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": " Dashboard v1",
+      "bbox": [
+        8,
+        229,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": " Dashboard v2",
+      "bbox": [
+        8,
+        272,
+        234,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": " Dashboard v3",
+      "bbox": [
+        8,
+        315,
+        234,
+        40
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "7012345678",
+      "text": "Helpline 7012345678",
+      "bbox": [
+        302,
+        8,
+        228,
+        40
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "0471 233 4455",
+      "text": "Alternate contact 0471 233 4455",
+      "bbox": [
+        276,
+        942,
+        532,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "arjun.menon@example.com",
+      "text": "Write to arjun.menon@example.com",
+      "bbox": [
+        823,
+        75,
+        306,
+        22
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "8877 6655 4433",
+      "text": "Aadhaar 8877 6655 4433 linked to this account",
+      "bbox": [
+        266,
+        174,
+        984,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "YZABC5566D",
+      "text": "PAN YZABC5566D",
+      "bbox": [
+        448,
+        1709,
+        234,
+        22
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "3782 822463 10005",
+      "text": "Card on file 3782 822463 10005",
+      "bbox": [
+        258,
+        135,
+        999,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP: 660011",
+      "text": "OTP: 660011 sent to your phone",
+      "bbox": [
+        266,
+        887,
+        568,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Arjun Menon",
+      "text": "Signed in as Arjun Menon",
+      "bbox": [
+        286,
+        457,
+        528,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "19 Kowdiar Road, Thiruvananthapuram 695003",
+      "text": "Registered address 19 Kowdiar Road, Thiruvananthapuram 695003",
+      "bbox": [
+        286,
+        502,
+        528,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "arjun.menon@example.com",
+      "text": "Grievance cell arjun.menon@example.com",
+      "bbox": [
+        444,
+        383,
+        380,
+        40
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Home Helpline 7012345678",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Contact",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "15",
+      "truthId": null
+    },
+    {
+      "text": "AdminLTE 3",
+      "truthId": null
+    },
+    {
+      "text": "Alexander Pierce",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard Dashboard v1 Dashboard v2 Dashboard v3 Widgets New Layout Options 6 Charts UI Elements Forms Tables EXAMPLES Calendar 2 Gallery Kanban Board Mailbox Pages Extras Search MISCELLANEOUS Tabbed IFrame Plugin Documentation MULTI LEVEL EXAMPLE Level 1 Level 1 Level 1 LABELS Important Warning Informational",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard v1",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard v2",
+      "truthId": null
+    },
+    {
+      "text": "Dashboard v3",
+      "truthId": null
+    },
+    {
+      "text": "Widgets New",
+      "truthId": null
+    },
+    {
+      "text": "Layout Options 6",
+      "truthId": null
+    },
+    {
+      "text": "Charts",
+      "truthId": null
+    },
+    {
+      "text": "UI Elements",
+      "truthId": null
+    },
+    {
+      "text": "Forms",
+      "truthId": null
+    },
+    {
+      "text": "Tables",
+      "truthId": null
+    },
+    {
+      "text": "Calendar 2",
+      "truthId": null
+    },
+    {
+      "text": "Gallery",
+      "truthId": null
+    },
+    {
+      "text": "Kanban Board",
+      "truthId": null
+    },
+    {
+      "text": "Mailbox",
+      "truthId": null
+    },
+    {
+      "text": "Pages",
+      "truthId": null
+    },
+    {
+      "text": "Extras",
+      "truthId": null
+    },
+    {
+      "text": "Search",
+      "truthId": null
+    },
+    {
+      "text": "Tabbed IFrame Plugin",
+      "truthId": null
+    },
+    {
+      "text": "Documentation",
+      "truthId": null
+    },
+    {
+      "text": "Level 1",
+      "truthId": null
+    },
+    {
+      "text": "Level 1",
+      "truthId": null
+    },
+    {
+      "text": "Level 1",
+      "truthId": null
+    },
+    {
+      "text": "Important",
+      "truthId": null
+    },
+    {
+      "text": "Warning",
+      "truthId": null
+    },
+    {
+      "text": "Informational",
+      "truthId": null
+    },
+    {
+      "text": "Home Write to arjun.menon@example.com",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Card on file 3782 822463 10005",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 8877 6655 4433 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "More info",
+      "truthId": null
+    },
+    {
+      "text": "More info",
+      "truthId": null
+    },
+    {
+      "text": "More info",
+      "truthId": null
+    },
+    {
+      "text": "More info",
+      "truthId": null
+    },
+    {
+      "text": "Area",
+      "truthId": null
+    },
+    {
+      "text": "Donut Grievance cell arjun.menon@example.com",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Signed in as Arjun Menon",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Registered address 19 Kowdiar Road, Thiruvananthapuram 695003",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "OTP: 660011 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Alternate contact 0471 233 4455",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Count Dracula 2/28/2015 How have you been? I was...",
+      "truthId": null
+    },
+    {
+      "text": "Sarah Doe 2/23/2015 I will be waiting for...",
+      "truthId": null
+    },
+    {
+      "text": "Nadia Jolie 2/20/2015 I'll call you back at...",
+      "truthId": null
+    },
+    {
+      "text": "Nora S. Vans 2/10/2015 Where is your new...",
+      "truthId": null
+    },
+    {
+      "text": "John K. 1/27/2015 Can I take a look at...",
+      "truthId": null
+    },
+    {
+      "text": "Kenneth M. 1/4/2015 Never mind I found...",
+      "truthId": null
+    },
+    {
+      "text": "Type Message ...",
+      "truthId": null
+    },
+    {
+      "text": "Send",
+      "truthId": null
+    },
+    {
+      "text": "«",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "»",
+      "truthId": null
+    },
+    {
+      "text": "Add item",
+      "truthId": null
+    },
+    {
+      "text": "AdminLTE.io PAN YZABC5566D",
+      "truthId": "pii_5"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "ride.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 7012345678",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "7012345678"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,795 @@
+{
+  "id": "spa-realworld",
+  "type": "spa",
+  "sourceUrl": "https://demo.realworld.show/",
+  "capturedAt": "2026-09-06T06:05:15.219Z",
+  "annotatedAt": "2026-09-06T06:56:58.936Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 1489,
+  "persona": "Joseph Fernandes",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Conduit",
+      "bbox": [
+        77,
+        8,
+        88,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Angular frontend",
+      "bbox": [
+        491,
+        207,
+        118,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Realworld",
+      "bbox": [
+        722,
+        207,
+        71,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "How to Learn JavaScript Efficiently A comprehensive guide to mastering JavaScript from beginner to advanced level Read more... beginners javascript programming webdev",
+      "bbox": [
+        77,
+        598,
+        825,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Introduction to Machine Learning for Developers Getting started with ML concepts and practical applications for software developers Read more... ai datascience machinelearning python",
+      "bbox": [
+        77,
+        1201,
+        825,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Conduit",
+      "bbox": [
+        287,
+        1455,
+        70,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "RealWorld OSS Project",
+      "bbox": [
+        617,
+        1456,
+        134,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        77,
+        556,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "React Hooks: Best Practices and Common Pitfalls Essential patterns and anti-patterns when working with React Hooks Read more... frontend hooks javascript react",
+      "bbox": [
+        77,
+        784,
+        825,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "Building Scalable APIs with Node.js Architectural patterns and best practices for creating robust backend services Read more... api architecture backend nodejs",
+      "bbox": [
+        77,
+        970,
+        825,
+        86
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        77,
+        1159,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "ai",
+      "bbox": [
+        963,
+        422,
+        36,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "api",
+      "bbox": [
+        1007,
+        422,
+        43,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "architecture Grievance cell joseph.fernandes@example.org",
+      "bbox": [
+        963,
+        460,
+        362,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "backend",
+      "bbox": [
+        963,
+        499,
+        74,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "beginners",
+      "bbox": [
+        1045,
+        499,
+        82,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "datascience",
+      "bbox": [
+        963,
+        537,
+        94,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "frontend",
+      "bbox": [
+        1065,
+        537,
+        73,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "hooks",
+      "bbox": [
+        963,
+        575,
+        60,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "javascript",
+      "bbox": [
+        1031,
+        575,
+        80,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "machinelearning",
+      "bbox": [
+        963,
+        614,
+        120,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "nodejs",
+      "bbox": [
+        1091,
+        614,
+        63,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "programming",
+      "bbox": [
+        963,
+        652,
+        101,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "python",
+      "bbox": [
+        1072,
+        652,
+        64,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "react",
+      "bbox": [
+        963,
+        691,
+        54,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "webdev",
+      "bbox": [
+        1025,
+        691,
+        70,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        846,
+        9,
+        43,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Sign in PAN MNOPQ3344R",
+      "bbox": [
+        905,
+        9,
+        197,
+        38
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Sign up",
+      "bbox": [
+        1118,
+        12,
+        70,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Global Feed Helpline 8899001122",
+      "bbox": [
+        77,
+        440,
+        274,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "johndoe",
+      "bbox": [
+        117,
+        550,
+        109,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "button",
+      "name": "2",
+      "bbox": [
+        877,
+        550,
+        25,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        77,
+        742,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "",
+      "bbox": [
+        77,
+        928,
+        32,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "sarahchen",
+      "bbox": [
+        117,
+        1153,
+        109,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "button",
+      "name": "1",
+      "bbox": [
+        877,
+        1153,
+        25,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "janesmith Write to joseph.fernandes@example.org",
+      "bbox": [
+        117,
+        736,
+        359,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "button",
+      "name": "2",
+      "bbox": [
+        877,
+        736,
+        25,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "mikewilson",
+      "bbox": [
+        117,
+        922,
+        109,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "button",
+      "name": "1",
+      "bbox": [
+        877,
+        922,
+        25,
+        27
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "button",
+      "name": "1",
+      "bbox": [
+        77,
+        1330,
+        35,
+        42
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "8899001122",
+      "text": "Helpline 8899001122",
+      "bbox": [
+        77,
+        440,
+        274,
+        42
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 88990 01122",
+      "text": "Alternate contact +91 88990 01122",
+      "bbox": [
+        77,
+        355,
+        1110,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "joseph.fernandes@example.org",
+      "text": "Write to joseph.fernandes@example.org",
+      "bbox": [
+        117,
+        736,
+        359,
+        16
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "6655 4433 2211",
+      "text": "Aadhaar 6655 4433 2211 linked to this account",
+      "bbox": [
+        77,
+        1114,
+        825,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "MNOPQ3344R",
+      "text": "PAN MNOPQ3344R",
+      "bbox": [
+        905,
+        9,
+        197,
+        38
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "6011 1111 1111 1117",
+      "text": "Card on file 6011 1111 1111 1117",
+      "bbox": [
+        32,
+        95,
+        1201,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 909090",
+      "text": "OTP 909090 sent to your phone",
+      "bbox": [
+        77,
+        316,
+        1110,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Joseph Fernandes",
+      "text": "Signed in as Joseph Fernandes",
+      "bbox": [
+        77,
+        511,
+        825,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "3 Church Street, Panaji 403001",
+      "text": "Registered address 3 Church Street, Panaji 403001",
+      "bbox": [
+        77,
+        401,
+        825,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "joseph.fernandes@example.org",
+      "text": "Grievance cell joseph.fernandes@example.org",
+      "bbox": [
+        963,
+        460,
+        362,
+        30
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Sign in PAN MNOPQ3344R",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Sign up",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 6011 1111 1111 1117",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Angular frontend",
+      "truthId": null
+    },
+    {
+      "text": "Realworld",
+      "truthId": null
+    },
+    {
+      "text": "OTP 909090 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Alternate contact +91 88990 01122",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Registered address 3 Church Street, Panaji 403001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Global Feed Helpline 8899001122",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Signed in as Joseph Fernandes",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "johndoe",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "How to Learn JavaScript Efficiently A comprehensive guide to mastering JavaScript from beginner to advanced level Read more... beginnersjavascriptprogrammingwebdev",
+      "truthId": null
+    },
+    {
+      "text": "janesmith Write to joseph.fernandes@example.org",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "React Hooks: Best Practices and Common Pitfalls Essential patterns and anti-patterns when working with React Hooks Read more... frontendhooksjavascriptreact",
+      "truthId": null
+    },
+    {
+      "text": "mikewilson",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "Building Scalable APIs with Node.js Architectural patterns and best practices for creating robust backend services Read more... apiarchitecturebackendnodejs",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 6655 4433 2211 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "sarahchen",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "Introduction to Machine Learning for Developers Getting started with ML concepts and practical applications for software developers Read more... aidatasciencemachinelearningpython",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "ai",
+      "truthId": null
+    },
+    {
+      "text": "api",
+      "truthId": null
+    },
+    {
+      "text": "architecture Grievance cell joseph.fernandes@example.org",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "backend",
+      "truthId": null
+    },
+    {
+      "text": "beginners",
+      "truthId": null
+    },
+    {
+      "text": "datascience",
+      "truthId": null
+    },
+    {
+      "text": "frontend",
+      "truthId": null
+    },
+    {
+      "text": "hooks",
+      "truthId": null
+    },
+    {
+      "text": "javascript",
+      "truthId": null
+    },
+    {
+      "text": "machinelearning",
+      "truthId": null
+    },
+    {
+      "text": "nodejs",
+      "truthId": null
+    },
+    {
+      "text": "programming",
+      "truthId": null
+    },
+    {
+      "text": "python",
+      "truthId": null
+    },
+    {
+      "text": "react",
+      "truthId": null
+    },
+    {
+      "text": "webdev",
+      "truthId": null
+    },
+    {
+      "text": "RealWorld OSS Project",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "chawla.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 8899001122",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "8899001122"
+        }
+      }
+    ]
+  }
+}

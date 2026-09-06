@@ -35,6 +35,10 @@
 
     <p id="result">not clicked</p>
 
+    <!-- Makes the document taller than the viewport, so a `scroll` action has an
+         observable effect. Not interactive, so the walker never perceives it. -->
+    <div id="spacer" aria-hidden="true" style="height: 1700px"></div>
+
     <script>
       // Marks that the agent really actuated the element, rather than merely reporting it.
       document.getElementById("download").addEventListener("click", () => {

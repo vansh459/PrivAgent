@@ -9,7 +9,13 @@ const live = process.argv.includes("--live");
 
 const result = spawnSync(
   serverPython(),
-  ["-m", "pytest", "server/tests", "-q", ...(live ? ["-m", "live", "-s"] : ["-m", "not live"])],
+  [
+    "-m",
+    "pytest",
+    "server/tests",
+    "-q",
+    ...(live ? ["-m", "live", "-s"] : ["-m", "not live"]),
+  ],
   {
     env: { ...process.env, PYTHONPATH: "server" },
     stdio: "inherit",

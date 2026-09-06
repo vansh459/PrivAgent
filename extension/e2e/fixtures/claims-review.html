@@ -35,9 +35,17 @@
     <img id="applicant-photo" src="/applicant.png" />
     <canvas id="claim-chart" width="420" height="180"></canvas>
 
+    <p>
+      <label for="adjuster-note">Adjuster note</label>
+      <input id="adjuster-note" name="adjuster-note" />
+    </p>
     <a id="approve" href="#approved">Approve claim</a>
     <button id="reject" type="button">Reject claim</button>
     <p id="result">not decided</p>
+
+    <!-- Makes the document taller than the viewport, so a `scroll` action has an
+         observable effect. Not interactive, so the walker never perceives it. -->
+    <div id="spacer" aria-hidden="true" style="height: 1700px"></div>
 
     <script>
       const context = document.getElementById("claim-chart").getContext("2d");

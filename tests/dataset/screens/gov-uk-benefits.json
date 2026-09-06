@@ -1,0 +1,1048 @@
+{
+  "id": "gov-uk-benefits",
+  "type": "portal",
+  "sourceUrl": "https://www.gov.uk/browse/benefits",
+  "capturedAt": "2026-09-06T05:59:27.363Z",
+  "annotatedAt": "2026-09-06T06:56:39.713Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 3313,
+  "persona": "Joseph Fernandes",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        0,
+        369,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "button",
+      "name": "Accept additional cookies",
+      "bbox": [
+        152,
+        300,
+        238,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "Reject additional cookies",
+      "bbox": [
+        405,
+        300,
+        233,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "View cookies",
+      "bbox": [
+        653,
+        310,
+        111,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "button",
+      "name": "Report a problem with this page",
+      "bbox": [
+        835,
+        2379,
+        248,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "link",
+      "name": "Open Government Licence v3.0",
+      "bbox": [
+        152,
+        3215,
+        435,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "© Crown copyright",
+      "bbox": [
+        956,
+        3126,
+        157,
+        135
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        152,
+        490,
+        43,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "button",
+      "name": "Yes this page is useful",
+      "bbox": [
+        575,
+        2379,
+        100,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "button",
+      "name": "No this page is not useful",
+      "bbox": [
+        695,
+        2379,
+        100,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "Benefits",
+      "bbox": [
+        152,
+        2629,
+        69,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "Births, death, marriages and care",
+      "bbox": [
+        152,
+        2674,
+        281,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "Business and self-employed",
+      "bbox": [
+        152,
+        2719,
+        238,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Childcare and parenting",
+      "bbox": [
+        152,
+        2764,
+        202,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Citizenship and living in the UK",
+      "bbox": [
+        152,
+        2809,
+        262,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Crime, justice and the law",
+      "bbox": [
+        152,
+        2854,
+        218,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "Disabled people",
+      "bbox": [
+        152,
+        2899,
+        136,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Driving and transport",
+      "bbox": [
+        152,
+        2944,
+        176,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "Education and learning",
+      "bbox": [
+        482,
+        2629,
+        194,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "Employing people",
+      "bbox": [
+        482,
+        2674,
+        151,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "Environment and countryside",
+      "bbox": [
+        482,
+        2719,
+        246,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Housing and local services",
+      "bbox": [
+        482,
+        2764,
+        226,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "link",
+      "name": "Money and tax",
+      "bbox": [
+        482,
+        2809,
+        125,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "link",
+      "name": "Passports, travel and living abroad",
+      "bbox": [
+        482,
+        2854,
+        292,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "Visas and immigration",
+      "bbox": [
+        482,
+        2899,
+        187,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "Working, jobs and pensions",
+      "bbox": [
+        482,
+        2944,
+        233,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "Departments",
+      "bbox": [
+        812,
+        2629,
+        109,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "News",
+      "bbox": [
+        812,
+        2674,
+        48,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Guidance and regulation",
+      "bbox": [
+        812,
+        2719,
+        207,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Research and statistics",
+      "bbox": [
+        812,
+        2764,
+        196,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Policy papers and consultations",
+      "bbox": [
+        812,
+        2809,
+        267,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Transparency",
+      "bbox": [
+        812,
+        2854,
+        115,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "How government works Helpline 8899001122",
+      "bbox": [
+        812,
+        2899,
+        272,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Get involved",
+      "bbox": [
+        812,
+        2969,
+        106,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Help",
+      "bbox": [
+        152,
+        3085,
+        39,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Privacy",
+      "bbox": [
+        212,
+        3085,
+        62,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Cookies",
+      "bbox": [
+        294,
+        3085,
+        69,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Accessibility statement",
+      "bbox": [
+        383,
+        3085,
+        192,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Contact",
+      "bbox": [
+        596,
+        3085,
+        65,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Terms and conditions Write to joseph.fernandes@example.org",
+      "bbox": [
+        152,
+        3115,
+        525,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Rhestr o Wasanaethau Cymraeg PAN MNOPQ3344R",
+      "bbox": [
+        152,
+        3145,
+        452,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Government Digital Service",
+      "bbox": [
+        625,
+        3145,
+        231,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "Sign in to your Universal Credit account",
+      "bbox": [
+        197,
+        875,
+        362,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Universal Credit",
+      "bbox": [
+        197,
+        925,
+        146,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Sign in to your childcare account Grievance cell joseph.fernandes@example.org",
+      "bbox": [
+        197,
+        975,
+        727,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Go to the GOV.UK homepage",
+      "bbox": [
+        152,
+        427,
+        162,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Manage an existing benefit, payment or claim",
+      "bbox": [
+        152,
+        1164,
+        410,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Benefits and financial support if you're looking for work",
+      "bbox": [
+        152,
+        1298,
+        504,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Benefits and financial support if you're temporarily unable to work",
+      "bbox": [
+        152,
+        1432,
+        599,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Benefits and financial support for families",
+      "bbox": [
+        152,
+        1566,
+        379,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Benefits and financial support if you're disabled or have a health condition",
+      "bbox": [
+        152,
+        1700,
+        583,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Benefits and financial support if you're caring for someone",
+      "bbox": [
+        152,
+        1903,
+        532,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Benefits and financial support if you're on a low income",
+      "bbox": [
+        152,
+        2037,
+        504,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Benefits and financial support when someone dies",
+      "bbox": [
+        152,
+        2146,
+        458,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "button",
+      "name": "Show navigation menu",
+      "bbox": [
+        947,
+        369,
+        104,
+        61
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "button",
+      "name": "Show search menu",
+      "bbox": [
+        1051,
+        369,
+        61,
+        61
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "8899001122",
+      "text": "Helpline 8899001122",
+      "bbox": [
+        812,
+        2899,
+        272,
+        47
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 88990 01122",
+      "text": "Alternate contact +91 88990 01122",
+      "bbox": [
+        152,
+        391,
+        795,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "joseph.fernandes@example.org",
+      "text": "Write to joseph.fernandes@example.org",
+      "bbox": [
+        152,
+        3115,
+        525,
+        22
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "6655 4433 2211",
+      "text": "Aadhaar 6655 4433 2211 linked to this account",
+      "bbox": [
+        152,
+        1863,
+        960,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "MNOPQ3344R",
+      "text": "PAN MNOPQ3344R",
+      "bbox": [
+        152,
+        3145,
+        452,
+        22
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "6011 1111 1111 1117",
+      "text": "Card on file 6011 1111 1111 1117",
+      "bbox": [
+        167,
+        2381,
+        214,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP 909090",
+      "text": "OTP 909090 sent to your phone",
+      "bbox": [
+        152,
+        2320,
+        960,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Joseph Fernandes",
+      "text": "Signed in as Joseph Fernandes",
+      "bbox": [
+        152,
+        770,
+        960,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "3 Church Street, Panaji 403001",
+      "text": "Registered address 3 Church Street, Panaji 403001",
+      "bbox": [
+        0,
+        26,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "joseph.fernandes@example.org",
+      "text": "Grievance cell joseph.fernandes@example.org",
+      "bbox": [
+        197,
+        975,
+        727,
+        22
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Cookies on GOV.UK",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 3 Church Street, Panaji 403001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Accept additional cookies",
+      "truthId": null
+    },
+    {
+      "text": "Reject additional cookies",
+      "truthId": null
+    },
+    {
+      "text": "View cookies",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 88990 01122",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Go to the GOV.UK homepage",
+      "truthId": null
+    },
+    {
+      "text": "GOV.UK",
+      "truthId": null
+    },
+    {
+      "text": "Show navigation menu",
+      "truthId": null
+    },
+    {
+      "text": "Show search menu",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Joseph Fernandes",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Sign in to your Universal Credit account",
+      "truthId": null
+    },
+    {
+      "text": "Universal Credit",
+      "truthId": null
+    },
+    {
+      "text": "Sign in to your childcare account Grievance cell joseph.fernandes@example.org",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Manage an existing benefit, payment or claim",
+      "truthId": null
+    },
+    {
+      "text": "Benefits and financial support if you're looking for work",
+      "truthId": null
+    },
+    {
+      "text": "Benefits and financial support if you're temporarily unable to work",
+      "truthId": null
+    },
+    {
+      "text": "Benefits and financial support for families",
+      "truthId": null
+    },
+    {
+      "text": "Benefits and financial support if you're disabled or have a health condition",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 6655 4433 2211 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Benefits and financial support if you're caring for someone",
+      "truthId": null
+    },
+    {
+      "text": "Benefits and financial support if you're on a low income",
+      "truthId": null
+    },
+    {
+      "text": "Benefits and financial support when someone dies",
+      "truthId": null
+    },
+    {
+      "text": "OTP 909090 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 6011 1111 1111 1117",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Yes this page is useful",
+      "truthId": null
+    },
+    {
+      "text": "No this page is not useful",
+      "truthId": null
+    },
+    {
+      "text": "Report a problem with this page",
+      "truthId": null
+    },
+    {
+      "text": "Benefits",
+      "truthId": null
+    },
+    {
+      "text": "Births, death, marriages and care",
+      "truthId": null
+    },
+    {
+      "text": "Business and self-employed",
+      "truthId": null
+    },
+    {
+      "text": "Childcare and parenting",
+      "truthId": null
+    },
+    {
+      "text": "Citizenship and living in the UK",
+      "truthId": null
+    },
+    {
+      "text": "Crime, justice and the law",
+      "truthId": null
+    },
+    {
+      "text": "Disabled people",
+      "truthId": null
+    },
+    {
+      "text": "Driving and transport",
+      "truthId": null
+    },
+    {
+      "text": "Education and learning",
+      "truthId": null
+    },
+    {
+      "text": "Employing people",
+      "truthId": null
+    },
+    {
+      "text": "Environment and countryside",
+      "truthId": null
+    },
+    {
+      "text": "Housing and local services",
+      "truthId": null
+    },
+    {
+      "text": "Money and tax",
+      "truthId": null
+    },
+    {
+      "text": "Passports, travel and living abroad",
+      "truthId": null
+    },
+    {
+      "text": "Visas and immigration",
+      "truthId": null
+    },
+    {
+      "text": "Working, jobs and pensions",
+      "truthId": null
+    },
+    {
+      "text": "Departments",
+      "truthId": null
+    },
+    {
+      "text": "News",
+      "truthId": null
+    },
+    {
+      "text": "Guidance and regulation",
+      "truthId": null
+    },
+    {
+      "text": "Research and statistics",
+      "truthId": null
+    },
+    {
+      "text": "Policy papers and consultations",
+      "truthId": null
+    },
+    {
+      "text": "Transparency",
+      "truthId": null
+    },
+    {
+      "text": "How government works Helpline 8899001122",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Get involved",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Privacy",
+      "truthId": null
+    },
+    {
+      "text": "Cookies",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility statement",
+      "truthId": null
+    },
+    {
+      "text": "Contact",
+      "truthId": null
+    },
+    {
+      "text": "Terms and conditions Write to joseph.fernandes@example.org",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Rhestr o Wasanaethau Cymraeg PAN MNOPQ3344R",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "Government Digital Service",
+      "truthId": null
+    },
+    {
+      "text": "Open Government Licence v3.0",
+      "truthId": null
+    },
+    {
+      "text": "© Crown copyright",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 8899001122",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "8899001122"
+        }
+      }
+    ]
+  }
+}

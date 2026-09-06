@@ -74,7 +74,16 @@ const DETECTORS: readonly Detector[] = [
   },
   { type: "AADHAAR", pattern: /\b\d{4}[ -]?\d{4}[ -]?\d{4}\b/g },
   { type: "PAN", pattern: /\b[A-Z]{5}\d{4}[A-Z]\b/g },
-  { type: "PHONE", pattern: /(?<!\w)(?:\+91[ -]?)?[6-9]\d{9}\b/g },
+  // Mobile numbers, with the separators people actually write them with. The first version
+  // required ten unbroken digits after an optional `+91`, which is how a form stores a
+  // number and not how a page displays one: on the Phase 8.1 screens it recalled 48% of
+  // the labelled phone numbers, missing `+91 98123 45670` and `+91-98765-43210` purely on
+  // the internal space or hyphen.
+  { type: "PHONE", pattern: /(?<!\w)(?:\+?91[ -]?)?[6-9]\d{4}[ -]?\d{5}(?!\d)/g },
+  // Landlines: an STD code starting with 0, then two groups. The separator is required -
+  // without it this pattern would swallow any ten-digit run beginning with a zero, and
+  // `0123456789` is a reference number far more often than it is a telephone.
+  { type: "PHONE", pattern: /(?<!\w)0\d{2,4}[ -]\d{3,4}[ -]?\d{3,4}(?!\d)/g },
 ];
 
 interface RankedMatch {

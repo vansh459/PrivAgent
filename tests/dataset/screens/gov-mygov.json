@@ -1,0 +1,4809 @@
+{
+  "id": "gov-mygov",
+  "type": "portal",
+  "sourceUrl": "https://www.mygov.in/",
+  "capturedAt": "2026-09-06T05:57:57.980Z",
+  "annotatedAt": "2026-09-06T06:56:32.572Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 15102,
+  "persona": "Fatima Sheikh",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Top",
+      "bbox": [
+        1225,
+        680,
+        30,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "link",
+      "name": "Government of India GOVERNMENT OF INDIA",
+      "bbox": [
+        15,
+        11,
+        204,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        883,
+        6,
+        148,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Pause",
+      "bbox": [
+        1211,
+        501,
+        44,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "Pause",
+      "bbox": [
+        6,
+        736,
+        33,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        585,
+        7644,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        585,
+        8358,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        585,
+        10435,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        585,
+        11211,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        585,
+        13989,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "link",
+      "name": "NIC logo",
+      "bbox": [
+        135,
+        14921,
+        129,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "link",
+      "name": "CQW - MyGov certificate Certified Quality Website",
+      "bbox": [
+        621,
+        14940,
+        120,
+        76
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "button",
+      "name": "Customize Cookies",
+      "bbox": [
+        805,
+        668,
+        132,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "button",
+      "name": "Decline optional cookies",
+      "bbox": [
+        947,
+        668,
+        160,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "button",
+      "name": "Accept All Cookies",
+      "bbox": [
+        1117,
+        668,
+        132,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "English language",
+      "bbox": [
+        1041,
+        7,
+        116,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "Accessibility button",
+      "bbox": [
+        1167,
+        7,
+        40,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "button",
+      "name": "Follow us Write to f.sheikh@mail.example.co.in",
+      "bbox": [
+        1208,
+        6,
+        42,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        50,
+        307,
+        62,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1153,
+        307,
+        62,
+        62
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "tab",
+      "name": "Do/Task 17",
+      "bbox": [
+        55,
+        949,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "tab",
+      "name": "Discuss 3",
+      "bbox": [
+        55,
+        1010,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "tab",
+      "name": "Poll/Survey",
+      "bbox": [
+        55,
+        1071,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "tab",
+      "name": "Blog 1",
+      "bbox": [
+        55,
+        1132,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "tab",
+      "name": "Talk 1",
+      "bbox": [
+        55,
+        1193,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "tab",
+      "name": "Quiz 40",
+      "bbox": [
+        55,
+        1254,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "tab",
+      "name": "MG Prime 5",
+      "bbox": [
+        55,
+        1315,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "tab",
+      "name": "Campaigns",
+      "bbox": [
+        55,
+        1376,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "tab",
+      "name": "Pledge 78",
+      "bbox": [
+        55,
+        1437,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "tab",
+      "name": "Podcast",
+      "bbox": [
+        55,
+        1498,
+        200,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "view-changer",
+      "bbox": [
+        1184,
+        939,
+        26,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        185,
+        2902,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        209,
+        2902,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        233,
+        2902,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        601,
+        2807,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        625,
+        2807,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        649,
+        2807,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "button",
+      "name": "Prev",
+      "bbox": [
+        1964,
+        190,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1154,
+        3823,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "View All Helpline 9876543210",
+      "bbox": [
+        35,
+        4622,
+        209,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        463,
+        4605,
+        79,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        892,
+        4605,
+        79,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "link",
+      "name": "Share your Views",
+      "bbox": [
+        29,
+        6214,
+        143,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "link",
+      "name": "Survey",
+      "bbox": [
+        449,
+        6214,
+        75,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "link",
+      "name": "Play Now",
+      "bbox": [
+        869,
+        6214,
+        91,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "link",
+      "name": "Participate Now",
+      "bbox": [
+        29,
+        6902,
+        131,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "link",
+      "name": "Take Pledge",
+      "bbox": [
+        449,
+        6902,
+        109,
+        33
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "link",
+      "name": "Participate Now",
+      "bbox": [
+        43,
+        8255,
+        137,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "Participate Now",
+      "bbox": [
+        405,
+        8202,
+        137,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "Participate Now",
+      "bbox": [
+        685,
+        8183,
+        137,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "Participate Now PAN AAACR5055K",
+      "bbox": [
+        965,
+        8202,
+        260,
+        58
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1154,
+        8640,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        906,
+        9801,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "button",
+      "name": "Latest Blog",
+      "bbox": [
+        344,
+        10717,
+        289,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "button",
+      "name": "Winner Announcement",
+      "bbox": [
+        632,
+        10717,
+        289,
+        55
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        577,
+        11177,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        601,
+        11177,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        625,
+        11177,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        649,
+        11177,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "button",
+      "name": "",
+      "bbox": [
+        673,
+        11177,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        585,
+        12025,
+        96,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "QR Code",
+      "bbox": [
+        692,
+        14643,
+        197,
+        201
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "App Store",
+      "bbox": [
+        924,
+        14750,
+        150,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Play Store",
+      "bbox": [
+        1074,
+        14750,
+        150,
+        47
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "MyGov",
+      "bbox": [
+        274,
+        14941,
+        43,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "MyGov",
+      "bbox": [
+        498,
+        14941,
+        42,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Ministry of Electronics & Information Technology",
+      "bbox": [
+        274,
+        14941,
+        335,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Government of India",
+      "bbox": [
+        274,
+        14960,
+        320,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "National Informatics Centre.",
+      "bbox": [
+        274,
+        15017,
+        169,
+        15
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "Latest Activities",
+      "bbox": [
+        1233,
+        381,
+        131,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "What's New",
+      "bbox": [
+        1233,
+        432,
+        108,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "link",
+      "name": "Event Calendar",
+      "bbox": [
+        1233,
+        484,
+        131,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "link",
+      "name": "PM Events",
+      "bbox": [
+        1233,
+        534,
+        102,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "link",
+      "name": "Suggest an Activity",
+      "bbox": [
+        1233,
+        585,
+        152,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "link",
+      "name": "Cookie Settings",
+      "bbox": [
+        433,
+        687,
+        112,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "button",
+      "name": "Main Menu",
+      "bbox": [
+        1167,
+        63,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "6,47,11,404 MYGOV SAATHIS",
+      "bbox": [
+        47,
+        605,
+        131,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Make Your Contribution",
+      "bbox": [
+        445,
+        1355,
+        241,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Make Your Contribution",
+      "bbox": [
+        445,
+        1806,
+        241,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        868,
+        1991,
+        131,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "link",
+      "name": "1,953 View All",
+      "bbox": [
+        1014,
+        1992,
+        135,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "button",
+      "name": "Share",
+      "bbox": [
+        667,
+        3373,
+        34,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "button",
+      "name": "Download",
+      "bbox": [
+        711,
+        3373,
+        127,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "link",
+      "name": "View Latest Edition",
+      "bbox": [
+        35,
+        4576,
+        147,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "View E-book",
+      "bbox": [
+        188,
+        4576,
+        105,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "View Latest Edition",
+      "bbox": [
+        463,
+        4559,
+        147,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "View E-book",
+      "bbox": [
+        616,
+        4559,
+        105,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "View Latest Edition",
+      "bbox": [
+        892,
+        4559,
+        147,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "View E-book",
+      "bbox": [
+        1044,
+        4559,
+        105,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        1158,
+        4908,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1199,
+        4908,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        1178,
+        7144,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1219,
+        7144,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        1178,
+        10023,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1219,
+        10023,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_97",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        1178,
+        12142,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_98",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1219,
+        12142,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_99",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        1178,
+        12957,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_100",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1219,
+        12957,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_101",
+      "role": "link",
+      "name": "Groups",
+      "bbox": [
+        15,
+        14185,
+        46,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_102",
+      "role": "link",
+      "name": "Do/Task",
+      "bbox": [
+        15,
+        14211,
+        51,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_103",
+      "role": "link",
+      "name": "Discuss",
+      "bbox": [
+        15,
+        14237,
+        49,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_104",
+      "role": "link",
+      "name": "Blog",
+      "bbox": [
+        15,
+        14263,
+        28,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_105",
+      "role": "link",
+      "name": "Poll/Survey",
+      "bbox": [
+        15,
+        14289,
+        71,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_106",
+      "role": "link",
+      "name": "Talk",
+      "bbox": [
+        15,
+        14314,
+        25,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_107",
+      "role": "link",
+      "name": "Quiz",
+      "bbox": [
+        15,
+        14340,
+        29,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_108",
+      "role": "link",
+      "name": "MG Prime",
+      "bbox": [
+        15,
+        14366,
+        63,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_109",
+      "role": "link",
+      "name": "Campaigns",
+      "bbox": [
+        15,
+        14392,
+        71,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_110",
+      "role": "link",
+      "name": "Pledge",
+      "bbox": [
+        15,
+        14418,
+        44,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_111",
+      "role": "link",
+      "name": "Podcast",
+      "bbox": [
+        15,
+        14443,
+        51,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_112",
+      "role": "link",
+      "name": "Media",
+      "bbox": [
+        15,
+        14469,
+        38,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_113",
+      "role": "link",
+      "name": "Periodicals",
+      "bbox": [
+        15,
+        14495,
+        68,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_114",
+      "role": "link",
+      "name": "MyGov: An Overview",
+      "bbox": [
+        218,
+        14185,
+        131,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_115",
+      "role": "link",
+      "name": "Associate with MyGov",
+      "bbox": [
+        218,
+        14211,
+        138,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_116",
+      "role": "link",
+      "name": "Work at MyGov",
+      "bbox": [
+        218,
+        14237,
+        96,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_117",
+      "role": "link",
+      "name": "Circulars",
+      "bbox": [
+        218,
+        14263,
+        55,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_118",
+      "role": "link",
+      "name": "Pulse Newsletter",
+      "bbox": [
+        218,
+        14289,
+        105,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_119",
+      "role": "link",
+      "name": "Tenders",
+      "bbox": [
+        218,
+        14314,
+        50,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_120",
+      "role": "link",
+      "name": "Weekly Newsletter",
+      "bbox": [
+        218,
+        14340,
+        116,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_121",
+      "role": "link",
+      "name": "Meity Dashboard",
+      "bbox": [
+        218,
+        14366,
+        106,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_122",
+      "role": "link",
+      "name": "Sectors",
+      "bbox": [
+        218,
+        14392,
+        47,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_123",
+      "role": "link",
+      "name": "Skills",
+      "bbox": [
+        218,
+        14418,
+        33,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_124",
+      "role": "link",
+      "name": "Area of Interest",
+      "bbox": [
+        218,
+        14443,
+        96,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_125",
+      "role": "link",
+      "name": "Age Group",
+      "bbox": [
+        218,
+        14469,
+        68,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_126",
+      "role": "link",
+      "name": "National Events",
+      "bbox": [
+        218,
+        14495,
+        98,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_127",
+      "role": "link",
+      "name": "Archive Sites",
+      "bbox": [
+        218,
+        14521,
+        82,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_128",
+      "role": "link",
+      "name": "Contact Us",
+      "bbox": [
+        462,
+        14185,
+        69,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_129",
+      "role": "link",
+      "name": "FAQ",
+      "bbox": [
+        462,
+        14211,
+        28,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_130",
+      "role": "link",
+      "name": "Feedback",
+      "bbox": [
+        462,
+        14237,
+        61,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_131",
+      "role": "link",
+      "name": "Help",
+      "bbox": [
+        462,
+        14263,
+        29,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_132",
+      "role": "link",
+      "name": "Link To Us",
+      "bbox": [
+        462,
+        14289,
+        65,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_133",
+      "role": "link",
+      "name": "Public Grievance",
+      "bbox": [
+        462,
+        14314,
+        106,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_134",
+      "role": "link",
+      "name": "Site Map",
+      "bbox": [
+        462,
+        14340,
+        55,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_135",
+      "role": "link",
+      "name": "Terms & Conditions",
+      "bbox": [
+        462,
+        14366,
+        121,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_136",
+      "role": "link",
+      "name": "Usage of Aadhaar",
+      "bbox": [
+        462,
+        14392,
+        112,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_137",
+      "role": "link",
+      "name": "Web Information Manager",
+      "bbox": [
+        462,
+        14418,
+        162,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_138",
+      "role": "link",
+      "name": "ICC",
+      "bbox": [
+        462,
+        14443,
+        24,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_139",
+      "role": "link",
+      "name": "MyGov Social",
+      "bbox": [
+        462,
+        14469,
+        86,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_140",
+      "role": "link",
+      "name": "Points and Badges",
+      "bbox": [
+        462,
+        14495,
+        118,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_141",
+      "role": "link",
+      "name": "Website Policies",
+      "bbox": [
+        462,
+        14521,
+        102,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_142",
+      "role": "link",
+      "name": "MyGov Quiz MyGov Quiz",
+      "bbox": [
+        767,
+        14216,
+        209,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_143",
+      "role": "link",
+      "name": "Transforming India Transforming India",
+      "bbox": [
+        1005,
+        14216,
+        209,
+        24
+      ]
+    },
+    {
+      "oracleId": "ax_144",
+      "role": "link",
+      "name": "MyGov Innovation MyGov Innovation",
+      "bbox": [
+        767,
+        14273,
+        209,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_145",
+      "role": "link",
+      "name": "MyGov Pledge MyGov Pledge",
+      "bbox": [
+        1005,
+        14273,
+        209,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_146",
+      "role": "link",
+      "name": "MyGov Blog MyGov Blog",
+      "bbox": [
+        767,
+        14336,
+        209,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_147",
+      "role": "link",
+      "name": "Self4Society Self4Society",
+      "bbox": [
+        1005,
+        14336,
+        209,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_148",
+      "role": "link",
+      "name": "Campus Program Campus Program",
+      "bbox": [
+        767,
+        14400,
+        209,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_149",
+      "role": "link",
+      "name": "MyGov Saathi Saathi",
+      "bbox": [
+        1005,
+        14400,
+        209,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_150",
+      "role": "link",
+      "name": "Twitter Twitter 33.11 + Lakh Followers",
+      "bbox": [
+        52,
+        14663,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_151",
+      "role": "link",
+      "name": "Facebook Facebook 15.14 + Lakh Followers",
+      "bbox": [
+        104,
+        14663,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_152",
+      "role": "link",
+      "name": "Instagram Instagram 30.73 + Lakh Followers",
+      "bbox": [
+        156,
+        14663,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_153",
+      "role": "link",
+      "name": "YouTube YouTube 7.43 + Lakh Subscribers",
+      "bbox": [
+        208,
+        14663,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_154",
+      "role": "link",
+      "name": "LinkedIn LinkedIn 1.63 + Lakh Followers",
+      "bbox": [
+        260,
+        14663,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_155",
+      "role": "link",
+      "name": "Messenger Messenger 1.60 + Lakh Followers",
+      "bbox": [
+        312,
+        14663,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_156",
+      "role": "link",
+      "name": "WhatsApp WhatsApp 910.05 + Lakh Followers",
+      "bbox": [
+        52,
+        14715,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_157",
+      "role": "link",
+      "name": "DailyHunt DailyHunt 7.2 + K Followers",
+      "bbox": [
+        104,
+        14715,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_158",
+      "role": "link",
+      "name": "Public Public 85.5 + K Followers",
+      "bbox": [
+        156,
+        14715,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_159",
+      "role": "link",
+      "name": "ShareChat ShareChat 82.22K Followers",
+      "bbox": [
+        208,
+        14715,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_160",
+      "role": "link",
+      "name": "Snapchat Snapchat",
+      "bbox": [
+        260,
+        14715,
+        41,
+        41
+      ]
+    },
+    {
+      "oracleId": "ax_161",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        384,
+        14727,
+        56,
+        19
+      ]
+    },
+    {
+      "oracleId": "ax_162",
+      "role": "link",
+      "name": "Meity",
+      "bbox": [
+        765,
+        14955,
+        88,
+        46
+      ]
+    },
+    {
+      "oracleId": "ax_163",
+      "role": "link",
+      "name": "Digital India",
+      "bbox": [
+        868,
+        14955,
+        83,
+        45
+      ]
+    },
+    {
+      "oracleId": "ax_164",
+      "role": "link",
+      "name": "National Portal of India",
+      "bbox": [
+        965,
+        14967,
+        75,
+        22
+      ]
+    },
+    {
+      "oracleId": "ax_165",
+      "role": "link",
+      "name": "Data Portal",
+      "bbox": [
+        1056,
+        14960,
+        74,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_166",
+      "role": "link",
+      "name": "Meri Sarkar Logo",
+      "bbox": [
+        15,
+        91,
+        114,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_167",
+      "role": "link",
+      "name": "user-profile",
+      "bbox": [
+        1213,
+        62,
+        37,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_168",
+      "role": "link",
+      "name": "Yuva Sangam Phase-VII under Ek Bharat Shreshtha Bharat",
+      "bbox": [
+        -6400,
+        121,
+        1280,
+        434
+      ]
+    },
+    {
+      "oracleId": "ax_169",
+      "role": "link",
+      "name": "E-Upahaar - Presidential Gifts Auction 2026",
+      "bbox": [
+        -5120,
+        121,
+        1280,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_170",
+      "role": "link",
+      "name": "Viksit Bharat Young Leaders Dialogue 2027 Quiz",
+      "bbox": [
+        -3840,
+        121,
+        1280,
+        427
+      ]
+    },
+    {
+      "oracleId": "ax_171",
+      "role": "link",
+      "name": "National Space Day Quiz 2026",
+      "bbox": [
+        -1280,
+        121,
+        1280,
+        427
+      ]
+    },
+    {
+      "oracleId": "ax_172",
+      "role": "link",
+      "name": "Yuva Sangam Phase-VII under Ek Bharat Shreshtha Bharat",
+      "bbox": [
+        0,
+        121,
+        1280,
+        434
+      ]
+    },
+    {
+      "oracleId": "ax_173",
+      "role": "link",
+      "name": "E-Upahaar - Presidential Gifts Auction 2026",
+      "bbox": [
+        1280,
+        121,
+        1280,
+        434
+      ]
+    },
+    {
+      "oracleId": "ax_174",
+      "role": "link",
+      "name": "Viksit Bharat Young Leaders Dialogue 2027 Quiz",
+      "bbox": [
+        2560,
+        121,
+        1280,
+        427
+      ]
+    },
+    {
+      "oracleId": "ax_175",
+      "role": "link",
+      "name": "National Space Day Quiz 2026",
+      "bbox": [
+        5120,
+        121,
+        1280,
+        427
+      ]
+    },
+    {
+      "oracleId": "ax_176",
+      "role": "link",
+      "name": "Yuva Sangam Phase-VII under Ek Bharat Shreshtha Bharat",
+      "bbox": [
+        6400,
+        121,
+        1280,
+        434
+      ]
+    },
+    {
+      "oracleId": "ax_177",
+      "role": "link",
+      "name": "Join MyGov on WhatsApp",
+      "bbox": [
+        -280,
+        741,
+        173,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_178",
+      "role": "link",
+      "name": "Mann Ki Baat Highlights - June 2026",
+      "bbox": [
+        -82,
+        741,
+        243,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_179",
+      "role": "link",
+      "name": "If you face any issue on the new MyGov site, email us at grievance@mygov.in with the issue details and screenshots.",
+      "bbox": [
+        186,
+        741,
+        779,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_180",
+      "role": "link",
+      "name": "DPDP Act Logo & Tagline Contest",
+      "bbox": [
+        445,
+        1191,
+        383,
+        25
+      ]
+    },
+    {
+      "oracleId": "ax_181",
+      "role": "button",
+      "name": "Share",
+      "bbox": [
+        794,
+        1361,
+        34,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_182",
+      "role": "link",
+      "name": "DPDP Mascot Design with a Name Contest",
+      "bbox": [
+        445,
+        1642,
+        383,
+        25
+      ]
+    },
+    {
+      "oracleId": "ax_183",
+      "role": "button",
+      "name": "Share",
+      "bbox": [
+        794,
+        1812,
+        34,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_184",
+      "role": "link",
+      "name": "UPSC Direct Recruitment Posts",
+      "bbox": [
+        1580,
+        170,
+        370,
+        251
+      ]
+    },
+    {
+      "oracleId": "ax_185",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        1178,
+        11413,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_186",
+      "role": "button",
+      "name": "Next",
+      "bbox": [
+        1219,
+        11413,
+        31,
+        31
+      ]
+    },
+    {
+      "oracleId": "ax_187",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        -1341,
+        2765,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_188",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        -1226,
+        2765,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_189",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -1152,
+        2765,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_190",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        -994,
+        2828,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_191",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        -879,
+        2828,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_192",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -805,
+        2828,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_193",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        -648,
+        2783,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_194",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        -533,
+        2783,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_195",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -459,
+        2783,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_196",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        -301,
+        2810,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_197",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        -186,
+        2810,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_198",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -112,
+        2810,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_199",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        46,
+        2828,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_200",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        161,
+        2828,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_201",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        235,
+        2828,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_202",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        392,
+        2783,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_203",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        507,
+        2783,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_204",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        581,
+        2783,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_205",
+      "role": "link",
+      "name": "Watch Now",
+      "bbox": [
+        739,
+        2765,
+        105,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_206",
+      "role": "link",
+      "name": "Read",
+      "bbox": [
+        854,
+        2765,
+        64,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_207",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        928,
+        2765,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_208",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        -924,
+        2733,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_209",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        -821,
+        2733,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_210",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -738,
+        2733,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_211",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        -578,
+        2688,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_212",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        -474,
+        2688,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_213",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -391,
+        2688,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_214",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        -231,
+        2688,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_215",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        -128,
+        2688,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_216",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        -45,
+        2688,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_217",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        116,
+        2688,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_218",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        219,
+        2688,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_219",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        302,
+        2688,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_220",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        462,
+        2688,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_221",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        566,
+        2688,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_222",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        649,
+        2688,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_223",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        809,
+        2688,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_224",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        912,
+        2688,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_225",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        995,
+        2688,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_226",
+      "role": "link",
+      "name": "View PDF",
+      "bbox": [
+        1156,
+        2688,
+        94,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_227",
+      "role": "link",
+      "name": "Ebook",
+      "bbox": [
+        1259,
+        2688,
+        73,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_228",
+      "role": "link",
+      "name": "View All",
+      "bbox": [
+        1342,
+        2688,
+        85,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_229",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        -1998,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_230",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        -1568,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_231",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        -1138,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_232",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        -708,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_233",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        -278,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_234",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        152,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_235",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        582,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_236",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        1012,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_237",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        1442,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_238",
+      "role": "link",
+      "name": "View More",
+      "bbox": [
+        1872,
+        13562,
+        115,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_239",
+      "role": "textbox",
+      "name": "Search by Title",
+      "bbox": [
+        309,
+        59,
+        458,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_240",
+      "role": "combobox",
+      "name": "",
+      "bbox": [
+        768,
+        59,
+        133,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_241",
+      "role": "button",
+      "name": "Search",
+      "bbox": [
+        910,
+        59,
+        76,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_242",
+      "role": "link",
+      "name": "Inviting Ideas on AI and Semiconductors Grievance cell f.sheikh@mail.example.co.in",
+      "bbox": [
+        -1618,
+        5272,
+        331,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_243",
+      "role": "link",
+      "name": "Video Contest on Role of e-sakshya in Investigation",
+      "bbox": [
+        -1201,
+        5272,
+        290,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_244",
+      "role": "link",
+      "name": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "bbox": [
+        -784,
+        5272,
+        313,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_245",
+      "role": "link",
+      "name": "DPDP Act Logo & Tagline Contest",
+      "bbox": [
+        -368,
+        5272,
+        257,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_246",
+      "role": "link",
+      "name": "DPDP Mascot Design with a Name Contest",
+      "bbox": [
+        49,
+        5316,
+        323,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_247",
+      "role": "link",
+      "name": "Inviting Ideas on AI and Semiconductors",
+      "bbox": [
+        432,
+        5251,
+        309,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_248",
+      "role": "link",
+      "name": "Video Contest on Role of e-sakshya in Investigation",
+      "bbox": [
+        882,
+        5272,
+        290,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_249",
+      "role": "link",
+      "name": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "bbox": [
+        1299,
+        5272,
+        313,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_250",
+      "role": "link",
+      "name": "DPDP Act Logo & Tagline Contest",
+      "bbox": [
+        1716,
+        5272,
+        257,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_251",
+      "role": "link",
+      "name": "DPDP Mascot Design with a Name Contest",
+      "bbox": [
+        2132,
+        5272,
+        323,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_252",
+      "role": "link",
+      "name": "Inviting Ideas on AI and Semiconductors",
+      "bbox": [
+        2549,
+        5272,
+        309,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_253",
+      "role": "link",
+      "name": "Nutrient & Fertilizer Management for Mustard Crop With Anil Kumar Singh",
+      "bbox": [
+        -1860,
+        10276,
+        235,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_254",
+      "role": "link",
+      "name": "Organic Manures and Their Application With Dr. Dinesh Kumar, Scientist, IARI",
+      "bbox": [
+        -1543,
+        10276,
+        197,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_255",
+      "role": "link",
+      "name": "Startup Hi Kyu? Listen to this #podcast now!",
+      "bbox": [
+        -1226,
+        10276,
+        211,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_256",
+      "role": "link",
+      "name": "Dekho Apna Desh Webinar : Journey to Himalaya – Unique experiences with Sh. J.P. Pandey",
+      "bbox": [
+        -908,
+        10276,
+        235,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_257",
+      "role": "link",
+      "name": "Scientific cultivation of potatoes' With Dr. R. B. Verma",
+      "bbox": [
+        -591,
+        10276,
+        234,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_258",
+      "role": "link",
+      "name": "Nutrient & Fertilizer Management for Mustard Crop With Anil Kumar Singh",
+      "bbox": [
+        -274,
+        10276,
+        235,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_259",
+      "role": "link",
+      "name": "Organic Manures and Their Application With Dr. Dinesh Kumar, Scientist, IARI",
+      "bbox": [
+        43,
+        10276,
+        197,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_260",
+      "role": "link",
+      "name": "Startup Hi Kyu? Listen to this #podcast now!",
+      "bbox": [
+        360,
+        10276,
+        211,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_261",
+      "role": "link",
+      "name": "Dekho Apna Desh Webinar : Journey to Himalaya – Unique experiences with Sh. J.P. Pandey",
+      "bbox": [
+        678,
+        10276,
+        235,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_262",
+      "role": "link",
+      "name": "Scientific cultivation of potatoes' With Dr. R. B. Verma",
+      "bbox": [
+        995,
+        10276,
+        234,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_263",
+      "role": "link",
+      "name": "Nutrient & Fertilizer Management for Mustard Crop With Anil Kumar Singh",
+      "bbox": [
+        1312,
+        10276,
+        235,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_264",
+      "role": "link",
+      "name": "Organic Manures and Their Application With Dr. Dinesh Kumar, Scientist, IARI",
+      "bbox": [
+        1629,
+        10276,
+        197,
+        53
+      ]
+    },
+    {
+      "oracleId": "ax_265",
+      "role": "link",
+      "name": "Startup Hi Kyu? Listen to this #podcast now!",
+      "bbox": [
+        1946,
+        10276,
+        211,
+        35
+      ]
+    },
+    {
+      "oracleId": "ax_266",
+      "role": "link",
+      "name": "Winners Announcement for Drug-Free India Awareness Quiz 2.0 and 3.0",
+      "bbox": [
+        -5593,
+        10864,
+        459,
+        104
+      ]
+    },
+    {
+      "oracleId": "ax_267",
+      "role": "link",
+      "name": "Winners Announcement for Essay Competition on North East India",
+      "bbox": [
+        -4343,
+        10864,
+        455,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_268",
+      "role": "link",
+      "name": "Winner Announcement for North East Region – Quiz Competition",
+      "bbox": [
+        -3093,
+        10864,
+        433,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_269",
+      "role": "link",
+      "name": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "bbox": [
+        -1843,
+        10864,
+        475,
+        104
+      ]
+    },
+    {
+      "oracleId": "ax_270",
+      "role": "link",
+      "name": "Winner Announcement for Viksit Bharat Quiz 2026",
+      "bbox": [
+        -593,
+        10864,
+        432,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_271",
+      "role": "link",
+      "name": "Winners Announcement for Drug-Free India Awareness Quiz 2.0 and 3.0",
+      "bbox": [
+        657,
+        10864,
+        459,
+        104
+      ]
+    },
+    {
+      "oracleId": "ax_272",
+      "role": "link",
+      "name": "Winners Announcement for Essay Competition on North East India",
+      "bbox": [
+        1907,
+        10864,
+        455,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_273",
+      "role": "link",
+      "name": "Winner Announcement for North East Region – Quiz Competition",
+      "bbox": [
+        3157,
+        10864,
+        433,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_274",
+      "role": "link",
+      "name": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "bbox": [
+        4407,
+        10864,
+        475,
+        104
+      ]
+    },
+    {
+      "oracleId": "ax_275",
+      "role": "link",
+      "name": "Winner Announcement for Viksit Bharat Quiz 2026",
+      "bbox": [
+        5657,
+        10864,
+        432,
+        68
+      ]
+    },
+    {
+      "oracleId": "ax_276",
+      "role": "link",
+      "name": "Winners Announcement for Drug-Free India Awareness Quiz 2.0 and 3.0",
+      "bbox": [
+        6907,
+        10864,
+        459,
+        104
+      ]
+    },
+    {
+      "oracleId": "ax_277",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        -2058,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_278",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        -1635,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_279",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        -1212,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_280",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        -789,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_281",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        -366,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_282",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        57,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_283",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        480,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_284",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        903,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_285",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        1326,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_286",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        1749,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_287",
+      "role": "link",
+      "name": "View",
+      "bbox": [
+        2172,
+        11910,
+        90,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_288",
+      "role": "link",
+      "name": "Andaman & Nicobar",
+      "bbox": [
+        390,
+        12380,
+        153,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_289",
+      "role": "link",
+      "name": "Arunachal Pradesh",
+      "bbox": [
+        712,
+        12385,
+        146,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_290",
+      "role": "link",
+      "name": "Assam",
+      "bbox": [
+        1077,
+        12385,
+        52,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_291",
+      "role": "link",
+      "name": "Chandigarh",
+      "bbox": [
+        422,
+        12631,
+        89,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_292",
+      "role": "link",
+      "name": "Chhattisgarh",
+      "bbox": [
+        736,
+        12636,
+        99,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_293",
+      "role": "link",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "bbox": [
+        997,
+        12631,
+        213,
+        37
+      ]
+    },
+    {
+      "oracleId": "ax_294",
+      "role": "link",
+      "name": "Goa",
+      "bbox": [
+        1421,
+        12380,
+        31,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_295",
+      "role": "link",
+      "name": "Gujarat",
+      "bbox": [
+        1727,
+        12385,
+        56,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_296",
+      "role": "link",
+      "name": "Haryana",
+      "bbox": [
+        2042,
+        12380,
+        63,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_297",
+      "role": "link",
+      "name": "Himachal Pradesh",
+      "bbox": [
+        1367,
+        12636,
+        139,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_298",
+      "role": "link",
+      "name": "Jharkhand",
+      "bbox": [
+        1715,
+        12636,
+        81,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_299",
+      "role": "link",
+      "name": "Jammu & Kashmir",
+      "bbox": [
+        2003,
+        12636,
+        140,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_300",
+      "role": "link",
+      "name": "Karnataka",
+      "bbox": [
+        2368,
+        12380,
+        77,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_301",
+      "role": "link",
+      "name": "Ladakh",
+      "bbox": [
+        2697,
+        12385,
+        56,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_302",
+      "role": "link",
+      "name": "Lakshadweep",
+      "bbox": [
+        2991,
+        12386,
+        105,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_303",
+      "role": "link",
+      "name": "Maharashtra",
+      "bbox": [
+        2359,
+        12637,
+        95,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_304",
+      "role": "link",
+      "name": "Manipur",
+      "bbox": [
+        2694,
+        12632,
+        62,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_305",
+      "role": "link",
+      "name": "Mizoram",
+      "bbox": [
+        3011,
+        12637,
+        65,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_306",
+      "role": "link",
+      "name": "Madhya Pradesh",
+      "bbox": [
+        3313,
+        12373,
+        127,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_307",
+      "role": "link",
+      "name": "Nagaland",
+      "bbox": [
+        3659,
+        12385,
+        72,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_308",
+      "role": "link",
+      "name": "Odisha",
+      "bbox": [
+        3986,
+        12386,
+        54,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_309",
+      "role": "link",
+      "name": "Puducherry",
+      "bbox": [
+        3332,
+        12638,
+        89,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_310",
+      "role": "link",
+      "name": "Rajasthan",
+      "bbox": [
+        3657,
+        12629,
+        76,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_311",
+      "role": "link",
+      "name": "Sikkim",
+      "bbox": [
+        3988,
+        12638,
+        52,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_312",
+      "role": "link",
+      "name": "Tamil Nadu",
+      "bbox": [
+        4304,
+        12385,
+        85,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_313",
+      "role": "link",
+      "name": "Tripura",
+      "bbox": [
+        4638,
+        12380,
+        54,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_314",
+      "role": "link",
+      "name": "Uttar Pradesh",
+      "bbox": [
+        4931,
+        12385,
+        105,
+        18
+      ]
+    },
+    {
+      "oracleId": "ax_315",
+      "role": "link",
+      "name": "Uttarakhand",
+      "bbox": [
+        4300,
+        12631,
+        93,
+        18
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9876543210",
+      "text": "Helpline 9876543210",
+      "bbox": [
+        35,
+        4622,
+        209,
+        37
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91-98765-43210",
+      "text": "Alternate contact +91-98765-43210",
+      "bbox": [
+        -994,
+        2443,
+        347,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "f.sheikh@mail.example.co.in",
+      "text": "Write to f.sheikh@mail.example.co.in",
+      "bbox": [
+        1208,
+        6,
+        42,
+        32
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "123456789012",
+      "text": "Aadhaar 123456789012 linked to this account",
+      "bbox": [
+        -924,
+        2384,
+        347,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "AAACR5055K",
+      "text": "PAN AAACR5055K",
+      "bbox": [
+        965,
+        8202,
+        260,
+        58
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "5500 0000 0000 0004",
+      "text": "Card on file 5500 0000 0000 0004",
+      "bbox": [
+        -301,
+        2443,
+        347,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one-time password 4821",
+      "text": "one-time password 4821 sent to your phone",
+      "bbox": [
+        457,
+        925,
+        612,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Fatima Sheikh",
+      "text": "Signed in as Fatima Sheikh",
+      "bbox": [
+        46,
+        2443,
+        347,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "bbox": [
+        45,
+        2378,
+        342,
+        53
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "f.sheikh@mail.example.co.in",
+      "text": "Grievance cell f.sheikh@mail.example.co.in",
+      "bbox": [
+        -1618,
+        5272,
+        331,
+        37
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "GOVERNMENT OF INDIA",
+      "truthId": null
+    },
+    {
+      "text": "Skip to main content",
+      "truthId": null
+    },
+    {
+      "text": "English language",
+      "truthId": null
+    },
+    {
+      "text": "Accessibility button",
+      "truthId": null
+    },
+    {
+      "text": "Follow us Write to f.sheikh@mail.example.co.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Search by Title",
+      "truthId": null
+    },
+    {
+      "text": "All Categories Do/Task Discuss Poll/Survey Blog Talk Quiz Prime Campaigns Pledge Podcast Media Periodicals",
+      "truthId": null
+    },
+    {
+      "text": "op",
+      "truthId": null
+    },
+    {
+      "text": "Main Menu",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "Pause",
+      "truthId": null
+    },
+    {
+      "text": "6,47,11,404 MYGOV SAATHIS",
+      "truthId": null
+    },
+    {
+      "text": "Join MyGov on WhatsApp",
+      "truthId": null
+    },
+    {
+      "text": "Mann Ki Baat Highlights - June 2026",
+      "truthId": null
+    },
+    {
+      "text": "If you face any issue on the new MyGov site, email us at grievance@mygov.in with the issue details and screenshots.",
+      "truthId": null
+    },
+    {
+      "text": "Pause",
+      "truthId": null
+    },
+    {
+      "text": "activity tabs",
+      "truthId": null
+    },
+    {
+      "text": "Do/Task 17",
+      "truthId": null
+    },
+    {
+      "text": "Discuss 3",
+      "truthId": null
+    },
+    {
+      "text": "Poll/Survey",
+      "truthId": null
+    },
+    {
+      "text": "Blog 1",
+      "truthId": null
+    },
+    {
+      "text": "Talk 1",
+      "truthId": null
+    },
+    {
+      "text": "Quiz 40",
+      "truthId": null
+    },
+    {
+      "text": "MG Prime 5",
+      "truthId": null
+    },
+    {
+      "text": "Campaigns",
+      "truthId": null
+    },
+    {
+      "text": "Pledge 78",
+      "truthId": null
+    },
+    {
+      "text": "Podcast",
+      "truthId": null
+    },
+    {
+      "text": "view-changer",
+      "truthId": null
+    },
+    {
+      "text": "one-time password 4821 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "DPDP Act Logo & Tagline Contest",
+      "truthId": null
+    },
+    {
+      "text": "Make Your Contribution",
+      "truthId": null
+    },
+    {
+      "text": "Share",
+      "truthId": null
+    },
+    {
+      "text": "DPDP Mascot Design with a Name Contest",
+      "truthId": null
+    },
+    {
+      "text": "Make Your Contribution",
+      "truthId": null
+    },
+    {
+      "text": "Share",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "1,953 View All",
+      "truthId": null
+    },
+    {
+      "text": "Registered address Flat 3B, 22 Gandhi Marg, New Delhi 110001",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91-98765-43210",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 5500 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Fatima Sheikh",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Watch Now",
+      "truthId": null
+    },
+    {
+      "text": "Read",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Aadhaar 123456789012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View PDF",
+      "truthId": null
+    },
+    {
+      "text": "Ebook",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Prev",
+      "truthId": null
+    },
+    {
+      "text": "Share",
+      "truthId": null
+    },
+    {
+      "text": "Download",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View Latest Edition",
+      "truthId": null
+    },
+    {
+      "text": "View E-book",
+      "truthId": null
+    },
+    {
+      "text": "View All Helpline 9876543210",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "View Latest Edition",
+      "truthId": null
+    },
+    {
+      "text": "View E-book",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View Latest Edition",
+      "truthId": null
+    },
+    {
+      "text": "View E-book",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Inviting Ideas on AI and Semiconductors Grievance cell f.sheikh@mail.example.co.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Video Contest on Role of e-sakshya in Investigation",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "truthId": null
+    },
+    {
+      "text": "DPDP Act Logo & Tagline Contest",
+      "truthId": null
+    },
+    {
+      "text": "DPDP Mascot Design with a Name Contest",
+      "truthId": null
+    },
+    {
+      "text": "Inviting Ideas on AI and Semiconductors",
+      "truthId": null
+    },
+    {
+      "text": "Video Contest on Role of e-sakshya in Investigation",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "truthId": null
+    },
+    {
+      "text": "DPDP Act Logo & Tagline Contest",
+      "truthId": null
+    },
+    {
+      "text": "DPDP Mascot Design with a Name Contest",
+      "truthId": null
+    },
+    {
+      "text": "Inviting Ideas on AI and Semiconductors",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "Share your Views",
+      "truthId": null
+    },
+    {
+      "text": "Survey",
+      "truthId": null
+    },
+    {
+      "text": "Play Now",
+      "truthId": null
+    },
+    {
+      "text": "Participate Now",
+      "truthId": null
+    },
+    {
+      "text": "Take Pledge",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Participate Now",
+      "truthId": null
+    },
+    {
+      "text": "Participate Now",
+      "truthId": null
+    },
+    {
+      "text": "Participate Now",
+      "truthId": null
+    },
+    {
+      "text": "Participate Now PAN AAACR5055K",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Nutrient & Fertilizer Management for Mustard Crop With Anil Kumar Singh",
+      "truthId": null
+    },
+    {
+      "text": "Organic Manures and Their Application With Dr. Dinesh Kumar, Scientist, IARI",
+      "truthId": null
+    },
+    {
+      "text": "Startup Hi Kyu? Listen to this #podcast now!",
+      "truthId": null
+    },
+    {
+      "text": "Dekho Apna Desh Webinar : Journey to Himalaya – Unique experiences with Sh. J.P. Pandey",
+      "truthId": null
+    },
+    {
+      "text": "Scientific cultivation of potatoes' With Dr. R. B. Verma",
+      "truthId": null
+    },
+    {
+      "text": "Nutrient & Fertilizer Management for Mustard Crop With Anil Kumar Singh",
+      "truthId": null
+    },
+    {
+      "text": "Organic Manures and Their Application With Dr. Dinesh Kumar, Scientist, IARI",
+      "truthId": null
+    },
+    {
+      "text": "Startup Hi Kyu? Listen to this #podcast now!",
+      "truthId": null
+    },
+    {
+      "text": "Dekho Apna Desh Webinar : Journey to Himalaya – Unique experiences with Sh. J.P. Pandey",
+      "truthId": null
+    },
+    {
+      "text": "Scientific cultivation of potatoes' With Dr. R. B. Verma",
+      "truthId": null
+    },
+    {
+      "text": "Nutrient & Fertilizer Management for Mustard Crop With Anil Kumar Singh",
+      "truthId": null
+    },
+    {
+      "text": "Organic Manures and Their Application With Dr. Dinesh Kumar, Scientist, IARI",
+      "truthId": null
+    },
+    {
+      "text": "Startup Hi Kyu? Listen to this #podcast now!",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Latest Blog",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement",
+      "truthId": null
+    },
+    {
+      "text": "Winners Announcement for Drug-Free India Awareness Quiz 2.0 and 3.0",
+      "truthId": null
+    },
+    {
+      "text": "Winners Announcement for Essay Competition on North East India",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for North East Region – Quiz Competition",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for Viksit Bharat Quiz 2026",
+      "truthId": null
+    },
+    {
+      "text": "Winners Announcement for Drug-Free India Awareness Quiz 2.0 and 3.0",
+      "truthId": null
+    },
+    {
+      "text": "Winners Announcement for Essay Competition on North East India",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for North East Region – Quiz Competition",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for National Level ISEA Cyber Awareness Grand Challenge",
+      "truthId": null
+    },
+    {
+      "text": "Winner Announcement for Viksit Bharat Quiz 2026",
+      "truthId": null
+    },
+    {
+      "text": "Winners Announcement for Drug-Free India Awareness Quiz 2.0 and 3.0",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "View",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Andaman & Nicobar",
+      "truthId": null
+    },
+    {
+      "text": "Arunachal Pradesh",
+      "truthId": null
+    },
+    {
+      "text": "Assam",
+      "truthId": null
+    },
+    {
+      "text": "Chandigarh",
+      "truthId": null
+    },
+    {
+      "text": "Chhattisgarh",
+      "truthId": null
+    },
+    {
+      "text": "Dadra and Nagar Haveli and Daman and Diu",
+      "truthId": null
+    },
+    {
+      "text": "Goa",
+      "truthId": null
+    },
+    {
+      "text": "Gujarat",
+      "truthId": null
+    },
+    {
+      "text": "Haryana",
+      "truthId": null
+    },
+    {
+      "text": "Himachal Pradesh",
+      "truthId": null
+    },
+    {
+      "text": "Jharkhand",
+      "truthId": null
+    },
+    {
+      "text": "Jammu & Kashmir",
+      "truthId": null
+    },
+    {
+      "text": "Karnataka",
+      "truthId": null
+    },
+    {
+      "text": "Ladakh",
+      "truthId": null
+    },
+    {
+      "text": "Lakshadweep",
+      "truthId": null
+    },
+    {
+      "text": "Maharashtra",
+      "truthId": null
+    },
+    {
+      "text": "Manipur",
+      "truthId": null
+    },
+    {
+      "text": "Mizoram",
+      "truthId": null
+    },
+    {
+      "text": "Madhya Pradesh",
+      "truthId": null
+    },
+    {
+      "text": "Nagaland",
+      "truthId": null
+    },
+    {
+      "text": "Odisha",
+      "truthId": null
+    },
+    {
+      "text": "Puducherry",
+      "truthId": null
+    },
+    {
+      "text": "Rajasthan",
+      "truthId": null
+    },
+    {
+      "text": "Sikkim",
+      "truthId": null
+    },
+    {
+      "text": "Tamil Nadu",
+      "truthId": null
+    },
+    {
+      "text": "Tripura",
+      "truthId": null
+    },
+    {
+      "text": "Uttar Pradesh",
+      "truthId": null
+    },
+    {
+      "text": "Uttarakhand",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "View More",
+      "truthId": null
+    },
+    {
+      "text": "‹",
+      "truthId": null
+    },
+    {
+      "text": "›",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "Groups",
+      "truthId": null
+    },
+    {
+      "text": "Do/Task",
+      "truthId": null
+    },
+    {
+      "text": "Discuss",
+      "truthId": null
+    },
+    {
+      "text": "Blog",
+      "truthId": null
+    },
+    {
+      "text": "Poll/Survey",
+      "truthId": null
+    },
+    {
+      "text": "Talk",
+      "truthId": null
+    },
+    {
+      "text": "Quiz",
+      "truthId": null
+    },
+    {
+      "text": "MG Prime",
+      "truthId": null
+    },
+    {
+      "text": "Campaigns",
+      "truthId": null
+    },
+    {
+      "text": "Pledge",
+      "truthId": null
+    },
+    {
+      "text": "Podcast",
+      "truthId": null
+    },
+    {
+      "text": "Media",
+      "truthId": null
+    },
+    {
+      "text": "Periodicals",
+      "truthId": null
+    },
+    {
+      "text": "MyGov: An Overview",
+      "truthId": null
+    },
+    {
+      "text": "Associate with MyGov",
+      "truthId": null
+    },
+    {
+      "text": "Work at MyGov",
+      "truthId": null
+    },
+    {
+      "text": "Circulars",
+      "truthId": null
+    },
+    {
+      "text": "Pulse Newsletter",
+      "truthId": null
+    },
+    {
+      "text": "Tenders",
+      "truthId": null
+    },
+    {
+      "text": "Weekly Newsletter",
+      "truthId": null
+    },
+    {
+      "text": "Meity Dashboard",
+      "truthId": null
+    },
+    {
+      "text": "Sectors",
+      "truthId": null
+    },
+    {
+      "text": "Skills",
+      "truthId": null
+    },
+    {
+      "text": "Area of Interest",
+      "truthId": null
+    },
+    {
+      "text": "Age Group",
+      "truthId": null
+    },
+    {
+      "text": "National Events",
+      "truthId": null
+    },
+    {
+      "text": "Archive Sites",
+      "truthId": null
+    },
+    {
+      "text": "Contact Us",
+      "truthId": null
+    },
+    {
+      "text": "FAQ",
+      "truthId": null
+    },
+    {
+      "text": "Feedback",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Link To Us",
+      "truthId": null
+    },
+    {
+      "text": "Public Grievance",
+      "truthId": null
+    },
+    {
+      "text": "Site Map",
+      "truthId": null
+    },
+    {
+      "text": "Terms & Conditions",
+      "truthId": null
+    },
+    {
+      "text": "Usage of Aadhaar",
+      "truthId": null
+    },
+    {
+      "text": "Web Information Manager",
+      "truthId": null
+    },
+    {
+      "text": "ICC",
+      "truthId": null
+    },
+    {
+      "text": "MyGov Social",
+      "truthId": null
+    },
+    {
+      "text": "Points and Badges",
+      "truthId": null
+    },
+    {
+      "text": "Website Policies",
+      "truthId": null
+    },
+    {
+      "text": "MyGov Quiz",
+      "truthId": null
+    },
+    {
+      "text": "Transforming India",
+      "truthId": null
+    },
+    {
+      "text": "MyGov Innovation",
+      "truthId": null
+    },
+    {
+      "text": "MyGov Pledge",
+      "truthId": null
+    },
+    {
+      "text": "MyGov Blog",
+      "truthId": null
+    },
+    {
+      "text": "Self4Society",
+      "truthId": null
+    },
+    {
+      "text": "Campus Program",
+      "truthId": null
+    },
+    {
+      "text": "Saathi",
+      "truthId": null
+    },
+    {
+      "text": "Twitter 33.11 + Lakh Followers",
+      "truthId": null
+    },
+    {
+      "text": "Facebook 15.14 + Lakh Followers",
+      "truthId": null
+    },
+    {
+      "text": "Instagram 30.73 + Lakh Followers",
+      "truthId": null
+    },
+    {
+      "text": "YouTube 7.43 + Lakh Subscribers",
+      "truthId": null
+    },
+    {
+      "text": "LinkedIn 1.63 + Lakh Followers",
+      "truthId": null
+    },
+    {
+      "text": "Messenger 1.60 + Lakh Followers",
+      "truthId": null
+    },
+    {
+      "text": "WhatsApp 910.05 + Lakh Followers",
+      "truthId": null
+    },
+    {
+      "text": "DailyHunt 7.2 + K Followers",
+      "truthId": null
+    },
+    {
+      "text": "Public 85.5 + K Followers",
+      "truthId": null
+    },
+    {
+      "text": "ShareChat 82.22K Followers",
+      "truthId": null
+    },
+    {
+      "text": "Snapchat",
+      "truthId": null
+    },
+    {
+      "text": "View All",
+      "truthId": null
+    },
+    {
+      "text": "MyGov",
+      "truthId": null
+    },
+    {
+      "text": "MyGov",
+      "truthId": null
+    },
+    {
+      "text": "Ministry of Electronics & Information Technology",
+      "truthId": null
+    },
+    {
+      "text": "Government of India",
+      "truthId": null
+    },
+    {
+      "text": "National Informatics Centre.",
+      "truthId": null
+    },
+    {
+      "text": "Certified Quality Website",
+      "truthId": null
+    },
+    {
+      "text": "Latest Activities",
+      "truthId": null
+    },
+    {
+      "text": "What's New",
+      "truthId": null
+    },
+    {
+      "text": "Event Calendar",
+      "truthId": null
+    },
+    {
+      "text": "PM Events",
+      "truthId": null
+    },
+    {
+      "text": "Suggest an Activity",
+      "truthId": null
+    },
+    {
+      "text": "Top",
+      "truthId": null
+    },
+    {
+      "text": "cookieconsent",
+      "truthId": null
+    },
+    {
+      "text": "Cookie Settings",
+      "truthId": null
+    },
+    {
+      "text": "Customize Cookies",
+      "truthId": null
+    },
+    {
+      "text": "Decline optional cookies",
+      "truthId": null
+    },
+    {
+      "text": "Accept All Cookies",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "bluford.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9876543210",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9876543210"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "version": "1.0",
+  "annotatedAt": "2026-09-06T06:57:07.978Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "screens": 42,
+  "piiSpans": 400,
+  "oracleElements": 3964,
+  "rows": [
+    {
+      "id": "gov-india-home",
+      "elements": 167,
+      "pii": 9
+    },
+    {
+      "id": "gov-mygov",
+      "elements": 315,
+      "pii": 10
+    },
+    {
+      "id": "gov-uidai",
+      "elements": 94,
+      "pii": 10
+    },
+    {
+      "id": "gov-incometax",
+      "elements": 96,
+      "pii": 10
+    },
+    {
+      "id": "gov-epfo",
+      "elements": 107,
+      "pii": 10
+    },
+    {
+      "id": "gov-pmkisan",
+      "elements": 57,
+      "pii": 9
+    },
+    {
+      "id": "gov-passport",
+      "elements": 50,
+      "pii": 10
+    },
+    {
+      "id": "gov-uk-home",
+      "elements": 88,
+      "pii": 10
+    },
+    {
+      "id": "gov-uk-benefits",
+      "elements": 56,
+      "pii": 10
+    },
+    {
+      "id": "gov-usa-home",
+      "elements": 56,
+      "pii": 10
+    },
+    {
+      "id": "gov-digilocker",
+      "elements": 131,
+      "pii": 10
+    },
+    {
+      "id": "fin-rbi",
+      "elements": 129,
+      "pii": 10
+    },
+    {
+      "id": "fin-sebi",
+      "elements": 381,
+      "pii": 10
+    },
+    {
+      "id": "fin-npci",
+      "elements": 77,
+      "pii": 9
+    },
+    {
+      "id": "fin-icici",
+      "elements": 186,
+      "pii": 10
+    },
+    {
+      "id": "fin-hdfc",
+      "elements": 152,
+      "pii": 10
+    },
+    {
+      "id": "fin-irdai",
+      "elements": 211,
+      "pii": 10
+    },
+    {
+      "id": "shop-books",
+      "elements": 114,
+      "pii": 10
+    },
+    {
+      "id": "shop-books-category",
+      "elements": 115,
+      "pii": 10
+    },
+    {
+      "id": "shop-webscraper",
+      "elements": 40,
+      "pii": 10
+    },
+    {
+      "id": "shop-webscraper-computers",
+      "elements": 156,
+      "pii": 10
+    },
+    {
+      "id": "shop-saucedemo",
+      "elements": 3,
+      "pii": 10
+    },
+    {
+      "id": "shop-demoblaze",
+      "elements": 33,
+      "pii": 10
+    },
+    {
+      "id": "shop-automationexercise",
+      "elements": 75,
+      "pii": 8
+    },
+    {
+      "id": "shop-scrapingcourse",
+      "elements": 62,
+      "pii": 10
+    },
+    {
+      "id": "form-demoqa",
+      "elements": 19,
+      "pii": 7
+    },
+    {
+      "id": "form-expandtesting",
+      "elements": 39,
+      "pii": 10
+    },
+    {
+      "id": "form-herokuapp-login",
+      "elements": 4,
+      "pii": 7
+    },
+    {
+      "id": "form-httpbin",
+      "elements": 15,
+      "pii": 7
+    },
+    {
+      "id": "form-w3-html",
+      "elements": 258,
+      "pii": 10
+    },
+    {
+      "id": "spa-todomvc-react",
+      "elements": 12,
+      "pii": 10
+    },
+    {
+      "id": "spa-todomvc-vue",
+      "elements": 3,
+      "pii": 8
+    },
+    {
+      "id": "spa-realworld",
+      "elements": 41,
+      "pii": 10
+    },
+    {
+      "id": "spa-react-shopping",
+      "elements": 26,
+      "pii": 10
+    },
+    {
+      "id": "dash-adminlte",
+      "elements": 78,
+      "pii": 10
+    },
+    {
+      "id": "dash-adminlte-tables",
+      "elements": 62,
+      "pii": 10
+    },
+    {
+      "id": "dash-coreui",
+      "elements": 41,
+      "pii": 9
+    },
+    {
+      "id": "dash-tabler",
+      "elements": 97,
+      "pii": 10
+    },
+    {
+      "id": "dash-sbadmin",
+      "elements": 19,
+      "pii": 7
+    },
+    {
+      "id": "dash-gentelella",
+      "elements": 70,
+      "pii": 10
+    },
+    {
+      "id": "gov-mca",
+      "elements": 85,
+      "pii": 10
+    },
+    {
+      "id": "gov-services",
+      "elements": 144,
+      "pii": 10
+    }
+  ]
+}

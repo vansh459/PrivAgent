@@ -1,0 +1,385 @@
+{
+  "id": "form-httpbin",
+  "type": "form",
+  "sourceUrl": "https://httpbin.org/forms/post",
+  "capturedAt": "2026-09-06T06:04:09.466Z",
+  "annotatedAt": "2026-09-06T06:56:56.351Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 868,
+  "persona": "Vikram Deshpande",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "button",
+      "name": "Submit order Helpline 9123456780",
+      "bbox": [
+        8,
+        831,
+        221,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "textbox",
+      "name": "Customer name:",
+      "bbox": [
+        117,
+        253,
+        170,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "textbox",
+      "name": "Telephone:",
+      "bbox": [
+        83,
+        290,
+        170,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "textbox",
+      "name": "E-mail address:",
+      "bbox": [
+        112,
+        327,
+        170,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "radio",
+      "name": "Small",
+      "bbox": [
+        29,
+        407,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "radio",
+      "name": "Medium",
+      "bbox": [
+        29,
+        443,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "radio",
+      "name": "Large",
+      "bbox": [
+        29,
+        479,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "checkbox",
+      "name": "Bacon",
+      "bbox": [
+        28,
+        567,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "checkbox",
+      "name": "Extra Cheese",
+      "bbox": [
+        28,
+        603,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "checkbox",
+      "name": "Onion",
+      "bbox": [
+        28,
+        639,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "checkbox",
+      "name": "Mushroom",
+      "bbox": [
+        28,
+        675,
+        13,
+        13
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "textbox",
+      "name": "Delivery instructions:",
+      "bbox": [
+        151,
+        775,
+        168,
+        36
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "button",
+      "name": "Show time picker",
+      "bbox": [
+        215,
+        737,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "spinbutton",
+      "name": "Hours Hours",
+      "bbox": [
+        167,
+        738,
+        17,
+        17
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "spinbutton",
+      "name": "Minutes Minutes",
+      "bbox": [
+        191,
+        738,
+        17,
+        17
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "9123456780",
+      "text": "Helpline 9123456780",
+      "bbox": [
+        8,
+        831,
+        221,
+        21
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "022 2789 4561",
+      "text": "Alternate contact 022 2789 4561",
+      "bbox": [
+        8,
+        204,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "5678 1234 9012",
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "bbox": [
+        8,
+        164,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "4012 8888 8888 1881",
+      "text": "Card on file 4012 8888 8888 1881",
+      "bbox": [
+        8,
+        125,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "OTP is 135790",
+      "text": "OTP is 135790 sent to your phone",
+      "bbox": [
+        8,
+        86,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Vikram Deshpande",
+      "text": "Signed in as Vikram Deshpande",
+      "bbox": [
+        8,
+        47,
+        1249,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "Shop 6, 41 Linking Road, Mumbai 400050",
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "bbox": [
+        8,
+        8,
+        1249,
+        33
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Registered address Shop 6, 41 Linking Road, Mumbai 400050",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Signed in as Vikram Deshpande",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "OTP is 135790 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Card on file 4012 8888 8888 1881",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 5678 1234 9012 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Alternate contact 022 2789 4561",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Customer name:",
+      "truthId": null
+    },
+    {
+      "text": "Telephone:",
+      "truthId": null
+    },
+    {
+      "text": "E-mail address:",
+      "truthId": null
+    },
+    {
+      "text": "Small",
+      "truthId": null
+    },
+    {
+      "text": "Medium",
+      "truthId": null
+    },
+    {
+      "text": "Large",
+      "truthId": null
+    },
+    {
+      "text": "Bacon",
+      "truthId": null
+    },
+    {
+      "text": "Extra Cheese",
+      "truthId": null
+    },
+    {
+      "text": "Onion",
+      "truthId": null
+    },
+    {
+      "text": "Mushroom",
+      "truthId": null
+    },
+    {
+      "text": "Preferred delivery time:",
+      "truthId": null
+    },
+    {
+      "text": "Delivery instructions:",
+      "truthId": null
+    },
+    {
+      "text": "Submit order Helpline 9123456780",
+      "truthId": "pii_1"
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1117,
+          16,
+          132,
+          162
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          927,
+          190,
+          322,
+          72
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 9123456780",
+        "bbox": [
+          927,
+          274,
+          322,
+          72
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "9123456780"
+        }
+      }
+    ]
+  }
+}

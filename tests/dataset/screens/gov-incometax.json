@@ -1,0 +1,2040 @@
+{
+  "id": "gov-incometax",
+  "type": "portal",
+  "sourceUrl": "https://www.incometax.gov.in/iec/foportal/",
+  "capturedAt": "2026-09-06T05:58:53.956Z",
+  "annotatedAt": "2026-09-06T06:56:35.101Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "documentHeight": 5630,
+  "persona": "Priya Nair",
+  "elements": [
+    {
+      "oracleId": "ax_1",
+      "role": "link",
+      "name": "Skip to main content",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "oracleId": "ax_2",
+      "role": "link",
+      "name": "Home | Income Tax Department",
+      "bbox": [
+        101,
+        66,
+        240,
+        49
+      ]
+    },
+    {
+      "oracleId": "ax_3",
+      "role": "button",
+      "name": "Reduce font size",
+      "bbox": [
+        657,
+        80,
+        14,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_4",
+      "role": "button",
+      "name": "Increase font size",
+      "bbox": [
+        735,
+        80,
+        18,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_5",
+      "role": "link",
+      "name": "Login",
+      "bbox": [
+        829,
+        74,
+        63,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_6",
+      "role": "button",
+      "name": "Default font size",
+      "bbox": [
+        691,
+        80,
+        24,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_7",
+      "role": "button",
+      "name": "Switch to dark theme",
+      "bbox": [
+        791,
+        80,
+        18,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_8",
+      "role": "link",
+      "name": "Register Write to priya_nair@example.gov.in",
+      "bbox": [
+        904,
+        74,
+        269,
+        30
+      ]
+    },
+    {
+      "oracleId": "ax_9",
+      "role": "link",
+      "name": "Home",
+      "bbox": [
+        102,
+        95,
+        37,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_10",
+      "role": "menuitem",
+      "name": "Individual/HUF",
+      "bbox": [
+        182,
+        95,
+        92,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_11",
+      "role": "menuitem",
+      "name": "Company",
+      "bbox": [
+        330,
+        95,
+        60,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_12",
+      "role": "menuitem",
+      "name": "Non-Company",
+      "bbox": [
+        446,
+        95,
+        90,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_13",
+      "role": "menuitem",
+      "name": "Tax Professionals & Others",
+      "bbox": [
+        593,
+        95,
+        169,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_14",
+      "role": "link",
+      "name": "Downloads",
+      "bbox": [
+        818,
+        95,
+        69,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_15",
+      "role": "link",
+      "name": "Help",
+      "bbox": [
+        930,
+        95,
+        29,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_16",
+      "role": "link",
+      "name": "Open Search box",
+      "bbox": [
+        1134,
+        95,
+        40,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_17",
+      "role": "link",
+      "name": "youtube",
+      "bbox": [
+        69,
+        5215,
+        35,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_18",
+      "role": "link",
+      "name": "twitter",
+      "bbox": [
+        109,
+        5215,
+        35,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_19",
+      "role": "link",
+      "name": "facebook",
+      "bbox": [
+        150,
+        5215,
+        35,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_20",
+      "role": "link",
+      "name": "whatsapp",
+      "bbox": [
+        191,
+        5215,
+        35,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_21",
+      "role": "link",
+      "name": "instagram",
+      "bbox": [
+        232,
+        5215,
+        30,
+        28
+      ]
+    },
+    {
+      "oracleId": "ax_22",
+      "role": "link",
+      "name": "Emblem of Government of India",
+      "bbox": [
+        51,
+        5547,
+        137,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_23",
+      "role": "button",
+      "name": "Call Us button collapsed",
+      "bbox": [
+        432,
+        80,
+        77,
+        26
+      ]
+    },
+    {
+      "oracleId": "ax_24",
+      "role": "button",
+      "name": "Open Search box",
+      "bbox": [
+        1134,
+        87,
+        40,
+        34
+      ]
+    },
+    {
+      "oracleId": "ax_25",
+      "role": "link",
+      "name": "NUDGE Campaign",
+      "bbox": [
+        97,
+        1433,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_26",
+      "role": "link",
+      "name": "e-Pay Tax",
+      "bbox": [
+        316,
+        1433,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_27",
+      "role": "link",
+      "name": "e-Verify Return",
+      "bbox": [
+        535,
+        1433,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_28",
+      "role": "link",
+      "name": "Instant E-PAN",
+      "bbox": [
+        755,
+        1433,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_29",
+      "role": "link",
+      "name": "Tax Calendar",
+      "bbox": [
+        974,
+        1433,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_30",
+      "role": "link",
+      "name": "Income Tax Calculator",
+      "bbox": [
+        97,
+        1604,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_31",
+      "role": "link",
+      "name": "Know Tax Payment Status",
+      "bbox": [
+        316,
+        1604,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_32",
+      "role": "link",
+      "name": "Link Aadhaar/View Status",
+      "bbox": [
+        535,
+        1604,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_33",
+      "role": "link",
+      "name": "Comply to Notice",
+      "bbox": [
+        755,
+        1604,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_34",
+      "role": "link",
+      "name": "Authenticate notice/order issued by ITD",
+      "bbox": [
+        974,
+        1604,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_35",
+      "role": "link",
+      "name": "Verify PAN Status",
+      "bbox": [
+        97,
+        1775,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_36",
+      "role": "link",
+      "name": "Verify Service Request",
+      "bbox": [
+        316,
+        1775,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_37",
+      "role": "link",
+      "name": "Know Your JAO",
+      "bbox": [
+        535,
+        1775,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_38",
+      "role": "link",
+      "name": "Know TAN Details",
+      "bbox": [
+        755,
+        1775,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_39",
+      "role": "link",
+      "name": "Download CSI File",
+      "bbox": [
+        974,
+        1775,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_40",
+      "role": "link",
+      "name": "Report Account Misuse",
+      "bbox": [
+        97,
+        1946,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_41",
+      "role": "link",
+      "name": "Submit Information on Tax Evasion or Benami Property",
+      "bbox": [
+        316,
+        1946,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_42",
+      "role": "link",
+      "name": "Tax Information & Services",
+      "bbox": [
+        535,
+        1946,
+        219,
+        156
+      ]
+    },
+    {
+      "oracleId": "ax_43",
+      "role": "link",
+      "name": "View All Updates",
+      "bbox": [
+        557,
+        2912,
+        180,
+        48
+      ]
+    },
+    {
+      "oracleId": "ax_44",
+      "role": "button",
+      "name": "Go to Aug 2026",
+      "bbox": [
+        767,
+        3136,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_45",
+      "role": "button",
+      "name": "Go to Oct 2026",
+      "bbox": [
+        1133,
+        3136,
+        14,
+        14
+      ]
+    },
+    {
+      "oracleId": "ax_46",
+      "role": "button",
+      "name": "Events on September, 7 2026",
+      "bbox": [
+        769,
+        3253,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_47",
+      "role": "button",
+      "name": "Events on September, 14 2026",
+      "bbox": [
+        769,
+        3301,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_48",
+      "role": "button",
+      "name": "Events on September, 15 2026",
+      "bbox": [
+        824,
+        3301,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_49",
+      "role": "button",
+      "name": "Events on September, 30 2026",
+      "bbox": [
+        879,
+        3397,
+        40,
+        40
+      ]
+    },
+    {
+      "oracleId": "ax_50",
+      "role": "link",
+      "name": "View Full Tax Calendar",
+      "bbox": [
+        747,
+        3526,
+        419,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_51",
+      "role": "link",
+      "name": "About the Portal 1 of 10",
+      "bbox": [
+        356,
+        5224,
+        104,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_52",
+      "role": "link",
+      "name": "History of Direct Taxation 2 of 10",
+      "bbox": [
+        356,
+        5251,
+        162,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_53",
+      "role": "link",
+      "name": "Vision, Mission, Values 3 of 10",
+      "bbox": [
+        356,
+        5278,
+        148,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_54",
+      "role": "link",
+      "name": "Vision, Mission, Values (Hindi) 4 of 10",
+      "bbox": [
+        356,
+        5305,
+        196,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_55",
+      "role": "link",
+      "name": "Who We Are 5 of 10",
+      "bbox": [
+        356,
+        5332,
+        81,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_56",
+      "role": "link",
+      "name": "Right to Information 6 of 10",
+      "bbox": [
+        356,
+        5359,
+        127,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_57",
+      "role": "link",
+      "name": "Organization & Functions 7 of 10",
+      "bbox": [
+        356,
+        5386,
+        163,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_58",
+      "role": "link",
+      "name": "e-Filing Calendar 2026 8 of 10",
+      "bbox": [
+        356,
+        5413,
+        147,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_59",
+      "role": "link",
+      "name": "Tax Payer Charter 9 of 10",
+      "bbox": [
+        356,
+        5440,
+        117,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_60",
+      "role": "link",
+      "name": "Tax Payer Charter (Hindi) 10 of 10",
+      "bbox": [
+        356,
+        5467,
+        164,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_61",
+      "role": "link",
+      "name": "Helpdesk Numbers 1 of 4",
+      "bbox": [
+        573,
+        5224,
+        123,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_62",
+      "role": "link",
+      "name": "Grievances 2 of 4",
+      "bbox": [
+        573,
+        5251,
+        73,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_63",
+      "role": "link",
+      "name": "View Grievance 3 of 4",
+      "bbox": [
+        573,
+        5278,
+        101,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_64",
+      "role": "link",
+      "name": "Help 4 of 4",
+      "bbox": [
+        573,
+        5305,
+        30,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_65",
+      "role": "link",
+      "name": "Website Policies 1 of 4 Grievance cell priya_nair@example.gov.in",
+      "bbox": [
+        810,
+        5224,
+        382,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_66",
+      "role": "link",
+      "name": "Accessibility Statement 2 of 4",
+      "bbox": [
+        810,
+        5251,
+        150,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_67",
+      "role": "link",
+      "name": "Site Map 3 of 4",
+      "bbox": [
+        810,
+        5278,
+        57,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_68",
+      "role": "link",
+      "name": "Browser Support 4 of 4",
+      "bbox": [
+        810,
+        5305,
+        108,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_69",
+      "role": "link",
+      "name": "Income Tax India 1 of 3 Helpline 8765432109",
+      "bbox": [
+        1026,
+        5224,
+        251,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_70",
+      "role": "link",
+      "name": "Protean (previously NSDL)(link is external) 2 of 3",
+      "bbox": [
+        1026,
+        5251,
+        173,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_71",
+      "role": "link",
+      "name": "TRACES 3 of 3",
+      "bbox": [
+        1026,
+        5278,
+        58,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_72",
+      "role": "link",
+      "name": "Emblem of Government of India",
+      "bbox": [
+        51,
+        5536,
+        137,
+        42
+      ]
+    },
+    {
+      "oracleId": "ax_73",
+      "role": "button",
+      "name": "Previous notification",
+      "bbox": [
+        15,
+        145,
+        25,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_74",
+      "role": "button",
+      "name": "Next notification",
+      "bbox": [
+        1225,
+        145,
+        25,
+        12
+      ]
+    },
+    {
+      "oracleId": "ax_75",
+      "role": "button",
+      "name": "Previous",
+      "bbox": [
+        25,
+        429,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_76",
+      "role": "button",
+      "name": "Next PAN CDEFG1234H",
+      "bbox": [
+        1208,
+        429,
+        32,
+        32
+      ]
+    },
+    {
+      "oracleId": "ax_77",
+      "role": "link",
+      "name": "Read more about SMS Dear AAXXXXXX1R, File Early, Stay Relaxed! Your ITR for…",
+      "bbox": [
+        501,
+        2638,
+        87,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_78",
+      "role": "link",
+      "name": "Read more about SMS Dear AAXXXXXX1R, Zero tax doesn't exempt filing of ITR…",
+      "bbox": [
+        1047,
+        2638,
+        87,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_79",
+      "role": "link",
+      "name": "Taxpayer Voices",
+      "bbox": [
+        412,
+        4381,
+        210,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_80",
+      "role": "link",
+      "name": "Statistics",
+      "bbox": [
+        647,
+        4381,
+        210,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_81",
+      "role": "textbox",
+      "name": "",
+      "bbox": [
+        528,
+        70,
+        105,
+        25
+      ]
+    },
+    {
+      "oracleId": "ax_82",
+      "role": "tab",
+      "name": "Slide 1",
+      "bbox": [
+        592,
+        776,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_83",
+      "role": "tab",
+      "name": "Slide 2",
+      "bbox": [
+        612,
+        776,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_84",
+      "role": "tab",
+      "name": "Slide 3",
+      "bbox": [
+        632,
+        776,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_85",
+      "role": "tab",
+      "name": "Slide 4",
+      "bbox": [
+        652,
+        776,
+        20,
+        20
+      ]
+    },
+    {
+      "oracleId": "ax_86",
+      "role": "link",
+      "name": "Read more about NewsCBDT has issued Notification No. 114/2026 [F. No. 370142/18/2026-TPL], notifying the rules and prescribed forms under the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026. Click here",
+      "bbox": [
+        501,
+        2439,
+        87,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_87",
+      "role": "link",
+      "name": "Read more about NewsOffline utility of ITR-6 for AY 2026-27 is available now for filing. Click here",
+      "bbox": [
+        1047,
+        2439,
+        87,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_88",
+      "role": "link",
+      "name": "Read more about E-Mail File your ITR for AY 2026-27",
+      "bbox": [
+        501,
+        2837,
+        87,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_89",
+      "role": "link",
+      "name": "Read more about E-Mail File your ITR for AY 2026-27",
+      "bbox": [
+        1047,
+        2837,
+        87,
+        21
+      ]
+    },
+    {
+      "oracleId": "ax_90",
+      "role": "link",
+      "name": "How to ...Videos selected",
+      "bbox": [
+        108,
+        3831,
+        300,
+        44
+      ]
+    },
+    {
+      "oracleId": "ax_91",
+      "role": "link",
+      "name": "Click here",
+      "bbox": [
+        862,
+        2403,
+        65,
+        16
+      ]
+    },
+    {
+      "oracleId": "ax_92",
+      "role": "link",
+      "name": "How to file Rectification Request for Tax credit mismatch correction video",
+      "bbox": [
+        99,
+        3906,
+        528,
+        122
+      ]
+    },
+    {
+      "oracleId": "ax_93",
+      "role": "link",
+      "name": "How to file Rectification Request for Reprocessing the Return video",
+      "bbox": [
+        648,
+        3906,
+        528,
+        122
+      ]
+    },
+    {
+      "oracleId": "ax_94",
+      "role": "link",
+      "name": "How to file ITR in offline mode video",
+      "bbox": [
+        99,
+        4048,
+        528,
+        122
+      ]
+    },
+    {
+      "oracleId": "ax_95",
+      "role": "link",
+      "name": "Revamped e-Filing Portal, Designed with taxpayers in mind video",
+      "bbox": [
+        648,
+        4048,
+        528,
+        122
+      ]
+    },
+    {
+      "oracleId": "ax_96",
+      "role": "link",
+      "name": "Click here",
+      "bbox": [
+        226,
+        2445,
+        317,
+        37
+      ]
+    }
+  ],
+  "pii": [
+    {
+      "id": "pii_1",
+      "type": "PHONE",
+      "value": "8765432109",
+      "text": "Helpline 8765432109",
+      "bbox": [
+        1026,
+        5224,
+        251,
+        20
+      ]
+    },
+    {
+      "id": "pii_2",
+      "type": "PHONE",
+      "value": "+91 87654 32109",
+      "text": "Alternate contact +91 87654 32109",
+      "bbox": [
+        1280,
+        201,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_3",
+      "type": "EMAIL",
+      "value": "priya_nair@example.gov.in",
+      "text": "Write to priya_nair@example.gov.in",
+      "bbox": [
+        904,
+        74,
+        269,
+        30
+      ]
+    },
+    {
+      "id": "pii_4",
+      "type": "AADHAAR",
+      "value": "2109 8765 4321",
+      "text": "Aadhaar 2109 8765 4321 linked to this account",
+      "bbox": [
+        -1280,
+        223,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_5",
+      "type": "PAN",
+      "value": "CDEFG1234H",
+      "text": "PAN CDEFG1234H",
+      "bbox": [
+        1208,
+        429,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "pii_6",
+      "type": "CARD",
+      "value": "6011 0000 0000 0004",
+      "text": "Card on file 6011 0000 0000 0004",
+      "bbox": [
+        -1280,
+        178,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_7",
+      "type": "OTP",
+      "value": "one time password is 998877",
+      "text": "one time password is 998877 sent to your phone",
+      "bbox": [
+        478,
+        2158,
+        553,
+        33
+      ]
+    },
+    {
+      "id": "pii_8",
+      "type": "NAME",
+      "value": "Priya Nair",
+      "text": "Signed in as Priya Nair",
+      "bbox": [
+        0,
+        6,
+        1265,
+        33
+      ]
+    },
+    {
+      "id": "pii_9",
+      "type": "ADDRESS",
+      "value": "27 MG Road, Kochi 682016",
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "bbox": [
+        2560,
+        201,
+        1280,
+        33
+      ]
+    },
+    {
+      "id": "pii_10",
+      "type": "EMAIL",
+      "value": "priya_nair@example.gov.in",
+      "text": "Grievance cell priya_nair@example.gov.in",
+      "bbox": [
+        810,
+        5224,
+        382,
+        20
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "text": "Signed in as Priya Nair Call Us English Login Register Write to priya_nair@example.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "Signed in as Priya Nair",
+      "truthId": "pii_8"
+    },
+    {
+      "text": "Call Us English Login Register Write to priya_nair@example.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "Home | Income Tax Department",
+      "truthId": null
+    },
+    {
+      "text": "Call Us button collapsed",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "English",
+      "truthId": null
+    },
+    {
+      "text": "English Selected under language list collapsed",
+      "truthId": null
+    },
+    {
+      "text": "Login Register Write to priya_nair@example.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "Login Register Write to priya_nair@example.gov.in",
+      "truthId": null
+    },
+    {
+      "text": ".cls-1 { fill: none; } .cls-2 { fill: rgba(0, 0, 0, 0.6); }",
+      "truthId": null
+    },
+    {
+      "text": "Reduce font size",
+      "truthId": null
+    },
+    {
+      "text": "tspan { white-space: pre } .shp0 { fill: none } .shp1 { fill: #6e6e6e }",
+      "truthId": null
+    },
+    {
+      "text": "Default font size",
+      "truthId": null
+    },
+    {
+      "text": ".prefix__cls-2 { fill: rgba(0, 0, 0, .6) }",
+      "truthId": null
+    },
+    {
+      "text": "Increase font size",
+      "truthId": null
+    },
+    {
+      "text": "Switch to dark theme",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "Login",
+      "truthId": null
+    },
+    {
+      "text": "Register Write to priya_nair@example.gov.in",
+      "truthId": null
+    },
+    {
+      "text": "Register Write to priya_nair@example.gov.in",
+      "truthId": "pii_3"
+    },
+    {
+      "text": "Home Individual/HUF » Company » Non-Company » Tax Professionals & Others » Downloads Help 1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing. 2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities. 3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly. 4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200. 5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing ! 1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing. 2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities. 3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly. 4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200. 5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing ! ❚❚ Card on file 6011 0000 0000 0004 Aadhaar 2109 8765 4321 linked to this account Alternate contact +91 87654 32109 Registered address 27 MG Road, Kochi 682016 1 2 3 4 Previous Next PAN CDEFG1234H What's New Stay updated with the latest announcements Rollout of Foreign Assets of Small Taxpayers Disclosure Scheme (FADS), 2026 on the Income Tax Portal The Income Tax Department has enabled the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026 (FADS 2026) on the e-Filing Portal. Introduced as a one-time compliance opportunity by the Government, this scheme allows eligible taxpayers to voluntarily disclose specified foreign assets and foreign income that were not reported. Under the scheme, eligible taxpayers can furnish the prescribed declaration form online through the e-Filing Portal. Navigation Path: e-File → Income Tax Forms → File Income Tax Forms → Under Other Acts → Foreign Assets of Small Taxpayers Disclosure Scheme, 2026 (Form 1 of FADS 2026) For detailed information and filing guidance, please refer to the FADS 2026 Documentation and User Guide available on the Income Tax Portal. Take this opportunity to regularize previously undisclosed foreign assets and income through the Government's one-time voluntary disclosure scheme. New Integrated Payment Module Goes Live on e‑Filing Portal Seamless payments now enabled across both the Income‑tax Act, 1961 and the Income‑tax Act, 2025. With this enhancement, taxpayers can conveniently make payments under the existing Income‑tax Act, 1961 for dues up to FY 2025‑26, as well as under the Income‑tax Act, 2025 for Tax Year 2026‑27 onwards—all from a single interface. Quick Links Access all services at your fingertips NUDGE Campaign e-Pay Tax e-Verify Return Instant E-PAN Tax Calendar Income Tax Calculator Know Tax Payment Status Link Aadhaar/View Status Comply to Notice Authenticate notice/order issued by ITD Verify PAN Status Verify Service Request Know Your JAO Know TAN Details Download CSI File Report Account Misuse Submit Information on Tax Evasion or Benami Property Tax Information & Services one time password is 998877 sent to your phone Latest Updates Stay ahead with real-time notifications and critical announcements 01 SEP 2026 News Circular CBDT has issued Notification No. 114/2026 [F. No. 370142/18/2026-TPL], notifying the rules and prescribed forms under the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026. Click here Read more 20 AUG 2026 News Circular Offline utility of ITR-6 for AY 2026-27 is available now for filing. Click here Read more 28 AUG 2026 SMS Campaign Dear AAXXXXXX1R, File Early, Stay Relaxed! Your ITR for… Read more 28 AUG 2026 SMS Campaign Dear AAXXXXXX1R, Zero tax doesn't exempt filing of ITR… Read more 28 AUG 2026 E-Mail Campaign File your ITR for AY 2026-27 Read more 28 AUG 2026 E-Mail Campaign File your ITR for AY 2026-27 Read more View All Updates Important Deadlines Stay on top of your tax obligations Form 127 Declaration under section 394(2) of the Act to be made by a buyer for obtaining goods without collection of tax received in the month of August, 2026 September, 7 2026 1 day Form 132 Due date for issue of Certificate under section 395(4) for tax deducted at source in the month of July, 2026 September, 14 2026 8 days Form 1 Monthly statement to be furnished by a stock exchange in respect of transactions in which client codes been modified after registering in the system for the month of August, 2026 September, 15 2026 9 days Year 2026 Sep Mon Tue Wed Thu Fri Sat Sun 31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 View Full Tax Calendar Things to Know Helpful resources and guides How to ...Videos How to file Rectification Request for Tax credit mismatch correction How to file Rectification Request for Reprocessing the Return How to file ITR in offline mode Revamped e-Filing Portal, Designed with taxpayers in mind Our Success Enablers Hear what our users have to say Taxpayer Voices Statistics ” Wonderful Job by @IncomeTaxIndia Website is working really great Just filed by wife’s Return in hardly 15 min #IncomeTax 26 Aug 2026 ” @IncomeTaxIndia @FinMinIndia @PMOIndia Income tax refund was credited to my bank account on Sunday. This is an example of good governance and very well appreciated. 🙏 25 Aug 2026 ” @IncomeTaxIndia @nsitharamanoffc @officeofPCM @FinMinIndia @PIB_India @nsitharaman Received the ITR payment today, thank you 🙏 24 Aug 2026 ” @IncomeTaxIndia @PandeyJaideep @nsitharaman @PMOIndia I got my IT refund money in my Bank A/c. Many thanks as I never thought to get refund on SUNDAY. Country is working 24×7. Proud of my Country and all who are helm of Affairs. @narendramodi @AmitShah 23 Aug 2026 ” @IncomeTaxIndia, Thanks we rec'd our family TDS refund,just in 4 weeks time @FinMinIndia, @PMOIndia, 22 Aug 2026 1 2 3",
+      "truthId": null
+    },
+    {
+      "text": "Home Individual/HUF » Company » Non-Company » Tax Professionals & Others » Downloads Help",
+      "truthId": null
+    },
+    {
+      "text": "Menu",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Home",
+      "truthId": null
+    },
+    {
+      "text": "Individual/HUF »",
+      "truthId": null
+    },
+    {
+      "text": "Individual/HUF »",
+      "truthId": null
+    },
+    {
+      "text": "»",
+      "truthId": null
+    },
+    {
+      "text": "Company »",
+      "truthId": null
+    },
+    {
+      "text": "Company »",
+      "truthId": null
+    },
+    {
+      "text": "»",
+      "truthId": null
+    },
+    {
+      "text": "Non-Company »",
+      "truthId": null
+    },
+    {
+      "text": "Non-Company »",
+      "truthId": null
+    },
+    {
+      "text": "»",
+      "truthId": null
+    },
+    {
+      "text": "Tax Professionals & Others »",
+      "truthId": null
+    },
+    {
+      "text": "Tax Professionals & Others »",
+      "truthId": null
+    },
+    {
+      "text": "»",
+      "truthId": null
+    },
+    {
+      "text": "Downloads",
+      "truthId": null
+    },
+    {
+      "text": "Downloads",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Help",
+      "truthId": null
+    },
+    {
+      "text": "Open Search box",
+      "truthId": null
+    },
+    {
+      "text": "Previous notification",
+      "truthId": null
+    },
+    {
+      "text": "1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing. 2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities. 3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly. 4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200. 5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing ! 1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing. 2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities. 3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly. 4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200. 5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing !",
+      "truthId": null
+    },
+    {
+      "text": "1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing. 2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities. 3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly. 4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200. 5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing ! 1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing. 2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities. 3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly. 4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200. 5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing !",
+      "truthId": null
+    },
+    {
+      "text": "1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing.",
+      "truthId": null
+    },
+    {
+      "text": "2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities.",
+      "truthId": null
+    },
+    {
+      "text": "3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly.",
+      "truthId": null
+    },
+    {
+      "text": "4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200.",
+      "truthId": null
+    },
+    {
+      "text": "5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing !",
+      "truthId": null
+    },
+    {
+      "text": "1. Form 1 under the “Foreign Assets of Small Taxpayers Disclosure Scheme” is now available for filing.",
+      "truthId": null
+    },
+    {
+      "text": "2. ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, ITR-6 and ITR-7 for AY 2026-27 are available for filing through both online and offline utilities.",
+      "truthId": null
+    },
+    {
+      "text": "3. Filing of TDS/TCS Correction Statements pertaining to Tax Year 2026-27 will be enabled shortly.",
+      "truthId": null
+    },
+    {
+      "text": "4. Demand Management Facilitation Centre (DFC), has been set up to guide Taxpayers on issues/grievances regarding their outstanding demands. DFC may be contacted through the e-mail id: taxdemand@cpc.incometax.gov.in or on the toll-free number - 1800 309 0131 or chargeable no. 0821-6671200.",
+      "truthId": null
+    },
+    {
+      "text": "5. Excel utilities for filing Updated return for ITR-1 to 7 for AY 2022-23 as per Finance Act, 2026 are available for filing !",
+      "truthId": null
+    },
+    {
+      "text": "Pause button",
+      "truthId": null
+    },
+    {
+      "text": "Next notification",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 6011 0000 0000 0004 Aadhaar 2109 8765 4321 linked to this account",
+      "truthId": null
+    },
+    {
+      "text": "Card on file 6011 0000 0000 0004",
+      "truthId": "pii_6"
+    },
+    {
+      "text": "Aadhaar 2109 8765 4321 linked to this account",
+      "truthId": "pii_4"
+    },
+    {
+      "text": "Alternate contact +91 87654 32109",
+      "truthId": null
+    },
+    {
+      "text": "Alternate contact +91 87654 32109",
+      "truthId": "pii_2"
+    },
+    {
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "truthId": null
+    },
+    {
+      "text": "Registered address 27 MG Road, Kochi 682016",
+      "truthId": "pii_9"
+    },
+    {
+      "text": "Slides",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "Slide 1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "Slide 2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "Slide 3",
+      "truthId": null
+    },
+    {
+      "text": "4",
+      "truthId": null
+    },
+    {
+      "text": "Slide 4",
+      "truthId": null
+    },
+    {
+      "text": "Previous",
+      "truthId": null
+    },
+    {
+      "text": "Next PAN CDEFG1234H",
+      "truthId": "pii_5"
+    },
+    {
+      "text": "NUDGE Campaign",
+      "truthId": null
+    },
+    {
+      "text": "NUDGE Campaign",
+      "truthId": null
+    },
+    {
+      "text": "NUDGE Campaign",
+      "truthId": null
+    },
+    {
+      "text": "e-Pay Tax",
+      "truthId": null
+    },
+    {
+      "text": "e-Pay Tax",
+      "truthId": null
+    },
+    {
+      "text": "e-Pay Tax",
+      "truthId": null
+    },
+    {
+      "text": "e-Verify Return",
+      "truthId": null
+    },
+    {
+      "text": "e-Verify Return",
+      "truthId": null
+    },
+    {
+      "text": "e-Verify Return",
+      "truthId": null
+    },
+    {
+      "text": "Instant E-PAN",
+      "truthId": null
+    },
+    {
+      "text": "Instant E-PAN",
+      "truthId": null
+    },
+    {
+      "text": "Instant E-PAN",
+      "truthId": null
+    },
+    {
+      "text": "Tax Calendar",
+      "truthId": null
+    },
+    {
+      "text": "Tax Calendar",
+      "truthId": null
+    },
+    {
+      "text": "Tax Calendar",
+      "truthId": null
+    },
+    {
+      "text": "Income Tax Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Income Tax Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Income Tax Calculator",
+      "truthId": null
+    },
+    {
+      "text": "Know Tax Payment Status",
+      "truthId": null
+    },
+    {
+      "text": "Know Tax Payment Status",
+      "truthId": null
+    },
+    {
+      "text": "Know Tax Payment Status",
+      "truthId": null
+    },
+    {
+      "text": "Link Aadhaar/View Status",
+      "truthId": null
+    },
+    {
+      "text": "Link Aadhaar/View Status",
+      "truthId": null
+    },
+    {
+      "text": "Link Aadhaar/View Status",
+      "truthId": null
+    },
+    {
+      "text": "Comply to Notice",
+      "truthId": null
+    },
+    {
+      "text": "Comply to Notice",
+      "truthId": null
+    },
+    {
+      "text": "Comply to Notice",
+      "truthId": null
+    },
+    {
+      "text": "Authenticate notice/order issued by ITD",
+      "truthId": null
+    },
+    {
+      "text": "Authenticate notice/order issued by ITD",
+      "truthId": null
+    },
+    {
+      "text": "Authenticate notice/order issued by ITD",
+      "truthId": null
+    },
+    {
+      "text": "Verify PAN Status",
+      "truthId": null
+    },
+    {
+      "text": "Verify PAN Status",
+      "truthId": null
+    },
+    {
+      "text": "Verify PAN Status",
+      "truthId": null
+    },
+    {
+      "text": "Verify Service Request",
+      "truthId": null
+    },
+    {
+      "text": "Verify Service Request",
+      "truthId": null
+    },
+    {
+      "text": "Verify Service Request",
+      "truthId": null
+    },
+    {
+      "text": "Know Your JAO",
+      "truthId": null
+    },
+    {
+      "text": "Know Your JAO",
+      "truthId": null
+    },
+    {
+      "text": "Know Your JAO",
+      "truthId": null
+    },
+    {
+      "text": "Know TAN Details",
+      "truthId": null
+    },
+    {
+      "text": "Know TAN Details",
+      "truthId": null
+    },
+    {
+      "text": "Know TAN Details",
+      "truthId": null
+    },
+    {
+      "text": "Download CSI File",
+      "truthId": null
+    },
+    {
+      "text": "Download CSI File",
+      "truthId": null
+    },
+    {
+      "text": "Download CSI File",
+      "truthId": null
+    },
+    {
+      "text": "Report Account Misuse",
+      "truthId": null
+    },
+    {
+      "text": "Report Account Misuse",
+      "truthId": null
+    },
+    {
+      "text": "Report Account Misuse",
+      "truthId": null
+    },
+    {
+      "text": "Submit Information on Tax Evasion or Benami Property",
+      "truthId": null
+    },
+    {
+      "text": "Submit Information on Tax Evasion or Benami Property",
+      "truthId": null
+    },
+    {
+      "text": "Submit Information on Tax Evasion or Benami Property",
+      "truthId": null
+    },
+    {
+      "text": "Tax Information & Services",
+      "truthId": null
+    },
+    {
+      "text": "Tax Information & Services",
+      "truthId": null
+    },
+    {
+      "text": "Tax Information & Services",
+      "truthId": null
+    },
+    {
+      "text": "one time password is 998877 sent to your phone",
+      "truthId": "pii_7"
+    },
+    {
+      "text": "Click here",
+      "truthId": null
+    },
+    {
+      "text": "Read more about NewsCBDT has issued Notification No. 114/2026 [F. No. 370142/18/2026-TPL], notifying the rules and prescribed forms under the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026. Click here",
+      "truthId": null
+    },
+    {
+      "text": "Click here",
+      "truthId": null
+    },
+    {
+      "text": "Read more about NewsOffline utility of ITR-6 for AY 2026-27 is available now for filing. Click here",
+      "truthId": null
+    },
+    {
+      "text": "Read more about SMS Dear AAXXXXXX1R, File Early, Stay Relaxed! Your ITR for…",
+      "truthId": null
+    },
+    {
+      "text": "Read more about SMS Dear AAXXXXXX1R, Zero tax doesn't exempt filing of ITR…",
+      "truthId": null
+    },
+    {
+      "text": "Read more about E-Mail File your ITR for AY 2026-27",
+      "truthId": null
+    },
+    {
+      "text": "Read more about E-Mail File your ITR for AY 2026-27",
+      "truthId": null
+    },
+    {
+      "text": "View All Updates",
+      "truthId": null
+    },
+    {
+      "text": "Go to Aug 2026",
+      "truthId": null
+    },
+    {
+      "text": "Go to Oct 2026",
+      "truthId": null
+    },
+    {
+      "text": "Events on September, 7 2026",
+      "truthId": null
+    },
+    {
+      "text": "Events on September, 14 2026",
+      "truthId": null
+    },
+    {
+      "text": "Events on September, 15 2026",
+      "truthId": null
+    },
+    {
+      "text": "Events on September, 30 2026",
+      "truthId": null
+    },
+    {
+      "text": "View Full Tax Calendar",
+      "truthId": null
+    },
+    {
+      "text": "How to ...Videos",
+      "truthId": null
+    },
+    {
+      "text": "How to ...Videos",
+      "truthId": null
+    },
+    {
+      "text": "How to ...Videos selected",
+      "truthId": null
+    },
+    {
+      "text": "How to file Rectification Request for Tax credit mismatch correction How to file Rectification Request for Reprocessing the Return How to file ITR in offline mode Revamped e-Filing Portal, Designed with taxpayers in mind",
+      "truthId": null
+    },
+    {
+      "text": "How to file Rectification Request for Tax credit mismatch correction video",
+      "truthId": null
+    },
+    {
+      "text": "(link is external)",
+      "truthId": null
+    },
+    {
+      "text": "How to file Rectification Request for Reprocessing the Return video",
+      "truthId": null
+    },
+    {
+      "text": "(link is external)",
+      "truthId": null
+    },
+    {
+      "text": "How to file ITR in offline mode video",
+      "truthId": null
+    },
+    {
+      "text": "(link is external)",
+      "truthId": null
+    },
+    {
+      "text": "Revamped e-Filing Portal, Designed with taxpayers in mind video",
+      "truthId": null
+    },
+    {
+      "text": "(link is external)",
+      "truthId": null
+    },
+    {
+      "text": "Taxpayer Voices Statistics",
+      "truthId": null
+    },
+    {
+      "text": "Taxpayer Voices",
+      "truthId": null
+    },
+    {
+      "text": "Statistics",
+      "truthId": null
+    },
+    {
+      "text": "” Wonderful Job by @IncomeTaxIndia Website is working really great Just filed by wife’s Return in hardly 15 min #IncomeTax 26 Aug 2026 ” @IncomeTaxIndia @FinMinIndia @PMOIndia Income tax refund was credited to my bank account on Sunday. This is an example of good governance and very well appreciated. 🙏 25 Aug 2026 ” @IncomeTaxIndia @nsitharamanoffc @officeofPCM @FinMinIndia @PIB_India @nsitharaman Received the ITR payment today, thank you 🙏 24 Aug 2026 ” @IncomeTaxIndia @PandeyJaideep @nsitharaman @PMOIndia I got my IT refund money in my Bank A/c. Many thanks as I never thought to get refund on SUNDAY. Country is working 24×7. Proud of my Country and all who are helm of Affairs. @narendramodi @AmitShah 23 Aug 2026 ” @IncomeTaxIndia, Thanks we rec'd our family TDS refund,just in 4 weeks time @FinMinIndia, @PMOIndia, 22 Aug 2026 1 2 3",
+      "truthId": null
+    },
+    {
+      "text": "” Wonderful Job by @IncomeTaxIndia Website is working really great Just filed by wife’s Return in hardly 15 min #IncomeTax 26 Aug 2026 ” @IncomeTaxIndia @FinMinIndia @PMOIndia Income tax refund was credited to my bank account on Sunday. This is an example of good governance and very well appreciated. 🙏 25 Aug 2026",
+      "truthId": null
+    },
+    {
+      "text": "” @IncomeTaxIndia @nsitharamanoffc @officeofPCM @FinMinIndia @PIB_India @nsitharaman Received the ITR payment today, thank you 🙏 24 Aug 2026 ” @IncomeTaxIndia @PandeyJaideep @nsitharaman @PMOIndia I got my IT refund money in my Bank A/c. Many thanks as I never thought to get refund on SUNDAY. Country is working 24×7. Proud of my Country and all who are helm of Affairs. @narendramodi @AmitShah 23 Aug 2026",
+      "truthId": null
+    },
+    {
+      "text": "” @IncomeTaxIndia, Thanks we rec'd our family TDS refund,just in 4 weeks time @FinMinIndia, @PMOIndia, 22 Aug 2026",
+      "truthId": null
+    },
+    {
+      "text": "Slides",
+      "truthId": null
+    },
+    {
+      "text": "1",
+      "truthId": null
+    },
+    {
+      "text": "Slide 1",
+      "truthId": null
+    },
+    {
+      "text": "2",
+      "truthId": null
+    },
+    {
+      "text": "Slide 2",
+      "truthId": null
+    },
+    {
+      "text": "3",
+      "truthId": null
+    },
+    {
+      "text": "Slide 3",
+      "truthId": null
+    },
+    {
+      "text": "Follow us on About Us About the Portal History of Direct Taxation Vision, Mission, Values Vision, Mission, Values (Hindi) Who We Are Right to Information Organization & Functions e-Filing Calendar 2026 Tax Payer Charter Tax Payer Charter (Hindi) Contact Us Helpdesk Numbers Grievances View Grievance Help Using the Portal Website Policies Grievance cell priya_nair@example.gov.in Accessibility Statement Site Map Browser Support Related Sites Income Tax India Helpline 8765432109 Protean (previously NSDL) TRACES",
+      "truthId": null
+    },
+    {
+      "text": "footer",
+      "truthId": null
+    },
+    {
+      "text": "About Us About the Portal History of Direct Taxation Vision, Mission, Values Vision, Mission, Values (Hindi) Who We Are Right to Information Organization & Functions e-Filing Calendar 2026 Tax Payer Charter Tax Payer Charter (Hindi) Contact Us Helpdesk Numbers Grievances View Grievance Help Using the Portal Website Policies Grievance cell priya_nair@example.gov.in Accessibility Statement Site Map Browser Support Related Sites Income Tax India Helpline 8765432109 Protean (previously NSDL) TRACES",
+      "truthId": null
+    },
+    {
+      "text": "About the Portal 1 of 10",
+      "truthId": null
+    },
+    {
+      "text": "History of Direct Taxation 2 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Vision, Mission, Values 3 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Vision, Mission, Values (Hindi) 4 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Who We Are 5 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Right to Information 6 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Organization & Functions 7 of 10",
+      "truthId": null
+    },
+    {
+      "text": "e-Filing Calendar 2026 8 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Tax Payer Charter 9 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Tax Payer Charter (Hindi) 10 of 10",
+      "truthId": null
+    },
+    {
+      "text": "Helpdesk Numbers 1 of 4",
+      "truthId": null
+    },
+    {
+      "text": "Grievances 2 of 4",
+      "truthId": null
+    },
+    {
+      "text": "View Grievance 3 of 4",
+      "truthId": null
+    },
+    {
+      "text": "Help 4 of 4",
+      "truthId": null
+    },
+    {
+      "text": "Website Policies 1 of 4 Grievance cell priya_nair@example.gov.in",
+      "truthId": "pii_10"
+    },
+    {
+      "text": "Accessibility Statement 2 of 4",
+      "truthId": null
+    },
+    {
+      "text": "Site Map 3 of 4",
+      "truthId": null
+    },
+    {
+      "text": "Browser Support 4 of 4",
+      "truthId": null
+    },
+    {
+      "text": "Income Tax India 1 of 3 Helpline 8765432109",
+      "truthId": "pii_1"
+    },
+    {
+      "text": "Protean (previously NSDL)(link is external) 2 of 3",
+      "truthId": null
+    },
+    {
+      "text": "TRACES 3 of 3",
+      "truthId": null
+    },
+    {
+      "text": "Last reviewed and updated on : 06-Sep-2026 This site is best viewed in 1024 * 768 resolution with latest version of Chrome, Firefox, Safari and Internet Explorer. Copyright @ Income Tax Department, Ministry of Finance, Government of India. All Rights Reserved.",
+      "truthId": null
+    },
+    {
+      "text": "Last reviewed and updated on : 06-Sep-2026 This site is best viewed in 1024 * 768 resolution with latest version of Chrome, Firefox, Safari and Internet Explorer. Copyright @ Income Tax Department, Ministry of Finance, Government of India. All Rights Reserved.",
+      "truthId": null
+    },
+    {
+      "text": "Emblem of Government of India",
+      "truthId": null
+    }
+  ],
+  "vision": {
+    "faces": [
+      {
+        "id": "face_1",
+        "source": "jemison.png",
+        "bbox": [
+          1119,
+          16,
+          130,
+          160
+        ]
+      }
+    ],
+    "pixelText": [
+      {
+        "id": "vis_text_1",
+        "text": "Balance due 12,480.00",
+        "bbox": [
+          929,
+          190,
+          320,
+          70
+        ],
+        "pii": null
+      },
+      {
+        "id": "vis_pii_1",
+        "text": "Contact 8765432109",
+        "bbox": [
+          929,
+          274,
+          320,
+          70
+        ],
+        "pii": {
+          "type": "PHONE",
+          "value": "8765432109"
+        }
+      }
+    ]
+  }
+}

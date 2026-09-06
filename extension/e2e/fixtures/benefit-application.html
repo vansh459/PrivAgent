@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Benefit Application</title>
+    <style>
+      body {
+        font:
+          14px/1.5 system-ui,
+          sans-serif;
+        margin: 24px;
+        max-width: 620px;
+      }
+      label {
+        display: block;
+        margin-top: 12px;
+        font-weight: 600;
+      }
+      input,
+      select {
+        font: inherit;
+        padding: 5px 7px;
+        width: 320px;
+      }
+      .step {
+        color: #666;
+        font-size: 12px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      #spacer {
+        height: 1700px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="step">Step 1 of 3</p>
+    <h1>Housing Benefit Application</h1>
+
+    <!--
+      A form-shaped page: several text fields of different purposes, so a `type` action
+      has more than one place it could land and getting the right one is a real result
+      rather than the only possible outcome.
+    -->
+    <form id="applicant">
+      <label for="full-name">Full name</label>
+      <input id="full-name" name="full-name" autocomplete="name" />
+
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" autocomplete="email" />
+
+      <label for="city">City</label>
+      <input id="city" name="city" autocomplete="address-level2" />
+
+      <label for="household">Household size</label>
+      <select id="household" name="household">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    </form>
+
+    <p>
+      <button id="continue" type="button">Continue to step 2</button>
+      <a id="terms" href="#terms">Read the terms</a>
+    </p>
+
+    <p id="result">step 1</p>
+
+    <div id="spacer" aria-hidden="true"></div>
+    <p>End of form.</p>
+
+    <script>
+      document.getElementById("continue").addEventListener("click", () => {
+        document.getElementById("result").textContent = "step 2";
+        document.querySelector(".step").textContent = "Step 2 of 3";
+      });
+    </script>
+  </body>
+</html>

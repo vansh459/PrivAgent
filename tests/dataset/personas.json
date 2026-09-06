@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "note": "Synthetic identities injected into the captured pages. Nothing here belongs to a real person: the pages are real, the people are not. Aadhaar numbers are format-valid but are not issued numbers; card numbers are the published test numbers (Visa 4111..., Mastercard 5500..., Amex 3400..., Discover 6011...) that no issuer will ever assign; phone numbers are drawn from the Indian mobile ranges but were not checked against any subscriber. Formats are deliberately varied, including ones a simple regex is likely to miss - a dataset that only contains the shapes the detector was written for measures nothing.",
+  "personas": [
+    {
+      "name": "Ramesh Iyer",
+      "phone": "9812345670",
+      "phoneAlt": "+91 98123 45670",
+      "email": "ramesh.iyer@example.in",
+      "aadhaar": "4321 8765 2109",
+      "pan": "BNZAA2318J",
+      "card": "4111 1111 1111 1111",
+      "otp": "OTP 246810",
+      "address": "14 Nehru Road, Pune 411001"
+    },
+    {
+      "name": "Fatima Sheikh",
+      "phone": "9876543210",
+      "phoneAlt": "+91-98765-43210",
+      "email": "f.sheikh@mail.example.co.in",
+      "aadhaar": "123456789012",
+      "pan": "AAACR5055K",
+      "card": "5500 0000 0000 0004",
+      "otp": "one-time password 4821",
+      "address": "Flat 3B, 22 Gandhi Marg, New Delhi 110001"
+    },
+    {
+      "name": "Anand Krishnamurthy",
+      "phone": "7654321098",
+      "phoneAlt": "080 2345 6789",
+      "email": "anand.k@example.org",
+      "aadhaar": "9876-5432-1098",
+      "pan": "ZYXWV9876A",
+      "card": "3400 0000 0000 009",
+      "otp": "OTP: 5678",
+      "address": "Plot 9, Sector 21, Gurugram 122016"
+    },
+    {
+      "name": "Priya Nair",
+      "phone": "8765432109",
+      "phoneAlt": "+91 87654 32109",
+      "email": "priya_nair@example.gov.in",
+      "aadhaar": "2109 8765 4321",
+      "pan": "CDEFG1234H",
+      "card": "6011 0000 0000 0004",
+      "otp": "one time password is 998877",
+      "address": "27 MG Road, Kochi 682016"
+    },
+    {
+      "name": "Vikram Deshpande",
+      "phone": "9123456780",
+      "phoneAlt": "022 2789 4561",
+      "email": "v.deshpande+claims@example.com",
+      "aadhaar": "5678 1234 9012",
+      "pan": "PQRST5678U",
+      "card": "4012 8888 8888 1881",
+      "otp": "OTP is 135790",
+      "address": "Shop 6, 41 Linking Road, Mumbai 400050"
+    },
+    {
+      "name": "Meera Banerjee",
+      "phone": "9988776655",
+      "phoneAlt": "+91 99887 76655",
+      "email": "meera.banerjee@example.net",
+      "aadhaar": "334455667788",
+      "pan": "LMNOP4321Q",
+      "card": "5105 1051 0510 5100",
+      "otp": "OTP 778899",
+      "address": "8 Park Street, Kolkata 700016"
+    },
+    {
+      "name": "Suresh Reddy",
+      "phone": "7000123456",
+      "phoneAlt": "+91-70001-23456",
+      "email": "suresh.reddy@example.co",
+      "aadhaar": "7788 9900 1122",
+      "pan": "RSTUV1122W",
+      "card": "4111 1111 1111 1111",
+      "otp": "OTP: 4477",
+      "address": "112 Banjara Hills, Hyderabad 500034"
+    },
+    {
+      "name": "Aisha Qureshi",
+      "phone": "9345678901",
+      "phoneAlt": "044 2812 3456",
+      "email": "aisha.qureshi@example.in",
+      "aadhaar": "1122-3344-5566",
+      "pan": "GHIJK7788L",
+      "card": "5555 5555 5555 4444",
+      "otp": "one-time password 220033",
+      "address": "5 Anna Salai, Chennai 600002"
+    },
+    {
+      "name": "Joseph Fernandes",
+      "phone": "8899001122",
+      "phoneAlt": "+91 88990 01122",
+      "email": "joseph.fernandes@example.org",
+      "aadhaar": "6655 4433 2211",
+      "pan": "MNOPQ3344R",
+      "card": "6011 1111 1111 1117",
+      "otp": "OTP 909090",
+      "address": "3 Church Street, Panaji 403001"
+    },
+    {
+      "name": "Neha Sharma",
+      "phone": "9765432108",
+      "phoneAlt": "+91 97654 32108",
+      "email": "neha.sharma@sub.example.co.in",
+      "aadhaar": "445566778899",
+      "pan": "STUVW9900X",
+      "card": "4222 2222 2222 2",
+      "otp": "OTP is 3311",
+      "address": "62 Civil Lines, Jaipur 302006"
+    },
+    {
+      "name": "Arjun Menon",
+      "phone": "7012345678",
+      "phoneAlt": "0471 233 4455",
+      "email": "arjun.menon@example.com",
+      "aadhaar": "8877 6655 4433",
+      "pan": "YZABC5566D",
+      "card": "3782 822463 10005",
+      "otp": "OTP: 660011",
+      "address": "19 Kowdiar Road, Thiruvananthapuram 695003"
+    },
+    {
+      "name": "Kavita Joshi",
+      "phone": "9456781230",
+      "phoneAlt": "+91 94567 81230",
+      "email": "kavita.joshi@example.in",
+      "aadhaar": "2233 4455 6677",
+      "pan": "EFGHI2233J",
+      "card": "5200 8282 8282 8210",
+      "otp": "one time password 141414",
+      "address": "44 Laxmi Road, Nagpur 440012"
+    }
+  ]
+}
