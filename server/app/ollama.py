@@ -78,7 +78,12 @@ class OllamaProvider:
         history = [entry.model_dump() for entry in context.history] or None
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": render_context(context.task, elements, step, history)},
+            {
+                "role": "user",
+                "content": render_context(
+                    context.task, elements, step, history, context.page_ident
+                ),
+            },
         ]
 
         rejection: str | None = None

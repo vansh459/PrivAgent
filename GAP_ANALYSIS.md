@@ -292,13 +292,33 @@ real server; `test-results/demo-rehearsal.json` shows two full passes). `results
 
 ## Required component 5 — Single-shot vs. agentic loop (scope note)
 
-The PS demands one demonstrated task end-to-end; PrivAgent currently executes exactly **one
-action per task** (`content-script.ts:48` → one `/reason` call → one execution). There is no
-multi-step loop, no task-completion signal in the Action vocabulary
-(`click|type|scroll|navigate|none` — `schemas/privagent.schema.json:7`), no step history,
-and no bot-detection handling (zero hits for captcha/challenge markers in the source).
-Multi-step tasks (the "universal agentic browsing" extension) are **NOT STARTED** — by
-design, they are an additive layer being built on top of PS compliance, not a PS gap.
+**Updated 2026-09-07.** The additive multi-step layer now exists on top of the unchanged
+single-shot path:
+
+- **Loop controller** (`extension/src/background/taskLoop.ts`): lives in the background
+  because a navigating action destroys the content script; step budget 15; settle-retry
+  across page loads (covers SPAs); cancellation between steps; stall detection; every loop
+  ends in exactly one terminal state
+  (`done`/`blocked`/`declined`/`cancelled`/`no_progress`/`failed`/`budget_exhausted`).
+- **Schema v1.1**: `done` and `blocked` joined the Action vocabulary (blocked carries a
+  reason ∈ `bot_detection|login_required|cannot_proceed`); payloads gain optional
+  `step {n, limit}` and `history[]` whose `page_ident` is the page title **through the
+  Privacy Firewall** — never a URL, and unknown history fields are rejected server-side as
+  a leak guard. 1.0 payloads remain valid.
+- **Bot-block detection** (`extension/src/content/botBlock.ts`): checked before a single
+  element is read each step; on a challenge the loop stops with `blocked: bot_detection`.
+  Detect and stop — **never evade**, by policy.
+- **Popup**: multi-step toggle, live per-step progress from the audit trail, Stop button.
+
+**Verified:** loop state machine unit tests green through every terminal state
+(`tests/taskLoop.test.ts`, 15/15); bot-block 10/10 unit tests including negatives; schema
+v1.1 round-trips on both ends. The real-browser `e2e/agentLoop.spec.ts` suite —
+navigation-crossing done (2 schema-1.1 payloads, redacted history, 0 raw PII on the
+wire), bot-wall stop (0 `/reason` requests, URL unchanged), stop-button cancel — passed
+**3/3 in a single run and 9/9 under `--repeat-each=3`** on 2026-09-07, after a
+navigation race (the content script dying before its step reply crossed the channel) was
+fixed with an out-of-band step report plus a polled loop result. Live-site validation and
+a real-model multi-step smoke remain open (COMPLETION_PLAN tasks 11–12).
 
 ---
 
@@ -316,7 +336,7 @@ design, they are an additive layer being built on top of PS compliance, not a PS
 | Privacy filter pre-network | — | **Met** | wire-verified |
 | Server (redaction-aware, offline OSS LLM) | — | **Met** (LLM opt-in) | 30 tests; live Qwen2.5-1.5B |
 | E2E task demo | — | **Met** (unrehearsed by humans) | demo-rehearsal.json, 2 passes |
-| Multi-step agentic loop (extension goal) | — | **Not started** | — |
+| Multi-step agentic loop (extension goal) | — | **Met** (deterministic e2e) | 15/15 unit tests; e2e 3/3 in one run, 9/9 across repeats; live-site + real-model runs still open |
 
 Nothing audited was **Broken** (code that runs and silently produces wrong output). The
 closest candidates — the `aria-label`-hides-painted-text exposure and the 3 long-container

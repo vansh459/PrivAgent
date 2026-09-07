@@ -24,7 +24,12 @@ export function localRiskFor(
     return "low";
   }
   if (action.action === "navigate" || targetSensitive || action.confidence < 0.5) return "high";
-  if (action.action === "type" || action.confidence < 0.75) return "medium";
+  // Typing non-sensitive text at solid confidence is as reversible as a click - the field
+  // can be cleared, nothing is submitted until a further action. What earns the gate is
+  // WHERE the text goes: a sensitive target (credential, payment, PII-bearing field) is
+  // already "high" above. Scoring every keystroke "medium" made a browsing loop ask
+  // permission for each search query, which is how confirmation prompts stop being read.
+  if (action.confidence < 0.75) return "medium";
   return "low";
 }
 

@@ -12,6 +12,16 @@
         <h1>PrivAgent</h1>
         <p class="tagline">Local perception, local redaction, remote reasoning.</p>
       </div>
+      <!-- A toolbar popup dies on any focus loss; this reopens the same page as its own
+           window, which stays until closed. Hidden when already detached. -->
+      <button
+        type="button"
+        id="detach"
+        class="button"
+        title="Open as a window that stays until you close it"
+      >
+        ⧉ Keep open
+      </button>
     </header>
 
     <main class="stack">

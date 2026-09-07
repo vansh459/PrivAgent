@@ -124,13 +124,77 @@ extension's origin, not the site's.
 
 ---
 
+## The multi-step demo (additive — new for 2026-09-07)
+
+The loop is code-complete with unit tests green; its e2e suite was still being stabilised
+when this section was written. **Dry-run this section yourself before showing it** — if the
+run you rehearse doesn't behave, demo the single-shot flow above and describe the loop over
+the architecture diagram instead.
+
+### Setup
+
+Same as above, with two specifics:
+
+```bash
+npm run build                                    # always rebuild before demoing
+# For the judged demo the reasoner MUST be the local open-weight model — Ollama/Qwen is
+# what the PS requires and what every rubric number was measured on:
+PRIVAGENT_REASONER=ollama python -m uvicorn app.main:app --app-dir server --port 8000
+curl http://127.0.0.1:8000/health                # must name ollama:qwen2.5:1.5b
+```
+
+Load `extension/dist/chrome` unpacked (chrome://extensions → Developer mode → Load
+unpacked), as before.
+
+> The Azure Foundry Claude provider (`PRIVAGENT_REASONER=foundry`) exists and is much
+> faster (~1–2 s/step vs ~10–14 s local), but it is the **clearly-labeled optional extra**
+> for the additive universal-browsing capability only. Do not run the judged demo on it:
+> the PS requires an offline-deployable open-source LLM. If you show it at all, say out
+> loud that it is optional and that the sanitized-tokens-only boundary is unchanged.
+
+### Running a multi-step task — 60 seconds
+
+1. Open the page the task starts on, and make sure it is the frontmost tab.
+2. Popup → tick the **multi-step** checkbox → type the task → **Run task**.
+3. Narrate the status line: it shows **"Running step N..."** live as the loop works, fed
+   by the same audit trail the popup renders below.
+4. Each step is the full single-shot pipeline — bot check, perceive, firewall, `/reason`,
+   risk gate, execute — and the history the server sees carries only the action type, the
+   target's role, an outcome string, and the **redacted** page title. Never a URL.
+
+> "Every step re-runs the entire privacy pipeline. The model gets a memory of what it did,
+> not a log of where you've been."
+
+5. Point at the **Stop** button: pressing it cancels between steps — the loop finishes the
+   step in flight and stops. The popup says "Stopped by you".
+
+The loop also ends on its own: `done` when the model reports the task complete, a step
+budget of 15 so a confused model cannot burn the evening, and a no-progress stop after
+consecutive empty steps.
+
+### The bot wall — 30 seconds, and worth it
+
+Open a page carrying an automation challenge (the e2e fixture
+`extension/e2e/fixtures/bot-wall.html` is a served copy of one). Run any multi-step task.
+
+The loop stops at step one: **"Stopped: this site blocks automation or needs you to act."**
+No reasoning request was made, nothing was clicked — the check runs before a single element
+is read.
+
+> "When a site says no to automation, the agent's answer is to stop and tell you — not to
+> get cleverer. That is policy, not a missing feature."
+
+---
+
 ## The numbers, if you are asked
 
 All from [`results.md`](../results.md), measured over 42 real captured pages:
 
 - Interactive elements: **F1 92.2%** against Chrome's own accessibility tree.
 - Text that exists only as pixels: **97.3%** character accuracy.
-- PII: **100% recall**, 69.8% precision.
+- PII: **100% recall** (397/397), **93.1% precision** (was 69.8% before the on-device NER
+  verifier landed 2026-09-06; `results.md` still shows the older figure pending the final
+  measurement pass).
 - **Zero** of 400 identifiers or contact details reached the wire. Zero faces.
 - **960 ms** median task, warm, without a model in the loop.
 

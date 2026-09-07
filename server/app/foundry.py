@@ -83,7 +83,12 @@ class FoundryProvider:
         step = context.step.model_dump() if context.step else None
         history = [entry.model_dump() for entry in context.history] or None
         messages: list[dict[str, Any]] = [
-            {"role": "user", "content": render_context(context.task, elements, step, history)}
+            {
+                "role": "user",
+                "content": render_context(
+                    context.task, elements, step, history, context.page_ident
+                ),
+            }
         ]
 
         rejection: str | None = None

@@ -47,6 +47,9 @@ export type ToBackground =
   // long-held sendMessage reply channel well before that, so completion is pulled, not
   // pushed - and each poll conveniently resets the service worker's idle timer.
   | { type: "privagent/loop-result"; taskId: string }
+  // Asked by a freshly opened popup: is a loop already running that I should re-attach
+  // to? (The previous popup died with a tab switch; the loop did not.)
+  | { type: "privagent/active-loop" }
   // Fired by the content script the instant a step's action has executed, before any
   // further await. When the action navigates, the page - and with it the step's reply
   // channel - dies mid-step; this out-of-band copy is the report that survives.

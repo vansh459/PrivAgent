@@ -68,7 +68,17 @@ a structured span had consumed its head. Fixes: per-line unstructured detection
 > executor treats done/blocked as terminal no-ops. 1.0 payloads stay valid. 355 client +
 > 45 server tests green; both targets build.
 
-### 3. Memory reductions — rubric 4 (20%) — effort M — no dependencies (parallel with 1–2)
+### 3. Memory reductions — rubric 4 (20%) — effort M — no dependencies (parallel with 1–2) — ✅ DONE 2026-09-07 (attributed; rubric verdict stays Partial)
+
+**Outcome:** OCR worker idle release shipped (self-terminates after 90 s idle,
+`src/vision/analyze.ts scheduleOcrIdleRelease`, unit-tested); no-extension control tier and
+settled-after-idle sampling added to `e2e/profile.spec.ts`. Final re-run (2026-09-07):
+control **+49 MB** vs tier 1 peak **+1,047 MB / settled +192 MB**, tier 2 **+823 / +347** —
+the peak is a transient working figure of a 20-task workload, the retained footprint is
+~0.2–0.35 GB, and both are reported as themselves. The WASM-only ORT swap was **deliberately
+declined** (it would forfeit the PS-named WebGPU path); the pre-scaled detector input stays
+open (the buffer is ~4 MB — not where the memory is). Documented as Partial in
+`GAP_ANALYSIS.md`, honestly attributed.
 
 The three reductions already identified but never done, plus honest attribution:
 
@@ -96,7 +106,14 @@ the input rescale.
 the chosen model documented with its measured accuracy; warm-task median with the
 deterministic provider at or under the current ~1 s despite tasks 1–2 adding a verifier.
 
-### 5. Real Firefox verification — PS deliverable — effort M — depends on 1–3 (verify the final pipeline, not the old one)
+### 5. Real Firefox verification — PS deliverable — effort M — depends on 1–3 (verify the final pipeline, not the old one) — ✅ DONE 2026-09-06
+
+**Outcome:** real Firefox 155.0.1, `dist/firefox` as a temporary add-on, both pipelines
+(DOM + event-page vision) executed with wire capture: 2 requests, **0 raw planted PII**
+values on the wire (`test-results/firefox-verification.json`, `"verdict": "PASS"`;
+reproducible via `python scripts/verify-firefox.py`). Caveat: fixture pages; the new
+multi-step loop path has **not** yet been re-verified in Firefox (event page, no 30 s cap —
+expected to behave better than Chrome's worker, but unverified).
 
 `winget install Mozilla.Firefox`; load `extension/dist/firefox` via `about:debugging`; run
 real tasks on real pages; exercise the event-page vision path
@@ -107,7 +124,13 @@ capture quota behaviour, polyfill edges).
 executes in a real Firefox on a clean profile, with the audit trail and a wire-captured
 payload as evidence, recorded in `GAP_ANALYSIS.md` and `README.md`.
 
-### 6. Schema v1.1: multi-step vocabulary — universal loop foundation — effort M — no rubric line (additive) — no dependencies
+### 6. Schema v1.1: multi-step vocabulary — universal loop foundation — effort M — no rubric line (additive) — no dependencies — ✅ DONE 2026-09-07
+
+**Outcome:** landed as described in the progress note under task 2 — ActionType +=
+`done`/`blocked` (blocked requires a reason), SanitizedContext += optional `step` +
+`history` with **redacted** `page_ident` (never a URL; unknown history fields rejected as a
+leak guard), SYSTEM_PROMPT v2.0, deterministic done-on-history, 1.0 payloads still valid.
+Covered by `server/tests/test_schema_v11.py` (7 tests) plus regenerated client zod/TS.
 
 Single source of truth is `server/app/schemas.py` → `npm run gen:schemas`.
 
@@ -126,7 +149,20 @@ Single source of truth is `server/app/schemas.py` → `npm run gen:schemas`.
 **Done =** `npm run check:schemas` clean; `npm test` green including new cases for
 `done`/`blocked` round-trips; old single-step payloads (no `step`/`history`) still accepted.
 
-### 7. Background task loop controller — universal loop core — effort L — depends on 6
+### 7. Background task loop controller — universal loop core — effort L — depends on 6 — ✅ DONE 2026-09-07 (e2e verified)
+
+**Status:** `extension/src/background/taskLoop.ts` landed — step budget 15, settle-retry
+across navigations, cancellation, stall detection, every terminal state
+(`done`/`blocked`/`declined`/`cancelled`/`no_progress`/`failed`/`budget_exhausted`).
+Unit tests **15/15 green** (`tests/taskLoop.test.ts`, scripted-transport seams plus
+mocked-polyfill default-transport tests). Two navigation-race fixes landed the same day:
+the popup no longer awaits one long run-loop message (Chrome closes that channel
+mid-loop) — it polls a stored `loop-result`; and the content script fires an out-of-band
+`step-result` copy before its first post-execution await, so a navigating click cannot
+lose its own report. After those fixes the `e2e/agentLoop.spec.ts` suite
+(navigation-crossing done, bot-wall stop, stop button) passed **3/3 in a single run
+(13.8 s) and 9/9 under `--repeat-each=3`** against the rebuilt bundle — the previous
+order-dependent flake is gone.
 
 New `extension/src/background/taskLoop.ts`; the loop lives in the background because a
 navigating action destroys the content script.
@@ -145,7 +181,17 @@ navigating action destroys the content script.
 terminal state; new `e2e/agentLoop.spec.ts` completes a ≥3-step task across a multi-page
 fixture in a real browser with every wire payload schema-valid.
 
-### 8. Azure Foundry Claude provider — universal-loop brain — effort M — depends on 6 (schema), parallel with 7
+### 8. Azure Foundry Claude provider — universal-loop brain — effort M — depends on 6 (schema), parallel with 7 — ✅ DONE 2026-09-07
+
+**Outcome:** `server/app/foundry.py` landed with forced tool-use structured output and the
+same hallucinated-target validation as Ollama; 8 offline tests
+(`server/tests/test_foundry.py`, scripted transport); key in untracked `server/.env`
+(verified gitignored) + `.env.example`; `docs/SECURITY.md` disclosure added. **Live-verified**
+through the real deployment: "download the report" → `click` conf 0.95 in ~5.7 s; "delete my
+account" → `none` (correct refusal). Fallback chain shipped too: `/health` reports
+`foundry:claude-fable-5 -> ollama:qwen2.5:1.5b -> deterministic`, falling through only on
+transport failure, never on an answered `none`. Ollama remains the provider for **all**
+rubric measurements and the judged demo, per the PS boundary below.
 
 Third provider behind the `ReasonProvider` seam: `server/app/foundry.py`, selected by
 `PRIVAGENT_REASONER=foundry`, env-configured (`PRIVAGENT_FOUNDRY_BASE_URL`, `_API_KEY`,
@@ -163,7 +209,15 @@ is selected.
 **Done =** server tests cover the provider with a scripted transport; a live smoke test
 answers a real context; `/health` reports `foundry:claude-fable-5`; secrets absent from git.
 
-### 9. Bot-block detection: detect and stop, never evade — effort M — depends on 7
+### 9. Bot-block detection: detect and stop, never evade — effort M — depends on 7 — ✅ DONE 2026-09-07
+
+**Outcome:** `extension/src/content/botBlock.ts` landed, gating every step **before** a
+single element is read: reCAPTCHA/hCaptcha/Turnstile widgets and iframes,
+Cloudflare/Akamai/PerimeterX challenge markers, interstitial titles (gated by a
+page-shape check so an article *about* CAPTCHAs is not a false stop). **10 unit tests**
+(`tests/botBlock.test.ts`) including negatives; the bot-wall e2e test has passed (loop
+stops at step one, 0 `/reason` requests, URL unchanged, the tempting "Continue" link never
+clicked). No evasion of any kind, by policy.
 
 New `extension/src/content/botBlock.ts`, checked at each perceive step: reCAPTCHA/hCaptcha/
 Turnstile widgets and iframes, Cloudflare/Akamai challenge-page markers, "verify you are
@@ -174,7 +228,12 @@ evasion of any kind, by policy.
 **Done =** unit tests against fixture HTML for each challenge family; an e2e fixture run
 ends the loop cleanly with the blocked status surfaced in popup + audit trail.
 
-### 10. Popup progress + cancel — effort M — depends on 7
+### 10. Popup progress + cancel — effort M — depends on 7 — ✅ DONE 2026-09-07 (stop-button e2e green 3/3)
+
+**Outcome:** multi-step checkbox, live per-step progress (800 ms audit-trail poll by
+taskId), Stop button (`privagent/cancel-task`; the loop checks the flag between steps), and
+completion via polled `loop-result` rather than one long message await. The stop-button e2e
+test is part of the `agentLoop.spec.ts` re-run noted under task 7.
 
 Live per-step progress in the popup (render the audit trail by taskId as it grows) and a
 Stop button (`privagent/cancel-task` → the loop checks a flag between steps). The loop

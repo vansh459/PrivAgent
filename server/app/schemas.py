@@ -124,6 +124,11 @@ class SanitizedContext(Strict):
     # 1.1, optional: absent on single-shot payloads, so every 1.0 payload stays valid.
     step: StepInfo | None = None
     history: list[HistoryStep] = Field(default_factory=list, max_length=15)
+    # The CURRENT page's redacted title - same firewall and same privacy budget as a
+    # history entry's page_ident, never a URL. Without it the reasoner cannot tell
+    # whether a prior navigation reached the intended page: observed live, the model
+    # kept acting on a goal that was already met because nothing said where it was.
+    page_ident: str | None = Field(default=None, max_length=120)
 
 
 class Action(Strict):

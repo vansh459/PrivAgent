@@ -8,7 +8,11 @@ export interface ReasonOptions {
   timeoutMs?: number;
 }
 
-export const DEFAULT_TIMEOUT_MS = 20_000;
+// Sized for the slowest supported reasoner, not the fastest: Qwen2.5-1.5B on a laptop
+// takes 10-25 s per step (more when the machine is busy), and a loop step that times out
+// fails the whole task. A dead server still fails in milliseconds - connection refusal
+// does not wait for this timer.
+export const DEFAULT_TIMEOUT_MS = 45_000;
 
 /**
  * Sends the sanitized context to the reasoner and validates what comes back.

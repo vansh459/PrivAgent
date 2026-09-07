@@ -34,10 +34,14 @@ export interface PrepareOptions {
   verifyNames?: NameVerifierFn;
   /**
    * Multi-step context. Present only on loop steps: the payload then declares schema
-   * 1.1 and carries the step counter plus the (already privacy-safe) prior-step history.
+   * 1.1 and carries the step counter, the (already privacy-safe) prior-step history, and
+   * the current page's title - redacted below with this step's own token map before it
+   * is attached, and truncated to the same 120 chars a history entry gets. It is what
+   * lets the reasoner see that a navigation already reached the goal; without it the
+   * model was observed re-acting on finished tasks. Never a URL.
    * Single-shot payloads stay byte-identical to what they were before the loop existed.
    */
-  loop?: { step: StepInfo; history: HistoryStep[] };
+  loop?: { step: StepInfo; history: HistoryStep[]; pageTitle?: string };
 }
 
 /**
@@ -77,8 +81,17 @@ export async function prepareContext(
   });
 
   const { context: built, marks } = buildContext(task, sanitized);
+  const pageIdent = options.loop?.pageTitle
+    ? tokens.redact(options.loop.pageTitle).text.slice(0, 120)
+    : undefined;
   const context: SanitizedContext = options.loop
-    ? { ...built, schema_version: "1.1", step: options.loop.step, history: options.loop.history }
+    ? {
+        ...built,
+        schema_version: "1.1",
+        step: options.loop.step,
+        history: options.loop.history,
+        ...(pageIdent ? { page_ident: pageIdent } : {}),
+      }
     : built;
   return { context, marks, tokens, withheldForReview, redactedElements, namesRejected };
 }

@@ -91,7 +91,9 @@ def test_forces_the_tool_and_sends_only_sanitized_content() -> None:
 
     request = transport.requests[0]
     assert request["tool_choice"] == {"type": "tool", "name": TOOL_NAME}
-    assert request["temperature"] == 0
+    # Claude 5 models reject `temperature` as deprecated (the live endpoint answered
+    # 400 Bad Request to it), so the provider must not send the key at all.
+    assert "temperature" not in request
     # The user turn is the rendered sanitized context: marks and redacted text only.
     user_text = request["messages"][0]["content"]
     assert "M1" in user_text and "Download report" in user_text

@@ -105,10 +105,12 @@ test.beforeAll(async () => {
         // milliseconds, so these tests measure the client. Set
         // PRIVAGENT_E2E_REASONER=ollama to run the same tests against the real local
         // model - slower, and the point of doing it is that nothing else about the loop
-        // changes when the thing at the other end starts thinking.
-        ...(process.env.PRIVAGENT_E2E_REASONER
-          ? { PRIVAGENT_REASONER: process.env.PRIVAGENT_E2E_REASONER }
-          : {}),
+        // changes when the thing at the other end starts thinking. The pin must be
+        // unconditional: without it the spawned server reads a developer's server/.env
+        // and quietly reasons through a remote model - observed as three tests hanging
+        // on confirmation prompts because the remote model rates the same clicks as
+        // medium-risk where the deterministic provider says low.
+        PRIVAGENT_REASONER: process.env.PRIVAGENT_E2E_REASONER ?? "deterministic",
       },
     },
   );

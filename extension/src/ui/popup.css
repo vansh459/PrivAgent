@@ -69,6 +69,33 @@ body.wide {
   max-width: var(--width-page);
 }
 
+/* The bar holds the identity on the left and the detach affordance on the right. */
+.app-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.app-bar__inner {
+  flex: 1;
+  min-width: 0;
+}
+
+/*
+ * Quieter than a card button: it sits in the header on glass, so it borrows the glass
+ * rather than fighting it. Hover restores the standard button surface for affordance.
+ */
+#detach {
+  flex-shrink: 0;
+  height: auto;
+  padding: var(--space-1) var(--space-2);
+  border-color: transparent;
+  background: transparent;
+  font-size: var(--text-small, 0.85em);
+  white-space: nowrap;
+}
+
 .stack {
   display: grid;
   gap: var(--space-3);

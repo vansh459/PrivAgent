@@ -138,7 +138,9 @@ async function runStep(
 
   const prepared = await prepareContext(task, elements, {
     verifyNames: options.verifyNames ?? verifyNamesInHost,
-    loop,
+    // The raw title goes in; the pipeline redacts it with this step's token map before
+    // attaching it to the payload as page_ident.
+    loop: loop ? { ...loop, pageTitle: document.title ?? "" } : undefined,
   });
 
   // The page's identity for the step history: its title, through the same firewall as

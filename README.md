@@ -40,7 +40,8 @@ Stage 3 is complete. Every row below was run, not assumed, and the numbers come 
 | Screenshot capture + local vision in an extension-origin document    | Working — YuNet face detection, Tesseract OCR, nothing from a CDN |
 | Text read out of `<canvas>` and images                               | Working — **97.3%** character accuracy across the dataset         |
 | Face detection and pixel redaction before OCR reads the buffer       | Working — **100%** recall, 0 faces ever transmitted               |
-| Structured + unstructured PII detection, overlap-safe tokenization   | Working — **100%** recall, 69.8% precision on real page text      |
+| Structured + unstructured PII detection, overlap-safe tokenization   | Working — **100%** recall (397/397), **93.1%** precision (hybrid rules + on-device NER verifier) |
+| Redaction on the wire                                                 | **0 of 400** labelled values in any payload — structured, unstructured, faces |
 | Set-of-Mark context building, task-relevance filtering               | Working — **F1 92.2%** against Chrome's accessibility tree        |
 | Risk gate with in-page confirmation for medium/high risk             | Working, verified in a browser                                    |
 | Action executor: click, type, scroll, navigate                       | Working — all four types on five pages, no misfires               |
@@ -49,7 +50,8 @@ Stage 3 is complete. Every row below was run, not assumed, and the numbers come 
 | Real open-weight LLM behind `/reason`                                | Working — Qwen2.5-1.5B on local Ollama, opt-in                    |
 | Chrome + Firefox builds                                              | Both build and validate; `.xpi` lints clean                       |
 | Benchmarks against all five rubric criteria                          | Measured — see [`results.md`](./results.md)                       |
-| Firefox load on a clean profile                                      | **Not done** — Firefox is not installed on the dev machine        |
+| Firefox load on a clean profile                                      | **Verified live** (2026-09-06) — Firefox 155.0.1, both pipelines, 0 raw PII on the wire (`scripts/verify-firefox.py`) |
+| Multi-step agentic loop (additive)                                   | **Working** — 15/15 unit tests, e2e 3/3 in one run (9/9 across repeats): navigation-crossing done, bot-wall stop, cancel; live-site validation still open |
 | Human demo rehearsal and Q&A rehearsal                               | **Not done** — the scripts exist, nobody has read them aloud      |
 
 **Being precise about "vision":** perception now really is visual. The pipeline takes a
@@ -58,11 +60,16 @@ runs a 232 KB YuNet detector over the whole viewport, paints every detected face
 buffer, and only then lets OCR read from it. Everything it reads goes through the same
 Privacy Firewall as DOM text, because it is fused in _before_ redaction rather than after.
 
-**Being precise about what is weak.** Memory is +907 MB over a five-page session, which is
-the worst number in the project. PII precision is 69.8%, and 202 of the 212 false positives
-come from the rule-based name recogniser firing on Title-Case navigation. And with the local
-model in the loop a task takes about ten seconds instead of one. All three are measured,
-explained and left visible in [`results.md`](./results.md) rather than tidied away.
+**Being precise about what is weak.** Memory remains the worst number, now honestly
+attributed (re-measured 2026-09-07): a no-extension control run costs **+49 MB** over the
+same five pages, the pipeline's in-task peak is **+1,047 MB** on tier 1 — a transient
+working figure of a 20-task back-to-back workload — and what a session actually *retains*
+after 95 s of idle is **+192 MB** (tier 2: +823 peak / +347 settled). PII precision was
+69.8%; the on-device NER verifier (2026-09-06) raised it to **93.1%** with recall intact
+(397/397) and element F1 unregressed at 92.7% — 36 false positives remain. And with the
+local model in the loop a task still takes about ten seconds instead of one. All of it is
+measured and explained in [`GAP_ANALYSIS.md`](./GAP_ANALYSIS.md); [`results.md`](./results.md)
+still carries some pre-fix figures pending the final measurement pass.
 
 ## Quick start
 

@@ -34,6 +34,13 @@ let extensionId = "";
 
 const sentBodies: string[] = [];
 
+/**
+ * Test lever: hold every /reason response for this long before forwarding. Lets a test
+ * freeze the loop mid-step deterministically - e.g. long enough to close and reopen the
+ * popup while the loop is provably still running.
+ */
+let reasonDelayMs = 0;
+
 function serverPython(): string {
   const venv =
     process.platform === "win32"
@@ -68,7 +75,17 @@ test.beforeAll(async () => {
   const apiUrl = `http://127.0.0.1:${apiPort}`;
   api = spawn(
     serverPython(),
-    ["-m", "uvicorn", "app.main:app", "--app-dir", "server", "--host", "127.0.0.1", "--port", String(apiPort)],
+    [
+      "-m",
+      "uvicorn",
+      "app.main:app",
+      "--app-dir",
+      "server",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      String(apiPort),
+    ],
     {
       cwd: repoRoot,
       env: {
@@ -92,7 +109,10 @@ test.beforeAll(async () => {
     request.on("data", (chunk: Buffer) => chunks.push(chunk));
     request.on("end", async () => {
       const body = Buffer.concat(chunks).toString("utf8");
-      if (request.url?.includes("/reason")) sentBodies.push(body);
+      if (request.url?.includes("/reason")) {
+        sentBodies.push(body);
+        if (reasonDelayMs > 0) await new Promise((done) => setTimeout(done, reasonDelayMs));
+      }
       const upstream = await fetch(`${apiUrl}${request.url}`, {
         method: request.method,
         headers: { "Content-Type": "application/json" },
@@ -125,7 +145,8 @@ test.afterAll(async () => {
   await new Promise<void>((done) => fixtures?.close(() => done()));
 });
 
-async function openPopup(): Promise<Page> {
+/** Opens the popup page in its own window, without touching its settings. */
+async function openPopupWindow(): Promise<Page> {
   const opener = await context.newPage();
   const popupUrl = `chrome-extension://${extensionId}/src/ui/popup.html`;
   await opener.goto(popupUrl);
@@ -141,6 +162,11 @@ async function openPopup(): Promise<Page> {
   ]);
   await opener.close();
   await popup.waitForLoadState();
+  return popup;
+}
+
+async function openPopup(): Promise<Page> {
+  const popup = await openPopupWindow();
   await popup.click("#settings > summary");
   await popup.fill("#server", proxyUrl);
   await popup.click("#save-server");
@@ -210,6 +236,37 @@ test("stops at step one on a bot-walled page and says why", async () => {
   // tempting "Continue" link was never clicked.
   expect(sentBodies).toHaveLength(0);
   expect(page.url()).toBe(wallUrl);
+});
+
+test("a reopened popup re-attaches to the loop the closed one started", async () => {
+  sentBodies.length = 0;
+  // Hold each /reason response so the two-step loop provably outlives the popup swap.
+  reasonDelayMs = 2_500;
+  try {
+    const page = await context.newPage();
+    await page.goto(listUrl, { waitUntil: "load" });
+    const popup = await openPopup();
+
+    await popup.check("#multi-step");
+    await popup.fill("#task", "open the report page");
+    await popup.click("#run");
+    await expect(popup.locator("#status")).toHaveAttribute("data-state", "running");
+    // The browser closes a toolbar popup on any focus loss; this is that, mid-run.
+    await popup.close();
+    await page.bringToFront();
+
+    const reopened = await openPopupWindow();
+    // The reopened popup must adopt the run: restored task text, live running state,
+    // and the same terminal rendering a never-closed popup would have shown.
+    await expect(reopened.locator("#task")).toHaveValue("open the report page");
+    await expect(reopened.locator("#status")).toHaveAttribute("data-state", "running");
+    await expect(reopened.locator("#status")).toContainText("Task completed after 2 step(s)", {
+      timeout: 120_000,
+    });
+    expect(page.url()).toContain("/loop-report");
+  } finally {
+    reasonDelayMs = 0;
+  }
 });
 
 test("the stop button cancels a running loop between steps", async () => {

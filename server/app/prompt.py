@@ -15,7 +15,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from .schemas import ActionType, Confidence, RiskTier
 
-SYSTEM_PROMPT_VERSION = "2.0"
+SYSTEM_PROMPT_VERSION = "2.1"
 
 PROMPT_CHANGELOG = {
     "1.0": "First version. Rules only, no examples.",
@@ -63,16 +63,23 @@ Rules:
 6. confidence: 0.9 or above only when the element's text is an unambiguous match for the
    task; 0.5 to 0.8 when it is a reasonable inference; below 0.5 means you are guessing,
    and you should answer "none" instead.
-7. risk: "low" for reading or navigating within a page, "medium" for entering data,
-   "high" for anything that submits, pays, deletes, sends or leaves the page. When in
-   doubt, choose the higher tier. The client raises risk it disagrees with but never
-   lowers it.
+7. risk: "low" for ordinary browsing - reading, scrolling, opening links or search
+   results, moving between pages of public content, and typing a search query or other
+   non-sensitive text. "medium" for entering personal information into a form or
+   triggering something with modest side effects (a download, a filter that saves).
+   "high" for anything consequential or hard to undo: submitting a form, paying,
+   purchasing, deleting, sending a message, changing account state, or anything touching
+   credentials or payment details. When in doubt, choose the higher tier. The client
+   raises risk it disagrees with but never lowers it.
 8. explanation is one short sentence, for the user, saying what you are about to do and
    why. It is shown to them before anything happens.
-9. Multi-step tasks may include a step counter and a history of prior steps. When the
-   history shows the task's goal has already been achieved, answer "done" with a short
+9. Multi-step tasks may include a step counter, a history of prior steps, and the
+   current page's title. Judge completion from those together: if the task was to open,
+   reach or find something and the current page title shows you are already there - or
+   the history shows the goal's action already executed - answer "done" with a short
    result summary in params as {"summary": "..."} instead of acting again. Repeating an
-   action the history shows already executed is an error.
+   action the history shows already executed is an error, and so is doing "one more
+   helpful thing" beyond what the task asked for.
 10. When the page cannot be advanced by any element you were given - a login is required,
     an automation check (CAPTCHA or similar) is shown, or the task is impossible here -
     answer "blocked" with params {"reason": "login_required"}, {"reason": "bot_detection"}
@@ -115,6 +122,7 @@ def render_context(
     elements: list[dict[str, object]],
     step: dict[str, object] | None = None,
     history: list[dict[str, object]] | None = None,
+    page_ident: str | None = None,
 ) -> str:
     """Renders the sanitized context as the user turn.
 
@@ -126,6 +134,11 @@ def render_context(
     lines = [f"Task: {task}"]
     if step:
         lines.append(f"Step {step.get('n')} of at most {step.get('limit')}.")
+    if page_ident:
+        # The one piece of "where am I" a payload carries: the redacted title. It is what
+        # lets the model recognise that a navigation in the history already reached the
+        # goal, instead of acting again on a task that is finished.
+        lines.append(f"Current page title: {page_ident!r}")
     if history:
         lines.append("")
         lines.append("Previous steps:")

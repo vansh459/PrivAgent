@@ -1,7 +1,14 @@
 import browser from "webextension-polyfill";
 import { appendAudit, readAudit } from "./audit";
 import { requestAction } from "./reason";
-import { cancelTask, loopResult, startTaskLoop, stashStepReport } from "./taskLoop";
+import {
+  activeLoop,
+  cancelTask,
+  loopResult,
+  noteProposedAction,
+  startTaskLoop,
+  stashStepReport,
+} from "./taskLoop";
 import { analyzeInHost, verifyNamesInHost, warmVisionHost } from "./vision";
 import { getServerUrl } from "../shared/config";
 import { describeError, PrivAgentError } from "../shared/errors";
@@ -26,6 +33,9 @@ browser.runtime.onInstalled.addListener(() => {
 async function reason(taskId: string, context: SanitizedContext): Promise<Action> {
   const serverUrl = await getServerUrl();
   const action = await requestAction(context, { serverUrl });
+  // The loop's independent witness: if the step's page dies executing this action, the
+  // controller reconstructs "executed <action>" from this record (see taskLoop.ts).
+  noteProposedAction(taskId, context, action);
   await appendAudit({
     taskId,
     stage: "reason",
@@ -166,6 +176,8 @@ async function handle(message: ToBackground): Promise<Reply<unknown>> {
       return ok<{ started: true }>({ started: true });
     case "privagent/loop-result":
       return ok<LoopResult | null>(loopResult(message.taskId));
+    case "privagent/active-loop":
+      return ok<{ taskId: string; task: string } | null>(activeLoop());
     case "privagent/step-result":
       stashStepReport(message.taskId, message.step, message.report);
       return ok<{ stashed: true }>({ stashed: true });
@@ -187,6 +199,7 @@ const HANDLED: ReadonlySet<string> = new Set([
   "privagent/verify-names",
   "privagent/run-loop",
   "privagent/loop-result",
+  "privagent/active-loop",
   "privagent/step-result",
   "privagent/cancel-task",
 ]);

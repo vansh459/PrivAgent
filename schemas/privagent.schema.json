@@ -310,6 +310,19 @@
         "title": "History",
         "type": "array"
       },
+      "page_ident": {
+        "anyOf": [
+          {
+            "maxLength": 120,
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Page Ident"
+      },
       "schema_version": {
         "enum": [
           "1.0",

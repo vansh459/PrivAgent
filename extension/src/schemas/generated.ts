@@ -74,6 +74,7 @@ export const StepInfoSchema: z.ZodType<StepInfo> = z.strictObject({
 export interface SanitizedContext {
   elements: ContextElement[];
   history?: HistoryStep[];
+  page_ident?: string | null;
   schema_version: "1.0" | "1.1";
   step?: StepInfo | null;
   task: string;
@@ -82,6 +83,7 @@ export interface SanitizedContext {
 export const SanitizedContextSchema: z.ZodType<SanitizedContext> = z.strictObject({
   elements: z.array(ContextElementSchema),
   history: z.array(HistoryStepSchema).optional(),
+  page_ident: z.string().max(120).nullable().optional(),
   schema_version: z.enum(["1.0", "1.1"]),
   step: StepInfoSchema.nullable().optional(),
   task: z.string().min(1).max(500),

@@ -1,6 +1,6 @@
 import browser from "webextension-polyfill";
 import { appendAudit } from "./audit";
-import type { HistoryStep } from "../schemas/screenState";
+import type { Action, HistoryStep, SanitizedContext } from "../schemas/screenState";
 import { describeError } from "../shared/errors";
 import type { LoopResult, Reply, StepReport, ToContent } from "../shared/messages";
 
@@ -28,9 +28,20 @@ import type { LoopResult, Reply, StepReport, ToContent } from "../shared/message
  */
 export const STEP_BUDGET = 15;
 
-/** How long to keep re-trying the step message while a navigation settles. */
+/** How long to keep re-trying DELIVERY of the step message while a navigation settles. */
 const SETTLE_TIMEOUT_MS = 20_000;
 const SETTLE_RETRY_MS = 500;
+
+/**
+ * How long a DELIVERED step may work before the loop gives up on its result.
+ *
+ * A step's wall time is dominated by the reasoner: a frontier model takes 5-10 s, its
+ * one validation retry doubles that, and the client's own fetch timeout is 45 s - so a
+ * legitimate step can run well past any "is the page loading" horizon. This deadline
+ * only matters when the reply channel died mid-step (the page navigated); the result
+ * then arrives out-of-band, and this is how long the loop waits for it.
+ */
+const STEP_RESULT_TIMEOUT_MS = 120_000;
 
 /** Identical no-progress steps tolerated before concluding the loop is spinning. */
 const MAX_STALLED_STEPS = 2;
@@ -54,20 +65,41 @@ export function cancelTask(taskId: string): void {
 const results = new Map<string, LoopResult>();
 const MAX_KEPT_RESULTS = 20;
 
+/**
+ * Loops currently running, so a REOPENED popup can find its way back.
+ *
+ * A toolbar popup dies on any focus loss, taking its polling with it - but not the loop,
+ * which lives here. Without this record a reopened popup shows "Ready." while an agent is
+ * actively working, which reads as "the run died". `activeLoop()` answers the popup's
+ * first question on open: is something running that I should re-attach to?
+ */
+const activeLoops = new Map<string, { task: string; startedAt: number }>();
+
+/** The most recently started loop that is still running, or null. */
+export function activeLoop(): { taskId: string; task: string } | null {
+  let latest: { taskId: string; task: string; startedAt: number } | undefined;
+  for (const [taskId, entry] of activeLoops) {
+    if (!latest || entry.startedAt > latest.startedAt) {
+      latest = { taskId, task: entry.task, startedAt: entry.startedAt };
+    }
+  }
+  return latest ? { taskId: latest.taskId, task: latest.task } : null;
+}
+
 /** Fires the loop without awaiting it; any escape-hatch throw becomes a `failed` result. */
 export function startTaskLoop(taskId: string, task: string, seams: LoopSeams = {}): void {
   results.delete(taskId);
+  activeLoops.set(taskId, { task, startedAt: Date.now() });
   void runTaskLoop(taskId, task, seams)
-    .catch(
-      (error): LoopResult => ({
-        taskId,
-        status: "failed",
-        steps: 0,
-        detail: describeError(error).message,
-        history: [],
-      }),
-    )
+    .catch((error): LoopResult => ({
+      taskId,
+      status: "failed",
+      steps: 0,
+      detail: describeError(error).message,
+      history: [],
+    }))
     .then((result) => {
+      activeLoops.delete(taskId);
       results.set(taskId, result);
       for (const key of results.keys()) {
         if (results.size <= MAX_KEPT_RESULTS) break;
@@ -104,12 +136,90 @@ function takeStashedReport(taskId: string, step: number): StepReport | undefined
   return report;
 }
 
+/**
+ * What the reasoner proposed for each in-flight step, recorded by the service worker's
+ * own `/reason` hop - the one part of a step that ALWAYS transits the background.
+ *
+ * This is the loop's independent witness. A navigating click kills the content script,
+ * and everything that page still owed us - the reply, the audit "act" line, even the
+ * fire-and-forget report copy - can die with it (observed live: Chrome dropped the
+ * out-of-band message from the unloading document). But the background already knows
+ * what the step was about to do, because it fetched the proposal itself. When the reply
+ * channel dies after a click/navigate proposal, the loop can conclude "executed, page
+ * navigating" from its own records instead of waiting on a dead document.
+ */
+interface ProposedStep {
+  action: Action["action"];
+  targetRole: string | null;
+  pageIdent: string;
+  task: string;
+}
+
+const proposals = new Map<string, ProposedStep>();
+
+/** Called by the service worker after every successful /reason round-trip. */
+export function noteProposedAction(
+  taskId: string,
+  context: SanitizedContext,
+  action: Action,
+): void {
+  if (!context.step) return; // single-shot tasks have no loop to rescue
+  const targetRole = action.target_id
+    ? (context.elements.find((element) => element.mark_id === action.target_id)?.role ?? null)
+    : null;
+  proposals.set(`${taskId}:${context.step.n}`, {
+    action: action.action,
+    targetRole,
+    pageIdent: context.page_ident ?? "",
+    task: context.task,
+  });
+}
+
+function takeProposal(taskId: string, step: number): ProposedStep | undefined {
+  const key = `${taskId}:${step}`;
+  const proposal = proposals.get(key);
+  if (proposal) proposals.delete(key);
+  return proposal;
+}
+
+/** How long a died channel waits for the true report before synthesizing from the proposal. */
+const SYNTH_GRACE_MS = 3_000;
+
+/** How long loop start retries tab resolution across Firefox's about:blank transients. */
+const RESOLVE_TIMEOUT_MS = 6_000;
+const RESOLVE_RETRY_MS = 300;
+
+function synthesizeReport(taskId: string, proposal: ProposedStep): StepReport {
+  return {
+    state: "executed",
+    actionType: proposal.action,
+    targetRole: proposal.targetRole,
+    outcome: `executed ${proposal.action}`,
+    pageIdent: proposal.pageIdent,
+    summary: {
+      taskId,
+      task: proposal.task,
+      observed: 0,
+      perceivedByVision: 0,
+      facesDetected: 0,
+      transmitted: 0,
+      redactedElements: 0,
+      withheldForReview: 0,
+      action: null,
+      outcome: "executed",
+    },
+  };
+}
+
 export interface LoopSeams {
   /** Sends one step to the content script; injectable so tests need no browser. */
   sendStep?: (tabId: number, message: ToContent) => Promise<Reply<StepReport>>;
   resolveTabId?: () => Promise<number>;
   stepBudget?: number;
   settleTimeoutMs?: number;
+  stepResultTimeoutMs?: number;
+  synthGraceMs?: number;
+  resolveTimeoutMs?: number;
 }
 
 async function defaultSendStep(tabId: number, message: ToContent): Promise<Reply<StepReport>> {
@@ -130,25 +240,47 @@ async function sendWithSettle(
   send: (tabId: number, message: ToContent) => Promise<Reply<StepReport>>,
   tabId: number,
   message: Extract<ToContent, { type: "privagent/loop-step" }>,
-  timeoutMs: number,
+  settleTimeoutMs: number,
+  stepResultTimeoutMs: number,
+  synthGraceMs: number,
 ): Promise<Reply<StepReport>> {
-  const deadline = Date.now() + timeoutMs;
+  let deadline = Date.now() + settleTimeoutMs;
+  // Chrome's two failure strings draw exactly the line this function needs: "receiving
+  // end does not exist" means the message was never delivered (no content script yet -
+  // safe to send again), while "channel/port closed" means a content script HAD the
+  // message and its document died before answering (a navigating click, usually). A
+  // delivered step must NEVER be re-sent - it may be mid-execution or already executed,
+  // and a second copy would perceive, reason and act twice for one step. Its result is
+  // recovered below, or the step fails when the deadline passes.
+  let delivered = false;
+  let deliveredAt = 0;
   for (;;) {
-    // A report that arrived out-of-band means this step already ran to completion and
-    // only its reply was lost to the navigation. Using it - never re-sending - is what
-    // keeps one step from acting twice.
     const stashed = takeStashedReport(message.taskId, message.step.n);
     if (stashed) return { ok: true, value: stashed };
-    try {
-      const reply = await send(tabId, message);
-      if (reply) return reply;
-    } catch (error) {
-      const text = error instanceof Error ? error.message : String(error);
-      // "channel closed" is the navigating-click case: the content script died mid-step.
-      // Retry iterations then pick up the stashed report above, or - if even that copy
-      // was lost - re-send once the new page's content script is listening.
-      if (!/receiving end|could not establish|message port|channel closed/i.test(text)) {
-        throw error;
+    if (delivered && Date.now() - deliveredAt >= synthGraceMs) {
+      // The channel died and the page's own report copy never arrived (an unloading
+      // document's messages are not guaranteed delivery). The background's independent
+      // record of the /reason round-trip is enough to conclude what happened - but only
+      // for actions that kill pages. Anything else dying mid-step stays unexplained and
+      // falls through to the deadline below.
+      const proposal = takeProposal(message.taskId, message.step.n);
+      if (proposal && (proposal.action === "click" || proposal.action === "navigate")) {
+        return { ok: true, value: synthesizeReport(message.taskId, proposal) };
+      }
+    }
+    if (!delivered) {
+      try {
+        const reply = await send(tabId, message);
+        if (reply) return reply;
+      } catch (error) {
+        const text = error instanceof Error ? error.message : String(error);
+        if (/message port|channel closed/i.test(text)) {
+          delivered = true;
+          deliveredAt = Date.now();
+          deadline = deliveredAt + stepResultTimeoutMs;
+        } else if (!/receiving end|could not establish/i.test(text)) {
+          throw error;
+        }
       }
     }
     if (Date.now() >= deadline) {
@@ -156,7 +288,9 @@ async function sendWithSettle(
         ok: false,
         error: {
           code: "execution_failed",
-          message: "The page did not finish loading a content script within the settle window",
+          message: delivered
+            ? `the step was delivered but produced no result within ${stepResultTimeoutMs} ms`
+            : "The page did not finish loading a content script within the settle window",
         },
       };
     }
@@ -181,28 +315,53 @@ export async function runTaskLoop(
   const send = seams.sendStep ?? defaultSendStep;
   const budget = seams.stepBudget ?? STEP_BUDGET;
   const settleMs = seams.settleTimeoutMs ?? SETTLE_TIMEOUT_MS;
+  const stepResultMs = seams.stepResultTimeoutMs ?? STEP_RESULT_TIMEOUT_MS;
+  const synthGraceMs = seams.synthGraceMs ?? SYNTH_GRACE_MS;
   const history: HistoryStep[] = [];
   let stalled = 0;
 
   const finish = async (status: LoopResult["status"], detail: string): Promise<LoopResult> => {
     cancelled.delete(taskId);
-    // Steps whose reply arrived normally leave their out-of-band copy behind; drop them.
+    // Steps whose reply arrived normally leave their out-of-band copy behind; drop them,
+    // along with the /reason proposals recorded for this task.
     for (const key of stashedReports.keys()) {
       if (key.startsWith(`${taskId}:`)) stashedReports.delete(key);
+    }
+    for (const key of proposals.keys()) {
+      if (key.startsWith(`${taskId}:`)) proposals.delete(key);
     }
     await record(taskId, `loop finished: ${status} - ${detail}`, status === "done");
     return { taskId, status, steps: history.length, detail, history };
   };
 
+  // The tab is resolved ONCE and pinned for the whole task. Re-resolving per step is
+  // wrong twice over: mid-navigation Firefox transiently reports the tab's URL as
+  // about:blank, so a step landing in that window finds "no web page tab" (observed
+  // failing ~6/7 loop runs in real Firefox); and if the user focuses another tab while
+  // the loop works, the task must keep acting on the page it started on, not follow the
+  // user's attention to an unrelated one. A tab id is stable across navigations.
+  //
+  // Resolution itself is retried for a few seconds: the same about:blank transient can
+  // hit the ONE resolution too - a tab that was just (re)loaded shows no URL for a
+  // moment, and failing the whole task over a blink the user cannot even see is wrong
+  // (observed live in Firefox: "No web page tab" with a website plainly open).
+  const resolve = seams.resolveTabId ?? defaultResolveTabId;
+  const resolveDeadline = Date.now() + (seams.resolveTimeoutMs ?? RESOLVE_TIMEOUT_MS);
+  let tabId: number;
+  for (;;) {
+    try {
+      tabId = await resolve();
+      break;
+    } catch (error) {
+      if (Date.now() >= resolveDeadline) {
+        return finish("failed", describeError(error).message);
+      }
+      await new Promise((done) => setTimeout(done, RESOLVE_RETRY_MS));
+    }
+  }
+
   for (let n = 1; n <= budget; n += 1) {
     if (cancelled.has(taskId)) return finish("cancelled", "stopped by the user");
-
-    let tabId: number;
-    try {
-      tabId = seams.resolveTabId ? await seams.resolveTabId() : await defaultResolveTabId();
-    } catch (error) {
-      return finish("failed", describeError(error).message);
-    }
 
     const reply = await sendWithSettle(
       send,
@@ -217,6 +376,8 @@ export async function runTaskLoop(
         history: [...history],
       },
       settleMs,
+      stepResultMs,
+      synthGraceMs,
     );
     if (!reply.ok) return finish("failed", `step ${n}: ${reply.error.message}`);
 

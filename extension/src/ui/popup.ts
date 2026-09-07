@@ -14,6 +14,7 @@ const traceSection = document.querySelector<HTMLElement>("#trace")!;
 const traceList = document.querySelector<HTMLOListElement>("#trace-list")!;
 const serverInput = document.querySelector<HTMLInputElement>("#server")!;
 const saveServer = document.querySelector<HTMLButtonElement>("#save-server")!;
+const detachButton = document.querySelector<HTMLButtonElement>("#detach")!;
 
 async function send<T>(message: ToBackground): Promise<T> {
   const reply = (await browser.runtime.sendMessage(message)) as Reply<T>;
@@ -140,15 +141,21 @@ async function runSingle(task: string): Promise<void> {
   setStatus(`Task finished: ${summary.outcome}.`, "done");
 }
 
-async function runLoop(task: string): Promise<void> {
-  const taskId = crypto.randomUUID();
+/**
+ * Follows a running loop to its terminal state and renders the outcome.
+ *
+ * Shared by two callers on purpose: a loop started from THIS popup, and a loop this
+ * popup found already running when it opened (the previous popup died with a tab
+ * switch - the loop, which lives in the background, did not). Both must render
+ * identically or "re-attached" would look like a different, lesser mode.
+ */
+async function watchLoop(taskId: string): Promise<void> {
   status.dataset.taskId = taskId;
   stopButton.hidden = false;
   stopButton.disabled = false;
   const stopProgress = startProgress(taskId);
 
   try {
-    await send<{ started: true }>({ type: "privagent/run-loop", taskId, task });
     const result = await waitForLoopResult(taskId);
     stopProgress();
     renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit", taskId }));
@@ -160,6 +167,12 @@ async function runLoop(task: string): Promise<void> {
     stopProgress();
     stopButton.hidden = true;
   }
+}
+
+async function runLoop(task: string): Promise<void> {
+  const taskId = crypto.randomUUID();
+  await send<{ started: true }>({ type: "privagent/run-loop", taskId, task });
+  await watchLoop(taskId);
 }
 
 form.addEventListener("submit", async (event) => {
@@ -199,6 +212,88 @@ saveServer.addEventListener("click", async () => {
 void getServerUrl().then((url) => {
   serverInput.value = url;
 });
+
+/**
+ * Draft persistence: the browser closes a toolbar popup on ANY focus loss - switching
+ * tabs, clicking the page, alt-tabbing - and takes the typed task with it. The draft is
+ * saved on every keystroke and restored on open, so a closed popup costs nothing.
+ * `storage.session` when the browser has it (cleared when the browser exits, which is
+ * the right lifetime for a draft), `storage.local` otherwise. Only ever the user's own
+ * typed task text - nothing observed from any page.
+ */
+interface DraftArea {
+  get(key: string): Promise<Record<string, unknown>>;
+  set(items: Record<string, unknown>): Promise<void>;
+}
+
+const drafts: DraftArea =
+  (browser.storage as unknown as { session?: DraftArea }).session ?? browser.storage.local;
+const DRAFT_KEY = "privagent/draft";
+
+function saveDraft(): void {
+  void drafts
+    .set({ [DRAFT_KEY]: { task: taskInput.value, multiStep: multiStep.checked } })
+    .catch(() => undefined);
+}
+
+async function restoreDraft(): Promise<void> {
+  try {
+    const stored = (await drafts.get(DRAFT_KEY))[DRAFT_KEY] as
+      { task?: string; multiStep?: boolean } | undefined;
+    if (stored?.task && !taskInput.value) taskInput.value = stored.task;
+    if (typeof stored?.multiStep === "boolean") multiStep.checked = stored.multiStep;
+  } catch {
+    // A popup with an empty field is the worst case here, not an error worth surfacing.
+  }
+}
+
+taskInput.addEventListener("input", saveDraft);
+multiStep.addEventListener("change", saveDraft);
+
+/**
+ * "Keep open": reopens this same page as its own window, which the browser does NOT
+ * close on focus loss - it stays until the user closes it. Hidden when this instance
+ * already is that window.
+ */
+if (new URLSearchParams(location.search).has("detached")) {
+  detachButton.hidden = true;
+}
+detachButton.addEventListener("click", () => {
+  void browser.windows
+    .create({
+      url: browser.runtime.getURL("src/ui/popup.html") + "?detached=1",
+      type: "popup",
+      width: 460,
+      height: 760,
+    })
+    .then(() => window.close())
+    .catch(() => undefined);
+});
+
+/**
+ * Re-attach on open: if a loop is already running, this popup adopts it - live progress,
+ * working Stop button, final status - instead of showing "Ready." over an active agent.
+ */
+async function reattach(): Promise<void> {
+  const active = await send<{ taskId: string; task: string } | null>({
+    type: "privagent/active-loop",
+  }).catch(() => null);
+  if (!active) return;
+
+  if (!taskInput.value) taskInput.value = active.task;
+  multiStep.checked = true;
+  runButton.disabled = true;
+  setStatus("Re-attached to the running task...", "running");
+  try {
+    await watchLoop(active.taskId);
+  } catch (error) {
+    setStatus(error instanceof Error ? error.message : String(error), "error");
+  } finally {
+    runButton.disabled = false;
+  }
+}
+
+void restoreDraft().then(reattach);
 
 /**
  * Loads the local vision models while the user is still typing.

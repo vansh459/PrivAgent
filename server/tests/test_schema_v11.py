@@ -117,6 +117,30 @@ def test_render_context_includes_step_and_history_lines() -> None:
     assert "1. click on a link -> executed click [page: Portal Home]" in text
 
 
+def test_current_page_ident_is_accepted_and_rendered() -> None:
+    body = payload_v10() | {
+        "schema_version": "1.1",
+        "step": {"n": 2, "limit": 15},
+        "page_ident": "Report Detail",
+    }
+    context = SanitizedContext.model_validate(body)
+    assert context.page_ident == "Report Detail"
+
+    text = render_context("open the report page", [], page_ident="Report Detail")
+    assert "Current page title: 'Report Detail'" in text
+    # Absent means absent: a 1.0 single-shot payload renders no location line at all.
+    assert "Current page title" not in render_context("open the report page", [])
+
+
+def test_page_ident_length_is_capped_like_a_history_entry() -> None:
+    body = payload_v10() | {"schema_version": "1.1", "page_ident": "x" * 121}
+    try:
+        SanitizedContext.model_validate(body)
+        raise AssertionError("a 121-char page_ident must be rejected")
+    except ValueError:
+        pass
+
+
 def test_deterministic_answers_done_when_history_shows_execution() -> None:
     body = payload_v10() | {
         "schema_version": "1.1",
