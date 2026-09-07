@@ -50,6 +50,9 @@ export type ToBackground =
   // Asked by a freshly opened popup: is a loop already running that I should re-attach
   // to? (The previous popup died with a tab switch; the loop did not.)
   | { type: "privagent/active-loop" }
+  // The exact sanitized payloads the task sent to the reasoner, for the popup's
+  // "What left this device" panel - safe to display by definition.
+  | { type: "privagent/sent-payloads"; taskId: string }
   // Fired by the content script the instant a step's action has executed, before any
   // further await. When the action navigates, the page - and with it the step's reply
   // channel - dies mid-step; this out-of-band copy is the report that survives.

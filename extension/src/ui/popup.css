@@ -377,6 +377,55 @@ input:focus-visible {
   color: var(--fg-muted);
 }
 
+/* --------------------------------------------------- transparency panel ---- */
+
+/*
+ * "What left this device": the exact wire payload, so the redaction is seen rather than
+ * counted. Tokens get the accent treatment - they are the whole point of the panel.
+ */
+#sent-list {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.sent-step {
+  margin: 0;
+  font-weight: var(--weight-semibold);
+}
+
+.sent-elements {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--text-caption, 0.85em);
+  word-break: break-word;
+}
+
+.sent-elements li {
+  padding-left: var(--space-3);
+  border-left: var(--rule-width) solid var(--border);
+}
+
+.sent-mark {
+  color: var(--fg-muted);
+}
+
+.sent-elements .token {
+  padding: 0 var(--space-1);
+  border-radius: var(--radius-sm);
+  background: var(--accent-500);
+  color: var(--accent-fg);
+  font-weight: var(--weight-semibold);
+}
+
+.sent-more {
+  color: var(--fg-muted);
+  font-style: italic;
+}
+
 /* ---------------------------------------------------------------- status ---- */
 
 /*

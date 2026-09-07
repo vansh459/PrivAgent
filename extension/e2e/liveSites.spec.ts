@@ -127,3 +127,15 @@ test("amazon: search for a product", async () => {
   test.setTimeout(300_000);
   await runLive("amazon", "https://www.amazon.in/", "search for usb microphone");
 });
+
+// isro.gov.in was tried and dropped: the page is heavy enough that a step could not
+// finish inside the demo's patience (5 min without a terminal state, 2026-09-08).
+test("python.org: navigate to downloads", async () => {
+  test.setTimeout(300_000);
+  await runLive("python", "https://www.python.org/", "open the downloads page");
+});
+
+test("bbc: open the sport section", async () => {
+  test.setTimeout(300_000);
+  await runLive("bbc", "https://www.bbc.com/", "open the sport section");
+});

@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>PrivAgent — Demo Presenter's Guide</title>
+<style>
+  :root {
+    --ink: #17202a;
+    --muted: #5d6d7e;
+    --accent: #0b5cad;
+    --accent-soft: #e8f1fb;
+    --ok: #1e8449;
+    --warn: #b9770e;
+    --danger: #b03a2e;
+    --line: #d5dbdf;
+    --token-bg: #0b5cad;
+    --token-fg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    font-size: 11.5pt;
+    line-height: 1.55;
+  }
+  .page {
+    width: 210mm;
+    min-height: 285mm;
+    padding: 16mm 18mm;
+    margin: 0 auto;
+    page-break-after: always;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  h1 { font-size: 26pt; margin: 0 0 4mm; color: var(--accent); }
+  h2 {
+    font-size: 15pt; margin: 0 0 4mm; color: var(--accent);
+    border-bottom: 2px solid var(--accent); padding-bottom: 1.5mm;
+  }
+  h3 { font-size: 12pt; margin: 5mm 0 2mm; }
+  p { margin: 0 0 3mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+  li { margin-bottom: 1.5mm; }
+  code, .cmd {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 10pt;
+    background: #f4f6f7;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 0 1.5mm;
+  }
+  .cmdblock {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 10pt;
+    background: #f4f6f7;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 3mm 4mm;
+    margin: 2mm 0 4mm;
+    white-space: pre;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 2mm 0 4mm; font-size: 10.5pt; }
+  th, td { border: 1px solid var(--line); padding: 2mm 2.5mm; text-align: left; vertical-align: top; }
+  th { background: var(--accent-soft); color: var(--accent); }
+  .say {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 2.5mm 4mm;
+    margin: 2mm 0 4mm;
+    border-radius: 0 3px 3px 0;
+  }
+  .say b { color: var(--accent); }
+  .warnbox {
+    background: #fdf3e3;
+    border-left: 3px solid var(--warn);
+    padding: 2.5mm 4mm;
+    margin: 2mm 0 4mm;
+    border-radius: 0 3px 3px 0;
+  }
+  .okbox {
+    background: #e9f7ef;
+    border-left: 3px solid var(--ok);
+    padding: 2.5mm 4mm;
+    margin: 2mm 0 4mm;
+    border-radius: 0 3px 3px 0;
+  }
+  .token {
+    background: var(--token-bg); color: var(--token-fg);
+    padding: 0 1.5mm; border-radius: 2px;
+    font-family: Consolas, monospace; font-size: 9.5pt; font-weight: 600;
+  }
+  .muted { color: var(--muted); }
+  .kpi-row { display: flex; gap: 4mm; margin: 4mm 0; }
+  .kpi {
+    flex: 1; text-align: center; border: 1px solid var(--line);
+    border-radius: 4px; padding: 3.5mm 2mm;
+  }
+  .kpi .num { font-size: 17pt; font-weight: 700; color: var(--accent); display: block; }
+  .kpi .lbl { font-size: 9pt; color: var(--muted); }
+  .shot { width: 100%; border: 1px solid var(--line); border-radius: 3px; margin: 2mm 0; }
+  .shot-row { display: flex; gap: 4mm; }
+  .shot-row figure { flex: 1; margin: 0; }
+  .shot-row .shot { height: 70mm; object-fit: contain; object-position: top; background: #f8f9f9; }
+  figcaption { font-size: 9pt; color: var(--muted); text-align: center; margin-top: 1mm; }
+  .cover { display: flex; flex-direction: column; justify-content: center; min-height: 250mm; text-align: center; }
+  .cover .sub { font-size: 15pt; color: var(--muted); margin-bottom: 10mm; }
+  .cover .pitch {
+    font-size: 13pt; background: var(--accent-soft); border-radius: 6px;
+    padding: 6mm 10mm; margin: 0 auto 10mm; max-width: 150mm;
+  }
+  .pipeline { display: flex; align-items: center; justify-content: space-between; margin: 4mm 0; }
+  .stage-box {
+    flex: 1; text-align: center; border: 1.5px solid var(--accent);
+    border-radius: 4px; padding: 2.5mm 1mm; font-size: 9pt; font-weight: 600; color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .arrow { padding: 0 1.5mm; color: var(--muted); font-weight: 700; }
+  .demo-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    background: var(--accent); color: #fff; border-radius: 4px; padding: 2.5mm 4mm; margin-bottom: 3mm;
+  }
+  .demo-head .t { font-size: 13pt; font-weight: 700; }
+  .demo-head .m { font-size: 10pt; }
+  .steps td:first-child { width: 8mm; text-align: center; font-weight: 700; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- ==================================================== PAGE 1: COVER -->
+<div class="page cover">
+  <h1 style="font-size:34pt">PrivAgent</h1>
+  <p class="sub">Smart India Hackathon 2026 · Problem Statement 26171 (ISRO)<br/>
+  On-Device Visual Perception for Light-weight Browser Agents</p>
+  <p class="pitch"><b>"A browser agent that sees the page on YOUR device, hides your
+  private data, and only then asks an AI what to do."</b></p>
+  <div class="kpi-row" style="max-width:170mm;margin:0 auto">
+    <div class="kpi"><span class="num">100%</span><span class="lbl">PII recall (397/397 values found)</span></div>
+    <div class="kpi"><span class="num">93.1%</span><span class="lbl">PII precision (NER-verified)</span></div>
+    <div class="kpi"><span class="num">0 / 400</span><span class="lbl">private values leaked on the wire</span></div>
+    <div class="kpi"><span class="num">42 / 42</span><span class="lbl">faces detected — never transmitted</span></div>
+  </div>
+  <p class="muted" style="margin-top:10mm">Demo Presenter's Guide — everything to say and do, in order.</p>
+</div>
+
+<!-- ============================================ PAGE 2: PROBLEM + PIPELINE -->
+<div class="page">
+  <h2>1 · The problem, in 30 seconds</h2>
+  <p>AI browser agents are coming: you type <i>"download my report"</i> and the agent
+  clicks through the website for you. But to act on a page, the agent must first
+  <b>see</b> the page — and our screens are full of private data: names, phone numbers,
+  Aadhaar numbers, card numbers, even our faces in photos.</p>
+  <p>Most agents today send a <b>raw screenshot of your screen to a cloud AI</b>. That is
+  the privacy disaster ISRO's problem statement asks us to solve:</p>
+  <div class="say"><b>SAY:</b> "The problem statement asks for an agent that perceives the
+  screen <b>on the device itself</b>, removes private information <b>before anything
+  leaves</b>, and still completes real browsing tasks — light enough to run inside a
+  normal browser."</div>
+
+  <h2>2 · What PrivAgent does</h2>
+  <div class="pipeline">
+    <div class="stage-box">1. OBSERVE<br/><span class="muted" style="font-weight:400">read DOM + screen pixels (OCR, faces) — on device</span></div>
+    <div class="arrow">→</div>
+    <div class="stage-box">2. DETECT PII<br/><span class="muted" style="font-weight:400">find names, phones, Aadhaar, cards, emails</span></div>
+    <div class="arrow">→</div>
+    <div class="stage-box">3. REDACT<br/><span class="muted" style="font-weight:400">replace values with tokens</span></div>
+    <div class="arrow">→</div>
+    <div class="stage-box">4. REASON<br/><span class="muted" style="font-weight:400">AI picks ONE next action</span></div>
+    <div class="arrow">→</div>
+    <div class="stage-box">5. VALIDATE<br/><span class="muted" style="font-weight:400">risk gate, human approval</span></div>
+    <div class="arrow">→</div>
+    <div class="stage-box">6. ACT<br/><span class="muted" style="font-weight:400">click / type / scroll</span></div>
+  </div>
+  <p>Only after stage 3 does anything leave the device — and what leaves is a short list
+  of screen elements where every private value has been replaced by an opaque token like
+  <span class="token">[PII_PHONE_01]</span>. The AI can still say <i>"click the callback
+  link"</i> without ever learning the phone number.</p>
+  <table>
+    <tr><th>Never leaves the device</th><th>What the AI actually receives</th></tr>
+    <tr>
+      <td>Screenshots and pixels · faces · page URLs · passwords and credential fields ·
+      the real values behind every token · the token dictionary itself</td>
+      <td>A numbered list of on-screen elements, e.g.<br/>
+      <code>M2 [link] "Request callback on <span class="token">[PII_PHONE_01]</span>"</code><br/>
+      plus the task text and, in multi-step mode, a short redacted history.</td>
+    </tr>
+  </table>
+  <div class="say"><b>SAY:</b> "Every task shows a live audit trail of these six stages,
+  and a panel called <b>'What left this device'</b> shows the exact message the AI
+  received — you will see the tokens standing where my private data was."</div>
+</div>
+
+<!-- ============================================ PAGE 3: TECHNOLOGY -->
+<div class="page">
+  <h2>3 · What I used to build it</h2>
+  <table>
+    <tr><th style="width:34mm">Technology</th><th>What it does</th><th style="width:62mm">Say this if asked</th></tr>
+    <tr><td><b>YuNet</b> (ONNX)</td>
+      <td>Face detection on the screenshot — on device.</td>
+      <td>"Faces are PII on sight. We detect them locally and they are <b>never</b> sent — we even paint them out of the buffer before OCR reads it."</td></tr>
+    <tr><td><b>Tesseract OCR</b></td>
+      <td>Reads text that exists only as pixels (canvas charts, images) — on device.</td>
+      <td>"Text in an image is as sensitive as DOM text, so OCR output enters the same privacy firewall by the same door."</td></tr>
+    <tr><td><b>TinyBERT NER</b> (int8, 14.5&nbsp;MB)</td>
+      <td>A tiny on-device language model that double-checks name candidates found by rules.</td>
+      <td>"Rules give us 100% recall, the tiny model removes false alarms — precision went from 69.6% to 93.1%, recall untouched."</td></tr>
+    <tr><td><b>ONNX Runtime Web</b></td>
+      <td>Runs the models in the browser: WebGPU when available, WASM fallback.</td>
+      <td>"All inference is inside the browser — no native app, no driver, works on plain laptops."</td></tr>
+    <tr><td><b>Rule-based PII detectors</b></td>
+      <td>Phones, Aadhaar, cards (with checksum), emails, addresses — instant, offline.</td>
+      <td>"Structured PII is caught by verified patterns; fuzzy things like names get the hybrid treatment."</td></tr>
+    <tr><td><b>WebExtension (MV3)</b></td>
+      <td>The agent itself — installs in Chrome <i>and</i> Firefox, works on any website.</td>
+      <td>"No site integration needed. It perceives any page the way a screen reader would."</td></tr>
+    <tr><td><b>FastAPI reasoner server</b></td>
+      <td>Receives only the redacted element list, returns ONE validated action.</td>
+      <td>"The server re-validates everything; a hallucinated element id is rejected and retried."</td></tr>
+    <tr><td><b>Two AI brains</b></td>
+      <td><b>Qwen2.5-1.5B via Ollama</b> — fully offline, open-source. <b>Claude on our Azure deployment</b> — the fast brain used in today's demo.</td>
+      <td>"All rubric numbers were measured on the offline open-source model, as the problem statement requires. The demo uses our cloud brain for speed — switching is one line in a config file, and the privacy boundary is identical for both."</td></tr>
+  </table>
+
+  <h3>Measured results (from the repo's own test suites — nothing hand-waved)</h3>
+  <table>
+    <tr><th>What was measured</th><th>Result</th></tr>
+    <tr><td>PII detection recall (400-value labelled dataset, 42 real captured pages)</td><td><b>397/397 detectable values found (100%)</b></td></tr>
+    <tr><td>PII detection precision (after on-device NER verification)</td><td><b>93.1%</b></td></tr>
+    <tr><td>Private values reaching the network (wire-captured by a recording proxy)</td><td><b>0 of 400</b></td></tr>
+    <tr><td>Faces detected and withheld</td><td><b>42/42 — zero transmitted</b></td></tr>
+    <tr><td>Visual element accuracy</td><td><b>F1 ≈ 92%, OCR 90–97%</b></td></tr>
+    <tr><td>Speed per step (demo brain / offline brain)</td><td><b>≈ 5–10 s / ≈ 11–15 s</b></td></tr>
+  </table>
+</div>
+
+<!-- ============================================ PAGE 4: SETUP -->
+<div class="page">
+  <h2>4 · Demo setup — do this once, 5 minutes before</h2>
+  <table class="steps">
+    <tr><td>1</td><td><b>Start the backend.</b> Open PowerShell and run:
+      <div class="cmdblock">cd C:\Users\Shiva\Downloads\project\PrivAgent
+$env:PYTHONPATH = "server"
+python -m uvicorn app.main:app --app-dir server --host 127.0.0.1 --port 8000</div>
+      Wait for <code>Uvicorn running on http://127.0.0.1:8000</code>. Keep this window open.</td></tr>
+    <tr><td>2</td><td><b>Load the extension in Firefox.</b> Address bar →
+      <code>about:debugging#/runtime/this-firefox</code> → <b>Load Temporary Add-on…</b> →
+      select <code>extension\dist\firefox\manifest.json</code>.</td></tr>
+    <tr><td>3</td><td><b>Check site access.</b> <code>about:addons</code> → PrivAgent →
+      Permissions → <b>"Access your data for all websites" = ON</b>.
+      <span class="muted">(Re-check this after every add-on reload.)</span></td></tr>
+    <tr><td>4</td><td><b>Pin the icon.</b> Puzzle-piece button 🧩 → PrivAgent → ⚙ → Pin to Toolbar.</td></tr>
+    <tr><td>5</td><td><b>Detach the panel.</b> Open the popup → click <b>"⧉ Keep open"</b>.
+      The panel becomes its own window that stays open while you switch tabs — put it
+      beside the browser so judges see both.</td></tr>
+    <tr><td>6</td><td><b>Verify the reasoner.</b> Popup → Settings → Reasoner URL must be
+      <code>http://127.0.0.1:8000</code>. If not: clear the field, type it, Save.</td></tr>
+    <tr><td>7</td><td><b>Warm up.</b> Open any website, run a single-shot task
+      (e.g. <i>"find the search box"</i>). The first run loads ~33 MB of local models;
+      after it, everything is fast.</td></tr>
+  </table>
+  <div class="okbox"><b>Screen layout for judges:</b> browser window on the left,
+  detached PrivAgent panel on the right. Everything interesting — live steps, audit
+  trail, the "What left this device" panel — is on the right side.</div>
+
+  <h3>The two panels to point at during every demo</h3>
+  <ul>
+    <li><b>Audit trail</b> — six stages per step, live:
+      <i>observe → detect_pii → redact → reason → validate → act</i>, with counts like
+      "9 values tokenized; 16 elements withheld".</li>
+    <li><b>What left this device (redacted)</b> — the exact message the AI received.
+      Private values appear as highlighted tokens like <span class="token">[PII_PHONE_01]</span>.
+      This is the proof, on screen, in front of the judges.</li>
+  </ul>
+</div>
+
+<!-- ============================================ PAGE 5: DEMO 1 WIKIPEDIA -->
+<div class="page">
+  <div class="demo-head"><span class="t">DEMO 1 · Wikipedia — a multi-step task on a real site</span>
+    <span class="m">verified live: done in 2 steps, ~32 s</span></div>
+  <p><b>Shows the PS requirement:</b> an agent that completes a real browsing task across
+  page navigations, perceiving each page on-device.</p>
+  <table class="steps">
+    <tr><td>1</td><td>Open <code>https://en.wikipedia.org</code> in the active tab.</td></tr>
+    <tr><td>2</td><td>In the PrivAgent panel: tick <b>Multi-step</b>, type
+      <b><code>search for ISRO</code></b>, press <b>Run task</b>.</td></tr>
+    <tr><td>3</td><td>Narrate what appears: <i>"Running step 1…"</i> — the agent reads the
+      page locally, sends only the redacted element list, the AI answers
+      <i>"type the query and press Enter"</i>. The page navigates to the ISRO article.</td></tr>
+    <tr><td>4</td><td>Step 2: the agent sees the new page's title, recognises the goal is
+      reached, reports <b>"Task completed after 2 step(s)"</b>.</td></tr>
+    <tr><td>5</td><td>Point at the audit trail: two full six-stage passes. Then open
+      <b>"What left this device"</b> and scroll it.</td></tr>
+  </table>
+  <div class="say"><b>SAY while it runs:</b> "The agent survives the page change because
+  the controller lives in the extension background — the AI never sees the URL, only the
+  redacted page title. Watch it realise on its own that the article is open, and stop."</div>
+  <figure><img class="shot" src="../test-results/live-wikipedia-page.png" alt="Wikipedia ISRO article opened by the agent" />
+  <figcaption>Verified run: the agent typed the search, submitted it, and landed on the ISRO article — then said "done" by itself.</figcaption></figure>
+</div>
+
+<!-- ============================================ PAGE 6: DEMO 2 AMAZON -->
+<div class="page">
+  <div class="demo-head"><span class="t">DEMO 2 · Amazon.in — a commercial site, with visible redaction</span>
+    <span class="m">verified live: done in 2 steps, ~37 s</span></div>
+  <p><b>Shows the PS requirement:</b> works on heavy real-world pages (200+ elements), and
+  the privacy firewall visibly redacting real personal data.</p>
+  <table class="steps">
+    <tr><td>1</td><td>Open <code>https://www.amazon.in</code> (logged-in account makes the
+      redaction moment stronger — your own name/addresses get tokenized).</td></tr>
+    <tr><td>2</td><td>Tick <b>Multi-step</b>, type <b><code>search for usb microphone</code></b>, Run.</td></tr>
+    <tr><td>3</td><td>Step 1: the agent types into Amazon's search box <i>and presses
+      Enter itself</i> — the results page loads. Step 2: it recognises the results are
+      shown and reports done.</td></tr>
+    <tr><td>4</td><td>Point at the audit trail line like
+      <i>"16 of 206 elements matched a PII detector … 9 values tokenized … withheld"</i> —
+      that is <b>real personal data on a real site being caught live</b>.</td></tr>
+    <tr><td>5</td><td>Open <b>"What left this device"</b>: show highlighted tokens standing
+      where account details were.</td></tr>
+  </table>
+  <div class="say"><b>SAY:</b> "This page had over two hundred elements and my real account
+  details on it. Look at what the AI actually received — every private value is a token.
+  My data never left this laptop as data."</div>
+  <div class="warnbox"><b>If a confirmation dialog appears on the page</b> (the agent may
+  rate an action as consequential): approve it live and <b>SAY</b>: "This is the
+  human-in-the-loop gate — anything risky needs my explicit yes. Ordinary browsing runs
+  free; payments, submissions and deletions always stop here."</div>
+  <figure><img class="shot" src="../test-results/live-amazon-page.png" alt="Amazon search results opened by the agent" />
+  <figcaption>Verified run: search typed, submitted, results page reached — 2 steps, done.</figcaption></figure>
+</div>
+
+<!-- ============================================ PAGE 7: DEMO 3 BBC -->
+<div class="page">
+  <div class="demo-head"><span class="t">DEMO 3 · BBC.com — click-navigation on a huge news site</span>
+    <span class="m">verified live: done in 2 steps, ~24 s</span></div>
+  <p><b>Shows the PS requirement:</b> a different action type (finding and clicking the
+  right link, not typing) on one of the heaviest mainstream pages on the web — proving
+  the agent is universal, not tuned to any one site.</p>
+  <table class="steps">
+    <tr><td>1</td><td>Open <code>https://www.bbc.com</code>.</td></tr>
+    <tr><td>2</td><td>Tick <b>Multi-step</b>, type <b><code>open the sport section</code></b>, Run.</td></tr>
+    <tr><td>3</td><td>Step 1: from hundreds of headlines, links and menus, the agent picks
+      the one correct "Sport" link and clicks it. The page navigates to
+      <code>bbc.com/sport</code>.</td></tr>
+    <tr><td>4</td><td>Step 2: it sees the Sport section is open and reports
+      <b>"Task completed after 2 step(s)"</b>.</td></tr>
+    <tr><td>5</td><td>Open <b>"What left this device"</b>: hundreds of elements were seen
+      locally, only a compact redacted list was sent per step.</td></tr>
+  </table>
+  <div class="say"><b>SAY:</b> "Nothing here is hard-coded — no site-specific selectors,
+  no BBC integration. The agent perceives any page the way a screen reader would, and the
+  same six privacy stages run on every step, on every site."</div>
+  <p class="muted"><b>Spare demo</b> (if a site misbehaves): <code>https://www.python.org</code>
+  with task <code>open the downloads page</code> — verified: done in 2 steps, ~25 s.</p>
+
+  <h3>The 30-second closer — sites that block robots</h3>
+  <table class="steps">
+    <tr><td>1</td><td>If any site during the demo shows a CAPTCHA or a "checking your
+      browser" page, do not touch anything — let the agent answer.</td></tr>
+    <tr><td>2</td><td>It stops at step 1 with <b>"Stopped: this site blocks automation"</b>
+      — and the audit trail shows <b>zero</b> reasoning requests were sent.</td></tr>
+  </table>
+  <div class="say"><b>SAY:</b> "When a site says no to robots, we stop — detection, never
+  evasion. That behaviour is built in and unit-tested against reCAPTCHA, hCaptcha,
+  Turnstile and Cloudflare challenge pages."</div>
+  <div class="shot-row">
+    <figure><img class="shot" src="ui/after/popup-task-light.png" alt="PrivAgent panel after a task" />
+    <figcaption>The panel judges watch: summary, audit trail, live status.</figcaption></figure>
+    <figure><img class="shot" src="ui/after/confirm-light.png" alt="The risk-gate confirmation dialog" />
+    <figcaption>The risk gate: consequential actions need a human yes.</figcaption></figure>
+  </div>
+</div>
+
+<!-- ============================================ PAGE 8: TROUBLESHOOTING + Q&A -->
+<div class="page">
+  <h2>5 · If something goes wrong (stay calm — 20-second fixes)</h2>
+  <table>
+    <tr><th>Symptom</th><th>Fix</th></tr>
+    <tr><td>"Could not reach the reasoner" / HTTP errors</td>
+      <td>The PowerShell window died or the URL changed. Restart the backend
+      (<b>Ctrl+C → up-arrow → Enter</b>) and check Settings → Reasoner URL =
+      <code>http://127.0.0.1:8000</code>.</td></tr>
+    <tr><td>"No web page tab to run the task against"</td>
+      <td>Click on the website tab first (make it the active tab), then Run again.</td></tr>
+    <tr><td>"vision unavailable … initWasm() failed" in the trail</td>
+      <td>Reload the add-on (about:debugging → Reload) and re-check the permissions
+      toggle. The task still works DOM-only meanwhile.</td></tr>
+    <tr><td>Popup closed by a mis-click</td>
+      <td>Nothing is lost: reopen it — it re-attaches to the running task with live
+      progress, and your typed task text is restored.</td></tr>
+    <tr><td>A site is very slow / misbehaves</td>
+      <td>Press <b>Stop</b>, switch to the next demo site. Wikipedia is the most
+      reliable; do it first.</td></tr>
+  </table>
+
+  <h2>6 · Likely judge questions — short answers</h2>
+  <table>
+    <tr><th>Question</th><th>Answer</th></tr>
+    <tr><td>"Does it work fully offline?"</td>
+      <td>"Yes — all perception is on-device, and the reasoner runs offline on
+      Qwen2.5-1.5B via Ollama. Every rubric number was measured on that offline path.
+      Today's demo uses our own Azure AI deployment as the brain for speed; switching is
+      one config line and the privacy boundary is identical."</td></tr>
+    <tr><td>"What exactly leaves the device?"</td>
+      <td>"Only this —" <i>(open 'What left this device')</i> "— a redacted element list.
+      Never screenshots, never URLs, never faces, never credential fields, never the real
+      values behind the tokens."</td></tr>
+    <tr><td>"Chrome and Firefox?"</td>
+      <td>"Both. Same codebase, MV3, live-verified in Firefox — that is what you are
+      watching right now."</td></tr>
+    <tr><td>"What about sites that block bots?"</td>
+      <td>"We detect the challenge and stop before sending a single request. We never try
+      to defeat a CAPTCHA — that is a hard rule in the system prompt and in code."</td></tr>
+    <tr><td>"What if the AI proposes something wrong or risky?"</td>
+      <td>"Three defences: the server rejects actions on elements that don't exist; the
+      client re-scores risk locally and can only raise it, never lower; and anything
+      above low risk needs my explicit approval on screen."</td></tr>
+    <tr><td>"How heavy is it?"</td>
+      <td>"The models total ~48 MB on disk (14.5 MB NER + YuNet + OCR data), loaded
+      lazily and released when idle. It runs on this ordinary laptop, in the browser."</td></tr>
+  </table>
+  <p class="muted" style="margin-top:6mm">PrivAgent · SIH 2026 · PS 26171 — all numbers
+  reproducible from the repository's test suites (<code>npm test</code>,
+  <code>npx playwright test</code>, <code>test-results/</code>).</p>
+</div>
+
+</body>
+</html>

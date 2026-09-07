@@ -352,6 +352,13 @@ test("transmits a task-relevant value as a token rather than a number", async ()
   const payload = sentBodies.slice(before).join("\n");
   expect(payload).toContain("Request callback on [PII_PHONE_01]");
   expect(payload).not.toContain("9876543210");
+
+  // The transparency panel shows the user the same thing the wire capture proves: the
+  // exact payload, token in place of value. The popup itself is evidence.
+  await expect(popup.locator("#sent")).toBeVisible();
+  const shown = (await popup.locator("#sent-list").textContent()) ?? "";
+  expect(shown).toContain("[PII_PHONE_01]");
+  expect(shown).not.toContain("9876543210");
 });
 
 test("pauses on a high-risk action and honours a denial", async () => {

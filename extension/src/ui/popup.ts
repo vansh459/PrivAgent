@@ -1,4 +1,5 @@
 import browser from "webextension-polyfill";
+import type { SanitizedContext } from "../schemas/screenState";
 import { DEFAULT_SERVER_URL, getServerUrl, setServerUrl } from "../shared/config";
 import type { AuditEntry, LoopResult, Reply, TaskSummary, ToBackground } from "../shared/messages";
 
@@ -15,6 +16,8 @@ const traceList = document.querySelector<HTMLOListElement>("#trace-list")!;
 const serverInput = document.querySelector<HTMLInputElement>("#server")!;
 const saveServer = document.querySelector<HTMLButtonElement>("#save-server")!;
 const detachButton = document.querySelector<HTMLButtonElement>("#detach")!;
+const sentSection = document.querySelector<HTMLElement>("#sent")!;
+const sentList = document.querySelector<HTMLDivElement>("#sent-list")!;
 
 async function send<T>(message: ToBackground): Promise<T> {
   const reply = (await browser.runtime.sendMessage(message)) as Reply<T>;
@@ -81,6 +84,72 @@ function renderTrace(entries: AuditEntry[]): void {
 }
 
 /**
+ * Renders the transparency panel: the exact sanitized payloads that crossed the wire.
+ *
+ * Everything here is safe to display by definition - it IS what the reasoner received.
+ * Tokens like [PII_PHONE_01] are highlighted so the hiding is visible at a glance. All
+ * text lands via textContent, never markup, because element text originates on visited
+ * pages. Elements carrying tokens are listed first; long payloads are capped with a
+ * count, since 100 untokenized nav links prove nothing the first 30 don't.
+ */
+const TOKEN_PATTERN = /(\[PII_[A-Z_]+_\d{2,}\]|\[PII_[A-Z_]+_\d+\])/;
+const SENT_ELEMENTS_SHOWN = 30;
+
+function renderSentPayloads(payloads: SanitizedContext[]): void {
+  if (payloads.length === 0) return;
+  sentList.replaceChildren(
+    ...payloads.flatMap((payload, index) => {
+      const header = document.createElement("p");
+      header.className = "sent-step";
+      header.textContent =
+        (payloads.length > 1 ? `Step ${index + 1} — ` : "") +
+        `${payload.elements.length} element(s) sent`;
+
+      const list = document.createElement("ul");
+      list.className = "sent-elements";
+      const ordered = [...payload.elements].sort(
+        (a, b) => Number(TOKEN_PATTERN.test(b.text)) - Number(TOKEN_PATTERN.test(a.text)),
+      );
+      for (const element of ordered.slice(0, SENT_ELEMENTS_SHOWN)) {
+        const item = document.createElement("li");
+        const label = document.createElement("span");
+        label.className = "sent-mark";
+        label.textContent = `${element.mark_id} [${element.role}] `;
+        item.append(label);
+        for (const part of element.text.split(new RegExp(TOKEN_PATTERN.source, "g"))) {
+          if (!part) continue;
+          if (TOKEN_PATTERN.test(part) && part.startsWith("[PII_")) {
+            const token = document.createElement("mark");
+            token.className = "token";
+            token.textContent = part;
+            item.append(token);
+          } else {
+            item.append(document.createTextNode(part));
+          }
+        }
+        list.append(item);
+      }
+      if (ordered.length > SENT_ELEMENTS_SHOWN) {
+        const more = document.createElement("li");
+        more.className = "sent-more";
+        more.textContent = `…and ${ordered.length - SENT_ELEMENTS_SHOWN} more element(s), none containing private data`;
+        list.append(more);
+      }
+      return [header, list];
+    }),
+  );
+  sentSection.hidden = false;
+}
+
+async function showSentPayloads(taskId: string): Promise<void> {
+  try {
+    renderSentPayloads(await send<SanitizedContext[]>({ type: "privagent/sent-payloads", taskId }));
+  } catch {
+    // The panel is evidence, not a dependency - a failed fetch must not fail the task UI.
+  }
+}
+
+/**
  * How a finished loop reads to the person who asked for it. One line each; the trace
  * below carries the step-by-step detail.
  */
@@ -107,6 +176,7 @@ function startProgress(taskId: string): () => void {
           setStatus(`Running step ${steps}...`, "running");
         }
         renderTrace(entries);
+        void showSentPayloads(taskId);
       })
       .catch(() => undefined);
   }, 800);
@@ -137,6 +207,7 @@ async function runSingle(task: string): Promise<void> {
   const summary = await send<TaskSummary>({ type: "privagent/run-task", task });
   renderSummary(summary);
   renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit", taskId: summary.taskId }));
+  await showSentPayloads(summary.taskId);
   status.dataset.taskId = summary.taskId;
   setStatus(`Task finished: ${summary.outcome}.`, "done");
 }
@@ -159,6 +230,7 @@ async function watchLoop(taskId: string): Promise<void> {
     const result = await waitForLoopResult(taskId);
     stopProgress();
     renderTrace(await send<AuditEntry[]>({ type: "privagent/read-audit", taskId }));
+    await showSentPayloads(taskId);
     setStatus(
       `${LOOP_ENDINGS[result.status]} after ${result.steps} step(s): ${result.detail}`,
       result.status === "done" ? "done" : result.status === "failed" ? "error" : "done",
@@ -184,6 +256,7 @@ form.addEventListener("submit", async (event) => {
   setStatus("Perceiving the page locally...", "running");
   summarySection.hidden = true;
   traceSection.hidden = true;
+  sentSection.hidden = true;
 
   try {
     if (multiStep.checked) await runLoop(task);

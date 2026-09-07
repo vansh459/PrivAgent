@@ -12,7 +12,9 @@ import {
   cancelTask,
   loopResult,
   noteProposedAction,
+  recordSentContext,
   runTaskLoop,
+  sentPayloads,
   startTaskLoop,
   stashStepReport,
   STEP_BUDGET,
@@ -425,6 +427,29 @@ describe("multi-step task loop", () => {
     expect(result.history[0]!.action).toBe("click");
     // Step 1 was never re-sent to the new page: the second send was step 2.
     expect(calls).toBe(2);
+  });
+
+  it("keeps the sent payloads of the latest task only, capped at the step budget", () => {
+    const context = (task: string, marker: string): SanitizedContext => ({
+      schema_version: "1.1",
+      task,
+      elements: [{ mark_id: "M1", role: "link", text: marker, bbox: [0, 0, 1, 1] }],
+      step: { n: 1, limit: 15 },
+      history: [],
+    });
+
+    for (let n = 0; n < STEP_BUDGET + 5; n += 1) {
+      recordSentContext("task-a", context("task a", `a${n}`));
+    }
+    const kept = sentPayloads("task-a");
+    expect(kept).toHaveLength(STEP_BUDGET);
+    // Oldest steps rolled off; the newest survived.
+    expect(kept.at(-1)!.elements[0]!.text).toBe(`a${STEP_BUDGET + 4}`);
+
+    // A new task evicts the old one entirely - the panel always shows the latest task.
+    recordSentContext("task-b", context("task b", "b0"));
+    expect(sentPayloads("task-a")).toHaveLength(0);
+    expect(sentPayloads("task-b")).toHaveLength(1);
   });
 
   it("reports the running loop while it runs, and nothing once it finishes", async () => {

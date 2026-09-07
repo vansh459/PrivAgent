@@ -191,6 +191,33 @@ function peekProposal(taskId: string, step: number): ProposedStep | undefined {
   return proposals.get(`${taskId}:${step}`);
 }
 
+/**
+ * The exact sanitized payloads the latest task sent to the reasoner.
+ *
+ * Kept so the popup can SHOW the redaction instead of merely counting it: every element
+ * the AI received, with "[PII_*]" tokens standing where private values were. Displaying
+ * this is safe by definition - it is precisely what already crossed the wire. Only the
+ * latest task is kept, capped at the step budget; withheld elements are, by design, not
+ * here to show.
+ */
+let sentTaskId: string | null = null;
+let sentContexts: SanitizedContext[] = [];
+
+/** Called by the service worker for every outbound /reason payload. */
+export function recordSentContext(taskId: string, context: SanitizedContext): void {
+  if (taskId !== sentTaskId) {
+    sentTaskId = taskId;
+    sentContexts = [];
+  }
+  sentContexts.push(context);
+  if (sentContexts.length > STEP_BUDGET) sentContexts.shift();
+}
+
+/** The recorded payloads for a task - empty unless it is the latest task. */
+export function sentPayloads(taskId: string): SanitizedContext[] {
+  return taskId === sentTaskId ? [...sentContexts] : [];
+}
+
 /** How long a died channel waits for the true report before synthesizing from the proposal. */
 const SYNTH_GRACE_MS = 3_000;
 

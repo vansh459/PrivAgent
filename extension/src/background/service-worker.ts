@@ -6,6 +6,8 @@ import {
   cancelTask,
   loopResult,
   noteProposedAction,
+  recordSentContext,
+  sentPayloads,
   startTaskLoop,
   stashStepReport,
 } from "./taskLoop";
@@ -32,6 +34,9 @@ browser.runtime.onInstalled.addListener(() => {
 
 async function reason(taskId: string, context: SanitizedContext): Promise<Action> {
   const serverUrl = await getServerUrl();
+  // Recorded before the call: this is the outbound payload whether or not the server
+  // answers, and it is what the popup's transparency panel shows the user.
+  recordSentContext(taskId, context);
   const action = await requestAction(context, { serverUrl });
   // The loop's independent witness: if the step's page dies executing this action, the
   // controller reconstructs "executed <action>" from this record (see taskLoop.ts).
@@ -178,6 +183,8 @@ async function handle(message: ToBackground): Promise<Reply<unknown>> {
       return ok<LoopResult | null>(loopResult(message.taskId));
     case "privagent/active-loop":
       return ok<{ taskId: string; task: string } | null>(activeLoop());
+    case "privagent/sent-payloads":
+      return ok<SanitizedContext[]>(sentPayloads(message.taskId));
     case "privagent/step-result":
       stashStepReport(message.taskId, message.step, message.report);
       return ok<{ stashed: true }>({ stashed: true });
@@ -200,6 +207,7 @@ const HANDLED: ReadonlySet<string> = new Set([
   "privagent/run-loop",
   "privagent/loop-result",
   "privagent/active-loop",
+  "privagent/sent-payloads",
   "privagent/step-result",
   "privagent/cancel-task",
 ]);
