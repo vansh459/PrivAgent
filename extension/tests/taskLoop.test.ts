@@ -284,6 +284,71 @@ describe("multi-step task loop", () => {
     expect(result.detail).toContain("no result");
   });
 
+  it("a type with submit counts as navigating: its lost report is synthesized", async () => {
+    const context: SanitizedContext = {
+      schema_version: "1.1",
+      task: "search for usb microphone",
+      elements: [{ mark_id: "M1", role: "search_field", text: "", bbox: [0, 0, 9, 9] }],
+      step: { n: 1, limit: 15 },
+      history: [],
+      page_ident: "Online Shopping Site",
+    };
+    const sentSteps: number[] = [];
+    const sendStep = async (_tab: number, message: ToContent): Promise<Reply<StepReport>> => {
+      const step = (message as Extract<ToContent, { type: "privagent/loop-step" }>).step.n;
+      sentSteps.push(step);
+      if (step === 1) {
+        noteProposedAction("t25", context, {
+          action: "type",
+          target_id: "M1",
+          params: { text: "usb microphone", submit: "true" },
+          confidence: 0.95,
+          risk: "low",
+          explanation: "Searching.",
+          reasoning_trace_id: "t",
+        });
+        // Enter submitted the form; the navigation killed the page and every report.
+        throw new Error("The message port closed before a response was received.");
+      }
+      return { ok: true, value: report({ state: "done", actionType: "done" }) };
+    };
+
+    const result = await runTaskLoop("t25", "search for usb microphone", {
+      sendStep,
+      resolveTabId: async () => 1,
+      synthGraceMs: 100,
+    });
+
+    expect(result.status).toBe("done");
+    expect(sentSteps).toEqual([1, 2]); // synthesized, never re-sent
+    expect(result.history[0]!.action).toBe("type");
+    expect(result.history[0]!.outcome).toBe("executed type");
+  });
+
+  it("re-delivers a step that died before reasoning - it provably did nothing", async () => {
+    const sentSteps: number[] = [];
+    const sendStep = async (_tab: number, message: ToContent): Promise<Reply<StepReport>> => {
+      const step = (message as Extract<ToContent, { type: "privagent/loop-step" }>).step.n;
+      sentSteps.push(step);
+      if (sentSteps.length === 1) {
+        // Delivered to a document that then redirected ITSELF mid-perception: no /reason
+        // call was ever made, so no proposal exists and re-delivery must be chosen.
+        throw new Error("The message port closed before a response was received.");
+      }
+      return { ok: true, value: report({ state: "done", actionType: "done" }) };
+    };
+
+    const result = await runTaskLoop("t26", "task", {
+      sendStep,
+      resolveTabId: async () => 1,
+      synthGraceMs: 100,
+    });
+
+    expect(result.status).toBe("done");
+    // The same step was sent twice - the safe re-delivery - then finished.
+    expect(sentSteps).toEqual([1, 1]);
+  });
+
   it("never re-sends a delivered step: waits for the out-of-band report instead", async () => {
     const sentSteps: number[] = [];
     const sendStep = async (_tabId: number, message: ToContent): Promise<Reply<StepReport>> => {

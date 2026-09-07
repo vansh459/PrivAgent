@@ -15,7 +15,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from .schemas import ActionType, Confidence, RiskTier
 
-SYSTEM_PROMPT_VERSION = "2.1"
+SYSTEM_PROMPT_VERSION = "2.2"
 
 PROMPT_CHANGELOG = {
     "1.0": "First version. Rules only, no examples.",
@@ -50,7 +50,9 @@ Rules:
 1. Choose exactly one action: click, type, scroll, navigate, none, done, or blocked.
 2. target_id must be one of the mark ids given to you, copied exactly. Never invent one.
    Use null for scroll, navigate, none, done and blocked.
-3. For "type", put the text to enter in params as {"text": "..."}.
+3. For "type", put the text to enter in params as {"text": "..."}. Add "submit": "true"
+   to press Enter after typing - use it whenever typing alone changes nothing, which is
+   every search box: a typed query does nothing until it is submitted.
 4. Before choosing click or type, check that the element's own text plainly matches what
    the task asks for. If nothing on the list does, answer "none". Do not settle for the
    first element, or the only button, or something merely related. A wrong click is worse

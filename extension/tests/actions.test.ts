@@ -145,6 +145,58 @@ describe("executeAction", () => {
     expect(onInput).toHaveBeenCalled();
   });
 
+  it('presses Enter and submits the form when the model asks with "submit"', () => {
+    const form = document.createElement("form");
+    const input = document.createElement("input");
+    form.append(input);
+    document.body.append(form);
+    const keydowns: string[] = [];
+    input.addEventListener("keydown", (event) => keydowns.push(event.key));
+    const onSubmit = vi.fn((event: Event) => event.preventDefault());
+    form.addEventListener("submit", onSubmit);
+
+    const outcome = executeAction(
+      action({ action: "type", params: { text: "usb microphone", submit: "true" } }),
+      new Map([["M1", input]]),
+    );
+
+    expect(outcome).toEqual({ status: "executed", action: "type" });
+    expect(input.value).toBe("usb microphone");
+    expect(keydowns).toEqual(["Enter"]);
+    expect(onSubmit).toHaveBeenCalled();
+  });
+
+  it("lets the page intercept Enter: a cancelled keydown suppresses the form submission", () => {
+    const form = document.createElement("form");
+    const input = document.createElement("input");
+    form.append(input);
+    document.body.append(form);
+    // A search UI that handles Enter itself, the way most modern ones do.
+    input.addEventListener("keydown", (event) => event.preventDefault());
+    const onSubmit = vi.fn();
+    form.addEventListener("submit", onSubmit);
+
+    executeAction(
+      action({ action: "type", params: { text: "q", submit: "true" } }),
+      new Map([["M1", input]]),
+    );
+
+    expect(onSubmit).not.toHaveBeenCalled();
+  });
+
+  it("does not submit when the model did not ask", () => {
+    const form = document.createElement("form");
+    const input = document.createElement("input");
+    form.append(input);
+    document.body.append(form);
+    const onSubmit = vi.fn();
+    form.addEventListener("submit", onSubmit);
+
+    executeAction(action({ action: "type", params: { text: "draft" } }), new Map([["M1", input]]));
+
+    expect(onSubmit).not.toHaveBeenCalled();
+  });
+
   it("refuses to type into an element that has no value", () => {
     const div = document.createElement("div");
     document.body.append(div);

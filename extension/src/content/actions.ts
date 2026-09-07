@@ -116,6 +116,21 @@ export function executeAction(
     }
     target.value = text;
     target.dispatchEvent(new Event("input", { bubbles: true }));
+
+    // A typed query does nothing until it is submitted - observed live: the agent typed
+    // a search, the page stayed identical, and the loop stalled to no_progress. When the
+    // model asks for it, this presses Enter the way a person would: the key events first
+    // (search UIs listen for them), then the form's own submission if the page did not
+    // intercept the key. Both are cancelable by the page, exactly like a real keystroke.
+    if (action.params?.submit === "true") {
+      const key = { key: "Enter", code: "Enter", keyCode: 13, bubbles: true, cancelable: true };
+      const intercepted = !target.dispatchEvent(new KeyboardEvent("keydown", key));
+      target.dispatchEvent(new KeyboardEvent("keyup", key));
+      if (!intercepted && target.form) {
+        if (typeof target.form.requestSubmit === "function") target.form.requestSubmit();
+        else target.form.submit();
+      }
+    }
     return { status: "executed", action: "type" };
   }
 

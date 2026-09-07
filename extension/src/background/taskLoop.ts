@@ -153,6 +153,17 @@ interface ProposedStep {
   targetRole: string | null;
   pageIdent: string;
   task: string;
+  /** True when the proposal was a type with params.submit - Enter navigates like a click. */
+  submits: boolean;
+}
+
+/** Could executing this proposal have destroyed the page it ran on? */
+function proposalNavigates(proposal: ProposedStep): boolean {
+  return (
+    proposal.action === "click" ||
+    proposal.action === "navigate" ||
+    (proposal.action === "type" && proposal.submits)
+  );
 }
 
 const proposals = new Map<string, ProposedStep>();
@@ -172,14 +183,12 @@ export function noteProposedAction(
     targetRole,
     pageIdent: context.page_ident ?? "",
     task: context.task,
+    submits: action.params?.submit === "true",
   });
 }
 
-function takeProposal(taskId: string, step: number): ProposedStep | undefined {
-  const key = `${taskId}:${step}`;
-  const proposal = proposals.get(key);
-  if (proposal) proposals.delete(key);
-  return proposal;
+function peekProposal(taskId: string, step: number): ProposedStep | undefined {
+  return proposals.get(`${taskId}:${step}`);
 }
 
 /** How long a died channel waits for the true report before synthesizing from the proposal. */
@@ -244,28 +253,35 @@ async function sendWithSettle(
   stepResultTimeoutMs: number,
   synthGraceMs: number,
 ): Promise<Reply<StepReport>> {
-  let deadline = Date.now() + settleTimeoutMs;
   // Chrome's two failure strings draw exactly the line this function needs: "receiving
   // end does not exist" means the message was never delivered (no content script yet -
   // safe to send again), while "channel/port closed" means a content script HAD the
-  // message and its document died before answering (a navigating click, usually). A
-  // delivered step must NEVER be re-sent - it may be mid-execution or already executed,
-  // and a second copy would perceive, reason and act twice for one step. Its result is
-  // recovered below, or the step fails when the deadline passes.
+  // message and its document died before answering. What happens next depends on how far
+  // that step got, which the background can tell from its own records:
+  //   - report stashed        -> the step finished; use its real report.
+  //   - /reason proposal that navigates (click, navigate, type+submit) -> the action ran
+  //     and killed its own page; synthesize "executed" from the proposal.
+  //   - NO proposal           -> the step died before reasoning, so it provably did
+  //     nothing: delivering it again to the new document is safe (observed live: a
+  //     search-results page redirected itself mid-perception).
+  //   - a non-navigating proposal -> ambiguous (the action may or may not have run);
+  //     never re-send, wait for the stash until the deadline.
+  // The absolute cap keeps a page stuck in a redirect loop from holding a step forever.
+  let deadline = Date.now() + settleTimeoutMs;
+  let hardDeadline = Number.POSITIVE_INFINITY;
   let delivered = false;
   let deliveredAt = 0;
   for (;;) {
     const stashed = takeStashedReport(message.taskId, message.step.n);
     if (stashed) return { ok: true, value: stashed };
     if (delivered && Date.now() - deliveredAt >= synthGraceMs) {
-      // The channel died and the page's own report copy never arrived (an unloading
-      // document's messages are not guaranteed delivery). The background's independent
-      // record of the /reason round-trip is enough to conclude what happened - but only
-      // for actions that kill pages. Anything else dying mid-step stays unexplained and
-      // falls through to the deadline below.
-      const proposal = takeProposal(message.taskId, message.step.n);
-      if (proposal && (proposal.action === "click" || proposal.action === "navigate")) {
+      const proposal = peekProposal(message.taskId, message.step.n);
+      if (proposal && proposalNavigates(proposal)) {
         return { ok: true, value: synthesizeReport(message.taskId, proposal) };
+      }
+      if (!proposal) {
+        delivered = false;
+        deadline = Math.min(Date.now() + settleTimeoutMs, hardDeadline);
       }
     }
     if (!delivered) {
@@ -277,7 +293,10 @@ async function sendWithSettle(
         if (/message port|channel closed/i.test(text)) {
           delivered = true;
           deliveredAt = Date.now();
-          deadline = deliveredAt + stepResultTimeoutMs;
+          if (hardDeadline === Number.POSITIVE_INFINITY) {
+            hardDeadline = deliveredAt + stepResultTimeoutMs;
+          }
+          deadline = Math.min(deliveredAt + stepResultTimeoutMs, hardDeadline);
         } else if (!/receiving end|could not establish/i.test(text)) {
           throw error;
         }
