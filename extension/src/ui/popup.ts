@@ -13,11 +13,16 @@ const summarySection = document.querySelector<HTMLElement>("#summary")!;
 const summaryList = document.querySelector<HTMLDListElement>("#summary-list")!;
 const traceSection = document.querySelector<HTMLElement>("#trace")!;
 const traceList = document.querySelector<HTMLOListElement>("#trace-list")!;
+const exportTraceButton = document.querySelector<HTMLButtonElement>("#export-trace");
 const serverInput = document.querySelector<HTMLInputElement>("#server")!;
 const saveServer = document.querySelector<HTMLButtonElement>("#save-server")!;
 const detachButton = document.querySelector<HTMLButtonElement>("#detach")!;
 const sentSection = document.querySelector<HTMLElement>("#sent")!;
 const sentList = document.querySelector<HTMLDivElement>("#sent-list")!;
+const copySentButton = document.querySelector<HTMLButtonElement>("#copy-sent");
+
+let currentTraceEntries: AuditEntry[] = [];
+let currentSentPayloads: SanitizedContext[] = [];
 
 async function send<T>(message: ToBackground): Promise<T> {
   const reply = (await browser.runtime.sendMessage(message)) as Reply<T>;
@@ -66,6 +71,7 @@ function renderSummary(summary: TaskSummary): void {
 }
 
 function renderTrace(entries: AuditEntry[]): void {
+  currentTraceEntries = entries;
   traceList.replaceChildren(
     ...entries.map((entry) => {
       const item = document.createElement("li");
@@ -84,6 +90,26 @@ function renderTrace(entries: AuditEntry[]): void {
 }
 
 /**
+ * Returns a semantic CSS modifier according to the redacted PII token category.
+ */
+function getPiiTokenClass(token: string): string {
+  if (token.includes("_PHONE_")) return "token--phone";
+  if (token.includes("_EMAIL_")) return "token--contact";
+  if (
+    token.includes("_AADHAAR_") ||
+    token.includes("_PAN_") ||
+    token.includes("_PASSPORT_") ||
+    token.includes("_CARD_") ||
+    token.includes("_UPI_") ||
+    token.includes("_DRIVING_")
+  ) {
+    return "token--id";
+  }
+  if (token.includes("_NAME_")) return "token--name";
+  return "token--default";
+}
+
+/**
  * Renders the transparency panel: the exact sanitized payloads that crossed the wire.
  *
  * Everything here is safe to display by definition - it IS what the reasoner received.
@@ -96,6 +122,7 @@ const TOKEN_PATTERN = /(\[PII_[A-Z_]+_\d{2,}\]|\[PII_[A-Z_]+_\d+\])/;
 const SENT_ELEMENTS_SHOWN = 30;
 
 function renderSentPayloads(payloads: SanitizedContext[]): void {
+  currentSentPayloads = payloads;
   if (payloads.length === 0) return;
   sentList.replaceChildren(
     ...payloads.flatMap((payload, index) => {
@@ -120,7 +147,7 @@ function renderSentPayloads(payloads: SanitizedContext[]): void {
           if (!part) continue;
           if (TOKEN_PATTERN.test(part) && part.startsWith("[PII_")) {
             const token = document.createElement("mark");
-            token.className = "token";
+            token.className = `token ${getPiiTokenClass(part)}`;
             token.textContent = part;
             item.append(token);
           } else {
@@ -284,6 +311,43 @@ saveServer.addEventListener("click", async () => {
 
 void getServerUrl().then((url) => {
   serverInput.value = url;
+});
+
+exportTraceButton?.addEventListener("click", () => {
+  if (currentTraceEntries.length === 0) return;
+  const taskId = status.dataset.taskId || "latest";
+  const content = JSON.stringify(
+    {
+      taskId,
+      exportedAt: new Date().toISOString(),
+      entries: currentTraceEntries,
+    },
+    null,
+    2,
+  );
+  const blob = new Blob([content], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `privagent-audit-${taskId.slice(0, 8)}.json`;
+  document.body.append(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+});
+
+copySentButton?.addEventListener("click", async () => {
+  if (currentSentPayloads.length === 0) return;
+  try {
+    await navigator.clipboard.writeText(JSON.stringify(currentSentPayloads, null, 2));
+    const originalText = copySentButton.textContent;
+    copySentButton.textContent = "✓ Copied!";
+    setTimeout(() => {
+      copySentButton.textContent = originalText;
+    }, 1500);
+  } catch {
+    // Clipboard permission denied or unavailable
+  }
 });
 
 /**
