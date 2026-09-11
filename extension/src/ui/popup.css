@@ -177,6 +177,17 @@ a:focus-visible {
   display: none;
 }
 
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.card__header h2 {
+  margin: 0;
+}
+
 /* A label and its control are one thing, so they sit closer than the card's own rhythm. */
 .field {
   display: grid;
@@ -303,6 +314,20 @@ input:focus-visible {
   justify-self: stretch;
 }
 
+.button--subtle {
+  height: auto;
+  min-height: calc(var(--control-height) * 0.75);
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--text-caption, 0.8em);
+  background: var(--surface-sunken);
+  color: var(--fg-muted);
+}
+
+.button--subtle:hover {
+  background: var(--neutral-100);
+  color: var(--fg);
+}
+
 /* --------------------------------------------------------- privacy summary ---- */
 
 /*
@@ -323,58 +348,53 @@ input:focus-visible {
 
 #summary-list dd {
   margin: 0;
+  font-family: var(--font-mono, ui-monospace, monospace);
   font-weight: var(--weight-medium);
-  font-variant-numeric: tabular-nums;
   text-align: right;
 }
 
 /* ------------------------------------------------------------ audit trail ---- */
 
-/*
- * No inner scroll. Capping this list was the first instinct - body text is taller than the
- * 11px it used to be - but it put a second scroll region inside a panel that already
- * scrolls, and hid half the audit trail behind it. The trail is the thing this popup is
- * for. It runs to its full length and the sticky header keeps the position legible, which
- * is what that header is there to do.
- */
 #trace-list {
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-2);
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/*
- * The stage rule is the status: a coloured edge reads at a glance and costs no text. It has
- * to cost no text - `#trace-list .stage` is asserted to contain exactly the six stage names
- * and nothing else.
- */
 #trace-list li {
   display: grid;
-  gap: var(--space-1);
-  padding-left: var(--space-3);
-  border-left: var(--rule-width) solid var(--border);
-}
-
-#trace-list li.ok {
-  border-left-color: var(--success);
-}
-
-#trace-list li.bad {
-  border-left-color: var(--danger);
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  background: var(--surface-sunken);
 }
 
 #trace-list .stage {
   font-weight: var(--weight-semibold);
-}
-
-#trace-list li.bad .stage {
-  color: var(--danger);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  font-size: var(--text-caption, 0.85em);
 }
 
 #trace-list .detail {
   color: var(--fg-muted);
+  word-break: break-word;
+}
+
+/*
+ * Outcomes use the semantic colours from the tokens, not raw green/red. Both are checked
+ * by `contrast.test.ts` for 4.5:1 against `--surface-sunken`.
+ */
+#trace-list li.ok {
+  border-left: var(--rule-width) solid var(--success);
+}
+
+#trace-list li.bad {
+  border-left: var(--rule-width) solid var(--danger);
 }
 
 /* --------------------------------------------------- transparency panel ---- */
@@ -419,6 +439,30 @@ input:focus-visible {
   background: var(--accent-500);
   color: var(--accent-fg);
   font-weight: var(--weight-semibold);
+}
+
+.sent-elements .token--phone {
+  background: var(--warning-tint);
+  color: var(--warning);
+  border: var(--border-width) solid var(--warning);
+}
+
+.sent-elements .token--contact {
+  background: var(--success-tint);
+  color: var(--success);
+  border: var(--border-width) solid var(--success);
+}
+
+.sent-elements .token--id {
+  background: var(--danger-tint);
+  color: var(--danger);
+  border: var(--border-width) solid var(--danger);
+}
+
+.sent-elements .token--name {
+  background: var(--accent-100);
+  color: var(--accent-500);
+  border: var(--border-width) solid var(--accent-500);
 }
 
 .sent-more {

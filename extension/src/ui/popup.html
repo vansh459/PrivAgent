@@ -6,6 +6,7 @@
     <title>PrivAgent</title>
     <link rel="stylesheet" href="./popup.css" />
   </head>
+
   <body>
     <header class="app-bar">
       <div class="app-bar__inner">
@@ -56,14 +57,34 @@
       </section>
 
       <section id="trace" class="card" hidden>
-        <h2>Audit trail</h2>
+        <div class="card__header">
+          <h2>Audit trail</h2>
+          <button
+            type="button"
+            id="export-trace"
+            class="button button--subtle"
+            title="Export audit trail as JSON"
+          >
+            Download JSON
+          </button>
+        </div>
         <ol id="trace-list"></ol>
       </section>
 
       <!-- The transparency panel: the EXACT payload that crossed the wire, tokens and
            all. Withheld elements are shown as a count only - withheld means withheld. -->
       <section id="sent" class="card" hidden>
-        <h2>What left this device (redacted)</h2>
+        <div class="card__header">
+          <h2>What left this device (redacted)</h2>
+          <button
+            type="button"
+            id="copy-sent"
+            class="button button--subtle"
+            title="Copy sanitized wire payload to clipboard"
+          >
+            📋 Copy JSON
+          </button>
+        </div>
         <div id="sent-list"></div>
       </section>
 
